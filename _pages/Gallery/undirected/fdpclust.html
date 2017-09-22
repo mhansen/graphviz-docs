@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<TITLE> Graphviz Example: Undirected Graph Clusters </TITLE>
+</HEAD>
+<body background="/backgrounds/back8.gif">
+
+
+<table>
+<tr>
+<th>
+<FONT SIZE=+1 COLOR="#FF0000">
+Undirected Graph Clusters
+</FONT>
+</th>
+</tr>
+
+<tr>
+<td  align=LEFT colspan=2>
+<BLOCKQUOTE>
+The <tt>fdp</tt> layout program supports edges between nodes and clusters
+and cluster-to-cluster.  The syntax is fairly obvious.  
+<tt>fdp</tt> is being actively worked on, so the probability of hitting a
+bug is higher than with neato. Also the quality of the layouts will
+be improving. 
+</BLOCKQUOTE>
+<P>
+</td>
+</tr>
+<tr>
+
+<td>
+<PRE>
+graph G {
+  e
+  subgraph clusterA {
+    a -- b;
+    subgraph clusterC {
+      C -- D;
+    }
+  }
+  subgraph clusterB {
+    d -- f
+  }
+  d -- D
+  e -- clusterB
+  clusterC -- clusterB
+}
+</PRE>
+</td>
+
+
+<td>
+	<IMG SRC="fdpclust.png"> 
+</td>
+</tr>
+</table>
+
+<P>
+[<a href="fdpclust.svg">SVG</a>]
+[ Back to Graphviz: 
+<A HREF="../../" TARGET="_top"> Home Page</A>
+|
+<A HREF="../../Gallery.php" TARGET="_top"> Gallery</A>
+]
+
+<P>
+<font size="1">
+Copyright &#169; 1996-2004 AT&amp;T.  All rights reserved.
+</font>
+
+
+</BODY>
+</HTML>
