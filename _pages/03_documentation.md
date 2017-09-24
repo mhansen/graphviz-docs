@@ -30,6 +30,7 @@ on-line pages listed above.</dd>
 <dd><a href="{{ site.url }}/_pages/pdf/cgraph.pdf">Cgraph library tutorial</a></dd>
 <dd><a href="{{ site.url }}/_pages/pdf/libguide.pdf">Using Graphviz as a library</a></dd>
 <dd><a href="{{ site.url }}/_pages/pdf/oldlibguide.pdf">Using Graphviz as a library (pre-2.30 version)</a></dd>
+<dd><a href="{{ site.url }}/_pages/doc/addingLayout.txt">Adding a new layout</a></dd>
 
 <dt><b>Sample Programs using Graphviz</b> 
 <dd><a href="{{ site.url }}/_pages/dot.demo/demo.c">demo.c</a></dd>
