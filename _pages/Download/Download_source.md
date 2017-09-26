@@ -42,14 +42,14 @@ to see these.
 <tbody>
 <tr><th align="right"><font size="-1">Sources</font></th>
 <td align="left" nowrap=""><font size="-1">
-<a href="http://www.graphviz.org/pub/graphviz/stable/SOURCES/graphviz-2.40.1.tar.gz">graphviz-2.40.1.tar.gz</a><br>
-<a href="http://www.graphviz.org/pub/graphviz/stable/SOURCES/graphviz-working.tar.gz">graphviz.tar.gz</a><br>
-<a href="http://www.graphviz.org/pub/graphviz/stable/SOURCES/graphviz-2.40.1.tar.gz.md5">graphviz-2.40.1.tar.gz.md5</a><br>
+<a href="http://204.178.9.49/pub/graphviz/stable/SOURCES/graphviz-2.40.1.tar.gz">graphviz-2.40.1.tar.gz</a><br>
+<a href="http://204.178.9.49/pub/graphviz/stable/SOURCES/graphviz-working.tar.gz">graphviz.tar.gz</a><br>
+<a href="http://204.178.9.49/pub/graphviz/stable/SOURCES/graphviz-2.40.1.tar.gz.md5">graphviz-2.40.1.tar.gz.md5</a><br>
 </font></td>
 <td align="left" nowrap=""><font size="-1">
-<a href="http://www.graphviz.org/pub/graphviz/development/SOURCES/graphviz-2.41.20170921.2350.tar.gz">graphviz-2.41.20170921.2350.tar.gz</a><br>
-<a href="http://www.graphviz.org/pub/graphviz/development/SOURCES/graphviz-working.tar.gz">graphviz-working.tar.gz</a><br>
-<a href="http://www.graphviz.org/pub/graphviz/development/SOURCES/graphviz-2.41.20170921.2350.tar.gz.md5">graphviz-2.41.20170921.2350.tar.gz.md5</a><br>
+<a href="http://204.178.9.49/pub/graphviz/development/SOURCES/graphviz-2.41.20170921.2350.tar.gz">graphviz-2.41.20170921.2350.tar.gz</a><br>
+<a href="http://204.178.9.49/pub/graphviz/development/SOURCES/graphviz-working.tar.gz">graphviz-working.tar.gz</a><br>
+<a href="http://204.178.9.49/pub/graphviz/development/SOURCES/graphviz-2.41.20170921.2350.tar.gz.md5">graphviz-2.41.20170921.2350.tar.gz.md5</a><br>
 </font></td>
 </tr>
 </tbody>
@@ -66,13 +66,13 @@ to see these.
 <tbody>
 <tr><th align="right"><font size="-1">Sources</font></th>
 <td align="left" nowrap=""><font size="-1">
-<a href="http://www.graphviz.org/pub/graphviz/stable/SOURCES/webdot-2.30.tar.gz">webdot-2.30.tar.gz</a><br>
-<a href="http://www.graphviz.org/pub/graphviz/stable/SOURCES/webdot-2.30.tar.gz.md5">webdot-2.30.tar.gz.md5</a><br>
+<a href="http://204.178.9.49/pub/graphviz/stable/SOURCES/webdot-2.30.tar.gz">webdot-2.30.tar.gz</a><br>
+<a href="http://204.178.9.49/pub/graphviz/stable/SOURCES/webdot-2.30.tar.gz.md5">webdot-2.30.tar.gz.md5</a><br>
 </font></td>
 <td align="left" nowrap=""><font size="-1">
-<a href="http://www.graphviz.org/pub/graphviz/development/SOURCES/webdot-2.39.20170725.2013.tar.gz">webdot-2.39.20170725.2013.tar.gz</a><br>
-<a href="http://www.graphviz.org/pub/graphviz/development/SOURCES/webdot-working.tar.gz">webdot-working.tar.gz</a><br>
-<a href="http://www.graphviz.org/pub/graphviz/development/SOURCES/webdot-2.39.20170725.2013.tar.gz.md5">webdot-2.39.20170725.2013.tar.gz.md5</a><br>
+<a href="http://204.178.9.49/pub/graphviz/development/SOURCES/webdot-2.39.20170725.2013.tar.gz">webdot-2.39.20170725.2013.tar.gz</a><br>
+<a href="http://204.178.9.49/pub/graphviz/development/SOURCES/webdot-working.tar.gz">webdot-working.tar.gz</a><br>
+<a href="http://204.178.9.49/pub/graphviz/development/SOURCES/webdot-2.39.20170725.2013.tar.gz.md5">webdot-2.39.20170725.2013.tar.gz.md5</a><br>
 </font></td>
 </tr>
 </tbody>
