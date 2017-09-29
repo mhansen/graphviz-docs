@@ -60,5 +60,6 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 <li> <a href="{{ site.url }}/_pages/Misc/ru_translation.rtf" target="_blank">Russian</a></li> <!-- from <a href="mailto:andreev.yurij@gmail.com">andreev.yurij@gmail.com</a> -->
 <li> <a href="http://science.webhostinggeeks.com/graficka-vizualizacija" target="_blank">Serbo-Croatian</a></li> <!-- from  <a href="mailto:andreev.yurij@gmail.com">andreev.yurij@gmail.com</a> -->
 <li> Bulgarian <a href="http://monkeydrives.com/blog/graphviz/">Home</a> and <a href="http://monkeydrives.com/blog/about-graph/">About</a></li> <!-- href="http://monkeydrives.com">Artem Delik -->
-<li> <a href="http://www.passadrugtestingforall.com/edu/graphviz-about-uk/" target="_blank">Ukranian</a></li> <!-- from Piter Swenson [passadrugtesting4all@gmail.com] -->.
+<li> <a href="http://www.passadrugtestingforall.com/edu/graphviz-about-uk/" target="_blank">Ukrainian</a></li> <!-- from Piter Swenson [passadrugtesting4all@gmail.com] -->
+<li> <a href="https://www.homeyou.com/~edu/graphviz" target="_blank">Portuguese</a></li> <!-- from Artur Weber [<arturweberguimaraes@gmail.com>] -->
 </ul>
