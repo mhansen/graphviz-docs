@@ -28,7 +28,6 @@ gitlib_username:  emden
 sass:
   sass_dir: _sass
 include: ['_pages']
-keep_files: ['_pages/.well-known']
 markdown: kramdown
 kramdown:
   input: GFM
