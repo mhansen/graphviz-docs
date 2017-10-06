@@ -33,6 +33,8 @@ We list them for convenience, but disclaim responsibility for the contents of th
 * [Cygwin Ports](http://sourceware.org/cygwinports/)* provides a port of Graphviz to Cygwin.
 * [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
 
+Mostly correct notes for building Graphviz on Windows can be found
+[here]({{ site.url }}/_pages/doc/winbuild.html). 
 
 ### Mac
 
