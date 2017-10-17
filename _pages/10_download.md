@@ -28,7 +28,7 @@ We list them for convenience, but disclaim responsibility for the contents of th
 
 ### Windows
 
-* [Development Windows install packages](https://ci.appveyor.com/project/ellson/graphviz)
+* [Development Windows install packages](https://ci.appveyor.com/project/ellson/graphviz-pl238)
 * [Stable 2.38 Windows install packages]({{ site.url }}/_pages/Download/Download_windows.html)
 * [Cygwin Ports](http://sourceware.org/cygwinports/)* provides a port of Graphviz to Cygwin.
 * [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
