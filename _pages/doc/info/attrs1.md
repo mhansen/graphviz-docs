@@ -670,12 +670,6 @@ of the layout programs.
   If any fraction is used, the colors are drawn in series, with each color
   being given roughly its specified fraction of the edge.
   For example, the graph
-  <PRE>
-  digraph G {
-    a -> b [dir=both color="red:blue"]
-    c -> d [dir=none color="green:red;0.25:blue"]
-  }
-  </PRE>
   yields<BR>
   <IMG SRC="colorlist.gif">
 
@@ -705,13 +699,6 @@ of the layout programs.
 <DT><A NAME=d:constraint HREF=#a:constraint><STRONG>constraint</STRONG></A>
 <DD>  If false, the edge is not used in ranking the nodes. For example,
   in the graph
-  <PRE>
-  digraph G {
-    a -> c;
-    a -> b;
-    b -> c [constraint=false];
-  }
-  </PRE>
   the edge <CODE>b -> c</CODE> does not add a constraint during rank
   assignment, so the only constraints are that a be above b and c,
   yielding the graph:<BR>
