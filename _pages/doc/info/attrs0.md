@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /doc/info/attrs0.html
+permalink: /doc/attrs0.html
 ---
 {::nomarkdown}
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
@@ -9,7 +9,7 @@ permalink: /doc/info/attrs0.html
 -->
 <HTML VERSION="2.0">
 <HEAD>
-<TITLE>Node, Edge and Graph Attributes</TITLE>
+<TITLE>Testing - Node, Edge and Graph Attributes</TITLE>
 </HEAD>
 <BODY BGCOLOR=white>
 <A NAME="top"></A>
