@@ -25,13 +25,6 @@ twitter_username: jekyllrb
 gitlib_username:  emden
 
 # Build settings
-# trying this based on https://stackoverflow.com/questions/36262382/jekyll-says-liquid-exception-invalid-byte-sequence-in-us-ascii-in-documentation
-before_script:
-  - export LANG=en_US.UTF-8
-  - export LC_CTYPE=en_US.UTF-8
-  - export LANG=en_US.UTF-8
-  - export LANGUAGE=en_US:en
-  - export LC_ALL=en_US.UTF-8
 sass:
   sass_dir: _sass
 include: ['_pages']
@@ -39,7 +32,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 # theme: jekyll-theme-cayman
-plugins: ['jekyll-twitter-plugin','jekyll-redirect-from']
+plugins: ['jekyll-twitter-plugin']
 gems:
   - jekyll-feed
 exclude:

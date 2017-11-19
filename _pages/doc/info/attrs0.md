@@ -1,7 +1,6 @@
 ---
 layout: null
 permalink: /doc/attrs0.html
-redirect_from: /doc/attrs00.html
 ---
 {::nomarkdown}
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
