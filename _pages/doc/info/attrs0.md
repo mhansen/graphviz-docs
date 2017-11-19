@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /doc/attrs0.html
-alias: [/doc/attrs00.html, /doc/attrs000.html]
+redirect_from: /doc/attrs00.html
 ---
 {::nomarkdown}
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
