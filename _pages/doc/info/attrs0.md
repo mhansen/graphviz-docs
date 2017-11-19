@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /doc/attrs0.html
+permalink: /doc/info/attrs.html
 ---
 {::nomarkdown}
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
