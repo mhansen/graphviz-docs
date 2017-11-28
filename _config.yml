@@ -32,7 +32,8 @@ markdown: kramdown
 kramdown:
   input: GFM
 # theme: jekyll-theme-cayman
-plugins: ['jekyll-twitter-plugin',"jekyll-redirect-from"]
+plugins: ['jekyll-twitter-plugin','jekyll-redirect-from']
+whitelist: ['jekyll-redirect-from']
 gems:
   - jekyll-feed
 exclude:
