@@ -1,9 +1,9 @@
 ---
 layout: null
-permalink: /.well-known/acme-challenge/_-Cnyk6JUryAZjLWLRqwJJipRI3TLAlvfWKTgifkf7o
+permalink: /.well-known/acme-challenge/yes
 ---
 {% comment %} 
-    This is the handshake file for www2.graphviz.org
+    This is the handshake file for www.graphviz.org
 {% endcomment %}
 {::nomarkdown}
 _-Cnyk6JUryAZjLWLRqwJJipRI3TLAlvfWKTgifkf7o.fUTvTeSmsgr1VQhI12dquUasmMlRIhj67DALNuPpRS0
