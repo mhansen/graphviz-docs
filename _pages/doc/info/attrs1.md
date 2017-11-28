@@ -1,6 +1,6 @@
 ---
 layout: null
-redirect_from: "/doc/info/attrs1.html"
+redirect_from: "/doc/info/attrs2"
 ---
 {::nomarkdown}
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
