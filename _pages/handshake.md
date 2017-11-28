@@ -1,10 +1,7 @@
 ---
 layout: null
-permalink: /.well-known/acme-challenge/_-Cnyk6JUryAZjLWLRqwJJipRI3TLAlvfWKTgifkf7o/
+permalink: /.well-known/acme-challenge/vz5bbKe8ldDqcd-U7syaF16ubmuBBVWvSTWGamjJHjA/
 ---
-{% comment %} 
-    This is the handshake file for www.graphviz.org
-{% endcomment %}
 {::nomarkdown}
-_-Cnyk6JUryAZjLWLRqwJJipRI3TLAlvfWKTgifkf7o.fUTvTeSmsgr1VQhI12dquUasmMlRIhj67DALNuPpRS0
+vz5bbKe8ldDqcd-U7syaF16ubmuBBVWvSTWGamjJHjA.fUTvTeSmsgr1VQhI12dquUasmMlRIhj67DALNuPpRS0
 {:/nomarkdown}
