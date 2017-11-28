@@ -1,1 +1,1 @@
-Misc/graphviz-dot-mode.el
+../_pages/Misc/graphviz-dot-mode.el

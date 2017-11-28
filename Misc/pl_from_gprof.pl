@@ -1,1 +1,1 @@
-Misc/pl_from_gprof.pl
+../_pages/Misc/pl_from_gprof.pl

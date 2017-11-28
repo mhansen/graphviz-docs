@@ -1,1 +1,1 @@
-doc/info/Makefile.am
+/Users/north/src/graphviz-web/graphviz.gitlab.io/_pages/doc/info/Makefile.am

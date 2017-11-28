@@ -1,1 +1,1 @@
-Misc/dot_from_pl.pl
+../_pages/Misc/dot_from_pl.pl

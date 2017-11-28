@@ -1,1 +1,1 @@
-Misc/webdot_cgi.txt
+../_pages/Misc/webdot_cgi.txt

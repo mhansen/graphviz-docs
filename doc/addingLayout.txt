@@ -1,1 +1,1 @@
-doc/addingLayout.txt
+../_pages/doc/addingLayout.txt

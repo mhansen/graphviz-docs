@@ -1,1 +1,1 @@
-Misc/webdot.pl
+../_pages/Misc/webdot.pl

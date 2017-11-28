@@ -1,1 +1,1 @@
-doc/info/shapegen.tcl
+/Users/north/src/graphviz-web/graphviz.gitlab.io/_pages/doc/info/shapegen.tcl

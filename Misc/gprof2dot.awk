@@ -1,1 +1,1 @@
-Misc/gprof2dot.awk
+../_pages/Misc/gprof2dot.awk

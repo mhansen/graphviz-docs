@@ -1,1 +1,1 @@
-doc/info/attrs0.md
+/Users/north/src/graphviz-web/graphviz.gitlab.io/_pages/doc/info/attrs0.md
