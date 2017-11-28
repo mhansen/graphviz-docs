@@ -1,0 +1,1 @@
+doc/info/Makefile.am
