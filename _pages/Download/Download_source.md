@@ -47,9 +47,9 @@ to see these.
 <a href="http://204.178.9.49/pub/graphviz/stable/SOURCES/graphviz-2.40.1.tar.gz.md5">graphviz-2.40.1.tar.gz.md5</a><br>
 </font></td>
 <td align="left" nowrap=""><font size="-1">
-<a href="http://204.178.9.49/pub/graphviz/development/SOURCES/graphviz-2.41.20170921.2350.tar.gz">graphviz-2.41.20170921.2350.tar.gz</a><br>
+<a href="http://204.178.9.49/pub/graphviz/development/SOURCES/graphviz-2.41.20171026.1811.tar.gz">graphviz-2.41.20171026.1811.tar.gz</a><br>
 <a href="http://204.178.9.49/pub/graphviz/development/SOURCES/graphviz-working.tar.gz">graphviz-working.tar.gz</a><br>
-<a href="http://204.178.9.49/pub/graphviz/development/SOURCES/graphviz-2.41.20170921.2350.tar.gz.md5">graphviz-2.41.20170921.2350.tar.gz.md5</a><br>
+<a href="http://204.178.9.49/pub/graphviz/development/SOURCES/graphviz-2.41.20171026.1811.tar.gz.md5">graphviz-2.41.20171026.1811.tar.gz.md5</a><br>
 </font></td>
 </tr>
 </tbody>
