@@ -19,13 +19,12 @@ We list them for convenience, but disclaim responsibility for the contents of th
 
 ### Linux
 
-We no longer provide precompiled packages.
-Please try one of the following third-party sites.
-We do not endorse any specific platforms or package providers.
+We do not provide precompiled packages any more.
+You may find it useful to try one of the following third-party sites.
 
-* [Ubuntu packages](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)
-* [Fedora project](https://apps.fedoraproject.org/packages/graphviz)
-* [Debian packages](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)
+* [Ubuntu packages](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)*
+* [Fedora project](https://apps.fedoraproject.org/packages/graphviz)*
+* [Debian packages](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)*
 * [Stable and development rpms for Redhat Enterprise, or Centos systems](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)* available but are out of date.
 <!---  The problem is that this probably just points back to graphviz.org * [Fedora](http://fedoraproject.org/)* On a working Fedora system, use `yum list "graphviz*"` to see all available Graphviz packages.  --->
 
