@@ -5,7 +5,7 @@ permalink: /contact/
 order: 10
 ---
 
-At present, there is no official mailing list or newsgroup. Plesase use the 
+At present, there is no official mailing list or newsgroup. Please use the 
 [issues section](https://gitlab.com/graphviz/graphviz/issues) in GitLab for this.
 
 If you have a bug or believe something is not working as expected, please 
