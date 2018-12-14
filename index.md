@@ -56,13 +56,13 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 
 <ul>
 <li> <a href="https://www.lesoluzioni.info/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7-%D8%A8%D9%83-%D9%81%D9%8A-graphviz/" target="_blank"> Arabic </a></li> <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
+<li> <a href="https://www.antwoorden.org/welkom-bij-graphviz/" target="_blank">Dutch </a></li>
+<!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
 <li> <a href="https://www.solutionjeux.info/bienvenue-chez-graphviz/" target="_blank"> French 
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
 <li> <a href="https://www.gameanswer.net/benvenuto-in-graphviz/" target="_blank"> Italian </a></li>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
-<li> <a href=https://www.losungenapp.com/willkommen-in-graphviz/" target="_blank"> German </a></li>
-<!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
-<li> <a href="https://www.antwoorden.org/welkom-bij-graphviz/" target="_blank">Dutch </a></li>
+<li> <a href="https://www.losungenapp.com/willkommen-in-graphviz/" target="_blank"> German </a></li>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
 
 <li> <a href="https://www.homeyou.com/~edu/graphviz" target="_blank">Portuguese</a></li> <!-- from Artur Weber [<arturweberguimaraes@gmail.com>] -->
