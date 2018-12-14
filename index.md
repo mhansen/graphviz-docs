@@ -71,7 +71,7 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 <li> <a href="{{ site.url }}/_pages/Misc/ru_translation.rtf" target="_blank">Russian</a></li> <!-- from <a href="mailto:andreev.yurij@gmail.com">andreev.yurij@gmail.com</a> -->
 <li> <a href="http://science.webhostinggeeks.com/graficka-vizualizacija" target="_blank">Serbo-Croatian</a></li> <!-- from  <a href="mailto:andreev.yurij@gmail.com">andreev.yurij@gmail.com</a> -->
 <li> <a href="http://www.passadrugtestingforall.com/edu/graphviz-about-uk/" target="_blank">Ukrainian</a></li> <!-- from Piter Swenson [passadrugtesting4all@gmail.com] -->
-<li> <a href=" https://www.levelsanswers.com/%d0%b4%d0%be%d0%b1%d1%80%d0%b5-%d0%b4%d0%be%d1%88%d0%bb%d0%b8-%d0%b2-%d0%b3%d1%80%d0%b0%d0%b2%d0%b8%d0%b7">Bulgarian</a> Welcome page </a></li>
+<li> <a href="https://www.levelsanswers.com/%d0%b4%d0%be%d0%b1%d1%80%d0%b5-%d0%b4%d0%be%d1%88%d0%bb%d0%b8-%d0%b2-%d0%b3%d1%80%d0%b0%d0%b2%d0%b8%d0%b7">Bulgarian</a> Welcome page </li>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
 
 </ul>
