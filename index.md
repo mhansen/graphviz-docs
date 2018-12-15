@@ -58,11 +58,13 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 <li>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
 <a href="https://www.lesoluzioni.info/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7-%D8%A8%D9%83-%D9%81%D9%8A-graphviz/" target="_blank"> Arabic </a>
-- <a href="https://www.antwoorden.org/welkom-bij-graphviz/" target="_blank">Dutch </a>
+</li>
+<li>
+<a href="https://www.antwoorden.org/welkom-bij-graphviz/" target="_blank">Dutch </a>
 </li>
 <li>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
-<a href="https://www.solutionjeux.info/bienvenue-chez-graphviz/" target="_blank"> French 
+<a href="https://www.solutionjeux.info/bienvenue-chez-graphviz/" target="_blank"> French </a>
 </li>
 <li>
 <a href="https://www.gameanswer.net/benvenuto-in-graphviz/" target="_blank"> Italian </a>
@@ -76,8 +78,8 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 <a href="https://www.homeyou.com/~edu/graphviz" target="_blank">Portuguese</a>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
 </li>
-<a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>
 <!-- from Artur Weber [<arturweberguimaraes@gmail.com>] -->
+<a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>
 </li>
 <li>
 <a href="http://www.portablecomponentsforall.com/edu/graphviz-about-ru/" target="_blank">Russian</a>
@@ -95,6 +97,6 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 </li>
 <li>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
-<a href="https://www.levelsanswers.com/%d0%b4%d0%be%d0%b1%d1%80%d0%b5-%d0%b4%d0%be%d1%88%d0%bb%d0%b8-%d0%b2-%d0%b3%d1%80%d0%b0%d0%b2%d0%b8%d0%b7"> Bulgarian</a> Welcome page
+<a href="https://www.levelsanswers.com/%d0%b4%d0%be%d0%b1%d1%80%d0%b5-%d0%b4%d0%be%d1%88%d0%bb%d0%b8-%d0%b2-%d0%b3%d1%80%d0%b0%d0%b2%d0%b8%d0%b7"> Bulgarian</a> (Welcome page)
 </li>
 <ul>
