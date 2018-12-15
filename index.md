@@ -54,21 +54,47 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 
 <p>Thanks to friends, some Graphviz site pages are available in translation.</p>
 
-- <a href="https://www.lesoluzioni.info/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7-%D8%A8%D9%83-%D9%81%D9%8A-graphviz/" target="_blank"> Arabic </a>
+<ul>
+<li>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
+<a href="https://www.lesoluzioni.info/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7-%D8%A8%D9%83-%D9%81%D9%8A-graphviz/" target="_blank"> Arabic </a>
 - <a href="https://www.antwoorden.org/welkom-bij-graphviz/" target="_blank">Dutch </a>
+</li>
+<li>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
-- <a href="https://www.solutionjeux.info/bienvenue-chez-graphviz/" target="_blank"> French 
+<a href="https://www.solutionjeux.info/bienvenue-chez-graphviz/" target="_blank"> French 
+</li>
+<li>
+<a href="https://www.gameanswer.net/benvenuto-in-graphviz/" target="_blank"> Italian </a>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
-- <a href="https://www.gameanswer.net/benvenuto-in-graphviz/" target="_blank"> Italian </a>
+</li>
+<li>
+<a href="https://www.losungenapp.com/willkommen-in-graphviz/" target="_blank"> German </a>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
-- <a href="https://www.losungenapp.com/willkommen-in-graphviz/" target="_blank"> German </a>
+</li>
+<li>
+<a href="https://www.homeyou.com/~edu/graphviz" target="_blank">Portuguese</a>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
-- <a href="https://www.homeyou.com/~edu/graphviz" target="_blank">Portuguese</a>
+</li>
+<a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>
 <!-- from Artur Weber [<arturweberguimaraes@gmail.com>] -->
-- <a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>
-- <a href="http://www.portablecomponentsforall.com/edu/graphviz-about-ru/" target="_blank">Russian</a>
-- <a href="{{ site.url }}/_pages/Misc/ru_translation.rtf" target="_blank">Russian</a> <!-- from <a href="mailto:andreev.yurij@gmail.com">andreev.yurij@gmail.com</a> -->
-- <a href="http://science.webhostinggeeks.com/graficka-vizualizacija" target="_blank">Serbo-Croatian</a> <!-- from  <a href="mailto:andreev.yurij@gmail.com">andreev.yurij@gmail.com</a> -->
-- <a href="http://www.passadrugtestingforall.com/edu/graphviz-about-uk/" target="_blank">Ukrainian</a> <!-- from Piter Swenson [passadrugtesting4all@gmail.com] -->
-- <a href="https://www.levelsanswers.com/%d0%b4%d0%be%d0%b1%d1%80%d0%b5-%d0%b4%d0%be%d1%88%d0%bb%d0%b8-%d0%b2-%d0%b3%d1%80%d0%b0%d0%b2%d0%b8%d0%b7"> Bulgarian</a> Welcome page <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
+</li>
+<li>
+<a href="http://www.portablecomponentsforall.com/edu/graphviz-about-ru/" target="_blank">Russian</a>
+</li>
+<li>
+<!-- from <a href="mailto:andreev.yurij@gmail.com">andreev.yurij@gmail.com</a> -->
+<a href="{{ site.url }}/_pages/Misc/ru_translation.rtf" target="_blank">Russian</a>
+</li>
+<li>
+<!-- from  <a href="mailto:andreev.yurij@gmail.com">andreev.yurij@gmail.com</a> -->
+<a href="http://science.webhostinggeeks.com/graficka-vizualizacija" target="_blank">Serbo-Croatian</a>
+</li>
+<li>
+<a href="http://www.passadrugtestingforall.com/edu/graphviz-about-uk/" target="_blank">Ukrainian</a> <!-- from Piter Swenson [passadrugtesting4all@gmail.com] -->
+</li>
+<li>
+<!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
+<a href="https://www.levelsanswers.com/%d0%b4%d0%be%d0%b1%d1%80%d0%b5-%d0%b4%d0%be%d1%88%d0%bb%d0%b8-%d0%b2-%d0%b3%d1%80%d0%b0%d0%b2%d0%b8%d0%b7"> Bulgarian</a> Welcome page
+</li>
+<ul>
