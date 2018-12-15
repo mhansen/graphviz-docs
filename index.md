@@ -75,9 +75,10 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
 </li>
 <li>
-<a href="https://www.homeyou.com/~edu/graphviz" target="_blank">Portuguese</a>
 <!-- from <a href="michael9pm@gmail.com">Michael Gere <michael9pm@gmail.com></a> -->
+<a href="https://www.homeyou.com/~edu/graphviz" target="_blank">Portuguese</a>
 </li>
+<li>
 <!-- from Artur Weber [<arturweberguimaraes@gmail.com>] -->
 <a href="http://webhostinggeeks.com/science/graphviz-about-rm" target="_blank">Romanian</a>
 </li>
