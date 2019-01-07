@@ -105,6 +105,7 @@ subsequently been ported to Microsoft Windows.
 * **Grappa** - a Java package for graphs with full Java graph data structures
 * **ZGRViewer** - an SVG-based zooming graph viewer for large graphs.
 * [**Mac OS X graphviz**](http://www.pixelglow.com/graphviz)
+* [**viz.js**](http://viz-js.com/) - graphviz built with emscripten for use on the web and in node.js
 
 ## Filters
 
