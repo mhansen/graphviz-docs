@@ -1,7 +1,7 @@
 ---
 layout: null
-permalink: /.well-known/acme-challenge/ftALh_ibbK8D15-kJm_6FOU_Ny246PJEVVKOlywfluA/
+http://graphviz.org/.well-known/acme-challenge/GaAP2Upxah6sPVcEgIenc45Zu8ZoEb8-6jwkEiUhHjU/
 ---
 {::nomarkdown}
-ftALh_ibbK8D15-kJm_6FOU_Ny246PJEVVKOlywfluA.fUTvTeSmsgr1VQhI12dquUasmMlRIhj67DALNuPpRS0
+GaAP2Upxah6sPVcEgIenc45Zu8ZoEb8-6jwkEiUhHjU.fUTvTeSmsgr1VQhI12dquUasmMlRIhj67DALNuPpRS0
 {:/nomarkdown}
