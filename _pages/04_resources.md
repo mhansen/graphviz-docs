@@ -18,6 +18,7 @@ possible, a recommendation as to appropriate category for the resource.
 <p>Interactive viewers.</p>
 
 <ul>
+<li><a href="https://github.com/laingsimon/preview-dot">preview-dot</a> A tool for visualising dot format graphs (with a .gv extension) within the preview pane of Windows Explorer. This also works in Outlook for attachments, etc. [Simon Laing]</li>
 <li><a href="https://github.com/magjac/d3-graphviz">d3-graphviz</a> Renders SVG from graphs described in the DOT language using the Viz.js port of Graphviz and does animated transitions between graphs. [Magnus Jacobsson]</li>
 <li><a href="http://github.com/mountainstorm/jquery.graphviz.svg/">jquery.graphviz.svg</a>, jQuery plugin to make Graphviz SVG output more interactive and easier to navigate. [Rich Cooper]</li>
 <li><a href="http://ushiroad.com/jsviz/">Liviz.js</a>, DHTML-based interactive viewer for Graphviz [Satoshi Ueyama]</li>
