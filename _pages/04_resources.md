@@ -155,7 +155,6 @@ but any domain can be graphed [Mike Zick]
 				<li><a href="http://www.cs.washington.edu/research/networking/rocketfuel/">Rocketfuel</a> ISP mapper (well, look <a href="http://www.cs.washington.edu/research/networking/rocketfuel/interactive/">here</a>) [U. Washington]</li>
 				<li><a href="http://www.zonecut.net/dns/">DNS server visualization</a></li>
 				<li><a href="https://web.archive.org/web/20071104191340/http://www.grotto-group.com/~gulfie/projects/analysis/tcpdump2dot.subpage.html">tcpdump2dot filter</a> to allow admins to network activity [Gulfie]</li>
-				<li><a href="http://www.hping.org/visitors/">Visitors, a fast web log analyzer</a> uses graphviz to display usage patterns showing how users are using your web site. [Salvatore Sanfilippo]</li>
 				<li><a href="http://jekor.com/gressgraph/">Visualize your firewall</a> uses graphviz to produce a graph of your iptables ruleset. [Chris Forno]</li>
 				<li><a href="https://graph-tool.skewed.de/">graph-tool</a>, an efficient python module for manipulation and statistical analysis of graphs, which includes an interface to GraphViz, via its python bindings. [Tiago de Paula Peixoto]</li>
 			</ul>
