@@ -12,7 +12,7 @@ that rely on Graphviz as a visualization service. You can also find Graphviz-rel
 Please <a href="mailto:erg@alum.mit.edu">send us</a> suggestions for additions to this list with, if 
 possible, a recommendation as to appropriate category for the resource.
 
-
+<p>Graph drawing can be considered one of the tool sets used in analyzing data. Anyone interested in pursuing work in data science can find some helpful information <a href="https://www.mastersindatascience.org/careers/data-scientist/">here</a>.
 <h4><a name="graphical-interfaces">Graphical Interfaces</a></h4>
 
 <p>Interactive viewers.</p>
@@ -158,6 +158,7 @@ but any domain can be graphed [Mike Zick]
 				<li><a href="http://jekor.com/gressgraph/">Visualize your firewall</a> uses graphviz to produce a graph of your iptables ruleset. [Chris Forno]</li>
 				<li><a href="https://graph-tool.skewed.de/">graph-tool</a>, an efficient python module for manipulation and statistical analysis of graphs, which includes an interface to GraphViz, via its python bindings. [Tiago de Paula Peixoto]</li>
 			</ul>
+			<p>Users interested in general network monitoring tools can find a comparison of some <a href="https://www.comparitech.com/net-admin/network-monitoring-tools/">here</a>.</p>
 			<!-- -------------------- -->
 
 			<h4><a name="ai-and-language">AI and Language Tools Using Graphviz</a></h4>
