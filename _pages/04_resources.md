@@ -16,8 +16,7 @@ possible, a recommendation as to appropriate category for the resource.
 
 <h4><a name="graphical-interfaces">Simple Examples and Tutorials</a></h4>
 <ul>
-<li><a href="https://renenyffenegger.ch/notes/tools/Graphviz/examples/index">
-Searchable notes and examples [Ren&eacute; Nyffenegger]</li>
+<li>Searchable<a href="https://renenyffenegger.ch/notes/tools/Graphviz/examples/index">notes</a> and examples [Ren&eacute; Nyffenegger]</li>
 </ul>
 
 <h4><a name="graphical-interfaces">Graphical Interfaces</a></h4>
