@@ -13,6 +13,13 @@ Please <a href="mailto:erg@alum.mit.edu">send us</a> suggestions for additions t
 possible, a recommendation as to appropriate category for the resource.
 
 <p>Graph drawing can be considered one of the tool sets used in analyzing data. Anyone interested in pursuing work in data science can find some helpful information <a href="https://www.mastersindatascience.org/careers/data-scientist/">here</a>.
+
+<h4><a name="graphical-interfaces">Simple Examples and Tutorials</a></h4>
+<ul>
+<li><a href="https://renenyffenegger.ch/notes/tools/Graphviz/examples/index">
+Searchable notes and examples [Ren&eacute; Nyffenegger]</li>
+</ul>
+
 <h4><a name="graphical-interfaces">Graphical Interfaces</a></h4>
 
 <p>Interactive viewers.</p>
