@@ -23,6 +23,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://graphviz.gitlab.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 gitlib_username:  emden
+stablesource: "http://www2.graphviz.org/Packages/stable/portable_source"
+develsource: "http://www2.graphviz.org/Packages/development/portable_source"
+"
 
 # Build settings
 sass:
