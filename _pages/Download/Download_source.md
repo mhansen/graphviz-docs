@@ -46,8 +46,8 @@ to see these.
 <a href="{{ site.stablesource }}/graphviz-2.42.1.tar.gz.md5">graphviz-2.42.1.tar.gz.md5</a><br>
 </font></td>
 <td align="left" nowrap=""><font size="-1">
-<a href="{{ site.develsource }}/graphviz-2.43.20190813.0206.tar.gz>graphviz-2.43.20190813.0206.tar.gz</a><br>
-<a href="{{ site.develsource }}/graphviz-2.43.20190813.0206.tar.gz.md5>graphviz-2.43.20190813.0206.tar.gz.md5</a><br>
+<a href="{{ site.develsource }}/graphviz-2.43.20190813.0206.tar.gz">graphviz-2.43.20190813.0206.tar.gz</a><br>
+<a href="{{ site.develsource }}/graphviz-2.43.20190813.0206.tar.gz.md5">graphviz-2.43.20190813.0206.tar.gz.md5</a><br>
 </font></td>
 </tr>
 </tbody>
