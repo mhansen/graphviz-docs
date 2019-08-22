@@ -42,12 +42,12 @@ to see these.
 <tbody>
 <tr><th align="right"><font size="-1">Sources</font></th>
 <td align="left" nowrap=""><font size="-1">
-<a href="{{ site.stablesource }}/graphviz-2.42.1.tar.gz">graphviz-2.42.1.tar.gz</a><br>
-<a href="{{ site.stablesource }}/graphviz-2.42.1.tar.gz.md5">graphviz-2.42.1.tar.gz.md5</a><br>
+<a href="{{ site.url }}/pub/graphviz/stable/SOURCES/graphviz.tar.gz">graphviz-2.40.1.tar.gz</a><br>
+<a href="{{ site.url }}/pub/graphviz/stable/SOURCES/graphviz.tar.gz.md5">graphviz-2.40.1.tar.gz.md5</a><br>
 </font></td>
 <td align="left" nowrap=""><font size="-1">
-<a href="{{ site.develsource }}/graphviz-2.43.20190813.0206.tar.gz">graphviz-2.43.20190813.0206.tar.gz</a><br>
-<a href="{{ site.develsource }}/graphviz-2.43.20190813.0206.tar.gz.md5">graphviz-2.43.20190813.0206.tar.gz.md5</a><br>
+<a href="{{ site.url }}/pub/graphviz/development/SOURCES/graphviz-working.tar.gz">graphviz-2.41.20171026.1811.tar.gz</a><br>
+<a href="{{ site.url }}/pub/graphviz/development/SOURCES/graphviz-working.tar.gz.md5">graphviz-2.41.20171026.1811.tar.gz.md5</a><br>
 </font></td>
 </tr>
 </tbody>
