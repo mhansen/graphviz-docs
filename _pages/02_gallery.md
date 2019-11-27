@@ -58,8 +58,8 @@ order: 3
 <tbody><tr>
 <td align="center"><a href="{{ site.url }}/_pages/Gallery/undirected/softmaint.html"><img src="{{ site.url }}/_pages/Gallery/undirected/softmaint.small.png" border="0" alt="" title="softmaint"></a></td>
 <td align="center"><a href="{{ site.url }}/_pages/Gallery/undirected/transparency.html"><img src="{{ site.url }}/_pages/Gallery/undirected/transparency.small.png" border="0" alt="" title="transparency"></a></td>
-<td align="center"><a href="{{ site.url }}/_pages/Gallery/directed/Linux_kernel_diagram.html"><img src="{{ site.url }}/_pages/Gallery/directed/Linux_kernel_diagram.small.png" border="0" alt="" title="transparency"></a></td>
-</tr><tr>  <td align="center"> <a href="{{ site.url }}/_pages/Gallery/undirected/softmaint.html">softmaint</a></td> <td align="center"> <a href="{{ site.url }}/_pages/Gallery/undirected/transparency.html">transparency</a></td> </tr></tbody>
+<td align="center"><a href="{{ site.url }}/_pages/Gallery/directed/Linux_kernel_diagram.html"><img src="{{ site.url }}/_pages/Gallery/directed/Linux_kernel_diagram.small.png" border="0" alt="" title="Linux_kernel_diagram"></a></td>
+</tr><tr>  <td align="center"> <a href="{{ site.url }}/_pages/Gallery/undirected/softmaint.html">softmaint</a></td> <td align="center"> <a href="{{ site.url }}/_pages/Gallery/undirected/transparency.html">transparency</a></td><td align="center"> <a href="{{ site.url }}/_pages/Gallery/directed/Linux_kernel_diagram.html">Linux kernel</a></td> </tr></tbody>
 </table>
 
 <p><a href="http://yifanhu.net/GALLERY/GRAPHS/index.html"> <img width="140" border="0" src="{{ site.url }}/_pages/Gallery/ufl.png" alt="" title="transparency" /></a></p>
