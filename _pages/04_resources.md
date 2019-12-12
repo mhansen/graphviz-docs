@@ -20,7 +20,7 @@ possible, a recommendation as to appropriate category for the resource.
 </ul>
 
 <h4><a name="latest-greatest">Noteworthy</a></h4>
-<li>Visual Studio Code <a href="https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz">plugin</a>[Jo^atilde;o Pinto,Stephan van Stekelenburg]</li>
+<li>Visual Studio Code <a href="https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz">plugin</a>[Jo&atilde;o Pinto,Stephan van Stekelenburg]</li>
 <li><a href="https://sketchviz.com/new">Sketchviz</a> generates layouts in a hand-made style.</li>
 <li>Javascript version of Graphviz via Emscripten <a href="https://github.com/mdaines/viz.js/">viz.js</a> [Mike Daines]</li>
 <li>Graphviz <a href="https://graphs.grevian.org">pocket reference</a>[Josh Hayes-Sheen] </li>
