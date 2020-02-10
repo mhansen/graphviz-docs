@@ -161,6 +161,7 @@ but any domain can be graphed [Mike Zick]
 				<li><a href="http://www.cs.washington.edu/research/networking/rocketfuel/">Rocketfuel</a> ISP mapper (well, look <a href="http://www.cs.washington.edu/research/networking/rocketfuel/interactive/">here</a>) [U. Washington]</li>
 				<li><a href="http://www.zonecut.net/dns/">DNS server visualization</a></li>
 				<li><a href="https://web.archive.org/web/20071104191340/http://www.grotto-group.com/~gulfie/projects/analysis/tcpdump2dot.subpage.html">tcpdump2dot filter</a> to allow admins to network activity [Gulfie]</li>
+			<li><a href="http://www.hping.org/visitors/">Visitors, a fast web log analyzer</a> uses graphviz to display usage patterns showing how users are using your web site. [Salvatore Sanfilippo]</li>
 				<li><a href="http://jekor.com/gressgraph/">Visualize your firewall</a> uses graphviz to produce a graph of your iptables ruleset. [Chris Forno]</li>
 				<li><a href="https://graph-tool.skewed.de/">graph-tool</a>, an efficient python module for manipulation and statistical analysis of graphs, which includes an interface to GraphViz, via its python bindings. [Tiago de Paula Peixoto]</li>
 			</ul>
@@ -182,6 +183,7 @@ but any domain can be graphed [Mike Zick]
 			<h4><a name="software-engineering">Programming and Software Engineering Tools Using Graphviz</a></h4>
 
 			<ul>
+				<li><a href=""https://github.com/BurntSushi/erd/>ERD</a> translates a plain text description of a relational database schema to a graphical entity-relationship diagram. [Andrew Gallant]</li>
 				<li><a href="https://fedorahosted.org/TheHat/">TheHat workflow engine</a> based on IRC, XMPP (Jabber) shows workflows in auto-refreshing webpages [Dave Parker]</li>
 				<li><a href="http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html">anifsm</a> animates graphs in dot format via tcldot (part of the <a href="http://fmt.cs.utwente.nl/tools/torxviz/">TorX</a> software visualization suite) [Alex Belinfante and TorX consortium]</li>
 				<li><a href="http://www.doxygen.org/">doxygen</a> uses graphviz to produce class hierarchies and other diagrams directly from source code [Dimitri van Heesch]</li>
@@ -211,7 +213,9 @@ but any domain can be graphed [Mike Zick]
 				<li><a href="http://sourceforge.net/projects/revj">Reverse Snowflake Joins</a> is a tool that parses SQL Select statements and generates a diagram.</li>
 				<li><a href="http://www.eeye.com/Resources/Security-Center/Research/Tools/eEye-Binary-Diffing-Suite-EBDS">eEye Binary Diffing Suite</a> is a suite of tools for binary differential analysis, especially for reverse engineering patches as well as program updates.</li>
 				<li><a href="httP://www.myDBR.com">myDBR</a> is web-based reporting system for relational databases using Graphviz as one of its charting modules.</li>
+<!--
 				<li><a href="http://www.albertolluch.com/research/adr">ADR</a> is a system for formal software design by means of graphical methods. [Alberto Lluch Lafuente]</li>
+-->
 				<li><a href="http://lizards.opensuse.org/2009/01/19/graph-of-storage-devices/">YaST</a> openSUSE installation and configuration showing a graph of storage devices with dependencies. [Arvin Schnell]</li>
 				<li><a href="http://grails.org/plugin/class-diagram/">Grails class diagram plugin</a> provides an UML-like diagram of grails domain classes. [Trygve Amundsen]</li>
 				<li><a href="http://plantuml.sourceforge.net/">PlantUML</a> generates UML diagrams (classes, usecases, activities, components) using a simple text description language. [Arnaud Roques]</li>
@@ -229,8 +233,10 @@ but any domain can be graphed [Mike Zick]
 				<li><a href="https://github.com/peter-lind/hasse-manager/tree/master/HasseManager" >HasseManager</a> for visualizing relations between chemical structures used in fragment-based drug discovery, as described in the <a href="http://pubs.acs.org/doi/abs/10.1021/ci4004464">Journal of&nbsp;Chemical Information and Modelling</a> [Peter Lind]</li>
 				<li><a href="http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html" name="Rgraphviz">R-Graphviz</a> (<a href="http://www.bioconductor.org/packages/release/bioc/vignettes/Rgraphviz/inst/doc/newRgraphvizInterface.pdf">guide</a>) from the Bio-Conductor project integrates graphs and statistical models. [Robert Gentleman, Jeff Gentry and the R team]</li>
 				<li><em>Science</em> Online <a href="http://www.stke.org/">protein database visualization</a> (click on Connections - free registration and <a href="http://www.adobe.com/svg/viewer/install/main.html"> SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox) [American Association for the Advancement of Science (AAAS) and Stanford University Digital Libraries Project]</li>
-				<li><a href="http://www.PubGene.com">Pubgene</a> - Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery (go <a href="http://www.pubgene.org">here</a> for original academic web site)</li>
+				<li><a href="http://www.PubGene.com">Pubgene</a> - Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery</li>
+<!--
 				<li><a href="http://cmap.nci.nih.gov/PW">cancer.gov</a>: National Cancer Institute (NIH) pathway interaction database (CMAP) (requires <a href="http://www.adobe.com/svg/viewer/install/main.html">SVG plugin</a>, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox) [Kotien Wu]</li>
+-->
 			</ul>
 			<!-- -------------------- -->
 
@@ -241,13 +247,17 @@ but any domain can be graphed [Mike Zick]
 				<li><a href="http://ppareit.github.com/graphviz-dot-mode">graphviz mode for emacs</a> (or <a href="{{ site.url }}/_pages/Misc/graphviz-dot-mode.el">here</a>).</li>
 				<li><a href="http://brighten.bigw.org/projects/ladot/">Ladot</a>: scripts for including LaTeX in your Graphviz files [Brighten Godfrey]</li>
 				<li><a href="http://code.google.com/p/hamake/source/browse/trunk/doc/whitepaper/graphviz.tex?r=452">graphviz.tex</a>: macros for including Graphviz in your LaTeX files [Derek Rayside]</li>
+<!--
 				<li><a href="http://mharnisch.gmxhome.de/projects.html">epswrap</a>, a Perl program that wraps EPS files containing bitmap data for user shapes in Graphviz [Marcus Harnisch]</li>
+-->
 				<li><a href="http://www.texmacs.org/">TeXmacs</a>, a scientific text editor, inspired by TeX and GNU Emacs, has a Graphviz interface [Joris van der Hoeven]</li>
 				<li><a href="http://www.aivosto.com/visustin.html">Visustin flow chart generator</a>[Aivosto]</li>
 				<li><a href="http://www.omnigroup.com/products/omnigraffle/">Mac OmniGraffle </a> [Omni Group]</li>
-				<li><a href="http://wdot.rubyforge.org/">wdot.rb</a>, a tool that allows workflow diagrams and flowcharts to be easily created and updated.[Loh Siu Yin]</li>
+				<li><a href="https://github.com/siuyin/wdot/blob/master/wdot.rb/">wdot.rb</a>, a tool that allows workflow diagrams and flowcharts to be easily created and updated.[Loh Siu Yin]</li>
 				<li><a href="http://www.calvert.ch/graphvizio/">GraphVizio</a> is an addin for Visio to lay out diagrams using Graphviz (also see <a href="http://www.calvert.ch/maurice/2010/05/11/graphvizio-a-graphviz-addin-for-visio/">blog post</a>). [Maurice Calvert]</li>
+<!--
 				<li><a href="http://web.ncf.ca/en493/GRAPHVIZ/">TeX and PSTRICKS</a> describes how to use PSTRICKS in conjunction with TeX to include Graphviz PostScript output into TeX documents. This approach makes further manipulation, such as rotation,shifting, etc. easy. [Roger Herz-Fischler]</li>
+-->
 			</ul>
 			<!-- -------------------- -->
 
