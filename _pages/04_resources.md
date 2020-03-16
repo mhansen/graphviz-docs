@@ -37,6 +37,8 @@ possible, a recommendation as to appropriate category for the resource.
 <li><a href="https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool">Graphviz Test Tool</a>, a GUI front-end for Graphviz [Hansuli Anderegg ]</li>
 <li><a href="https://stamm-wilbrandt.de/GraphvizFiddle/">GraphvizFiddle</a>, a dual-view Graphviz editor [Hermann Stamm-Wilbrandt]</li>
 <li><a href="https://github.com/goinnn/jquery.graphviz">jQuery.Graphviz</a>, a jQuery based interactive graph viewer for graphviz svg [Pablo Mart&iacute;n]</li>
+<li><a href="https://github.com/eclipse/gef/wiki/DOT-User-Guide">Eclipse GEF</a>, 
+an Eclipse-integrated Graphviz authoring (DOT editor, DOT Graph view) and a word cloud rendering environment (Tag Cloud view), as well as framework components (Common, Geometry, FX, MVC, Graph, Layout, Zest, DOT, and Cloudio) to create rich graphical JavaFX- and SWT-based client applications, Eclipse-integrated or standalone.</li>
 <li><a href="http://wiki.eclipse.org/Zest/DOT">Eclipse Zest/DOT</a>, an Eclipse Zest 2.0 component that can be used to render and edit DOT graphs [Fabian Steeg]</li>
 <li><a href="http://code.google.com/p/nodeviz/">NodeViz</a>, a framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients [Greg Michalec and Skye Bender-deMoll]</li>
 <li><a href="http://www.graphspe.com/#/Home" target="_blank">GraphSpe</a>, includes a converter for Microsoft Silverlight Xaml (SVG based) [Ceyhun Ciper]</li>
