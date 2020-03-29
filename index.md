@@ -8,6 +8,8 @@ layout: default
 
 <h1><strong>Welcome to Graphviz</strong></h1>
 
+Please join the brand new (March 2020) <a href="https://graphviz.discourse.group" target="_blank">Graphviz forum</a> to ask questions and discuss Graphviz.
+
 <h2><strong>What is Graphviz?</strong></h2>
 
 <p>Graphviz is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,&nbsp; software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.&nbsp;</p>
