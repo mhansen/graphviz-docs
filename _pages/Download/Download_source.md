@@ -43,7 +43,7 @@ to see these.
 <tr><th align="right"><font size="-1">Sources</font></th>
 <td align="left" nowrap=""><font size="-1">
 <a href="https://www2.graphviz.org/Packages/stable/portable_source/graphviz-2.44.0.tar.gz">graphviz-2.44.0.tar.gz</a><br>
-<a href="https://www2.graphviz.org/Packages/stable/portable_source/graphviz-2.44.0.tar.gz.md5">2.44.0.tar.gz.md5">graphviz-2.40.1.tar.gz.md5</a><br>
+<a href="https://www2.graphviz.org/Packages/stable/portable_source/graphviz-2.44.0.tar.gz.md5">graphviz-2.40.1.tar.gz.md5</a><br>
 </font></td>
 <td align="left" nowrap=""><font size="-1">
 <a href="https://www2.graphviz.org/Packages/development/portable_source">all</a><br>
