@@ -192,6 +192,7 @@ but any domain can be graphed [Mike Zick]
 			<h4><a name="software-engineering">Programming and Software Engineering Tools Using Graphviz</a></h4>
 
 			<ul>
+				<li><a href="https://cairis.org/"/>CAIRIS</a> is a platform for specifying and modelling secure and usable systems. [Shamal Faily]</li>
 				<li><a href="https://github.com/BurntSushi/erd"/>ERD</a> translates a plain text description of a relational database schema to a graphical entity-relationship diagram. [Andrew Gallant]</li>
 				<li><a href="https://fedorahosted.org/TheHat/">TheHat workflow engine</a> based on IRC, XMPP (Jabber) shows workflows in auto-refreshing webpages [Dave Parker]</li>
 				<li><a href="http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html">anifsm</a> animates graphs in dot format via tcldot (part of the <a href="http://fmt.cs.utwente.nl/tools/torxviz/">TorX</a> software visualization suite) [Alex Belinfante and TorX consortium]</li>
