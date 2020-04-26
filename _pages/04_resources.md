@@ -20,10 +20,10 @@ possible, a recommendation as to appropriate category for the resource.
 </ul>
 
 <h4><a name="latest-greatest">Noteworthy</a></h4>
-<li>Visual Studio Code <a href="https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz">plugin</a>[Jo&atilde;o Pinto,Stephan van Stekelenburg]</li>
+<li>Visual Studio Code <a href="https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz">plugin</a> [Jo&atilde;o Pinto,Stephan van Stekelenburg]</li>
 <li><a href="https://sketchviz.com/new">Sketchviz</a> generates layouts in a hand-made style.</li>
 <li>Javascript version of Graphviz via Emscripten <a href="https://github.com/mdaines/viz.js/">viz.js</a> [Mike Daines]</li>
-<li>Graphviz <a href="https://graphs.grevian.org">pocket reference</a>[Josh Hayes-Sheen] </li>
+<li>Graphviz <a href="https://graphs.grevian.org">pocket reference</a> [Josh Hayes-Sheen] </li>
 
 <h4><a name="graphical-interfaces">Graphical Interfaces</a></h4>
 
@@ -38,8 +38,7 @@ possible, a recommendation as to appropriate category for the resource.
 <li><a href="https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool">Graphviz Test Tool</a>, a GUI front-end for Graphviz [Hansuli Anderegg ]</li>
 <li><a href="https://stamm-wilbrandt.de/GraphvizFiddle/">GraphvizFiddle</a>, a dual-view Graphviz editor [Hermann Stamm-Wilbrandt]</li>
 <li><a href="https://github.com/goinnn/jquery.graphviz">jQuery.Graphviz</a>, a jQuery based interactive graph viewer for graphviz svg [Pablo Mart&iacute;n]</li>
-<li><a href="https://github.com/eclipse/gef/wiki/DOT-User-Guide">Eclipse GEF</a>, 
-an Eclipse-integrated Graphviz authoring (DOT editor, DOT Graph view) and a word cloud rendering environment (Tag Cloud view), as well as framework components (Common, Geometry, FX, MVC, Graph, Layout, Zest, DOT, and Cloudio) to create rich graphical JavaFX- and SWT-based client applications, Eclipse-integrated or standalone.</li>
+<li><a href="https://github.com/eclipse/gef/wiki/DOT-User-Guide">Eclipse GEF</a>, an Eclipse-integrated Graphviz authoring (DOT editor, DOT Graph view) and a word cloud rendering environment (Tag Cloud view), as well as framework components (Common, Geometry, FX, MVC, Graph, Layout, Zest, DOT, and Cloudio) to create rich graphical JavaFX- and SWT-based client applications, Eclipse-integrated or standalone.</li>
 <li><a href="http://wiki.eclipse.org/Zest/DOT">Eclipse Zest/DOT</a>, an Eclipse Zest 2.0 component that can be used to render and edit DOT graphs [Fabian Steeg]</li>
 <li><a href="http://code.google.com/p/nodeviz/">NodeViz</a>, a framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients [Greg Michalec and Skye Bender-deMoll]</li>
 <li><a href="http://www.graphspe.com/#/Home" target="_blank">GraphSpe</a>, includes a converter for Microsoft Silverlight Xaml (SVG based) [Ceyhun Ciper]</li>
@@ -66,133 +65,127 @@ an Eclipse-integrated Graphviz authoring (DOT editor, DOT Graph view) and a word
 
 <h4><a name="language-bindings">Language Bindings</a></h4>
 
-			<p>Interfaces that allow graphviz to be called from a general purpose language or system.</p>
+<p>Interfaces that allow graphviz to be called from a general purpose language or system.</p>
 
-			<ul>
-				<li>web: <a href="http://www.mediawiki.org/wiki/Extension:GraphViz" target="_blank">MediaWiki</a> extension [Coffman]</li>
-				<li>web: <a href="http://drupal.org/project/graphviz_filter">Drupal</a> Graphviz filter [Karim Ratib]</li>
-				<!-- Bad Link  Blank Page
+<ul>
+<li>web: <a href="http://www.mediawiki.org/wiki/Extension:GraphViz" target="_blank">MediaWiki</a> extension [Coffman]</li>
+<li>web: <a href="http://drupal.org/project/graphviz_filter">Drupal</a> Graphviz filter [Karim Ratib]</li>
+<!-- Bad Link  Blank Page
 (also for <a href="http://www.wickle.com/wiki/index.php/Windows_Graphviz_Installation_Instructions" target="_blank">Windows</a> [Dknox])</li>
 -->
-				<li>web: <a href="http://ociotec.com/index.php/2008/02/25/eht-graphviz-plugin-para-wordpress/" target="_blank">EHT Graphviz</a> plugin for <a href="http://wordpress.org/" target="_blank">Wordpress</a>, to allow Graphviz images to be easily integrated into a Wordpress page. [Emilio Gonz&aacute;lez Monta&ntilde;a]</li>
-				<li>web: <a href="http://wordpress.org/plugins/wp-graphviz/" target="_blank">WP Graphviz</a> plugin for <a href="http://wordpress.org/" target="_blank">Wordpress</a>, to allow Graphviz images to be easily integrated into a Wordpress page. [<a href="http://profiles.wordpress.org/debaat/">DeBAAT</a>]</li>
-				<li>python: <a href="http://code.google.com/p/pydot/" target="_blank">Pydot</a> - a python interface to Graphviz (Windows comptible).</li>
-				<li>python: <a href="http://code.google.com/p/python-graph/" target="_blank">Python-Graph</a> - A library for working with graphs in Python.</li>
-				<li>python: <a href="http://networkx.lanl.gov/pygraphviz/" target="_blank">PyGraphviz</a> - a python interface to Graphviz similar to NetworkX.</li>
-				<li>python: <a href="http://yapgvb.sourceforge.net/" target="_blank">yapgvb</a> Yet Another Graphviz Python Binding [Lonnie Princehouse]</li>
-				<li>python: <a href="http://realmike.org" target="_blank">mfgraph</a> - C++ interface with native bindings for python [Michael F&ouml;etsch]</li>
-				<li>python: <a href="https://github.com/stricaud/gvgen" target="_blank">GvGen</a> - a python class to generate dot files [Sebastien Tricaud]</li>
-				<li>go: <a href="http://code.google.com/p/gographviz/" target="_blank">gographviz</a> - a Graphviz parser for go [Walter Schulze].</li>
-				<li>django: <a href="http://code.google.com/p/django-graphviz/" target="_blank">django-graphviz</a> - a Django app using Graphviz.</li>
-				<li>django: <a href="https://code.djangoproject.com/wiki/DjangoGraphviz" target="_blank">DjangoGraphviz</a> - Converts Django models into Graphviz DOT files.</li>
-				<li>java: <a href="http://sourceforge.net/projects/eclipsegraphviz/" target="_blank">Eclipse plugin</a></li>
-				<!-- Not Found
+<li>web: <a href="http://ociotec.com/index.php/2008/02/25/eht-graphviz-plugin-para-wordpress/" target="_blank">EHT Graphviz</a> plugin for <a href="http://wordpress.org/" target="_blank">Wordpress</a>, to allow Graphviz images to be easily integrated into a Wordpress page. [Emilio Gonz&aacute;lez Monta&ntilde;a]</li>
+<li>web: <a href="http://wordpress.org/plugins/wp-graphviz/" target="_blank">WP Graphviz</a> plugin for <a href="http://wordpress.org/" target="_blank">Wordpress</a>, to allow Graphviz images to be easily integrated into a Wordpress page. [<a href="http://profiles.wordpress.org/debaat/">DeBAAT</a>]</li>
+<li>python: <a href="http://code.google.com/p/pydot/" target="_blank">Pydot</a> - a python interface to Graphviz (Windows comptible).</li>
+<li>python: <a href="http://code.google.com/p/python-graph/" target="_blank">Python-Graph</a> - A library for working with graphs in Python.</li>
+<li>python: <a href="http://networkx.lanl.gov/pygraphviz/" target="_blank">PyGraphviz</a> - a python interface to Graphviz similar to NetworkX.</li>
+<li>python: <a href="http://yapgvb.sourceforge.net/" target="_blank">yapgvb</a> Yet Another Graphviz Python Binding [Lonnie Princehouse]</li>
+<li>python: <a href="http://realmike.org" target="_blank">mfgraph</a> - C++ interface with native bindings for python [Michael F&ouml;etsch]</li>
+<li>python: <a href="https://github.com/stricaud/gvgen" target="_blank">GvGen</a> - a python class to generate dot files [Sebastien Tricaud]</li>
+<li>go: <a href="http://code.google.com/p/gographviz/" target="_blank">gographviz</a> - a Graphviz parser for go [Walter Schulze].</li>
+<li>django: <a href="http://code.google.com/p/django-graphviz/" target="_blank">django-graphviz</a> - a Django app using Graphviz.</li>
+<li>django: <a href="https://code.djangoproject.com/wiki/DjangoGraphviz" target="_blank">DjangoGraphviz</a> - Converts Django models into Graphviz DOT files.</li>
+<li>java: <a href="http://sourceforge.net/projects/eclipsegraphviz/" target="_blank">Eclipse plugin</a></li>
+<!-- Not Found
 <li>java: a <a href="http://www.lmonson.com/downloads/dotparser/" target="_blank">parser</a> for dot files [Lynn Monson]</li>
-				<li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Grappa</a> (a GUI but offers basic graph classes) [John Mocenigo]</li>
+li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Grappa</a> (a GUI but offers basic graph classes) [John Mocenigo]</li>
 -->
-				<li>java: <a href="http://www.alexander-merz.com/graphviz/" target="_blank">JPGD</a>: A Java parser for Graphviz documents [Alexander Merz]</li>
-				<li>java: <a href="https://github.com/jabbalaci/graphviz-java-api" target="_blank">Java API</a> [Laszlo Szathmary]</li>
-				<li>C# and .NET: <a href="http://code.google.com/p/graphviznet/" target="_blank">graphviznet</a></li>
-				<li>C# and .NET: <a href="http://www.codeplex.com/quickgraph/" target="_blank">CodePlex QuickGraph</a></li>
-				<li>C# and .NET: <a href="http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/" target="_blank"> Tigris QuickGraph</a></li>
-				<li>COM: <a href="http://wingraphviz.sourceforge.net/wingraphviz/" target="_blank">WinGraphviz</a> component [Ood Tsen]</li>
-				<li>perl: <a href="https://metacpan.org/release/GraphViz2">Graphviz2</a> - perl interface, supports new options [Ron Savage]</li>
-				<li>perl: <a href="https://metacpan.org/release/GraphViz2-Marpa">GraphViz2::Marpa</a> - a Marpa-based parser for DOT files. [Ron Savage]</li>
-				<li>perl: <a href="http://search.cpan.org/~lbrocard/GraphViz-2.02/lib/GraphViz.pm" target="_blank"> A Perl interface to Graphviz</a> [Leon Brocard]</li>
-				<li>perl: <a href="http://search.cpan.org/~jgs/Tk-GraphViz/" target="_blank">Tk::GraphViz</a> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]</li>
-				<li>perl: <a href="http://search.cpan.org/~neilb/Graph-ReadWrite/">Graph-ReadWrite</a> - module that supports &#39;dot&#39; syntax graphs [Neil Bowers]</li>
-				<li>perl: <a href="http://search.cpan.org/search?dist=GraphViz-DBI" target="_blank"> GraphViz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]</li>
-				<li>perl: <a href="http://search.cpan.org/search?query=graphviz&amp;mode=all" target="_blank">100 more hits in CPAN</a></li>
-				<li>perl: <a href="http://search.cpan.org/~marcel/GraphViz-ISA-1.100860/lib/GraphViz/ISA.pm" target="_blank"> GraphViz::ISA</a> - graph Perl packages&#39; ISA runtime hierarchies [Marcel Grunauer]</li>
-				<li>perl: <a href="http://search.cpan.org/~tels/Graph-Easy/">Graph::Easy</a> is a rectilinear graph drawing program compatible with Graphviz and written<br />
-				entirely in perl for ease of installation. It also has a <a href="http://search.cpan.org/~tels/mediawiki-graph/" target="_blank">MediaWiki</a> extension. [Tels]</li>
-				<li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]</li>
-				<li>ruby: <a href="https://github.com/glejeune/Ruby-Graphviz/">Ruby-Graphviz</a> - Ruby interface to Graphviz [Gr&eacute;goire Lejeune]</li>
-				<li><a href="http://www.mathworks.com/matlabcentral/fileexchange/4518">MatLab</a> [Leon Peshkin]</li>
-				<li>R: see below for <a href="#Rgraphviz">R-Graphviz</a></li>
-				<li>HTML: the original <a href="https://gitlab.com/graphviz/webdot">webdot</a> in TCL [John Ellson]<br />
-				(also see this <a href="{{ site.url }}/_pages/Misc/webdot_cgi.txt">shell wrapper</a> to protect webdot servers from overload)<br />
-				and a simplified <a href="{{ site.url }}/_pages/Misc/webdot.pl">webdot.pl</a> in perl [Stephen North, with a huge assist from John Linderman]</li>
-				<li>dokuwiki: <a href="https://www.dokuwiki.org/plugin:graphviz">Create</a> directed and non-directed graph images from &ldquo;dot&rdquo; language [Andreas Gohr]</li>
-				<li>dokuwiki fork:&nbsp; Allows <a href="http://lnkd.in/4-p_zi">independent layers visualisation</a> using html check box [Matteo Nastasi]</li>
-			</ul>
+<li>java: <a href="http://www.alexander-merz.com/graphviz/" target="_blank">JPGD</a>: A Java parser for Graphviz documents [Alexander Merz]</li>
+<li>java: <a href="https://github.com/jabbalaci/graphviz-java-api" target="_blank">Java API</a> [Laszlo Szathmary]</li>
+<li>C# and .NET: <a href="http://code.google.com/p/graphviznet/" target="_blank">graphviznet</a></li>
+<li>C# and .NET: <a href="http://www.codeplex.com/quickgraph/" target="_blank">CodePlex QuickGraph</a></li>
+<li>C# and .NET: <a href="http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/" target="_blank"> Tigris QuickGraph</a></li>
+<li>COM: <a href="http://wingraphviz.sourceforge.net/wingraphviz/" target="_blank">WinGraphviz</a> component [Ood Tsen]</li>
+<li>perl: <a href="https://metacpan.org/release/GraphViz2">Graphviz2</a> - perl interface, supports new options [Ron Savage]</li>
+<li>perl: <a href="https://metacpan.org/release/GraphViz2-Marpa">GraphViz2::Marpa</a> - a Marpa-based parser for DOT files. [Ron Savage]</li>
+<li>perl: <a href="http://search.cpan.org/~lbrocard/GraphViz-2.02/lib/GraphViz.pm" target="_blank"> A Perl interface to Graphviz</a> [Leon Brocard]</li>
+<li>perl: <a href="http://search.cpan.org/~jgs/Tk-GraphViz/" target="_blank">Tk::GraphViz</a> - a perl module for displaying graphs in a perl/TK canvas [Jeremy Slade]</li>
+<li>perl: <a href="http://search.cpan.org/~neilb/Graph-ReadWrite/">Graph-ReadWrite</a> - module that supports &#39;dot&#39; syntax graphs [Neil Bowers]</li>
+<li>perl: <a href="http://search.cpan.org/search?dist=GraphViz-DBI" target="_blank"> GraphViz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]</li>
+<li>perl: <a href="http://search.cpan.org/search?query=graphviz&amp;mode=all" target="_blank">100 more hits in CPAN</a></li>
+<li>perl: <a href="http://search.cpan.org/~marcel/GraphViz-ISA-1.100860/lib/GraphViz/ISA.pm" target="_blank"> GraphViz::ISA</a> - graph Perl packages&#39; ISA runtime hierarchies [Marcel Grunauer]</li>
+<li>perl: <a href="http://search.cpan.org/~tels/Graph-Easy/">Graph::Easy</a> is a rectilinear graph drawing program compatible with Graphviz and written<br />entirely in perl for ease of installation. It also has a <a href="http://search.cpan.org/~tels/mediawiki-graph/" target="_blank">MediaWiki</a> extension. [Tels]</li>
+<li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]</li>
+<li>ruby: <a href="https://github.com/glejeune/Ruby-Graphviz/">Ruby-Graphviz</a> - Ruby interface to Graphviz [Gr&eacute;goire Lejeune]</li>
+<li><a href="http://www.mathworks.com/matlabcentral/fileexchange/4518">MatLab</a> [Leon Peshkin]</li>
+<li>R: see below for <a href="#Rgraphviz">R-Graphviz</a></li>
+<li>HTML: the original <a href="https://gitlab.com/graphviz/webdot">webdot</a> in TCL [John Ellson]<br /> (also see this <a href="{{ site.url }}/_pages/Misc/webdot_cgi.txt">shell wrapper</a> to protect webdot servers from overload)<br />and a simplified <a href="{{ site.url }}/_pages/Misc/webdot.pl">webdot.pl</a> in perl [Stephen North, with a huge assist from John Linderman]</li>
+<li>dokuwiki: <a href="https://www.dokuwiki.org/plugin:graphviz">Create</a> directed and non-directed graph images from &ldquo;dot&rdquo; language [Andreas Gohr]</li>
+<li>dokuwiki fork:&nbsp; Allows <a href="http://lnkd.in/4-p_zi">independent layers visualisation</a> using html check box [Matteo Nastasi]</li>
+</ul>
 			<!-- -------------------- -->
 
-			<h4><a name="generators-and-translators">Generators and Translators</a></h4>
+<h4><a name="generators-and-translators">Generators and Translators</a></h4>
 
-			<p>Filters that transform other data sources and formats into Graphviz.</p>
+<p>Filters that transform other data sources and formats into Graphviz.</p>
 
-			<ul>
-				<li><a href="https://sourceforge.net/projects/excel-to-graphviz/">ExcelToGraphviz</a>, a tool for visualizing Excel data as graphs [Matt Castelli]</li>
-				<li><a href="http://drupal.org/project/graphapi/">Graph API</a>, a Drupal graph generation module with Graphviz Dot output capabilities. [Sebastian Daniel]</li>
-				<li><a href="http://schemaspy.sourceforge.net/">SchemaSpy</a> analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables [John Currier]</li>
-				<li><a href="http://www.worldcat.org/xissn/titlehistory">WorldCat xISSN</a> shows the history of a journal indexed by ISSN [OCLC Online Computer Library Center, Inc.]</li>
-				<li><a href="http://www.softwaresecretweapons.com/lm_hibernate.html">Linguine Maps</a> visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming [Pavel Simakov]</li>
-				<li><a href="https://github.com/cbbrowne/autodoc">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]</li>
-				<li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render [Martin Loetzsch]</li>
-				<li><a href="http://www.martin-loetzsch.de/S-DOT/">S-DOT</a> - a Common Lisp interface to dot [also Martin Loetzsch]</li>
-				<li><a href="{{ site.url }}/_pages/Misc/sql2dot/">Sql2Dot</a> - a tiny parser in Java to transform sql into dot for visualizing data structures [Robert Dale]</li>
-				<li><a href="http://www.codeproject.com/Articles/4603/A-scripted-SQL-query-generation-framework-with-IDE">SqlPP</a> - a scripted SQL query generation framework that generates graphviz</li>
-				<li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) [Szil&aacute;rd Vajda]</li>
-				<li>gprof filters - <a href="{{ site.url }}/_pages/Misc/pl_from_gprof.pl">pl_from_gprof</a> and <a href="{{ site.url }}/_pages/Misc/dot_from_pl.pl">dot_from_pl</a> [Robert Nielsen] and an old <a href="{{ site.url }}/_pages/Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]</li>
-				<!--
+<ul>
+<li><a href="https://sourceforge.net/projects/excel-to-graphviz/">ExcelToGraphviz</a>, a tool for visualizing Excel data as graphs [Matt Castelli]</li>
+<li><a href="http://drupal.org/project/graphapi/">Graph API</a>, a Drupal graph generation module with Graphviz Dot output capabilities. [Sebastian Daniel]</li>
+<li><a href="http://schemaspy.sourceforge.net/">SchemaSpy</a> analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables [John Currier]</li>
+<li><a href="http://www.worldcat.org/xissn/titlehistory">WorldCat xISSN</a> shows the history of a journal indexed by ISSN [OCLC Online Computer Library Center, Inc.]</li>
+<li><a href="http://www.softwaresecretweapons.com/lm_hibernate.html">Linguine Maps</a> visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming [Pavel Simakov]</li>
+<li><a href="https://github.com/cbbrowne/autodoc">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]</li>
+<li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render [Martin Loetzsch]</li>
+<li><a href="http://www.martin-loetzsch.de/S-DOT/">S-DOT</a> - a Common Lisp interface to dot [also Martin Loetzsch]</li>
+<li><a href="{{ site.url }}/_pages/Misc/sql2dot/">Sql2Dot</a> - a tiny parser in Java to transform sql into dot for visualizing data structures [Robert Dale]</li>
+<li><a href="http://www.codeproject.com/Articles/4603/A-scripted-SQL-query-generation-framework-with-IDE">SqlPP</a> - a scripted SQL query generation framework that generates graphviz</li>
+<li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) [Szil&aacute;rd Vajda]</li>
+<li>gprof filters - <a href="{{ site.url }}/_pages/Misc/pl_from_gprof.pl">pl_from_gprof</a> and <a href="{{ site.url }}/_pages/Misc/dot_from_pl.pl">dot_from_pl</a> [Robert Nielsen] and an old <a href="{{ site.url }}/_pages/Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]</li>
+<!--
 <li><a href="http://www.juabus.ch/ClanDraw/ClanDraw.pdf" target="_blank">ClanDraw</a> family relationship (genealogy) visualization, works with GEDCOM, Java 1.5 [Hansuli Anderegg]</li>
 -->
-				<li><a href="http://code.google.com/p/dbgraphnav/">DBGraphNav</a>, a tool to facilitate the browsing of data within relational databases. [Paul McMillan]</li>
-				<li><a href="http://sourceforge.net/projects/emf2gv/" target="_blank">EMF To Graphviz</a>, an Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz.</li>
-			</ul>
-			<!-- -------------------- -->
+<li><a href="http://code.google.com/p/dbgraphnav/">DBGraphNav</a>, a tool to facilitate the browsing of data within relational databases. [Paul McMillan]</li>
+<li><a href="http://sourceforge.net/projects/emf2gv/" target="_blank">EMF To Graphviz</a>, an Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz.</li>
+</ul>
+<!-- -------------------- -->
 
-			<h4><a name="network-and-web">Network and Web Engineering Tools Using Graphviz</a></h4>
+<h4><a name="network-and-web">Network and Web Engineering Tools Using Graphviz</a></h4>
 
-			<ul>
-				<li><a href="http://dnsviz.net/">DNSViz</a>, a DNS visualization tool</li>
-				<li><a href="http://www.hokstad.com/traceviz-visualizing-traceroute-output-with-graphivz.html">TraceViz</a> Traceroute visualization with sharp-looking SVG styles [Vidar Hokstad]</li>
-				<li><a href="http://afterglow.sourceforge.net/">afterglow</a> is a collection of scripts to generate graphs for Graphviz (and LGL), from various network logs and firewall rulesets [Raffael Marty] (see also <a href="http://dev.inversepath.com/trac/tenshi">tenshi</a> for logfile filtering)</li>
-				<li><a href="http://sourceforge.net/projects/safemap">SMART</a> passive network flow visualization tool [Cisco&#39;s Critical Infrastructure Assurance Group (CIAG) Research team]</li>
-				<li><a href="http://www.csoonline.com/article/348317/What_a_Botnet_Looks_Like">CSO Online</a>: What a Botnet Looks like (Flash) [David Vorel]</li>
-				<li><a href="http://map.efnet.net">EFnet</a> IRC Network server routing maps [Douglas Boldt] <!--- seems dead
-
-<li> <a href="http://freecode.com/projects/spamviz">SpamViz</a> generates *.dot
-
-file of network resources - primary intent is spam-net hunting,
-
-but any domain can be graphed [Mike Zick]
-
+<ul>
+<li><a href="http://dnsviz.net/">DNSViz</a>, a DNS visualization tool</li>
+<li><a href="http://www.hokstad.com/traceviz-visualizing-traceroute-output-with-graphivz.html">TraceViz</a> Traceroute visualization with sharp-looking SVG styles [Vidar Hokstad]</li>
+<li><a href="http://afterglow.sourceforge.net/">afterglow</a> is a collection of scripts to generate graphs for Graphviz (and LGL), from various network logs and firewall rulesets [Raffael Marty] (see also <a href="http://dev.inversepath.com/trac/tenshi">tenshi</a> for logfile filtering)</li>
+<li><a href="http://sourceforge.net/projects/safemap">SMART</a> passive network flow visualization tool [Cisco&#39;s Critical Infrastructure Assurance Group (CIAG) Research team]</li>
+<li><a href="http://www.csoonline.com/article/348317/What_a_Botnet_Looks_Like">CSO Online</a>: What a Botnet Looks like (Flash) [David Vorel]</li>
+<li><a href="http://map.efnet.net">EFnet</a> IRC Network server routing maps [Douglas Boldt]
+<!--- seems dead
+<li> <a href="http://freecode.com/projects/spamviz">SpamViz</a> generates *.dot file of network resources - primary intent is spam-net hunting, but any domain can be graphed [Mike Zick]
 --></li>
-				<li><a href="http://netmap.sourceforge.net/">netmap</a> draws the route connecting you with the Internet</li>
-				<li><a href="http://pear.php.net/package-info.php?package=Image_Graphviz">Image_Graphviz</a> class in PHP&#39;s <a href="http://pear.php.net/">PEAR repository</a> [Sebastian Bergmann]</li>
-				<li><a href="http://www.phpopentracker.de/">phpOpenTracker</a> provides a framework solution for the analysis of website traffic and visitor analysis. [Sebastian Bergmann]</li>
-				<li><a href="http://pathalizer.sourceforge.net/">Pathalizer</a> visualizes paths traversed by users through web sites [Arnout Engelen]</li>
-				<li><a href="http://www.chaosreigns.com/code/apache2dot/">apache2dot</a> Apache log file visualizer</li>
-				<li><a href="http://www.chaosreigns.com/code/sig2dot/">sig2dot</a> generates a graph of all of the signature relationships in a GPG/PGP keyring</li>
-				<li><a href="http://www.hotscripts.com/listing/php-traverser/">PHP+Graphviz tool</a> that makes a sitemap of a web site dynamically [Laszlo Szathmary]</li>
-				<li><a href="http://www.cs.washington.edu/research/networking/rocketfuel/">Rocketfuel</a> ISP mapper (well, look <a href="http://www.cs.washington.edu/research/networking/rocketfuel/interactive/">here</a>) [U. Washington]</li>
-				<li><a href="http://www.zonecut.net/dns/">DNS server visualization</a></li>
-				<li><a href="https://web.archive.org/web/20071104191340/http://www.grotto-group.com/~gulfie/projects/analysis/tcpdump2dot.subpage.html">tcpdump2dot filter</a> to allow admins to network activity [Gulfie]</li>
-			<li><a href="http://www.hping.org/visitors/">Visitors, a fast web log analyzer</a> uses graphviz to display usage patterns showing how users are using your web site. [Salvatore Sanfilippo]</li>
-				<li><a href="http://jekor.com/gressgraph/">Visualize your firewall</a> uses graphviz to produce a graph of your iptables ruleset. [Chris Forno]</li>
-				<li><a href="https://graph-tool.skewed.de/">graph-tool</a>, an efficient python module for manipulation and statistical analysis of graphs, which includes an interface to GraphViz, via its python bindings. [Tiago de Paula Peixoto]</li>
-			</ul>
-			<p>Users interested in general network monitoring tools can find a comparison of some <a href="https://www.comparitech.com/net-admin/network-monitoring-tools/">here</a>.</p>
-			<!-- -------------------- -->
+<li><a href="http://netmap.sourceforge.net/">netmap</a> draws the route connecting you with the Internet</li>
+<li><a href="http://pear.php.net/package-info.php?package=Image_Graphviz">Image_Graphviz</a> class in PHP&#39;s <a href="http://pear.php.net/">PEAR repository</a> [Sebastian Bergmann]</li>
+<li><a href="http://www.phpopentracker.de/">phpOpenTracker</a> provides a framework solution for the analysis of website traffic and visitor analysis. [Sebastian Bergmann]</li>
+<li><a href="http://pathalizer.sourceforge.net/">Pathalizer</a> visualizes paths traversed by users through web sites [Arnout Engelen]</li>
+<li><a href="http://www.chaosreigns.com/code/apache2dot/">apache2dot</a> Apache log file visualizer</li>
+<li><a href="http://www.chaosreigns.com/code/sig2dot/">sig2dot</a> generates a graph of all of the signature relationships in a GPG/PGP keyring</li>
+<li><a href="http://www.hotscripts.com/listing/php-traverser/">PHP+Graphviz tool</a> that makes a sitemap of a web site dynamically [Laszlo Szathmary]</li>
+<li><a href="http://www.cs.washington.edu/research/networking/rocketfuel/">Rocketfuel</a> ISP mapper (well, look <a href="http://www.cs.washington.edu/research/networking/rocketfuel/interactive/">here</a>) [U. Washington]</li>
+<li><a href="http://www.zonecut.net/dns/">DNS server visualization</a></li>
+<li><a href="https://web.archive.org/web/20071104191340/http://www.grotto-group.com/~gulfie/projects/analysis/tcpdump2dot.subpage.html">tcpdump2dot filter</a> to allow admins to network activity [Gulfie]</li>
+<li><a href="http://www.hping.org/visitors/">Visitors, a fast web log analyzer</a> uses graphviz to display usage patterns showing how users are using your web site. [Salvatore Sanfilippo]</li>
+<li><a href="http://jekor.com/gressgraph/">Visualize your firewall</a> uses graphviz to produce a graph of your iptables ruleset. [Chris Forno]</li>
+<li><a href="https://graph-tool.skewed.de/">graph-tool</a>, an efficient python module for manipulation and statistical analysis of graphs, which includes an interface to GraphViz, via its python bindings. [Tiago de Paula Peixoto]</li>
+</ul>
+<p>Users interested in general network monitoring tools can find a comparison of some <a href="https://www.comparitech.com/net-admin/network-monitoring-tools/">here</a>.</p>
 
-			<h4><a name="ai-and-language">AI and Language Tools Using Graphviz</a></h4>
+<!-- -------------------- -->
 
-			<ul>
+<h4><a name="ai-and-language">AI and Language Tools Using Graphviz</a></h4>
+
+<ul>
 				<li>Andreas Romeyke&#39;s <a href="http://andreas-romeyke.de/txt2graph/txt2graph.html"> txt2graph</a> - visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout</li>
 				<li><a href="http://protegewiki.stanford.edu/wiki/OntoViz">Ontoviz</a> is a plugin for displaying knowledge base diagrams in the <a href="http://protege.stanford.edu/">Protoge</a> system</li>
 				<li><a href="http://www.canoo.net/services/WordformationDictionary/Controller">CanooNet </a>, a German word formation dictionary. (Try <a href="http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&amp;input=blockfl%F6te&amp;features=%28Cat+N%29%28Gender+F%29&amp;lang=de&amp;country=CH&amp;lookup=caseInSensitive"><em>Blockfl&ouml;te</em></a>, <a href="http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&amp;input=hochschule&amp;features=%28Cat+N%29%28Gender+F%29&amp;lang=de&amp;country=CH&amp;lookup=caseInSensitive"><em>Hochschule</em></a>, or <a href="http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&amp;input=massanzug&amp;features=%28Cat+N%29%28Gender+M%29&amp;lang=de&amp;country=CH&amp;lookup=caseInSensitive"><em>Massanzug</em></a> in the entry field)</li>
 				<li><a href="http://www.hotscripts.com/listing/dawgcreator/">DAWG CREATOR</a>, a C++ class for creating a prefix tree representation of a given lexicon.</li>
 				<li><a href="http://blog.prashanthellina.com/topic-extraction-using-wikipedia-data.html">Topic extraction using Wikipedia data</a>.</li>
 				<li><a href="http://fcastone.sourceforge.net/">FcaStone</a> lays out algebraic lattices in the sense of Formal Concept Analysis. (Try the <a href="http://www.upriss.org.uk/fca/fcademo.html">demo</a> or the <a href="http://www.ketlab.org.uk/roget.html"> lattice visualisations of Roget&#39;s Thesaurus</a>). [Uta Priss]</li>
-			</ul>
-			<!-- -------------------- -->
+</ul>
 
-			<h4><a name="software-engineering">Programming and Software Engineering Tools Using Graphviz</a></h4>
+<!-- -------------------- -->
 
-			<ul>
-				<li><a href="https://cairis.org/"/>CAIRIS</a> is a platform for specifying and modelling secure and usable systems. [Shamal Faily]</li>
+<h4><a name="software-engineering">Programming and Software Engineering Tools Using Graphviz</a></h4>
+
+<ul>
+				<li><a href="https://cairis.org/">CAIRIS</a> is a platform for specifying and modelling secure and usable systems. [Shamal Faily]</li>
 				<li><a href="https://github.com/BurntSushi/erd"/>ERD</a> translates a plain text description of a relational database schema to a graphical entity-relationship diagram. [Andrew Gallant]</li>
 				<li><a href="https://fedorahosted.org/TheHat/">TheHat workflow engine</a> based on IRC, XMPP (Jabber) shows workflows in auto-refreshing webpages [Dave Parker]</li>
 				<li><a href="http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html">anifsm</a> animates graphs in dot format via tcldot (part of the <a href="http://fmt.cs.utwente.nl/tools/torxviz/">TorX</a> software visualization suite) [Alex Belinfante and TorX consortium]</li>
@@ -233,13 +226,13 @@ but any domain can be graphed [Mike Zick]
 				<li><a href="http://code.google.com/p/scxml2dot/">scxml2dot</a> - a very simple conversion function in perl to plot a finite state machine written in scxml using the graphviz tools. [Fabrizio Morbini]</li>
 				<li><a href="http://slopjong.de/2011/02/26/whats-erviz/" target="_blank">Erviz</a>, an entity-relationship diagram generator that converts plain text files to DOT-formatted graphical files for Graphviz. [Mitsuru Kono]</li>
 				<li><a href="http://www.symfony-project.org/plugins/sfApplicationMapPlugin">Symfony application-map plugin</a>, an easy-to-use documentation tool for the symfony framework community. [Tomasz Ducin]</li>
-			</ul>
+</ul>
 
-			<h4><a name="bio-informatics">Bioinformatics and Cheminformatics Tools and Resources Using Graphviz</a></h4>
+<h4><a name="bio-informatics">Bioinformatics and Cheminformatics Tools and Resources Using Graphviz</a></h4>
 
-			<p>Relational structures abound in the study of biological and chemical information. The following list barely scratches the surface.</p>
+<p>Relational structures abound in the study of biological and chemical information. The following list barely scratches the surface.</p>
 
-			<ul>
+<ul>
 				<li><a href="https://github.com/peter-lind/hasse-manager/tree/master/HasseManager" >HasseManager</a> for visualizing relations between chemical structures used in fragment-based drug discovery, as described in the <a href="http://pubs.acs.org/doi/abs/10.1021/ci4004464">Journal of&nbsp;Chemical Information and Modelling</a> [Peter Lind]</li>
 				<li><a href="http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html" name="Rgraphviz">R-Graphviz</a> (<a href="http://www.bioconductor.org/packages/release/bioc/vignettes/Rgraphviz/inst/doc/newRgraphvizInterface.pdf">guide</a>) from the Bio-Conductor project integrates graphs and statistical models. [Robert Gentleman, Jeff Gentry and the R team]</li>
 				<li><em>Science</em> Online <a href="http://www.stke.org/">protein database visualization</a> (click on Connections - free registration and <a href="http://www.adobe.com/svg/viewer/install/main.html"> SVG plugin</a> required, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox) [American Association for the Advancement of Science (AAAS) and Stanford University Digital Libraries Project]</li>
@@ -247,12 +240,13 @@ but any domain can be graphed [Mike Zick]
 <!--
 				<li><a href="http://cmap.nci.nih.gov/PW">cancer.gov</a>: National Cancer Institute (NIH) pathway interaction database (CMAP) (requires <a href="http://www.adobe.com/svg/viewer/install/main.html">SVG plugin</a>, may need <a href="http://www.adobe.com/svg/viewer/install/beta.html">beta</a> for Mozilla FireFox) [Kotien Wu]</li>
 -->
-			</ul>
-			<!-- -------------------- -->
+</ul>
 
-			<h4><a name="document-preparation">Document preparation with Graphviz</a></h4>
+<!-- -------------------- -->
 
-			<ul>
+<h4><a name="document-preparation">Document preparation with Graphviz</a></h4>
+
+<ul>
 				<li><a href="https://dot2tex.readthedocs.io/en/latest/">dot2tex</a> is a LaTeX-friendly converter from Graphviz (xdot) to converting xdot PSTricks or PGF/TikZ commands, with support for LaTeX labels and arrows. [Kjell Magne Fauske]</li>
 				<li><a href="http://ppareit.github.com/graphviz-dot-mode">graphviz mode for emacs</a> (or <a href="{{ site.url }}/_pages/Misc/graphviz-dot-mode.el">here</a>).</li>
 				<li><a href="http://brighten.bigw.org/projects/ladot/">Ladot</a>: scripts for including LaTeX in your Graphviz files [Brighten Godfrey]</li>
@@ -268,16 +262,18 @@ but any domain can be graphed [Mike Zick]
 <!--
 				<li><a href="http://web.ncf.ca/en493/GRAPHVIZ/">TeX and PSTRICKS</a> describes how to use PSTRICKS in conjunction with TeX to include Graphviz PostScript output into TeX documents. This approach makes further manipulation, such as rotation,shifting, etc. easy. [Roger Herz-Fischler]</li>
 -->
-			</ul>
-			<!-- -------------------- -->
+</ul>
 
-			<h4><a name="social-networking">Social Networking and Collaborative Work</a></h4>
+<!-- -------------------- -->
 
-			<ul>
+<h4><a name="social-networking">Social Networking and Collaborative Work</a></h4>
+
+<ul>
 				<li><a href="http://www2.research.att.com/~volinsky/cgi-bin/prox/prox.pl">Proximity Subgraphs</a> - visualize communities in the Internet Movie Database</li>
 				<li><a href="http://www.hammondjazz.net/index.php?page=article&amp;task=current&amp;mode=detail&amp;section=News&amp;target=70">Hammond Jazz Inventory</a> - show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!)</li>
-			</ul>
-			<!-- -------------------- -->
+</ul>
+
+<!-- -------------------- -->
 
 <h4><a name="third-party-distributions">Third-Party Distributions</a></h4>
 
