@@ -186,7 +186,7 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 
 <ul>
 				<li><a href="https://cairis.org/">CAIRIS</a> is a platform for specifying and modelling secure and usable systems. [Shamal Faily]</li>
-				<li><a href="https://github.com/BurntSushi/erd"/>ERD</a> translates a plain text description of a relational database schema to a graphical entity-relationship diagram. [Andrew Gallant]</li>
+				<li><a href="https://github.com/BurntSushi/erd">ERD</a> translates a plain text description of a relational database schema to a graphical entity-relationship diagram. [Andrew Gallant]</li>
 				<li><a href="https://fedorahosted.org/TheHat/">TheHat workflow engine</a> based on IRC, XMPP (Jabber) shows workflows in auto-refreshing webpages [Dave Parker]</li>
 				<li><a href="http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html">anifsm</a> animates graphs in dot format via tcldot (part of the <a href="http://fmt.cs.utwente.nl/tools/torxviz/">TorX</a> software visualization suite) [Alex Belinfante and TorX consortium]</li>
 				<li><a href="http://www.doxygen.org/">doxygen</a> uses graphviz to produce class hierarchies and other diagrams directly from source code [Dimitri van Heesch]</li>
