@@ -8,7 +8,7 @@ layout: default
 
 <h1><strong>Welcome to Graphviz</strong></h1>
 
-Please join the brand new (March 2020) <a href="https://graphviz.discourse.group" target="_blank">Graphviz forum</a> to ask questions and discuss Graphviz.
+Please join the brand new (March 2020) <a href="https://forum.graphviz.org" target="_blank">Graphviz forum</a> to ask questions and discuss Graphviz. <b>Note: </b> The URL is new since May 6 2020. Please update your bookmarks.
 
 <h2><strong>What is Graphviz?</strong></h2>
 
@@ -46,7 +46,7 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 
 <h2><strong>Discussions</strong></h2>
 
-<p>You can post questions and comments in the <a href="https://graphviz.discourse.group" target="_blank">Graphviz forum</a>.<br />
+<p>You can post questions and comments in the <a href="https://forum.graphviz.org" target="_blank">Graphviz forum</a>.<br />
 
 <h2><strong>Bug And Issue Tracking</strong></h2>
 
