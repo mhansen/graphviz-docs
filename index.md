@@ -8,7 +8,7 @@ layout: default
 
 <h1><strong>Welcome to Graphviz</strong></h1>
 
-Please join the brand new (March 2020) <a href="https://graphviz.discourse.group" target="_blank">Graphviz forum</a> to ask questions and discuss Graphviz.
+Please join the brand new (March 2020) <a href="https://forum.graphviz.org" target="_blank">Graphviz forum</a> to ask questions and discuss Graphviz. <b>Note: </b> The URL is new since May 6 2020. Please update your bookmarks.
 
 <h2><strong>What is Graphviz?</strong></h2>
 
