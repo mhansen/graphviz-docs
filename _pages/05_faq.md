@@ -5,7 +5,7 @@ permalink: /faq/
 order: 9
 ---
          
-If you cannot find the answer to your question here, ask it in the <a href="https://graphviz.discourse.group" target="_blank">Graphviz forum</a>.
+If you cannot find the answer to your question here, ask it in the <a href="https://forum.graphviz.org" target="_blank">Graphviz forum</a>.
 
 
 ## Contributions
@@ -89,7 +89,7 @@ See <A HREF="{{ site.url }}/_pages/doc/info/attrs.html">Graph Attributes</A>. Th
 
 ### <a name="FaqDiscuss"></a>Where can I discuss Graphviz?
 
-Post questions and comments in the <a href="https://graphviz.discourse.group" target="_blank">Graphviz forum</a>
+Post questions and comments in the <a href="https://forum.graphviz.org" target="_blank">Graphviz forum</a>
 ### <a name="FaqLarger"></a>I'm trying to make a layout larger. How?
 
 There are various ways to increase the size of a layout. In doing this, one has to decide if the sizes of the nodes and text should be increased as well.

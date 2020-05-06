@@ -46,7 +46,7 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 
 <h2><strong>Discussions</strong></h2>
 
-<p>You can post questions and comments in the <a href="https://graphviz.discourse.group" target="_blank">Graphviz forum</a>.<br />
+<p>You can post questions and comments in the <a href="https://forum.graphviz.org" target="_blank">Graphviz forum</a>.<br />
 
 <h2><strong>Bug And Issue Tracking</strong></h2>
 
