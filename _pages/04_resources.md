@@ -70,6 +70,7 @@ possible, a recommendation as to appropriate category for the resource.
 <p>Interfaces that allow graphviz to be called from a general purpose language or system.</p>
 
 <ul>
+<li>swift: <a href="https://github.com/swiftDocOrg/graphviz" target="_blank">GraphViz</a> - a Swift package for Graphviz [Mattt]</li>
 <li>web: <a href="http://www.mediawiki.org/wiki/Extension:GraphViz" target="_blank">MediaWiki</a> extension [Coffman]</li>
 <li>web: <a href="http://drupal.org/project/graphviz_filter">Drupal</a> Graphviz filter [Karim Ratib]</li>
 <!-- Bad Link  Blank Page
