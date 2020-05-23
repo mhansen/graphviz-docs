@@ -21,7 +21,6 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://graphviz.gitlab.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 gitlib_username:  emden
 stablesource: "http://www2.graphviz.org/Packages/stable/portable_source"
 develsource: "http://www2.graphviz.org/Packages/development/portable_source"
@@ -34,7 +33,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 # theme: jekyll-theme-cayman
-plugins: ['jekyll-twitter-plugin','jekyll-redirect-from']
+plugins: ['jekyll-redirect-from']
 whitelist: ['jekyll-redirect-from']
 gems:
   - jekyll-feed
