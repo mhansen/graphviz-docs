@@ -31,7 +31,7 @@ You may find it useful to try one of the following third-party sites.
 ### Windows
 
 * [Development Windows install packages](https://ci.appveyor.com/project/ellson/graphviz-pl238)
-* [Stable 2.38 Windows install packages]({{ site.url }}/_pages/Download/Download_windows.html)
+* [Stable 2.44 Windows install packages](https://ci.appveyor.com/project/ellson/graphviz-pl238/builds/32032002)
 * [Cygwin Ports](http://sourceware.org/cygwinports/)* provides a port of Graphviz to Cygwin.
 * [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
 
