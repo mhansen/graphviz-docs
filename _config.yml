@@ -24,6 +24,7 @@ url: "https://graphviz.gitlab.io" # the base hostname & protocol for your site, 
 gitlib_username:  emden
 stablesource: "http://www2.graphviz.org/Packages/stable/portable_source"
 develsource: "http://www2.graphviz.org/Packages/development/portable_source"
+gitlab_repo: https://gitlab.com/graphviz/graphviz.gitlab.io
 
 # Build settings
 sass:
