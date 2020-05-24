@@ -37,7 +37,6 @@ kramdown:
 plugins: ['jekyll-redirect-from']
 whitelist: ['jekyll-redirect-from']
 gems:
-  - jekyll-feed
 exclude:
   - vendor
   - Gemfile
