@@ -96,7 +96,7 @@ There are various ways to increase the size of a layout. In doing this, one has 
 
 One approach is to adjust individual parameters such as fontsize, nodesep and ranksep. For example,
 
-```C++
+```dot
 digraph G {
   graph [fontsize=24]
   edge [fontsize=24]
@@ -113,7 +113,7 @@ setting, like `size="6,6"`, which will then scale everything back down.
 
 If you are using fdp or neato, increasing the edge len will tend to expand the layout.
 
-```C++
+```dot
 graph G {
   edge [len=3]
   a -- { b c d }
@@ -142,7 +142,7 @@ up. Make sure to adjust the BoundingBox too if your tools look at this header.
 
 You can try running `dot -Gconcentrate=true` or you can introduce your own virtual nodes drawn as tiny circles where you want to split or join edges:
 
-```C++
+```dot
 digraph G {
   yourvirtualnode [shape=circle,width=.01,height=.01,label=""]
   a -> yourvirtualnode [arrowhead=none]
@@ -171,7 +171,7 @@ In the diagram below, the shaded nodes will contain bad output.
 
 Make unique nodes with duplicate labels.
 
-```C++
+```dot
 digraph G {
   node001 [label = "A"]
   node002 [label = "A"]
@@ -199,7 +199,7 @@ When a tree node has an even number of children, it isn't necessarily centered a
 If you know the order of the children, a simple hack is to introduce new, invisible middle nodes to re-balance the layout. 
 The connecting edges should also be invisible. For example:
 
-```C++
+```dot
 digraph G {
   a -> b0
   xb [label="",width=.1,style=invis]
@@ -228,7 +228,7 @@ clipped to the exterior of the box around the given cluster.
 
 For example,
 
-```C++
+```dot
 digraph G {
   compound=true; nodesep=1.0;
   subgraph cluster_A {
@@ -243,7 +243,7 @@ digraph G {
 
 has an edge going from `cluster_A` to `cluster_B`. If, instead, you say
 
-```C++
+```dot
 a -> e [ltail=cluster_A];
 ```
 
@@ -268,8 +268,8 @@ options are:
 
 The full command line to render a raster could be something like:
 
-```
-gs -q -dNOPAUSE -dBATCH -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -sDEVICE=png16m -sOutputFile=file.png file.ps
+```bash
+$ gs -q -dNOPAUSE -dBATCH -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -sDEVICE=png16m -sOutputFile=file.png file.ps
 ```
 
 On Mac OS X, the pixelglow port uses Apple's Quartz renderer, which enables antialiasing. It also provides a beautiful document container for its user interface. 
@@ -284,7 +284,7 @@ It's not us! It's probably your printer setup. If you don't believe this, run `d
 
 Use UTF8 coding, e.g. &#165; for the Yen currency symbol ¥. Example:
 
-```C++
+```dot
 graph G {
   yen [label="&#165;"]
 }
@@ -342,7 +342,7 @@ such as dotty or Grappa. At least SVG has interactive renderers, and PostScript 
 If using SVG (`-Tsvg`), PostScript (`-Tps,-Tps2`) or one of the raster formats (`-Tgif, -Tpng, or -Tjpg`), you can load certain images (e.g., pictures) by file name into 
 nodes. For example:
 
-```
+```dot
    yournode [image="yourface.gif"];
 ```
 
@@ -372,7 +372,7 @@ file must have a valid BoundingBox header and not do drastic things to the graph
 
 To import an external PostScript file, set the `shape` and `shapefile` attributes as shown here:
 
-```
+```dot
 	somenode  [shape=epsf, shapefile="yourfile.ps" ];
 ```
 
@@ -385,13 +385,13 @@ The use of `[shape=epsf, shapefile="yourfile.ps" ]` is largely superceded by the
 If using the PostScript driver (`dot -Tps`), you can define a PostScript procedure for shape drawing. The procedure must be able to draw variable-sized shapes. 
 A file containing the definition can be loaded as a command line argument using the -l flag:
 
-```
-	dot  -Tps -l yourPS.ps  file.dot -o file.ps
+```bash
+	$ dot  -Tps -l yourPS.ps  file.dot -o file.ps
 ```
 
 In the graph file, invoke the shape like this:
 
-```
+```dot
 	somenode [shape=yourshape]
 ```
 
@@ -511,7 +511,7 @@ example below corresponds to the layers pvt, test, new, and ofc. The `all:pvt,ne
 
 As an example, the graph:
 
-```C++
+```dot
 digraph G {
 	layers="local:pvt:test:new:ofc";
 
@@ -539,7 +539,7 @@ node or edge without a layer attribute is incident with an edge or node without 
 
 To change the default so that nodes and edges with no layer attribute appear on all layers, insert
 
-```
+```dot
 	node [layer=all];
 	edge [layer=all];
 ```
@@ -561,7 +561,7 @@ Custom layer colors can be created by setting the value of this array.
  * turn off layer coloring entirely and just use the colors inherent in the drawing.
  * forcing nodes/edges in a given subgraph to take certain attributes. Might require a hook in the libgraph parser. It would be pretty easy to support the semantics: for every node/edge in this subgraph, assign it the default attributes that differ from the defaults of the parent of this graph. What you need to avoid is the problem exposed in the following example:
 
-```
+```dot
   subgraph sub0 {
     node [color=red];
     a; b; c;
@@ -598,10 +598,10 @@ See also, How To Avoid Foolish Consistency by Scott Berkun (Microsoft Corp.)
 
 The [page](/doc/info/attrs.html#dpage) attribute, if set, tells Graphviz to print the graph as an array of pages of the given size. Thus, the graph
 
-```C++
+```dot
 digraph G {
   page="8.5,11";
-  ..
+  ...
 }
 ```
 
@@ -642,8 +642,8 @@ Edit the file dotty.lefty and change the line that says: 'edgehandles' = 1; to '
 
 Put the graph with layout attributes into a dot file. Then run `neato -n2`. For example:
 
-```
-neato -n2 -Tgif file.dot -o file.gif
+```bash
+$ neato -n2 -Tgif file.dot -o file.gif
 ```
 
 Note that if an edge does not have a `pos` attribute defined, neato will perform whatever edge routing it would normally do. All of the 
@@ -669,7 +669,7 @@ Use the `-Tcmapx` command line option. See [here](/doc/info/output.html#dcmapx) 
 
 Make sure that your server has map files enabled. For example, if running apache, check that httpd.conf has a line like the following:
 
-```
+```apache
 AddHandler imap-file map
 ```
 
@@ -707,8 +707,8 @@ Use the graph attribute [overlap](/doc/info/attrs.html#doverlap).
 
 Use the `overlap` attribute to leave room among the nodes, then use `-Gsplines=true`.
 
-```C++
-neato -Goverlap=... -Gsplines=true -Gsep=.1
+```bash
+$ neato -Goverlap=... -Gsplines=true -Gsep=.1
 ```
 
 The `sep` argument is the node-edge separation as a ratio of a node's bounding box. That is, `sep=.1` means each node is treated as though it is 1.1 
@@ -728,7 +728,7 @@ If that is not possible (e.g., the file is too large), you need to tell `agread(
 assumes you are passing it a `FILE*` generated by the version of stdio that was used to compile Graphviz, and uses that version of `fgets` to read the stream. 
 To pass in your own reader, use the third argument:
 
-```C++
+```c++
 Agdisc_t mydisc;
 Agodisc_t myiodisc;
 
@@ -742,7 +742,7 @@ myiodisc.flush = NULL;   // only need to set if calling gvRender()
 
 The reader function has type
 
-```C++
+```c++
   int (*reader) (void *chan, char *buf, int bufsize);
 ```
 
@@ -752,7 +752,7 @@ and returns the number of bytes it read.
 
 For Unix-like stdio, one might use
 
-```C++
+```c++
 static int reader(void *chan, char *buf, int bufsize)
 {
     return fread(buf, 1, bufsize, (FILE*)chan); 
@@ -761,7 +761,7 @@ static int reader(void *chan, char *buf, int bufsize)
 
 Then, to read the graph, use:
 
-```C++
+```c++
 FILE* fp = fopen ("mygraph.gv","r");
 Agraph_t* g = agread (fp, &mydisc);
 ```
@@ -782,16 +782,16 @@ This should never happen by default for versions later than 1.13. If it does, pl
 If you are using an earlier version of neato, or you used `mode=KK`, cycling is indeed possible. This cycling is very sensitive to the initial 
 layout. By using the start attribute, for example,
 
-```C+
-neato -Gstart=3
-neato -Gstart=rand
+```bash
+$ neato -Gstart=3
+$ neato -Gstart=rand
 ```
 
 the cycling will most likely disappear. Or you can employ the parameters used for large graphs to stop the layout earlier:
 
-```C+
-neato -Gepsilon=.01
-neato -Gmaxiter=500
+```bash
+$ neato -Gepsilon=.01
+$ neato -Gmaxiter=500
 ```
 
 Note that, if you have a large graph, the generation of edges as splines is a cubic algorithm, so you would do well to avoid using `splines=true`. 
@@ -810,7 +810,7 @@ Try `dot -v` to observe its progress.
 
 Note that it's possible to make graphs whose layout or even parsing is quadratic in the input size. For example, in dot,
 
-```C++
+```dot
 digraph G {
   a -> b -> c -> .... -> x -> y -> z
   a -> z
@@ -825,7 +825,7 @@ The total edge length (therefore the layout time) of this as a ranked graph is q
 but it is also possible to construct graphs whose parsing takes quadratic time in the number of attributes, by appending attributes to nodes and edges 
 after the graph has been loaded. For example:
 
-```C++
+```dot
 digraph G {
   /* really big graph goes here...with N+1 nodes */
   n0 -> n1 -> ... -> nN;
@@ -855,9 +855,9 @@ Neato and all similar virtual physical model algorithms rely on heuristic soluti
 Unfortunately, it is also possible for these heuristics to get stuck in local minima. Also, it is heavily influenced by the initial position of the nodes. 
 It is quite possible that if you run neato again, but with a different random seed value, or more iterations, you'll get a better layout. For example:
 
-```C+
-neato -Gstart=5 file.dot -Tps -o file.ps
-neato -Gepsilon=.0000001 file.dot -Tps -o file.ps
+```bash
+$ neato -Gstart=5 file.dot -Tps -o file.ps
+$ neato -Gepsilon=.0000001 file.dot -Tps -o file.ps
 ```
 
 In the default stress majorization mode of neato, using `-Gstart=self` can help produce a better initial layout.
@@ -940,7 +940,7 @@ you need to set up a directory that contains Truetype fonts. You can get a copy 
 
 The default DOTFONTPATH is:
 
-```
+```c++
 #define DEFAULT_FONTPATH "/usr/X11R6/lib/X11/fonts/TrueType:/usr/X11R6/lib/X11/fonts/truetype:/usr/X11R6/lib/X11/fonts/TTF:/usr/share/fonts/TrueType:/usr/share/fonts/truetype:/usr/openwin/lib/X11/fonts/TrueType:/usr/X11R6/lib/X11/fonts/Type1"
 ```
 
