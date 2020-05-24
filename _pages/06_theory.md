@@ -42,4 +42,4 @@ IEEE Infovis Symposia: <a href="http://vis.computer.org">current</a>, <a href="h
 <a href="http://graphics.stanford.edu/courses/cs348c-96-fall/resources.html"> Stanford University course bilbiography<br />
 </a><a href="http://datajournalism.stanford.edu/">Stanford University Data Journalism</a><br />
 <a href="http://www2.parc.com/istl/projects/uir/projects/ii.html">Xerox PARC projects</a> <br />
-<a href="http://www.gvu.gatech.edu/">Software Visualization at Georgia Tech</a></p>
+<a href="http://www.gvu.gatech.edu/">Software Visualization at Georgia Tech</a>
