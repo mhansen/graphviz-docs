@@ -113,7 +113,6 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 <li>R: see below for <a href="#Rgraphviz">R-Graphviz</a></li>
 <li>HTML: the original <a href="https://gitlab.com/graphviz/webdot">webdot</a> in TCL [John Ellson]<br /> (also see this <a href="{{ site.url }}/_pages/Misc/webdot_cgi.txt">shell wrapper</a> to protect webdot servers from overload)<br />and a simplified <a href="{{ site.url }}/_pages/Misc/webdot.pl">webdot.pl</a> in perl [Stephen North, with a huge assist from John Linderman]</li>
 <li>dokuwiki: <a href="https://www.dokuwiki.org/plugin:graphviz">Create</a> directed and non-directed graph images from &ldquo;dot&rdquo; language [Andreas Gohr]</li>
-<li>dokuwiki fork:&nbsp; Allows <a href="http://lnkd.in/4-p_zi">independent layers visualisation</a> using html check box [Matteo Nastasi]</li>
 </ul>
 			<!-- -------------------- -->
 
