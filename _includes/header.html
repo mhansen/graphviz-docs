@@ -3,9 +3,9 @@
 		<nav>
 			<ul>
 				{% assign sorted_pages = site.pages | sort:"order" %}
-				{% for page in sorted_pages %} {% if page.title and page.order %}
+				{% for page in sorted_pages %}{% if page.title and page.order %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
+				{% endif %}{% endfor %}
                 <li><a href="https://gitlab.com/graphviz/graphviz/issues" target="_blank">Issues/Bugs</a></li?
 			</ul>
 		</nav>
