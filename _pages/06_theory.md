@@ -9,16 +9,16 @@ order: 5
 
 <a href="{{ site.url }}/_pages/Documentation/EGKNW03.pdf" target="_blank">Graphviz and Dynagraph - Static and Dynamic Graph Drawing Tools</a> - a condensed overview (<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.96.3776">cite</a>)<br />
 <a href="{{ site.url }}/_pages/Documentation/GN99.pdf" target="_blank">An open graph visualization system and its applications to software engineering</a> - longer overview, preferred for citation (<a target="_blank" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.106.5621">cite</a>)<br />
-<a href="{{ site.url }}/_pages/Documentation/GKN04.pdf" target="_blank">Graph Drawing by Stress Majorization</a>  - an improved algorithm for neato (<a href="http://www.springerlink.com/content/jrn52j7cx8grcy6v" target="_blank">cite</a>)<br />
+<a href="{{ site.url }}/_pages/Documentation/GKN04.pdf" target="_blank">Graph Drawing by Stress Majorization</a>  - an improved algorithm for neato (<a href="https://link.springer.com/chapter/10.1007/978-3-540-31843-9_25" target="_blank">cite</a>)<br />
 <a href="{{ site.url }}/_pages/Documentation/GKN04a.pdf" target="_blank">Topological Fisheye Views for Visualizing Large Graphs</a> - topological-based distorted views for large graphs<br />
 <a href="{{ site.url }}/_pages/Documentation/TSE93.pdf" target="_blank">A method for drawing directed graphs</a> - dot's algorithm (1993) (<a target="_blank" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.3.8982">cite</a>)<br />
 <a href="http://yifanhu.net/PUB/graph_draw.pdf" target="_blank">Efficient and high quality force-directed graph drawing</a> - sfdp's algorithm (2005) <br />
-<a href="{{ site.url }}/_pages/Documentation/GK06.pdf" target="_blank">Improved Circular Layouts</a> - crossing reduction and edge bundling for circular layouts (<a href="http://www.springerlink.com/content/e0t5172328185qh0">cite</a>)<br />
+<a href="{{ site.url }}/_pages/Documentation/GK06.pdf" target="_blank">Improved Circular Layouts</a> - crossing reduction and edge bundling for circular layouts (<a href="https://link.springer.com/chapter/10.1007/978-3-540-70904-6_37">cite</a>)<br />
 <a href="{{ site.url }}/_pages/Documentation/Hu05.pdf" target="_blank">Efficient and High Quality Force-Directed Graph Drawing</a> - the multiscale algorithm used in sfdp (<a href="http://www.mathematica-journal.com/issue/v10i1/graph_draw.html" target="_blank">cite</a>)<br />
-<a href="{{ site.url }}/_pages/Documentation/DGKN97.pdf" target="_blank">Implementing a General-Purpose Edge Router</a> - edge routing in Graphviz (<a href="http://www.springerlink.com/content/bh38049246662058">cite</a>)<br />
-<a href="{{ site.url }}/_pages/Documentation/GN98.pdf" target="_blank">Improved Force-Directed Layouts</a> - Voronoi-based node overlap removal (<a href="http://www.springerlink.com/content/9lpu2h2qkgjlc9r5">cite</a>)<br />
+<a href="{{ site.url }}/_pages/Documentation/DGKN97.pdf" target="_blank">Implementing a General-Purpose Edge Router</a> - edge routing in Graphviz (<a href="https://link.springer.com/chapter/10.1007/3-540-63938-1_68">cite</a>)<br />
+<a href="{{ site.url }}/_pages/Documentation/GN98.pdf" target="_blank">Improved Force-Directed Layouts</a> - Voronoi-based node overlap removal (<a href="https://link.springer.com/chapter/10.1007/3-540-37623-2_28">cite</a>)<br />
 <a href="{{ site.url }}/_pages/Documentation/GHK09.pdf" target="_blank">GMap: Visualizing graphs and clusters as maps</a> - displaying graphs as maps (<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.154.8753">cite</a>)<br />
-<a href="{{ site.url }}/_pages/Documentation/GH10.pdf" target="_blank">Efficient Node Overlap Removal Using a Proximity Stress Model</a> - Prism node overlap removal (<a href="http://www.springerlink.com/content/v631x1202456450u">cite</a>)<br />
+<a href="{{ site.url }}/_pages/Documentation/GH10.pdf" target="_blank">Efficient Node Overlap Removal Using a Proximity Stress Model</a> - Prism node overlap removal (<a href="https://link.springer.com/chapter/10.1007/978-3-642-00219-9_20">cite</a>)<br />
 <a href="{{ site.url }}/_pages/Documentation/NW01.pdf" target="_blank">On-line Hierarchical Graph Drawing</a> - dynadag algorithm<br />
 
 <h2>Graph Drawing</h2>
