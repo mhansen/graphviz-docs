@@ -49,7 +49,7 @@ We need help with OSX, if you would like to volunteer.
 We would appreciate if someone donates a script to
 run pkgbuild or productbuild to automatically generate OSX installers.
 [Packaging for Apple Administrators](https://itunes.apple.com/us/book/packaging-for-apple-administrators/id1173928620?mt=11&ign-mpt=uo%3D4)
-could be a good reference. Also blog articles like [Creating OS X Package Files  (.pkg) in Terminal](http://techion.com.au/blog/2014/8/17/creating-os-x-package-files-pkg-in-terminal). Note graphviz needs postinstall actions, at least `dot -c`; also `fc-cache` if Graphviz has freetype/cairopango drivers. 
+could be a good reference. Note graphviz needs postinstall actions, at least `dot -c`; also `fc-cache` if Graphviz has freetype/cairopango drivers. 
 
 ### Solaris
 
