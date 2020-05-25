@@ -28,7 +28,7 @@ order: 5
 <strong>Open Directory Project</strong> <a href="http://dmoztools.net/Science/Math/Combinatorics/Software/Graph_Drawing/">Graph Drawing</a> entry.</p>
 <p><br />
 <a href="http://www.csse.monash.edu.au/~gfarr/research/GraphDrawing02-Mel.ppt"> Survey (Franz Brandenburg talk notes in Powerpoint)</a><br />
-<a href="http://www.merl.com/papers/TR2001-49/">Marks et al note on history of graph drawing</a><br />
+<a href="https://www.merl.com/publications/TR2001-49">A Short Note on the History of Graph Drawing</a><br />
 <a href="http://www.ics.uci.edu/~eppstein/gina/gdraw.html">David Eppstein's Geometry in Action</a>, Graph Drawing section<br />
 <b><a href="http://www.amazon.com/exec/obidos/tg/detail/-/0133016153/qid=1089229182/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-2475216-1750235?v=glance&amp;s=books&amp;n=507846">Graph Drawing: Algorithms for the Visualization of Graphs</a></b> by Ioannis G. Tollis, Giuseppe Di Battista, Peter Eades, Roberto Tamassia<br />
 <a href="http://www.amazon.com/exec/obidos/tg/detail/-/3540008810/qid=1089229286/sr=1-3/ref=sr_1_3/103-2475216-1750235?v=glance&amp;s=books"> <b>Graph Drawing Software (Mathematics and Visualization)</b></a> by M. Junger, Petra Mutzel, (Symposium on Graph Drawing 2001, Vienna)<br />
