@@ -8,7 +8,7 @@ order: 2
 
 ## Source Code
 
-[Source code packages]({{ site.url }}/_pages/Download/Download_source.html) for the latest stable and
+[Source code packages](/_pages/Download/Download_source.html) for the latest stable and
 development versions of Graphviz are available, along with instructions for anonymous
 access to the sources using [Git](http://git-scm.com/).
 
@@ -36,7 +36,7 @@ You may find it useful to try one of the following third-party sites.
 * [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
 
 Mostly correct notes for building Graphviz on Windows can be found
-[here]({{ site.url }}/_pages/doc/winbuild.html). 
+[here](/_pages/doc/winbuild.html). 
 
 ### Mac
 

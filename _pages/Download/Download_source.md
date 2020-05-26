@@ -63,12 +63,12 @@ to see these.
 <tbody>
 <tr><th align="right"><font size="-1">Sources</font></th>
 <td align="left" nowrap=""><font size="-1">
-<a href="{{ site.url }}/pub/graphviz/stable/SOURCES/webdot.tar.gz">webdot-2.30.tar.gz</a><br>
-<a href="{{ site.url }}/pub/graphviz/stable/SOURCES/webdot.tar.gz.md5">webdot-2.30.tar.gz.md5</a><br>
+<a href="/pub/graphviz/stable/SOURCES/webdot.tar.gz">webdot-2.30.tar.gz</a><br>
+<a href="/pub/graphviz/stable/SOURCES/webdot.tar.gz.md5">webdot-2.30.tar.gz.md5</a><br>
 </font></td>
 <td align="left" nowrap=""><font size="-1">
-<a href="{{ site.url }}/pub/graphviz/development/SOURCES/webdot-working.tar.gz">webdot-2.39.20170725.2013.tar.gz</a><br>
-<a href="{{ site.url }}/pub/graphviz/development/SOURCES/webdot-working.tar.gz.md5">webdot-2.39.20170725.2013.tar.gz.md5</a><br>
+<a href="/pub/graphviz/development/SOURCES/webdot-working.tar.gz">webdot-2.39.20170725.2013.tar.gz</a><br>
+<a href="/pub/graphviz/development/SOURCES/webdot-working.tar.gz.md5">webdot-2.39.20170725.2013.tar.gz.md5</a><br>
 </font></td>
 </tr>
 </tbody>
