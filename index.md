@@ -32,13 +32,13 @@ Please join the brand new (March 2020) <a href="https://forum.graphviz.org" targ
 
 <h2><strong>Download</strong></h2>
 
-<p>The current release of Graphviz can be downloaded here: <a href="{{ site.url }}/download">Download</a>
+<p>The current release of Graphviz can be downloaded here: <a href="/download">Download</a>
 The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a> on GitLab.
 </p>
 
 <h2><strong>Documentation</strong></h2>
 
-<p>Documentation is available in the released package and from here: <a href="{{ site.url }}/documentation">Documentation</a></p>
+<p>Documentation is available in the released package and from here: <a href="/documentation">Documentation</a></p>
 
 <h2><strong>Discussions</strong></h2>
 
@@ -85,7 +85,7 @@ The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a>
 </li>
 <li>
 <!-- from <a href="mailto:andreev.yurij@gmail.com">andreev.yurij@gmail.com</a> -->
-<a href="{{ site.url }}/_pages/Misc/ru_translation.rtf" target="_blank">Russian</a>
+<a href="/_pages/Misc/ru_translation.rtf" target="_blank">Russian</a>
 </li>
 <li>
 <!-- from  <a href="mailto:andreev.yurij@gmail.com">andreev.yurij@gmail.com</a> -->
