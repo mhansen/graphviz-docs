@@ -38,3 +38,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+strict_front_matter: true
