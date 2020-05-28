@@ -54,6 +54,11 @@ You may find it useful to try one of the following third-party sites.
 * [Stable 2.44 Windows install packages](https://ci.appveyor.com/project/ellson/graphviz-pl238/builds/32032002)
 * [Cygwin Ports](http://sourceware.org/cygwinports/)* provides a port of Graphviz to Cygwin.
 * [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
+* [Chocolatey packages Graphviz for Windows](https://chocolatey.org/packages/Graphviz).
+  
+  ```powershell
+  > choco install graphviz
+  ```
 
 Mostly correct notes for building Graphviz on Windows can be found
 [here](/_pages/doc/winbuild.html). 
