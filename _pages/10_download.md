@@ -90,9 +90,17 @@ For Solaris, please use the graphviz stable releases [here](http://www.opencsw.o
 maintained by Laurent Blume / John Ellson. Currently available packages are:
 
 <table>
-     <tr><td>graphviz</td><td>Graph Visualization Tools</td></tr>
-     <tr><td>graphviz_dev</td><td>Graphviz headers etc. for development</td></tr>
-     <tr><td>graphvizdoc</td><td>Graphviz documentation</td></tr>
+     <tr>
+       <td>[graphviz](https://www.opencsw.org/packages/CSWgraphviz/)</td>
+       <td>Graph Visualization Tools</td></tr>
+     <tr>
+       <td>[graphviz_dev](https://www.opencsw.org/packages/CSWgraphviz-dev/)</td>
+       <td>Graphviz headers etc. for development</td>
+     </tr>
+     <tr>
+       <td>[graphvizdoc](https://www.opencsw.org/packages/CSWgraphvizdoc/)</td>
+       <td>Graphviz documentation</td>
+     </tr>
      <tr><td>graphvizgd</td><td>Graphviz renderers using gd</td></tr>
      <tr><td>graphvizgraphs</td><td>Graphviz example graphs</td></tr>
      <tr><td>graphvizguile</td><td>Graphviz language binding for guile</td></tr>
