@@ -24,13 +24,28 @@ You may find it useful to try one of the following third-party sites.
 
 * [Ubuntu packages](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)*
   
-  ```
+  ```bash
   $ sudo apt install graphviz
   ```
 
 * [Fedora project](https://apps.fedoraproject.org/packages/graphviz)*
+  
+  ```bash
+  $ sudo yum install graphviz
+  ```
+
 * [Debian packages](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)*
-* [Stable and development rpms for Redhat Enterprise, or Centos systems](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)* available but are out of date.
+  
+  ```bash
+  $ sudo apt install graphviz
+  ```
+
+* [Stable and development rpms for Redhat Enterprise, or CentOS systems](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)* available but are out of date.
+
+  ```bash
+  $ sudo yum install graphviz
+  ```
+
 <!---  The problem is that this probably just points back to graphviz.org * [Fedora](http://fedoraproject.org/)* On a working Fedora system, use `yum list "graphviz*"` to see all available Graphviz packages.  --->
 
 ### Windows
