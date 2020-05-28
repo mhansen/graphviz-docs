@@ -60,6 +60,13 @@ You may find it useful to try one of the following third-party sites.
   > choco install graphviz
   ```
 
+* [Windows Package Manager](https://docs.microsoft.com/en-gb/windows/package-manager/) provides
+  [Graphviz Windows packages](https://github.com/microsoft/winget-pkgs/tree/master/manifests/Graphviz/Graphviz).
+
+  ```powershell
+  > winget install graphviz
+  ```
+
 Mostly correct notes for building Graphviz on Windows can be found
 [here](/_pages/doc/winbuild.html). 
 
