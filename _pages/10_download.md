@@ -62,7 +62,7 @@ Mostly correct notes for building Graphviz on Windows can be found
 
 * [MacPorts](https://www.macports.org/)* provides both stable and development versions of
 Graphviz and the Mac GUI Graphviz.app. These can be obtained via the ports "graphviz", "graphviz-devel", "graphviz-gui" and "graphviz-gui-devel".
-* [Homebrew](https://brew.sh/)* has a Graphviz port.
+* [Homebrew](https://brew.sh/)* [has a Graphviz port](https://formulae.brew.sh/formula/graphviz).
 
   ```bash
   $ brew install graphviz
