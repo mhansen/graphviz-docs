@@ -66,6 +66,11 @@ Mostly correct notes for building Graphviz on Windows can be found
   [graphviz-devel](https://www.macports.org/ports.php?by=name&substr=graphviz-devel),
   [graphviz-gui](https://www.macports.org/ports.php?by=name&substr=graphviz-gui)
   and [graphviz-gui-devel](https://www.macports.org/ports.php?by=name&substr=graphviz-gui-devel).
+
+  ```bash
+  $ sudo port install graphviz
+  ```
+
 * [Homebrew](https://brew.sh/)* [has a Graphviz port](https://formulae.brew.sh/formula/graphviz).
 
   ```bash
