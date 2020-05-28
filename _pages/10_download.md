@@ -96,14 +96,14 @@ maintained by Laurent Blume / John Ellson. Currently available packages are:
 
 <table>
      <tr>
-       <td>[graphviz](https://www.opencsw.org/packages/CSWgraphviz/)</td>
+       <td><a href="https://www.opencsw.org/packages/CSWgraphviz/">graphviz</a></td>
        <td>Graph Visualization Tools</td></tr>
      <tr>
-       <td>[graphviz_dev](https://www.opencsw.org/packages/CSWgraphviz-dev/)</td>
+       <td><a href="https://www.opencsw.org/packages/CSWgraphviz-dev/">graphviz_dev</a></td>
        <td>Graphviz headers etc. for development</td>
      </tr>
      <tr>
-       <td>[graphvizdoc](https://www.opencsw.org/packages/CSWgraphvizdoc/)</td>
+       <td><a href="https://www.opencsw.org/packages/CSWgraphvizdoc/">graphvizdoc</a></td>
        <td>Graphviz documentation</td>
      </tr>
      <tr><td>graphvizgd</td><td>Graphviz renderers using gd</td></tr>
