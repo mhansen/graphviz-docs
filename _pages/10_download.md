@@ -23,6 +23,11 @@ We do not provide precompiled packages any more.
 You may find it useful to try one of the following third-party sites.
 
 * [Ubuntu packages](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)*
+  
+  ```
+  $ sudo apt install graphviz
+  ```
+
 * [Fedora project](https://apps.fedoraproject.org/packages/graphviz)*
 * [Debian packages](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)*
 * [Stable and development rpms for Redhat Enterprise, or Centos systems](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)* available but are out of date.
