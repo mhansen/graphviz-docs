@@ -46,7 +46,7 @@ is probably frustrating to try to use it that way.)
 
 ## Roadmap
 
-* **dot** - makes ``hierarchical'' or layered drawings of directed graphs.
+* **dot** - makes "hierarchical" or layered drawings of directed graphs.
 The layout algorithm
 aims edges in the same direction (top to bottom, or left to right) and
 then attempts to avoid edge crossings and reduce edge length.
@@ -55,7 +55,7 @@ then attempts to avoid edge crossings and reduce edge length.
   <img src="/_pages/Gallery/directed/cluster.small.png" />
 </p>
 
-* **neato** - ``spring model'' layouts.  This is the default tool to use if 
+* **neato** - "spring model" layouts.  This is the default tool to use if 
 the graph is not too large (about 100 nodes) and you don't know anything else 
 about it. Neato attempts to minimize a global energy function, which is 
 equivalent to statistical multi-dimensional scaling. The solution is achieved 
@@ -66,7 +66,7 @@ steepest descent, is also available.
   <img src="/_pages/Gallery/undirected/ER.small.png" />
 </p>
 
-* **fdp** - ``spring model'' layouts similar to those of neato, but does this 
+* **fdp** - "spring model" layouts similar to those of neato, but does this 
 by reducing forces rather than working with energy. Fdp implements the 
 Fruchterman-Reingold heuristic including a multigrid solver that handles 
 larger graphs and clustered undirected graphs.
