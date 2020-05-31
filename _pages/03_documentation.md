@@ -3,6 +3,11 @@ layout: page
 title: Documentation
 permalink: /documentation/
 order: 4
+redirect_from:
+  # We want to redirect from /Documentation.php. We need ".php.html" else the
+  # redirect page is downloaded to ~/Downloads/ rather than shown in browser. See:
+  # https://github.com/jekyll/jekyll-redirect-from/issues/145#issuecomment-392277818
+  - /Documentation.php.html
 ---
 
 <dl>
