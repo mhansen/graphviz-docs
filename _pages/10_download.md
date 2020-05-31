@@ -8,6 +8,7 @@ redirect_from:
   # https://github.com/jekyll/jekyll-redirect-from/issues/145#issuecomment-392277818
   - /Download.php.html
   - /Download..php.html
+  - /Download_macos.php.html
 order: 2
 ---
 
