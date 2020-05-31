@@ -124,7 +124,6 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 <li><a href="https://sourceforge.net/projects/excel-to-graphviz/">ExcelToGraphviz</a>, a tool for visualizing Excel data as graphs [Matt Castelli]</li>
 <li><a href="http://drupal.org/project/graphapi/">Graph API</a>, a Drupal graph generation module with Graphviz Dot output capabilities. [Sebastian Daniel]</li>
 <li><a href="http://schemaspy.sourceforge.net/">SchemaSpy</a> analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables [John Currier]</li>
-<li><a href="http://www.worldcat.org/xissn/titlehistory">WorldCat xISSN</a> shows the history of a journal indexed by ISSN [OCLC Online Computer Library Center, Inc.]</li>
 <li><a href="http://www.softwaresecretweapons.com/lm_hibernate.html">Linguine Maps</a> visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming [Pavel Simakov]</li>
 <li><a href="https://github.com/cbbrowne/autodoc">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]</li>
 <li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render [Martin Loetzsch]</li>
