@@ -1,6 +1,13 @@
 ---
 layout: page
 title: Sources
+redirect_from:
+  # This file used to live under the Jekyll _pages directory before Jun 2020.
+  - /_pages/Download/Download_source.html
+  # We want to redirect from Download_source.php. We need ".php.html" else the
+  # redirect page is downloaded to ~/Downloads/ rather than shown in browser. See:
+  # https://github.com/jekyll/jekyll-redirect-from/issues/145#issuecomment-392277818
+  - /Download_source.php.html
 ---
 
 ## Source Packages
