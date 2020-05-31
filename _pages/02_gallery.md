@@ -7,6 +7,8 @@ redirect_from:
   # redirect page is downloaded to ~/Downloads/ rather than shown in browser. See:
   # https://github.com/jekyll/jekyll-redirect-from/issues/145#issuecomment-392277818
   - /Gallery.php.html
+  # Gallery links to _pages version too.
+  - /_pages/Gallery.php.html
 order: 3
 ---
          
