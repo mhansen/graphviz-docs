@@ -1,5 +1,8 @@
 ---
 layout: default
+redirect_from:
+  # Fixes a broken Home Page link from Gallery pages.
+  - /_pages/
 ---
 
 <h1><strong>Welcome to Graphviz</strong></h1>
