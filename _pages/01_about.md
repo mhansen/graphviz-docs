@@ -2,6 +2,11 @@
 layout: page
 title: About
 permalink: /about/
+redirect_from:
+  # We want to redirect from /About.php. We need ".php.html" else the
+  # redirect page is downloaded to ~/Downloads/ rather than shown in browser. See:
+  # https://github.com/jekyll/jekyll-redirect-from/issues/145#issuecomment-392277818
+  - /About.php.html
 order: 1
 ---
          
