@@ -2,6 +2,12 @@
 layout: page
 title: Download
 permalink: /download/
+redirect_from:
+  # We need ".php.html" else the redirect page is downloaded to ~/Downloads/
+  # rather than shown in browser. See:
+  # https://github.com/jekyll/jekyll-redirect-from/issues/145#issuecomment-392277818
+  - /Download.php.html
+  - /Download..php.html
 order: 2
 ---
 
