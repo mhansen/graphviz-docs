@@ -1,1 +1,0 @@
-../../_pages/doc/info/attrs0.md
