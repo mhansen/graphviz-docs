@@ -7,6 +7,7 @@ redirect_from:
   # redirect page is downloaded to ~/Downloads/ rather than shown in browser. See:
   # https://github.com/jekyll/jekyll-redirect-from/issues/145#issuecomment-392277818
   - /About.php.html
+  - /News.php.html
 order: 1
 ---
          
