@@ -69,6 +69,12 @@ order: 3
 </tr><tr>  <td align="center"> <a href="/_pages/Gallery/undirected/softmaint.html">softmaint</a></td> <td align="center"> <a href="/_pages/Gallery/undirected/transparency.html">transparency</a></td><td align="center"> <a href="/_pages/Gallery/directed/Linux_kernel_diagram.html">Linux kernel</a></td> </tr></tbody>
 </table>
 
-<p><a href="http://yifanhu.net/GALLERY/GRAPHS/index.html"> <img width="140" border="0" src="/_pages/Gallery/ufl.png" alt="" title="transparency" /></a></p>
-<p>Also see Yifan's <a href="http://yifanhu.net/GALLERY/GRAPHS/index.html">gallery of large graphs</a>, all generated with the <i>sfdp</i> layout engine, but colorized by postprocessing the PostScript files.</p>
-<p>Please send copyright-free donations of interesting graphs to: <a href="mailto:yifanhu@yahoo.com"> Yifan Hu </a></p>
+<a href="http://yifanhu.net/GALLERY/GRAPHS/index.html"> <img width="140" border="0" src="/_pages/Gallery/ufl.png" alt="" title="transparency" /></a>
+
+Also see Yifan\'s [gallery of large
+graphs](http://yifanhu.net/GALLERY/GRAPHS/index.html), all generated
+with the *sfdp* layout engine, but colorized by postprocessing the
+PostScript files.
+
+Please send copyright-free donations of interesting graphs to: [Yifan
+Hu](mailto:yifanhu@yahoo.com)
