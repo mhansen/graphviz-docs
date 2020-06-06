@@ -75,7 +75,7 @@ You may find it useful to try one of the following third-party sites.
   ```
 
 Mostly correct notes for building Graphviz on Windows can be found
-[here](/_pages/doc/winbuild.html). 
+[here](/doc/winbuild.html). 
 
 ### Mac
 

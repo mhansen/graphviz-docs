@@ -52,7 +52,7 @@ aims edges in the same direction (top to bottom, or left to right) and
 then attempts to avoid edge crossings and reduce edge length.
 
 <p align="center">
-  <img src="/_pages/Gallery/directed/cluster.small.png" />
+  <img src="/Gallery/directed/cluster.small.png" />
 </p>
 
 * **neato** - "spring model" layouts.  This is the default tool to use if 
@@ -63,7 +63,7 @@ using stress majorization, though the older Kamada-Kawai algorithm, using
 steepest descent, is also available.
 
 <p align="center">
-  <img src="/_pages/Gallery/undirected/ER.small.png" />
+  <img src="/Gallery/undirected/ER.small.png" />
 </p>
 
 * **fdp** - "spring model" layouts similar to those of neato, but does this 
@@ -103,7 +103,7 @@ certain telecommunications networks.
 subsequently been ported to Microsoft Windows.
 * **tcldot** - a TCL/TK scripting language extension for Graphviz
 * [**Webdot**](https://gitlab.com/graphviz/webdot) - a tcldot scripted WWW service for graphs in HTML documents. 
-  * There is also [a simplified version](/_pages/Misc/webdot.pl) written in perl.
+  * There is also [a simplified version](/Misc/webdot.pl) written in perl.
 
 * **Grappa** - a Java package for graphs with full Java graph data structures
 * **ZGRViewer** - an SVG-based zooming graph viewer for large graphs.
