@@ -111,7 +111,7 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 <li>ruby: <a href="https://github.com/glejeune/Ruby-Graphviz/">Ruby-Graphviz</a> - Ruby interface to Graphviz [Gr&eacute;goire Lejeune]</li>
 <li><a href="http://www.mathworks.com/matlabcentral/fileexchange/4518">MatLab</a> [Leon Peshkin]</li>
 <li>R: see below for <a href="#Rgraphviz">R-Graphviz</a></li>
-<li>HTML: the original <a href="https://gitlab.com/graphviz/webdot">webdot</a> in TCL [John Ellson]<br /> (also see this <a href="/_pages/Misc/webdot_cgi.txt">shell wrapper</a> to protect webdot servers from overload)<br />and a simplified <a href="/_pages/Misc/webdot.pl">webdot.pl</a> in perl [Stephen North, with a huge assist from John Linderman]</li>
+<li>HTML: the original <a href="https://gitlab.com/graphviz/webdot">webdot</a> in TCL [John Ellson]<br /> (also see this <a href="/Misc/webdot_cgi.txt">shell wrapper</a> to protect webdot servers from overload)<br />and a simplified <a href="/Misc/webdot.pl">webdot.pl</a> in perl [Stephen North, with a huge assist from John Linderman]</li>
 <li>dokuwiki: <a href="https://www.dokuwiki.org/plugin:graphviz">Create</a> directed and non-directed graph images from &ldquo;dot&rdquo; language [Andreas Gohr]</li>
 </ul>
 			<!-- -------------------- -->
@@ -128,10 +128,10 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 <li><a href="https://github.com/cbbrowne/autodoc">PostgreSQL AutoDoc</a> documents the relation structure of PostgreSQL databases [Rod Taylor]</li>
 <li><a href="http://www.martin-loetzsch.de/DOTML/">DOTML</a> - XML markup to mirror dot language. Includes scripts and XSLT to transform and render [Martin Loetzsch]</li>
 <li><a href="http://www.martin-loetzsch.de/S-DOT/">S-DOT</a> - a Common Lisp interface to dot [also Martin Loetzsch]</li>
-<li><a href="/_pages/Misc/sql2dot/">Sql2Dot</a> - a tiny parser in Java to transform sql into dot for visualizing data structures [Robert Dale]</li>
+<li><a href="/Misc/sql2dot/">Sql2Dot</a> - a tiny parser in Java to transform sql into dot for visualizing data structures [Robert Dale]</li>
 <li><a href="http://www.codeproject.com/Articles/4603/A-scripted-SQL-query-generation-framework-with-IDE">SqlPP</a> - a scripted SQL query generation framework that generates graphviz</li>
 <li><a href="http://sqlfairy.sourceforge.net/">SQL Fairy</a> - a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) [Szil&aacute;rd Vajda]</li>
-<li>gprof filters - <a href="/_pages/Misc/pl_from_gprof.pl">pl_from_gprof</a> and <a href="/_pages/Misc/dot_from_pl.pl">dot_from_pl</a> [Robert Nielsen] and an old <a href="/_pages/Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]</li>
+<li>gprof filters - <a href="/Misc/pl_from_gprof.pl">pl_from_gprof</a> and <a href="/Misc/dot_from_pl.pl">dot_from_pl</a> [Robert Nielsen] and an old <a href="/Misc/gprof2dot.awk">gprof2dot.awk</a> [Stephen North]</li>
 <!--
 <li><a href="http://www.juabus.ch/ClanDraw/ClanDraw.pdf" target="_blank">ClanDraw</a> family relationship (genealogy) visualization, works with GEDCOM, Java 1.5 [Hansuli Anderegg]</li>
 -->
@@ -249,7 +249,7 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 
 <ul>
 				<li><a href="https://dot2tex.readthedocs.io/en/latest/">dot2tex</a> is a LaTeX-friendly converter from Graphviz (xdot) to converting xdot PSTricks or PGF/TikZ commands, with support for LaTeX labels and arrows. [Kjell Magne Fauske]</li>
-				<li><a href="http://ppareit.github.com/graphviz-dot-mode">graphviz mode for emacs</a> (or <a href="/_pages/Misc/graphviz-dot-mode.el">here</a>).</li>
+				<li><a href="http://ppareit.github.com/graphviz-dot-mode">graphviz mode for emacs</a> (or <a href="/Misc/graphviz-dot-mode.el">here</a>).</li>
 				<li><a href="http://brighten.bigw.org/projects/ladot/">Ladot</a>: scripts for including LaTeX in your Graphviz files [Brighten Godfrey]</li>
 				<li><a href="http://code.google.com/p/hamake/source/browse/trunk/doc/whitepaper/graphviz.tex?r=452">graphviz.tex</a>: macros for including Graphviz in your LaTeX files [Derek Rayside]</li>
 <!--
@@ -280,14 +280,11 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 
 <ul>
 <li><a href="http://atrpms.net/name/graphviz/">Axel Thimm</a> - rpms for some RedHat Linux distributions (&quot;atrpms&quot;).</li>
-<!-- 
-<li><a href="http://dag.wieers.com/rpm/packages/graphviz/"><img alt="dag logo" src="/_pages/Resources/dag.png" /> Dag Wieers</a> - rpms for some RedHat Linux distributions.</li>
-`-->
 <li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&amp;submit=Search+...&amp;system=&amp;arch=">RPM Find</a> - many distros and architectures.</li>
-<li><a href="http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz"><img alt="debian logo" src="/_pages/Resources/debian-logo.png" /> Debian</a> - Linux packages for several architectures.</li>
-<li><a href="http://packages.gentoo.org/package/media-gfx/graphviz"><img alt="gentoo logo" src="/_pages/Resources/gentoo.jpeg" /> Gentoo</a> - Linux packages.</li>
-<li><a href="http://download.fedora.redhat.com/pub/fedora/linux/extras/"><img alt="fedora logo" src="/_pages/Resources/fedora_logo.png" /> Fedora Extras</a> - rpms for Fedora Core 3 and later.</li>
-<li><a href="http://freecode.com/projects/graphviz"><img alt="freshmeat logo" src="/_pages/Resources/freshmeat-logo.gif" /> FreshMeat</a> - related projects from a search for &quot;graphviz&quot;.</li>
-<li><a href="http://software.opensuse.org/search?q=graphviz"><img alt="suse logo" src="/_pages/Resources/suse-logo.png" /> SuSE</a> - rpms for Novell/SuSE distributions for many architectures.</li>
-<li><a href="http://packages.ubuntu.com/search?keywords=graphviz&amp;searchon=names&amp;suite=all&amp;section=all"><img alt="ubuntu logo" src="/_pages/Resources/ubuntu-logo.png" /> Ubuntu</a> - Linux packages.</li>
+<li><a href="http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz"><img alt="debian logo" src="/Resources/debian-logo.png" /> Debian</a> - Linux packages for several architectures.</li>
+<li><a href="http://packages.gentoo.org/package/media-gfx/graphviz"><img alt="gentoo logo" src="/Resources/gentoo.jpeg" /> Gentoo</a> - Linux packages.</li>
+<li><a href="http://download.fedora.redhat.com/pub/fedora/linux/extras/"><img alt="fedora logo" src="/Resources/fedora_logo.png" /> Fedora Extras</a> - rpms for Fedora Core 3 and later.</li>
+<li><a href="http://freecode.com/projects/graphviz"><img alt="freshmeat logo" src="/Resources/freshmeat-logo.gif" /> FreshMeat</a> - related projects from a search for &quot;graphviz&quot;.</li>
+<li><a href="http://software.opensuse.org/search?q=graphviz"><img alt="suse logo" src="/Resources/suse-logo.png" /> SuSE</a> - rpms for Novell/SuSE distributions for many architectures.</li>
+<li><a href="http://packages.ubuntu.com/search?keywords=graphviz&amp;searchon=names&amp;suite=all&amp;section=all"><img alt="ubuntu logo" src="/Resources/ubuntu-logo.png" /> Ubuntu</a> - Linux packages.</li>
 </ul>
