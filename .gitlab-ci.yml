@@ -1,29 +1,43 @@
-# requiring the environment of Ruby 2.7.x
-image: ruby:2.7
-
 # add cache to 'vendor' for speeding up builds
 cache:
   paths: 
     - vendor/
 
-before_script:
-  - bundle config set path 'vendor'
-  - bundle install
+stages:
+  - build
+  - test
+  - deploy
 
 # add a job called 'test'
-test:
-  stage: test
+build_site:
+  image: ruby:2.7
+  stage: build
+  before_script:
+    - bundle config set path 'vendor'
+    - bundle install
   script:
-    - bundle exec jekyll build -d test/
+    - bundle exec jekyll build -d public/
   artifacts:
     paths:
-      - test # generating site folder to be browsed or download
+      - public # generating site folder to be browsed or download
   except:
     - master # the 'test' job will affect all branches expect 'master'
 
-# the 'pages' job will deploy and build your site to the 'public' path
+
+check:
+  image: cyb3rjak3/html5validator
+  stage: test
+  script:
+    - tests/html_validate_test
+
+# 'pages' is a specially-named job that will deploy and build your site to the
+# 'public' path to GitLab Pages.
 pages:
+  image: ruby:2.7
   stage: deploy
+  before_script:
+    - bundle config set path 'vendor'
+    - bundle install
   script:
     - bundle exec jekyll build -d public/
   artifacts:
