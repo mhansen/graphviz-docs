@@ -52,7 +52,6 @@ html5validator \
   "Row 3 of a row group established by a “tbody” element has no cells beginning on it."\
   "Row 4 of a row group established by a “tbody” element has no cells beginning on it."\
   "Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”."\
-  "Stray end tag “blockquote”."\
   "Stray end tag “i”."\
   "Stray end tag “t”."\
   "Table column 2 established by element “td” has no cells beginning in it."\
