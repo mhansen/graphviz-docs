@@ -90,5 +90,4 @@ html5validator \
   "Unclosed element “spacer”."\
   "Unclosed element “sym”."\
   "Unclosed element “tt”."\
-  "Unclosed element “ul”."\
   --root public/
