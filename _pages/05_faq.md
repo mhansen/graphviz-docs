@@ -301,7 +301,7 @@ Input: the general idea is to find the [Unicode](http://en.wikipedia.org/wiki/Un
 value for the glyph you want, and enter it within a text string "...." or HTML-like label <...>.
 
 For example, the mathematical forall sign (∀) has the value 0x2200. There are several ways this can be inserted into a file. One is to 
-write out the ASCII representation: "&#<nnn>;" where <nnn> is the decimal representation of the value. The decimal value of 0x2200 is 8704, 
+write out the ASCII representation: "&#&lt;nnn&gt;;" where &lt;nnn&gt; is the decimal representation of the value. The decimal value of 0x2200 is 8704, 
 so the character can be specified as "&#8704;" . Alternatively, Graphviz accepts UTF-8 encoded input. In the case of forall, 
 its UTF-8 representation is 3 bytes whose decimal values are 226 136 128. For convenience, you would probably enter this using your favorite 
 editor, tuned to your character set of choice. You can then use the iconv program to map the graph from your character set to UTF-8 or Latin-1.
