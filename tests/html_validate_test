@@ -36,7 +36,6 @@ html5validator \
   "End tag had attributes."\
   "End tag “article” seen, but there were open elements."\
   "End tag “blockquote” seen, but there were open elements."\
-  "End tag “br”."\
   "End tag “dl” seen, but there were open elements."\
   "End tag “li” implied, but there were open elements."\
   "End tag “li” seen, but there were open elements."\
