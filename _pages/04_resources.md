@@ -5,14 +5,14 @@ permalink: /resources/
 order: 7
 ---
          
-<p>These are some representative external resources. The list includes tools that complement Graphviz, such as
+These are some representative external resources. The list includes tools that complement Graphviz, such as
 graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites 
 that rely on Graphviz as a visualization service. You can also find Graphviz-related projects in 
 <a href="http://code.google.com/hosting/search?q=graphviz" target="_blank">Google Code</a>. 
 Please <a href="mailto:erg@alum.mit.edu">send us</a> suggestions for additions to this list with, if 
 possible, a recommendation as to appropriate category for the resource.
 
-<p>Graph drawing can be considered one of the tool sets used in analyzing data. Anyone interested in pursuing work in data science can find some helpful information <a href="https://www.mastersindatascience.org/careers/data-scientist/">here</a>.
+Graph drawing can be considered one of the tool sets used in analyzing data. Anyone interested in pursuing work in data science can find some helpful information <a href="https://www.mastersindatascience.org/careers/data-scientist/">here</a>.
 
 <h4><a name="graphical-interfaces">Simple Examples and Tutorials</a></h4>
 <ul>
@@ -29,7 +29,7 @@ possible, a recommendation as to appropriate category for the resource.
 
 <h4><a name="graphical-interfaces">Graphical Interfaces</a></h4>
 
-<p>Interactive viewers.</p>
+Interactive viewers.
 
 <ul>
 <li><a href="http://magjac.com/graphviz-visual-editor">Graphviz Visual Editor</a> A web application for interactive visual editing of Graphviz graphs described in the DOT language. [Magnus Jacobsson]</li>
@@ -67,7 +67,7 @@ possible, a recommendation as to appropriate category for the resource.
 
 <h4><a name="language-bindings">Language Bindings</a></h4>
 
-<p>Interfaces that allow graphviz to be called from a general purpose language or system.</p>
+Interfaces that allow graphviz to be called from a general purpose language or system.
 
 <ul>
 <li>swift: <a href="https://github.com/swiftDocOrg/graphviz" target="_blank">GraphViz</a> - a Swift package for Graphviz [Mattt]</li>
@@ -118,7 +118,7 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 
 <h4><a name="generators-and-translators">Generators and Translators</a></h4>
 
-<p>Filters that transform other data sources and formats into Graphviz.</p>
+Filters that transform other data sources and formats into Graphviz.
 
 <ul>
 <li><a href="https://sourceforge.net/projects/excel-to-graphviz/">ExcelToGraphviz</a>, a tool for visualizing Excel data as graphs [Matt Castelli]</li>
@@ -166,7 +166,8 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 <li><a href="http://jekor.com/gressgraph/">Visualize your firewall</a> uses graphviz to produce a graph of your iptables ruleset. [Chris Forno]</li>
 <li><a href="https://graph-tool.skewed.de/">graph-tool</a>, an efficient python module for manipulation and statistical analysis of graphs, which includes an interface to GraphViz, via its python bindings. [Tiago de Paula Peixoto]</li>
 </ul>
-<p>Users interested in general network monitoring tools can find a comparison of some <a href="https://www.comparitech.com/net-admin/network-monitoring-tools/">here</a>.</p>
+
+Users interested in general network monitoring tools can find a comparison of some <a href="https://www.comparitech.com/net-admin/network-monitoring-tools/">here</a>.
 
 <!-- -------------------- -->
 
@@ -231,7 +232,7 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 
 <h4><a name="bio-informatics">Bioinformatics and Cheminformatics Tools and Resources Using Graphviz</a></h4>
 
-<p>Relational structures abound in the study of biological and chemical information. The following list barely scratches the surface.</p>
+Relational structures abound in the study of biological and chemical information. The following list barely scratches the surface.
 
 <ul>
 				<li><a href="https://github.com/peter-lind/hasse-manager/tree/master/HasseManager" >HasseManager</a> for visualizing relations between chemical structures used in fragment-based drug discovery, as described in the <a href="http://pubs.acs.org/doi/abs/10.1021/ci4004464">Journal of&nbsp;Chemical Information and Modelling</a> [Peter Lind]</li>
@@ -278,13 +279,11 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 
 <h4><a name="third-party-distributions">Third-Party Distributions</a></h4>
 
-<ul>
-<li><a href="http://atrpms.net/name/graphviz/">Axel Thimm</a> - rpms for some RedHat Linux distributions (&quot;atrpms&quot;).</li>
-<li><a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&amp;submit=Search+...&amp;system=&amp;arch=">RPM Find</a> - many distros and architectures.</li>
-<li><a href="http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz"><img alt="debian logo" src="/Resources/debian-logo.png" /> Debian</a> - Linux packages for several architectures.</li>
-<li><a href="http://packages.gentoo.org/package/media-gfx/graphviz"><img alt="gentoo logo" src="/Resources/gentoo.jpeg" /> Gentoo</a> - Linux packages.</li>
-<li><a href="http://download.fedora.redhat.com/pub/fedora/linux/extras/"><img alt="fedora logo" src="/Resources/fedora_logo.png" /> Fedora Extras</a> - rpms for Fedora Core 3 and later.</li>
-<li><a href="http://freecode.com/projects/graphviz"><img alt="freshmeat logo" src="/Resources/freshmeat-logo.gif" /> FreshMeat</a> - related projects from a search for &quot;graphviz&quot;.</li>
-<li><a href="http://software.opensuse.org/search?q=graphviz"><img alt="suse logo" src="/Resources/suse-logo.png" /> SuSE</a> - rpms for Novell/SuSE distributions for many architectures.</li>
-<li><a href="http://packages.ubuntu.com/search?keywords=graphviz&amp;searchon=names&amp;suite=all&amp;section=all"><img alt="ubuntu logo" src="/Resources/ubuntu-logo.png" /> Ubuntu</a> - Linux packages.</li>
-</ul>
+* <a href="http://atrpms.net/name/graphviz/">Axel Thimm</a> - rpms for some RedHat Linux distributions (&quot;atrpms&quot;).
+* <a href="http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&amp;submit=Search+...&amp;system=&amp;arch=">RPM Find</a> - many distros and architectures.
+* <a href="http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz"><img alt="debian logo" src="/Resources/debian-logo.png" /> Debian</a> - Linux packages for several architectures.
+* <a href="http://packages.gentoo.org/package/media-gfx/graphviz"><img alt="gentoo logo" src="/Resources/gentoo.jpeg" /> Gentoo</a> - Linux packages.
+* <a href="http://download.fedora.redhat.com/pub/fedora/linux/extras/"><img alt="fedora logo" src="/Resources/fedora_logo.png" /> Fedora Extras</a> - rpms for Fedora Core 3 and later.
+* <a href="http://freecode.com/projects/graphviz"><img alt="freshmeat logo" src="/Resources/freshmeat-logo.gif" /> FreshMeat</a> - related projects from a search for &quot;graphviz&quot;.
+* <a href="http://software.opensuse.org/search?q=graphviz"><img alt="suse logo" src="/Resources/suse-logo.png" /> SuSE</a> - rpms for Novell/SuSE distributions for many architectures.
+* <a href="http://packages.ubuntu.com/search?keywords=graphviz&amp;searchon=names&amp;suite=all&amp;section=all"><img alt="ubuntu logo" src="/Resources/ubuntu-logo.png" /> Ubuntu</a> - Linux packages.
