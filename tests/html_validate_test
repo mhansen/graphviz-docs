@@ -60,6 +60,5 @@ html5validator \
   "The “width” attribute on the “hr” element is obsolete. Use CSS instead."\
   "The “width” attribute on the “table” element is obsolete. Use CSS instead."\
   "Unclosed element “font”."\
-  "Unclosed element “sym”."\
   "Unclosed element “tt”."\
   --root public/
