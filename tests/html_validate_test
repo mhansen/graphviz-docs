@@ -11,7 +11,6 @@ html5validator \
   "Bad value “80%” for attribute “width” on element “img”: Expected a digit but saw “%” instead."\
   "Element “head” is missing a required instance of child element “title”."\
   "Element “img” is missing required attribute “alt”."\
-  "Element “nnn” not allowed as child of element “p” in this context. (Suppressing further errors from this subtree.)"\
   "Element “ol” not allowed as child of element “font” in this context. (Suppressing further errors from this subtree.)"\
   "Element “pre” not allowed as child of element “code” in this context. (Suppressing further errors from this subtree.)"\
   "Element “style” not allowed as child of element “article” in this context. (Suppressing further errors from this subtree.)"\
