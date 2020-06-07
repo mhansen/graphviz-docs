@@ -1,0 +1,94 @@
+#!/bin/bash
+# There is a long list of grandfathered allowed warnings in here.
+# The goal is to whittle these down over time while preventing new regressions.
+html5validator \
+  --skip-non-html \
+  --ignore \
+  "A slash was not immediately followed by “>”."\
+  "A table cell was implicitly closed, but there were open elements."\
+  "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images."\
+  "Attribute “w3-include-html” not allowed on element “div” at this point."\
+  "Bad character “ ” after “<”. Probable cause: Unescaped “<”. Try escaping it as “&lt;”."\
+  "Bad character “'” after “<”. Probable cause: Unescaped “<”. Try escaping it as “&lt;”."\
+  "Bad character “=” after “<”. Probable cause: Unescaped “<”. Try escaping it as “&lt;”."\
+  "Bad value “100%” for attribute “width” on element “img”: Expected a digit but saw “%” instead."\
+  "Bad value “80%” for attribute “width” on element “img”: Expected a digit but saw “%” instead."\
+  "Element “caption” not allowed as child of element “table” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “dl” is missing a required child element."\
+  "Element “head” is missing a required instance of child element “title”."\
+  "Element “img” is missing required attribute “alt”."\
+  "Element “it” not allowed as child of element “dd” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “nnn” not allowed as child of element “p” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “ol” not allowed as child of element “font” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “pre” not allowed as child of element “code” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “spacer” not allowed as child of element “li” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “spacer” not allowed as child of element “ol” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “spacer” not allowed as child of element “p” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “style” not allowed as child of element “article” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “sym” not allowed as child of element “blockquote” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “t” not allowed as child of element “blockquote” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “t” not allowed as child of element “dd” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “t” not allowed as child of element “li” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “t” not allowed as child of element “p” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “xmp” not allowed as child of element “article” in this context. (Suppressing further errors from this subtree.)"\
+  "Element “xmp” not allowed as child of element “dd” in this context. (Suppressing further errors from this subtree.)"\
+  "End tag for  “body” seen, but there were unclosed elements."\
+  "End tag had attributes."\
+  "End tag “article” seen, but there were open elements."\
+  "End tag “blockquote” seen, but there were open elements."\
+  "End tag “br”."\
+  "End tag “dl” seen, but there were open elements."\
+  "End tag “li” implied, but there were open elements."\
+  "End tag “li” seen, but there were open elements."\
+  "End tag “main” seen, but there were open elements."\
+  "End tag “ol” seen, but there were open elements."\
+  "End tag “p” implied, but there were open elements."\
+  "End tag “th” seen, but there were open elements."\
+  "No “dd” element in scope but a “dd” end tag seen."\
+  "No “dt” element in scope but a “dt” end tag seen."\
+  "No “li” element in scope but a “li” end tag seen."\
+  "No “p” element in scope but a “p” end tag seen."\
+  "Non-space characters found without seeing a doctype first. Expected “<!DOCTYPE html>”."\
+  "Row 2 of a row group established by a “tbody” element has no cells beginning on it."\
+  "Row 3 of a row group established by a “tbody” element has no cells beginning on it."\
+  "Row 4 of a row group established by a “tbody” element has no cells beginning on it."\
+  "Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”."\
+  "Stray end tag “blockquote”."\
+  "Stray end tag “i”."\
+  "Stray end tag “td<”."\
+  "Stray end tag “t”."\
+  "Table column 2 established by element “td” has no cells beginning in it."\
+  "The “align” attribute on the “h1” element is obsolete. Use CSS instead."\
+  "The “align” attribute on the “hr” element is obsolete. Use CSS instead."\
+  "The “align” attribute on the “img” element is obsolete. Use CSS instead."\
+  "The “align” attribute on the “p” element is obsolete. Use CSS instead."\
+  "The “align” attribute on the “table” element is obsolete. Use CSS instead."\
+  "The “align” attribute on the “td” element is obsolete. Use CSS instead."\
+  "The “align” attribute on the “th” element is obsolete. Use CSS instead."\
+  "The “align” attribute on the “tr” element is obsolete. Use CSS instead."\
+  "The “background” attribute on the “body” element is obsolete. Use CSS instead."\
+  "The “bgcolor” attribute on the “table” element is obsolete. Use CSS instead."\
+  "The “bgcolor” attribute on the “td” element is obsolete. Use CSS instead."\
+  "The “border” attribute on the “table” element is obsolete. Use CSS instead."\
+  "The “cellspacing” attribute on the “table” element is obsolete. Use CSS instead."\
+  "The “center” element is obsolete. Use CSS instead."\
+  "The “font” element is obsolete. Use CSS instead."\
+  "The “frame” attribute on the “table” element is obsolete. Use CSS instead."\
+  "The “hspace” attribute on the “img” element is obsolete. Use CSS instead."\
+  "The “nowrap” attribute on the “td” element is obsolete. Use CSS instead."\
+  "The “rules” attribute on the “table” element is obsolete. Use CSS instead."\
+  "The “size” attribute on the “hr” element is obsolete. Use CSS instead."\
+  "The “tt” element is obsolete. Use CSS instead."\
+  "The “type” attribute on the “ul” element is obsolete. Use CSS instead."\
+  "The “valign” attribute on the “td” element is obsolete. Use CSS instead."\
+  "The “vspace” attribute on the “img” element is obsolete. Use CSS instead."\
+  "The “width” attribute on the “hr” element is obsolete. Use CSS instead."\
+  "The “width” attribute on the “table” element is obsolete. Use CSS instead."\
+  "Unclosed element “code”."\
+  "Unclosed element “font”."\
+  "Unclosed element “pp”."\
+  "Unclosed element “spacer”."\
+  "Unclosed element “sym”."\
+  "Unclosed element “tt”."\
+  "Unclosed element “ul”."\
+  --root public/
