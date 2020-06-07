@@ -7,7 +7,6 @@ html5validator \
   "A table cell was implicitly closed, but there were open elements."\
   "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images."\
   "Attribute “w3-include-html” not allowed on element “div” at this point."\
-  "Bad character “ ” after “<”. Probable cause: Unescaped “<”. Try escaping it as “&lt;”."\
   "Bad character “'” after “<”. Probable cause: Unescaped “<”. Try escaping it as “&lt;”."\
   "Bad character “=” after “<”. Probable cause: Unescaped “<”. Try escaping it as “&lt;”."\
   "Bad value “100%” for attribute “width” on element “img”: Expected a digit but saw “%” instead."\
