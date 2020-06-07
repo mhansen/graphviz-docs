@@ -47,7 +47,6 @@ html5validator \
   "No “dt” element in scope but a “dt” end tag seen."\
   "No “li” element in scope but a “li” end tag seen."\
   "No “p” element in scope but a “p” end tag seen."\
-  "Non-space characters found without seeing a doctype first. Expected “<!DOCTYPE html>”."\
   "Row 2 of a row group established by a “tbody” element has no cells beginning on it."\
   "Row 3 of a row group established by a “tbody” element has no cells beginning on it."\
   "Row 4 of a row group established by a “tbody” element has no cells beginning on it."\
