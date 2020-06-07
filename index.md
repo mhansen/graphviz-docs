@@ -13,7 +13,7 @@ Please join the brand new (March 2020) <a href="https://forum.graphviz.org" targ
 
 Graphviz is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics, software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.
 
-<img alt="Cluster" src="_pages/Gallery/directed/cluster.png" style="display:block; height:289px; margin-left:auto; margin-right:auto; width:150px" />
+<img alt="Cluster" src="/Gallery/directed/cluster.png" style="display:block; height:289px; margin-left:auto; margin-right:auto; width:150px" />
 
 ## Features
 
