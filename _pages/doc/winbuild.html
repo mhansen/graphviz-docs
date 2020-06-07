@@ -73,8 +73,8 @@ Build Graphviz.
 <LI> Install MinGW and Msys.  This gives a mini GNU-like compile environment 
 <LI> Set environment variables based on your machine, giving values to the
 first six below:
-<CODE>
 <PRE>
+<CODE>
 export INSTALLROOT           # Root install directory
 export GTKDIR                # Root of GTK tree
 export FONTCONFIGINCLUDEDIR  # Path of fontconfig include dir
@@ -94,15 +94,15 @@ export PKG_CONFIG_PATH=$GTKDIR/lib/pkgconfig
 
 export PANGOFLAGS="--with-fontconfig --with-fontconfiglibdir=$FONTCONFIGLIBDIR --with-fontconfigincludedir=$FONTCONFIGINCLUDEDIR --with-pangocairo"
 
-</PRE>
 </CODE>
+</PRE>
 <LI> Change directory to $ROOT and run configure:<BR>
-<CODE>
 <PRE>
+<CODE>
 ./configure -C --prefix=$INSTALLROOT --without-gdk-pixbuf --with-mylibgd --disable-swig --without-x  --disable-tcl --without-ipsepcola --enable-shared --disable-static --with-freetype=$GTKDIR/lib --enable-ltdl $PANGOFLAGS --without-gtk --without-gtkgl
 
-</PRE>
 </CODE>
+</PRE>
 When configure finishes, it lists all of the Graphviz features that have been
 enabled. If there are problems, you can check for errors in <TT>config.log</TT>.
 You may have to add or modify
@@ -172,38 +172,38 @@ that produces Windows-compatible results.
  after this line:<BR>
      <CODE>DEFS=-DHAVE_CONFIG_H</CODE><BR>
  add these lines:<BR>
-<CODE>
 <PRE>
+<CODE>
     case "$host_os" in
      mingw*)
        DEFS="$DEFS -DMSWIN32"
        ;;
      esac
-</PRE>
 </CODE>
+</PRE>
 <LI> run configure:<BR>
-<CODE>
 <PRE>
+<CODE>
    ./configure  --enable-static=yes --enable-shared=no 
 --prefix=/usr/local/ --with-libgd=no --enable-ltdl=no --disable-swig  
 --disable-sharp --disable-guile --disable-io --disable-java 
 --disable-lua --disable-ocaml --disable-perl --disable-php 
 --disable-python --disable-ruby --disable-tcl
-</PRE>
 </CODE>
+</PRE>
 <LI> edit lib/Makefile<BR>
  replace these lines:<BR>
-<CODE>
 <PRE>
+<CODE>
  SUBDIRS = cdt graph agraph gd pathplan agutil sfio vmalloc ast vpsc \
      circogen dotgen fdpgen neatogen twopigen common pack gvc \
      ingraphs expr
-</PRE>
 </CODE>
+</PRE>
 
  with these lines:<BR>
-<CODE>
 <PRE>
+<CODE>
  SUBDIRS = cdt graph agraph gd pathplan  vpsc \
     circogen dotgen fdpgen neatogen twopigen common pack gvc \
     ingraphs
@@ -211,22 +211,22 @@ that produces Windows-compatible results.
 make  # builds most of "lib" (see Makefile changes), cmd/dot and 
 cmd/tools - stops on cmd/gvpr
 make install
-</PRE>
 </CODE>
+</PRE>
 </MENU>
 here is the command line I used to build "simple.c" (dot.demo/simple.c), 
 after adding a few lines based on 
 https://mailman.research.att.com/pipermail/graphviz-interest/2006q2/003586.html 
 
 
-<CODE>
 <PRE>
+<CODE>
 X=simple;gcc -v -I'/usr/local/include/graphviz' -I'/usr/local/include' 
 -o $X -O $X.c  -L/usr/local/lib -L/usr/local/lib/graphviz -lgvc  -lgraph 
 -lpathplan -lcdt -lgvplugin_core -lgvplugin_dot_layout 
 -lgvplugin_neao_layout -lgvplugin_gd -lgvplugin_pango -lgvc -lpathplan
-</PRE>
 </CODE>
+</PRE>
 <P>
 If you
 desire to build directly using Visual Studio or other non-Unix-based
