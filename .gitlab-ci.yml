@@ -8,7 +8,6 @@ stages:
   - test
   - deploy
 
-# add a job called 'test'
 build_site:
   image: ruby:2.7
   stage: build
@@ -21,14 +20,15 @@ build_site:
     paths:
       - public # generating site folder to be browsed or download
   except:
-    - master # the 'test' job will affect all branches expect 'master'
-
+    - master # all branches expect 'master'
 
 check:
   image: cyb3rjak3/html5validator
   stage: test
   script:
     - tests/html_validate_test
+  except:
+    - master # all branches expect 'master'
 
 # 'pages' is a specially-named job that will deploy and build your site to the
 # 'public' path to GitLab Pages.
