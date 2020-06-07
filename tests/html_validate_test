@@ -86,7 +86,6 @@ html5validator \
   "The “width” attribute on the “table” element is obsolete. Use CSS instead."\
   "Unclosed element “code”."\
   "Unclosed element “font”."\
-  "Unclosed element “pp”."\
   "Unclosed element “spacer”."\
   "Unclosed element “sym”."\
   "Unclosed element “tt”."\
