@@ -18,10 +18,6 @@ html5validator \
   "Element “pre” not allowed as child of element “code” in this context. (Suppressing further errors from this subtree.)"\
   "Element “style” not allowed as child of element “article” in this context. (Suppressing further errors from this subtree.)"\
   "Element “sym” not allowed as child of element “blockquote” in this context. (Suppressing further errors from this subtree.)"\
-  "Element “t” not allowed as child of element “blockquote” in this context. (Suppressing further errors from this subtree.)"\
-  "Element “t” not allowed as child of element “dd” in this context. (Suppressing further errors from this subtree.)"\
-  "Element “t” not allowed as child of element “li” in this context. (Suppressing further errors from this subtree.)"\
-  "Element “t” not allowed as child of element “p” in this context. (Suppressing further errors from this subtree.)"\
   "Element “xmp” not allowed as child of element “article” in this context. (Suppressing further errors from this subtree.)"\
   "Element “xmp” not allowed as child of element “dd” in this context. (Suppressing further errors from this subtree.)"\
   "End tag for  “body” seen, but there were unclosed elements."\
