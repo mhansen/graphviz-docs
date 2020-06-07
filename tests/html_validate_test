@@ -4,7 +4,6 @@
 html5validator \
   --skip-non-html \
   --ignore \
-  "A slash was not immediately followed by “>”."\
   "A table cell was implicitly closed, but there were open elements."\
   "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images."\
   "Attribute “w3-include-html” not allowed on element “div” at this point."\
