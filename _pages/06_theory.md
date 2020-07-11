@@ -40,7 +40,7 @@ order: 5
 * <a href="http://www.palgrave-journals.com/ivs/">Information Visualization Journal</a>
 * <strong><a href="http://flowingdata.com/">FlowingData             </a></strong><a href="http://infosthetics.com/">Infothestics</a>
 * <a href="http://www.datavis.ca/gallery/index.php">York U. Gallery of Visualization</a> (see also <a href="http://www.math.yorku.ca/SCS/StatResource.html">Statistics and Statistical Graphics Resources</a>).
-* <a href="http://graphics.stanford.edu/courses/cs348c-96-fall/resources.html"> Stanford University course bilbiography</a>
+* <a href="http://graphics.stanford.edu/courses/cs348c-96-fall/resources.html"> Stanford University course bibliography</a>
 * <a href="http://datajournalism.stanford.edu/">Stanford University Data Journalism</a>
 * <a href="http://www2.parc.com/istl/projects/uir/projects/ii.html">Xerox PARC projects</a>
 * <a href="http://www.gvu.gatech.edu/">Software Visualization at Georgia Tech</a>
