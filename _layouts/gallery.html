@@ -2,7 +2,7 @@
 <HEAD>
 <TITLE> Graphviz Example: {{page.title }} </TITLE>
 </HEAD>
-<body background="{% if page.background %}{{page.background}}{% else %}/backgrounds/back8.gif{% endif %}">
+<body{% if page.background %} background="{{page.background}}"{% endif %}>
 
 
 {{ content }}
