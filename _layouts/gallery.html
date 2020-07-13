@@ -2,7 +2,7 @@
 <HEAD>
 <TITLE> Graphviz Example: {{page.title }} </TITLE>
 </HEAD>
-<body background="/backgrounds/back8.gif">
+<body background="{% if page.background %}{{page.background}}{% else %}/backgrounds/back8.gif{% endif %}">
 
 
 {{ content }}
@@ -16,7 +16,11 @@
 
 <P>
 <font size="1">
-Copyright &#169; 1996-2004 AT&amp;T.  All rights reserved.
+{% if page.copyright -%}
+  {{- page.copyright -}}
+{%- else -%}
+  Copyright &#169; 1996-2004 AT&amp;T.  All rights reserved.
+{%- endif %}
 </font>
 
 
