@@ -2,10 +2,18 @@
 layout: page
 ---
 {{ content }}
-<P>
+{% if page.gv_file and page.img_src %}
+<p>
+  <a href="{{ page.gv_file }}">
+  <img style="max-width:100%;" src="{{ page.img_src }}">
+	</a><br>
+	<i>Click on the picture to view the .gv file</i>
+</p>
+{% endif %}
+<p>
 [<a href="{{page.svg}}">SVG</a>]
-
-<P>
+</p>
+<p>
 <font size="1">
 {% if page.copyright -%}
   {{- page.copyright -}}
@@ -13,3 +21,4 @@ layout: page
   Copyright &#169; 1996-2004 AT&amp;T.  All rights reserved.
 {%- endif %}
 </font>
+</p>
