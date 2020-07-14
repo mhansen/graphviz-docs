@@ -1,18 +1,9 @@
-<HTML>
-<HEAD>
-<TITLE> Graphviz Example: {{page.title }} </TITLE>
-</HEAD>
-<body{% if page.background %} background="{{page.background}}"{% endif %}>
-
-
+---
+layout: page
+---
 {{ content }}
 <P>
 [<a href="{{page.svg}}">SVG</a>]
-[ Back to Graphviz: 
-<A HREF="../../" TARGET="_top"> Home Page</A>
-|
-<A HREF="../../Gallery.php" TARGET="_top"> Gallery</A>
-]
 
 <P>
 <font size="1">
@@ -22,7 +13,3 @@
   Copyright &#169; 1996-2004 AT&amp;T.  All rights reserved.
 {%- endif %}
 </font>
-
-
-</BODY>
-</HTML>

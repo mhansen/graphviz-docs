@@ -2,7 +2,7 @@
 <html lang="en">
 {% include head.html %}
 
-<body>
+<body{% if page.background %} background="{{page.background}}"{% endif %}>
 	{% include header.html %}
 	<main>
 		<article>
