@@ -25,7 +25,7 @@ Note that input graph to gvmap must first be laid out, with overlap removed. E.g
 
 <p>
 
-sfdp -Goverlap=prism -Gcharset=latin1 gd_1994_2007_8comp.gv | gvmap  -e | neato -Ecolor="#55555522" -n2 -Tpng > gd_1994_2007_8comp.png
+sfdp -Goverlap=prism gd_1994_2007_8comp.gv | gvmap  -e | neato -Ecolor="#55555522" -n2 -Tpng > gd_1994_2007_8comp.png
 
 <p>
 More information about the algorithm behind gvmap is found <a href="http://www2.research.att.com/~yifanhu/MAPS/index.html"> here</a>.
