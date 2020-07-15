@@ -34,10 +34,11 @@ plugins: ['jekyll-redirect-from']
 whitelist: ['jekyll-redirect-from']
 gems:
 exclude:
-  - vendor
   - Gemfile
   - Gemfile.lock
+  - LICENSE
   - README.md
   - tests/
+  - vendor
 
 strict_front_matter: true
