@@ -1,1 +1,8 @@
-../../_pages/doc/info/html4.gv
+digraph structs {
+    node [shape=plaintext];
+
+    struct1 [label=<<TABLE>
+    <TR><TD><IMG SRC="eqn.png"/></TD></TR>
+    <TR><TD>caption</TD></TR>
+    </TABLE>>];
+}
