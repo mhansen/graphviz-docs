@@ -9,6 +9,11 @@ redirect_from:
   - /Download.php.html
   - /Download..php.html
   - /Download_macos.php.html
+  # We want to redirect from /Download_windows.php. We need ".php.html" else the
+  # redirect page is downloaded to ~/Downloads/ rather than shown in browser. See:
+  # https://github.com/jekyll/jekyll-redirect-from/issues/145#issuecomment-392277818
+  - /Download_windows.php.html
+  - /_pages/Download/Download_windows.html
 order: 2
 ---
 
