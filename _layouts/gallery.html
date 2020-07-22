@@ -13,6 +13,11 @@ layout: page
 <p>
 [<a href="{{page.svg}}">SVG</a>]
 </p>
+
+{% highlight dot %}
+{% include_relative {{ page.gv_file }} %}
+{% endhighlight %}
+
 <p>
 <font size="1">
 {% if page.copyright -%}
