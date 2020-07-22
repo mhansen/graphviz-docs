@@ -10,12 +10,19 @@ layout: page
 	<i>Click on the picture to view the .gv file</i>
 </p>
 {% endif %}
+
+{% comment %} https://stackoverflow.com/a/63032774/171898 explains this workaround {% endcomment %}
+{% capture gv_contents %}
+{% include_relative {{ page.gv_file }} %}
+{% endcapture %}
+
 <p>
 [<a href="{{page.svg}}">SVG</a>]
+[<a href="http://magjac.com/graphviz-visual-editor/?dot={{ gv_contents | cgi_escape }}">Open in Playground</a>]
 </p>
 
 {% highlight dot %}
-{% include_relative {{ page.gv_file }} %}
+{{ gv_contents }}
 {% endhighlight %}
 
 <p>
