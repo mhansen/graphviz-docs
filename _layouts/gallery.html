@@ -2,13 +2,11 @@
 layout: page
 ---
 {{ content }}
-{% if page.gv_file and page.img_src %}
 <p>
   <a href="{{ page.svg }}">
   <img style="max-width:100%;" src="{{ page.svg }}">
 	</a>
 </p>
-{% endif %}
 
 {% comment %} https://stackoverflow.com/a/63032774/171898 explains this workaround {% endcomment %}
 {% capture gv_contents %}
