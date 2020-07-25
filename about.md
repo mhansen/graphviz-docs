@@ -53,7 +53,9 @@ algorithm aims edges in the same direction (top to bottom, or left to right)
 and then attempts to avoid edge crossings and reduce edge length.
 
 <p align="center">
-  <img src="/Gallery/directed/cluster.svg">
+  <a href="/Gallery/directed/cluster.html">
+    <img src="/Gallery/directed/cluster.svg">
+  </a>
 </p>
 
 ### neato
@@ -66,7 +68,9 @@ majorization, though the older Kamada-Kawai algorithm, using steepest descent,
 is also available.
 
 <p align="center">
-  <img src="/Gallery/undirected/ER.svg">
+  <a href="/Gallery/undirected/ER.html">
+    <img src="/Gallery/undirected/ER.svg">
+  </a>
 </p>
 
 ### fdp
@@ -77,7 +81,9 @@ heuristic including a multigrid solver that handles larger graphs and clustered
 undirected graphs.
 
 <p align="center">
-  <img src="/Gallery/undirected/fdpclust.svg">
+  <a href="/Gallery/undirected/fdpclust.html">
+    <img src="/Gallery/undirected/fdpclust.svg">
+  </a>
 </p>
 
 ### sfdp
@@ -95,7 +101,9 @@ depending their distance from a given root node. You can set the root node, or
 let `twopi` do it.
 
 <p align="center">
-  <img src="/Gallery/twopi/twopi2.svg">
+  <a href="/Gallery/twopi/twopi2.html">
+    <img src="/Gallery/twopi/twopi2.svg">
+  </a>
 </p>
 
 ### circo
