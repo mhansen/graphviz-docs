@@ -6,7 +6,6 @@ html5validator \
   --ignore \
   "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images."\
   "Attribute “w3-include-html” not allowed on element “div” at this point."\
-  "Bad value “100%” for attribute “width” on element “img”: Expected a digit but saw “%” instead."\
   "Bad value “80%” for attribute “width” on element “img”: Expected a digit but saw “%” instead."\
   "Element “head” is missing a required instance of child element “title”."\
   "Element “img” is missing required attribute “alt”."\
@@ -29,7 +28,6 @@ html5validator \
   "Row 3 of a row group established by a “tbody” element has no cells beginning on it."\
   "Row 4 of a row group established by a “tbody” element has no cells beginning on it."\
   "Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”."\
-  "Table column 2 established by element “td” has no cells beginning in it."\
   "The “align” attribute on the “h1” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “hr” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “img” element is obsolete. Use CSS instead."\
@@ -56,6 +54,4 @@ html5validator \
   "The “vspace” attribute on the “img” element is obsolete. Use CSS instead."\
   "The “width” attribute on the “hr” element is obsolete. Use CSS instead."\
   "The “width” attribute on the “table” element is obsolete. Use CSS instead."\
-  "Unclosed element “font”."\
-  "Unclosed element “tt”."\
   --root public/
