@@ -18,7 +18,7 @@ order: 3
     <div style="display: inline-block; width: 49%; vertical-align:top;">
       <a href="{{ p.url }}">
         <h3>{{ p.title }}</h3>
-        <img style="max-width: 100%" src="{{ p.dir }}{{ p.img_src }}">
+        <img style="max-width: 100%" src="{{ p.dir }}{{ p.svg }}">
       </a>
     </div>
   {%- endif -%}
