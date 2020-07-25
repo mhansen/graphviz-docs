@@ -14,8 +14,6 @@ function doGraph {
 		fdp -Tsvg $i -o $j.svg
 		echo use fdp!
 	fi
-	convert -resize 160x160 $j.png $j.small.png
-	# dot -Tpng -Gsize="1.75,1.75" $i -o $j.small.png
 }
 
 if [[ $# > 0 ]]
