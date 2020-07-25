@@ -46,55 +46,66 @@ is probably frustrating to try to use it that way.)
 
 ## Roadmap
 
-* **dot** - makes "hierarchical" or layered drawings of directed graphs.
-The layout algorithm
-aims edges in the same direction (top to bottom, or left to right) and
-then attempts to avoid edge crossings and reduce edge length.
+### dot
+
+Makes "hierarchical" or layered drawings of directed graphs.  The layout
+algorithm aims edges in the same direction (top to bottom, or left to right)
+and then attempts to avoid edge crossings and reduce edge length.
 
 <p align="center">
-  <img src="/Gallery/directed/cluster.small.png" />
+  <img src="/Gallery/directed/cluster.svg">
 </p>
 
-* **neato** - "spring model" layouts.  This is the default tool to use if 
-the graph is not too large (about 100 nodes) and you don't know anything else 
-about it. Neato attempts to minimize a global energy function, which is 
-equivalent to statistical multi-dimensional scaling. The solution is achieved 
-using stress majorization, though the older Kamada-Kawai algorithm, using 
-steepest descent, is also available.
+### neato
+
+"spring model" layouts.  This is the default tool to use if the graph is not
+too large (about 100 nodes) and you don't know anything else about it. `neato`
+attempts to minimize a global energy function, which is equivalent to
+statistical multi-dimensional scaling. The solution is achieved using stress
+majorization, though the older Kamada-Kawai algorithm, using steepest descent,
+is also available.
 
 <p align="center">
-  <img src="/Gallery/undirected/ER.small.png" />
+  <img src="/Gallery/undirected/ER.svg">
 </p>
 
-* **fdp** - "spring model" layouts similar to those of neato, but does this 
-by reducing forces rather than working with energy. Fdp implements the 
-Fruchterman-Reingold heuristic including a multigrid solver that handles 
-larger graphs and clustered undirected graphs.
+### fdp
+
+"spring model" layouts similar to those of `neato`, but does this by reducing
+forces rather than working with energy. Fdp implements the Fruchterman-Reingold
+heuristic including a multigrid solver that handles larger graphs and clustered
+undirected graphs.
 
 <p align="center">
-  <img src="/Gallery/undirected/fdpclust.small.png" />
+  <img src="/Gallery/undirected/fdpclust.svg">
 </p>
 
-* **sfdp** - multiscale version of fdp for the layout of large graphs.
+### sfdp
+
+Multiscale version of `fdp` for the layout of large graphs.
 
 <p align="center">
-  <img src="/Gallery/undirected/200910_viz_matrix_188w.png" />
+  <img src="/Gallery/undirected/200910_viz_matrix_188w.png">
 </p>
 
-* **twopi** - radial layouts, after Graham Wills 97. Nodes are placed on 
-concentric circles depending their distance from a given root node. You can 
-set the root node, or let twopi do it.
+### twopi
+
+Radial layouts, after Graham Wills 97. Nodes are placed on concentric circles
+depending their distance from a given root node. You can set the root node, or
+let `twopi` do it.
 
 <p align="center">
-  <img src="/Gallery/twopi/twopi2.small.png" />
+  <img src="/Gallery/twopi/twopi2.svg">
 </p>
 
-* circo  - circular layout, after Six and Tollis 99, Kauffman and Wiese 02. 
-This is suitable for certain diagrams of multiple cyclic structures, such as 
-certain telecommunications networks.
+### circo
+
+Circular layout, after Six and Tollis 99, Kauffman and Wiese 02.  This is
+suitable for certain diagrams of multiple cyclic structures, such as certain
+telecommunications networks.
 
 <p align="center">
-  <img src="/Gallery/undirected/honda-tokoro.circo.png" />
+  <img src="/Gallery/undirected/honda-tokoro.circo.png">
 </p>
 
 ## Viewers
