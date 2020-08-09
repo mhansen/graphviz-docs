@@ -3,7 +3,7 @@ copyright: Copyright &#169; 1996-2004 AT&amp;T.  All rights reserved.
 redirect_from:
   - /_pages/Gallery/directed/lion_share.html
 layout: gallery
-title: lion_share
+title: Racehorse Pedigree
 svg: lion_share.svg
 gv_file: lion_share.gv.txt
 img_src: lion_share.png

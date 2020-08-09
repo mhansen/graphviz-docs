@@ -3,7 +3,7 @@ copyright: Copyright &#169; 1996-2004 AT&amp;T.  All rights reserved.
 redirect_from:
   - /_pages/Gallery/directed/traffic_lights.html
 layout: gallery
-title: traffic_lights
+title: Traffic Lights
 svg: traffic_lights.svg
 gv_file: traffic_lights.gv.txt
 img_src: traffic_lights.png
