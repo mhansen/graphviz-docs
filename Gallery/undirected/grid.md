@@ -2,7 +2,7 @@
 layout: gallery
 title: Grid
 copyright: Copyright Constantine Shulyupin, licensed under EPL
-gv_file: grid.dot
+gv_file: grid.gv.txt
 img_src: grid.png
 svg: grid.svg
 ---
