@@ -3,7 +3,7 @@ copyright: Copyright &#169; 1996-2004 AT&amp;T.  All rights reserved.
 redirect_from:
   - /_pages/Gallery/directed/Genetic_Programming.html
 layout: gallery
-title: Genetic_Programming
+title: Math Parse Tree
 svg: Genetic_Programming.svg
 gv_file: Genetic_Programming.gv.txt
 img_src: Genetic_Programming.png
