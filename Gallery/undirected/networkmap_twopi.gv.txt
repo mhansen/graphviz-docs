@@ -11,7 +11,9 @@ twopi -Tcmapx -onetworkmap_twopi_1.map -Tpng -onetworkmap_twopi.png networkmap_t
 
 */
 
-graph networkmap { labeljust=l; margin=0; ratio=fill;root=0;size="8,5.4";300 [ color="#8DFF1D", fontsize=12, style="filled", fixedsize=true, width=0.40, height=0.40, label=<<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0"><TR><TD><IMG SRC="images/1.png"/></TD></TR>
+graph networkmap {
+	layout=twopi
+	labeljust=l; margin=0; ratio=fill;root=0;size="8,5.4";300 [ color="#8DFF1D", fontsize=12, style="filled", fixedsize=true, width=0.40, height=0.40, label=<<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0"><TR><TD><IMG SRC="images/1.png"/></TD></TR>
 		 <TR><TD>109.217.106.212.</TD></TR></TABLE>>,
 		 shape="doublecircle", URL="index.php?sec=estado&sec2=operation/agentes/ver_agente&id_agente=300",
 		 tooltip="ajax.php?page=operation/agentes/ver_agente&get_agent_status_tooltip=1&id_agent=300"];

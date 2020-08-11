@@ -1,4 +1,5 @@
 graph G {
+	layout=neato
 	graph [truecolor=true bgcolor="#ff00005f"]
 	node [style=filled fillcolor="#00ff005f"]
 	1 -- 30 [f=1];
