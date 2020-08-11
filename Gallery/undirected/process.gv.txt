@@ -1,4 +1,5 @@
 graph G {
+	layout=neato
 	run -- intr;
 	intr -- runbl;
 	runbl -- run;

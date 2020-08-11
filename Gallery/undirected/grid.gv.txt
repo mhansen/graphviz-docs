@@ -1,5 +1,6 @@
 graph grid
 {
+	layout=dot
 	label="grid"
 	labelloc = "t"
 	node [shape=plaintext]

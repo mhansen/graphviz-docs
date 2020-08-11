@@ -1,4 +1,5 @@
 digraph G  {
+	layout=neato
 	size="7,10"
 	page="8.5,11"
 	center=""

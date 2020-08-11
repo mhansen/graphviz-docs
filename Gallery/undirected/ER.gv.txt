@@ -1,4 +1,5 @@
 graph ER {
+	layout=neato
 	node [shape=box]; course; institute; student;
 	node [shape=ellipse]; {node [label="name"] name0; name1; name2;}
 		code; grade; number;

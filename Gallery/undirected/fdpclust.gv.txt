@@ -1,4 +1,5 @@
 graph G {
+  layout=fdp
   e
   subgraph clusterA {
     a -- b;
