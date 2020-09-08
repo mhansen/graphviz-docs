@@ -10,7 +10,7 @@ layout: page
 
 {% comment %} https://stackoverflow.com/a/63032774/171898 explains this workaround {% endcomment %}
 {% capture gv_contents %}
-{% include_relative {{ page.gv_file }} %}
+{% raw_include_relative {{ page.gv_file }} %}
 {% endcapture %}
 
 <p>
