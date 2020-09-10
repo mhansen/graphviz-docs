@@ -113,7 +113,6 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 <li>HTML: the original <a href="https://gitlab.com/graphviz/webdot">webdot</a> in TCL [John Ellson]<br /> (also see this <a href="/Misc/webdot_cgi.txt">shell wrapper</a> to protect webdot servers from overload)<br />and a simplified <a href="/Misc/webdot.pl">webdot.pl</a> in perl [Stephen North, with a huge assist from John Linderman]</li>
 <li>dokuwiki: <a href="https://www.dokuwiki.org/plugin:graphviz">Create</a> directed and non-directed graph images from &ldquo;dot&rdquo; language [Andreas Gohr]</li>
 </ul>
-			<!-- -------------------- -->
 
 <h4><a name="generators-and-translators">Generators and Translators</a></h4>
 
@@ -137,7 +136,6 @@ Filters that transform other data sources and formats into Graphviz.
 <li><a href="http://code.google.com/p/dbgraphnav/">DBGraphNav</a>, a tool to facilitate the browsing of data within relational databases. [Paul McMillan]</li>
 <li><a href="http://sourceforge.net/projects/emf2gv/" target="_blank">EMF To Graphviz</a>, an Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz.</li>
 </ul>
-<!-- -------------------- -->
 
 <h4><a name="network-and-web">Network and Web Engineering Tools Using Graphviz</a></h4>
 
@@ -168,8 +166,6 @@ Filters that transform other data sources and formats into Graphviz.
 
 Users interested in general network monitoring tools can find a comparison of some <a href="https://www.comparitech.com/net-admin/network-monitoring-tools/">here</a>.
 
-<!-- -------------------- -->
-
 <h4><a name="ai-and-language">AI and Language Tools Using Graphviz</a></h4>
 
 <ul>
@@ -180,8 +176,6 @@ Users interested in general network monitoring tools can find a comparison of so
 				<li><a href="http://blog.prashanthellina.com/topic-extraction-using-wikipedia-data.html">Topic extraction using Wikipedia data</a>.</li>
 				<li><a href="http://fcastone.sourceforge.net/">FcaStone</a> lays out algebraic lattices in the sense of Formal Concept Analysis. (Try the <a href="http://www.upriss.org.uk/fca/fcademo.html">demo</a> or the <a href="http://www.ketlab.org.uk/roget.html"> lattice visualisations of Roget&#39;s Thesaurus</a>). [Uta Priss]</li>
 </ul>
-
-<!-- -------------------- -->
 
 <h4><a name="software-engineering">Programming and Software Engineering Tools Using Graphviz</a></h4>
 
@@ -243,8 +237,6 @@ Relational structures abound in the study of biological and chemical information
 -->
 </ul>
 
-<!-- -------------------- -->
-
 <h4><a name="document-preparation">Document preparation with Graphviz</a></h4>
 
 <ul>
@@ -265,16 +257,12 @@ Relational structures abound in the study of biological and chemical information
 -->
 </ul>
 
-<!-- -------------------- -->
-
 <h4><a name="social-networking">Social Networking and Collaborative Work</a></h4>
 
 <ul>
 				<li><a href="http://www2.research.att.com/~volinsky/cgi-bin/prox/prox.pl">Proximity Subgraphs</a> - visualize communities in the Internet Movie Database</li>
 				<li><a href="http://www.hammondjazz.net/index.php?page=article&amp;task=current&amp;mode=detail&amp;section=News&amp;target=70">Hammond Jazz Inventory</a> - show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!)</li>
 </ul>
-
-<!-- -------------------- -->
 
 <h4><a name="third-party-distributions">Third-Party Distributions</a></h4>
 
