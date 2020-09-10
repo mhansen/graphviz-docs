@@ -105,7 +105,7 @@ li>java: <a href="http://www2.research.att.com/~john/Grappa/" target="_blank">Gr
 <li>perl: <a href="http://search.cpan.org/search?dist=GraphViz-DBI" target="_blank"> GraphViz::DBI</a> - graph database tables and their relationships [Marcel Grunauer]</li>
 <li>perl: <a href="http://search.cpan.org/search?query=graphviz&amp;mode=all" target="_blank">100 more hits in CPAN</a></li>
 <li>perl: <a href="http://search.cpan.org/~marcel/GraphViz-ISA-1.100860/lib/GraphViz/ISA.pm" target="_blank"> GraphViz::ISA</a> - graph Perl packages&#39; ISA runtime hierarchies [Marcel Grunauer]</li>
-<li>perl: <a href="http://search.cpan.org/~tels/Graph-Easy/">Graph::Easy</a> is a rectilinear graph drawing program compatible with Graphviz and written<br />entirely in perl for ease of installation. It also has a <a href="http://search.cpan.org/~tels/mediawiki-graph/" target="_blank">MediaWiki</a> extension. [Tels]</li>
+<li>perl: <a href="http://search.cpan.org/~tels/Graph-Easy/">Graph::Easy</a> is a rectilinear graph drawing program compatible with Graphviz and written entirely in perl for ease of installation. It also has a <a href="http://search.cpan.org/~tels/mediawiki-graph/" target="_blank">MediaWiki</a> extension. [Tels]</li>
 <li>ruby: <a href="http://rockit.sourceforge.net/subprojects/graphr/">GraphR</a> Graph-related Ruby classes using graphviz [Robert Feldt]</li>
 <li>ruby: <a href="https://github.com/glejeune/Ruby-Graphviz/">Ruby-Graphviz</a> - Ruby interface to Graphviz [Gr&eacute;goire Lejeune]</li>
 <li><a href="http://www.mathworks.com/matlabcentral/fileexchange/4518">MatLab</a> [Leon Peshkin]</li>
