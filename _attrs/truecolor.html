@@ -1,0 +1,28 @@
+---
+defaults:
+- ''
+flags:
+- bitmap output
+minimums: []
+name: truecolor
+types:
+- bool
+used_by: G
+---
+If set explicitly to true or false, the value determines whether or not
+internal bitmap rendering relies on a truecolor color model or uses
+a color palette.
+If the attribute is unset, truecolor is not used
+unless there is a <A HREF=#d:shapefile>shapefile</A> property
+for some node in the graph.
+The output model will use the input model when possible.
+<P>
+Use of color palettes results in less memory usage during creation of the
+bitmaps and smaller output files.
+<P>
+Usually, the only time it is necessary to specify the truecolor model
+is if the graph uses more than 256 colors.
+However, if one uses <A HREF=#d:bgcolor>bgcolor</A>=transparent with
+a color palette, font
+antialiasing can show up as a fuzzy white area around characters.
+Using <B>truecolor</B>=true avoids this problem.

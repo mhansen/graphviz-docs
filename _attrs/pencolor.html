@@ -1,0 +1,18 @@
+---
+defaults:
+- black
+flags: []
+minimums: []
+name: pencolor
+types:
+- color
+used_by: C
+---
+Color used to draw the bounding box around a cluster.
+If <B>pencolor</B> is not defined, <A HREF=#d:color><B>color</B></A> is
+used. If this is not defined, <A HREF=#d:bgcolor>bgcolor</A> is used.
+If this is not defined, the default is used.
+<P>
+Note that a cluster inherits the root graph's attributes if defined.
+Thus, if the root graph has defined a <B>pencolor</B>, this will override a
+<B>color</B> or <B>bgcolor</B> attribute set for the cluster.

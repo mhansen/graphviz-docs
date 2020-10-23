@@ -1,0 +1,111 @@
+---
+name: style
+---
+styleItem ( ',' styleItem )*<BR>
+<TABLE>
+<TR><TD ALIGN=right>where styleItem<TD>=<TD>name or name'('args')'</TR>
+<TR><TD ALIGN=right>and args<TD>=<TD>name ( ',' name )*</TR>
+</TABLE>
+and name can be any string of characters not containing a space, a left or
+right parenthesis, or a comma.
+Note that whitespace characters are ignored.
+<P>
+<B>NOTE:</B><EM>The styles <tt>tapered, striped</tt> and <tt>wedged</tt>
+are only available in release 2.30 and later.</EM>
+<P>
+At present, the recognized style names are
+"dashed", "dotted", "solid", "invis" and "bold" for nodes and edges,
+"tapered" for edges only,
+and "filled", "striped", "wedged", "diagonals" and "rounded" for nodes only.
+The styles "filled", "striped" and "rounded" are recognized for clusters.
+The style "radial" is recognized for nodes, clusters and graphs, and indicates a
+radial-style gradient fill if applicable.
+<P>
+The style "striped" causes the
+fill to be done as a set of vertical stripes. The colors are specified via a <A HREF=#k:colorList>colorList</A>, 
+the colors drawn from left to right in list order. Optional color weights can be specified to indicate the
+proportional widths of the bars. If the sum of the weights is less than 1, the remainder is divided evenly
+among the colors with no weight. <B>Note</B>: The style "striped" is only supported with clusters and
+rectangularly-shaped nodes.
+<P>
+The style "wedged" causes the
+fill to be done as a set of wedges. The colors are specified via a <A HREF=#k:colorList>colorList</A>, 
+with the colors drawn counter-clockwise starting at angle 0. Optional color weights are interpreted
+analogously to the striped case described above.
+<B>Note</B>: The style "wedged" is allowed only for elliptically-shaped nodes.
+<P>
+The following tables illustrate some of the effects of the style settings. 
+Examples of tapered line styles are given below.
+Examples of linear and radial gradient fill can be seen under  <A HREF=#k:colorList>colorList</A>.
+<P>
+  <TABLE border=1>
+    <CAPTION>Basic style settings for nodes</CAPTION>
+    <TR><TD align="center"><tt>solid</tt> <TD><IMG SRC="n_solid.png">
+       <TD align="center"><tt>dashed</tt> <TD><IMG SRC="n_dashed.png">
+       <TD align="center"><tt>dotted</tt> <TD><IMG SRC="n_dotted.png"> </TR>
+    <TR><TD align="center"><tt>bold</tt> <TD><IMG SRC="n_bold.png">
+       <TD align="center"><tt>rounded</tt> <TD><IMG SRC="n_rounded.png">
+       <TD align="center"><tt>diagonals</tt> <TD><IMG SRC="n_diagonals.png"> </TR>
+    <TR><TD align="center"><tt>filled</tt> <TD><IMG SRC="n_filled.png">
+       <TD align="center"><tt>striped</tt> <TD><IMG SRC="n_striped.png">
+       <TD align="center"><tt>wedged</tt> <TD><IMG SRC="n_wedged.png"></TR>
+  </TABLE>
+<P>
+  <TABLE border=1>
+    <CAPTION>Basic style settings for edges</CAPTION>
+    <TR><TD align="center"><tt>solid</tt> <TD><IMG SRC="e_solid.png"> 
+        <TD align="center"><tt>dashed</tt> <TD><IMG SRC="e_dashed.png"> </TR>
+    <TR><TD align="center"><tt>dotted</tt> <TD><IMG SRC="e_dotted.png">
+        <TD align="center"><tt>bold</tt> <TD><IMG SRC="e_bold.png"></TR> <TR>
+  </TABLE>
+<P>
+  <TABLE border=1>
+    <CAPTION>Basic style settings for clusters</CAPTION>
+    <TR><TD align="center"><tt>solid</tt> <TD><IMG SRC="c_solid.png"> 
+        <TD align="center"><tt>dashed</tt> <TD><IMG SRC="c_dashed.png">
+        <TD align="center"><tt>dotted</tt> <TD><IMG SRC="c_dotted.png">
+        <TD align="center"><tt>bold</tt> <TD><IMG SRC="c_bold.png"> </TR>
+    <TR><TD align="center"><tt>rounded</tt> <TD><IMG SRC="c_rounded.png">
+        <TD align="center"><tt>filled</tt> <TD><IMG SRC="c_filled.png">
+        <TD align="center"><tt>striped</tt> <TD><IMG SRC="c_striped.png"></TR>
+  </TABLE>
+<P>
+The effect of <tt>style=tapered</tt> depends on the <A HREF=#d:penwidth>penwidth</A>,
+<A HREF=#d:dir>dir</A>, <A HREF=#d:arrowhead>arrowhead</A> and <A HREF=#d:arrowtail>arrowtail</A> attributes.
+The edge starts with width <tt>penwidth</tt> and tapers to width 1, in points. The <tt>dir</tt> attribute
+determines whether the tapering goes from tail to head (<tt>dir=forward</tt>), from head to 
+tail (<tt>dir=forward</tt>), from the middle to both the head and tail (<tt>dir=both</tt>), or no
+tapering at all (<tt>dir=none</tt>). If the <tt>dir</tt> is not explicitly set, the default for the
+graph type is used (see <A HREF=#a:dir>dir</A>). Arrowheads and arrowtails are also drawn, based on the
+value of <tt>dir</tt>; to avoid this, set <tt>arrowhead</tt> and/or <TT>arrowtail</TT> to <TT>"none"</TT>.
+<P>
+<B>Note:</B> At present, the tapered style only allows a simple filled polygon.
+Additional styles such as <TT>dotted</TT> or <TT>dashed</TT>, or multiple colors
+supplied via a <A HREF=#k:colorList>colorList</A> are ignored.
+<P>
+The following table illustrates the <tt>style=tapered</tt> with <tt>penwidth=7</tt> and
+<tt>arrowtail=none</tt>.
+  <TABLE border=1>
+    <TR><TD><tt>dir</tt> &#92; <tt>arrowhead</tt><TD align="center"><tt>normal</tt><TD align="center"><tt>none</tt></TR>
+    <TR><TD align="center"><tt>forward</tt> <TD><IMG SRC="normal_forward.png"> <TD><IMG SRC="none_forward.png"> </TR>
+    <TR><TD align="center"><tt>back</tt> <TD><IMG SRC="normal_back.png"> <TD><IMG SRC="none_back.png"> </TR>
+    <TR><TD align="center"><tt>both</tt> <TD><IMG SRC="normal_both.png"> <TD><IMG SRC="none_both.png"> </TR>
+    <TR><TD align="center"><tt>none</tt> <TD><IMG SRC="normal_none.png"> <TD><IMG SRC="none_none.png"></TR>
+  </TABLE>
+<P>
+Additional styles are available in
+device-dependent form. Style lists are passed to device drivers, which
+can use this to generate appropriate output.
+<P>
+The style attribute affects the basic appearance of nodes, edges and graphs, 
+but has no effect on any text used in labels. For this, use the <A HREF=#d:fontname><TT>fontname</TT></A>, <A HREF=#d:fontsize><TT>fontsize</TT></A> and <A HREF=#d:fontcolor><TT>fontcolor</TT></A>
+attributes, or the <TT>&lt;FONT&gt;</TT>, <TT>&lt;B&gt;</TT>, <TT>&lt;I&gt;</TT>, etc. 
+elements in <A HREF=shapes.html#html>HTML-like labels</A>.
+<P>
+The <TT>setlinewidth</TT> style value can be
+used for more control over the width of node borders and edges than is
+allowed by <TT>bold</TT>. This style value takes an argument, specifying the
+width of the line in <A HREF=#points>points</A>. For example, <TT>style="bold"</TT> is
+equivalent to <TT>style="setlinewidth(2)"</TT>.
+<B>The use of <TT>setlinewidth</TT> is deprecated; one should use the
+<A HREF=#d:penwidth><TT>penwidth</TT></A> attribute instead.</B>

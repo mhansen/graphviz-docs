@@ -1,0 +1,31 @@
+---
+defaults:
+- major
+flags:
+- neato
+minimums: []
+name: mode
+types:
+- string
+used_by: G
+---
+Technique for optimizing the layout. For neato, if <B>mode</B> is <TT>"major"</TT>,
+neato uses stress majorization. If <B>mode</B> is <TT>"KK"</TT>,
+neato uses a version of the gradient descent method. The only advantage
+to the latter technique is that it is sometimes appreciably faster for
+small (number of nodes &lt; 100) graphs. A significant disadvantage is that
+it may cycle. If <B>mode</B> is <TT>"sgd"</TT>, neato uses a version of the
+stochastic gradient descent method. The advantage of sgd is faster and more
+reliable convergence than both the previous methods, while the disadvantage
+is that it runs in a fixed number of iterations and may require larger
+values of <TT>"maxiter"</TT> in some graphs.
+<P>
+There are two experimental modes in neato, "hier", which adds a top-down
+directionality similar to the layout used in dot, and "ipsep", which
+allows the graph to specify minimum vertical and horizontal distances
+between nodes. (See the <A HREF=#d:sep>sep</A> attribute.)
+<P>
+For sfdp, the default <B>mode</B> is <TT>"spring"</TT>, which corresponds to using
+a spring-electrical model. Setting <B>mode</B> to <TT>"maxent"</TT> causes a similar
+model to be run but one that also takes into account edge lengths specified by the
+<TT>"len"</TT> attribute.

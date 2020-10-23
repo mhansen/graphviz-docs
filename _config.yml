@@ -42,3 +42,8 @@ exclude:
   - vendor
 
 strict_front_matter: true
+collections:
+  attrs:
+    sort_by: name
+  attr_types:
+    sort_by: name
