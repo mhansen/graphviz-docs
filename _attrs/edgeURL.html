@@ -1,0 +1,19 @@
+---
+defaults:
+- '""'
+flags:
+- map
+- svg
+minimums: []
+name: edgeURL
+types:
+- escString
+used_by: E
+---
+If <B>edgeURL</B> is defined, this is the link used for the non-label
+parts of an edge. This value overrides any <A HREF=#d:URL>URL</A>
+defined for the edge.
+Also, this value is used near the head or tail node unless overridden
+by a <A HREF=#d:headURL>headURL</A> or <A HREF=#d:tailURL>tailURL</A> value,
+respectively.
+See <A HREF=#h:undir_note>limitation</A>.

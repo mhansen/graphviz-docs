@@ -1,0 +1,17 @@
+---
+defaults:
+- system-dependent
+flags: []
+minimums: []
+name: fontpath
+types:
+- string
+used_by: G
+---
+Directory list used by libgd to search for bitmap fonts if Graphviz
+was not built with the fontconfig library.
+If <B>fontpath</B> is not set, the environment
+variable <TT>DOTFONTPATH</TT> is checked.
+If that is not set, <TT>GDFONTPATH</TT> is checked.
+If not set, libgd uses its compiled-in font path.
+Note that fontpath is an attribute of the root graph.

@@ -1,0 +1,16 @@
+---
+defaults:
+- 8(output)
+- 20(overlap and image maps)
+flags: []
+minimums: []
+name: samplepoints
+types:
+- int
+used_by: N
+---
+If the input graph defines the <A HREF=#d:vertices><B>vertices</B></A>
+attribute, and output is dot or xdot, this gives
+the number of points used for a node whose shape is a circle or ellipse.
+It plays the same role in neato, when adjusting the layout to avoid
+overlapping nodes, and in image maps.

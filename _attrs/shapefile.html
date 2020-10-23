@@ -1,0 +1,27 @@
+---
+defaults:
+- '""'
+flags: []
+minimums: []
+name: shapefile
+types:
+- string
+used_by: N
+---
+(Deprecated) If defined, shapefile specifies a file containing user-supplied node content.
+The <A HREF=#d:shape><B>shape</B></A> of the node is set to box.
+The image in the shapefile must be
+rectangular. The image formats supported as well as the precise semantics of
+how the file is used depends on the
+<A HREF="output.html">output format</A>.  For further details, see
+<A HREF=output.html#d:image_fmts>Image Formats</A> and
+<A HREF="../../../faq/#ext_image">External PostScript files</A>.
+<P>
+There is one exception to this usage.
+If <B>shape</B> is set to "epsf", shapefile gives
+a filename containing a definition of the node in PostScript.
+The graphics defined must be contain all of the
+node content, including any desired boundaries.
+For further details, see
+<A HREF="../../../faq/#ext_ps_file">
+External PostScript files</A>.

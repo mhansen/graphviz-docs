@@ -1,0 +1,48 @@
+---
+name: color
+---
+Colors can be specified using one of four formats.
+       <TABLE><TR><TD>"#%2x%2x%2x"<TD>Red-Green-Blue (RGB)</TR>
+       <TR><TD>"#%2x%2x%2x%2x"<TD>Red-Green-Blue-Alpha (RGBA)</TR>
+       <TR><TD>"H[,&#160;]+S[,&#160;]+V"<TD>Hue-Saturation-Value (HSV) 0.0 &lt;= H,S,V &lt;= 1.0</TR>
+       <TR><TD>string<TD><A HREF=colors.html>color name</A></TR></TABLE>
+ The specification for the RGB and RGBA formats are the format strings used by
+ <TT>sscanf</TT> to scan the color value. Thus, these values have the form
+ "#RGB" or "#RGBA", where R, G, B, and A each consist of 2 hexadecimal
+ digits, and can be separated by whitespace. HSV colors have the form of 3
+ numbers between 0 and 1, separated by whitespace or commas.
+<P>
+String-valued color specifications are case-insensitive and interpreted
+in the context of the current color scheme, as specified by the
+<A HREF=#d:colorscheme>colorscheme</A> attribute. If this is undefined,
+the X11 naming scheme will be used.
+An initial <TT>"/"</TT> character can be used to override the use of
+the <TT>colorscheme</TT> attribute. In particular, a single initial
+<TT>"/"</TT> will cause the string to be evaluated using the default
+X11 naming. If the color value has the form <TT>"/ssss/yyyy"</TT>,
+the name <TT>yyyy</TT> is interpreted using the schema <TT>ssss</TT>.
+If the color scheme name is empty, i.e., the color has the
+form <TT>"//yyyy"</TT>, the <TT>colorscheme</TT> attribute is used.
+Thus, the forms <TT>"yyyy"</TT> and <TT>"//yyyy"</TT> are
+equivalent.
+<P>At present, Graphviz recognizes the default color scheme <TT>X11</TT>,
+and the <A HREF="colors.html#brewer">Brewer color schemes</A> (cf. <A HREF="http://www.personal.psu.edu/faculty/c/a/cab38/ColorBrewer/ColorBrewer_intro.html">ColorBrewer</A>). Please note that Brewer
+color schemes are covered by this <A HREF=colors.html#brewer_license>license</A>.
+<P>
+Examples:<BR>
+  <TABLE border=1>
+    <TR><TH>Color<TH>RGB<TH>HSV<TH>String</TR>
+    <TR><TD align=center bgcolor=#ffffff>White<TD>"#ffffff"<TD>"0.000 0.000 1.000"<TD>"white"</TR>
+    <TR><TD align=center bgcolor=#000000><font color=white>Black</font><TD>"#000000"<TD>"0.000 0.000 0.000"<TD>"black"</TR>
+    <TR><TD align=center bgcolor=#ff0000>Red<TD>"#ff0000"<TD>"0.000 1.000 1.000"<TD>"red"</TR>
+    <TR><TD align=center bgcolor=#40e0d0>Turquoise<TD>"#40e0d0"<TD>"0.482 0.714 0.878"<TD>"turquoise"</TR>
+    <TR><TD align=center bgcolor=#a0522d>Sienna<TD>"#a0522d"<TD>"0.051 0.718 0.627"<TD>"sienna"</TR>
+  </TABLE>
+<P>
+ The string value <TT>transparent</TT> can be used to indicate no color.
+ This is only available in the output formats
+ ps, svg, fig, vmrl, and the bitmap formats. It can be used whenever a
+ color is needed but is most useful with
+ the <A HREF=#d:bgcolor>bgcolor</A> attribute.
+ Usually, the same effect can be achieved by setting
+ <A HREF=#d:style>style</A> to <TT>invis</TT>.

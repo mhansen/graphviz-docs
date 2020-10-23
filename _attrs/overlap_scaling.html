@@ -1,0 +1,21 @@
+---
+defaults:
+- '-4'
+flags:
+- prism
+minimums:
+- -1.0e10
+name: overlap_scaling
+types:
+- double
+used_by: G
+---
+When <TT>overlap=prism</TT>, the layout is scaled by this factor, thereby
+removing a fair amount of node overlap, and making node overlap removal
+faster and better able to retain the graph's shape.
+<P>
+If <TT>overlap_scaling</TT> is negative, the layout is scaled by
+<TT>-1*overlap_scaling</TT> times the average label size.
+If <TT>overlap_scaling</TT> is positive, the layout is scaled by
+<TT>overlap_scaling</TT>.
+If <TT>overlap_scaling</TT> is zero, no scaling is done.

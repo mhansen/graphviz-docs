@@ -1,0 +1,30 @@
+---
+defaults:
+- '""'
+flags:
+- svg
+minimums:
+- ''
+name: class
+types:
+- string
+used_by: ENCG
+---
+Classnames to attach to the node, edge, graph, or cluster's SVG element.
+Combine with <a href="#d:stylesheet">stylesheet</a> for styling SVG output
+using CSS classnames.
+<p>
+Multiple space-separated classes are supported.
+<p>
+<pre>
+digraph G {
+  graph [class="cats"];
+
+  subgraph cluster_big {
+    graph [class="big_cats"];
+
+    "Lion" [class="yellow social"];
+    "Snow Leopard" [class="white solitary"];
+  };
+}
+</pre>

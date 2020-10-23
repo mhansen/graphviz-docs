@@ -1,0 +1,26 @@
+---
+defaults: []
+flags: []
+minimums: []
+name: size
+types:
+- double
+- point
+used_by: G
+---
+Maximum width and height of drawing, in inches.
+If only a single number is given, this is used for both the width
+and the height.
+<P>
+If defined and the drawing is larger than the given size, 
+the drawing is uniformly
+scaled down so that it fits within the given size.
+<P>
+If <TT>size</TT> ends in an exclamation point (<TT>!</TT>),
+then it is taken to be
+the desired size. In this case, if both dimensions of the drawing are
+less than <TT>size</TT>, the drawing is scaled up uniformly until at
+least one dimension equals its dimension in <TT>size</TT>.
+<P>
+Note that there is some interaction between the <B>size</B> and
+<A HREF=#d:ratio><B>ratio</B></A> attributes.

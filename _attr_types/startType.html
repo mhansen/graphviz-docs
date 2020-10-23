@@ -1,0 +1,23 @@
+---
+name: startType
+---
+has the syntax <TT>(<I>style</I>)?(<I>seed</I>)?</TT>.
+<P>
+If <I>style</I> is present, it must be one of the strings <TT>"regular"</TT>,
+<TT>"self"</TT>, or <TT>"random"</TT>. In the first case, the nodes are
+placed regularly about a circle. In the second case,
+an abbreviated version of neato is run to obtain the initial layout.
+In the last case, the nodes are placed randomly in a unit square.
+<P>
+If <I>seed</I> is present, it specifies a seed for the random number
+generator. If <I>seed</I> is a positive number, this is used as the
+seed. If it is anything else,
+the current time, and possibly the process id, is used to pick a seed,
+thereby making the choice more random. In this case, the seed value
+is stored in the graph.
+<P>
+If the value is just <TT>"random"</TT>, a time-based seed is chosen.
+<P>
+Note that input positions, specified by a node's
+<A HREF=#d:pos>pos</A>
+attribute, are only used when the style is <TT>"random"</TT>.
