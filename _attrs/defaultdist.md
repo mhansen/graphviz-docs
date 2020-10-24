@@ -12,4 +12,5 @@ used_by: G
 ---
 This specifies the distance between nodes in separate connected
 components. If set too small, connected components may overlap.
-Only applicable if <A HREF=#d:pack>pack</A>=false.
+
+Only applicable if [`pack`](#d:pack)`=false`.
