@@ -9,4 +9,4 @@ types:
 - int
 used_by: N
 ---
-Number of sides if <A HREF=#d:shape><B>shape</B></A>=polygon.
+Number of sides when [`shape`](#d:shape)`=polygon`.

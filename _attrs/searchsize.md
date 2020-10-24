@@ -9,5 +9,5 @@ types:
 - int
 used_by: G
 ---
-During network simplex, maximum number of edges with negative cut values
+During network simplex, the maximum number of edges with negative cut values
 to search when looking for one with minimum cut value.

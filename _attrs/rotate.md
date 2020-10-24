@@ -8,4 +8,4 @@ types:
 - int
 used_by: G
 ---
-If 90, set drawing orientation to landscape.
+If `rotate=90`, sets drawing orientation to landscape.

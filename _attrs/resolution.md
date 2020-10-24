@@ -11,4 +11,4 @@ types:
 - double
 used_by: G
 ---
-This is a synonym for the <A HREF=#d:dpi>dpi</A> attribute.
+Synonym for [`dpi`](#d:dpi).
