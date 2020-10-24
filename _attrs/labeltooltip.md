@@ -11,5 +11,5 @@ types:
 used_by: E
 ---
 Tooltip annotation attached to label of an edge.
-This is used only if the edge has a <A HREF=#d:URL>URL</A>
-or <A HREF=#d:labelURL>labelURL</A> attribute.
+
+Used only if the edge has a [`URL`](#d:URL) or [`labelURL`](#d:labelURL) attribute.

@@ -8,5 +8,6 @@ types:
 - point
 used_by: EGC
 ---
-Label position, <A HREF=#points>in points</A>.
+Label position, [in points](#points).
+
 The position indicates the center of the label.
