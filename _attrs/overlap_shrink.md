@@ -9,5 +9,5 @@ types:
 - bool
 used_by: G
 ---
-If true, the overlap removal algorithm will perform a compression pass to reduce the
+Whether the overlap removal algorithm should perform a compression pass to reduce the
 size of the layout.
