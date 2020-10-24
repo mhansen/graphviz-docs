@@ -8,8 +8,9 @@ types:
 - string
 used_by: G
 ---
-A string in the <A HREF=output.html#d:xdot>xdot format</A> specifying an arbitrary background.  
+A string in the [xdot format](output.html#d:xdot) specifying an arbitrary background.  
 During rendering, the canvas is first filled as described in the
-<A href=#d:bgcolor>bgcolor attribute</A>. 
-Then, if <b>_background</b> is defined, the graphics
+[`bgcolor` attribute](#d:bgcolor).
+
+Then, if `_background` is defined, the graphics
 operations described in the string are performed on the canvas.
