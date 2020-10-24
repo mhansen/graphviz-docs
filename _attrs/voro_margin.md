@@ -11,4 +11,4 @@ types:
 used_by: G
 ---
 Factor to scale up drawing to allow margin for expansion in
-Voronoi technique. dim' = (1+2*margin)*dim.
+Voronoi technique. `dim' = (1+2*margin)*dim`.
