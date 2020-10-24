@@ -9,4 +9,5 @@ types:
 used_by: E
 ---
 Indicates where on the tail node to attach the tail of the edge.
-See <A HREF=#h:undir_note>limitation</A>.
+
+See [limitation](#h:undir_note).

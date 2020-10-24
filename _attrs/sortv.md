@@ -9,6 +9,5 @@ types:
 - int
 used_by: GCN
 ---
-If <A HREF="#d:packmode">packmode</A> indicates an array packing, 
-this attribute specifies an
+If [`packmode`](#d:packmode) indicates an array packing, `sortv` specifies an
 insertion order among the components, with smaller values inserted first.

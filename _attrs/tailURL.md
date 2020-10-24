@@ -10,8 +10,10 @@ types:
 - escString
 used_by: E
 ---
-If <B>tailURL</B> is defined, it is
-output as part of the tail label of the edge.
+If defined, `tailURL` is output as part of the tail label of the
+edge.
+
 Also, this value is used near the tail node, overriding any
-<A HREF=#d:URL>URL</A> value.
-See <A HREF=#h:undir_note>limitation</A>.
+[`URL`](#d:URL) value.
+
+See [limitation](#h:undir_note).

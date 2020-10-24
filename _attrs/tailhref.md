@@ -10,4 +10,4 @@ types:
 - escString
 used_by: E
 ---
-Synonym for <A HREF=#d:tailURL>tailURL</A>.
+Synonym for [`tailURL`](#d:tailURL).
