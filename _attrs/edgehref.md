@@ -10,4 +10,4 @@ types:
 - escString
 used_by: E
 ---
-Synonym for <A HREF=#d:edgeURL>edgeURL</A>.
+Synonym for [`edgeURL`](#d:edgeURL).

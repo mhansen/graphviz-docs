@@ -12,4 +12,4 @@ types:
 used_by: G
 ---
 Terminating condition. If the length squared of all energy gradients are
-&lt; <B>epsilon</B>, the algorithm stops.
+less than `epsilon`, the algorithm stops.
