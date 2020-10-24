@@ -9,5 +9,4 @@ types:
 used_by: G
 ---
 If true, the graph is rendered in landscape mode. Synonymous with
-<A HREF=#d:rotate><TT>rotate=90</TT></A> or
-<A HREF=#d:orientation><TT>orientation=landscape</TT></A>.
+[`rotate`](#d:rotate)`=90` or [`orientation`](#d:orientation)`=landscape`.
