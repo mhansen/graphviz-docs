@@ -11,12 +11,14 @@ types:
 used_by: ENCG
 ---
 Classnames to attach to the node, edge, graph, or cluster's SVG element.
-Combine with <a href="#d:stylesheet">stylesheet</a> for styling SVG output
+Combine with [`stylesheet`](#d:stylesheet) for styling SVG output
 using CSS classnames.
-<p>
+
 Multiple space-separated classes are supported.
-<p>
-<pre>
+
+Example:
+
+```dot
 digraph G {
   graph [class="cats"];
 
@@ -25,6 +27,6 @@ digraph G {
 
     "Lion" [class="yellow social"];
     "Snow Leopard" [class="white solitary"];
-  };
+  }
 }
-</pre>
+```
