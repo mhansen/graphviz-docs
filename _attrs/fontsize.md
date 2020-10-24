@@ -9,4 +9,4 @@ types:
 - double
 used_by: ENGC
 ---
-Font size, <A HREF=#points>in points</A>, used for text.
+Font size, [in points](#points), used for text.
