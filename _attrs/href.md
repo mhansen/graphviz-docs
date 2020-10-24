@@ -11,4 +11,4 @@ types:
 - escString
 used_by: GCNE
 ---
-Synonym for <A HREF=#d:URL>URL</A>.
+Synonym for [`URL`](#d:URL).
