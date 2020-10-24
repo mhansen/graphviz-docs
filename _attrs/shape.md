@@ -8,4 +8,4 @@ types:
 - shape
 used_by: N
 ---
-Set the shape of a node.
+Sets the [shape](/doc/info/shapes.html) of a node.

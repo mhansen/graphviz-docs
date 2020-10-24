@@ -11,4 +11,4 @@ types:
 used_by: ENG
 ---
 Print guide boxes in PostScript at the beginning of
-routesplines if 1, or at the end if 2. (Debugging, TB mode only!)
+routesplines if `showboxes=1`, or at the end if `showboxes=2`. (Debugging, TB mode only!)

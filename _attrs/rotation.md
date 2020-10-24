@@ -9,4 +9,4 @@ types:
 - double
 used_by: G
 ---
-Causes the final layout to be rotated counter-clockwise by the specified number of degrees.
+Rotates the final layout counter-clockwise by the specified number of degrees.
