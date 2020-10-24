@@ -85,7 +85,8 @@ of the layout programs.
   <TH>Minimum</TH>
   <TH>Notes</TH>
 </TR>
-{%- for attr in site.attrs %}
+{% assign sorted_attrs = site.attrs | sort_natural: "name" %}
+{%- for attr in sorted_attrs %}
 <TR>
   <TD><A ID="a:{{ attr.name }}" HREF="#d:{{ attr.name }}">{{ attr.name }}</A></TD>
   <TD>{{ attr.used_by | xml_escape }}</TD>
@@ -130,7 +131,7 @@ of the layout programs.
 <HR>
 <H1>Attribute Descriptions</H1>
 <DL>
-{%- for attr in site.attrs %}
+{%- for attr in sorted_attrs %}
 <DT><A ID="d:{{attr.name}}" HREF="#a:{{attr.name}}"><STRONG>{{ attr.name }}</STRONG></A>
 <DD>{{ attr.content -}}
 {% endfor %}
@@ -145,7 +146,8 @@ For regular expressions, <CODE>(...)*</CODE> indicates 0 or more copies of the e
 enclosed in the parentheses,  <CODE>(...)+</CODE> indicates 1 or more, and
 <CODE>(...)?</CODE> denotes 0 or 1 copy.
 <DL>
-{% for t in site.attr_types -%}
+{% assign sorted_attr_types = site.attr_types | sort_natural: "name" %}
+{% for t in sorted_attr_types -%}
 <DT ID="k:{{t.name}}"><STRONG>{{t.name}}</STRONG>
 <DD>{{t.content}}
 {% endfor %}
