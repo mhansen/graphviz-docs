@@ -9,6 +9,7 @@ types:
 used_by: E
 ---
 Style of arrowhead on the head node of an edge.
-This will only appear if the <A HREF=#d:dir>dir</A> attribute
-is "forward" or "both".
-See the <A HREF=#h:undir_note>limitation</A>.
+This will only appear if the [`dir` attribute](#d:dir)
+is `forward` or `both`.
+
+See the [limitation](#h:undir_note).
