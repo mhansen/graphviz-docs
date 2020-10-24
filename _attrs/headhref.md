@@ -10,4 +10,4 @@ types:
 - escString
 used_by: E
 ---
-Synonym for <A HREF=#d:headURL>headURL</A>.
+Synonym for [`headURL`](#d:headURL).

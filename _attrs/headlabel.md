@@ -9,4 +9,5 @@ types:
 used_by: E
 ---
 Text label to be placed near head of edge.
-See <A HREF=#h:undir_note>limitation</A>.
+
+See [limitation](#h:undir_note).
