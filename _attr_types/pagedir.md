@@ -1,7 +1,15 @@
 ---
 name: pagedir
 ---
-"BL", "BR", "TL", "TR", "RB", "RT", "LB", "LT".
+* `"BL"`
+* `"BR"`
+* `"TL"`
+* `"TR"`
+* `"RB"`
+* `"RT"`
+* `"LB"`
+* `"LT"`
+
 These specify the 8 row or column major orders for traversing a
 rectangular array, the first character corresponding to the major
 order and the second to the minor order. Thus, for "BL", the
