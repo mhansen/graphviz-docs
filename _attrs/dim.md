@@ -12,5 +12,6 @@ types:
 - int
 used_by: G
 ---
-Set the number of dimensions used for the layout. The maximum value
-allowed is 10.
+Set the number of dimensions used for the layout.
+
+The maximum value allowed is `10`.
