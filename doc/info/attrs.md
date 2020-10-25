@@ -176,10 +176,16 @@ For regular expressions, `(...)*` indicates 0 or more copies of the expression
 enclosed in the parentheses,  `(...)+` indicates 1 or more, and
 `(...)?` denotes 0 or 1 copy.
 
-<DL>
 {% assign sorted_attr_types = site.attr_types | sort_natural: "name" %}
 {% for t in sorted_attr_types -%}
-<DT ID="k:{{t.name}}"><STRONG>{{t.name}}</STRONG></DT>
-<DD>{{t.content}}</DD>
+<H3 ID="k:{{t.name}}"><A HREF="#k:{{t.name}}">{{t.name}}</A></H3>
+{{t.content}}
+<I>Attributes:
+{% assign attrs_for_type = sorted_attrs | where_exp: "attr", "attr.types contains t.name" %}
+{%- for attr in attrs_for_type -%}
+  <A HREF="#d:{{ attr.name }}"><CODE>{{ attr.name }}</CODE></A>
+  {%- unless forloop.last %}, {% endunless -%}
+{% endfor -%}
+</I>
 {% endfor %}
-</DL>
+
