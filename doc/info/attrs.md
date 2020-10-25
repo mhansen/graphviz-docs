@@ -143,11 +143,23 @@ of the layout programs.
 ## Attribute Descriptions
 
 <DL>
-
 {%- for attr in sorted_attrs %}
-<DT><A ID="d:{{attr.name}}" HREF="#a:{{attr.name}}"><STRONG>{{ attr.name }}</STRONG></A></DT>
+<DT>
+  <A ID="d:{{attr.name}}" HREF="#a:{{attr.name}}"><STRONG>{{ attr.name }}</STRONG></A> :
+  <I>
+  {%- for t in attr.types -%}
+  <A HREF="#k:{{t}}">{{t}}</A>
+  {%- unless forloop.last %}|{% endunless -%}
+  {% endfor -%}
+  {%- for d in attr.defaults %}
+    {%- if forloop.first %}, default: {% endif %}
+    {{ d | xml_escape }}
+    {%- unless forloop.last %}, {% endunless -%}
+  {% endfor %}
+  </I>
+</DT>
 <DD>
-{{- attr.content -}}
+  {{- attr.content -}}
 </DD>
 {% endfor %}
 </DL>
