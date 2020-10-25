@@ -29,8 +29,7 @@ abc -> def [arrowhead = diamond]
 ```
 
 Further details concerning the setting of attributes can be found
-in the description of the
-<A HREF="lang.html">DOT language.</A>
+in the description of the [DOT language.](lang.html)
 
 At present, most device-independent units are either inches or
 <A ID="points" HREF="http://en.wikipedia.org/wiki/Point_(typography)">points</A>,
@@ -39,12 +38,10 @@ which we take as 72 points per inch.
 <P ID="h:undir_note"></P>
 
 **Note:** Some attributes, such as
-<A HREF="#d:dir">dir</A> or <A HREF="#d:arrowtail">arrowtail</A>, are
-ambiguous when used in
-<A HREF="lang.html">DOT</A>
-with an undirected graph since the head and tail of an edge are meaningless.
-As a convention, the first time an undirected edge appears, the
-<A HREF="lang.html">DOT</A>
+[`dir`](#d:dir) or [`arrowtail`](#d:arrowtail), are ambiguous when used in
+[DOT](lang.html) with an undirected graph since the head and tail of an edge
+are meaningless. As a convention, the first time an undirected edge appears,
+the [DOT](lang.html)
 parser will assign the left node as the tail node and the right node as
 the head. For example, the edge `A -- B` will have tail `A`
 and head `B`. It is the user's responsibility to handle such
@@ -58,8 +55,8 @@ the drawing will attach the tail label to node `A`.
 To avoid possible confusion when such attributes are required, the user
 is encouraged to use a directed graph.
 If it is important to make the graph appear undirected, this can be
-done using the <A HREF="#d:dir">dir</A>, <A HREF="#d:arrowtail">arrowtail</A>
-or <A HREF="#d:arrowhead">arrowhead</A> attributes.
+done using the [`dir`](#d:dir), [`arrowtail`](#d:arrowtail) or
+[`arrowhead`](#d:arrowhead) attributes.
 <P ID="k:bool"></P>
 The tools accept standard C representations for `int` and
 `double` types.
@@ -194,3 +191,19 @@ enclosed in the parentheses,  `(...)+` indicates 1 or more, and
 </I>
 {% endfor %}
 
+<!--
+Type: 
+{%- for t in attr.types %}
+<A HREF="#k:{{t}}">{{t}}</A>
+{%- unless forloop.last %}, or{% endunless -%}
+{% endfor -%}
+. Use on:
+{% assign used_by_characters = attr.used_by | split: "" %}
+{%- for c in used_by_characters %}
+  {%- if c contains 'N' %} Node{% endif -%}
+  {%- if c contains 'E' %} Edge{% endif -%}
+  {%- if c contains 'G' %} Graph{% endif -%}
+  {%- if c contains 'C' %} Cluster{% endif -%}
+  {% unless forloop.last %},{% endunless -%}
+{% endfor %} components.
+-->
