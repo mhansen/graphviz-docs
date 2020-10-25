@@ -1,9 +1,8 @@
 ---
 defaults:
-- '" '
+- '":\t "'
 flags: []
-minimums:
-- '&#92;t"'
+minimums: []
 name: layersep
 types:
 - string
