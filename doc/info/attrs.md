@@ -155,7 +155,12 @@ of the layout programs.
     {%- if forloop.first %}, default: {% endif %}
     {{ d | xml_escape }}
     {%- unless forloop.last %}, {% endunless -%}
-  {% endfor %}
+  {%- endfor -%}
+  {%- for minimum in attr.minimums -%}
+    {%- if forloop.first %}, minimum: {% endif %}
+    {{- minimum | xml_escape -}}
+    {%- unless forloop.last %}, {% endunless -%}
+  {%- endfor -%}
   </I>
 </DT>
 <DD>

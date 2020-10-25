@@ -2,8 +2,7 @@
 defaults:
 - '"mc"'
 flags: []
-minimums:
-- ''
+minimums: []
 name: imagepos
 types:
 - string

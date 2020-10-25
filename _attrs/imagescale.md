@@ -2,8 +2,7 @@
 defaults:
 - 'false'
 flags: []
-minimums:
-- ''
+minimums: []
 name: imagescale
 types:
 - bool

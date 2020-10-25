@@ -3,8 +3,7 @@ defaults:
 - '""'
 flags:
 - svg
-minimums:
-- ''
+minimums: []
 name: class
 types:
 - string
