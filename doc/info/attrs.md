@@ -163,6 +163,7 @@ of the layout programs.
 <DD>
   {{- attr.content -}}
 
+<P>
 <I>Valid for:
 {% assign used_by_characters = attr.used_by | split: "" | sort_natural %}
 {%- for c in used_by_characters %}
@@ -172,6 +173,20 @@ of the layout programs.
   {%- if c contains 'C' %} Clusters{% endif -%}
   {% unless forloop.last %},{% endunless -%}
 {% endfor %}.</I>
+<I>
+{%- if attr.flags.size > 0 -%}
+  Note:
+  {% if attr.flags[0] == 'notdot' -%}
+    not dot
+  {% else -%}
+    {% for flag in attr.flags reversed -%}
+      {{ flag }}
+      {%- unless forloop.last %}, {% endunless -%}
+    {%- endfor %} only
+  {%- endif -%}
+{%- endif -%}
+</I>
+</P>
 </DD>
 {% endfor %}
 </DL>
