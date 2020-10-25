@@ -162,6 +162,16 @@ of the layout programs.
 </DT>
 <DD>
   {{- attr.content -}}
+
+<I>Valid for:
+{% assign used_by_characters = attr.used_by | split: "" | sort_natural %}
+{%- for c in used_by_characters %}
+  {%- if c contains 'N' %} Nodes{% endif -%}
+  {%- if c contains 'E' %} Edges{% endif -%}
+  {%- if c contains 'G' %} Graphs{% endif -%}
+  {%- if c contains 'C' %} Clusters{% endif -%}
+  {% unless forloop.last %},{% endunless -%}
+{% endfor %}.</I>
 </DD>
 {% endfor %}
 </DL>
@@ -191,19 +201,3 @@ enclosed in the parentheses,  `(...)+` indicates 1 or more, and
 </I>
 {% endfor %}
 
-<!--
-Type: 
-{%- for t in attr.types %}
-<A HREF="#k:{{t}}">{{t}}</A>
-{%- unless forloop.last %}, or{% endunless -%}
-{% endfor -%}
-. Use on:
-{% assign used_by_characters = attr.used_by | split: "" %}
-{%- for c in used_by_characters %}
-  {%- if c contains 'N' %} Node{% endif -%}
-  {%- if c contains 'E' %} Edge{% endif -%}
-  {%- if c contains 'G' %} Graph{% endif -%}
-  {%- if c contains 'C' %} Cluster{% endif -%}
-  {% unless forloop.last %},{% endunless -%}
-{% endfor %} components.
--->
