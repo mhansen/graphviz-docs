@@ -1,6 +1,6 @@
 ---
 defaults:
-- '"\&#92;N" (nodes)'
+- '"\N" (nodes)'
 - '"" (otherwise)'
 flags: []
 minimums: []
