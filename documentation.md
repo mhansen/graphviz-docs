@@ -43,9 +43,9 @@ on-line pages listed above.
 ## Sample Programs using Graphviz
 
 * [demo.c](/dot.demo/demo.c)
-* [dot.c](/dot.demo/dot.c)>
+* [dot.c](/dot.demo/dot.c)
 * [example.c](/dot.demo/example.c)
-* [simple.c](/dot.demo/simple.c)>
+* [simple.c](/dot.demo/simple.c)
 * [Makefile](/dot.demo/Makefile)
 
 ## Layout manual pages
