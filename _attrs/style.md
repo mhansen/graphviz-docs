@@ -27,4 +27,4 @@ making all edges invisible, a specific edge can overrride this via:
 a -> b [style=""]
 ```
 
-Of course, the component can also explicitly set its <TT>style</TT> attribute to the desired value.
+Of course, the component can also explicitly set its <code>style</code> attribute to the desired value.

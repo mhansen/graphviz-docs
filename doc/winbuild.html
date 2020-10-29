@@ -106,18 +106,18 @@ export PANGOFLAGS="--with-fontconfig --with-fontconfiglibdir=$FONTCONFIGLIBDIR -
 </CODE>
 </PRE>
 When configure finishes, it lists all of the Graphviz features that have been
-enabled. If there are problems, you can check for errors in <TT>config.log</TT>.
+enabled. If there are problems, you can check for errors in <code>config.log</code>.
 You may have to add or modify
-other flags and environment variables for <TT>configure</TT> to give you the
-settings you want. Run <TT>configure --help</TT>
+other flags and environment variables for <code>configure</code> to give you the
+settings you want. Run <code>configure --help</code>
 to see the allowed options and environment variables.
-<LI> Run <TT>make</TT>
-<LI> Run <TT>make install</TT>
+<LI> Run <code>make</code>
+<LI> Run <code>make install</code>
 </OL>
 These builds create a feature-full version of Graphviz. You can tailor
 them to your wants. This is fairly simple for MinGW: just remove or reset
 the flag of the option you don't want. For Visual Studio, you will probably
-need to reset some of the values in <TT>config.h</TT> and some of the
+need to reset some of the values in <code>config.h</code> and some of the
 compile-time options.
 <HR>
 <P>
@@ -139,25 +139,25 @@ a Windows binary verion of <A HREF="http://www.gtk.org">GTK 2.0</A> or later.
 <LI>
 Download the <A HREF=https://www.graphviz.org/download/source/>
 Graphviz source package</A>,
-and copy over either the stable release <TT>graphviz-</TT><I>VERSION</I><TT>.tar.gz</TT>
-or the development source package <TT>graphviz-working.tar.gz</TT>.
+and copy over either the stable release <code>graphviz-</code><I>VERSION</I><code>.tar.gz</code>
+or the development source package <code>graphviz-working.tar.gz</code>.
 <LI>
 Unwrap the package:<BR>
 You can use, for example,<BR><BR>
-<TT>gunzip &lt; graphviz-working.tar.gz | tar xf -</TT><BR>
-Let <TT>$ROOT</TT> be the directory in which you stored the Graphviz source.
+<code>gunzip &lt; graphviz-working.tar.gz | tar xf -</code><BR>
+Let <code>$ROOT</code> be the directory in which you stored the Graphviz source.
 <LI>
 Configure the package for your system:<BR><BR>
-<TT>cd $ROOT</TT><BR>
-<TT>configure --disable-shared --enable-static --with-mylibgd --disable-swig --without-x  --without-tclsh --with-codegens --disable-ltdl</TT><BR><BR>
+<code>cd $ROOT</code><BR>
+<code>configure --disable-shared --enable-static --with-mylibgd --disable-swig --without-x  --without-tclsh --with-codegens --disable-ltdl</code><BR><BR>
 You will probably want to provide additional arguments to 
-<TT>configure</TT> to indicate where you have installed GTK, where
-you want the results installed (<TT>--prefix</TT>) and which
-additional optional packages you want built. Run <TT>configure --help</TT>
+<code>configure</code> to indicate where you have installed GTK, where
+you want the results installed (<code>--prefix</code>) and which
+additional optional packages you want built. Run <code>configure --help</code>
 to see the available set of arguments.
 <LI>
 Build Graphviz:<BR><BR>
-<TT>make install</TT><BR><BR>
+<code>make install</code><BR><BR>
 </OL>
 <P>
 Presumably, a similar approach would work with Cygwin or MinGW. 
@@ -248,10 +248,10 @@ follows:
 <LI>
 Unwrap the package:<BR>
 If you have Unix tools available, you can use
-<TT>gunzip &lt; graphviz-win.tgz | tar xf -</TT><BR>
+<code>gunzip &lt; graphviz-win.tgz | tar xf -</code><BR>
 If not, double click on the file and WinZip should start up and let you
 store all of the files into a directory.<BR>
-Let <TT>$ROOT</TT> be the directory in which you stored the Graphviz source.
+Let <code>$ROOT</code> be the directory in which you stored the Graphviz source.
 </LI>
 <LI>
 Add the third-party libraries:  
@@ -270,32 +270,32 @@ expat <A HREF=http://expat.sourceforge.net/>http://expat.sourceforge.net/</A>
 The versions should be at least the ones indicated.
 You can download the files from 
 <a href=https://www.graphviz.org/Misc/third-party.zip>https://www.graphviz.org/Misc/third-party.zip</a>.
-Unzip the package in the <TT>$ROOT</TT> directory; this will create a subdirectory called
-<TT>third-party</TT>.
+Unzip the package in the <code>$ROOT</code> directory; this will create a subdirectory called
+<code>third-party</code>.
 Or you can obtain the libraries yourself, and install 
-them in <TT>$ROOT\third-party</TT>
+them in <code>$ROOT\third-party</code>
 Also note that these libraries come with the binary release.
 </LI>
 <LI>
 Build the software in one of the following ways:<BR>  
 <UL TYPE=DISC>
-<LI> Run the script <TT>$ROOT\build.bat</TT> while in the <TT>$ROOT</TT> 
+<LI> Run the script <code>$ROOT\build.bat</code> while in the <code>$ROOT</code> 
 directory. You'll first want to check
-that the <TT>vc</TT> variable points to your local installation of visual C.
+that the <code>vc</code> variable points to your local installation of visual C.
 Obviously, this should be run in a DOS command window.
-<LI> The file <TT>$ROOT\ws\graphviz.dsw</TT> 
+<LI> The file <code>$ROOT\ws\graphviz.dsw</code> 
 is the main workspace for the Graphviz libraries and graph drawing programs.
 The file
-<TT>$ROOT\ws\tools.dsw</TT> provides the workspace for the
+<code>$ROOT\ws\tools.dsw</code> provides the workspace for the
 additional Graphviz tools. Double-clicking on these files will open the
 workspaces using the MS Visual Studio, from which you can use the Build
 menu item to create the various libraries and programs. 
 <P>
 Note that we have avoided all dependencies (i.e., there are no .dep files)
 because we found they tended to include absolute pathnames.
-If necessary, follow the order used in <TT>build.bat</TT> to be safe.
+If necessary, follow the order used in <code>build.bat</code> to be safe.
 <LI> If you have a Unix environment, with a real ksh, run the script 
-<TT>$ROOT\wmake.sh</TT>
+<code>$ROOT\wmake.sh</code>
 after setting the PATH, LIB and INCLUDE shell variables to the paths where
 the Visual C programs are installed on your machine, and the associated
 library and include file directories.
@@ -304,11 +304,11 @@ library and include file directories.
 <P> Once built, all of the libraries and programs will be found in
 either the Release or Debug subdirectory of the corresponding source
 directory. If you wish to install
-the software somewhere, edit the file <TT>$ROOT\install.bat</TT> to
-set the variable <TT>root</TT> to be the absolute pathname of the
+the software somewhere, edit the file <code>$ROOT\install.bat</code> to
+set the variable <code>root</code> to be the absolute pathname of the
 directory where you want
-the software installed, and then run the script <TT>$ROOT\install.bat</TT>
-from the <TT>$ROOT</TT> directory.
+the software installed, and then run the script <code>$ROOT\install.bat</code>
+from the <code>$ROOT</code> directory.
 <P>
 If you want to change source files, you can just do it and rebuild.
 If, however, you want to add new files or projects, you will
