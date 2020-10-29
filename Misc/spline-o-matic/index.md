@@ -2,37 +2,35 @@
 layout: page
 title: "Graphviz: Spline-o-Matic"
 ---
-<IMG SRC="splino.gif" WIDTH="183" HEIGHT="206" ALIGN="LEFT"> <P>
-<i> Spline-o-matic </i> is an edge router that
+<IMG SRC="splino.gif" WIDTH="183" HEIGHT="206">
+    
+_Spline-o-matic_ is an edge router that
 draws Bezier curves in diagrams. It comes with a
 TCL/tk interface for tests and demos.
-<p>
+
 The library accepts as input:
-<p>
-<ul>
-<li> two endpoints
-<li> optional endpoint tangent vectors
-<li> an admissable region where a curve may be
-drawn to connect the endpoints
-</ul>
-<p>
+*   two endpoints
+
+*   optional endpoint tangent vectors
+*   an admissable region where a curve may be drawn to connect the endpoints
+
 It returns a Bezier curve that connects the endpoints 
 and stays within the admissable region.  The curve is
 smooth and close to a shortest path.  
-<P> 
 
-<H3>Spline-o-matic Solves Two Types of Problems</H3>
+### Spline-o-matic Solves Two Types of Problems
+
 In the first case, the input is a simple polygon,
 with the two endpoints must be inside it.
 The result curve stays within the control polygon.
-<p>
+
 In the second case, the input is a list of polygonal
-obstacles or ``holes'' to be avoided, along with the
+obstacles or "holes" to be avoided, along with the
 endpoints.  The result curve does not pass through
 any obstacle .  (If an endpoint is inside an obstacle,
 it is ignored for the given route.  This is convenient
 for routing node-link diagrams.)
-<p>
+
 Curves are routed individually, not globally, so the
 edge router does not prevent them from crossing.
 An interesting improvement to this library would be
@@ -41,7 +39,7 @@ unwanted edge crossings.
 The library interface to Spline-o-matic exposes its
 main algorithms so they may be invoked independently
 for efficiency and flexibility.
-<p>
+
 Curves are computed in two phases.  The first phase finds
 a shortest path (a polyline) between endpoints.  As described
 previously, there are two variants. Routing inside a polygon is
@@ -51,17 +49,17 @@ graph of the obstacles' vertices, for which we employ the
 standard O(N^3) algorithm.  When more than one edge route is to
 be found, it is much faster to precompute and re-use the
 visibility graph, than to compute it for each route.
-<p>
+
 The second phase takes an arbitrary simple path (usually a shortest
 path computed by the first phase) and a list of barrier segments
 (usually sides of a control polygon or of obstacles) and produces
 a Bezier curve that does not touch a barrier except on an endpoint.
 Note that the barriers are not required to form polygons.
-<p>
+
 Here is the library API.  Polygons must always be presented
 in clockwise order!
 
-<PRE><CODE>
+```c
 #include &lt;pathgeom.h&gt;
 
 /* open a visibility graph */
@@ -97,28 +95,34 @@ extern int Ppolybarriers(Ppoly_t **polys, int npolys, Pedge_t **barriers, int *n
 _barriers);
 
 #endif
-</CODE></PRE>
+```
 
-<h2>Distribution</h2>
-The source release is on our <A HREF="Download.html">download page</A>.
+## Distribution
+
+The source release is on our [download page](Download.html).
 Considerable software know-how is needed to work with it.
 The GUI is written in TCL.  The path planner is built as a static library. 
 The TCL layer includes this and other functions as a dynamic library.
-<h2>GUI</h2>
+
+## GUI
 The package has a C library interface and a TCL/tk GUI (contributed
 by John Ellson, ellson@research.att.com) for demos and debugging.
-Run pathtest.tcl (or tclsh pathtest.tcl).  The GUI permits drawing
+Run pathtest.tcl (or `tclsh pathtest.tcl`).  The GUI permits drawing
 obstacle polygons (use button 1 to place vertices and button 2 to
 place the last vertex of a polygon).
-<p>
+
 pathtest comes with a few
 sample obstacle configurations.
-To try it, run pathtest.tcl.
+To try it, run `pathtest.tcl`.
 load an example, click on the Bezier radio button,
 and use mouse button 1 and 2 to sweep a line segment.
 A curve will be routed between its endpoints.
 The choice of routing inside a polygon or routing around
 obstacles depends on the endpoints.
-<h2>References</h2>
+
+## References
+
 Implementing a General-purpose Edge Router:
-<A HREF="http://www.research.att.com/areas/visualization/papers_videos/abstracts/1998dgkn.html">Paper</A>, <A HREF="http://www.research.att.com/areas/visualization/papers_videos/videos/pathrouter.mpg">Quicktime video</A>.
+[Paper](http://www.research.att.com/areas/visualization/papers_videos/abstracts/1998dgkn.html),
+[Quicktime
+video](http://www.research.att.com/areas/visualization/papers_videos/videos/pathrouter.mpg).
