@@ -9,18 +9,18 @@ There are three main types of shapes :
 <A HREF=shapes.html#epsf>user-defined</A>.
 The record-based shape has largely been superseded and greatly generalized
 by <A HREF=shapes.html#html>HTML-like labels</A>. 
-That is, instead of using <TT>shape=record</TT>, one might
-consider using <TT>shape=none</TT>, <TT>margin=0</TT> and an HTML-like label.
+That is, instead of using <code>shape=record</code>, one might
+consider using <code>shape=none</code>, <code>margin=0</code> and an HTML-like label.
 <P>
 The geometry and style of all node shapes are affected by
 the node attributes 
-<A HREF=attrs.html#d:fixedsize><TT>fixedsize</TT></A>, 
-<A HREF=attrs.html#d:fontname><TT>fontname</TT></A>, 
-<A HREF=attrs.html#d:fontsize><TT>fontsize</TT></A>, 
-<A HREF=attrs.html#d:height><TT>height</TT></A>,
-<A HREF=attrs.html#d:label><TT>label</TT></A>, 
-<A HREF=#d:style><TT>style</TT></A> and
-<A HREF=attrs.html#d:width><TT>width</TT></A>.
+<A HREF=attrs.html#d:fixedsize><code>fixedsize</code></A>, 
+<A HREF=attrs.html#d:fontname><code>fontname</code></A>, 
+<A HREF=attrs.html#d:fontsize><code>fontsize</code></A>, 
+<A HREF=attrs.html#d:height><code>height</code></A>,
+<A HREF=attrs.html#d:label><code>label</code></A>, 
+<A HREF=#d:style><code>style</code></A> and
+<A HREF=attrs.html#d:width><code>width</code></A>.
 
 <H2><A NAME=polygon>Polygon-based Nodes</A></H2>
 The possible polygon-based shapes are displayed below.
@@ -205,42 +205,42 @@ The possible polygon-based shapes are displayed below.
   </TR>
 
 </TABLE>
-As the figures suggest, the shapes <TT>rect</TT> and <TT>rectangle</TT> are synonyms for <TT>box</TT>, and <TT>none</TT> is a synonym for <TT>plaintext</TT>.
-The shape <TT>plain</TT> is similar to these two, except that it also enforces 
-<TT>width=0 height=0 margin=0</TT>, which guarantees that the actual size of the node is entirely determined by the label.
+As the figures suggest, the shapes <code>rect</code> and <code>rectangle</code> are synonyms for <code>box</code>, and <code>none</code> is a synonym for <code>plaintext</code>.
+The shape <code>plain</code> is similar to these two, except that it also enforces 
+<code>width=0 height=0 margin=0</code>, which guarantees that the actual size of the node is entirely determined by the label.
 This is useful, for example, when using <A HREF=shapes.html#html>HTML-like labels</A>.
-Also, unlike the rest, we have shown these three, as well as <TT>underline</TT>,
-without <TT>style=filled</TT>
+Also, unlike the rest, we have shown these three, as well as <code>underline</code>,
+without <code>style=filled</code>
 to indicate the normal use. If fill were turned on, the label text would
 appear in a filled rectangle.
 <P>
 The geometries of polygon-based shapes are also affected
 by the node attributes 
-<A HREF=attrs.html#d:regular><TT>regular</TT></A>, 
-<A HREF=attrs.html#d:peripheries><TT>peripheries</TT></A> and
-<A HREF=attrs.html#d:orientation><TT>orientation</TT></A>.
-If <TT>shape="polygon"</TT>, the attributes
-<A HREF=attrs.html#d:sides><TT>sides</TT></A>, 
-<A HREF=attrs.html#d:skew><TT>skew</TT></A> and
-<A HREF=attrs.html#d:distortion><TT>distortion</TT></A> are also used.
+<A HREF=attrs.html#d:regular><code>regular</code></A>, 
+<A HREF=attrs.html#d:peripheries><code>peripheries</code></A> and
+<A HREF=attrs.html#d:orientation><code>orientation</code></A>.
+If <code>shape="polygon"</code>, the attributes
+<A HREF=attrs.html#d:sides><code>sides</code></A>, 
+<A HREF=attrs.html#d:skew><code>skew</code></A> and
+<A HREF=attrs.html#d:distortion><code>distortion</code></A> are also used.
 If unset, they default to 4, 0.0 and 0.0, respectively.
 The point shape is special in that it is
-only affected by the <A HREF=attrs.html#d:peripheries><TT>peripheries</TT></A>, 
-<A HREF=attrs.html#d:width><TT>width</TT></A> and
-<A HREF=attrs.html#d:height><TT>height</TT></A> attributes.
+only affected by the <A HREF=attrs.html#d:peripheries><code>peripheries</code></A>, 
+<A HREF=attrs.html#d:width><code>width</code></A> and
+<A HREF=attrs.html#d:height><code>height</code></A> attributes.
 <P>
 Normally, the size of a node is determined by smallest width and height
 needed to contain its label and image, if any, with a margin specified by
-the <A HREF=attrs.html#d:margin><TT>margin</TT></A> attribute. The width
+the <A HREF=attrs.html#d:margin><code>margin</code></A> attribute. The width
 and height must also be at least as large as the sizes specified by the
-<A HREF=attrs.html#d:width><TT>width</TT></A> and
-<A HREF=attrs.html#d:height><TT>height</TT></A> attributes, which specify
+<A HREF=attrs.html#d:width><code>width</code></A> and
+<A HREF=attrs.html#d:height><code>height</code></A> attributes, which specify
 the minimum values for these parameters. 
-See the <A HREF=attrs.html#d:fixedsize><TT>fixedsize</TT></A> attribute
+See the <A HREF=attrs.html#d:fixedsize><code>fixedsize</code></A> attribute
 for ways of restricting the node size.
-In particular, if <tt>fixedsize=shape</tt>, the node's shape will be fixed
-by the <A HREF=attrs.html#d:width><TT>width</TT></A> and
-<A HREF=attrs.html#d:height><TT>height</TT></A> attributes, and the shape
+In particular, if <code>fixedsize=shape</code>, the node's shape will be fixed
+by the <A HREF=attrs.html#d:width><code>width</code></A> and
+<A HREF=attrs.html#d:height><code>height</code></A> attributes, and the shape
 is used for edge termination, but both the shape and label sizes are used
 preventing node overlap. For example, the following graph
 <XMP>
@@ -257,33 +257,33 @@ digraph G {
 yields the figure<BR>
 <IMG SRC=fixed.gif>
 <P>
-Note that the label of the yellow node, with <tt>fixedsize=true</tt>, overlaps
+Note that the label of the yellow node, with <code>fixedsize=true</code>, overlaps
 the other node, where there is sufficient space for the gray node with
-<tt>fixedsize=shape</tt>.
+<code>fixedsize=shape</code>.
 <P>
-The shapes: <TT>note</TT>, <TT>tab</TT>, <TT>folder</TT>,
-<TT>box3d</TT> and <TT>component</TT> were provided by Pander.
+The shapes: <code>note</code>, <code>tab</code>, <code>folder</code>,
+<code>box3d</code> and <code>component</code> were provided by Pander.
 The synthetic biology shapes:
-<TT>promoter</TT>,
-<TT>cds</TT>,
-<TT>terminator</TT>,
-<TT>utr</TT>,
-<TT>primersite</TT>,
-<TT>restrictionsite</TT>,
-<TT>fivepoverhang</TT>,
-<TT>threepoverhang</TT>,
-<TT>noverhang</TT>,
-<TT>assembly</TT>,
-<TT>signature</TT>,
-<TT>insulator</TT>,
-<TT>ribosite</TT>,
-<TT>rnastab</TT>,
-<TT>proteasesite</TT>,
-<TT>proteinstab</TT>,
-<TT>rpromoter</TT>,
-<TT>rarrow</TT>,
-<TT>larrow</TT> and
-<TT>lpromoter</TT>
+<code>promoter</code>,
+<code>cds</code>,
+<code>terminator</code>,
+<code>utr</code>,
+<code>primersite</code>,
+<code>restrictionsite</code>,
+<code>fivepoverhang</code>,
+<code>threepoverhang</code>,
+<code>noverhang</code>,
+<code>assembly</code>,
+<code>signature</code>,
+<code>insulator</code>,
+<code>ribosite</code>,
+<code>rnastab</code>,
+<code>proteasesite</code>,
+<code>proteinstab</code>,
+<code>rpromoter</code>,
+<code>rarrow</code>,
+<code>larrow</code> and
+<code>lpromoter</code>
 were contributed by Jenny Cheng.
 
 <H2><A NAME=record>Record-based Nodes</A></H2>
@@ -294,7 +294,7 @@ nodes on the same rank if one or both nodes has a record shape.
 <P>
 These are specified by shape values of "record" and "Mrecord".
 The structure of a record-based node is determined by 
-its <A HREF=attrs.html#d:label><TT>label</TT></A>,
+its <A HREF=attrs.html#d:label><code>label</code></A>,
 which has the following schema:
   <TABLE>
   <TR><TD ALIGN=right><I>rlabel</I><TD>=<TD><I>field</I> ( '|' <I>field</I> )*</TR>
@@ -324,9 +324,9 @@ from top to bottom and "A | { B | C } | D" will have "B" over "C", with
 <P> 
 The initial orientation of a record node depends on the
 <A HREF="attrs.html#d:rankdir">rankdir</A> attribute. If this attribute
-is <TT>TB</TT> (the default) or <TT>BT</TT>, corresponding to vertical
+is <code>TB</code> (the default) or <code>BT</code>, corresponding to vertical
 layouts, the top-level fields in a record are displayed horizontally.
-If, however, this attribute is <TT>LR</TT> or <TT>RL</TT>, 
+If, however, this attribute is <code>LR</code> or <code>RL</code>, 
 corresponding to horizontal layouts, the top-level fields are 
 displayed vertically.
 <P>
@@ -352,27 +352,27 @@ If we add the line
 we get the layout<BR>
 <IMG SRC=record2.gif>
 <P>
-If we change node <TT>struct1</TT> to have shape <TT>Mrecord</TT>,
+If we change node <code>struct1</code> to have shape <code>Mrecord</code>,
 it then looks like:<BR>
 <IMG SRC=mrecord.gif>
 
 <H2><A NAME="d:style">Styles for Nodes</A></H2>
-The <A HREF=attrs.html#d:style><TT>style</TT></A>
+The <A HREF=attrs.html#d:style><code>style</code></A>
 attribute can be used to modify the appearance of a node.
 At present, there are 8 style values recognized:
-<TT>filled</TT>, <TT>invisible</TT>, <TT>diagonals</TT>, <TT>rounded</TT>.
-<TT>dashed</TT>, <TT>dotted</TT>, <TT>solid</TT> and <TT>bold</TT>.
-As usual, the value of the <A HREF=attrs.html#d:style><TT>style</TT></A>
+<code>filled</code>, <code>invisible</code>, <code>diagonals</code>, <code>rounded</code>.
+<code>dashed</code>, <code>dotted</code>, <code>solid</code> and <code>bold</code>.
+As usual, the value of the <A HREF=attrs.html#d:style><code>style</code></A>
 attribute can be a comma-separated list of any of these. If the
-style contains conflicts (e.g, <TT>style="dotted, solid"</TT>), the last
+style contains conflicts (e.g, <code>style="dotted, solid"</code>), the last
 attribute wins.
 <DL>
-<DT><A NAME=d:filled></A><TT>filled</TT>
+<DT><A NAME=d:filled></A><code>filled</code>
   <DD>This value indicates that the node's interior should be filled.
-The color used is the node's <TT>fillcolor</TT> or, if that's not defined, its
-<TT>color</TT>. For unfilled nodes, the interior of the node is transparent to
+The color used is the node's <code>fillcolor</code> or, if that's not defined, its
+<code>color</code>. For unfilled nodes, the interior of the node is transparent to
 whatever color is the current graph or cluster background color.
-Note that <TT>point</TT> shapes are always filled.
+Note that <code>point</code> shapes are always filled.
 <P>
 Thus, the code
 <XMP>
@@ -387,24 +387,24 @@ digraph G {
 yields the figure<BR>
 <IMG SRC=fill.gif>
 
-<DT><A NAME=d:invisible></A><TT>invisible</TT>
+<DT><A NAME=d:invisible></A><code>invisible</code>
   <DD>Setting this style causes the node not to be displayed at all.
 Note that the node is still used in laying out the graph.
 
-<DT><A NAME=d:diagonals></A><TT>diagonals</TT>
+<DT><A NAME=d:diagonals></A><code>diagonals</code>
   <DD>The diagonals style causes small chords to be drawn near the vertices
 of the node's polygon or, in case of circles and ellipses, two chords near
 the top and the bottom of the shape. The special node shapes
-<A HREF=#d:Msquare><TT>Msquare</TT></A>,
-<A HREF=#d:Mcircle><TT>Mcircle</TT></A>, and
-<A HREF=#d:Mdiamond><TT>Mdiamond</TT></A>
+<A HREF=#d:Msquare><code>Msquare</code></A>,
+<A HREF=#d:Mcircle><code>Mcircle</code></A>, and
+<A HREF=#d:Mdiamond><code>Mdiamond</code></A>
 are simply an ordinary square, circle and
 diamond with the diagonals style set.
 
-<DT><A NAME=d:rounded></A><TT>rounded</TT>
+<DT><A NAME=d:rounded></A><code>rounded</code>
   <DD>The rounded style causes the polygonal corners to be smoothed.
 Note that this style also applies to record-based nodes. Indeed,
-the <TT>Mrecord</TT> shape is simply shorthand for setting this style.
+the <code>Mrecord</code> shape is simply shorthand for setting this style.
 Also, prior to 26 April 2005, the rounded and filled styles were 
 mutually exclusive.
 <P>
@@ -422,14 +422,14 @@ digraph R {
 </XMP>
 to produce the figure<BR>
 <IMG SRC=round.gif>
-<DT><A NAME=d:dashed></A><TT>dashed</TT>
+<DT><A NAME=d:dashed></A><code>dashed</code>
   <DD>This style causes the node's border to be drawn as a dashed line.
-<DT><A NAME=d:dotted></A><TT>dotted</TT>
+<DT><A NAME=d:dotted></A><code>dotted</code>
   <DD>This style causes the node's border to be drawn as a dotted line.
-<DT><A NAME=d:solid></A><TT>solid</TT>
+<DT><A NAME=d:solid></A><code>solid</code>
   <DD>This style causes the node's border to be drawn as a solid line,
 which is the default.
-<DT><A NAME=d:bold></A><TT>bold</TT>
+<DT><A NAME=d:bold></A><code>bold</code>
   <DD>This style causes the node's border to be drawn as a bold line.
 See also <A HREF=attrs.html#d:penwidth>penwidth</A>.
 
@@ -444,28 +444,28 @@ that are newer than mid-November 2003. In particular, it is not part
 of release 1.10.</EM>
 <P>
 <B>NOTE:</B><EM>The font markups for bold, italic, underlining, subscript and 
-superscript </EM>(<TT>&lt;B&gt;</TT>, <TT>&lt;I&gt;</TT>, <TT>&lt;U&gt;</TT>, <TT>&lt;SUB&gt;</TT> and <TT>&lt;SUP&gt;</TT>) 
+superscript </EM>(<code>&lt;B&gt;</code>, <code>&lt;I&gt;</code>, <code>&lt;U&gt;</code>, <code>&lt;SUB&gt;</code> and <code>&lt;SUP&gt;</code>) 
 <EM>are only available in versions after 14 October 2011, and 
-the markup for strike-through (<TT>&lt;S&gt;</TT>) requires versions later than 15 September 2013.
+the markup for strike-through (<code>&lt;S&gt;</code>) requires versions later than 15 September 2013.
 In addition, all of these markups are
 currently only available via the cairo and svg renderers.
-The horizontal and vertical rules </EM>(<TT>&lt;HR&gt;</TT> and <TT>&lt;VR&gt;</TT>)
+The horizontal and vertical rules </EM>(<code>&lt;HR&gt;</code> and <code>&lt;VR&gt;</code>)
 <EM>are only available in versions later than 8 July 2011.  </EM>
 <P>
-<B>NOTE:</B><EM>For releases later than 9 September 2014, one can use </EM><TT>shape=plain</TT> <EM>so that the size
+<B>NOTE:</B><EM>For releases later than 9 September 2014, one can use </EM><code>shape=plain</code> <EM>so that the size
 of the node is totally determined by the label. Otherwise, the node's margin, width and height values may cause the
-node to be larger, so that edges are clipped away from the label. In effect, </EM><TT>shape=plain</TT> <EM>is shorthand
-for </EM> <TT>shape=none width=0 height=0 margin=0</TT>.
+node to be larger, so that edges are clipped away from the label. In effect, </EM><code>shape=plain</code> <EM>is shorthand
+for </EM> <code>shape=none width=0 height=0 margin=0</code>.
 <P>
 If the value of a label attribute
-(<A HREF=attrs.html#d:label><TT>label</TT></A> for nodes, edges, clusters, and
+(<A HREF=attrs.html#d:label><code>label</code></A> for nodes, edges, clusters, and
 graphs, and the
-<A HREF=attrs.html#d:headlabel><TT>headlabel</TT></A> and
-<A HREF=attrs.html#d:taillabel><TT>taillabel</TT></A>
+<A HREF=attrs.html#d:headlabel><code>headlabel</code></A> and
+<A HREF=attrs.html#d:taillabel><code>taillabel</code></A>
 attributes of an edge) is given as an
 <A HREF=lang.html#html>HTML string</A>, 
-that is, delimited by <TT>&lt;...&gt;</TT>
-rather than <TT>&quot;...&quot;</TT>,
+that is, delimited by <code>&lt;...&gt;</code>
+rather than <code>&quot;...&quot;</code>,
 the label is interpreted as
 an HTML description. At their simplest, such labels
 can describe multiple lines of variously aligned text as provided by ordinary 
@@ -476,7 +476,7 @@ with different graphical attributes at each level.
 As <A HREF=lang.html#html>HTML strings</A> are processed like HTML input, any use of
 the &quot;, &amp;, &lt;, and &gt; characters in literal text or in attribute values
 need to be replaced by the corresponding escape sequence. For example, if you want to
-use  &amp; in an <TT>href</TT> value, this should be represented as  &amp;amp;.
+use  &amp; in an <code>href</code> value, this should be represented as  &amp;amp;.
 <P>
 <B>NOTE:</B> The features and syntax supported by these labels are
 modeled on HTML. However, there are many aspects that are relevant
@@ -489,10 +489,10 @@ HTML. The grammar below describes precisely what Graphviz will accept.
 Although HTML labels are not, strictly speaking, a shape, they can be
 viewed as a generalization of the record shapes described above. 
 In particular, if a node has set its 
-<A HREF=attrs.html#k:shape><TT>shape</TT></A>
-attribute to <TT>none</TT> or <TT>plaintext</TT>, the HTML label will be the node's
+<A HREF=attrs.html#k:shape><code>shape</code></A>
+attribute to <code>none</code> or <code>plaintext</code>, the HTML label will be the node's
 shape. On the other hand, if the node has any other shape (except 
-<TT>point</TT>), the HTML label will be embedded within the node the
+<code>point</code>), the HTML label will be embedded within the node the
 same way an ordinary label would be. Adding HTML labels to record-based shapes (record and Mrecord) is discouraged and may lead to unexpected behavior because of their conflicting label schemas and overlapping functionality.
 <P>
 The following is an abstract grammar for HTML labels.
@@ -978,7 +978,7 @@ The maximum value is 65535.
 <B><I><FONT SIZE=-1>HREF="value"</FONT></I></B>
 <BLOCKQUOTE>
 attaches a URL to the object.
-Note that the <TT>"value"</TT> is treated as an
+Note that the <code>"value"</code> is treated as an
 <A HREF=attrs.html#k:escString>escString</A> similarly to the
 <A HREF=attrs.html#d:URL>URL</A> attribute.
 </BLOCKQUOTE>
@@ -987,7 +987,7 @@ Note that the <TT>"value"</TT> is treated as an
 <BLOCKQUOTE>
 allows the user to specify a unique ID for a table or cell. See
 the <A HREF=attrs.html#d:id>id</A> attribute for more information.
-Note that the <TT>"value"</TT> is treated as an
+Note that the <code>"value"</code> is treated as an
 <A HREF=attrs.html#k:escString>escString</A> similarly to the
 <A HREF=attrs.html#d:id>id</A> attribute.
 </BLOCKQUOTE>
@@ -1041,7 +1041,7 @@ attribute of the graph object being drawn.
 As with the <A HREF="attrs.html#d:imagescale">imagescale</A>
 attribute, if the cell has a fixed size and the image is too large,
 any offending dimension will be shrunk to fit the space, the
-scaling being uniform in width and height if <I>SCALE=<TT>"true"</TT></I>.
+scaling being uniform in width and height if <I>SCALE=<code>"true"</code></I>.
 Note that the containing cell's <B><I>ALIGN</I></B> 
 and <B><I>VALIGN</I></B> attributes override
 an image's <B><I>SCALE</I></B> attribute.
@@ -1050,11 +1050,11 @@ an image's <B><I>SCALE</I></B> attribute.
 <B><I><FONT SIZE=-1>SIDES="value"</FONT></I></B>
 <BLOCKQUOTE>
 specifies which sides of a border in a cell or table should be drawn, if
-a border is drawn. By default, all sides are drawn. The <TT>"value"</TT>
+a border is drawn. By default, all sides are drawn. The <code>"value"</code>
 string can contain any collection of the (case-insensitive) 
-characters <TT>'L'</TT>, <TT>'T'</TT>, <TT>'R'</TT>, or <TT>'B'</TT>,
+characters <code>'L'</code>, <code>'T'</code>, <code>'R'</code>, or <code>'B'</code>,
 corresponding to the left, top, right and, bottom sides of the border,
-respectively. For example, <TT>SIDES="LB"</TT> would indicate only the
+respectively. For example, <code>SIDES="LB"</code> would indicate only the
 left and bottom segments of the  border should be drawn.
 </BLOCKQUOTE>
 
@@ -1087,7 +1087,7 @@ The "RADIAL" attribute indicates a radial gradient fill. See the <B><I>BGCOLOR</
 determines which window of the browser is used for the URL if the object 
 has one. 
 See <A HREF="http://www.w3.org/TR/html401/present/frames.html#adef-target">W3C documentation</A>.
-Note that the <TT>"value"</TT> is treated as an
+Note that the <code>"value"</code> is treated as an
 <A HREF=attrs.html#k:escString>escString</A> similarly to the
 <A HREF=attrs.html#d:target>target</A> attribute.
 </BLOCKQUOTE>
@@ -1096,7 +1096,7 @@ Note that the <TT>"value"</TT> is treated as an
 <BLOCKQUOTE>
 sets the tooltip annotation attached to the element. 
 This is used only if the element has a HREF attribute.
-Note that the <TT>"value"</TT> is treated as an
+Note that the <code>"value"</code> is treated as an
 <A HREF=attrs.html#k:escString>escString</A> similarly to the
 <A HREF=attrs.html#d:tooltip>tooltip</A> attribute.
 </BLOCKQUOTE>
@@ -1210,8 +1210,8 @@ Here is an example using an &lt;IMG&gt; element
 <P>
 with the <A HREF=html4.gv>input graph</A>.
 <P>
-The <tt>sides</tt> attribute (version 2.37 and later) allows one to combine cells to form 
-various non-convex shapes. For example, a <tt>tee-shaped</tt> node
+The <code>sides</code> attribute (version 2.37 and later) allows one to combine cells to form 
+various non-convex shapes. For example, a <code>tee-shaped</code> node
 <P>
 <IMG SRC=tee.gif>
 <P>
@@ -1248,8 +1248,8 @@ These are the <A  HREF=http://www.sdl-forum.org/SDL/index.htm>SDL</A> shapes.
 These are available as PostScript functions whose use is described in
 <A HREF="../../../faq/#ext_ps_proc"> External PostScript procedures</A>.
 The necessary PostScript library file and sample use can be found in the
-<tt>contrib/sdlshapes</tt> directory in the release. Please note the
-COPYRIGHT AND PERMISSION NOTICE contained in the library file <tt>sdl.ps</tt>.
+<code>contrib/sdlshapes</code> directory in the release. Please note the
+COPYRIGHT AND PERMISSION NOTICE contained in the library file <code>sdl.ps</code>.
 <P>
 The table below
 gives the shape names and the corresponding node shapes.

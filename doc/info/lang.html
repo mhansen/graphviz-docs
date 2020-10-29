@@ -112,17 +112,17 @@ the parser will actually accept any identifier.
 <P>
 An <I>ID</I> is one of the following: 
 <MENU>
-<LI> Any string of alphabetic (<TT>[a-zA-Z&#92;200-&#92;377]</TT>) characters, underscores (<TT>'_'</TT>) or
-digits (<TT>[0-9]</TT>), not beginning with a digit;
-<LI> a numeral [<tt>-</tt>]<sup>?</sup>(<tt>.</tt>[<tt>0</tt>-<tt>9</tt>]<sup>+</sup>  | [<tt>0</tt>-<tt>9</tt>]<sup>+</sup>(<tt>.</tt>[<tt>0</tt>-<tt>9</tt>]<sup>*</sup>)<sup>?</sup> ); 
+<LI> Any string of alphabetic (<code>[a-zA-Z&#92;200-&#92;377]</code>) characters, underscores (<code>'_'</code>) or
+digits (<code>[0-9]</code>), not beginning with a digit;
+<LI> a numeral [<code>-</code>]<sup>?</sup>(<code>.</code>[<code>0</code>-<code>9</code>]<sup>+</sup>  | [<code>0</code>-<code>9</code>]<sup>+</sup>(<code>.</code>[<code>0</code>-<code>9</code>]<sup>*</sup>)<sup>?</sup> ); 
 <LI> any double-quoted string (&quot;...&quot;) possibly containing escaped 
 quotes (\&quot;)<SUP>1</SUP>;
 <LI> an HTML string (&lt;...&gt;).
 </MENU>
 An ID is just a string; the lack of quote characters in the first two
 forms is just for simplicity. There is no semantic difference between
-<TT>abc_2</TT> and <TT>"abc_2"</TT>, or between <TT>2.34</TT> and 
-<TT>"2.34"</TT>. Obviously, to use a keyword as an ID, it must be quoted.
+<code>abc_2</code> and <code>"abc_2"</code>, or between <code>2.34</code> and 
+<code>"2.34"</code>. Obviously, to use a keyword as an ID, it must be quoted.
 Note that, in HTML strings, angle
 brackets must occur in matched pairs, and newlines and other formatting whitespace
 characters are allowed.
@@ -136,10 +136,10 @@ for <A HREF=shapes.html#html>HTML-like labels</A>.
 Both quoted strings and HTML strings are scanned as a unit, so
 any embedded comments will be treated as part of the strings.
 <P>
-An <I>edgeop</I> is <TT>-></TT> in directed graphs and <TT>--</TT> in
+An <I>edgeop</I> is <code>-></code> in directed graphs and <code>--</code> in
 undirected graphs.
 <P>
-The language supports C++-style comments: <TT>/* */</TT> and <TT>//</TT>.
+The language supports C++-style comments: <code>/* */</code> and <code>//</code>.
 In addition, a line beginning with a '#' character is considered a line
 output from a C preprocessor (e.g., #  34 to indicate line 34 ) and discarded.
 <P>
@@ -186,7 +186,7 @@ should all be placed on the same rank if drawn using dot.
 <P>
 The third role for subgraphs directly involves how the graph
 will be laid out by certain layout engines. If the name of 
-the subgraph begins with <TT>cluster</TT>, Graphviz notes the subgraph as 
+the subgraph begins with <code>cluster</code>, Graphviz notes the subgraph as 
 a special <I>cluster</I> subgraph. If supported, the layout engine will 
 do the layout so that the nodes belonging to the cluster are drawn together, 
 with the entire drawing of the cluster contained within a bounding rectangle. 
@@ -197,8 +197,8 @@ certain of the layout engines.
 A graph must be specified as either a <B>digraph</B> or a <B>graph</B>.
 Semantically, this indicates whether or not there is a natural direction from
 one of the edge's nodes to the other. 
-Lexically, a digraph must specify an edge using the edge operator <TT>-></TT>
-while a undirected graph must use <TT>--</TT>.
+Lexically, a digraph must specify an edge using the edge operator <code>-></code>
+while a undirected graph must use <code>--</code>.
 Operationally, the distinction is used to define different default rendering
 attributes. For example, edges in a digraph will be drawn, by default, with
 an arrowhead pointing to the head node. For ordinary graphs, edges are drawn
@@ -219,7 +219,7 @@ strict graph {
   b -- a [color=blue]
 } 
 </PRE>
-will have a single edge connecting nodes <TT>a</TT> and <TT>b</TT>,
+will have a single edge connecting nodes <code>a</code> and <code>b</code>,
 whose color is blue.
 <P>
 If a default attribute is
@@ -264,7 +264,7 @@ By default, DOT assumes the UTF-8 character encoding. It also accepts
 the Latin1 (ISO-8859-1) character set, assuming the input graph uses
 the <B><A HREF=attrs.html#a:charset>charset</A></B> attribute to 
 specify this. For graphs using other
-character sets, there are usually programs, such as <TT>iconv</TT>, which
+character sets, there are usually programs, such as <code>iconv</code>, which
 will translate from one character set to another.
 <P>
 Another way to avoid non-ascii characters in labels is to use HTML entities
@@ -273,7 +273,7 @@ translated into the underlying character. This
 <a HREF="../char.html">
 table</a> shows the supported entities, with their Unicode value, a typical
 glyph, and the HTML entity name. Thus, to include a lower-case Greek beta
-into a string, one can use the ascii sequence <TT>&amp;beta;</TT>. 
+into a string, one can use the ascii sequence <code>&amp;beta;</code>. 
 In general, one should only use entities that are allowed in the output
 character set, and for which there is a glyph in the font.
 <HR>

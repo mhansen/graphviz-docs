@@ -17,7 +17,7 @@ is one of the parameters listed below.
 <P>
 The formats actually available in a given Graphviz system depend on
 how the system was built and the presence of additional libraries.
-To see what formats <b>dot</b> supports, run <TT>dot -T?</TT>.
+To see what formats <b>dot</b> supports, run <code>dot -T?</code>.
 See the <A HREF=command.html#d:T> description of the -T</A>
 flag for additional information.
 <P>
@@ -172,10 +172,10 @@ for nodes, edges and graphs.
 The format is fluid; comments and
 suggestions for better representations are welcome.
 To allow for changes in the format, Graphviz attaches the attribute
-<TT>xdotversion</TT> to the graph.
-If the <TT>xdotversion</TT> attribute is set in the input graph, the renderer
-will only output features supported by that version. Note that the formats <TT>xdot1.2</TT>
-and <TT>xdot1.4</TT> are equivalent to setting <TT>xdotversion=1.2</TT> and <TT>xdotversion=1.4</TT>,
+<code>xdotversion</code> to the graph.
+If the <code>xdotversion</code> attribute is set in the input graph, the renderer
+will only output features supported by that version. Note that the formats <code>xdot1.2</code>
+and <code>xdot1.4</code> are equivalent to setting <code>xdotversion=1.2</code> and <code>xdotversion=1.4</code>,
 respectively.
 <P>
 Additional drawing attributes can appear on nodes, edges, clusters and 
@@ -248,15 +248,15 @@ imply two operations: first, drawing the filled figure with the
 current fill color; second, drawing an unfilled figure with the
 current pen color, pen width and pen style.
 <P>
-Within the context of a single drawing attribute, e.g., <TT>_draw_</TT>, there is
+Within the context of a single drawing attribute, e.g., <code>_draw_</code>, there is
 an implicit state for the graphical attributes. That is, once a color, style, font, or
 font characteristic is set, it remains valid for all relevant drawing operations
 until the value is reset by another xdot cmd.
 <P>
 Style values which can be incorporated in the graphics model do not
 appear in xdot output. In particular, the style values
-<TT>filled</TT>, <TT>rounded</TT>, <TT>diagonals</TT>, and <TT>invis</TT>
-will not appear. Indeed, if style contains <TT>invis</TT>, 
+<code>filled</code>, <code>rounded</code>, <code>diagonals</code>, and <code>invis</code>
+will not appear. Indeed, if style contains <code>invis</code>, 
 there will not be any xdot output at all.
 <P>
 With version 1.4 of xdot, color strings may now encode linear and radial gradients. Linear
@@ -301,8 +301,8 @@ Version info:
 <TR><TD>1.3</TD><TD>2.31</TD><TD>Add numerical precision</TD></TR>
 <TR><TD>1.4</TD><TD>2.32</TD><TD>Add gradient colors</TD></TR>
 <TR><TD>1.5</TD><TD>2.34</TD><TD>Fix text layout problem; fix inverted vector in gradient; support version-specific output; new <B>t</B> op for text characteristics</TD></TR>
-<TR><TD>1.6</TD><TD>2.35</TD><TD>Add STRIKE-THROUGH bit for <tt>t</tt></TD></TR>
-<TR><TD>1.7</TD><TD>2.37</TD><TD>Add OVERLINE for <tt>t</tt></TD></TR>
+<TR><TD>1.6</TD><TD>2.35</TD><TD>Add STRIKE-THROUGH bit for <code>t</code></TD></TR>
+<TR><TD>1.7</TD><TD>2.37</TD><TD>Add OVERLINE for <code>t</code></TD></TR>
 </TABLE>
 
 <DT><A NAME=d:cgimage HREF=#a:cgimage><STRONG>cgimage</STRONG></A>
@@ -541,8 +541,8 @@ there will be a gap between the last or first control points and the
 boundary of the associated node. There are at least 3 possible ways
 of handling this gap:
 <UL>
-<LI> Arrange that the input graph uses <TT>dir=none</TT>,
-<TT>arrowhead=none</TT>, or <TT>arrowtail=none</TT> for all edges.
+<LI> Arrange that the input graph uses <code>dir=none</code>,
+<code>arrowhead=none</code>, or <code>arrowtail=none</code> for all edges.
 In this case, the terminating control points will always touch the node.
 <LI> Consider the line segment joining the control point and the center
 of the node, and determine the point where the segment intersects the
@@ -551,8 +551,8 @@ as the main axis of an arrowhead. The problem with this approach is
 that, if the edge has a port, the edge will not be pointing to the
 center of the node. In this case, rather than use the control point
 and center point, one can use the control point and its tangent.
-<LI> Arrange that the input graph uses <TT>headclip=false</TT> or
-<TT>tailclip=false</TT>. In this case, the edge will terminate at
+<LI> Arrange that the input graph uses <code>headclip=false</code> or
+<code>tailclip=false</code>. In this case, the edge will terminate at
 the node's center rather than its boundary. If arrowheads are used,
 there will still be a gap, but normally this will occur within the
 node. The application will still need to clip the spline to the node
@@ -582,11 +582,11 @@ the Cairo and GD library.
 By <A HREF=command.html#d:T>mixing the rendering and formatting</A> of these
 libraries, one can achieve different variations in the output.
 <DL> 
-  <DT><TT>-Tpng:gd</TT> (or <TT>-Tpng:gd:gd</TT>) 
+  <DT><code>-Tpng:gd</code> (or <code>-Tpng:gd:gd</code>) 
     <DD>Indexed color, no antialiasing
-  <DT><TT>-Tpng:cairo:gd</TT>
+  <DT><code>-Tpng:cairo:gd</code>
     <DD>Indexed color, with antialiasing
-  <DT><TT>-Tpng</TT> (or <TT>-Tpng:cairo</TT>) 
+  <DT><code>-Tpng</code> (or <code>-Tpng:cairo</code>) 
     <DD>True color, with antialiasing
 </DL> 
 These options are listed in increasing order of image quality and output size.
@@ -600,7 +600,7 @@ These options are listed in increasing order of image quality and output size.
 <P>
 Note: The default PostScript renderer can only handle the Latin-1
 character set. To get non-Latin-1 characters into PostScript output,
-use <TT>-Tps:cairo</TT>, assuming your version was built with the
+use <code>-Tps:cairo</code>, assuming your version was built with the
 Cairo renderer.
 
 <DT><A NAME=d:ps2 HREF=#a:ps2><STRONG>ps2</STRONG></A>
@@ -649,13 +649,13 @@ See <A HREF=#ID>Note</A>.
 <DD>Outputs graphs in the <A HREF="http://www.vrml.org/">VRML</A> format.
 To get a 3D embedding, nodes must have a <A HREF=attrs.html#d:z>z</A>
 attribute. These can either be supplied as part of the input graph, or
-be generated by neato provided <A HREF=attrs.html#d:dim>dim</A><TT>=3</TT>
+be generated by neato provided <A HREF=attrs.html#d:dim>dim</A><code>=3</code>
 and at least one node has a <B>z</B> value.
 <P>
 Line segments are drawn as cylinders.
 In general, VRML output relies on having the PNG library to produce images
 used to texture-fill the node shapes. However, if
-<A HREF=attrs.html#d:shape>shape</A><TT>=point</TT>,
+<A HREF=attrs.html#d:shape>shape</A><code>=point</code>,
 a node is drawn as a 3D sphere.
 
 <DT><A NAME=d:wbmp HREF=#a:wbmp><STRONG>wbmp</STRONG></A>
