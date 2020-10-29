@@ -48,7 +48,6 @@ html5validator \
   "The “nowrap” attribute on the “td” element is obsolete. Use CSS instead."\
   "The “rules” attribute on the “table” element is obsolete. Use CSS instead."\
   "The “size” attribute on the “hr” element is obsolete. Use CSS instead."\
-  "The “tt” element is obsolete. Use CSS instead."\
   "The “type” attribute on the “ul” element is obsolete. Use CSS instead."\
   "The “valign” attribute on the “td” element is obsolete. Use CSS instead."\
   "The “vspace” attribute on the “img” element is obsolete. Use CSS instead."\
