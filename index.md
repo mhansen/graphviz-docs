@@ -7,7 +7,9 @@ redirect_from:
 
 # Welcome to Graphviz
 
-Please join the brand new (March 2020) <a href="https://forum.graphviz.org" target="_blank">Graphviz forum</a> to ask questions and discuss Graphviz. <b>Note: </b> The URL is new since May 6 2020. Please update your bookmarks.
+Please join the brand new (March 2020) [Graphviz
+forum](https://forum.graphviz.org) to ask questions and discuss Graphviz.
+**Note:** The URL is new since May 6 2020. Please update your bookmarks.
 
 ## What is Graphviz?
 
@@ -35,18 +37,19 @@ The Graphviz layout programs take descriptions of graphs in a simple text langua
 
 ## Download
 
-The current release of Graphviz can be downloaded here: <a href="/download">Download</a>
-The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a> on GitLab.
+The current release of Graphviz can be downloaded here: [Download](/download)
+The code base is stored [here](https://gitlab.com/graphviz/graphviz/) on
+GitLab.
 
 ## Documentation
 
-Documentation is available in the released package and from here: <a href="/documentation">Documentation</a>
+Documentation is available in the released package and from here: [Documentation](/documentation)
 
 ## Discussions
 
-You can post questions and comments in the <a href="https://forum.graphviz.org" target="_blank">Graphviz forum</a>.
+You can post questions and comments in the [Graphviz forum](https://forum.graphviz.org).
 
 ## Bug And Issue Tracking
 
-You can report or view Graphviz bugs and issues by visiting the Graphviz <a href="https://gitlab.com/graphviz/graphviz/issues" target="_blank">Issues</a> page.
+You can report or view Graphviz bugs and issues by visiting the Graphviz [Issues](https://gitlab.com/graphviz/graphviz/issues) page.
 

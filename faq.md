@@ -5,7 +5,7 @@ permalink: /faq/
 order: 9
 ---
          
-If you cannot find the answer to your question here, ask it in the <a href="https://forum.graphviz.org" target="_blank">Graphviz forum</a>.
+If you cannot find the answer to your question here, ask it in the [Graphviz forum](https://forum.graphviz.org).
 
 
 ## Contributions
@@ -83,13 +83,14 @@ If you cannot find the answer to your question here, ask it in the <a href="http
 
 ### <a name="FaqAttr"></a>Where can I see a list of all the attributes that control dot or neato?
 
-See <A HREF="/doc/info/attrs.html">Graph Attributes</A>. There is also information on
-<A HREF="/doc/info/command.html"> command-line usage</A> and 
-<A HREF="/doc/info/output.html">output formats</A>.
+See [Graph Attributes](/doc/info/attrs.html). There is also information on
+[command-line usage](/doc/info/command.html) and [output
+formats](/doc/info/output.html).
 
 ### <a name="FaqDiscuss"></a>Where can I discuss Graphviz?
 
-Post questions and comments in the <a href="https://forum.graphviz.org" target="_blank">Graphviz forum</a>
+Post questions and comments in the [Graphviz forum](https://forum.graphviz.org)
+
 ### <a name="FaqLarger"></a>I'm trying to make a layout larger. How?
 
 There are various ways to increase the size of a layout. In doing this, one has to decide if the sizes of the nodes and text should be increased as well.

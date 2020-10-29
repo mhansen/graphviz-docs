@@ -22,11 +22,12 @@ and in visual interfaces for many other domains.
 
 Graphviz is open source graph visualization software.
 It has several main graph layout programs.
-See the <a href="/gallery">gallery</a> for some sample layouts.
+See the [gallery](/gallery)for some sample layouts.
 It also has web and interactive graphical interfaces,
 and auxiliary tools, libraries, and language bindings.
 
-The <a href="http://www.pixelglow.com/graphviz/">Mac OS X edition of Graphviz</a>, by Glen Low, won two 2004 Apple Design Awards.
+The[Mac OS X edition of Graphviz](http://www.pixelglow.com/graphviz/), by
+Glen Low, won two 2004 Apple Design Awards.
 
 The Graphviz layout programs take descriptions of graphs in
 a simple text language, and make diagrams in several useful
