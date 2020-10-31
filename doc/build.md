@@ -24,7 +24,7 @@ download page](http://www.graphviz.org/download/source/).
 These libraries (either static or dynamic) and their interface header files
 must already be on your system. It's OK if you install your own copies of
 these packages, though you may need to tell make or configure where to find
-them. Run "configure --help" for details.
+them. Run `configure --help` for details.
 
 On most Linux distributions these packages are already installed or
 installable from packages included in the distribution. You might need to
@@ -45,7 +45,7 @@ make install
 ```
 
 If you are building from Git sources, then you must have
-recent versions of "libtool", "automake", and "autoconf".
+recent versions of `libtool`, `automake`, and `autoconf`.
 Build with:
 
 ```
@@ -69,7 +69,7 @@ This handles various bitmap formats as well as svg, pdf and PostScript.
 The generic raster driver is `gd` and it can be configured to generate GIF
 (no compression), PNG (lossless compression), JPEG (lossy compression), and
 wireless bitmap (WBMP) files. The compressors all need `zlib`. In the current
-build, we use a top-level config.h file that defines various symbols, such
+build, we use a top-level `config.h` file that defines various symbols, such
 as:
 
 * `HAVE_JPEG`
@@ -90,15 +90,15 @@ You have several choices.
 This comes with the source packages.
 This often works well on a vanilla Linux distribution with
 Tcl/Tk, freetype-devel and libjpeg already installed by root
-under /usr.  It works OK with other versions of Unix, but
+under `/usr`.  It works OK with other versions of Unix, but
 some adjusting of command line arguments
 to `configure` may be needed.
 For Linux you can also just pick up the source tarball
 or RPMs [here](http://www.graphviz.org/download/).
 
-First, if you are using sources from Git, run "./autogen.sh"
-to generate the "configure" script.  If you are using sources
-from graphviz-&lt;version&gt;.tar.gz this autogen.sh step should not be
+First, if you are using sources from Git, run `./autogen.sh`
+to generate the `configure` script.  If you are using sources
+from `graphviz-<version>.tar.gz` this `autogen.sh` step should not be
 needed.
 
 Next, run configure. For help on possible configure options, run:
@@ -118,11 +118,11 @@ For example, I use
 
 Obviously you would change the pathnames to reflect your installation.
 
-Note that the directory ${prefix}/include is automatically searched
-for headers, and ${prefix}/lib for libraries.
+Note that the directory `${prefix}/include` is automatically searched
+for headers, and `${prefix}/lib` for libraries.
 
 If you have problems with one or more of the optional script language bindings,
-they can be disabled with e.g. --disable-perl.
+they can be disabled with e.g. `--disable-perl`.
 
 When configure is finished, it reports which optional packages were
 found and which Graphviz features are enabled. If some package or
@@ -142,10 +142,10 @@ gmake install
 a collection of simple non-GNU makefiles. As above, you need
 the external packages to be installed somewhere. Then
 
-*   Run configure.old from the root graphviz directory.
-*   Edit Config.mk for your architecture, tools, and installation directory. In particular, set the ARCH make variable.
-*   If desired, check settings in makearch/$(ARCH).
-*   Run make and make install.
+*   Run `configure.old` from the root graphviz directory.
+*   Edit `Config.mk` for your architecture, tools, and installation directory. In particular, set the `ARCH` make variable.
+*   If desired, check settings in `makearch/$(ARCH)`.
+*   Run `make` and `make install`.
 	
 ## Build tools for win32
 
@@ -161,35 +161,19 @@ still need various third-party packages to enable all the Graphviz drivers.
 
 ## AIX
 
-Matt Fago tells us that "--enable-shared=no" is required or the
+Matt Fago tells us that `--enable-shared=no` is required or the
 executables segfault after seemingly correct compiles.  (Bug #421)
-
-## SGI
-
-The default Irix libjpeg is obsolescent.  We need at least
-version 62.  It wasn't at all clear to me where to get sources for
-this - eventually I found the source for v61 and patches for v62
-using a search engine.  We may eventually remove JPEG support
-(lossy compression seems good for photos, not technical diagrams)
-so if you can't get this to work, the loss of -Tjpeg is no big deal.
-
-We found that on some platforms (Solaris?)
-gd/dotneato and freetype MUST be compiled with the 
-same C compiler (e.g. gcc, or the native cc).
-Otherwise there are are weird stack argument errors in
-the call to TT_Open_Face.  I don't have time to try
-to figure out what's wrong.
 
 ## Solaris
 
-Put /usr/ccs/bin in PATH
+Put `/usr/ccs/bin` in `$PATH`
 
 ## HP-UX
 
-The X11 package must include /usr/contrib/X11R6
+The X11 package must include `/usr/contrib/X11R6`
 as well as the base stuff.  For some reason GNU autoconf doesn't seem to find
 X11 in this location so you may need to add the following to the
-./configure line:
+`./configure` line:
 
 ```
 --with-Xawincludedir=/usr/contrib/X11R6/include --with-Xawlibdir=/usr/contrib/X11R6/lib
@@ -233,7 +217,7 @@ Now macports doesn't do glut separately.  It's sneaky because if you say install
 
 **Graphviz**:
 
-Then you get your graphviz and you configure with --with-smyrna.  I used the following:
+Then you get your graphviz and you configure with `--with-smyrna`.  I used the following:
 
 ```
 configure --with-smyrna --with-glutincludedir=/opt/local/var/macports/software/mesa/7.6.1_1+hw_render/opt/local/include --with-glutlibdir=/opt/local/var/macports/software/mesa/7.6.1_1+hw_render/opt/local/lib --prefix=/usr/local/share/graphviz
@@ -249,7 +233,7 @@ On the webs they say to use -framework commandline option to gcc; however I coul
 
 Now, I got to a certain point and it grumbled about permissions and refused to go any further.  So you may have to chmod in the source directory.
 
-And I got to the point where it was building gv_perl.cpp and it refused to go any further.  I got around this eventually by changing the call to XS to XSPROTO, thus obviating the need for XSUB.h (what does it do for you?  nothing!).
+And I got to the point where it was building gv_perl.cpp and it refused to go any further.  I got around this eventually by changing the call to XS to XSPROTO, thus obviating the need for `XSUB.h` (what does it do for you?  nothing!).
 
 And then it said it was done but when I went to run it it wouldn't start due to some missing template.dot so then you make clean, and make install again because by now you are confused as well.
 
@@ -259,7 +243,7 @@ By the way making by sneakily cd'ing into the macosx folder and using the makefi
 
 ## GNU style building
 
-To produce graphviz-(ver).tar.gz from GIT sources using cogito.
+To produce `graphviz-(ver).tar.gz` from GIT sources using cogito.
 
 ```
 cg clone https://gitlab.com/graphviz/graphviz.git
