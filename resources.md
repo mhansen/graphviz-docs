@@ -28,6 +28,7 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 
 Interactive viewers.
 
+*   [Qt Visual Graph Editor](https://github.com/ArsMasiuk/qvge) A multiplatform visual graph editor which can create and manuipulate graphs interactively, import and export into various popular graph formats (GEXF, GraphML, DOT, GML), convert data between them and so on. Since recent versions, GraphVis is used as a layout engine. \[Ars L. Masiuk\]
 *   [Graphviz Visual Editor](http://magjac.com/graphviz-visual-editor) A web application for interactive visual editing of Graphviz graphs described in the DOT language. \[Magnus Jacobsson\]
 *   [preview-dot](https://github.com/laingsimon/preview-dot) A tool for visualising dot format graphs (with a .gv extension) within the preview pane of Windows Explorer. This also works in Outlook for attachments, etc. \[Simon Laing\]
 *   [d3-graphviz](https://github.com/magjac/d3-graphviz) Renders SVG from graphs described in the DOT language using the @hpcc-js/wasm port of Graphviz and does animated transitions between graphs. \[Magnus Jacobsson\]
