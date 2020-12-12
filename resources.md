@@ -28,6 +28,7 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 
 Interactive viewers.
 
+*   [Graph Galaxy](https://apps.apple.com/us/app/graph-galaxy/id1473722262?mt=12) An out-of-box and WYSIWYG editor for Graphviz. \[Tianyong Tang\]
 *   [Qt Visual Graph Editor](https://github.com/ArsMasiuk/qvge) A multiplatform visual graph editor which can create and manuipulate graphs interactively, import and export into various popular graph formats (GEXF, GraphML, DOT, GML), convert data between them and so on. Since recent versions, GraphVis is used as a layout engine. \[Ars L. Masiuk\]
 *   [Graphviz Visual Editor](http://magjac.com/graphviz-visual-editor) A web application for interactive visual editing of Graphviz graphs described in the DOT language. \[Magnus Jacobsson\]
 *   [preview-dot](https://github.com/laingsimon/preview-dot) A tool for visualising dot format graphs (with a .gv extension) within the preview pane of Windows Explorer. This also works in Outlook for attachments, etc. \[Simon Laing\]
