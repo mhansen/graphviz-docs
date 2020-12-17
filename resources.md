@@ -21,7 +21,8 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 
 *   Visual Studio Code [plugin](https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz) \[João Pinto,Stephan van Stekelenburg\]
 *   [Sketchviz](https://sketchviz.com/new) generates layouts in a hand-made style.
-*   Javascript version of Graphviz via Emscripten [viz.js](https://github.com/mdaines/viz.js/) \[Mike Daines\]
+*   Javascript / Wasm version of Graphviz via Emscripten [@hpcc-js/wasm](https://www.npmjs.com/package/@hpcc-js/wasm) \[HPCC Systems\] - [github](https://github.com/hpcc-systems/hpcc-js-wasm/)
+*   Javascript version of Graphviz via Emscripten (archived) [viz.js](https://github.com/mdaines/viz.js/) \[Mike Daines\]
 *   Graphviz [pocket reference](https://graphs.grevian.org) \[Josh Hayes-Sheen\]
 
 #### <a name="graphical-interfaces">Graphical Interfaces</a>
