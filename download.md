@@ -62,8 +62,15 @@ You may find it useful to try one of the following third-party sites.
 
 ### Windows
 
-* [Development Windows install packages](https://www2.graphviz.org/Packages/development/windows)
-* [Stable Windows install packages](https://www2.graphviz.org/Packages/stable/windows)
+* Stable Windows install packages:
+  * 2.46.0 for Windows 10 (64-bit): [stable_windows_10_cmake_Release_x64_graphviz-install-2.46.0-win64.exe](https://gitlab.com/graphviz/graphviz/-/package_files/6164164/download)
+  * 2.46.0 for Windows 10 (32-bit): [stable_windows_10_msbuild_Release_Win32_graphviz-2.46.0-win32.zip](https://gitlab.com/graphviz/graphviz/-/package_files/6164162/download)
+    (not all tools and libraries are included)
+  * Further 2.46.0 variants available on [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/1000451)
+  * [Prior to 2.46.0](https://www2.graphviz.org/Packages/stable/windows)
+* Development Windows install packages
+  * [2.46.0 as newer](https://gitlab.com/graphviz/graphviz/-/packages)
+  * [Prior to 2.46.0](https://www2.graphviz.org/Packages/development/windows)
 * [Cygwin Ports](http://sourceware.org/cygwinports/)* provides a port of Graphviz to Cygwin.
 * [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
 * [Chocolatey packages Graphviz for Windows](https://chocolatey.org/packages/Graphviz).
