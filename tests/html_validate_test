@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # There is a long list of grandfathered allowed warnings in here.
 # The goal is to whittle these down over time while preventing new regressions.
 html5validator \
