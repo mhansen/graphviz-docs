@@ -20,7 +20,7 @@ build_site:
     paths:
       - public # generating site folder to be browsed or download
   except:
-    - master # all branches expect 'master'
+    - main # all branches except 'main'
 
 check:
   image: cyb3rjak3/html5validator
@@ -28,7 +28,7 @@ check:
   script:
     - tests/html_validate_test
   except:
-    - master # all branches expect 'master'
+    - main # all branches except 'main'
 
 # 'pages' is a specially-named job that will deploy and build your site to the
 # 'public' path to GitLab Pages.
@@ -44,5 +44,5 @@ pages:
     paths:
       - public
   only:
-    - master # this job will affect only the 'master' branch
+    - main # this job will affect only the 'main' branch
 
