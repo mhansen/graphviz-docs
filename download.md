@@ -64,8 +64,8 @@ You may find it useful to try one of the following third-party sites.
 
 * Stable Windows install packages:
   * 2.46.0 for Windows 10 (64-bit): [stable_windows_10_cmake_Release_x64_graphviz-install-2.46.0-win64.exe](https://gitlab.com/graphviz/graphviz/-/package_files/6164164/download)
-  * 2.46.0 for Windows 10 (32-bit): [stable_windows_10_msbuild_Release_Win32_graphviz-2.46.0-win32.zip](https://gitlab.com/graphviz/graphviz/-/package_files/6164162/download)
     (not all tools and libraries are included)
+  * 2.46.0 for Windows 10 (32-bit): [stable_windows_10_msbuild_Release_Win32_graphviz-2.46.0-win32.zip](https://gitlab.com/graphviz/graphviz/-/package_files/6164162/download)
   * Further 2.46.0 variants available on [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/1000451)
   * [Prior to 2.46.0](https://www2.graphviz.org/Packages/stable/windows)
 * Development Windows install packages
