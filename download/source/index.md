@@ -49,10 +49,12 @@ to see these.
 <tbody>
 <tr><th align="right"><font size="-1">Sources</font></th>
 <td align="left" nowrap=""><font size="-1">
-<a href="https://www2.graphviz.org/Packages/stable/portable_source">all</a><br>
+<a href="https://gitlab.com/graphviz/graphviz/-/package_files/6163716/download">graphviz-2.46.0.tar.gz</a><br/>
+<a href="https://www2.graphviz.org/Packages/stable/portable_source">older</a><br>
 </font></td>
 <td align="left" nowrap=""><font size="-1">
-<a href="https://www2.graphviz.org/Packages/development/portable_source">all</a><br>
+<a href="https://gitlab.com/graphviz/graphviz/-/packages">post-2.46.0</a><br/>
+<a href="https://www2.graphviz.org/Packages/development/portable_source">pre-2.46.0</a><br>
 </font></td>
 </tr>
 </tbody>
