@@ -49,7 +49,11 @@ to see these.
 <tbody>
 <tr><th align="right"><font size="-1">Sources</font></th>
 <td align="left" nowrap=""><font size="-1">
+<a href="https://gitlab.com/graphviz/graphviz/-/package_files/7097037/download">graphviz-2.46.1.tar.xz</a> | <a href="https://gitlab.com/graphviz/graphviz/-/package_files/7097038/download">graphviz-2.46.1.tar.xz.md5</a><br/>
+<a href="https://gitlab.com/graphviz/graphviz/-/package_files/7097035/download">graphviz-2.46.1.tar.gz</a> | <a href="https://gitlab.com/graphviz/graphviz/-/package_files/7097036/download">graphviz-2.46.1.tar.gz.md5</a><br/>
+<br/>
 <a href="https://gitlab.com/graphviz/graphviz/-/package_files/6163716/download">graphviz-2.46.0.tar.gz</a><br/>
+<br/>
 <a href="https://www2.graphviz.org/Packages/stable/portable_source">older</a><br>
 </font></td>
 <td align="left" nowrap=""><font size="-1">
