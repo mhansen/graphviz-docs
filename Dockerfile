@@ -1,4 +1,4 @@
-FROM ruby:2.7
+FROM ruby:3.0.0-buster
 WORKDIR /app
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
