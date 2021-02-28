@@ -48,3 +48,5 @@ collections:
     sort_by: name
   attr_types:
     sort_by: name
+  formats:
+    sort_by: params
