@@ -54,8 +54,6 @@ build_site:
   artifacts:
     paths:
       - public # generating site folder to be browsed or download
-  except:
-    - main # all branches except 'main'
 
 check:
   image: cyb3rjak3/html5validator
