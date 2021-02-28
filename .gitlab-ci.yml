@@ -1,19 +1,54 @@
-# add cache to 'vendor' for speeding up builds
-cache:
-  paths: 
-    - vendor/
-
 stages:
+  - docker_build
+  - docker_tag_live
   - build
   - test
   - deploy
 
-build_site:
-  image: ruby:2.7
-  stage: build
+.docker_template: &docker_definition
+  image: docker:stable
+  services:
+    - docker:dind
   before_script:
-    - bundle config set path 'vendor'
-    - bundle install
+    # Docker prefers passwords passed on stdin rather than as arguments,
+    # presumably because stdin isn't visible to other processes.
+    # $CI_JOB_TOKEN is documented at
+    # https://docs.gitlab.com/ee/user/project/new_ci_build_permissions_model.html#job-token
+    - echo -n $CI_JOB_TOKEN | docker login -u gitlab-ci-token --password-stdin $CI_REGISTRY
+  # do not re-run this job for new Git tags of previously seen commits
+  except:
+    - tags
+
+docker_build:
+  <<: *docker_definition
+  stage: docker_build
+  script:
+    # fetches the :latest image (not failing if image is not found) for caching
+    - docker pull $CI_REGISTRY_IMAGE/jekyll:latest || true
+    # Build and push with git commit SHA tag, reusing layers from the :latest image if possible
+    - DOCKER_BUILDKIT=1 docker build -t $CI_REGISTRY_IMAGE/jekyll:$CI_COMMIT_SHA --cache-from $CI_REGISTRY_IMAGE/jekyll:latest -f Dockerfile --build-arg BUILDKIT_INLINE_CACHE=1 .
+    - docker push $CI_REGISTRY_IMAGE/jekyll:$CI_COMMIT_SHA
+
+docker_tag_live:
+  <<: *docker_definition
+  stage: docker_tag_live
+  variables:
+    # Docker pull and push doesn't need GitLab to clone the source code.
+    # Skipping code checkout should speed up execution a little.
+    GIT_STRATEGY: none
+  only:
+    refs:
+      # Only main should be pushed to :latest, not unmerged merge-requests.
+      - main
+  script:
+    - docker pull $CI_REGISTRY_IMAGE/jekyll:$CI_COMMIT_SHA
+    # Re-tag, push to :latest tag
+    - docker tag  $CI_REGISTRY_IMAGE/jekyll:$CI_COMMIT_SHA $CI_REGISTRY_IMAGE/jekyll:latest
+    - docker push $CI_REGISTRY_IMAGE/jekyll:latest
+
+build_site:
+  image: $CI_REGISTRY_IMAGE/jekyll:$CI_COMMIT_SHA
+  stage: build
   script:
     - bundle exec jekyll build -d public/
   artifacts:
@@ -33,11 +68,8 @@ check:
 # 'pages' is a specially-named job that will deploy and build your site to the
 # 'public' path to GitLab Pages.
 pages:
-  image: ruby:2.7
+  image: $CI_REGISTRY_IMAGE/jekyll:$CI_COMMIT_SHA
   stage: deploy
-  before_script:
-    - bundle config set path 'vendor'
-    - bundle install
   script:
     - bundle exec jekyll build -d public/
   artifacts:
