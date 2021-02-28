@@ -62,8 +62,6 @@ check:
   stage: test
   script:
     - tests/html_validate_test
-  except:
-    - main # all branches except 'main'
 
 # 'pages' is a specially-named job that will deploy and build your site to the
 # 'public' path to GitLab Pages.
