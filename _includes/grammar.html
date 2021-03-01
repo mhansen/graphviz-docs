@@ -1,0 +1,90 @@
+<TR>
+  <TD ALIGN=RIGHT><I>graph</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT>[ <B>strict</B> ] (<B>graph</B> | <B>digraph</B>) [ <I>ID</I> ] <B>'{'</B> <I>stmt_list</I> <B>'}'</B></TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>stmt_list</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT>[ <I>stmt</I> [ <B>';'</B> ] <I>stmt_list</I> ]</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>stmt</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT><I>node_stmt</I></TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT></TD>
+  <TD ALIGN=LEFT>|</TD>
+  <TD ALIGN=LEFT><I>edge_stmt</I></TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT></TD>
+  <TD ALIGN=LEFT>|</TD>
+  <TD ALIGN=LEFT><I>attr_stmt</I></TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT></TD>
+  <TD ALIGN=LEFT>|</TD>
+  <TD ALIGN=LEFT><I>ID</I> <B>'='</B> <I>ID</I></TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT></TD>
+  <TD ALIGN=LEFT>|</TD>
+  <TD ALIGN=LEFT><I>subgraph</I></TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>attr_stmt</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT>(<B>graph</B> | <B>node</B> | <B>edge</B>) <I>attr_list</I></TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>attr_list</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT><B>'['</B> [ <I>a_list</I> ] <B>']'</B> [ <I>attr_list</I> ]</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>a_list</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT><I>ID</I> <B>'='</B> <I>ID</I> [ (<B>';'</B> | <B>','</B>) ] [ <I>a_list</I> ]</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>edge_stmt</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT>(<I>node_id</I> | <I>subgraph</I>) <I>edgeRHS</I> [ <I>attr_list</I> ]</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>edgeRHS</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT><I>edgeop</I> (<I>node_id</I> | <I>subgraph</I>) [ <I>edgeRHS</I> ]</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>node_stmt</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT><I>node_id</I> [ <I>attr_list</I> ]</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>node_id</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT><I>ID</I> [ <I>port</I> ]</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>port</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT><B>':'</B> <I>ID</I> [ <B>':'</B> <I>compass_pt</I> ]</TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT></TD>
+  <TD ALIGN=LEFT>|</TD>
+  <TD ALIGN=LEFT><B>':'</B> <I>compass_pt</I></TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>subgraph</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT>[ <B>subgraph</B> [ <I>ID</I> ] ] <B>'{'</B> <I>stmt_list</I> <B>'}'</B></TD>
+</TR>
+<TR>
+  <TD ALIGN=RIGHT><I>compass_pt</I></TD>
+  <TD ALIGN=LEFT>:</TD>
+  <TD ALIGN=LEFT>(<B>n</B> | <B>ne</B> | <B>e</B> | <B>se</B> | <B>s</B> | <B>sw</B> | <B>w</B> | <B>nw</B> | <B>c</B> | <B>_</B>)</TD>
+</TR>
