@@ -63,16 +63,22 @@ You may find it useful to try one of the following third-party sites.
 ### Windows
 
 * Stable Windows install packages:
-  * 2.46.1 EXE installer for Windows 10 (64-bit):
-    [stable_windows_10_cmake_Release_x64_graphviz-install-2.46.1-win64.exe](https://gitlab.com/graphviz/graphviz/-/package_files/7097345/download)
+  * 2.47.0 EXE installer for Windows 10 (64-bit):
+    [stable_windows_10_cmake_Release_x64_graphviz-install-2.47.0-win64.exe](https://gitlab.com/graphviz/graphviz/-/package_files/8184046/download)
     (not all tools and libraries are included)
-  * 2.46.1 EXE installer for Windows 10 (32-bit):
-    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.46.1-win32.exe](https://gitlab.com/graphviz/graphviz/-/package_files/7097346/download)
+  * 2.47.0 EXE installer for Windows 10 (32-bit):
+    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.0-win32.exe](https://gitlab.com/graphviz/graphviz/-/package_files/8184049/download)
     (not all tools and libraries are included)
-  * 2.46.1 ZIP archive for Windows 10 (32-bit):
-    [stable_windows_10_msbuild_Release_Win32_graphviz-2.46.1-win32.zip](https://gitlab.com/graphviz/graphviz/-/package_files/7097343/download)
-  * Further 2.46.1 variants available on
-    [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/1160979)
+  * 2.47.0 ZIP archive for Windows 10 (32-bit):
+    [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.0-win32.zip](https://gitlab.com/graphviz/graphviz/-/package_files/8184040/download)
+  * checksums:
+    [stable_windows_10_cmake_Release_x64_graphviz-install-2.47.0-win64.exe.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/8184048/download)
+    |
+    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.0-win32.exe.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/8184051/download)
+    |
+    [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.0-win32.zip.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/8184042/download)
+  * Further 2.47.0 variants available on
+    [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/1365772)
   * [Prior to 2.46 series](https://www2.graphviz.org/Packages/stable/windows)
 * Development Windows install packages
   * [2.46.0 as newer](https://gitlab.com/graphviz/graphviz/-/packages)

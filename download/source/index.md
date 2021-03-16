@@ -49,6 +49,9 @@ to see these.
 <tbody>
 <tr><th align="right"><font size="-1">Sources</font></th>
 <td align="left" nowrap=""><font size="-1">
+<a href="https://gitlab.com/graphviz/graphviz/-/package_files/8183717/download">graphviz-2.47.0.tar.xz</a> | <a href="https://gitlab.com/graphviz/graphviz/-/package_files/8183718/download">graphviz-2.47.0.tar.xz.md5</a> | <a href="https://gitlab.com/graphviz/graphviz/-/package_files/8183719/download">graphviz-2.47.0.tar.xz.sha256</a><br/>
+<a href="https://gitlab.com/graphviz/graphviz/-/package_files/8183714/download">graphviz-2.47.0.tar.gz</a> | <a href="https://gitlab.com/graphviz/graphviz/-/package_files/8183715/download">graphviz-2.47.0.tar.gz.md5</a> | <a href="https://gitlab.com/graphviz/graphviz/-/package_files/8183716/download">graphviz-2.47.0.tar.gz.sha256</a><br/>
+<br/>
 <a href="https://gitlab.com/graphviz/graphviz/-/package_files/7097037/download">graphviz-2.46.1.tar.xz</a> | <a href="https://gitlab.com/graphviz/graphviz/-/package_files/7097038/download">graphviz-2.46.1.tar.xz.md5</a><br/>
 <a href="https://gitlab.com/graphviz/graphviz/-/package_files/7097035/download">graphviz-2.46.1.tar.gz</a> | <a href="https://gitlab.com/graphviz/graphviz/-/package_files/7097036/download">graphviz-2.46.1.tar.gz.md5</a><br/>
 <br/>
