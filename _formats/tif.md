@@ -4,4 +4,4 @@ params:
 - tif
 - tiff
 ---
-Produces <A HREF="http://www.libtiff.org/">TIFF</A> output.
+Produces [TIFF](http://www.libtiff.org/) output.

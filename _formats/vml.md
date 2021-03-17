@@ -4,7 +4,7 @@ params:
 - vml
 - vmlz
 ---
-Produces <A HREF="http://www.w3.org/TR/NOTE-VML">VML</A> output,
+Produces [VML](http://www.w3.org/TR/NOTE-VML) output,
 the latter in compressed format.
-<P>
-See <A HREF=#ID>Note</A>.
+
+See [Note](#ID).
