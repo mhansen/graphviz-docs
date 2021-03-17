@@ -7,9 +7,8 @@ redirect_from:
 
 # Welcome to Graphviz
 
-Please join the brand new (March 2020) [Graphviz
-forum](https://forum.graphviz.org) to ask questions and discuss Graphviz.
-**Note:** The URL is new since May 6 2020. Please update your bookmarks.
+Please join the [Graphviz forum](https://forum.graphviz.org) to ask
+questions and discuss Graphviz.
 
 ## What is Graphviz?
 
