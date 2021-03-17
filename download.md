@@ -78,7 +78,7 @@ You may find it useful to try one of the following third-party sites.
     |
     [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.0-win32.zip.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/8184042/download)
   * Further 2.47.0 variants available on
-    [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/1365772)
+    [GitLab](https://gitlab.com/graphviz/graphviz/-/releases/2.47.0)
   * [Prior to 2.46 series](https://www2.graphviz.org/Packages/stable/windows)
 * Development Windows install packages
   * [2.46.0 as newer](https://gitlab.com/graphviz/graphviz/-/packages)
