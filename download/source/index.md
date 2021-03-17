@@ -86,7 +86,7 @@ You can either download the zip file or clone the repository. Instructions
 for the latter can be found [here](https://help.github.com/articles/which-remote-url-should-i-use/).
 
 If you are taking this approach, then you must have recent versions of
-`libtool`, `automake`, and `autoconf`. The build process is basically the same
+"libtool", "automake", and "autoconf". The build process is basically the same
 as above with the addition of one more step:
 
 ```bash
