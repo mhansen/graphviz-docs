@@ -12,11 +12,9 @@ redirect_from:
 
 ## Source Packages
 
-For most cases where you want or need to build from source, you should grab one
-of the source packages linked below.
-They contain all of required generated files. You just need to run `configure`
-to tailor the build to your machine and its libraries. The typical installation
-process is:
+For most cases where you want or need to build from source, you should
+download one of the source packages linked below. They contain all of
+required generated files. The typical installation process is:
 
 ```bash
 ./configure
@@ -25,7 +23,7 @@ make install
 ```
 
 The `configure` script has many options for further tailoring the build
-process. Run
+process to your machine. Run
 
 ```bash
 ./configure --help
@@ -33,80 +31,53 @@ process. Run
 
 to see these.
 
+### Graphviz
 
+#### Stable Releases
 
-<table frame="void" rules="groups" border="1" width="100%">
-<colgroup><col></colgroup>
-<colgroup><col></colgroup>
-<colgroup><col></colgroup>
-<tbody>
-<tr>
-<th align="left"><font size="+1">graphviz</font></th>
-<th><font size="-1">stable releases</font></th>
-<th><font size="-1">development snapshots</font></th>
-</tr>
-</tbody>
-<tbody>
-<tr><th align="right"><font size="-1">Sources</font></th>
-<td align="left" nowrap=""><font size="-1">
 {% comment %}Sorts by filename.{% endcomment %}
 {% assign sorted_sources = site.data.sources | sort %}
+<ul>
 {% for source in sorted_sources reversed %}
   {%- assign version = source[1] -%}
+  <li>{{version.version}}
+    <ul>
     {%- for archive in version.archives -%}
-    <a href="{{archive.url}}">{{version.version}}.{{archive.format}}</a>
-    {%- if archive.md5 -%}
-    | <a href="{{archive.md5}}">{{version.version}}.{{archive.format}}.md5</a>
-    {%- endif -%}
-    {%- if archive.sha256 -%}
-    | <a href="{{archive.sha256}}">{{version.version}}.{{archive.format}}.sha256</a>
-    {%- endif -%}
-    <br />
-  {% endfor -%}
-  <br />
+      <li>
+      <a href="{{archive.url}}">{{version.version}}.{{archive.format}}</a>
+      {%- if archive.md5 -%}
+      , <a href="{{archive.md5}}">md5</a>
+      {%- endif -%}
+      {%- if archive.sha256 -%}
+      , <a href="{{archive.sha256}}">sha256</a>
+      {%- endif -%}
+      </li>
+    {% endfor -%}
+    </ul>
+  </li>
 {% endfor %}
-<a href="https://www2.graphviz.org/Packages/stable/portable_source">older</a><br>
-</font></td>
-<td align="left" nowrap=""><font size="-1">
-<a href="https://gitlab.com/graphviz/graphviz/-/packages">post-2.46.0</a><br/>
-<a href="https://www2.graphviz.org/Packages/development/portable_source">pre-2.46.0</a><br>
-</font></td>
-</tr>
-</tbody>
-<tbody>
-<tr><td colspan="3">&nbsp;</td></tr>
-</tbody>
-<tbody>
-<tr>
-<th align="left"><font size="+1">webdot</font></th>
-<th><font size="-1">current stable release</font></th>
-<th><font size="-1">development snapshot</font></th>
-</tr>
-</tbody>
-<tbody>
-<tr><th align="right"><font size="-1">Sources</font></th>
-<td align="left" nowrap=""><font size="-1">
-<a href="/pub/graphviz/stable/SOURCES/webdot.tar.gz">webdot-2.30.tar.gz</a><br>
-<a href="/pub/graphviz/stable/SOURCES/webdot.tar.gz.md5">webdot-2.30.tar.gz.md5</a><br>
-</font></td>
-<td align="left" nowrap=""><font size="-1">
-<a href="/pub/graphviz/development/SOURCES/webdot-working.tar.gz">webdot-2.39.20170725.2013.tar.gz</a><br>
-<a href="/pub/graphviz/development/SOURCES/webdot-working.tar.gz.md5">webdot-2.39.20170725.2013.tar.gz.md5</a><br>
-</font></td>
-</tr>
-</tbody>
-<tbody>
-<tr><td colspan="3">&nbsp;</td></tr>
-</tbody>
-</table>
+  <li><a href="https://www2.graphviz.org/Packages/stable/portable_source">older</a></li>
+</ul>
 
+#### Development Snapshots
 
+- [post-2.46.0](https://gitlab.com/graphviz/graphviz/-/packages)
+- [pre-2.46.0](https://www2.graphviz.org/Packages/development/portable_source)
 
+### Webdot
 
-## Master GIT Repos
+#### Stable Releases
 
-If you wish to build from the
-master repos for graphviz and webdot, these can be found at:
+- [webdot-2.30.tar.gz](/pub/graphviz/stable/SOURCES/webdot.tar.gz), [md5](/pub/graphviz/stable/SOURCES/webdot.tar.gz.md5)
+
+#### Development Snapshots
+
+- [webdot-2.39.20170725.2013.tar.gz](/pub/graphviz/development/SOURCES/webdot-working.tar.gz), [md5](/pub/graphviz/development/SOURCES/webdot-working.tar.gz.md5)
+
+## Git Repos
+
+If you wish to build from the tip-of-tree
+source repositories for Graphviz and Webdot, these can be found at:
 
 * [http://gitlab.com/graphviz/graphviz/](http://gitlab.com/graphviz/graphviz/)
 * [http://gitlab.com/graphviz/webdot/](http://gitlab.com/graphviz/webdot/)
@@ -115,7 +86,7 @@ You can either download the zip file or clone the repository. Instructions
 for the latter can be found [here](https://help.github.com/articles/which-remote-url-should-i-use/).
 
 If you are taking this approach, then you must have recent versions of
-"libtool", "automake", and "autoconf". The build process is basically the same
+`libtool`, `automake`, and `autoconf`. The build process is basically the same
 as above with the addition of one more step:
 
 ```bash
