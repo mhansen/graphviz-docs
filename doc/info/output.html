@@ -47,13 +47,11 @@ formats need to be interpreted in this manner.
 <HR>
 <H2>Format Descriptions</H2>
 <DL>
-{% for f in sorted_formats %}
-  {%- for p in f.params %}
-    {%- unless forloop.first -%}
-      ,
-    {%- endunless -%}
+{% for f in sorted_formats -%}
+  {%- for p in f.params -%}
+    {%- unless forloop.first -%},{%- endunless -%}
     <DT><A NAME=d:{{p}} HREF=#a:{{p}}><STRONG>{{p}}</STRONG></A>
-  {% endfor -%}
+  {%- endfor -%}
   <DD>
   {{- f.content }}
 {% endfor %}
