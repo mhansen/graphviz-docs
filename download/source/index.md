@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 ## Source Packages
-	
+
 For most cases where you want or need to build from source, you should grab one
 of the source packages linked below.
 They contain all of required generated files. You just need to run `configure`
@@ -19,16 +19,16 @@ to tailor the build to your machine and its libraries. The typical installation
 process is:
 
 ```bash
-	./configure
-	make
-	make install
+./configure
+make
+make install
 ```
 
 The `configure` script has many options for further tailoring the build
 process. Run
 
 ```bash
-	./configure --help
+./configure --help
 ```
 
 to see these.
@@ -119,10 +119,10 @@ If you are taking this approach, then you must have recent versions of
 as above with the addition of one more step:
 
 ```bash
-	./autogen.sh
-	./configure
-	make
-	make install
+./autogen.sh
+./configure
+make
+make install
 ```
 
 ## Requirements
