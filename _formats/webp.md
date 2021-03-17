@@ -5,5 +5,5 @@ params:
 ---
 Produces output in the image format for the Web (WEBP) format, optimized for
 web devices such as tablets.
-See Wikipedia's <a href="http://en.wikipedia.org/wiki/Webp">WebP</a>
-or Google's <a href="http://code.google.com/speed/webp/">webp</a> pages.
+See Wikipedia's [WebP](http://en.wikipedia.org/wiki/Webp)
+or Google's [webp](http://code.google.com/speed/webp/) pages.

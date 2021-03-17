@@ -4,7 +4,7 @@ params:
 - svg
 - svgz
 ---
-Produce <A HREF="http://www.adobe.com/svg/">SVG</A> output,
+Produce [SVG](http://www.adobe.com/svg/) output,
 the latter in compressed format.
-<P>
-See <A HREF=#ID>Note</A>.
+
+See [Note](#ID).
