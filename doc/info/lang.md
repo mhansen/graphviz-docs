@@ -25,9 +25,9 @@ An _ID_ is one of the following:
 *   Any string of alphabetic (`[a-zA-Z\200-\377]`) characters, underscores (`'_'`) or
 digits(`[0-9]`), not beginning with a digit;
 *   a numeral [<code>-</code>]<sup>?</sup>(<code>.</code>[<code>0</code>-<code>9</code>]<sup>+</sup>  `|` [<code>0</code>-<code>9</code>]<sup>+</sup>(<code>.</code>[<code>0</code>-<code>9</code>]<sup>*</sup>)<sup>?</sup> );
-*   any double-quoted string (&quot;...&quot;) possibly containing escaped 
-quotes (\&quot;)<SUP>1</SUP>;
-*   an HTML string (<...>).
+*   any double-quoted string (`"..."`) possibly containing escaped 
+quotes (`"`)<SUP>1</SUP>;
+*   an HTML string (`<...>`).
 
 An ID is just a string; the lack of quote characters in the first two
 forms is just for simplicity. There is no semantic difference between
