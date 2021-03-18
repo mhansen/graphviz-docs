@@ -14,6 +14,12 @@ The Brewer color schemes below are covered by this [license](#brewer_license).
 
 ---
 
+<style>
+.gv-colors td {
+  min-width: 42px;
+}
+</style>
+
 ## The X11 color scheme {#x11}
 
 {% include x11_colors.html %}
