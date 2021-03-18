@@ -59,7 +59,7 @@ on the graph itself. There are six new attributes:
 | _hldraw_ | Head label     | Edge only | 
 | _tldraw_ | Tail label     | Edge only |
 
-For a given graph object, one will typically a draw directive before the
+For a given graph object, one will typically issue a draw directive before the
 label directive. For example, for a node, one would first use the commands
 in **\_draw\_** followed by the commands in **\_ldraw\_**.
 
