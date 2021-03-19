@@ -49,14 +49,14 @@ will only output features supported by that version. Note that the formats `xdot
 and `xdot1.4` are equivalent to setting `xdotversion=1.2` and `xdotversion=1.4`,
 respectively.
 
-Additional drawing attributes can appear on nodes, edges, clusters and 
-on the graph itself. There are six new attributes: 
+Additional drawing attributes can appear on nodes, edges, clusters and
+on the graph itself. There are six new attributes:
 
 | _draw_   | General drawing without labels |
 | _ldraw_  | Label drawing  |
 | _hdraw_  | Head arrowhead | Edge only |
 | _tdraw_  | Tail arrowhead | Edge only |
-| _hldraw_ | Head label     | Edge only | 
+| _hldraw_ | Head label     | Edge only |
 | _tldraw_ | Tail label     | Edge only |
 
 For a given graph object, one will typically issue a draw directive before the
@@ -69,28 +69,28 @@ The value of these attributes consists of the concatenation of some
 was added to the format. If no version number is given, the operation
 was in the original specification.)
 
-E x<sub>0</sub> y<sub>0</sub> w h
-: Filled ellipse ((x-x<sub>0</sub>)/w)<sup>2</sup> + ((y-y<sub>0</sub>)/h)<sup>2</sup> = 1
+E x₀ y₀ w h
+: Filled ellipse ((x-x₀)/w)² + ((y-y₀)/h)² = 1
 
-e x<sub>0</sub> y<sub>0</sub> w h
-: Unfilled ellipse ((x-x<sub>0</sub>)/w)<sup>2</sup> + ((y-y<sub>0</sub>)/h)<sup>2</sup> = 1
+e x₀ y₀ w h
+: Unfilled ellipse ((x-x₀)/w)² + ((y-y₀)/h)² = 1
 
-P n x<sub>1</sub> y<sub>1</sub> ... x<sub>n</sub> y<sub>n</sub>
+P n x₁ y₁ ... xₙ yₙ
 : Filled polygon using the given n points
 
-p n x<sub>1</sub> y<sub>1</sub> ... x<sub>n</sub> y<sub>n</sub>
+p n x₁ y₁ ... xₙ yₙ
 : Unfilled polygon using the given n points
 
-L n x<sub>1</sub> y<sub>1</sub> ... x<sub>n</sub> y<sub>n</sub>
+L n x₁ y₁ ... xₙ yₙ
 : Polyline using the given n points
 
-B n x<sub>1</sub> y<sub>1</sub> ... x<sub>n</sub> y<sub>n</sub>
+B n x₁ y₁ ... xₙ yₙ
 : B-spline using the given n control points
 
-b n x<sub>1</sub> y<sub>1</sub> ... x<sub>n</sub> y<sub>n</sub>
+b n x₁ y₁ ... xₙ yₙ
 : Filled B-spline using the given n control points (1.1)
 
-T x y j w n -<I>b<sub>1</sub>b<sub>2</sub>...b<sub>n</sub></I>
+T x y j w n -<I>b₁b₂...bₙ</I>
 : Text drawn using the baseline point (x,y). The text consists of the
 n bytes following '-'. The text should be left-aligned (centered,
 right-aligned) on the point if j is -1 (0, 1), respectively. The value
@@ -100,24 +100,24 @@ t f
 : Set font characteristics. The integer f is the OR of BOLD=1, ITALIC=2, UNDERLINE=4, SUPERSCRIPT=8, SUBSCRIPT=16, (1.5) STRIKE-THROUGH=32 (1.6),
 and OVERLINE=64 (1.7).
 
-C n -<I>b<sub>1</sub>b<sub>2</sub>...b<sub>n</sub></I>
+C n -<I>b₁b₂...bₙ</I>
 : Set fill color. The color value consists of the
 n bytes following '-'. (1.1)
 
-c n -<I>b<sub>1</sub>b<sub>2</sub>...b<sub>n</sub></I>
+c n -<I>b₁b₂...bₙ</I>
 : Set pen color. The color value consists of the
 n bytes following '-'. (1.1)
 
-F s n -<I>b<sub>1</sub>b<sub>2</sub>...b<sub>n</sub></I>
+F s n -<I>b₁b₂...bₙ</I>
 : Set font. The font size is s points. The font name consists of the
 n bytes following '-'. (1.1)
 
-S n -<I>b<sub>1</sub>b<sub>2</sub>...b<sub>n</sub></I>
+S n -<I>b₁b₂...bₙ</I>
 : Set style attribute. The style value consists of the
 n bytes following '-'. The syntax of the value is the same as
 specified for a **styleItem** in [style](attrs.html#k:style). (1.1)
 
-I x y w h n -<I>b<sub>1</sub>b<sub>2</sub>...b<sub>n</sub></I>
+I x y w h n -<I>b₁b₂...bₙ</I>
 : Externally-specified image drawn in the box with lower left
 corner (x,y) and upper right corner (x+w,y+h). The name of the image
 consists of the n bytes following '-'. This is usually a bitmap
@@ -143,21 +143,21 @@ there will not be any xdot output at all.
 
 With version 1.4 of xdot, color strings may now encode linear and radial gradients. Linear
 gradients have the form <br>
-&nbsp;&nbsp;&nbsp;&nbsp;'[' x<sub>0</sub> y<sub>0</sub> x<sub>1</sub> y<sub>1</sub> n [<I>color-stop</I>]<sup>+</sup> ']'<br>
-where (x<sub>0</sub>,y<sub>0</sub>) and (x<sub>1</sub>,y<sub>1</sub>) define the starting and
+&nbsp;&nbsp;&nbsp;&nbsp;'[' x₀ y₀ x₁ y₁ n [<I>color-stop</I>]⁺ ']'<br>
+where (x₀,y₀) and (x₁,y₁) define the starting and
 ending points of the gradient line segment, and n gives the number of <I>color-stops</I>. Each
 <I>color-stop</I> has the form<br>
-&nbsp;&nbsp;&nbsp;&nbsp;v m -<I>b<sub>1</sub>b<sub>2</sub>...b<sub>m</sub></I><br>
+&nbsp;&nbsp;&nbsp;&nbsp;v m -<I>b₁b₂...bₘ</I><br>
 where v is a number in the range [0,1] defining a position on the gradient line segment, with
-color specified by the m byte string <I>b<sub>1</sub>b<sub>2</sub>...b<sub>m</sub></I>, 
+color specified by the m byte string <I>b₁b₂...bₘ</I>,
 the same format as used for colors in the 'c' and 'C' operations.
 
 Radial gradients have the form<br>
-&nbsp;&nbsp;&nbsp;&nbsp;'(' x<sub>0</sub> y<sub>0</sub> r<sub>0</sub> x<sub>1</sub> y<sub>1</sub> r<sub>1</sub> n [<I>color-stop</I>]<sup>+</sup> ')' <br>
-where x<sub><i>j</i></sub> y<sub><i>j</i></sub> r<sub><i>j</i></sub>, for <i>j</i>=0,1, specify
+&nbsp;&nbsp;&nbsp;&nbsp;'(' x₀ y₀ r₀ x₁ y₁ r₁ n [<I>color-stop</I>]⁺ ')' <br>
+where x<i>ⱼ</i> y<i>ⱼ</i> r<i>ⱼ</i>, for <i>j</i>=0,1, specify
 the center and radius of the start and ending circle, and n gives the number of _color-stops_.
 A _color-stop_ has the same format as defined for linear gradients, again given the fractional
-offset and its associated color. 
+offset and its associated color.
 
 In handling text alignment, the application may want to recompute the
 string width using its own rendering primitives.
