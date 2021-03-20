@@ -95,7 +95,7 @@ The following table indicates which modifiers are allowed with which shapes.
 This yields 42 different arrow shapes. The optional second, third, fourth shapes
 can independently be any of the 42, except the last cannot be `none` as
 this would create a redundant shape.
-Thus, there are 41 &middot; 42<sup>3</sup> + 41 &middot; 42<sup>2</sup> + 41 &middot; 42 + 42 = 3,111,696 different combinations.
+Thus, there are 41 &middot; 42³ + 41 &middot; 42² + 41 &middot; 42 + 42 = 3,111,696 different combinations.
 
 The following display contains the 42 combinations possible with a single
 arrow shape. The node attached to the arrow is not drawn but would appear
