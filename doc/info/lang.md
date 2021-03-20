@@ -24,9 +24,9 @@ An _ID_ is one of the following:
 
 *   Any string of alphabetic (`[a-zA-Z\200-\377]`) characters, underscores (`'_'`) or
 digits(`[0-9]`), not beginning with a digit;
-*   a numeral [<code>-</code>]<sup>?</sup>(<code>.</code>[<code>0</code>-<code>9</code>]<sup>+</sup>  `|` [<code>0</code>-<code>9</code>]<sup>+</sup>(<code>.</code>[<code>0</code>-<code>9</code>]<sup>*</sup>)<sup>?</sup> );
+*   a numeral [<code>-</code>]<sup>?</sup>(<code>.</code>[<code>0</code>-<code>9</code>]⁺  `|` [<code>0</code>-<code>9</code>]⁺(<code>.</code>[<code>0</code>-<code>9</code>]<sup>*</sup>)<sup>?</sup> );
 *   any double-quoted string (`"..."`) possibly containing escaped 
-quotes (`"`)<SUP>1</SUP>;
+quotes (`"`)¹;
 *   an HTML string (`<...>`).
 
 An ID is just a string; the lack of quote characters in the first two
@@ -57,7 +57,7 @@ Also, any amount of whitespace may be inserted between terminals.
 
 As another aid for readability, dot allows double-quoted strings to
 span multiple physical lines using the standard C convention of a
-backslash immediately preceding a newline character<SUP>2</SUP>. In addition, 
+backslash immediately preceding a newline character². In addition, 
 double-quoted strings can be concatenated using a '+' operator.
 As HTML strings can contain newline characters, which are used solely for 
 formatting, the language does not allow escaped newlines or

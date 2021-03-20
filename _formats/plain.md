@@ -13,7 +13,7 @@ There are four types of statements.
 <PRE>
  <STRONG>graph</STRONG> <I>scale</I> <I>width</I> <I>height</I>
  <STRONG>node</STRONG> <I>name</I> <I>x</I> <I>y</I> <I>width</I> <I>height</I> <I>label</I> <I>style</I> <I>shape</I> <I>color</I> <I>fillcolor</I>
- <STRONG>edge</STRONG> <I>tail</I> <I>head</I> <I>n</I> <I>x<sub>1</sub></I> <I>y<sub>1</sub></I> .. <I>x<sub>n</sub></I> <I>y<sub>n</sub></I> [<I>label</I> <I>xl</I> <I>yl</I>] <I>style</I> <I>color</I>
+ <STRONG>edge</STRONG> <I>tail</I> <I>head</I> <I>n</I> <I>x₁</I> <I>y₁</I> .. <I>xₙ</I> <I>yₙ</I> [<I>label</I> <I>xl</I> <I>yl</I>] <I>style</I> <I>color</I>
  <STRONG>stop</STRONG>
 </PRE>
 
