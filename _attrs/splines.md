@@ -27,26 +27,26 @@ does not handle ports or, in dot, edge labels.
 (25 Sep 2012) `splines=curved` specifies edges should be drawn as curved
 arcs.
 
-<TABLE>
+<TABLE STYLE="border-spacing: 20px;">
 <TR>
-    <TD><IMG WIDTH="200" VSPACE="10" HSPACE="10" SRC="spline_none.png"></TD>
-    <TD><IMG WIDTH="200" VSPACE="10" HSPACE="10" SRC="spline_line.png"></TD>
+    <TD><IMG WIDTH="200" SRC="spline_none.png"></TD>
+    <TD><IMG WIDTH="200" SRC="spline_line.png"></TD>
 </TR>
 <TR>
     <TD ALIGN="center">splines=none<BR>splines=""</TD>
     <TD ALIGN="center">splines=line<BR>splines=false</TD>
 </TR>
 <TR>
-    <TD><IMG WIDTH="200" VSPACE="10" HSPACE="10" SRC="spline_polyline.png"></TD>
-    <TD><IMG WIDTH="200" VSPACE="10" HSPACE="10" SRC="spline_curved.png"></TD>
+    <TD><IMG WIDTH="200" SRC="spline_polyline.png"></TD>
+    <TD><IMG WIDTH="200" SRC="spline_curved.png"></TD>
 </TR>
 <TR>
     <TD ALIGN="center">splines=polyline</TD>
     <TD ALIGN="center">splines=curved</TD>
 </TR>
 <TR>
-    <TD><IMG WIDTH="200" VSPACE="10" HSPACE="10" SRC="spline_ortho.png"></TD>
-    <TD><IMG WIDTH="200" VSPACE="10" HSPACE="10" SRC="spline_spline.png"></TD>
+    <TD><IMG WIDTH="200" SRC="spline_ortho.png"></TD>
+    <TD><IMG WIDTH="200" SRC="spline_spline.png"></TD>
 </TR>
 <TR>
     <TD ALIGN="center">splines=ortho</TD>
