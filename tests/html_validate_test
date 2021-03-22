@@ -6,8 +6,6 @@ html5validator \
   --ignore \
   "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images."\
   "Element “style” not allowed as child of element “article” in this context. (Suppressing further errors from this subtree.)"\
-  "Row 2 of a row group established by a “tbody” element has no cells beginning on it."\
-  "Row 4 of a row group established by a “tbody” element has no cells beginning on it."\
   "The “align” attribute on the “p” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “table” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “td” element is obsolete. Use CSS instead."\

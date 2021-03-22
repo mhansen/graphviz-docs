@@ -23,14 +23,10 @@ The primitive shapes are:
     <TD>"diamond"</TD><TD><IMG SRC="a_diamond.gif"></TD>
   </TR>
   <TR>
-  </TR>
-  <TR>
     <TD>"dot"</TD><TD><IMG SRC="a_dot.gif"></TD>
     <TD>"icurve"</TD><TD><IMG SRC="a_icurve.gif"></TD>
     <TD>"inv"</TD><TD><IMG SRC="a_inv.gif"></TD>
     <TD>"none"</TD><TD><IMG SRC="a_none.gif"></TD>
-  </TR>
-  <TR>
   </TR>
   <TR>
     <TD>"normal"</TD><TD><IMG SRC="a_normal.gif"></TD>
