@@ -5,52 +5,19 @@ html5validator \
   --skip-non-html \
   --ignore \
   "An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images."\
-  "Attribute “w3-include-html” not allowed on element “div” at this point."\
   "Bad value “80%” for attribute “width” on element “img”: Expected a digit but saw “%” instead."\
-  "Element “head” is missing a required instance of child element “title”."\
-  "Element “img” is missing required attribute “alt”."\
   "Element “style” not allowed as child of element “article” in this context. (Suppressing further errors from this subtree.)"\
-  "Element “xmp” not allowed as child of element “article” in this context. (Suppressing further errors from this subtree.)"\
-  "Element “xmp” not allowed as child of element “dd” in this context. (Suppressing further errors from this subtree.)"\
-  "End tag for  “body” seen, but there were unclosed elements."\
-  "End tag “article” seen, but there were open elements."\
-  "End tag “blockquote” seen, but there were open elements."\
-  "End tag “dl” seen, but there were open elements."\
-  "End tag “li” implied, but there were open elements."\
-  "End tag “li” seen, but there were open elements."\
-  "End tag “main” seen, but there were open elements."\
-  "End tag “ol” seen, but there were open elements."\
-  "End tag “p” implied, but there were open elements."\
-  "End tag “th” seen, but there were open elements."\
-  "No “dd” element in scope but a “dd” end tag seen."\
-  "No “dt” element in scope but a “dt” end tag seen."\
   "Row 2 of a row group established by a “tbody” element has no cells beginning on it."\
-  "Row 3 of a row group established by a “tbody” element has no cells beginning on it."\
   "Row 4 of a row group established by a “tbody” element has no cells beginning on it."\
-  "Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”."\
-  "The “align” attribute on the “h1” element is obsolete. Use CSS instead."\
-  "The “align” attribute on the “hr” element is obsolete. Use CSS instead."\
-  "The “align” attribute on the “img” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “p” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “table” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “td” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “th” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “tr” element is obsolete. Use CSS instead."\
-  "The “background” attribute on the “body” element is obsolete. Use CSS instead."\
-  "The “bgcolor” attribute on the “table” element is obsolete. Use CSS instead."\
   "The “bgcolor” attribute on the “td” element is obsolete. Use CSS instead."\
   "The “border” attribute on the “table” element is obsolete. Use CSS instead."\
-  "The “cellspacing” attribute on the “table” element is obsolete. Use CSS instead."\
   "The “center” element is obsolete. Use CSS instead."\
   "The “font” element is obsolete. Use CSS instead."\
-  "The “frame” attribute on the “table” element is obsolete. Use CSS instead."\
   "The “hspace” attribute on the “img” element is obsolete. Use CSS instead."\
-  "The “nowrap” attribute on the “td” element is obsolete. Use CSS instead."\
-  "The “rules” attribute on the “table” element is obsolete. Use CSS instead."\
-  "The “size” attribute on the “hr” element is obsolete. Use CSS instead."\
-  "The “type” attribute on the “ul” element is obsolete. Use CSS instead."\
-  "The “valign” attribute on the “td” element is obsolete. Use CSS instead."\
   "The “vspace” attribute on the “img” element is obsolete. Use CSS instead."\
-  "The “width” attribute on the “hr” element is obsolete. Use CSS instead."\
-  "The “width” attribute on the “table” element is obsolete. Use CSS instead."\
   --root public/
