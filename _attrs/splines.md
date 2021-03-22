@@ -33,24 +33,24 @@ arcs.
     <TD><IMG WIDTH="200" SRC="spline_line.png"></TD>
 </TR>
 <TR>
-    <TD ALIGN="center">splines=none<BR>splines=""</TD>
-    <TD ALIGN="center">splines=line<BR>splines=false</TD>
+    <TD STYLE="text-align: center;">splines=none<BR>splines=""</TD>
+    <TD STYLE="text-align: center;">splines=line<BR>splines=false</TD>
 </TR>
 <TR>
     <TD><IMG WIDTH="200" SRC="spline_polyline.png"></TD>
     <TD><IMG WIDTH="200" SRC="spline_curved.png"></TD>
 </TR>
 <TR>
-    <TD ALIGN="center">splines=polyline</TD>
-    <TD ALIGN="center">splines=curved</TD>
+    <TD STYLE="text-align: center;">splines=polyline</TD>
+    <TD STYLE="text-align: center;">splines=curved</TD>
 </TR>
 <TR>
     <TD><IMG WIDTH="200" SRC="spline_ortho.png"></TD>
     <TD><IMG WIDTH="200" SRC="spline_spline.png"></TD>
 </TR>
 <TR>
-    <TD ALIGN="center">splines=ortho</TD>
-    <TD ALIGN="center">splines=spline<BR>splines=true</TD>
+    <TD STYLE="text-align: center;">splines=ortho</TD>
+    <TD STYLE="text-align: center;">splines=spline<BR>splines=true</TD>
 </TR>
 </TABLE>
 

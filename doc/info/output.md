@@ -37,7 +37,7 @@ formats need to be interpreted in this manner.
 {%- assign sorted_formats = site.formats | sort_natural: "params" -%}
 {% for f in sorted_formats %}
 <TR>
-  <TD ALIGN="CENTER">
+  <TD STYLE="text-align: center;">
   {%- for p in f.params -%}
     <A NAME="a:{{p}}" HREF="#d:{{p}}">{{p}}</A>
     {%- unless forloop.last %}
