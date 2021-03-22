@@ -11,7 +11,6 @@ html5validator \
   "The “align” attribute on the “td” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “th” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “tr” element is obsolete. Use CSS instead."\
-  "The “bgcolor” attribute on the “td” element is obsolete. Use CSS instead."\
   "The “border” attribute on the “table” element is obsolete. Use CSS instead."\
   "The “font” element is obsolete. Use CSS instead."\
   --root public/
