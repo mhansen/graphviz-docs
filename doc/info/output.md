@@ -85,7 +85,7 @@ plugin library.
 This presents the most general case. A given installation may not provide
 one of the plugins, in which case, that transformation is not possible.
 
-<IMG WIDTH="80%" SRC="plugins.png">
+<IMG style="width: 100%;" SRC="plugins.png">
 
 ---
 
