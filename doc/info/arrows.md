@@ -14,7 +14,6 @@ Vertical bars | separate alternatives.
 </TABLE>
 
 The primitive shapes are:
-<CENTER>
 <TABLE>
   <TR>
     <TD>"box"</TD><TD><IMG SRC="a_box.gif"></TD>
@@ -34,7 +33,6 @@ The primitive shapes are:
     <TD>"vee"</TD><TD><IMG SRC="a_open.gif"></TD>
   </TR>
 </TABLE>
-</CENTER>
 
 As for the modifiers:
 
@@ -51,11 +49,9 @@ Left and right are defined as those directions determined by looking
 from the edge towards the point where the arrow "touches" the node.
 
 As an example, the arrow shape `lteeoldiamond` is parsed as
-`'l' 'tee' 'o' 'l' 'diamond'` and corresponds to the shape
+`'l' 'tee' 'o' 'l' 'diamond'` and corresponds to the shape:
 
-<CENTER>
 <IMG SRC="a_lteeoldiamond.gif">
-</CENTER>
 
 Note that the first arrow shape specified occurs closest to the node.
 Subsequent arrow shapes, if specified, occur further from the node.
@@ -67,7 +63,6 @@ or semantically valid.
 For example, none of the modifiers make any sense with `none`.
 The following table indicates which modifiers are allowed with which shapes.
 
-<CENTER>
 <TABLE BORDER="2">
 <TR ALIGN="CENTER">
  <TH>Modifier</TH>
@@ -86,7 +81,6 @@ The following table indicates which modifiers are allowed with which shapes.
 <TR ALIGN="CENTER"><TD>'l'/'r'</TD><TD>X</TD><TD>X</TD><TD>X</TD><TD>X</TD><TD>&nbsp;</TD><TD>X</TD><TD>&nbsp;</TD><TD>X</TD><TD>X</TD><TD>X</TD></TR>
 <TR ALIGN="CENTER"><TD>'o'    </TD><TD>X</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>X</TD><TD>X</TD><TD>X</TD><TD>&nbsp;</TD><TD>X</TD><TD>&nbsp;</TD><TD>&nbsp;</TD></TR>
 </TABLE>
-</CENTER>
 
 This yields 42 different arrow shapes. The optional second, third, fourth shapes
 can independently be any of the 42, except the last cannot be `none` as
@@ -97,8 +91,6 @@ The following display contains the 42 combinations possible with a single
 arrow shape. The node attached to the arrow is not drawn but would appear
 on the right side of the edge.
 
-<CENTER>
 <TABLE>
 {% include arrow_table.html %}
 </TABLE>
-</CENTER>
