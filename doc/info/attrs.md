@@ -87,7 +87,7 @@ of the layout programs.
   <TH>Name</TH>
   <TH><A HREF="#h:uses">Used By</A></TH>
   <TH>Type</TH>
-  <TH ALIGN=CENTER>Default</TH>
+  <TH STYLE="text-align: center;">Default</TH>
   <TH>Minimum</TH>
   <TH>Notes</TH>
 </TR>
