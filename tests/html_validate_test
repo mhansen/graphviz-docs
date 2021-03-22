@@ -17,6 +17,4 @@ html5validator \
   "The “border” attribute on the “table” element is obsolete. Use CSS instead."\
   "The “center” element is obsolete. Use CSS instead."\
   "The “font” element is obsolete. Use CSS instead."\
-  "The “hspace” attribute on the “img” element is obsolete. Use CSS instead."\
-  "The “vspace” attribute on the “img” element is obsolete. Use CSS instead."\
   --root public/
