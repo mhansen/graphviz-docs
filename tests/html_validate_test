@@ -8,7 +8,6 @@ html5validator \
   "Element “style” not allowed as child of element “article” in this context. (Suppressing further errors from this subtree.)"\
   "The “align” attribute on the “p” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “table” element is obsolete. Use CSS instead."\
-  "The “align” attribute on the “td” element is obsolete. Use CSS instead."\
   "The “align” attribute on the “tr” element is obsolete. Use CSS instead."\
   "The “border” attribute on the “table” element is obsolete. Use CSS instead."\
   --root public/

@@ -104,7 +104,7 @@ of the layout programs.
     <A HREF="#k:{{type}}">{{type}}</A>
   {%- endfor -%}
   </TD>
-  <TD ALIGN="CENTER">
+  <TD STYLE="text-align: center;">
   {%- for default in attr.defaults -%}
     {%- unless forloop.first -%}
     <BR>

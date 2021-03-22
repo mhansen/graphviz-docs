@@ -155,17 +155,17 @@ which has the following schema:
 
 <TABLE>
 <TR>
-  <TD ALIGN="right"><I>rlabel</I></TD>
+  <TD STYLE="text-align: right;"><I>rlabel</I></TD>
   <TD>=</TD>
   <TD><I>field</I> ( '|' <I>field</I> )*</TD>
 </TR>
 <TR>
-  <TD ALIGN="right">where <I>field</I></TD>
+  <TD STYLE="text-align: right;">where <I>field</I></TD>
   <TD>=</TD>
   <TD><I>fieldId</I> or '{' <I>rlabel</I> '}'</TD>
 </TR>
 <TR>
-  <TD ALIGN="right">and <I>fieldId</I></TD>
+  <TD STYLE="text-align: right;">and <I>fieldId</I></TD>
   <TD>=</TD>
   <TD> [ '&lt;' <I>string</I> '&gt;'] [ <I>string</I> ]</TD>
 </TR>

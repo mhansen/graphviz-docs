@@ -5,12 +5,12 @@ name: style
 
 <TABLE>
 <TR>
-  <TD ALIGN=right>where styleItem</TD>
+  <TD style="text-align: right;">where styleItem</TD>
   <TD>=</TD>
   <TD>name or name'('args')'</TD>
 </TR>
 <TR>
-  <TD ALIGN=right>and args</TD>
+  <TD style="text-align: right">and args</TD>
   <TD>=</TD>
   <TD>name ( ',' name )*</TD>
 </TR>
@@ -73,27 +73,27 @@ radial gradient fill can be seen under [`colorList`](#k:colorList).
 <TABLE border=1>
   <CAPTION>Basic style settings for nodes</CAPTION>
   <TR>
-    <TD align="center"><code>solid</code></TD>
+    <TD style="text-align: center;"><code>solid</code></TD>
     <TD><IMG SRC="n_solid.png"></TD>
-    <TD align="center"><code>dashed</code></TD>
+    <TD style="text-align: center;"><code>dashed</code></TD>
     <TD><IMG SRC="n_dashed.png"></TD>
-    <TD align="center"><code>dotted</code></TD>
+    <TD style="text-align: center;"><code>dotted</code></TD>
     <TD><IMG SRC="n_dotted.png"></TD>
   </TR>
   <TR>
-    <TD align="center"><code>bold</code> </TD>
+    <TD style="text-align: center;"><code>bold</code> </TD>
     <TD><IMG SRC="n_bold.png"></TD>
-    <TD align="center"><code>rounded</code> </TD>
+    <TD style="text-align: center;"><code>rounded</code> </TD>
     <TD><IMG SRC="n_rounded.png"></TD>
-    <TD align="center"><code>diagonals</code> </TD>
+    <TD style="text-align: center;"><code>diagonals</code> </TD>
     <TD><IMG SRC="n_diagonals.png"></TD>
   </TR>
   <TR>
-    <TD align="center"><code>filled</code> </TD>
+    <TD style="text-align: center;"><code>filled</code> </TD>
     <TD><IMG SRC="n_filled.png"></TD>
-    <TD align="center"><code>striped</code> </TD>
+    <TD style="text-align: center;"><code>striped</code> </TD>
     <TD><IMG SRC="n_striped.png"></TD>
-    <TD align="center"><code>wedged</code> </TD>
+    <TD style="text-align: center;"><code>wedged</code> </TD>
     <TD><IMG SRC="n_wedged.png"></TD>
   </TR>
 </TABLE>
@@ -101,15 +101,15 @@ radial gradient fill can be seen under [`colorList`](#k:colorList).
 <TABLE border=1>
   <CAPTION>Basic style settings for edges</CAPTION>
   <TR>
-    <TD align="center"><code>solid</code> </TD>
+    <TD style="text-align: center;"><code>solid</code> </TD>
     <TD><IMG SRC="e_solid.png"> </TD>
-    <TD align="center"><code>dashed</code> </TD>
+    <TD style="text-align: center;"><code>dashed</code> </TD>
     <TD><IMG SRC="e_dashed.png"></TD>
   </TR>
   <TR>
-    <TD align="center"><code>dotted</code></TD>
+    <TD style="text-align: center;"><code>dotted</code></TD>
     <TD><IMG SRC="e_dotted.png"></TD>
-    <TD align="center"><code>bold</code> </TD>
+    <TD style="text-align: center;"><code>bold</code> </TD>
     <TD><IMG SRC="e_bold.png"></TD>
   </TR>
 </TABLE>
@@ -117,21 +117,21 @@ radial gradient fill can be seen under [`colorList`](#k:colorList).
 <TABLE border=1>
   <CAPTION>Basic style settings for clusters</CAPTION>
   <TR>
-    <TD align="center"><code>solid</code> </TD>
+    <TD style="text-align: center;"><code>solid</code> </TD>
     <TD><IMG SRC="c_solid.png"> </TD>
-    <TD align="center"><code>dashed</code> </TD>
+    <TD style="text-align: center;"><code>dashed</code> </TD>
     <TD><IMG SRC="c_dashed.png"></TD>
-    <TD align="center"><code>dotted</code> </TD>
+    <TD style="text-align: center;"><code>dotted</code> </TD>
     <TD><IMG SRC="c_dotted.png"></TD>
-    <TD align="center"><code>bold</code> </TD>
+    <TD style="text-align: center;"><code>bold</code> </TD>
     <TD><IMG SRC="c_bold.png"></TD>
   </TR>
   <TR>
-    <TD align="center"><code>rounded</code> </TD>
+    <TD style="text-align: center;"><code>rounded</code> </TD>
     <TD><IMG SRC="c_rounded.png"></TD>
-    <TD align="center"><code>filled</code> </TD>
+    <TD style="text-align: center;"><code>filled</code> </TD>
     <TD><IMG SRC="c_filled.png"></TD>
-    <TD align="center"><code>striped</code> </TD>
+    <TD style="text-align: center;"><code>striped</code> </TD>
     <TD><IMG SRC="c_striped.png"></TD>
   </TR>
 </TABLE>
@@ -155,26 +155,26 @@ The following table illustrates the `style=tapered` with `penwidth=7` and `arrow
 <TABLE border=1>
   <TR>
     <TD><code>dir</code> \ <code>arrowhead</code></TD>
-    <TD align="center"><code>normal</code></TD>
-    <TD align="center"><code>none</code></TD>
+    <TD style="text-align: center;"><code>normal</code></TD>
+    <TD style="text-align: center;"><code>none</code></TD>
   </TR>
   <TR>
-    <TD align="center"><code>forward</code></TD>
+    <TD style="text-align: center;"><code>forward</code></TD>
     <TD><IMG SRC="normal_forward.png"></TD>
     <TD><IMG SRC="none_forward.png"></TD>
   </TR>
   <TR>
-    <TD align="center"><code>back</code></TD>
+    <TD style="text-align: center;"><code>back</code></TD>
     <TD><IMG SRC="normal_back.png"></TD>
     <TD><IMG SRC="none_back.png"></TD>
   </TR>
   <TR>
-    <TD align="center"><code>both</code></TD>
+    <TD style="text-align: center;"><code>both</code></TD>
     <TD><IMG SRC="normal_both.png"></TD>
     <TD><IMG SRC="none_both.png"></TD>
   </TR>
   <TR>
-    <TD align="center"><code>none</code></TD>
+    <TD style="text-align: center;"><code>none</code></TD>
     <TD><IMG SRC="normal_none.png"></TD>
     <TD><IMG SRC="none_none.png"></TD>
   </TR>

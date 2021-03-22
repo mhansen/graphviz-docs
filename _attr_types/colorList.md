@@ -33,39 +33,39 @@ attributes.
     <TH><code>style=radial</code></TH>
   </TR>
   <TR>
-    <TD align=center>0</TD>
+    <TD STYLE="text-align: center;">0</TD>
     <TD><IMG SRC="g_lin0.png"></TD>
-    <TD ALIGN="CENTER"><IMG SRC="g_wlin0.png"></TD>
+    <TD STYLE="text-align: center;"><IMG SRC="g_wlin0.png"></TD>
     <TD><IMG SRC="g_rad0.png"></TD>
   </TR>
   <TR>
-    <TD align=center>45</TD>
+    <TD STYLE="text-align: center;">45</TD>
     <TD><IMG SRC="g_lin45.png"></TD>
-    <TD ALIGN="CENTER"><IMG SRC="g_wlin45.png"></TD>
+    <TD STYLE="text-align: center;"><IMG SRC="g_wlin45.png"></TD>
     <TD><IMG SRC="g_rad45.png"></TD>
   </TR>
   <TR>
-    <TD align=center>90</TD>
+    <TD STYLE="text-align: center;">90</TD>
     <TD><IMG SRC="g_lin90.png"></TD>
-    <TD ALIGN="CENTER"><IMG SRC="g_wlin90.png"></TD>
+    <TD STYLE="text-align: center;"><IMG SRC="g_wlin90.png"></TD>
     <TD><IMG SRC="g_rad90.png"></TD>
   </TR>
   <TR>
-    <TD align=center>180</TD>
+    <TD STYLE="text-align: center;">180</TD>
     <TD><IMG SRC="g_lin180.png"></TD>
-    <TD ALIGN="CENTER"><IMG SRC="g_wlin180.png"></TD>
+    <TD STYLE="text-align: center;"><IMG SRC="g_wlin180.png"></TD>
     <TD><IMG SRC="g_rad180.png"></TD>
   </TR>
   <TR>
-    <TD align=center>270</TD>
+    <TD STYLE="text-align: center;">270</TD>
     <TD><IMG SRC="g_lin270.png"></TD>
-    <TD ALIGN="CENTER"><IMG SRC="g_wlin270.png"></TD>
+    <TD STYLE="text-align: center;"><IMG SRC="g_wlin270.png"></TD>
     <TD><IMG SRC="g_rad270.png"></TD>
   </TR>
   <TR>
-    <TD align=center>360</TD>
+    <TD STYLE="text-align: center;">360</TD>
     <TD><IMG SRC="g_lin360.png"></TD>
-    <TD ALIGN="CENTER"><IMG SRC="g_wlin360.png"></TD>
+    <TD STYLE="text-align: center;"><IMG SRC="g_wlin360.png"></TD>
     <TD><IMG SRC="g_rad360.png"></TD>
   </TR>
 </TABLE>
