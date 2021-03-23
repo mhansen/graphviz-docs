@@ -324,23 +324,23 @@ Additional styles may be available with a specific code generator.
 
 ## HTML-Like Labels {#html}
 
-**NOTE:**<EM>This feature is only available on versions of Graphviz
+**NOTE:** This feature is only available on versions of Graphviz
 that are newer than mid-November 2003. In particular, it is not part
-of release 1.10.</EM>
+of release 1.10.
 
-**NOTE:**<EM>The font markups for bold, italic, underlining, subscript and 
-superscript </EM>(`<B>`, `<I>`, `<U>`, `<SUB>` and `<SUP>`) 
-<EM>are only available in versions after 14 October 2011, and 
-the markup for strike-through (`<S>`) requires versions later than 15 September 2013.
+**NOTE:** The font markups for bold, italic, underlining, subscript and 
+superscript ([`<B>`](#b), [`<I>`](#i), [`<U>`](#u), [`<SUB>`](#sub) and [`<SUP>`](#sup)) 
+are only available in versions after 14 October 2011, and 
+the markup for strike-through ([`<S>`](#s)) requires versions later than 15 September 2013.
 In addition, all of these markups are
 currently only available via the cairo and svg renderers.
-The horizontal and vertical rules </EM>(`<HR>` and `<VR>`)
-<EM>are only available in versions later than 8 July 2011.  </EM>
+The horizontal and vertical rules ([`<HR>`](#hr) and [`<VR>`](#vr))
+are only available in versions later than 8 July 2011.
 
-<B>NOTE:</B><EM>For releases later than 9 September 2014, one can use </EM><code>shape=plain</code> <EM>so that the size
+**NOTE:** For releases later than 9 September 2014, one can use `shape=plain` so that the size
 of the node is totally determined by the label. Otherwise, the node's margin, width and height values may cause the
-node to be larger, so that edges are clipped away from the label. In effect, </EM><code>shape=plain</code> <EM>is shorthand
-for </EM> `shape=none width=0 height=0 margin=0`.
+node to be larger, so that edges are clipped away from the label. In effect, `shape=plain` is shorthand
+for `shape=none width=0 height=0 margin=0`.
 
 If the value of a label attribute
 ([`label`](attrs.html#d:label) for nodes, edges, clusters, and
@@ -383,8 +383,8 @@ same way an ordinary label would be. Adding HTML labels to record-based shapes (
 The following is an abstract grammar for HTML labels.
 Terminals, corresponding to elements, are shown in bold font,
 and nonterminals in italics.
-Square brackets [ and ] enclose optional items.
-Vertical bars | separate alternatives.
+Square brackets `[` and `]` enclose optional items.
+Vertical bars `|` separate alternatives.
 Note that, as in HTML, element and attribute names are case-insensitive.
 (cf. sections 3.2.1 and 3.2.2 of the 
 [HTML 4.01 specification](http://www.w3.org/TR/html401)).
@@ -395,11 +395,11 @@ Note that, as in HTML, element and attribute names are case-insensitive.
 
 All non-printing characters such as tabs or newlines are ignored.
 Above, a _string_ is any collection of printable characters, including
-spaces. For tables, outside of the body of a `<TD>` element,
-whitespace characters are ignored, including spaces; within a `<TD>` element, spaces
+spaces. For tables, outside of the body of a [`<TD>`](#td) element,
+whitespace characters are ignored, including spaces; within a [`<TD>`](#td) element, spaces
 are preserved but all other white space characters are discarded.
-**N.B.** For technical reasons, if a table is wrapped in a font element such as `<FONT>`
-or `<B>`, any space immediately before or after this will cause a syntax error. For example,
+**N.B.** For technical reasons, if a table is wrapped in a font element such as [`<FONT>`](#font)
+or [`<B>`](#b), any space immediately before or after this will cause a syntax error. For example,
 the label
 
 ```
@@ -426,11 +426,11 @@ easier reading.
 Each of the HTML elements has a set of optional attributes.
 Attribute values must appear in double quotes.
 
-Table element
+{:#table} Table element
 : <pre>
   &lt;TABLE
     <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT"
-    <a href="#bgcolor">BGCOLOR</a>="<I>color</I>"
+    <a href="#bgcolor">BGCOLOR</a>=<I>color</I>"
     <a href="#border">BORDER</a>="<I>value</I>"
     <a href="#cellborder">CELLBORDER</a>="<I>value</I>"
     <a href="#cellpadding">CELLPADDING</a>="<I>value</I>"
@@ -454,13 +454,13 @@ Table element
   &gt;
   </pre>
 
-Table row
+{:#tr} Table row
 : <PRE>&lt;TR
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-Table cell
+{:#td} Table cell
 : <PRE>
   &lt;TD
     <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT|TEXT"
@@ -488,7 +488,7 @@ Table cell
   &gt;
   </PRE>
 
-Font specification
+{:#font} Font specification
 : <PRE>
   &lt;FONT
     <a href="#color">COLOR</a>="<I>color</I>"
@@ -497,14 +497,14 @@ Font specification
   &gt;
   </PRE>
 
-Line break
+{:#br} Line break
 : <PRE>
   &lt;BR
     <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT"
   /&gt;
   </PRE>
 
-Image inclusion
+{:#img} Image inclusion
 : <PRE>
   &lt;IMG
     <a href="#scale">SCALE</a>="FALSE|TRUE|WIDTH|HEIGHT|BOTH"
@@ -512,63 +512,63 @@ Image inclusion
   /&gt;
   </PRE>
 
-Italic style
+{:#i} Italic style
 : <PRE>
   &lt;I
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-Bold style
+{:#b} Bold style
 : <PRE>
   &lt;B
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-Underline text
+{:#u} Underline text
 : <PRE>
   &lt;U
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-Overline text
+{:#o} Overline text
 : <PRE>
   &lt;O
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-Subscript text
+{:#sub} Subscript text
 : <PRE>
   &lt;SUB
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-Superscript text
+{:#sup} Superscript text
 : <PRE>
   &lt;SUP
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-Strike-through text
+{:#s} Strike-through text
 : <PRE>
   &lt;S
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-Horizontal rule
+{:#hr} Horizontal rule
 : <PRE>
   &lt;HR
     &lt;!-- No attributes --&gt;
   /&gt;
   </PRE>
 
-Vertical rule
+{:#vr} Vertical rule
 : <PRE>
   &lt;VR
     &lt;!-- No attributes --&gt;
@@ -580,24 +580,24 @@ Vertical rule
   more space than required, this value determines where the extra space
   is placed left and right of the object.
 
-  *   CENTER aligns the object in the center. (Default)
-  *   LEFT aligns the object on the left.
-  *   RIGHT aligns the object on the right.
-  *   (`<TD>` only) TEXT aligns lines of text using the full cell width. The alignment of a line is determined by its (possibly implicit) associated `<BR>` element.
+  *   `CENTER` aligns the object in the center. (Default)
+  *   `LEFT` aligns the object on the left.
+  *   `RIGHT` aligns the object on the right.
+  *   ([`<TD>`](#td) only) `TEXT` aligns lines of text using the full cell width. The alignment of a line is determined by its (possibly implicit) associated [`<BR>`](#br) element.
 
   The contents of a cell are normally aligned as a block. In particular,
   lines of text are first aligned as a text block based on the width of
-  the widest line and the corresponding `<BR>` elements. Then,
+  the widest line and the corresponding [`<BR>`](#br) elements. Then,
   the entire text block is aligned within a cell. If, however, the
-  cell's **_ALIGN_** value is `"TEXT"`, and the cell contains
+  cell's **_ALIGN_** value is `TEXT`, and the cell contains
   lines of text, then the lines are justified using the entire available
   width of the cell. If the cell does not contain text, then the contained
   image or table is centered.
 
 {:#balign} BALIGN
-: specifies the default alignment of `<BR>` elements contained
-  in the cell. That is, if a `<BR>` element has no
-  explicit **_ALIGN_** attribute, the attribute value is specified
+: specifies the default alignment of [`<BR>`](#br) elements contained
+  in the cell. That is, if a [`<BR>`](#br) element has no
+  explicit [**_ALIGN_**](#align) attribute, the attribute value is specified
   by the value of **_BALIGN_**.
 
 {:#bgcolor} BGCOLOR="color"
@@ -610,13 +610,13 @@ Vertical rule
 : specifies the width of the border around the object in points.
   A value of zero indicates no border. The default is 1.
   The maximum value is 255.
-  If set in a table, and **_CELLBORDER_** is not set,
+  If set in a table, and [**_CELLBORDER_**](#cellborder) is not set,
   this value is also used for all cells in the table.
-  It can be overridden by a **_BORDER_** tag in a cell.
+  It can be overridden by a **_BORDER_** attribute in a cell.
 
 {:#cellborder} CELLBORDER="value"
 : specifies the width of the border for all cells in a table.
-  It can be overridden by a **_BORDER_** tag in a cell.
+  It can be overridden by a [**_BORDER_**](#border) tag in a cell.
   The maximum value is 255.
 
 {:#cellpadding} CELLPADDING="value"
@@ -631,10 +631,10 @@ Vertical rule
 
 {:#color} COLOR="color"
 : sets the color of the font within the scope of
-  `l<FONT>...</FONT>`, or the border color
+  [`<FONT>...</FONT>`](#font), or the border color
   of the table or cell within the scope of
-  `<TABLE>...</TABLE>`,
-  or `<TD>...</TD>`.
+  [`<TABLE>...</TABLE>`](#table),
+  or [`<TD>...</TD>`](#td).
   This color can be 
   overridden by a **_COLOR_** attribute in descendents.
   By default, the font color is determined by the
@@ -655,7 +655,7 @@ Vertical rule
 
 {:#face} FACE="fontname"
 : specifies the font to use within the scope of
-  `<FONT>...</FONT>`.
+  [`<FONT>...</FONT>`](#font).
   This can be 
   overridden by a **_FACE_** attribute in descendents.
   By default, the font name is determined by the
@@ -663,19 +663,19 @@ Vertical rule
   node, edge or graph.
 
 {:#fixedsize} FIXEDSIZE
-: specifies whether the values given by the **_WIDTH_**
-  and **_HEIGHT_** attributes are enforced.
+: specifies whether the values given by the [**_WIDTH_**](#width)
+  and [**_HEIGHT_**](#height) attributes are enforced.
 
   *   FALSE allows the object to grow so that all its contents will fit. (Default)
-  *   TRUE fixes the object size to its given **_WIDTH_** and **_HEIGHT_**. Both of these attributes must be supplied.
+  *   TRUE fixes the object size to its given [**_WIDTH_**](#width) and [**_HEIGHT_**](#height). Both of these attributes must be supplied.
 
 {:#gradientangle} GRADIENTANGLE="value"
 : gives the angle used in a gradient fill if the 
-  **_BGCOLOR_** is a color list. For the default linear gradient,
+  [**_BGCOLOR_**](#bgcolor) is a color list. For the default linear gradient,
   this specifies 
   the angle of a line through the center along which the colors transform.
   Thus, an angle of 0 will cause a left-to-right progression.
-  For radial gradients (see **_STYLE_**), the angle specifies the position
+  For radial gradients (see [**_STYLE_**](#style)), the angle specifies the position
   of the center of the coloring. An angle of 0 places the center at the center of the
   table or cell; an non-zero angle places the fill center along that angle near the
   boundary.
@@ -683,7 +683,7 @@ Vertical rule
 {:#height} HEIGHT="value"
 : specifies the mininum height, in points, of the object. The height
   includes the contents, any spacing and the border. Unless
-  **_FIXEDSIZE_** is true, the height will be expanded to allow
+  [**_FIXEDSIZE_**](#fixedsize) is true, the height will be expanded to allow
   the contents to fit.
   The maximum value is 65535.
 
@@ -727,11 +727,11 @@ Vertical rule
 {:#scale} SCALE
 : specifies how an image will use any extra space available in its cell.
   Allowed values are
-  *   FALSE : keep image its natural size. (Default)
-  *   TRUE : scale image uniformly to fit.
-  *   WIDTH : expand image width to fill
-  *   HEIGHT : expand image height to fill
-  *   BOTH : expand both image width height to fill
+  *   `FALSE` : keep image its natural size. (Default)
+  *   `TRUE` : scale image uniformly to fit.
+  *   `WIDTH` : expand image width to fill
+  *   `HEIGHT` : expand image height to fill
+  *   `BOTH` : expand both image width height to fill
   If this attribute is undefined, 
   the image inherits the [imagescale](attrs.html#d:imagescale)
   attribute of the graph object being drawn.
@@ -739,9 +739,9 @@ Vertical rule
   attribute, if the cell has a fixed size and the image is too large,
   any offending dimension will be shrunk to fit the space, the
   scaling being uniform in width and height if _SCALE=`"true"`_.
-  Note that the containing cell's **_ALIGN_**
-  and **_VALIGN_** attributes override
-  an image's **_SCALE_** attribute.
+  Note that the containing cell's [**_ALIGN_**](#align)
+  and [**_VALIGN_**](#valign) attributes override
+  an image's [**_SCALE_**](#scale) attribute.
 
 {:#sides} SIDES="value"
 : specifies which sides of a border in a cell or table should be drawn, if
@@ -761,15 +761,15 @@ Vertical rule
 {:#style} STYLE
 : specifies style characteristics of the table or cell. Style characteristics are
   given as a comma or space separated list of style attributes. At present, the only
-  legal attributes are "ROUNDED" and "RADIAL" for tables, and "RADIAL" for cells.
-  If "ROUNDED" is specified, the table will have rounded corners.
-  This probably works best if the outmost cells have no borders, or their CELLSPACING
+  legal attributes are `ROUNDED` and `RADIAL` for tables, and `RADIAL` for cells.
+  If `ROUNDED` is specified, the table will have rounded corners.
+  This probably works best if the outmost cells have no borders, or their [`CELLSPACING`](#cellspacing)
   is sufficiently large.
-  If it is desirable to have borders around the cells, use _**HR**_
-  and _**VR**_ elements, or the _**COLUMNS**_ and _**ROWS**_ attributes of _**TABLE**_.
+  If it is desirable to have borders around the cells, use [_**HR**_](#hr)
+  and [_**VR**_](#vr) elements, or the [_**COLUMNS**_](#columns) and [_**ROWS**_](#rows) attributes of [_**TABLE**_](#table).
 
-  The "RADIAL" attribute indicates a radial gradient fill. See the **_BGCOLOR_** and
-  **_GRADIENTANGLE_** attributes.
+  The `RADIAL` attribute indicates a radial gradient fill. See the [**_BGCOLOR_**](#bgcolor) and
+  [**_GRADIENTANGLE_**](#gradientangle) attributes.
 
 {:#target} TARGET="value"
 : determines which window of the browser is used for the URL if the object 
@@ -781,32 +781,32 @@ Vertical rule
 
 {:#title} TITLE="value"
 : sets the tooltip annotation attached to the element. 
-  This is used only if the element has a `HREF` attribute.
+  This is used only if the element has a [`HREF`](#href) attribute.
   Note that the `"value"` is treated as an
   [escString](attrs.html#k:escString) similarly to the
   [tooltip](attrs.html#d:tooltip) attribute.
 
 {:#tooltip} TOOLTIP="value"
-: is an alias for **_TITLE_**.
+: is an alias for [**_TITLE_**](#title).
 
 {:#valign} VALIGN
 : specifies vertical placement. When an object is allocated
   more space than required, this value determines where the extra space
   is placed above and below the object.
 
-  *   MIDDLE aligns the object in the center. (Default)
-  *   BOTTOM aligns the object on the bottom.
-  *   TOP aligns the object on the top.
+  *   `MIDDLE` aligns the object in the center. (Default)
+  *   `BOTTOM` aligns the object on the bottom.
+  *   `TOP` aligns the object on the top.
 
 {:#width} WIDTH="value"
 : specifies the mininum width, in points, of the object. The width
   includes the contents, any spacing and the border. Unless
-  **_FIXEDSIZE_** is true, the width will be expanded to allow
+  [**_FIXEDSIZE_**](#fixedsize) is true, the width will be expanded to allow
   the contents to fit.
   The maximum value is 65535.
 
 There is some inheritance among the attributes. If a table specifies
-a _**CELLPADDING**_, _**CELLBORDER**_ or _**BORDER**_
+a [_**CELLPADDING**_](#cellpadding), [_**CELLBORDER**_](#cellborder) or [_**BORDER**_](#border)
 value, this value is used by the table's
 cells unless overridden. If a cell or table specifies a _**BGCOLOR**_,
 this will be the background color for all of its descendents.
@@ -815,19 +815,19 @@ graph object owning the label, this will be the original
 background for the label.
 The object's fontname, fontcolor and fontsize attributes
 are the default for drawing text. These can be overridden by using
-_**FONT**_ to set new values. The new font values will hold
-until overridden by an enclosed _**FONT**_ element.
+[_**FONT**_](#font) to set new values. The new font values will hold
+until overridden by an enclosed [_**FONT**_](#font) element.
 Finally, the pencolor or color of the graph object will be used as
 the border color.
 
 If you want horizontal or vertical rules used uniformly within a table, consider
-using the _**COLUMNS**_ or _**ROWS**_ attributes
+using the [_**COLUMNS**_](#columns) or [_**ROWS**_](#rows) attributes
 rather than using many
-_**HR**_ and _**VR**_ elements.
+[_**HR**_](#hr) and [_**VR**_](#vr) elements.
 
 Because of certain limitations in handling tables in a device-independent
-manner, when _**BORDER**_ is 1 and both table and cell borders
-are on and _**CELLSPACING**_ is less than 2, anomalies can arise
+manner, when [_**BORDER**_](#border) is 1 and both table and cell borders
+are on and [_**CELLSPACING**_](#cellspacing) is less than 2, anomalies can arise
 in the output, such as gaps between sides of borders which should be
 abutting or even collinear. The user can usual get around this by increasing
 the border size or the spacing, or turning off the table border.
@@ -849,19 +849,19 @@ HTML labels are much more general, as the following example shows:
 
 The source for this graph can be found [here](html2.gv).
 
-An example using `<FONT>` elements:
+An example using [`<FONT>`](#font) elements:
 
 ![](html3.gif)
 
 with the [input graph](html3.gv).
 
-An example using an `<IMG>` element:
+An example using an [`<IMG>`](#img) element:
 
 ![](html4.gif)
 
 with the [input graph](html4.gv).
 
-The `sides` attribute (version 2.37 and later) allows one to combine cells to form
+The [`sides`](#sides) attribute (version 2.37 and later) allows one to combine cells to form
 various non-convex shapes. For example, a `tee-shaped` node
 
 ![](tee.gif)
