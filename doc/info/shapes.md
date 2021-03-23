@@ -95,7 +95,8 @@ In particular, if `fixedsize=shape`, the node's shape will be fixed
 by the [`width`](attrs.html#d:width) and
 [`height`](attrs.html#d:height) attributes, and the shape
 is used for edge termination, but both the shape and label sizes are used
-preventing node overlap. For example, the following graph
+preventing node overlap. For example, the following graph:
+
 ```dot
 digraph G {
   { 
@@ -108,7 +109,7 @@ digraph G {
 }
 ```
 
-yields the figure
+yields the figure:
 
 ![](fixed.gif)
 
@@ -200,7 +201,7 @@ If, however, this attribute is `LR` or `RL`,
 corresponding to horizontal layouts, the top-level fields are 
 displayed vertically.
 
-As an example of a record node, the dot input
+As an example of a record node, the dot input:
 
 ```dot
 digraph structs {
@@ -213,17 +214,17 @@ digraph structs {
 }
 ```
 
-yields the figure
+yields the figure:
 
 ![](record.gif)
 
-If we add the line
+If we add the line:
 
 ```
     rankdir=LR
 ```
 
-we get the layout
+we get the layout:
 
 ![](record2.gif)
 
@@ -250,7 +251,7 @@ attribute wins.
   whatever color is the current graph or cluster background color.
   Note that `point` shapes are always filled.
 
-  Thus, the code
+  Thus, the code:
 
   ```dot
   digraph G {
@@ -262,7 +263,7 @@ attribute wins.
   }
   ```
 
-  yields the figure
+  yields the figure:
 
   ![](fill.gif)
 
@@ -287,7 +288,7 @@ attribute wins.
   Also, prior to 26 April 2005, the rounded and filled styles were 
   mutually exclusive.
 
-  As an example of rounding, dot uses the graph
+  As an example of rounding, dot uses the graph:
 
   ```dot
   digraph R {
@@ -301,7 +302,7 @@ attribute wins.
   }
   ```
 
-  to produce the figure
+  to produce the figure:
 
   ![](round.gif)
 
@@ -428,28 +429,28 @@ Attribute values must appear in double quotes.
 Table element
 : <pre>
   &lt;TABLE
-    ALIGN="CENTER|LEFT|RIGHT"
-    BGCOLOR="<I>color</I>"
-    BORDER="<I>value</I>"
-    CELLBORDER="<I>value</I>"
-    CELLPADDING="<I>value</I>"
-    CELLSPACING="<I>value</I>"
-    COLOR="<I>color</I>"
-    COLUMNS="<I>value</I>"
-    FIXEDSIZE="FALSE|TRUE"
-    GRADIENTANGLE="<I>value</I>"
-    HEIGHT="<I>value</I>"
-    HREF="<I>value</I>"
-    ID="<I>value</I>"
-    PORT="<I>portName</I>"
-    ROWS="<I>value</I>"
-    SIDES="<I>value</I>"
-    STYLE="<I>value</I>"
-    TARGET="<I>value</I>"
-    TITLE="<I>value</I>"
-    TOOLTIP="<I>value</I>"
-    VALIGN="MIDDLE|BOTTOM|TOP"
-    WIDTH="<I>value</I>"
+    <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT"
+    <a href="#bgcolor">BGCOLOR</a>="<I>color</I>"
+    <a href="#border">BORDER</a>="<I>value</I>"
+    <a href="#cellborder">CELLBORDER</a>="<I>value</I>"
+    <a href="#cellpadding">CELLPADDING</a>="<I>value</I>"
+    <a href="#cellspacing">CELLSPACING</a>="<I>value</I>"
+    <a href="#color">COLOR</a>="<I>color</I>"
+    <a href="#columns">COLUMNS</a>="<I>value</I>"
+    <a href="#fixedsize">FIXEDSIZE</a>="FALSE|TRUE"
+    <a href="#gradientangle">GRADIENTANGLE</a>="<I>value</I>"
+    <a href="#height">HEIGHT</a>="<I>value</I>"
+    <a href="#href">HREF</a>="<I>value</I>"
+    <a href="#id">ID</a>="<I>value</I>"
+    <a href="#port">PORT</a>="<I>portName</I>"
+    <a href="#rows">ROWS</a>="<I>value</I>"
+    <a href="#sides">SIDES</a>="<I>value</I>"
+    <a href="#style">STYLE</a>="<I>value</I>"
+    <a href="#target">TARGET</a>="<I>value</I>"
+    <a href="#title">TITLE</a>="<I>value</I>"
+    <a href="#tooltip">TOOLTIP</a>="<I>value</I>"
+    <a href="#valign">VALIGN</a>="MIDDLE|BOTTOM|TOP"
+    <a href="#width">WIDTH</a>="<I>value</I>"
   &gt;
   </pre>
 
@@ -462,52 +463,52 @@ Table row
 Table cell
 : <PRE>
   &lt;TD
-    ALIGN="CENTER|LEFT|RIGHT|TEXT"
-    BALIGN="CENTER|LEFT|RIGHT"
-    BGCOLOR="<I>color</I>"
-    BORDER="<I>value</I>"
-    CELLPADDING="<I>value</I>"
-    CELLSPACING="<I>value</I>"
-    COLOR="<I>color</I>"
-    COLSPAN="<I>value</I>"
-    FIXEDSIZE="FALSE|TRUE"
-    GRADIENTANGLE="<I>value</I>"
-    HEIGHT="<I>value</I>"
-    HREF="<I>value</I>"
-    ID="<I>value</I>"
-    PORT="<I>portName</I>"
-    ROWSPAN="<I>value</I>"
-    SIDES="<I>value</I>"
-    STYLE="<I>value</I>"
-    TARGET="<I>value</I>"
-    TITLE="<I>value</I>"
-    TOOLTIP="<I>value</I>"
-    VALIGN="MIDDLE|BOTTOM|TOP"
-    WIDTH="<I>value</I>"
+    <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT|TEXT"
+    <a href="#balign">BALIGN</a>="CENTER|LEFT|RIGHT"
+    <a href="#bgcolor">BGCOLOR</a>="<I>color</I>"
+    <a href="#border">BORDER</a>="<I>value</I>"
+    <a href="#cellpadding">CELLPADDING</a>="<I>value</I>"
+    <a href="#cellspacing">CELLSPACING</a>="<I>value</I>"
+    <a href="#color">COLOR</a>="<I>color</I>"
+    <a href="#colspan">COLSPAN</a>="<I>value</I>"
+    <a href="#fixedsize">FIXEDSIZE</a>="FALSE|TRUE"
+    <a href="#gradientangle">GRADIENTANGLE</a>="<I>value</I>"
+    <a href="#height">HEIGHT</a>="<I>value</I>"
+    <a href="#href">HREF</a>="<I>value</I>"
+    <a href="#id">ID</a>="<I>value</I>"
+    <a href="#port">PORT</a>="<I>portName</I>"
+    <a href="#rowspan">ROWSPAN</a>="<I>value</I>"
+    <a href="#sides">SIDES</a>="<I>value</I>"
+    <a href="#style">STYLE</a>="<I>value</I>"
+    <a href="#target">TARGET</a>="<I>value</I>"
+    <a href="#title">TITLE</a>="<I>value</I>"
+    <a href="#tooltip">TOOLTIP</a>="<I>value</I>"
+    <a href="#valign">VALIGN</a>="MIDDLE|BOTTOM|TOP"
+    <a href="#width">WIDTH</a>="<I>value</I>"
   &gt;
   </PRE>
 
 Font specification
 : <PRE>
   &lt;FONT
-    COLOR="<I>color</I>"
-    FACE="<I>fontname</I>"
-    POINT-SIZE="<I>value</I>"
+    <a href="#color">COLOR</a>="<I>color</I>"
+    <a href="#face">FACE</a>="<I>fontname</I>"
+    <a href="#point-size">POINT-SIZE</a>="<I>value</I>"
   &gt;
   </PRE>
 
 Line break
 : <PRE>
   &lt;BR
-    ALIGN="CENTER|LEFT|RIGHT"
+    <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT"
   /&gt;
   </PRE>
 
 Image inclusion
 : <PRE>
   &lt;IMG
-    SCALE="FALSE|TRUE|WIDTH|HEIGHT|BOTH"
-    SRC="<I>value</I>"
+    <a href="#scale">SCALE</a>="FALSE|TRUE|WIDTH|HEIGHT|BOTH"
+    <a href="#src">SRC</a>="<I>value</I>"
   /&gt;
   </PRE>
 
@@ -574,7 +575,7 @@ Vertical rule
   /&gt;
   </PRE>
 
-ALIGN
+{:#align} ALIGN
 : specifies horizontal placement. When an object is allocated
   more space than required, this value determines where the extra space
   is placed left and right of the object.
@@ -593,19 +594,19 @@ ALIGN
   width of the cell. If the cell does not contain text, then the contained
   image or table is centered.
 
-BALIGN
+{:#balign} BALIGN
 : specifies the default alignment of `<BR>` elements contained
   in the cell. That is, if a `<BR>` element has no
   explicit **_ALIGN_** attribute, the attribute value is specified
   by the value of **_BALIGN_**.
 
-BGCOLOR="color"
+{:#bgcolor} BGCOLOR="color"
 : sets the color of the background. This color can be 
   overridden by a **_BGCOLOR_** attribute in descendents.
   The value can be a single color or two colors separated by a colon, the
   latter indicating a gradient fill.
 
-BORDER="value"
+{:#border} BORDER="value"
 : specifies the width of the border around the object in points.
   A value of zero indicates no border. The default is 1.
   The maximum value is 255.
@@ -613,22 +614,22 @@ BORDER="value"
   this value is also used for all cells in the table.
   It can be overridden by a **_BORDER_** tag in a cell.
 
-CELLBORDER="value"
+{:#cellborder} CELLBORDER="value"
 : specifies the width of the border for all cells in a table.
   It can be overridden by a **_BORDER_** tag in a cell.
   The maximum value is 255.
 
-CELLPADDING="value"
+{:#cellpadding} CELLPADDING="value"
 : specifies the space, in points, between a cell's border and its content.
   The default is 2.
   The maximum value is 255.
 
-CELLSPACING="value"
+{:#cellspacing} CELLSPACING="value"
 : specifies the space, in points, between cells in a table and between
   a cell and the table's border.  The default is 2.
   The maximum value is 127.
 
-COLOR="color"
+{:#color} COLOR="color"
 : sets the color of the font within the scope of
   `l<FONT>...</FONT>`, or the border color
   of the table or cell within the scope of
@@ -643,16 +644,16 @@ COLOR="color"
   [color](attrs.html#d:color) attribute of
   the corresponding node, edge or graph.
 
-COLSPAN="value"
+{:#colspan} COLSPAN="value"
 : specifies the number of columns spanned by the cell. The default is 1.
   The maximum value is 65535.
 
-COLUMNS="value"
+{:#columns} COLUMNS="value"
 : provides general formatting information concerning the columns.
-  At present, the only legal value is "*", which causes a vertical rule to
+  At present, the only legal value is `*`, which causes a vertical rule to
   appear between every cell in every row.
 
-FACE="fontname"
+{:#face} FACE="fontname"
 : specifies the font to use within the scope of
   `<FONT>...</FONT>`.
   This can be 
@@ -661,14 +662,14 @@ FACE="fontname"
   [fontname](attrs.html#d:fontname) attribute of the corresponding
   node, edge or graph.
 
-FIXEDSIZE
+{:#fixedsize} FIXEDSIZE
 : specifies whether the values given by the **_WIDTH_**
   and **_HEIGHT_** attributes are enforced.
 
   *   FALSE allows the object to grow so that all its contents will fit. (Default)
   *   TRUE fixes the object size to its given **_WIDTH_** and **_HEIGHT_**. Both of these attributes must be supplied.
 
-GRADIENTANGLE="value"
+{:#gradientangle} GRADIENTANGLE="value"
 : gives the angle used in a gradient fill if the 
   **_BGCOLOR_** is a color list. For the default linear gradient,
   this specifies 
@@ -679,27 +680,27 @@ GRADIENTANGLE="value"
   table or cell; an non-zero angle places the fill center along that angle near the
   boundary.
 
-HEIGHT="value"
+{:#height} HEIGHT="value"
 : specifies the mininum height, in points, of the object. The height
   includes the contents, any spacing and the border. Unless
   **_FIXEDSIZE_** is true, the height will be expanded to allow
   the contents to fit.
   The maximum value is 65535.
 
-HREF="value"
+{:#href} HREF="value"
 : attaches a URL to the object.
   Note that the `"value"` is treated as an
   [escString](attrs.html#k:escString) similarly to the
   [URL](attrs.html#d:URL) attribute.
 
-ID="value"
+{:#id} ID="value"
 : allows the user to specify a unique ID for a table or cell. See
   the [id](attrs.html#d:id) attribute for more information.
   Note that the `"value"` is treated as an
   [escString](attrs.html#k:escString) similarly to the
   [id](attrs.html#d:id) attribute.
 
-POINT-SIZE="value"
+{:#point-size} POINT-SIZE="value"
 : sets the size of the font, in points, used within the scope of
   `<FONT>...</FONT>`.
   This can be 
@@ -708,22 +709,22 @@ POINT-SIZE="value"
   [fontsize](attrs.html#d:fontsize) attribute of the corresponding
   node, edge or graph.
 
-PORT="value"
+{:#port} PORT="value"
 : attaches a portname to the object.
   (See [portPos](attrs.html#k:portPos).)
   This can be used to modify the head
   or tail of an edge, so that the end attaches directly to the object.
 
-ROWS="value"
+{:#rows} ROWS="value"
 : provides general formatting information concerning the rows.
-  At present, the only legal value is "*", which causes a horizontal rule to
+  At present, the only legal value is `*`, which causes a horizontal rule to
   appear between every row.
 
-ROWSPAN="value"
+{:#rowspan} ROWSPAN="value"
 : specifies the number of rows spanned by the cell. The default is 1.
   The maximum value is 65535.
 
-SCALE
+{:#scale} SCALE
 : specifies how an image will use any extra space available in its cell.
   Allowed values are
   *   FALSE : keep image its natural size. (Default)
@@ -742,7 +743,7 @@ SCALE
   and **_VALIGN_** attributes override
   an image's **_SCALE_** attribute.
 
-SIDES="value"
+{:#sides} SIDES="value"
 : specifies which sides of a border in a cell or table should be drawn, if
   a border is drawn. By default, all sides are drawn. The `"value"`
   string can contain any collection of the (case-insensitive) 
@@ -751,13 +752,13 @@ SIDES="value"
   respectively. For example, `SIDES="LB"` would indicate only the
   left and bottom segments of the  border should be drawn.
 
-SRC="value"
+{:#src} SRC="value"
 : specifies the image file to be displayed in the cell.
   Note that if the software is used as a web server, file system access
   to images is more restricted. See [GV\_FILE\_PATH](command.html#d:GV_FILE_PATH)
   and [SERVER_NAME](command.html#d:SERVER_NAME).
 
-STYLE
+{:#style} STYLE
 : specifies style characteristics of the table or cell. Style characteristics are
   given as a comma or space separated list of style attributes. At present, the only
   legal attributes are "ROUNDED" and "RADIAL" for tables, and "RADIAL" for cells.
@@ -770,7 +771,7 @@ STYLE
   The "RADIAL" attribute indicates a radial gradient fill. See the **_BGCOLOR_** and
   **_GRADIENTANGLE_** attributes.
 
-TARGET="value"
+{:#target} TARGET="value"
 : determines which window of the browser is used for the URL if the object 
   has one. 
   See [W3C documentation](http://www.w3.org/TR/html401/present/frames.html#adef-target).
@@ -778,17 +779,17 @@ TARGET="value"
   [escString](attrs.html#k:escString) similarly to the
   [target](attrs.html#d:target) attribute.
 
-TITLE="value"
+{:#title} TITLE="value"
 : sets the tooltip annotation attached to the element. 
   This is used only if the element has a `HREF` attribute.
   Note that the `"value"` is treated as an
   [escString](attrs.html#k:escString) similarly to the
   [tooltip](attrs.html#d:tooltip) attribute.
 
-TOOLTIP="value"
+{:#tooltip} TOOLTIP="value"
 : is an alias for **_TITLE_**.
 
-VALIGN
+{:#valign} VALIGN
 : specifies vertical placement. When an object is allocated
   more space than required, this value determines where the extra space
   is placed above and below the object.
@@ -797,7 +798,7 @@ VALIGN
   *   BOTTOM aligns the object on the bottom.
   *   TOP aligns the object on the top.
 
-WIDTH="value"
+{:#width} WIDTH="value"
 : specifies the mininum width, in points, of the object. The width
   includes the contents, any spacing and the border. Unless
   **_FIXEDSIZE_** is true, the width will be expanded to allow
@@ -831,13 +832,13 @@ in the output, such as gaps between sides of borders which should be
 abutting or even collinear. The user can usual get around this by increasing
 the border size or the spacing, or turning off the table border.
 
-As an example of HTML labels, the dot input 
+As an example of HTML labels, the dot input:
 
 ```dot
 {% include html1.dot %}
 ```
 
-produces the HTML analogue of the record example above
+produces the HTML analogue of the record example above:
 
 ![](html1.gif)
 
@@ -848,13 +849,13 @@ HTML labels are much more general, as the following example shows:
 
 The source for this graph can be found [here](html2.gv).
 
-Here is an example using `<FONT>` elements
+An example using `<FONT>` elements:
 
 ![](html3.gif)
 
 with the [input graph](html3.gv).
 
-Here is an example using an `<IMG>` element
+An example using an `<IMG>` element:
 
 ![](html4.gif)
 
@@ -865,7 +866,7 @@ various non-convex shapes. For example, a `tee-shaped` node
 
 ![](tee.gif)
 
-can be produced using
+can be produced using:
 
 ```dot
   tee [shape=none margin=0 label=
@@ -903,6 +904,6 @@ The necessary PostScript library file and sample use can be found in the
 COPYRIGHT AND PERMISSION NOTICE contained in the library file `sdl.ps`.
 
 The table below
-gives the shape names and the corresponding node shapes.
+gives the shape names and the corresponding node shapes:
 
 ![](sdlshapes.png)
