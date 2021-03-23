@@ -832,7 +832,11 @@ in the output, such as gaps between sides of borders which should be
 abutting or even collinear. The user can usual get around this by increasing
 the border size or the spacing, or turning off the table border.
 
-As an example of HTML labels, the dot input:
+### HTML-Like Label Examples
+
+#### Recreating the Record Example
+
+The dot input:
 
 ```dot
 {% include html1.dot %}
@@ -842,31 +846,47 @@ produces the HTML analogue of the record example above:
 
 ![](html1.gif)
 
-As usual, an HTML specification is more verbose. On the other hand,
-HTML labels are much more general, as the following example shows:
+As usual, an HTML specification is more verbose.
+
+#### More Complex Example
+
+On the other hand, HTML labels are much more general:
+
+```dot
+{% include_relative html2.gv %}
+```
+
+produces:
 
 ![](html2.gif)
 
-The source for this graph can be found [here](html2.gv).
-
+#### Fonts Example
 An example using [`<FONT>`](#font) elements:
+
+```dot
+{% include_relative html3.gv %}
+```
+
+produces:
 
 ![](html3.gif)
 
-with the [input graph](html3.gv).
+#### Images Example
 
-An example using an [`<IMG>`](#img) element:
+Using an [`<IMG>`](#img) element:
+
+```dot
+{% include_relative html4.gv %}
+```
+
+produces:
 
 ![](html4.gif)
 
-with the [input graph](html4.gv).
+#### Sides Example
 
 The [`sides`](#sides) attribute (version 2.37 and later) allows one to combine cells to form
 various non-convex shapes. For example, a `tee-shaped` node
-
-![](tee.gif)
-
-can be produced using:
 
 ```dot
   tee [shape=none margin=0 label=
@@ -883,6 +903,10 @@ can be produced using:
      </tr>
     </table>>]
 ```
+
+produces:
+
+![](tee.gif)
 
 ## User-defined Nodes {#epsf}
 
