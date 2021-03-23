@@ -36,13 +36,13 @@ The primitive shapes are:
 
 As for the modifiers:
 
-'l'
+`'l'`
 : Clip the shape, leaving only the part to the left of the edge.
 
-'r'
+`'r'`
 : Clip the shape, leaving only the part to the right of the edge.
 
-'o'
+`'o'`
 : Use an open (non-filled) version of the shape.
 
 Left and right are defined as those directions determined by looking
@@ -63,29 +63,24 @@ or semantically valid.
 For example, none of the modifiers make any sense with `none`.
 The following table indicates which modifiers are allowed with which shapes.
 
-<TABLE BORDER="2">
-<TR ALIGN="CENTER">
- <TH>Modifier</TH>
- <TH>box</TH>
- <TH>crow</TH>
- <TH>curve</TH>
- <TH>diamond</TH>
- <TH>dot</TH>
- <TH>icurve</TH>
- <TH>inv</TH>
- <TH>none</TH>
- <TH>normal</TH>
- <TH>tee</TH>
- <TH>vee</TH>
-</TR>
-<TR ALIGN="CENTER"><TD>'l'/'r'</TD><TD>X</TD><TD>X</TD><TD>X</TD><TD>X</TD><TD>&nbsp;</TD><TD>X</TD><TD>&nbsp;</TD><TD>X</TD><TD>X</TD><TD>X</TD></TR>
-<TR ALIGN="CENTER"><TD>'o'    </TD><TD>X</TD><TD>&nbsp;</TD><TD>&nbsp;</TD><TD>X</TD><TD>X</TD><TD>X</TD><TD>&nbsp;</TD><TD>X</TD><TD>&nbsp;</TD><TD>&nbsp;</TD></TR>
-</TABLE>
+| Modifier  | `'l'/'r'` | `o` |
+|-----------|-----------|-----|
+| `box`     | ✅ | ✅ |
+| `crow`    | ✅ |   |
+| `curve`   | ✅ |   |
+| `diamond` | ✅ | ✅ |
+| `dot`     |   | ✅ |
+| `icurve`  | ✅ |   |
+| `inv`     | ✅ | ✅ |
+| `none`    |   |   |
+| `normal`  | ✅ | ✅ |
+| `tee`     | ✅ |   |
+| `vee`     | ✅ |   |
 
 This yields 42 different arrow shapes. The optional second, third, fourth shapes
 can independently be any of the 42, except the last cannot be `none` as
 this would create a redundant shape.
-Thus, there are 41 &middot; 42³ + 41 &middot; 42² + 41 &middot; 42 + 42 = 3,111,696 different combinations.
+Thus, there are 41 · 42³ + 41 · 42² + 41 · 42 + 42 = 3,111,696 different combinations.
 
 The following display contains the 42 combinations possible with a single
 arrow shape. The node attached to the arrow is not drawn but would appear
