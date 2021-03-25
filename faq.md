@@ -139,7 +139,7 @@ If you're using PostScript, you can just scale up the output by manually
 adding a command such as `2 2 scale` where the PostScript environment is set 
 up. Make sure to adjust the BoundingBox too if your tools look at this header.
 
-### <a name="FaqMerge"></a> How can I join or merge certain edge routes in dot?
+### How can I join or merge certain edge routes in dot? {#FaqMerge}
 
 You can try running `dot -Gconcentrate=true` or you can introduce your own virtual nodes drawn as tiny circles where you want to split or join edges:
 
@@ -151,7 +151,7 @@ digraph G {
 }
 ```
 
-### <a name="FaqPDF"></a> How can I generate graph layouts in PDF?
+### How can I generate graph layouts in PDF? {#FaqPDF}
 
 If your version of Graphviz has cairo/pango support, you can just use the `-Tpdf` flag.
 Unfortunately, this does not handle embedded links.
@@ -168,7 +168,7 @@ In the diagram below, the shaded nodes will contain bad output.
 
 ![alt text](/doc/pspdf.png "ps to pdf")
 
-### <a name="FaqDupNode"></a> How can I make duplicate nodes?
+### How can I make duplicate nodes? {#FaqDupNode}
 
 Make unique nodes with duplicate labels.
 
@@ -180,12 +180,12 @@ digraph G {
 }
 ```
 
-### <a name="FaqGraphLabel"></a> How can I set a graph or cluster label without its propagating to all sub-clusters?
+### How can I set a graph or cluster label without its propagating to all sub-clusters? {#FaqGraphLabel}
 
 Set the label at the end of the graph (before the closing brace), after all its contents have been defined. 
 (We admit it seems desirable to define some special syntax for non-inherited attribute settings.)
 
-### <a name="FaqParEdge"></a> How can I draw multiple parallel edges in neato?
+### How can I draw multiple parallel edges in neato? {#FaqParEdge}
 
 When the splines attribute is false, which is the default, multiedges are drawn as a spindle of simply curved edges. There is no attempt to avoid intervening nodes.
 
@@ -194,7 +194,7 @@ When splines=true or polyline, multiedges are drawn as roughly parallel splines 
 An additional trick which is sometimes sufficient is to specify multiple colors for the edge using a color list. This will a produce set of 
 tightly parallel splines, each in its specified color. Read about the [color attribute](/doc/info/colors.html) for more information.
 
-### <a name="FaqBalanceTree"></a> How can I symmetrize (balance) tree layouts?
+### How can I symmetrize (balance) tree layouts? {#FaqBalanceTree}
 
 When a tree node has an even number of children, it isn't necessarily centered above the two middle ones. 
 If you know the order of the children, a simple hack is to introduce new, invisible middle nodes to re-balance the layout. 
@@ -217,11 +217,11 @@ digraph G {
 
 This trick really ought to be built into our solver (and made independent of the order of the children, and available for layouts other than trees, too).
 
-### <a name="FaqBugReport"></a> How can I report a bug or issue I've found?
+### How can I report a bug or issue I've found? {#FaqBugReport}
 
 You can report or view Graphviz bugs and issues by visiting the Graphviz <a href="https://gitlab.com/graphviz/graphviz/issues" target="_blank">Issues</a> page.
 
-### <a name="FaqClusterEdge"></a> How can I create edges between cluster boxes?
+### How can I create edges between cluster boxes? {#FaqClusterEdge}
 
 This only works in Graphviz version 1.7 and higher. To make edges between clusters, first set the graph attribute `compound=true`. 
 Then, you can specify a cluster by name as a logical head or tail to an edge. This will cause the edge joining the two nodes to be 
@@ -252,11 +252,11 @@ this gives you an edge from `cluster_A` to node `e`. Or you could just specify a
 node is not defined. Also, if a cluster is specified as a logical head for an edge, the real head must be contained in the cluster, and the 
 real tail must not be. A similar check is done for logical tails. In these cases, the edge is drawn between the real nodes as usual.
 
-### <a name="FaqClusterHardToSee"></a> Clusters are hard to see.
+### Clusters are hard to see. {#FaqClusterHardToSee}
 
 Set `bgcolor=grey` (or some other color) in the cluster.
 
-### <a name="FaqQuality"></a> output?
+### How can I get high quality (antialiased) output? {#FaqQuality}
 
 The easiest thing is to use a vector-based output formats such as PDF, SVG or PostScript. In addition, if Graphviz has a cairo/pango backend,  
 this will generate anti-aliased output.
@@ -277,11 +277,11 @@ On Mac OS X, the pixelglow port uses Apple's Quartz renderer, which enables anti
 (One downside is that you can't run Pixelglow Graphviz as a web server or other background process if your Mac has 3D graphics, because Quartz wants 
 to get this resource to accelerate rendering.)
 
-### <a name="FaqPaperTooLarge"></a> I can only get 11x17 output?
+### I can only get 11x17 output? {#FaqPaperTooLarge}
 
 It's not us! It's probably your printer setup. If you don't believe this, run `dot -Tps` and look at the BoundingBox header. The coords are in 1/72ths of an inch.
 
-### <a name="FaqSymbols"></a> How do I create special symbols and accents in labels?
+### How do I create special symbols and accents in labels? {#FaqSymbols}
 
 Use UTF8 coding, e.g. &#165; for the Yen currency symbol ¥. Example:
 
@@ -293,7 +293,7 @@ graph G {
 
 You can look up other examples in this handy [character set reference](/doc/char.html).
 
-### <a name="FaqNonAscii"></a> More generally, how do I use non-ASCII character sets?
+### More generally, how do I use non-ASCII character sets? {#FaqNonAscii}
 
 The following applies to Graphviz 2.8 and later. (In older versions of Graphviz, you can sometimes get away with simply putting 
 Latin-1 or other UTF-8 characters in the input stream, but the results are not always correct.)
@@ -329,7 +329,7 @@ and Unicode are handled differently for every kind of font type in PostScript, a
 
 For SVG output, we just pass the raw UTF-8 (or other encoding) straight through to the generated code.
 
-### <a name="FaqCustShape"></a> How can I create custom shapes?
+### How can I create custom shapes? {#FaqCustShape}
 
 One approach is to use [HTML-like labels](/doc/info/shapes.html#html) possibly combined with embedded images use the `IMG` attribute.
 
@@ -498,7 +498,7 @@ A user shape function basically receives four arguments:
 The rest is up to you, but contact us first just in case.
 
 
-### <a name="FaqOverlays"></a> How can I use drawing layers (overlays)?
+### How can I use drawing layers (overlays)? {#FaqOverlays}
 
 If the `layers` graph attribute is set, the graph is printed in a sequence of colored layers, or overlays. (This coloring overrides any other settings.) `layers` 
 defines a list of layer names, each separated by a sequence of separator characters. The tokens can be any identifier or natural number, except the reserved word `all`. 
@@ -577,17 +577,17 @@ We don't want to reset a,b,c to color=black just because that is default in sub1
  
 
 
-### <a name="FaqFontChanges"></a> How do I get font and color changes in record labels or other labels?
+### How do I get font and color changes in record labels or other labels? {#FaqFontChanges}
 
 This is not possible in record shapes. However, you can do this using [HTML-like labels](/doc/info/shapes.html#html).
 
-### <a name="FaqPlainArrows"></a> In `-Tplain` format, splines do not touch the nodes (arrowheads are missing).
+### In `-Tplain` format, splines do not touch the nodes (arrowheads are missing). {#FaqPlainArrows}
 
 Edges are specified as the main spline and, if necessary, arrowheads which actually abut the node. If the arrowheads are not given, 
 drawing the edge spline will leave a gap between the edge and the node. This is a bug which has now solidified into a feature. A workaround is to set
 `edge [dir=none]`. Since the edges have no arrowheads, the spline specification will go all the way to both nodes.
 
-### <a name="FaqRecordLR"></a> Record nodes are drawn differently in dot and neato when rankdir=LR.
+### Record nodes are drawn differently in dot and neato when rankdir=LR. {#FaqRecordLR}
 
 It's true. `dot -Grankdir=LR` rotates record nodes so that their top level fields are still listed across levels. `rankdir=LR` has no effect in neato. 
 One workaround is to use [HTML-like labels](/doc/info/shapes.html#html) (they don't rotate; the downside is that you have to write in XML). 
@@ -595,7 +595,7 @@ In general, we recommend replacing record nodes with the much more general HTML-
 Another workaround is to enclose record labels in { } to rotate/unrotate the record contents.
 See also, How To Avoid Foolish Consistency by Scott Berkun (Microsoft Corp.)
 
-### <a name="FaqMultiPage"></a> How can I print a big graph on multiple pages?
+### How can I print a big graph on multiple pages? {#FaqMultiPage}
 
 The [page](/doc/info/attrs.html#dpage) attribute, if set, tells Graphviz to print the graph as an array of pages of the given size. Thus, the graph
 
@@ -611,15 +611,15 @@ will be emitted as 8.5 by 11 inch pages. When printed, the pages can be tiled to
 Alternatively, there are various tools and viewers which will take a large picture and allow you to extract page-size pieces, which can then be printed.
 See also the [viewport](/doc/info/attrs.html#dviewport) attribute.
 
-### <a name="FaqJpgArtifacts"></a> When I have a red edge it shows up as a solid red in PNG and GIF formats, but has a black border when rendered to JPEG.
+### When I have a red edge it shows up as a solid red in PNG and GIF formats, but has a black border when rendered to JPEG. {#FaqJpgArtifacts}
 
 This is an artifact of JPEG's lossy compression algorithm. JPEG isn't very good for line drawings. Consider using PNG.
 
-### <a name="FaqDottyNumlock"></a> Sometimes in dotty, right mouse click shows the global menu but none of the items can be selected.
+### Sometimes in dotty, right mouse click shows the global menu but none of the items can be selected. {#FaqDottyNumlock}
 
 Check that the NUMLOCK key is off. It's a known bug.
 
-### <a name="FaqDottySyntaxError"></a> Why does dotty report a syntax error on a legal dot file?
+### Why does dotty report a syntax error on a legal dot file? {#FaqDottySyntaxError}
 
 Typically this error is reported as:
 
@@ -634,12 +634,12 @@ Typically this error is reported as:
 Probably there is a command in your shell environment (such as .alias or .profile) that does output even for non-interactive shells. 
 When this occurs, those characters go in the pipe to the dot parser and cause this problem. An easy check is whether other users have the same problem.
 
-### <a name="FaqNoEdgeHandles"></a> How can I get rid of the little circles on edges ("edge handles") in dotty?
+### How can I get rid of the little circles on edges ("edge handles") in dotty? {#FaqNoEdgeHandles}
 
 Edit the file dotty.lefty and change the line that says: 'edgehandles' = 1; to 'edgehandles' = 0; it's around line 110.
 
 
-### <a name="FaqDotWithCoords"></a> I already have all the coordinates for the nodes and edges of my graph and just want to use dot, neato, or dotty to render it. How?
+### I already have all the coordinates for the nodes and edges of my graph and just want to use dot, neato, or dotty to render it. How? {#FaqDotWithCoords}
 
 Put the graph with layout attributes into a dot file. Then run `neato -n2`. For example:
 
@@ -650,23 +650,23 @@ $ neato -n2 -Tgif file.dot -o file.gif
 Note that if an edge does not have a `pos` attribute defined, neato will perform whatever edge routing it would normally do. All of the 
 usual backend attributes (`size`, `overlap`, `page`, etc.) are available.
 
-### <a name="FaqDotWithNodeCoords"></a> I already have all the coordinates for the nodes, and I want dot or neato to route the edges.
+### I already have all the coordinates for the nodes, and I want dot or neato to route the edges. {#FaqDotWithNodeCoords}
 
 Run `neato -n`. This will add the necessary edge information.
 
-### <a name="FaqDottyWithCoords"></a> I already have all the coordinates for the nodes and edges of my graph and just want to use dotty to render it. How?
+### I already have all the coordinates for the nodes and edges of my graph and just want to use dotty to render it. How? {#FaqDottyWithCoords}
 
 If you want to do a layout first, use `-Txdot` for the output format. Dotty uses the layout information provided there.
 
-### <a name="FaqDottyWithNodeCoords"></a> Same as above, but I have only node coords, not edges.
+### Same as above, but I have only node coords, not edges. {#FaqDottyWithNodeCoords}
 
 Run `neato -Txdot -n`. This will add the necessary edge information.
 
-### <a name="FaqClientSideMaps"></a> How can I make client-side image maps?
+### How can I make client-side image maps? {#FaqClientSideMaps}
 
 Use the `-Tcmapx` command line option. See [here](/doc/info/output.html#dcmapx) for more details.
 
-### <a name="FaqServerSideMaps"></a> Why aren't my server-side maps being recognized? I've checked the HTML!
+### Why aren't my server-side maps being recognized? I've checked the HTML! {#FaqServerSideMaps}
 
 Make sure that your server has map files enabled. For example, if running apache, check that httpd.conf has a line like the following:
 
@@ -677,7 +677,7 @@ AddHandler imap-file map
 and that it is not commented out!
 
 
-### <a name="FaqApache"></a> I've installed Debian Graphviz and it works fine on the command line, but when I execute a Perl/CGI script through Apache, no output is generated.
+### I've installed Debian Graphviz and it works fine on the command line, but when I execute a Perl/CGI script through Apache, no output is generated. {#FaqApache}
 
 For example, the code `system("/usr/local/bin/dot -Tpng /tmp/tree.dot -o /tmp/tree.png");` produces no file `/tmp/tree.png`.
 
@@ -690,7 +690,7 @@ Greg Brauer from Dreamworks pointed out a different possibility: The problem tur
 on my temporary dot file before running dot. Graphviz would end up getting a newly-created empty file with nothing in it before the write 
 buffer to the file was flushed. Dot would happily run on that and generate an empty output file without any warnings.
 
-### <a name="Faq3D"></a> How can I get 3D output?
+### How can I get 3D output? {#Faq3D}
 
 The Graphviz authors have qualms about the gratuitous use of 3D.
 
@@ -700,11 +700,11 @@ neato internally supports layouts in higher dimensions through the [dim](/doc/in
 e.g. `neato -Gdim=7`. Graphviz output handles 2D and 3D, but there's no way to get higher-dimensional output unless you invoke neato as a library and inspect `ND_pos(n)[i]` 
 where n is a pointer to the relevant node. 
 
-### <a name="FaqOverlapNode"></a> How can I avoid node overlaps in neato?
+### How can I avoid node overlaps in neato? {#FaqOverlapNode}
 
 Use the graph attribute [overlap](/doc/info/attrs.html#doverlap).
 
-### <a name="FaqOverlapEdge"></a> How can I avoid node-edge overlaps in neato?
+### How can I avoid node-edge overlaps in neato? {#FaqOverlapEdge}
 
 Use the `overlap` attribute to leave room among the nodes, then use `-Gsplines=true`.
 
@@ -716,7 +716,7 @@ The `sep` argument is the node-edge separation as a ratio of a node's bounding b
 times larger than it is. The actual value may require some tinkering. (Don't ask why this isn't just a constant!) Note that this option really slows 
 down neato, so should be used sparingly and only with modest-sized graphs.
 
-### <a name="FaqAgreadCrash"></a> cause a crash?
+### cause a crash? {#FaqAgreadCrash}
 
 This usually happens when the Graphviz library is built using one version of the stdio library, and the user's program is compiled using another. 
 If the `FILE` structure of stdio is different, the call to `agread()` will cause a crash. This is mainly a problem on Windows where we just provide a binary 
@@ -767,7 +767,7 @@ FILE* fp = fopen ("mygraph.gv","r");
 Agraph_t* g = agread (fp, &mydisc);
 ```
 
-### <a name="FaqRuntimeNeato"></a> Neato runs forever on a certain example.
+### Neato runs forever on a certain example. {#FaqRuntimeNeato}
 
 First, how big is your graph? Neato is a quadratic algorithm, roughly equivalent to statistical multidimensional scaling. If you feed it a graph with thousands of 
 nodes and edges, it can easily take hours or days. The first thing to check is to run `neato -v` to get a trace of the output. If the numbers you see are generally 
@@ -798,14 +798,14 @@ $ neato -Gmaxiter=500
 Note that, if you have a large graph, the generation of edges as splines is a cubic algorithm, so you would do well to avoid using `splines=true`. 
 (This commment applies to circo, fdp and twopi as well.)
 
-### <a name="FaqEdgeLabelPlace"></a> Edge label placement in dot is bad, or the layout is very convoluted.
+### Edge label placement in dot is bad, or the layout is very convoluted. {#FaqEdgeLabelPlace}
 
 By default, edge labels in dot are modeled as dummy nodes. This guarantees adequate space for the labels, but for complicated graphs, this can
 dramatically distort the layout. In this case, it might be worthwhile to replace edge labels with `xlabel`s. In this case, the graph is laid out
 as if there are no edge labels, with the labels added after the edges have been routed. This can prevent a contorted drawing at the expense of possibly
 have edge labels overlapping.
 
-### <a name="FaqRuntimeDot"></a> Dot runs forever on a certain example.
+### Dot runs forever on a certain example. {#FaqRuntimeDot}
 
 Try `dot -v` to observe its progress.
 
@@ -845,12 +845,12 @@ When an attribute first appears, each object is visited with possible cost propo
 time for the above would be `cN*O(M)` for some constant `c`. If there is any concern about this, the graph should specify the attributes first before 
 declaring nodes or edges. In practice, this problem is neglible.
 
-### <a name="FaqRuntimeTwopi"></a> Twopi runs forever on a certain example.
+### Twopi runs forever on a certain example. {#FaqRuntimeTwopi}
 
 If your graph is large (many thousands of edges), and you set `splines=true`,
 it takes a lot of cycles to fit all those splines!
 
-### <a name="FaqNeatoEdgeCrossings"></a> Neato has unnecessary edge crossings, or has missed an obvious chance to make a much nicer layout.
+### Neato has unnecessary edge crossings, or has missed an obvious chance to make a much nicer layout. {#FaqNeatoEdgeCrossings}
 
 Neato and all similar virtual physical model algorithms rely on heuristic solutions of optimization problems. The better the solution, the longer it takes to find. 
 Unfortunately, it is also possible for these heuristics to get stuck in local minima. Also, it is heavily influenced by the initial position of the nodes. 
@@ -865,7 +865,7 @@ In the default stress majorization mode of neato, using `-Gstart=self` can help 
 
 Note that there are no guarantees that neato will produce a planar layout of a planar graph, or expose all or most of a graph's symmetries.
 
-### <a name="FaqWebdot"></a> Webdot doesn't work.
+### Webdot doesn't work. {#FaqWebdot}
 
 We assume you're using Apache and have TCL installed. If you don't, it's probably better to just use the webdot perl script.
 
@@ -929,7 +929,7 @@ You can either change firewall permissions, put the graph on a different server,
 It would be nice if someone hacked webdot to take the contents of a graph as a cgi-bin argument, so it wouldn't need permission to 
 fetch a graph remotely. This is left as an exercise for the Open Source Community.
 
-### <a name="FaqFontNotFound"></a> I have "Font not found" errors, or text labels missing in webdot.
+### I have "Font not found" errors, or text labels missing in webdot. {#FaqFontNotFound}
 
 Firstly, recent versions of graphviz will use fontconfig if it is available on your platform. With fontconfig, this error should not occur, so you may want to 
 see if an upgrade to graphviz is available, or if a rebuild will add fontconfig support.
@@ -950,7 +950,7 @@ If your fonts are somewhere else, then you must set that directory in the webdot
 You can also try to comment the line #set SIGNATURE "Graph by WebDot" in /var/www/cgi-bin/webdot.
 
 <!---
-### <a name="FaqBrowserSVG"></a> My browser doesn't recognize SVG.
+### My browser doesn't recognize SVG. {#FaqBrowserSVG}
 
 The correct MIME type for svg images is: image/svg+xml (note "+" not "-").
 
@@ -960,12 +960,12 @@ SVG is not built into all browsers; you can get plugins from [Adobe](http://www.
 For help with embedding SVG in HTML pages, see [here](http://204.178.9.49/webdot/svgembed.html).
 --->
 
-### <a name="FaqLibExpat"></a> libexpat is reported as containing a virus or as a security hole. Is this a real problem?
+### libexpat is reported as containing a virus or as a security hole. Is this a real problem? {#FaqLibExpat}
 
 No, this is a false positive reported by various security software. 
 See http://www.pcreview.co.uk/forums/thread-1689630.php or http://spywareblog.com/index.php/2004/11/24/is_libexpat_dll_spyware.
 
-### <a name="FaqCoordTransformation"></a> What is the coordinate transformation between the graph bb and a .png image?
+### What is the coordinate transformation between the graph bb and a .png image? {#FaqCoordTransformation}
 
  * The bb is expanded by 4 graph-units in all directions (pad) to allow for finite line widths.
  * Then it is zoomed and/or rotated according to -Gviewport, -Gsize, -Glandscape, -Gorientation options. At the default scaling of 1:1, one graph unit = 1 point (1/72 inch).
