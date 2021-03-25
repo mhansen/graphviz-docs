@@ -283,7 +283,15 @@ It's not us! It's probably your printer setup. If you don't believe this, run `d
 
 ### How do I create special symbols and accents in labels? {#FaqSymbols}
 
-Use UTF8 coding, e.g. &#165; for the Yen currency symbol ¥. Example:
+Insert the symbol directly (such as with copy/paste) into your dot source, and save as UTF-8, e.g.:
+
+```dot
+graph G {
+  yen [label="¥"]
+}
+```
+
+If you can't save in UTF-8, try HTML entities coding, e.g. `&#165;` for the Yen currency symbol ¥. Example:
 
 ```dot
 graph G {
@@ -291,7 +299,7 @@ graph G {
 }
 ```
 
-You can look up other examples in this handy [character set reference](/doc/char.html).
+See [Graphviz's HTML entity reference](/doc/char.html) for more.
 
 ### More generally, how do I use non-ASCII character sets? {#FaqNonAscii}
 
