@@ -26,7 +26,7 @@ An _ID_ is one of the following:
 digits(`[0-9]`), not beginning with a digit;
 *   a numeral [<code>-</code>]<sup>?</sup>(<code>.</code>[<code>0</code>-<code>9</code>]⁺  `|` [<code>0</code>-<code>9</code>]⁺(<code>.</code>[<code>0</code>-<code>9</code>]<sup>*</sup>)<sup>?</sup> );
 *   any double-quoted string (`"..."`) possibly containing escaped 
-quotes (`"`)¹;
+quotes (`\"`)¹;
 *   an HTML string (`<...>`).
 
 An ID is just a string; the lack of quote characters in the first two
