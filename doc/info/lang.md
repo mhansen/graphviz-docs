@@ -7,9 +7,9 @@ redirect_from:
 The following is an abstract grammar defining the DOT language.
 Terminals are shown in bold font and nonterminals in italics.
 Literal characters are given in single quotes.
-Parentheses ( and ) indicate grouping when needed.
-Square brackets [ and ] enclose optional items.
-Vertical bars | separate alternatives.
+Parentheses `(` and `)` indicate grouping when needed.
+Square brackets `[` and `]` enclose optional items.
+Vertical bars `|` separate alternatives.
 
 <TABLE>
 {% include grammar.html %}
@@ -93,7 +93,7 @@ graph drawing, a more interesting example is:
 
 ```
 subgraph { 
-rank = same; A; B; C; 
+  rank = same; A; B; C; 
 } 
 ```
 
@@ -174,35 +174,35 @@ a strict hierarchy when viewed as subsets of nodes and edges.
 
 ## Character encodings
 
-The DOT language assumes at least the ascii character set.
-Quoted strings, both ordinary and HTML-like, may contain non-ascii characters.
+The DOT language assumes at least the [ASCII](https://en.wikipedia.org/wiki/ASCII) character set.
+Quoted strings, both ordinary and HTML-like, may contain non-ASCII characters.
 In most cases, these strings are uninterpreted: they simply serve as
 unique identifiers or values passed through untouched. Labels, however,
 are meant to be displayed, which requires that the software be able to
 compute the size of the text and determine the appropriate glyphs. 
 For this, it needs to know what character encoding is used.
 
-By default, DOT assumes the UTF-8 character encoding. It also accepts
-the Latin1 (ISO-8859-1) character set, assuming the input graph uses
+By default, DOT assumes the [UTF-8](https://en.wikipedia.org/wiki/UTF-8) character encoding. It also accepts
+the [Latin1 (ISO-8859-1)](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) character set, assuming the input graph uses
 the **[charset](attrs.html#a:charset)** attribute to
 specify this. For graphs using other
 character sets, there are usually programs, such as `iconv`, which
 will translate from one character set to another.
 
-Another way to avoid non-ascii characters in labels is to use HTML entities
+Another way to avoid non-ASCII characters in labels is to use HTML entities
 for special characters. During label evaluation, these entities are
 translated into the underlying character. This
 [table](../char.html) shows the supported entities, with their Unicode value, a typical
 glyph, and the HTML entity name. Thus, to include a lower-case Greek beta
-into a string, one can use the ascii sequence `&beta;`.
+into a string, one can use the ASCII sequence `&beta;`.
 In general, one should only use entities that are allowed in the output
 character set, and for which there is a glyph in the font.
 
 ---
 
 1. In quoted strings in DOT, the only escaped character is double-quote
-("). That is, in quoted strings, the dyad &#92;" is converted to "; all other
-characters are left unchanged. In particular, &#92;&#92; remains &#92;&#92;. Layout
+`"`. That is, in quoted strings, the dyad `\"` is converted to `"`; all other
+characters are left unchanged. In particular, `\\` remains `\\`. Layout
 engines may apply additional escape sequences.
 2. Previous to 2.30, the language allowed escaped newlines to be used anywhere outside
 of HTML strings. The new lex-based scanner makes this difficult to implement. Given the
