@@ -2,6 +2,9 @@
 layout: page
 title: Color Names
 ---
+* Table of Contents
+{:toc}
+
 Color names are resolved in the context of a 
 [color scheme](attrs.html#d:colorscheme). Graphviz currently
 supports the [X11 scheme](#x11),
@@ -33,7 +36,7 @@ The Brewer color schemes below are covered by this [license](#brewer_license).
 
 {% include brewer_colors.html %}
 
-## ColorBrewer License {#brewer_license}
+### ColorBrewer License {#brewer_license}
 
 Apache-Style Software License for ColorBrewer software and ColorBrewer
 Color Schemes, Version 1.1
