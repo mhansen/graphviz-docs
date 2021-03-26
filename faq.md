@@ -75,7 +75,6 @@ If you cannot find the answer to your question here, ask it in the [Graphviz for
 <!---
  * [FaqBrowserSVG](#FaqBrowserSVG) My browser doesn't recognize SVG.
 --->
- * [FaqLibExpat](#FaqLibExpat) libexpat is reported as containing a virus or as a security hole. Is this a real problem?
  * [FaqCoordTransformation](#FaqCoordTransformation) What is the coordinate transformation between the graph bb and a .png image?
 
 ---
@@ -965,11 +964,6 @@ SVG is not built into all browsers; you can get plugins from [Adobe](http://www.
 
 For help with embedding SVG in HTML pages, see [here](http://204.178.9.49/webdot/svgembed.html).
 --->
-
-### libexpat is reported as containing a virus or as a security hole. Is this a real problem? {#FaqLibExpat}
-
-No, this is a false positive reported by various security software. 
-See http://www.pcreview.co.uk/forums/thread-1689630.php or http://spywareblog.com/index.php/2004/11/24/is_libexpat_dll_spyware.
 
 ### What is the coordinate transformation between the graph bb and a .png image? {#FaqCoordTransformation}
 
