@@ -17,6 +17,8 @@ redirect_from:
 order: 2
 ---
 
+* Table of Contents
+{:toc}
 
 ## Source Code
 
