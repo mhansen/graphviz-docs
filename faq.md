@@ -260,8 +260,8 @@ this will generate anti-aliased output.
 Anoher approache is to make the layout in PostScript (option `-Tps`), then run through Ghostview with antialiasing enabled. The important command line 
 options are:
 
-  *  -dTextAlphaBits=4 
-  *  -dGraphicsAlphaBits=4 (4 is the highest level of antialiasing allowed - see the Ghostview documentation). 
+  *  `-dTextAlphaBits=4`
+  *  `-dGraphicsAlphaBits=4` (4 is the highest level of antialiasing allowed - see the Ghostview documentation). 
 
 The full command line to render a raster could be something like:
 
@@ -353,7 +353,7 @@ indicates the contents of the node are given in the GIF file `yourface.gif`. The
 (There is also the deprecated [shapefile](/doc/info/attrs.html#dshapefile) 
 attribute. This is similar to image but the node shape will always be a box.)
 
-*NOTE: In versions before 11 March 2006, in particular, 1.12 graphviz and earlier, it is necessary to also set the attribute shape=custom.*
+*NOTE: In versions before 11 March 2006, in particular, 1.12 graphviz and earlier, it is necessary to also set the attribute `shape=custom`.*
 
 With `-Tsvg`, `image` must give the name of a file containing a GIF, PNG or JPEG bitmap file. Note that the file's contents are not copied into the SVG output, 
 only the files name. Thus, for Graphviz SVG output to display correctly, the image file must be available to the SVG viewer.
@@ -364,7 +364,7 @@ encapsulated PostScript will only be copied in once. The restrictions on the con
 
 For bitmap output, `image` is a file name containing a bitmap image. The file is opened and copied (and possibly scaled) into the output drawing.
 
-This code is still preliminary, and we have noted some problems with color quantization in indexed color map management that we are trying to understand and correct. (You can use -Gtruecolor=1 to try a 32 bit internal canvas as an alternative, but we have observed fuzziness (lossiness?) in the images.)
+This code is still preliminary, and we have noted some problems with color quantization in indexed color map management that we are trying to understand and correct. (You can use `-Gtruecolor=1` to try a 32 bit internal canvas as an alternative, but we have observed fuzziness (lossiness?) in the images.)
 
 When the software is used as a web server, access to image files is more restrictive. See GV_FILE_PATH and SERVER_NAME.
 
@@ -419,9 +419,9 @@ where the current color is the node's `fillcolor`.
 
 *NOTE: In versions before 23 September 2005, yourshape is only invoked once, with the node's fill value and with the color set to the node's pencolor.*
 
-For example, here are the contents of a plausible shape file, DFD.ps, which can be invoked by [shape=DFDbox]
+For example, here are the contents of a plausible shape file, DFD.ps, which can be invoked by `[shape=DFDbox]`
 
-```PostScript
+```postscript
 	/xdef {exch def} bind def
 	/DFDbox {
 		10 dict begin
@@ -452,7 +452,7 @@ For example, here are the contents of a plausible shape file, DFD.ps, which can 
 	} bind def
 ```
 
-A custom shape of this kind is always clipped to its bounding box. It would not be hard to create a hook in the function user_shape() in shapes.c to determine clipping 
+A custom shape of this kind is always clipped to its bounding box. It would not be hard to create a hook in the function `user_shape()` in shapes.c to determine clipping 
 polygons other than rectangles (maybe) in case someone wants to try this and contribute the code for this.
 
 Note that, by default, the bounding box is drawn around the contents and the node label is drawn. If you wish to eliminate these, set `label=""` and `peripheries=0` in the node.
@@ -461,15 +461,15 @@ Note that, by default, the bounding box is drawn around the contents and the nod
 
 If not using PostScript, you'll need to roll up your sleeves and modify the source. None of the other code generators support custom node shapes directly. 
 If the custom shape is to be high-level and driver-independent, then you can add shape-specific functions (methods) to shapes.c with a corresponding entry in the 
-array Shapes[] that maps shape names to methods. The method interfaces are described in the comment header in this file. Methods must be defined to initialize a 
+array `Shapes[]` that maps shape names to methods. The method interfaces are described in the comment header in this file. Methods must be defined to initialize a 
 shape (typically to size it big enough to fit its text label), bind a port name to a coordinate, test if a point is inside an instance of the 
 shape (for edge clipping), generate code for the shape via the functions provided in the gvrender_engine_t structure, and return a box path to reach 
 ports on the interior of a node (if they can exist).
 
-More information on the functions available via gvrender_engine_t and the Graphviz graphics model can be found in Section 5 of the 
+More information on the functions available via `gvrender_engine_t` and the Graphviz graphics model can be found in Section 5 of the 
 [Graphviz library manual](/pdf/libguide.pdf).
 
-Shapes that behave more or less like polygons can be bootstrapped from the basic polygon methods; see for example the "invtri" or "tab" shape. 
+Shapes that behave more or less like polygons can be bootstrapped from the basic polygon methods; see for example the `invtri` or `tab` shape. 
 Such shapes use a polygon descriptor whose fields are listed below.
 
 Field name | Description | Default
@@ -746,7 +746,7 @@ myiodisc.flush = NULL;   // only need to set if calling gvRender()
 The reader function has type
 
 ```c++
-  int (*reader) (void *chan, char *buf, int bufsize);
+int (*reader) (void *chan, char *buf, int bufsize);
 ```
 
 and should act like the `read()` system call. That is, it reads from
@@ -834,11 +834,8 @@ digraph G {
   n0 -> n1 -> ... -> nN;
 
   n0 [attr0="whatever",
-
   attr1="something else",
-
   /* and so on with many more attributes */
-
   attrM="something again"]
 }
 ```
@@ -879,7 +876,7 @@ $ tclsh
 %
 ```
 
-where $prefix is the installation prefix for graphviz; usually /usr or /usr/local.
+where `$prefix` is the installation prefix for graphviz; usually /usr or /usr/local.
 
 Then test whether webdot runs from a shell command. (With webdot we provide a helper script scaffold.tcl or scaffold.sh that sets up an environment like the one Apache provides.) For example
 
@@ -947,17 +944,17 @@ The default DOTFONTPATH is:
 #define DEFAULT_FONTPATH "/usr/X11R6/lib/X11/fonts/TrueType:/usr/X11R6/lib/X11/fonts/truetype:/usr/X11R6/lib/X11/fonts/TTF:/usr/share/fonts/TrueType:/usr/share/fonts/truetype:/usr/openwin/lib/X11/fonts/TrueType:/usr/X11R6/lib/X11/fonts/Type1"
 ```
 
-If your fonts are somewhere else, then you must set that directory in the webdot script, or recompile Graphviz with the correct DEFAULT_FONTPATH (or set fontpath="/your/font/directory" in every graph you lay out, but that's pretty clumsy.)
+If your fonts are somewhere else, then you must set that directory in the webdot script, or recompile Graphviz with the correct DEFAULT_FONTPATH (or `set fontpath="/your/font/directory"` in every graph you lay out, but that's pretty clumsy.)
 
-You can also try to comment the line #set SIGNATURE "Graph by WebDot" in /var/www/cgi-bin/webdot.
+You can also try to comment the line `#set SIGNATURE "Graph by WebDot"` in /var/www/cgi-bin/webdot.
 
 ### What is the coordinate transformation between the graph bb and a .png image? {#FaqCoordTransformation}
 
  * The bb is expanded by 4 graph-units in all directions (pad) to allow for finite line widths.
- * Then it is zoomed and/or rotated according to -Gviewport, -Gsize, -Glandscape, -Gorientation options. At the default scaling of 1:1, one graph unit = 1 point (1/72 inch).
- * Then it is paginated, if requested by -Gpage and if the output format supports it. Not the -Tpng renderer, yet.
- * Then a margin is added, -Gmargin, in absolute units (inches). The top/bottom margin can be set independently of the left/right margin.
- * Then it is converted to device units, according to -Gdpi, or a dpi value that is given by the output device, or a default that is provided by each render. There are separate dpi values for x and y to allow for non-square pixels. Some renderers invert the Y axis and need an offset to place the origin in the top left corner. The default dpi for -Tpng is 96dpi (approximating the resolution of most computer monitors) so this is where the scaling by 96/72 (4/3) comes from.
+ * Then it is zoomed and/or rotated according to `-Gviewport`, `-Gsize`, `-Glandscape`, `-Gorientation` options. At the default scaling of 1:1, one graph unit = 1 point (1/72 inch).
+ * Then it is paginated, if requested by `-Gpage` and if the output format supports it. Not the `-Tpng` renderer, yet.
+ * Then a margin is added, `-Gmargin`, in absolute units (inches). The top/bottom margin can be set independently of the left/right margin.
+ * Then it is converted to device units, according to `-Gdpi`, or a dpi value that is given by the output device, or a default that is provided by each render. There are separate dpi values for x and y to allow for non-square pixels. Some renderers invert the Y axis and need an offset to place the origin in the top left corner. The default dpi for `-Tpng` is 96dpi (approximating the resolution of most computer monitors) so this is where the scaling by 96/72 (4/3) comes from.
 
 At the renderer api, plugins have a choice of coordinate representation:
 
