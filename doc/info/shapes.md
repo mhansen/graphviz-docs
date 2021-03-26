@@ -2,6 +2,10 @@
 layout: page
 title: Node Shapes
 ---
+
+* Table of Contents
+{:toc}
+
 There are three main types of shapes :
 [polygon-based](shapes.html#polygon),
 [record-based](shapes.html#record) and
@@ -908,7 +912,7 @@ produces:
 
 ![](tee.gif)
 
-## User-defined Nodes {#epsf}
+## User-defined Node Shapes {#epsf}
 
 There is a third type of node shape which is specified by the user.
 Typically, these shapes rely on the details of a concrete graphics
