@@ -20,10 +20,6 @@ redirect_from:
 * [Arrow Shapes](/doc/info/arrows.html)
 * [Colors](/doc/info/colors.html)
 
-## Schema Files ([XSD](http://www.w3.org/XML/Schema) format)
-
-* [Schema](/doc/info/graphviz_json_schema.json) for [json output](/doc/info/output.html#d:json)
-
 ## User's Guides
 
 **NOTE:** The first two documents are not current with the features
