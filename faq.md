@@ -7,87 +7,27 @@ order: 9
          
 If you cannot find the answer to your question here, ask it in the [Graphviz forum](https://forum.graphviz.org).
 
-
-## Contributions
-
-* [FaqToDo](/doc/todo.html) Our TODO list
-* [FaqPSdefs](/Documentation/html/isofonts.txt) PostScript defs for ISO-latin1 fonts (by [Enrique Vidal](mailto:evidal@iti.upv.es))
-
-## General
-
- * [FaqAttr](#FaqAttr) Where can I see a list of all the attributes that control dot or neato?
- * [FaqDiscuss](#FaqDiscuss) Where can I discuss Graphviz?
- * [FaqLarger](#FaqLarger) I'm trying to make a layout larger. How?
- * [FaqMerge](#FaqMerge) How can I join or merge certain edge routes in dot?
- * [FaqPDF](#FaqPDF) How can I generate graph layouts in PDF?
- * [FaqDupNode](#FaqDupNode) How can I make duplicate nodes?
- * [FaqGraphLabel](#FaqGraphLabel) How can I set a graph or cluster label without its propagating to all sub-clusters?
- * [FaqParEdge](#FaqParEdge) How can I draw multiple parallel edges in neato?
- * [FaqBalanceTree](#FaqBalanceTree) How can I symmetrize (balance) tree layouts?
- * [FaqCommandLine](/doc/info/command.html) What is the Graphviz command line syntax?
- * [FaqUserTypes](#FaqUserTypes) What user types does Graphviz support?
- * [FaqBugReport](#FaqBugReport) How can I report a bug or issue I've found?
-
-## Clusters
-
- * [FaqClusterEdge](#FaqClusterEdge) How can I create edges between cluster boxes?
- * [FaqClusterHardToSee](#FaqClusterHardToSee) Clusters are hard to see.
-
-## Output
-
- * [FaqQuality](#FaqQuality) How can I get high quality (antialiased) output?
- * [FaqPaperTooLarge](#FaqPaperTooLarge) I can only get 11x17 output?
- * [FaqSymbols](#FaqSymbols) How do I create special symbols and accents in labels?
- * [FaqNonAscii](#FaqNonAscii) More generally, how do I use non-ASCII character sets?
- * [FaqCustShape](#FaqCustShape) How can I create custom shapes?
- * [FaqOverlays](#FaqOverlays) How can I use drawing layers (overlays)?
- * [FaqFontChanges](#FaqFontChanges) How do I get font and color changes in record labels or other labels?
- * [FaqPlainArrows](#FaqPlainArrows) In plain format, splines do not touch the nodes (arrowheads are missing).
- * [FaqRecordLR](#FaqRecordLR) Record nodes are drawn differently in dot and neato when rankdir=LR.
- * [FaqMultiPage](#FaqMultiPage) How can I print a big graph on multiple pages?
- * [FaqJpgArtifacts](#FaqJpgArtifacts) When I have a red edge it shows up as a solid red in PNG and GIF formats, but has a black border when rendered to JPEG.
- * [FaqDottyNumlock](#FaqDottyNumlock) Sometimes in dotty, right mouse click shows the global menu but none of the items can be selected.
- * [FaqDottySyntaxError](#FaqDottySyntaxError) Why does dotty report a syntax error on a legal dot file?
- * [FaqNoEdgeHandles](#FaqNoEdgeHandles) How can I get rid of the little circles on edges ("edge handles") in dotty?
- * [FaqDotWithCoords](#FaqDotWithCoords) I already have all the coordinates for the nodes and edges of my graph and just want to use dot, neato, or dotty to render it. How?
- * [FaqDotWithNodeCoords](#FaqDotWithNodeCoords) I already have all the coordinates for the nodes, and I want dot or neato to route the edges.
- * [FaqDottyWithCoords](#FaqDottyWithCoords) I already have all the coordinates for the nodes and edges of my graph and just want to use dotty to render it. How?
- * [FaqDottyWithNodeCoords](#FaqDottyWithNodeCoords) Same as above, but I have only node coords, not edges.
- * [FaqClientSideMaps](#FaqClientSideMaps) How can I make client-side image maps?
- * [FaqServerSideMaps](#FaqServerSideMaps) Why aren't my server-side maps being recognized? I've checked the HTML!
- * [FaqApache](#FaqApache) I've installed Debian Graphviz and it works just fine on the command line, but when I execute a Perl/CGI script through Apache, no output is generated.
- * [Faq3D](#Faq3D) How can I get 3D output?
-
-
-## Problems
-
- * [FaqOverlapNode](#FaqOverlapNode) How can I avoid node overlaps in neato?
- * [FaqOverlapEdge](#FaqOverlapEdge) How can I avoid node-edge overlaps in neato?
- * [FaqAgreadCrash](#FaqAgreadCrash) Why does my call to agread() cause a crash?
- * [FaqRuntimeNeato](#FaqRuntimeNeato) Neato runs forever on a certain example.
- * [FaqEdgeLabelPlace](#FaqEdgeLabelPlace) Edge label placement in dot is bad, or the layout is very convoluted.
- * [FaqRuntimeDot](#FaqRuntimeDot) Dot runs forever on a certain example.
- * [FaqRuntimeTwopi](#FaqRuntimeTwopi) Twopi runs forever on a certain example.
- * [FaqNeatoEdgeCrossings](#FaqNeatoEdgeCrossings) Neato has unnecessary edge crossings, or has missed an obvious chance to make a much nicer layout.
- * [FaqWebdot](#FaqWebdot) Webdot doesn't work.
- * [FaqFontNotFound](#FaqFontNotFound) I have "Font not found" errors, or text labels missing in webdot.
-
- * [FaqCoordTransformation](#FaqCoordTransformation) What is the coordinate transformation between the graph bb and a .png image?
+* Table of Contents
+{:toc}
+* Contributions
+  * [FaqToDo](/doc/todo.html) Our TODO list
+  * [FaqPSdefs](/Documentation/html/isofonts.txt) PostScript defs for ISO-latin1 fonts (by [Enrique Vidal](mailto:evidal@iti.upv.es))
 
 ---
 
+## General
 
-### <a name="FaqAttr"></a>Where can I see a list of all the attributes that control dot or neato?
+### Where can I see a list of all the attributes that control dot or neato? {#FaqAttr}
 
 See [Graph Attributes](/doc/info/attrs.html). There is also information on
 [command-line usage](/doc/info/command.html) and [output
 formats](/doc/info/output.html).
 
-### <a name="FaqDiscuss"></a>Where can I discuss Graphviz?
+### Where can I discuss Graphviz? {#FaqDiscuss}
 
 Post questions and comments in the [Graphviz forum](https://forum.graphviz.org)
 
-### <a name="FaqLarger"></a>I'm trying to make a layout larger. How?
+### I'm trying to make a layout larger. How? {#FaqLarger}
 
 There are various ways to increase the size of a layout. In doing this, one has to decide if the sizes of the nodes and text should be increased as well.
 
@@ -217,6 +157,8 @@ This trick really ought to be built into our solver (and made independent of the
 
 You can report or view Graphviz bugs and issues by visiting the Graphviz <a href="https://gitlab.com/graphviz/graphviz/issues" target="_blank">Issues</a> page.
 
+## Clusters
+
 ### How can I create edges between cluster boxes? {#FaqClusterEdge}
 
 This only works in Graphviz version 1.7 and higher. To make edges between clusters, first set the graph attribute `compound=true`. 
@@ -251,6 +193,8 @@ real tail must not be. A similar check is done for logical tails. In these cases
 ### Clusters are hard to see. {#FaqClusterHardToSee}
 
 Set `bgcolor=grey` (or some other color) in the cluster.
+
+## Output
 
 ### How can I get high quality (antialiased) output? {#FaqQuality}
 
@@ -701,6 +645,8 @@ Nonetheless, `dot -Tvrml` generates VRML files. There's no Z coordinate layout -
 neato internally supports layouts in higher dimensions through the [dim](/doc/info/attrs.html#ddim) and [dimen](/doc/info/attrs.html#ddimen) attributes, 
 e.g. `neato -Gdim=7`. Graphviz output handles 2D and 3D, but there's no way to get higher-dimensional output unless you invoke neato as a library and inspect `ND_pos(n)[i]` 
 where n is a pointer to the relevant node. 
+
+## Problems
 
 ### How can I avoid node overlaps in neato? {#FaqOverlapNode}
 
