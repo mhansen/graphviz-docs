@@ -23,8 +23,6 @@ sass:
   sass_dir: _sass
 include: ['_pages']
 markdown: kramdown
-kramdown:
-  input: GFM
 plugins: ['jekyll-redirect-from']
 gems:
 exclude:
