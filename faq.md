@@ -72,9 +72,6 @@ If you cannot find the answer to your question here, ask it in the [Graphviz for
  * [FaqWebdot](#FaqWebdot) Webdot doesn't work.
  * [FaqFontNotFound](#FaqFontNotFound) I have "Font not found" errors, or text labels missing in webdot.
 
-<!---
- * [FaqBrowserSVG](#FaqBrowserSVG) My browser doesn't recognize SVG.
---->
  * [FaqCoordTransformation](#FaqCoordTransformation) What is the coordinate transformation between the graph bb and a .png image?
 
 ---
@@ -953,17 +950,6 @@ The default DOTFONTPATH is:
 If your fonts are somewhere else, then you must set that directory in the webdot script, or recompile Graphviz with the correct DEFAULT_FONTPATH (or set fontpath="/your/font/directory" in every graph you lay out, but that's pretty clumsy.)
 
 You can also try to comment the line #set SIGNATURE "Graph by WebDot" in /var/www/cgi-bin/webdot.
-
-<!---
-### My browser doesn't recognize SVG. {#FaqBrowserSVG}
-
-The correct MIME type for svg images is: image/svg+xml (note "+" not "-").
-
-SVG is not built into all browsers; you can get plugins from [Adobe](http://www.adobe.com/svg/viewer/install/main.html) for Windows, Linux and some other operating systems. 
-[Firefox](http://www.mozilla.com/en-US/firefox/) has a large subset of SVG and renders graphviz -Tsvg output though until graphviz 2.8, the fonts may be too large (thanks for Phil Colbourne at the RailCorp of New South Wales for this advice).
-
-For help with embedding SVG in HTML pages, see [here](http://204.178.9.49/webdot/svgembed.html).
---->
 
 ### What is the coordinate transformation between the graph bb and a .png image? {#FaqCoordTransformation}
 
