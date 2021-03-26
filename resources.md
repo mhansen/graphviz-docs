@@ -4,6 +4,8 @@ title: Resources
 permalink: /resources/
 order: 7
 ---
+* Table of Contents
+{:toc}
          
 These are some representative external resources. The list includes tools that complement Graphviz, such as
 graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites 
@@ -13,11 +15,11 @@ Please [send us](mailto:erg@alum.mit.edu) suggestions for additions to this list
 
 Graph drawing can be considered one of the tool sets used in analyzing data. Anyone interested in pursuing work in data science can find some helpful information [here](https://www.mastersindatascience.org/careers/data-scientist/).
 
-#### Simple Examples and Tutorials
+## Simple Examples and Tutorials
 
 *   Searchable [notes](https://renenyffenegger.ch/notes/tools/Graphviz/examples/index) and examples \[René Nyffenegger\]
 
-#### Noteworthy {#latest-greatest}
+## Noteworthy {#latest-greatest}
 
 *   Visual Studio Code [plugin](https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz) \[João Pinto,Stephan van Stekelenburg\]
 *   [Sketchviz](https://sketchviz.com/new) generates layouts in a hand-made style.
@@ -25,7 +27,7 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 *   Javascript version of Graphviz via Emscripten (archived) [viz.js](https://github.com/mdaines/viz.js/) \[Mike Daines\]
 *   Graphviz [pocket reference](https://graphs.grevian.org) \[Josh Hayes-Sheen\]
 
-#### Graphical Interfaces {#graphical-interfaces}
+## Graphical Interfaces {#graphical-interfaces}
 
 Interactive viewers.
 
@@ -59,7 +61,7 @@ Interactive viewers.
 *   [Leonhard](https://github.com/glejeune/Leonhard), a simple viewer/editor for GraphViz, developed with MacRuby. (See the [demo](http://youtu.be/nyfZVGlErTo).)
 *   [EasyGraphViz](http://wiki.cyze.jp/wiki.cgi/software?page=EasyGraphViz), a Japanese editor for Graphviz. \[Nikolaos Kavvadias \]
 
-#### Language Bindings {#language-bindings}
+## Language Bindings {#language-bindings}
 
 Interfaces that allow graphviz to be called from a general purpose language or system.
 
@@ -102,7 +104,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
     and a simplified [webdot.pl](/Misc/webdot.pl) in perl \[Stephen North, with a huge assist from John Linderman\]
 *   dokuwiki: [Create](https://www.dokuwiki.org/plugin:graphviz) directed and non-directed graph images from “dot” language \[Andreas Gohr\]
 
-#### Generators and Translators {#generators-and-translators}
+## Generators and Translators {#generators-and-translators}
 
 Filters that transform other data sources and formats into Graphviz.
 
@@ -120,7 +122,7 @@ Filters that transform other data sources and formats into Graphviz.
 *   [DBGraphNav](http://code.google.com/p/dbgraphnav/), a tool to facilitate the browsing of data within relational databases. \[Paul McMillan\]
 *   [EMF To Graphviz](http://sourceforge.net/projects/emf2gv/), an Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz.
 
-#### Network and Web Engineering Tools Using Graphviz
+## Network and Web Engineering Tools Using Graphviz
 
 *   [DNSViz](http://dnsviz.net/), a DNS visualization tool
 *   [TraceViz](http://www.hokstad.com/traceviz-visualizing-traceroute-output-with-graphivz.html) Traceroute visualization with sharp-looking SVG styles \[Vidar Hokstad\]
@@ -144,7 +146,7 @@ Filters that transform other data sources and formats into Graphviz.
 
 Users interested in general network monitoring tools can find a comparison of some <a href="https://www.comparitech.com/net-admin/network-monitoring-tools/">here</a>.
 
-#### AI and Language Tools Using Graphviz {#ai-and-language}
+## AI and Language Tools Using Graphviz {#ai-and-language}
 
 *   Andreas Romeyke's [txt2graph](http://andreas-romeyke.de/txt2graph/txt2graph.html) \- visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout
 *   [Ontoviz](http://protegewiki.stanford.edu/wiki/OntoViz) is a plugin for displaying knowledge base diagrams in the [Protoge](http://protege.stanford.edu/) system
@@ -153,7 +155,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [Topic extraction using Wikipedia data](http://blog.prashanthellina.com/topic-extraction-using-wikipedia-data.html).
 *   [FcaStone](http://fcastone.sourceforge.net/) lays out algebraic lattices in the sense of Formal Concept Analysis. (Try the [demo](http://www.upriss.org.uk/fca/fcademo.html) or the [lattice visualisations of Roget's Thesaurus](http://www.ketlab.org.uk/roget.html)). \[Uta Priss\]
 
-#### Programming and Software Engineering Tools Using Graphviz {#software-engineering}
+## Programming and Software Engineering Tools Using Graphviz {#software-engineering}
 
 *   [CAIRIS](https://cairis.org/) is a platform for specifying and modelling secure and usable systems. \[Shamal Faily\]
 *   [ERD](https://github.com/BurntSushi/erd) translates a plain text description of a relational database schema to a graphical entity-relationship diagram. \[Andrew Gallant\]
@@ -191,7 +193,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [Erviz](http://slopjong.de/2011/02/26/whats-erviz/), an entity-relationship diagram generator that converts plain text files to DOT-formatted graphical files for Graphviz. \[Mitsuru Kono\]
 *   [Symfony application-map plugin](http://www.symfony-project.org/plugins/sfApplicationMapPlugin), an easy-to-use documentation tool for the symfony framework community. \[Tomasz Ducin\]
 
-#### Bioinformatics and Cheminformatics Tools and Resources Using Graphviz {#bio-informatics}
+## Bioinformatics and Cheminformatics Tools and Resources Using Graphviz {#bio-informatics}
 
 Relational structures abound in the study of biological and chemical information. The following list barely scratches the surface.
 
@@ -200,7 +202,7 @@ Relational structures abound in the study of biological and chemical information
 *   _Science_ Online [protein database visualization](http://www.stke.org/) (click on Connections - free registration and [SVG plugin](http://www.adobe.com/svg/viewer/install/main.html) required, may need [beta](http://www.adobe.com/svg/viewer/install/beta.html) for Mozilla FireFox) \[American Association for the Advancement of Science (AAAS) and Stanford University Digital Libraries Project\]
 *   [Pubgene](http://www.PubGene.com) \- Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery
 
-#### Document preparation with Graphviz {#document-preparation}
+## Document preparation with Graphviz {#document-preparation}
 
 *   [dot2tex](https://dot2tex.readthedocs.io/en/latest/) is a LaTeX-friendly converter from Graphviz (xdot) to converting xdot PSTricks or PGF/TikZ commands, with support for LaTeX labels and arrows. \[Kjell Magne Fauske\]
 *   [graphviz mode for emacs](http://ppareit.github.com/graphviz-dot-mode) (or [here](/Misc/graphviz-dot-mode.el)).
@@ -212,12 +214,12 @@ Relational structures abound in the study of biological and chemical information
 *   [wdot.rb](https://github.com/siuyin/wdot/blob/master/wdot.rb/), a tool that allows workflow diagrams and flowcharts to be easily created and updated.\[Loh Siu Yin\]
 *   [GraphVizio](http://www.calvert.ch/graphvizio/) is an addin for Visio to lay out diagrams using Graphviz (also see [blog post](http://www.calvert.ch/maurice/2010/05/11/graphvizio-a-graphviz-addin-for-visio/)). \[Maurice Calvert\]
 
-#### Social Networking and Collaborative Work {#social-networking}
+## Social Networking and Collaborative Work {#social-networking}
 
 *   [Proximity Subgraphs](http://www2.research.att.com/~volinsky/cgi-bin/prox/prox.pl) \- visualize communities in the Internet Movie Database
 *   [Hammond Jazz Inventory](http://www.hammondjazz.net/index.php?page=article&task=current&mode=detail&section=News&target=70) \- show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!)
 
-#### Third-Party Distributions {#third-party-distributions}
+## Third-Party Distributions {#third-party-distributions}
 
 *   [Axel Thimm](http://atrpms.net/name/graphviz/) \- rpms for some RedHat Linux distributions ("atrpms").
 *   [RPM Find](http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=) \- many distros and architectures.
