@@ -25,9 +25,7 @@ include: ['_pages']
 markdown: kramdown
 kramdown:
   input: GFM
-# theme: jekyll-theme-cayman
 plugins: ['jekyll-redirect-from']
-whitelist: ['jekyll-redirect-from']
 gems:
 exclude:
   - Dockerfile
