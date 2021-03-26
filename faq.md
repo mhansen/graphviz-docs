@@ -291,15 +291,13 @@ graph G {
 }
 ```
 
-If you can't save in UTF-8, try HTML entities coding, e.g. `&#165;` for the Yen currency symbol ¥. Example:
+If you can't save in UTF-8, try [HTML entities](/doc/char.html), e.g. `&#165;` for the Yen currency symbol ¥. Example:
 
 ```dot
 graph G {
   yen [label="&#165;"]
 }
 ```
-
-See [Graphviz's HTML entity reference](/doc/char.html) for more.
 
 ### More generally, how do I use non-ASCII character sets? {#FaqNonAscii}
 
