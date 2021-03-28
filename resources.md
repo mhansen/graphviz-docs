@@ -177,7 +177,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [Compendium-TA](http://www.compendiumdev.co.uk/compendium-ta/default.php), an integrated package of modelling tools which uses Graphviz for graph layouts \[Alan Richardson\]
 *   [CodeViz](https://github.com/petersenna/codeviz) \- a call graph generation utility for C/C++ that assumes dot for its back end \[Mel Gorman\]
 *   [Pimentech-DbUtils](http://www.pimentech.fr/technologies/outils/) \- utils for writing patterns databases in XML (Extended Entities Relationship diagram (ERA)) and exporting them to graphviz and sql.
-*   [LJV.java](http://www.cs.auckland.ac.nz/~j-hamer/LJV.html) (Lightweight Java Visualizer) is tool for visualizing Java data structures with Graphviz. It has been used to good effect in CS1 and CS2-level data structures courses. \[John Hammer\]
+*   [LJV](https://github.com/atp-mipt/ljv) (Lightweight Java Visualizer) is a tool for visualizing Java data structures with Graphviz. It has been used to good effect in CS1 and CS2-level data structures courses. \[John Hamer\]
 *   [Python call graphs](http://pycallgraph.slowchop.com/en/master/)
 *   [ArgoUML Graphviz](http://argouml-graphviz.tigris.org/) Automatically repositioning all visual elements from UML diagrams that are stored in XMI. These can be exported with DOT to PDF, SVG, PNG, etc. This XLST runs independently of ArgoUML. \[Pander\]
 *   [Ragel](http://www.complang.org/ragel/) (think "lex") compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format.
