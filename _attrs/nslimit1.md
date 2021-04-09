@@ -10,6 +10,6 @@ used_by: G
 ---
 Sets number of iterations in network simplex applications.
 
-`nslimit` is used in computing `node x coordinates`.
+`nslimit1` is used for ranking nodes.
 
 If defined, `# iterations = nslimit * # nodes`; otherwise, `# iterations = MAXINT`.
