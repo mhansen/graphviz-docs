@@ -11,11 +11,6 @@ current features. Please [contact us](mailto:gviz_rqst@graphviz.org) for more de
 
 ---
 
-*   Extend the allowed edge styles.
-*   Allow arrowheads in the middle of edges.
-*   Allow rotated text.
-*   Allow text to align along an edge.
-*   Support single, uniform font descriptors à la pango.
 *   Move generic code, such node adjustment and spline routing, out of neato.
 *   Remove antiquated code and replace multiple algorithm implementations with a single one.
 *   Allow prohibition of ports or sides.
