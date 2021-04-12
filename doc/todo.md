@@ -11,18 +11,6 @@ current features. Please [contact us](mailto:gviz_rqst@graphviz.org) for more de
 
 ---
 
-*   Move generic code, such node adjustment and spline routing, out of neato.
-*   Remove antiquated code and replace multiple algorithm implementations with a single one.
-*   Allow prohibition of ports or sides.
-*   Provide a general graph editor/browser for Graphviz, allowing novice users to rely on widgets
-    to control attributes.
-*   Combine the features of sfdp and fdp (e.g., clusters and fixed nodes).
-*   Improve the mincross algorithm to better handle flat edges and edge weights.
-*   Simplified mincross algorithm based on sifting, supporting clusters.
-*   Implement swim lanes (nodes sharing x coordinate), possibly based on sifting.
-*   Complete support for aspect ratios in dot. We currently have a simple algorithm, but it doesn't work with many other features.
-    Support aspect ratios < 1.
-*   Allow maximum width contraints during layout.
 *   Support orthogonal coalesced edges (e.g., [this](http://upload.wikimedia.org/wikipedia/commons/7/74/Uml_diagram.svg)).
 *   Extend Graphviz to handle compound graphs.
 *   Provide simplified edge routing in dot using two dummy nodes.
