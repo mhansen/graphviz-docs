@@ -11,22 +11,11 @@ current features. Please [contact us](mailto:gviz_rqst@graphviz.org) for more de
 
 ---
 
-*   Support orthogonal coalesced edges (e.g., [this](http://upload.wikimedia.org/wikipedia/commons/7/74/Uml_diagram.svg)).
-*   Extend Graphviz to handle compound graphs.
-*   Provide simplified edge routing in dot using two dummy nodes.
-*   Provide bundled edge routing in dot.
-*   Allow user to provide levels, or levels plus ordering (no ranking or crossing minimization), and let dot finish
-*   Allow edge routing with overlapping nodes.
-*   Modify dot, twopi, etc. to allow incremental layouts.
-*   Improve circo to allow tighter layouts and user control of clusters.
-*   Fix current shape code to correctly handle non-convex shapes.
-*   Provide a mechanism for users to define their own node shapes for nodes and edges.
 *   Improve the routing of loops and, for dot, flat edges. Complete or replace the handling of flat edges between adjacent nodes.
 *   Improve the flexibility and placement of exterior labels. For example, allow the user to specify the preferred label placement.
 *   Add stack frames/local variables to gvpr.
 *   Provide a collection of simple tree layouts.
 *   Add new graph packing strategies.
-*   Allow nodesep to be [set within clusters](https://gitlab.com/graphviz/graphviz/issues/286).
 *   Allow ranksep to be an array of values in dot.
 *   Allow mixed edge types within the same graph.
 *   Allow varied rankdir values within clusters.
