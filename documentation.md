@@ -111,7 +111,3 @@ on-line pages listed above.
 * [gv.3python](/pdf/gv.3python.pdf)
 * [gv.3ruby](/pdf/gv.3ruby.pdf)
 * [gv.3tcl](/pdf/gv.3tcl.pdf)
-
-## Open problems
-
-* [Graphviz Wish List](/doc/todo.html)
