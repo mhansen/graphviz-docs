@@ -10,7 +10,6 @@ If you cannot find the answer to your question here, ask it in the [Graphviz for
 * Table of Contents
 {:toc}
 * Contributions
-  * [FaqToDo](/doc/todo.html) Our TODO list
   * [FaqPSdefs](/Documentation/html/isofonts.txt) PostScript defs for ISO-latin1 fonts (by [Enrique Vidal](mailto:evidal@iti.upv.es))
 
 ---
