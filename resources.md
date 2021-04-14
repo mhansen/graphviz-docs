@@ -11,7 +11,7 @@ These are some representative external resources. The list includes tools that c
 graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites 
 that rely on Graphviz as a visualization service.
 
-Please [send us](mailto:erg@alum.mit.edu) suggestions for additions to this list with, if possible, a recommendation as to appropriate category for the resource.
+Please [suggest additions](https://gitlab.com/graphviz/graphviz.gitlab.io/-/edit/main/resources.md) to this list via merge request.
 
 Graph drawing can be considered one of the tool sets used in analyzing data. Anyone interested in pursuing work in data science can find some helpful information [here](https://www.mastersindatascience.org/careers/data-scientist/).
 
