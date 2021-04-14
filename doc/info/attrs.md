@@ -171,6 +171,7 @@ of the layout programs.
   {%- if c contains 'E' %} Edges{% endif -%}
   {%- if c contains 'G' %} Graphs{% endif -%}
   {%- if c contains 'C' %} Clusters{% endif -%}
+  {%- if c contains 'S' %} Subgraphs{% endif -%}
   {% unless forloop.last %},{% endunless -%}
 {% endfor %}.</I>
 <I>
