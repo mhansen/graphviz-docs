@@ -83,7 +83,7 @@ source repositories for Graphviz and Webdot, these can be found at:
 * [http://gitlab.com/graphviz/webdot/](http://gitlab.com/graphviz/webdot/)
 
 You can either download the zip file or clone the repository. Instructions
-for the latter can be found [here](https://help.github.com/articles/which-remote-url-should-i-use/).
+for the latter can be found [here](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository).
 
 If you are taking this approach, then you must have recent versions of
 "libtool", "automake", and "autoconf". The build process is basically the same
