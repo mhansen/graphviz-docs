@@ -53,7 +53,7 @@ Makes "hierarchical" or layered drawings of directed graphs.  The layout
 algorithm aims edges in the same direction (top to bottom, or left to right)
 and then attempts to avoid edge crossings and reduce edge length.
 
-<p align="center">
+<p style="text-align: center;">
   <a href="/Gallery/directed/cluster.html">
     <img src="/Gallery/directed/cluster.svg">
   </a>
@@ -68,7 +68,7 @@ statistical multi-dimensional scaling. The solution is achieved using stress
 majorization, though the older Kamada-Kawai algorithm, using steepest descent,
 is also available.
 
-<p align="center">
+<p style="text-align: center;">
   <a href="/Gallery/undirected/ER.html">
     <img src="/Gallery/undirected/ER.svg">
   </a>
@@ -81,7 +81,7 @@ forces rather than working with energy. Fdp implements the Fruchterman-Reingold
 heuristic including a multigrid solver that handles larger graphs and clustered
 undirected graphs.
 
-<p align="center">
+<p style="text-align: center;">
   <a href="/Gallery/undirected/fdpclust.html">
     <img src="/Gallery/undirected/fdpclust.svg">
   </a>
@@ -91,7 +91,7 @@ undirected graphs.
 
 Multiscale version of `fdp` for the layout of large graphs.
 
-<p align="center">
+<p style="text-align: center;">
   <img src="/Gallery/undirected/200910_viz_matrix_188w.png">
 </p>
 
@@ -101,7 +101,7 @@ Radial layouts, after Graham Wills 97. Nodes are placed on concentric circles
 depending their distance from a given root node. You can set the root node, or
 let `twopi` do it.
 
-<p align="center">
+<p style="text-align: center;">
   <a href="/Gallery/twopi/twopi2.html">
     <img src="/Gallery/twopi/twopi2.svg">
   </a>
@@ -113,7 +113,7 @@ Circular layout, after Six and Tollis 99, Kauffman and Wiese 02.  This is
 suitable for certain diagrams of multiple cyclic structures, such as certain
 telecommunications networks.
 
-<p align="center">
+<p style="text-align: center;">
   <img src="/Gallery/undirected/honda-tokoro.circo.png">
 </p>
 
