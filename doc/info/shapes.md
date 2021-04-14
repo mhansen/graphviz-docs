@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Node Shapes
+stylesheet: shapes.css
 ---
 
 * Table of Contents
@@ -28,30 +29,6 @@ the node attributes
 ## Polygon-based Nodes {#polygon}
 
 The possible polygon-based shapes are displayed below.
-
-<style>
-.gv-shape {
-  display: inline-block;
-  margin: 0; /* override default figure rendering */
-}
-/* Jump through some hoops to align images and text */
-.gv-shape-img-container {
-  height: 90px;
-  width: 150px;
-  position: relative; /* for vertical-bottom horizontal-center aligning image */
-}
-.gv-shape-img {
-  margin: auto;
-  position: absolute; /* use parent as reference frame */
-  bottom: 0; /* move to bottom */
-  left: 0; /* horizontal-center */
-  right: 0; /* horizontal-center */
-  margin: 0 auto;
-}
-.gv-shape-caption {
-  text-align: center;
-}
-</style>
 
 {% for shape in site.data.shapelist %}
 <figure class="gv-shape">

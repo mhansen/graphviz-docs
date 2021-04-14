@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Color Names
+stylesheet: colors.css
 ---
 * Table of Contents
 {:toc}
@@ -16,13 +17,6 @@ Color names are case-insensitive.
 The Brewer color schemes below are covered by this [license](#brewer_license).
 
 ---
-
-<style>
-.gv-colors td {
-  min-width: 42px;
-  text-align: center;
-}
-</style>
 
 ## The X11 color scheme {#x11}
 
