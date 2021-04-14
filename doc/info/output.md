@@ -1,14 +1,8 @@
 ---
 layout: page
 title: Output Formats
+stylesheet: output.css
 ---
-<style>
-.jsontable {
-    border: 1px solid black;
-    background-color: beige;
-}
-</style>
-
 The output format is specified with the **-T**_lang_
 flag on the [command line](command.html), where _lang_
 is one of the parameters listed below.
