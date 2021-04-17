@@ -37,19 +37,19 @@ We do not provide precompiled packages any more.
 You may find it useful to try one of the following third-party sites.
 
 * [Ubuntu packages](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)*
-  
+
   ```bash
   $ sudo apt install graphviz
   ```
 
 * [Fedora project](https://apps.fedoraproject.org/packages/graphviz)*
-  
+
   ```bash
   $ sudo yum install graphviz
   ```
 
 * [Debian packages](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)*
-  
+
   ```bash
   $ sudo apt install graphviz
   ```
@@ -65,22 +65,22 @@ You may find it useful to try one of the following third-party sites.
 ### Windows
 
 * Stable Windows install packages:
-  * 2.47.0 EXE installer for Windows 10 (64-bit):
-    [stable_windows_10_cmake_Release_x64_graphviz-install-2.47.0-win64.exe](https://gitlab.com/graphviz/graphviz/-/package_files/8184046/download)
+  * 2.47.1 EXE installer for Windows 10 (64-bit):
+    [stable_windows_10_cmake_Release_x64_graphviz-install-2.47.1-win64.exe](https://gitlab.com/graphviz/graphviz/-/package_files/9574245/download)
     (not all tools and libraries are included)
-  * 2.47.0 EXE installer for Windows 10 (32-bit):
-    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.0-win32.exe](https://gitlab.com/graphviz/graphviz/-/package_files/8184049/download)
+  * 2.47.1 EXE installer for Windows 10 (32-bit):
+    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.1-win32.exe](https://gitlab.com/graphviz/graphviz/-/package_files/9574248/download)
     (not all tools and libraries are included)
-  * 2.47.0 ZIP archive for Windows 10 (32-bit):
-    [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.0-win32.zip](https://gitlab.com/graphviz/graphviz/-/package_files/8184040/download)
+  * 2.47.1 ZIP archive for Windows 10 (32-bit):
+    [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.1-win32.zip](https://gitlab.com/graphviz/graphviz/-/package_files/9574239/download)
   * checksums:
-    [stable_windows_10_cmake_Release_x64_graphviz-install-2.47.0-win64.exe.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/8184048/download)
+    [stable_windows_10_cmake_Release_x64_graphviz-install-2.47.1-win64.exe.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/9574247/download)
     |
-    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.0-win32.exe.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/8184051/download)
+    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.1-win32.exe.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/9574250/download)
     |
-    [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.0-win32.zip.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/8184042/download)
-  * Further 2.47.0 variants available on
-    [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/1365772)
+    [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.1-win32.zip.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/9574241/download)
+  * Further 2.47.1 variants available on
+    [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/1647246)
   * [Prior to 2.46 series](https://www2.graphviz.org/Packages/stable/windows)
 * Development Windows install packages
   * [2.46.0 as newer](https://gitlab.com/graphviz/graphviz/-/packages)
@@ -88,7 +88,7 @@ You may find it useful to try one of the following third-party sites.
 * [Cygwin Ports](http://sourceware.org/cygwinports/)* provides a port of Graphviz to Cygwin.
 * [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
 * [Chocolatey packages Graphviz for Windows](https://chocolatey.org/packages/Graphviz).
-  
+
   ```powershell
   > choco install graphviz
   ```
@@ -101,7 +101,7 @@ You may find it useful to try one of the following third-party sites.
   ```
 
 Mostly correct notes for building Graphviz on Windows can be found
-[here](/doc/winbuild.html). 
+[here](/doc/winbuild.html).
 
 ### Mac
 
@@ -127,7 +127,7 @@ We need help with OSX, if you would like to volunteer.
 We would appreciate if someone donates a script to
 run pkgbuild or productbuild to automatically generate OSX installers.
 [Packaging for Apple Administrators](https://itunes.apple.com/us/book/packaging-for-apple-administrators/id1173928620?mt=11&ign-mpt=uo%3D4)
-could be a good reference. Note graphviz needs postinstall actions, at least `dot -c`; also `fc-cache` if Graphviz has freetype/cairopango drivers. 
+could be a good reference. Note graphviz needs postinstall actions, at least `dot -c`; also `fc-cache` if Graphviz has freetype/cairopango drivers.
 
 ### Solaris
 
