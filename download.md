@@ -37,19 +37,19 @@ We do not provide precompiled packages any more.
 You may find it useful to try one of the following third-party sites.
 
 * [Ubuntu packages](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)*
-  
+
   ```bash
   $ sudo apt install graphviz
   ```
 
 * [Fedora project](https://apps.fedoraproject.org/packages/graphviz)*
-  
+
   ```bash
   $ sudo yum install graphviz
   ```
 
 * [Debian packages](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)*
-  
+
   ```bash
   $ sudo apt install graphviz
   ```
@@ -88,7 +88,7 @@ You may find it useful to try one of the following third-party sites.
 * [Cygwin Ports](http://sourceware.org/cygwinports/)* provides a port of Graphviz to Cygwin.
 * [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
 * [Chocolatey packages Graphviz for Windows](https://chocolatey.org/packages/Graphviz).
-  
+
   ```powershell
   > choco install graphviz
   ```
@@ -101,7 +101,7 @@ You may find it useful to try one of the following third-party sites.
   ```
 
 Mostly correct notes for building Graphviz on Windows can be found
-[here](/doc/winbuild.html). 
+[here](/doc/winbuild.html).
 
 ### Mac
 
@@ -127,7 +127,7 @@ We need help with OSX, if you would like to volunteer.
 We would appreciate if someone donates a script to
 run pkgbuild or productbuild to automatically generate OSX installers.
 [Packaging for Apple Administrators](https://itunes.apple.com/us/book/packaging-for-apple-administrators/id1173928620?mt=11&ign-mpt=uo%3D4)
-could be a good reference. Note graphviz needs postinstall actions, at least `dot -c`; also `fc-cache` if Graphviz has freetype/cairopango drivers. 
+could be a good reference. Note graphviz needs postinstall actions, at least `dot -c`; also `fc-cache` if Graphviz has freetype/cairopango drivers.
 
 ### Solaris
 
