@@ -82,6 +82,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   java: [Eclipse plugin](http://sourceforge.net/projects/eclipsegraphviz/)
 *   java: [JPGD](http://www.alexander-merz.com/graphviz/): A Java parser for Graphviz documents \[Alexander Merz\]
 *   java: [Java API](https://github.com/jabbalaci/graphviz-java-api) \[Laszlo Szathmary\]
+*   C# and .NET: [csdot](https://github.com/harshsikhwal/csdot) - C# interface for graphviz. Can be used to Load and Save graphs. Supports maximum set of attributes associated. Nuget: [Link](https://www.nuget.org/packages/csdot/)
 *   C# and .NET: [graphviznet](http://code.google.com/p/graphviznet/)
 *   C# and .NET: [CodePlex QuickGraph](http://www.codeplex.com/quickgraph/)
 *   C# and .NET: [Tigris QuickGraph](http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/)
