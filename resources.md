@@ -65,45 +65,92 @@ Interactive viewers.
 
 Interfaces that allow graphviz to be called from a general purpose language or system.
 
-*   swift: [GraphViz](https://github.com/swiftDocOrg/graphviz) \- a Swift package for Graphviz \[Mattt\]
-*   web: [MediaWiki](http://www.mediawiki.org/wiki/Extension:GraphViz) extension \[Coffman\]
-*   web: [Drupal](http://drupal.org/project/graphviz_filter) Graphviz filter \[Karim Ratib\]
-*   web: [EHT Graphviz](http://ociotec.com/index.php/2008/02/25/eht-graphviz-plugin-para-wordpress/) plugin for [Wordpress](http://wordpress.org/), to allow Graphviz images to be easily integrated into a Wordpress page. \[Emilio González Montaña\]
-*   web: [WP Graphviz](http://wordpress.org/plugins/wp-graphviz/) plugin for [Wordpress](http://wordpress.org/), to allow Graphviz images to be easily integrated into a Wordpress page. \[[DeBAAT](http://profiles.wordpress.org/debaat/)\]
-*   python: [Pydot](http://code.google.com/p/pydot/) \- a python interface to Graphviz (Windows comptible).
-*   python: [Python-Graph](http://code.google.com/p/python-graph/) \- A library for working with graphs in Python.
-*   python: [PyGraphviz](http://networkx.lanl.gov/pygraphviz/) \- a python interface to Graphviz similar to NetworkX.
-*   python: [yapgvb](http://yapgvb.sourceforge.net/) Yet Another Graphviz Python Binding \[Lonnie Princehouse\]
-*   python: [mfgraph](http://realmike.org) \- C++ interface with native bindings for python \[Michael Föetsch\]
-*   python: [GvGen](https://github.com/stricaud/gvgen) \- a python class to generate dot files \[Sebastien Tricaud\]
-*   go: [gographviz](http://code.google.com/p/gographviz/) \- a Graphviz parser for go \[Walter Schulze\].
-*   django: [django-graphviz](http://code.google.com/p/django-graphviz/) \- a Django app using Graphviz.
-*   django: [DjangoGraphviz](https://code.djangoproject.com/wiki/DjangoGraphviz) \- Converts Django models into Graphviz DOT files.
-*   java: [Eclipse plugin](http://sourceforge.net/projects/eclipsegraphviz/)
-*   java: [JPGD](http://www.alexander-merz.com/graphviz/): A Java parser for Graphviz documents \[Alexander Merz\]
-*   java: [Java API](https://github.com/jabbalaci/graphviz-java-api) \[Laszlo Szathmary\]
-*   C# and .NET: [csdot](https://github.com/harshsikhwal/csdot) - C# interface for graphviz. Can be used to Load and Save graphs. Supports maximum set of attributes associated. [Nuget](https://www.nuget.org/packages/csdot/)
-*   C# and .NET: [graphviznet](http://code.google.com/p/graphviznet/)
-*   C# and .NET: [CodePlex QuickGraph](http://www.codeplex.com/quickgraph/)
-*   C# and .NET: [Tigris QuickGraph](http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/)
-*   COM: [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/) component \[Ood Tsen\]
-*   perl: [Graphviz2](https://metacpan.org/release/GraphViz2) \- perl interface, supports new options \[Ron Savage\]
-*   perl: [GraphViz2::Marpa](https://metacpan.org/release/GraphViz2-Marpa) \- a Marpa-based parser for DOT files. \[Ron Savage\]
-*   perl: [A Perl interface to Graphviz](http://search.cpan.org/~lbrocard/GraphViz-2.02/lib/GraphViz.pm) \[Leon Brocard\]
-*   perl: [Tk::GraphViz](http://search.cpan.org/~jgs/Tk-GraphViz/) \- a perl module for displaying graphs in a perl/TK canvas \[Jeremy Slade\]
-*   perl: [Graph-ReadWrite](http://search.cpan.org/~neilb/Graph-ReadWrite/) \- module that supports 'dot' syntax graphs \[Neil Bowers\]
-*   perl: [GraphViz::DBI](http://search.cpan.org/search?dist=GraphViz-DBI) \- graph database tables and their relationships \[Marcel Grunauer\]
-*   perl: [100 more hits in CPAN](http://search.cpan.org/search?query=graphviz&mode=all)
-*   perl: [GraphViz::ISA](http://search.cpan.org/~marcel/GraphViz-ISA-1.100860/lib/GraphViz/ISA.pm) \- graph Perl packages' ISA runtime hierarchies \[Marcel Grunauer\]
-*   perl: [Graph::Easy](http://search.cpan.org/~tels/Graph-Easy/) is a rectilinear graph drawing program compatible with Graphviz and written entirely in perl for ease of installation. It also has a [MediaWiki](http://search.cpan.org/~tels/mediawiki-graph/) extension. \[Tels\]
-*   ruby: [GraphR](http://rockit.sourceforge.net/subprojects/graphr/) Graph-related Ruby classes using graphviz \[Robert Feldt\]
-*   ruby: [Ruby-Graphviz](https://github.com/glejeune/Ruby-Graphviz/) \- Ruby interface to Graphviz \[Grégoire Lejeune\]
+### Swift
+
+*   [GraphViz](https://github.com/swiftDocOrg/graphviz) \- a Swift package for Graphviz \[Mattt\]
+
+### MediaWiki
+
+*   [MediaWiki](http://www.mediawiki.org/wiki/Extension:GraphViz) extension \[Coffman\]
+
+### Drupal
+
+*   [Drupal](http://drupal.org/project/graphviz_filter) Graphviz filter \[Karim Ratib\]
+
+### Wordpress
+
+*   [EHT Graphviz](http://ociotec.com/index.php/2008/02/25/eht-graphviz-plugin-para-wordpress/) plugin for [Wordpress](http://wordpress.org/), to allow Graphviz images to be easily integrated into a Wordpress page. \[Emilio González Montaña\]
+*   [WP Graphviz](http://wordpress.org/plugins/wp-graphviz/) plugin for [Wordpress](http://wordpress.org/), to allow Graphviz images to be easily integrated into a Wordpress page. \[[DeBAAT](http://profiles.wordpress.org/debaat/)\]
+
+### Python
+
+*   [Pydot](http://code.google.com/p/pydot/) \- a python interface to Graphviz (Windows comptible).
+*   [Python-Graph](http://code.google.com/p/python-graph/) \- A library for working with graphs in Python.
+*   [PyGraphviz](http://networkx.lanl.gov/pygraphviz/) \- a python interface to Graphviz similar to NetworkX.
+*   [yapgvb](http://yapgvb.sourceforge.net/) Yet Another Graphviz Python Binding \[Lonnie Princehouse\]
+*   [mfgraph](http://realmike.org) \- C++ interface with native bindings for python \[Michael Föetsch\]
+*   [GvGen](https://github.com/stricaud/gvgen) \- a python class to generate dot files \[Sebastien Tricaud\]
+
+### Go
+
+*   [gographviz](http://code.google.com/p/gographviz/) \- a Graphviz parser for go \[Walter Schulze\].
+
+### Django
+
+*   [django-graphviz](http://code.google.com/p/django-graphviz/) \- a Django app using Graphviz.
+*   [DjangoGraphviz](https://code.djangoproject.com/wiki/DjangoGraphviz) \- Converts Django models into Graphviz DOT files.
+
+### Java
+
+*   [Eclipse plugin](http://sourceforge.net/projects/eclipsegraphviz/)
+*   [JPGD](http://www.alexander-merz.com/graphviz/): A Java parser for Graphviz documents \[Alexander Merz\]
+*   [Java API](https://github.com/jabbalaci/graphviz-java-api) \[Laszlo Szathmary\]
+
+### C# and .NET
+
+*   [csdot](https://github.com/harshsikhwal/csdot) - C# interface for graphviz. Can be used to Load and Save graphs. Supports maximum set of attributes associated. [Nuget](https://www.nuget.org/packages/csdot/)
+*   [graphviznet](http://code.google.com/p/graphviznet/)
+*   [CodePlex QuickGraph](http://www.codeplex.com/quickgraph/)
+*   [Tigris QuickGraph](http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/)
+
+### COM
+
+*   [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/) component \[Ood Tsen\]
+
+### Perl
+
+*   [Graphviz2](https://metacpan.org/release/GraphViz2) \- perl interface, supports new options \[Ron Savage\]
+*   [GraphViz2::Marpa](https://metacpan.org/release/GraphViz2-Marpa) \- a Marpa-based parser for DOT files. \[Ron Savage\]
+*   [A Perl interface to Graphviz](http://search.cpan.org/~lbrocard/GraphViz-2.02/lib/GraphViz.pm) \[Leon Brocard\]
+*   [Tk::GraphViz](http://search.cpan.org/~jgs/Tk-GraphViz/) \- a perl module for displaying graphs in a perl/TK canvas \[Jeremy Slade\]
+*   [Graph-ReadWrite](http://search.cpan.org/~neilb/Graph-ReadWrite/) \- module that supports 'dot' syntax graphs \[Neil Bowers\]
+*   [GraphViz::DBI](http://search.cpan.org/search?dist=GraphViz-DBI) \- graph database tables and their relationships \[Marcel Grunauer\]
+*   [100 more hits in CPAN](http://search.cpan.org/search?query=graphviz&mode=all)
+*   [GraphViz::ISA](http://search.cpan.org/~marcel/GraphViz-ISA-1.100860/lib/GraphViz/ISA.pm) \- graph Perl packages' ISA runtime hierarchies \[Marcel Grunauer\]
+*   [Graph::Easy](http://search.cpan.org/~tels/Graph-Easy/) is a rectilinear graph drawing program compatible with Graphviz and written entirely in perl for ease of installation. It also has a [MediaWiki](http://search.cpan.org/~tels/mediawiki-graph/) extension. \[Tels\]
+
+### Ruby
+
+*   [GraphR](http://rockit.sourceforge.net/subprojects/graphr/) Graph-related Ruby classes using graphviz \[Robert Feldt\]
+*   [Ruby-Graphviz](https://github.com/glejeune/Ruby-Graphviz/) \- Ruby interface to Graphviz \[Grégoire Lejeune\]
+
+### MATLAB
+
 *   [MatLab](http://www.mathworks.com/matlabcentral/fileexchange/4518) \[Leon Peshkin\]
-*   R: see below for [R-Graphviz](#Rgraphviz)
-*   HTML: the original [webdot](https://gitlab.com/graphviz/webdot) in TCL \[John Ellson\]  
+
+### R
+
+*   See below for [R-Graphviz](#Rgraphviz)
+
+### Web Server
+
+*   The original [webdot](https://gitlab.com/graphviz/webdot) in TCL \[John Ellson\]  
     (also see this [shell wrapper](/Misc/webdot_cgi.txt) to protect webdot servers from overload)  
-    and a simplified [webdot.pl](/Misc/webdot.pl) in perl \[Stephen North, with a huge assist from John Linderman\]
-*   dokuwiki: [Create](https://www.dokuwiki.org/plugin:graphviz) directed and non-directed graph images from “dot” language \[Andreas Gohr\]
+*   And a simplified [webdot.pl](/Misc/webdot.pl) in Perl \[Stephen North, with a huge assist from John Linderman\]
+
+### DokuWiki
+
+*   [DokuWiki Graphviz Plugin](https://www.dokuwiki.org/plugin:graphviz) directed and non-directed graph images from “dot” language \[Andreas Gohr\]
 
 ## Generators and Translators {#generators-and-translators}
 
