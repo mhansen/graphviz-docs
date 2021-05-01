@@ -259,7 +259,7 @@ Relational structures abound in the study of biological and chemical information
 *   [dot2tex](https://dot2tex.readthedocs.io/en/latest/) is a LaTeX-friendly converter from Graphviz (xdot) to converting xdot PSTricks or PGF/TikZ commands, with support for LaTeX labels and arrows. \[Kjell Magne Fauske\]
 *   [graphviz mode for emacs](https://github.com/ppareit/graphviz-dot-mode) (or [here](/Misc/graphviz-dot-mode.el)).
 *   [Ladot](http://brighten.bigw.org/projects/ladot/): scripts for including LaTeX in your Graphviz files \[Brighten Godfrey\]
-*   [graphviz.tex](http://code.google.com/p/hamake/source/browse/trunk/doc/whitepaper/graphviz.tex?r=452): macros for including Graphviz in your LaTeX files \[Derek Rayside\]
+*   [graphviz.tex](https://github.com/codeminders/hamake/blob/master/doc/whitepaper/graphviz.tex): macros for including Graphviz in your LaTeX files \[Derek Rayside\]
 *   [TeXmacs](http://www.texmacs.org/), a scientific text editor, inspired by TeX and GNU Emacs, has a Graphviz interface \[Joris van der Hoeven\]
 *   [Visustin flow chart generator](http://www.aivosto.com/visustin.html) \[Aivosto\]
 *   [Mac OmniGraffle](http://www.omnigroup.com/products/omnigraffle/) \[Omni Group\]
