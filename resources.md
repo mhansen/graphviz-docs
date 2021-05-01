@@ -287,6 +287,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [Symfony application-map plugin](http://www.symfony-project.org/plugins/sfApplicationMapPlugin), an easy-to-use documentation tool for the symfony framework community. \[Tomasz Ducin\]
 *   [Bazel Build System](https://blog.bazel.build/2015/06/17/visualize-your-build.html), [Blogpost](https://docs.bazel.build/query.html#output-graph) (2015) shows a graph of your build dependencies using Graphviz. [Gallery](/Gallery/directed/bazel.html)
 *   [CMake build system](https://cmake.org/) [can generate Graphviz files showing the dependencies between the targets in a project, as well as external libraries which are linked against](https://cmake.org/cmake/help/latest/module/CMakeGraphVizOptions.html).
+*   [Ninja](https://ninja-build.org/manual.html), a small, fast build system, can output graphviz dependency graphs. [Gallery](/Gallery/directed/ninja.html)
 
 ## Bioinformatics and Cheminformatics Tools and Resources Using Graphviz {#bio-informatics}
 
