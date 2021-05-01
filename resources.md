@@ -118,7 +118,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### COM
 
-*   [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/) component \[Ood Tsen\]
+*   [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/) (2006) COM Object \[Ood Tsen\]
 
 ### Perl
 
