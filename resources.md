@@ -220,7 +220,6 @@ Filters that transform other data sources and formats into Graphviz.
 *   [CSO Online](http://www.csoonline.com/article/348317/What_a_Botnet_Looks_Like): What a Botnet Looks like (Flash) \[David Vorel\]
 *   [EFnet](http://map.efnet.net) IRC Network server routing maps \[Douglas Boldt\]
 *   [netmap](https://sourceforge.net/projects/netmap/) (2013) draws the route connecting you with the Internet
-*   [phpOpenTracker](http://www.phpopentracker.de/) provides a framework solution for the analysis of website traffic and visitor analysis. \[Sebastian Bergmann\]
 *   [Pathalizer](http://pathalizer.sourceforge.net/) visualizes paths traversed by users through web sites \[Arnout Engelen\]
 *   [apache2dot.pl](http://www.chaosreigns.com/code/apache2dot/) (2005) parses an Apache log file to a format suitable for use with neato or dot, displaying links as they are being followed within your web site.
 *   [sig2dot](http://www.chaosreigns.com/code/sig2dot/) generates a graph of all of the signature relationships in a GPG/PGP keyring
