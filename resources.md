@@ -184,8 +184,8 @@ Filters that transform other data sources and formats into Graphviz.
 
 ## Network and Web Engineering Tools Using Graphviz
 
-*   [DNSViz](http://dnsviz.net/), a DNS visualization tool
-*   [TraceViz](http://www.hokstad.com/traceviz-visualizing-traceroute-output-with-graphivz.html) Traceroute visualization with sharp-looking SVG styles \[Vidar Hokstad\]
+*   [DNSViz](https://dnsviz.net/), a DNS visualization tool
+*   [TraceViz](https://www.hokstad.com/traceviz-visualizing-traceroute-output-with-graphivz.html) Traceroute visualization with sharp-looking SVG styles \[Vidar Hokstad\]
 *   [afterglow](http://afterglow.sourceforge.net/) is a collection of scripts to generate graphs for Graphviz (and LGL), from various network logs and firewall rulesets \[Raffael Marty\] (see also [tenshi](http://dev.inversepath.com/trac/tenshi) for logfile filtering)
 *   [SMART](http://sourceforge.net/projects/safemap) passive network flow visualization tool \[Cisco's Critical Infrastructure Assurance Group (CIAG) Research team\]
 *   [CSO Online](http://www.csoonline.com/article/348317/What_a_Botnet_Looks_Like): What a Botnet Looks like (Flash) \[David Vorel\]
