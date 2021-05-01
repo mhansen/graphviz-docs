@@ -200,7 +200,7 @@ Filters that transform other data sources and formats into Graphviz.
 *   [Excel to Graphviz (2)](https://sourceforge.net/projects/relationship-visualizer/), a tool for visualizing Excel data as graphs \[Jeffrey Long\]
 *   [Graph API](https://drupal.org/project/graphapi/), a Drupal graph generation module with Graphviz Dot output capabilities. \[Sebastian Daniel\]
 *   [SchemaSpy](http://schemaspy.sourceforge.net/) analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables \[John Currier\]
-*   [Linguine Maps](http://www.softwaresecretweapons.com/lm_hibernate.html) visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a clean Java API for diagramming \[Pavel Simakov\]
+*   [Linguine Maps](https://www.softwaresecretweapons.com/lm_hibernate.html) (2006) visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a Java API for diagramming. [GitHub](https://github.com/psimakov/linguine-maps) \[Pavel Simakov\]
 *   [PostgreSQL AutoDoc](https://github.com/cbbrowne/autodoc) documents the relation structure of PostgreSQL databases \[Rod Taylor\]
 *   [DOTML](http://www.martin-loetzsch.de/DOTML/) \- XML markup to mirror dot language. Includes scripts and XSLT to transform and render \[Martin Loetzsch\]
 *   [S-DOT](http://www.martin-loetzsch.de/S-DOT/) \- a Common Lisp interface to dot \[also Martin Loetzsch\]
