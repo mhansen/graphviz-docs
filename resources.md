@@ -277,7 +277,6 @@ Relational structures abound in the study of biological and chemical information
 
 ## Third-Party Distributions {#third-party-distributions}
 
-*   [Axel Thimm](http://atrpms.net/name/graphviz/) \- rpms for some RedHat Linux distributions ("atrpms").
 *   [RPM Find](http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=) \- many distros and architectures.
 *   [Debian](http://packages.debian.org/search?suite=all&searchon=names&keywords=graphviz) \- Linux packages for several architectures.
 *   [Gentoo](http://packages.gentoo.org/package/media-gfx/graphviz) \- Linux packages.
