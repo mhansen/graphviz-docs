@@ -91,7 +91,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### Swift
 
-*   [GraphViz](https://github.com/swiftDocOrg/graphviz) \- a Swift package for Graphviz \[Mattt\]
+*   [graphviz](https://github.com/swiftDocOrg/graphviz) (2020-2021) \- a Swift package for Graphviz \[Mattt\]
 
 ### MediaWiki
 
