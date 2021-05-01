@@ -19,7 +19,7 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 
 *   Searchable [notes](https://renenyffenegger.ch/notes/tools/Graphviz/examples/index) and examples \[René Nyffenegger\]
 
-## Noteworthy {#latest-greatest}
+## Noteworthy
 
 *   [Sketchviz](https://sketchviz.com/new) generates layouts in a hand-made style.
 *   Javascript / Wasm version of Graphviz via Emscripten [@hpcc-js/wasm](https://www.npmjs.com/package/@hpcc-js/wasm) \[HPCC Systems\] - [github](https://github.com/hpcc-systems/hpcc-js-wasm/)
