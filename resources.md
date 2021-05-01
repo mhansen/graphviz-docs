@@ -80,7 +80,7 @@ Interactive viewers.
 *   [xdot.py](https://github.com/jrfonseca/xdot.py), an interactive viewer for graphs. \[Jose Fonseca\]
 *   [IdeaTree](http://www.myideatree.com/), a platform for concurrent, shared knowledge mapping
 *   [Wigraf](https://github.com/kml/Wigraf), a Windows graphviz frontend based on WinGraphviz and C# .NET. "Graf" is polish for "graph." \[Kamil Lemański\]
-*   [Leonhard](https://github.com/glejeune/Leonhard), a simple viewer/editor for GraphViz, developed with MacRuby. (See the [demo](https://youtu.be/nyfZVGlErTo).)
+*   [Leonhard](https://github.com/glejeune/Leonhard) (2010-2011, abandoned), a simple viewer/editor for GraphViz, developed with MacRuby. (See the [demo](https://youtu.be/nyfZVGlErTo).)
 *   [EasyGraphViz](http://wiki.cyze.jp/wiki.cgi/software?page=EasyGraphViz), a Japanese editor for Graphviz. \[Nikolaos Kavvadias\]
 *   [DotEditor](https://vincenthee.github.io/DotEditor/) (2015), GUI editor of Graphviz graphs
 
