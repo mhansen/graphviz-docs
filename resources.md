@@ -45,7 +45,7 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 
 *   [Eclipse GEF DOT](https://github.com/eclipse/gef/wiki/DOT-User-Guide), an Eclipse plugin that can be used to render and edit DOT graphs within Eclipse. For further information watch the [recorded GEF DOT session](https://www.youtube.com/watch?v=GnSVLNYfGlk) on the EclipseCon Europe 2018. \[Fabian Steeg, Michael Clay, Alexander Nyssen, Matthias Wienand, Tamas Miklossy\]
 *   [EclipseGraphviz](https://github.com/abstratt/eclipsegraphviz) (2020) \- an Eclipse plug-in that provides a Java API for Graphviz and an Image Viewer view that allows easily visualizing the graphical output of your .dot files as you save changes to them.
-*   [EMF To Graphviz](http://sourceforge.net/projects/emf2gv/), an Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz.
+*   [emf2gv](https://marketplace.eclipse.org/content/emf-graphviz-emf2gv) (2012), an Eclipse plugin that helps to transform an [Eclipse Modelling Framework (EMF) model](https://www.eclipse.org/modeling/emf/) into a diagram using Graphviz. [GitHub](https://github.com/jfbrazeau/EMF-To-GraphViz), [Wiki](http://emftools.tuxfamily.org/wiki/doku.php?id=emf2gv:start)
 
 ### Notepad++
 
