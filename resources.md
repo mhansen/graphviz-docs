@@ -21,11 +21,35 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 
 ## Noteworthy {#latest-greatest}
 
-*   Visual Studio Code [plugin](https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz) \[João Pinto,Stephan van Stekelenburg\]
 *   [Sketchviz](https://sketchviz.com/new) generates layouts in a hand-made style.
 *   Javascript / Wasm version of Graphviz via Emscripten [@hpcc-js/wasm](https://www.npmjs.com/package/@hpcc-js/wasm) \[HPCC Systems\] - [github](https://github.com/hpcc-systems/hpcc-js-wasm/)
 *   Javascript version of Graphviz via Emscripten (archived) [viz.js](https://github.com/mdaines/viz.js/) \[Mike Daines\]
 *   Graphviz [pocket reference](https://graphs.grevian.org) \[Josh Hayes-Sheen\]
+
+## Editor plugins
+
+### Visual Studio Code
+
+*   [vscode-graphviz](https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz) plugin \[João Pinto,Stephan van Stekelenburg\]
+
+### Emacs
+
+*   [graphviz-dot-mode](https://github.com/ppareit/graphviz-dot-mode) (or [here](/Misc/graphviz-dot-mode.el)).
+
+### Vim
+
+*   [graphviz.vim](https://github.com/liuchengxu/graphviz.vim) (2021)
+*   [wmgraphviz.vim](https://github.com/wannesm/wmgraphviz.vim) (2010-2018)
+
+### Eclipse
+
+*   [Eclipse GEF DOT](https://github.com/eclipse/gef/wiki/DOT-User-Guide), an Eclipse plugin that can be used to render and edit DOT graphs within Eclipse. For further information watch the [recorded GEF DOT session](https://www.youtube.com/watch?v=GnSVLNYfGlk) on the EclipseCon Europe 2018. \[Fabian Steeg, Michael Clay, Alexander Nyssen, Matthias Wienand, Tamas Miklossy\]
+*   [EclipseGraphviz](https://github.com/abstratt/eclipsegraphviz) (2020) \- an Eclipse plug-in that provides a Java API for Graphviz and an Image Viewer view that allows easily visualizing the graphical output of your .dot files as you save changes to them.
+*   [EMF To Graphviz](http://sourceforge.net/projects/emf2gv/), an Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz.
+
+### Notepad++
+
+* [NppGraphViz](https://github.com/jrebacz/NppGraphViz) (2015-2021) \- A Notepad++ plugin that sends the current tab's document to a GraphViz preview window.
 
 ## Graphical Interfaces {#graphical-interfaces}
 
@@ -41,7 +65,6 @@ Interactive viewers.
 *   [Graphviz Test Tool](https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool), a GUI front-end for Graphviz \[Hansuli Anderegg \]
 *   [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/), a dual-view Graphviz editor \[Hermann Stamm-Wilbrandt\]
 *   [jQuery.Graphviz](https://github.com/goinnn/jquery.graphviz), a jQuery based interactive graph viewer for graphviz svg \[Pablo Martín\]
-*   [Eclipse GEF DOT](https://github.com/eclipse/gef/wiki/DOT-User-Guide), an Eclipse plugin that can be used to render and edit DOT graphs within Eclipse. For further information watch the [recorded GEF DOT session](https://www.youtube.com/watch?v=GnSVLNYfGlk) on the EclipseCon Europe 2018. \[Fabian Steeg, Michael Clay, Alexander Nyssen, Matthias Wienand, Tamas Miklossy\]
 *   [NodeViz](https://code.google.com/p/nodeviz/), a framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients \[Greg Michalec and Skye Bender-deMoll\]
 *   [GraphSpe](http://www.graphspe.com/#/Home), includes a converter for Microsoft Silverlight Xaml (SVG based) \[Ceyhun Ciper\]
 *   [Graphviz4Net](https://github.com/frblondin/Graphviz4Net) provides Windows Presentation Foundation (WPF) control that is capable of rendering graph layouts using Graphviz. \[Štěpán Šindelář\]
@@ -107,7 +130,6 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 ### Java
 
 *   [graphviz-java](https://github.com/nidi3/graphviz-java) (2015-2021) \- Use graphviz with pure Java
-*   [EclipseGraphviz](https://github.com/abstratt/eclipsegraphviz) (2020) \- an Eclipse plug-in that provides a Java API for Graphviz and an Image Viewer view that allows easily visualizing the graphical output of your .dot files as you save changes to them.
 *   [JPGD](http://www.alexander-merz.com/graphviz/) (2006-2016): A Java parser for Graphviz documents [\[Alexander Merz\]](http://www.alexander-merz.com/)
 *   [Java API](https://github.com/jabbalaci/graphviz-java-api) \[Laszlo Szathmary\]
 *   [PayPal's digraph-parser](https://github.com/paypal/digraph-parser) (2017 - now Archived) \- Simple, standalone Java parser for digraph DSL (domain-specific language) in Graphviz DOT syntax.
@@ -187,7 +209,6 @@ Filters that transform other data sources and formats into Graphviz.
 *   [SQL Fairy](http://sqlfairy.sourceforge.net/) \- a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) \[Szilárd Vajda\]
 *   gprof filters - [pl\_from\_gprof](/Misc/pl_from_gprof.pl) and [dot\_from\_pl](/Misc/dot_from_pl.pl) \[Robert Nielsen\] and an old [gprof2dot.awk](/Misc/gprof2dot.awk) \[Stephen North\]
 *   [DBGraphNav](https://code.google.com/p/dbgraphnav/), a tool to facilitate the browsing of data within relational databases. \[Paul McMillan\]
-*   [EMF To Graphviz](http://sourceforge.net/projects/emf2gv/), an Eclipse plugin that helps to transform an EMF model into a diagram using Graphviz.
 
 ## Network and Web Engineering Tools Using Graphviz
 
@@ -269,7 +290,6 @@ Relational structures abound in the study of biological and chemical information
 
 ## Document preparation with Graphviz {#document-preparation}
 
-*   [graphviz mode for emacs](https://github.com/ppareit/graphviz-dot-mode) (or [here](/Misc/graphviz-dot-mode.el)).
 *   [Visustin flow chart generator](http://www.aivosto.com/visustin.html) \[Aivosto\]
 *   [Mac OmniGraffle](http://www.omnigroup.com/products/omnigraffle/) \[Omni Group\]
 *   [wdot.rb](https://github.com/siuyin/wdot/blob/master/wdot.rb/), a tool that allows workflow diagrams and flowcharts to be easily created and updated. \[Loh Siu Yin\]
