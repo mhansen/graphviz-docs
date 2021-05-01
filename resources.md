@@ -144,7 +144,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### R
 
-*   See below for [R-Graphviz](#Rgraphviz)
+*   [R-Graphviz](http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html) ([guide](http://www.bioconductor.org/packages/release/bioc/vignettes/Rgraphviz/inst/doc/newRgraphvizInterface.pdf)) from the Bio-Conductor project integrates graphs and statistical models. \[Robert Gentleman, Jeff Gentry and the R team\]
 
 ### Web Server
 
@@ -258,7 +258,6 @@ Users interested in general network monitoring tools can find a comparison of so
 Relational structures abound in the study of biological and chemical information. The following list barely scratches the surface.
 
 *   [HasseManager](https://github.com/peter-lind/hasse-manager/tree/master/HasseManager) for visualizing relations between chemical structures used in fragment-based drug discovery, as described in the [Journal of Chemical Information and Modelling](http://pubs.acs.org/doi/abs/10.1021/ci4004464) \[Peter Lind\]
-*   [R-Graphviz](http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html) ([guide](http://www.bioconductor.org/packages/release/bioc/vignettes/Rgraphviz/inst/doc/newRgraphvizInterface.pdf)) from the Bio-Conductor project integrates graphs and statistical models. \[Robert Gentleman, Jeff Gentry and the R team\]
 *   _Science_ Online [protein database visualization](http://www.stke.org/) (click on Connections - free registration and [SVG plugin](http://www.adobe.com/svg/viewer/install/main.html) required, may need [beta](http://www.adobe.com/svg/viewer/install/beta.html) for Mozilla FireFox) \[American Association for the Advancement of Science (AAAS) and Stanford University Digital Libraries Project\]
 *   [Pubgene](http://www.PubGene.com) \- Bioinformatic Solutions and Databases for Genomics, Proteomics, and Drug Discovery
 
