@@ -235,7 +235,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [Maria](http://www.tcs.hut.fi/Software/maria/index.en.html) \- Modular Reachability Analyzer - a reachability analyzer for concurrent systems that uses Algebraic System Nets as its modelling formalism \[Marko Mäkelä\]
 *   [IsaViz](http://www.w3.org/2001/11/IsaViz/): A Visual Authoring Tool for RDF \[Emmanuel Pietriga\]
 *   [Finite State Machine web visualization](http://www.let.rug.nl/vannoord/Fsa/) interactively accepts input from a form \[Gertjan van Noord\]
-*   [RPMGraph](http://freecode.com/projects/rpmgraph) uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems \[Andrea Lombardoni\]
+*   [rpmgraph](https://github.com/rpm-software-management/rpm/blob/master/doc/rpmgraph.8), part of `rpm-devel` package ([source](https://github.com/rpm-software-management/rpm/blob/master/tools/rpmgraph.c)), uses neato to draw a graph of dependencies between RPMs on RedHat or other RPM based systems \[Andrea Lombardoni\]
 *   [Compendium-TA](http://www.compendiumdev.co.uk/compendium-ta/default.php), an integrated package of modelling tools which uses Graphviz for graph layouts \[Alan Richardson\]
 *   [CodeViz](https://github.com/petersenna/codeviz) \- a call graph generation utility for C/C++ that assumes dot for its back end \[Mel Gorman\]
 *   [Pimentech-DbUtils](http://www.pimentech.fr/technologies/outils/) \- utils for writing patterns databases in XML (Extended Entities Relationship diagram (ERA)) and exporting them to graphviz and sql.
