@@ -252,7 +252,7 @@ Users interested in general network monitoring tools can find a comparison of so
 ## Programming and Software Engineering Tools Using Graphviz {#software-engineering}
 
 *   [CAIRIS](https://cairis.org/) is a platform for specifying and modelling secure and usable systems. \[Shamal Faily\]
-*   [ERD](https://github.com/BurntSushi/erd) (Entity-Relationship Diagram) translates a plain text description of a relational database schema to a graphical entity-relationship diagram. \[Andrew Gallant\]
+*   [ERD (Entity-Relationship Diagram)](https://github.com/BurntSushi/erd) (2019-2021) translates a plain text description of a relational database schema to a graphical entity-relationship diagram. \[Andrew Gallant\]
 *   [TheHat workflow engine](https://fedorahosted.org/TheHat/) based on IRC, XMPP (Jabber) shows workflows in auto-refreshing webpages \[Dave Parker\]
 *   [anifsm](http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html) animates graphs in dot format via tcldot (part of the [TorX](http://fmt.cs.utwente.nl/tools/torxviz/) software visualization suite) \[Alex Belinfante and TorX consortium\]
 *   [doxygen](https://www.doxygen.org/) uses graphviz to produce class hierarchies and other diagrams directly from source code \[Dimitri van Heesch\]
