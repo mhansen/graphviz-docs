@@ -95,6 +95,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 ### Go
 
 *   [gographviz](http://code.google.com/p/gographviz/) \- a Graphviz parser for go \[Walter Schulze\].
+*   [go-dfd](https://github.com/marqeta/go-dfd) \- Generates Data Flow Diagrams in Graphviz format.
 
 ### Django
 
