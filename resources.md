@@ -109,6 +109,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [EclipseGraphviz](https://github.com/abstratt/eclipsegraphviz) (2020) \- an Eclipse plug-in that provides a Java API for Graphviz and an Image Viewer view that allows easily visualizing the graphical output of your .dot files as you save changes to them.
 *   [JPGD](http://www.alexander-merz.com/graphviz/) (2006-2016): A Java parser for Graphviz documents [\[Alexander Merz\]](http://www.alexander-merz.com/)
 *   [Java API](https://github.com/jabbalaci/graphviz-java-api) \[Laszlo Szathmary\]
+*   [PayPal's digraph-parser](https://github.com/paypal/digraph-parser) (2017 - now Archived) \- Simple, standalone Java parser for digraph DSL (domain-specific language) in Graphviz DOT syntax.
 
 ### C# and .NET
 
