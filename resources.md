@@ -261,7 +261,7 @@ Relational structures abound in the study of biological and chemical information
 *   [Ladot](http://brighten.bigw.org/projects/ladot/): scripts for including LaTeX in your Graphviz files \[Brighten Godfrey\]
 *   [graphviz.tex](http://code.google.com/p/hamake/source/browse/trunk/doc/whitepaper/graphviz.tex?r=452): macros for including Graphviz in your LaTeX files \[Derek Rayside\]
 *   [TeXmacs](http://www.texmacs.org/), a scientific text editor, inspired by TeX and GNU Emacs, has a Graphviz interface \[Joris van der Hoeven\]
-*   [Visustin flow chart generator](http://www.aivosto.com/visustin.html)\[Aivosto\]
+*   [Visustin flow chart generator](http://www.aivosto.com/visustin.html) \[Aivosto\]
 *   [Mac OmniGraffle](http://www.omnigroup.com/products/omnigraffle/) \[Omni Group\]
 *   [wdot.rb](https://github.com/siuyin/wdot/blob/master/wdot.rb/), a tool that allows workflow diagrams and flowcharts to be easily created and updated.\[Loh Siu Yin\]
 *   [GraphVizio](http://www.calvert.ch/graphvizio/) is an addin for Visio to lay out diagrams using Graphviz (also see [blog post](http://www.calvert.ch/maurice/2010/05/11/graphvizio-a-graphviz-addin-for-visio/)). \[Maurice Calvert\]
