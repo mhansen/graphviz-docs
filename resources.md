@@ -61,7 +61,7 @@ Interactive viewers.
 *   [preview-dot](https://github.com/laingsimon/preview-dot) (2019) visualises Graphviz graphs (with a .gv extension) within the preview pane of Windows Explorer and Outlook. \[Simon Laing\]
 *   [d3-graphviz](https://github.com/magjac/d3-graphviz) Renders SVG from graphs described in the DOT language using the @hpcc-js/wasm port of Graphviz and does animated transitions between graphs. \[Magnus Jacobsson\]
 *   [jquery.graphviz.svg](https://github.com/mountainstorm/jquery.graphviz.svg/), jQuery plugin to make Graphviz SVG output more interactive and easier to navigate. \[Rich Cooper\]
-*   [Liviz.js](http://ushiroad.com/jsviz/), DHTML-based interactive viewer for Graphviz \[Satoshi Ueyama\]
+*   [Liviz.js](http://ushiroad.com/jsviz/about/) (2011-2012), DHTML-based interactive viewer for Graphviz. [Github](https://github.com/gyuque/livizjs), [Demo](http://ushiroad.com/jsviz/) \[Satoshi Ueyama\]
 *   [Graphviz Test Tool](https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool), a GUI front-end for Graphviz \[Hansuli Anderegg\]
 *   [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/), a dual-view Graphviz editor \[Hermann Stamm-Wilbrandt\]
 *   [jQuery.Graphviz](https://github.com/goinnn/jquery.graphviz), a jQuery based interactive graph viewer for graphviz svg \[Pablo Martín\]
