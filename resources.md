@@ -250,7 +250,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [TheHat workflow engine](https://fedorahosted.org/TheHat/) based on IRC, XMPP (Jabber) shows workflows in auto-refreshing webpages \[Dave Parker\]
 *   [anifsm](http://fmt.cs.utwente.nl/tools/torx/anifsm.1.html) animates graphs in dot format via tcldot (part of the [TorX](http://fmt.cs.utwente.nl/tools/torxviz/) software visualization suite) \[Alex Belinfante and TorX consortium\]
 *   [doxygen](https://www.doxygen.org/) uses graphviz to produce class hierarchies and other diagrams directly from source code \[Dimitri van Heesch\]
-*   [nmdepend](http://nmdepend.sourceforge.net/) is a lightweight link-time dependency analyzer for C/C++ object files and libraries, helps manage cross-directory dependencies \[Eddy Pronk\]
+*   [nmdepend](https://sourceforge.net/projects/nmdepend/) (2004-2013, abandoned) is a lightweight link-time dependency analyzer for C/C++ object files and libraries, helps manage cross-directory dependencies \[Eddy Pronk\]
 *   [Lambda Animator](http://thyer.name/lambda-animator/) is a tool for demonstrating and experimenting with alternative reduction strategies in the lambda-calculus \[Mike Thyer\]
 *   [AsmL](http://research.microsoft.com/en-us/projects/asml/) an executable specification language from Microsoft Research.
 *   [UMLGraph](http://www.umlgraph.org/) \- a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot \[Diomidis Spinellis\] (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-)
