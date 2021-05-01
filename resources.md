@@ -268,7 +268,6 @@ Relational structures abound in the study of biological and chemical information
 
 ## Social Networking and Collaborative Work {#social-networking}
 
-*   [Proximity Subgraphs](http://www2.research.att.com/~volinsky/cgi-bin/prox/prox.pl) \- visualize communities in the Internet Movie Database
 *   [Hammond Jazz Inventory](http://www.hammondjazz.net/index.php?page=article&task=current&mode=detail&section=News&target=70) \- show graphical representation of musicians related by recordings in which the Hammond organ plays a significant role (orghammograms!)
 
 ## Third-Party Distributions {#third-party-distributions}
