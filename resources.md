@@ -62,7 +62,7 @@ Interactive viewers.
 *   [d3-graphviz](https://github.com/magjac/d3-graphviz) Renders SVG from graphs described in the DOT language using the @hpcc-js/wasm port of Graphviz and does animated transitions between graphs. \[Magnus Jacobsson\]
 *   [jquery.graphviz.svg](https://github.com/mountainstorm/jquery.graphviz.svg/), jQuery plugin to make Graphviz SVG output more interactive and easier to navigate. \[Rich Cooper\]
 *   [Liviz.js](http://ushiroad.com/jsviz/about/) (2011-2012), DHTML-based interactive viewer for Graphviz. [Github](https://github.com/gyuque/livizjs), [Demo](http://ushiroad.com/jsviz/) \[Satoshi Ueyama\]
-*   [Graphviz Test Tool](https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool), a GUI front-end for Graphviz \[Hansuli Anderegg\]
+*   [Graphviz Test Tool](https://sites.google.com/site/kuabus/programming-by-hu/graphviz-test-tool) (2014, abandoned), a Java GUI front-end for Graphviz \[Hansuli Anderegg\]
 *   [GraphvizFiddle](https://stamm-wilbrandt.de/GraphvizFiddle/), a dual-view Graphviz editor \[Hermann Stamm-Wilbrandt\]
 *   [jQuery.Graphviz](https://github.com/goinnn/jquery.graphviz), a jQuery based interactive graph viewer for graphviz svg \[Pablo Martín\]
 *   [NodeViz](https://code.google.com/p/nodeviz/), a framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients \[Greg Michalec and Skye Bender-deMoll\]
