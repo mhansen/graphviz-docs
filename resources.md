@@ -168,7 +168,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 ### PHP
 
 *   [GraPHP](https://github.com/graphp/graphviz) (2015-2021) \- Graphviz bindings for PHP
-*   [Image_Graphviz](http://pear.php.net/package-info.php?package=Image_Graphviz) class in PHP's [PEAR repository](http://pear.php.net/) \[Sebastian Bergmann\]
+*   [Image_Graphviz](https://pear.php.net/package/Image_GraphViz) (2002-2010) Interface to GraphViz tools \[Sebastian Bergmann\]
 
 ## Generators and Translators {#generators-and-translators}
 
