@@ -165,6 +165,11 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [graphviz.tex](https://github.com/codeminders/hamake/blob/master/doc/whitepaper/graphviz.tex): macros for including Graphviz in your LaTeX files \[Derek Rayside\]
 *   [TeXmacs](http://www.texmacs.org/), a scientific text editor, inspired by TeX and GNU Emacs, has a Graphviz interface \[Joris van der Hoeven\]
 
+### PHP
+
+*   [GraPHP](https://github.com/graphp/graphviz) (2015-2021) \- Graphviz bindings for PHP
+*   [Image_Graphviz](http://pear.php.net/package-info.php?package=Image_Graphviz) class in PHP's [PEAR repository](http://pear.php.net/) \[Sebastian Bergmann\]
+
 ## Generators and Translators {#generators-and-translators}
 
 Filters that transform other data sources and formats into Graphviz.
@@ -193,7 +198,6 @@ Filters that transform other data sources and formats into Graphviz.
 *   [CSO Online](http://www.csoonline.com/article/348317/What_a_Botnet_Looks_Like): What a Botnet Looks like (Flash) \[David Vorel\]
 *   [EFnet](http://map.efnet.net) IRC Network server routing maps \[Douglas Boldt\]
 *   [netmap](http://netmap.sourceforge.net/) draws the route connecting you with the Internet
-*   [Image_Graphviz](http://pear.php.net/package-info.php?package=Image_Graphviz) class in PHP's [PEAR repository](http://pear.php.net/) \[Sebastian Bergmann\]
 *   [phpOpenTracker](http://www.phpopentracker.de/) provides a framework solution for the analysis of website traffic and visitor analysis. \[Sebastian Bergmann\]
 *   [Pathalizer](http://pathalizer.sourceforge.net/) visualizes paths traversed by users through web sites \[Arnout Engelen\]
 *   [apache2dot](http://www.chaosreigns.com/code/apache2dot/) Apache log file visualizer
