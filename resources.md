@@ -71,7 +71,8 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### MediaWiki
 
-*   [MediaWiki](http://www.mediawiki.org/wiki/Extension:GraphViz) extension \[Coffman\]
+*   [Extension:GraphViz](http://www.mediawiki.org/wiki/Extension:GraphViz) \[Coffman\]
+*   [mediawiki-graph](http://search.cpan.org/~tels/mediawiki-graph/) (2006) integrates integrate [Graph::Easy](http://search.cpan.org/~tels/Graph-Easy/) into MediaWiki.
 
 ### Drupal
 
@@ -129,7 +130,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [GraphViz::DBI](http://search.cpan.org/search?dist=GraphViz-DBI) \- graph database tables and their relationships \[Marcel Grunauer\]
 *   [100 more hits in CPAN](http://search.cpan.org/search?query=graphviz&mode=all)
 *   [GraphViz::ISA](http://search.cpan.org/~marcel/GraphViz-ISA-1.100860/lib/GraphViz/ISA.pm) \- graph Perl packages' ISA runtime hierarchies \[Marcel Grunauer\]
-*   [Graph::Easy](http://search.cpan.org/~tels/Graph-Easy/) is a rectilinear graph drawing program compatible with Graphviz and written entirely in perl for ease of installation. It also has a [MediaWiki](http://search.cpan.org/~tels/mediawiki-graph/) extension. \[Tels\]
+*   [Graph::Easy](http://search.cpan.org/~tels/Graph-Easy/) is a rectilinear graph drawing program compatible with Graphviz and written entirely in perl for ease of installation. \[Tels\]
 
 ### Ruby
 
