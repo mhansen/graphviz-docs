@@ -274,8 +274,8 @@ Relational structures abound in the study of biological and chemical information
 
 *   [Axel Thimm](http://atrpms.net/name/graphviz/) \- rpms for some RedHat Linux distributions ("atrpms").
 *   [RPM Find](http://fr2.rpmfind.net/linux/rpm2html/search.php?query=graphviz&submit=Search+...&system=&arch=) \- many distros and architectures.
-*    [![debian logo](/Resources/debian-logo.png) Debian](http://packages.debian.org/search?suite=all&searchon=names&keywords=graphviz) \- Linux packages for several architectures.
-*    [![gentoo logo](/Resources/gentoo.jpeg) Gentoo](http://packages.gentoo.org/package/media-gfx/graphviz) \- Linux packages.
-*    [![fedora logo](/Resources/fedora_logo.png) Fedora Extras](http://download.fedora.redhat.com/pub/fedora/linux/extras/) \- rpms for Fedora Core 3 and later.
-*    [![suse logo](/Resources/suse-logo.png) SuSE](http://software.opensuse.org/search?q=graphviz) \- rpms for Novell/SuSE distributions for many architectures.
-*    [![ubuntu logo](/Resources/ubuntu-logo.png) Ubuntu](http://packages.ubuntu.com/search?keywords=graphviz&searchon=names&suite=all&section=all) \- Linux packages.
+*   [Debian](http://packages.debian.org/search?suite=all&searchon=names&keywords=graphviz) \- Linux packages for several architectures.
+*   [Gentoo](http://packages.gentoo.org/package/media-gfx/graphviz) \- Linux packages.
+*   [Fedora Extras](http://download.fedora.redhat.com/pub/fedora/linux/extras/) \- rpms for Fedora Core 3 and later.
+*   [SuSE](http://software.opensuse.org/search?q=graphviz) \- rpms for Novell/SuSE distributions for many architectures.
+*   [Ubuntu](http://packages.ubuntu.com/search?keywords=graphviz&searchon=names&suite=all&section=all) \- Linux packages.
