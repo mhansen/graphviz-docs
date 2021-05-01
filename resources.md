@@ -95,7 +95,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 ### Go
 
 *   [gonum](https://pkg.go.dev/gonum.org/v1/gonum/graph) \- Generalized graph package, reads and emits Graphviz format.
-*   [gographviz](http://code.google.com/p/gographviz/) \- a Graphviz parser for go \[Walter Schulze\].
+*   [gographviz](https://github.com/awalterschulze/gographviz) \- a Graphviz parser for go \[Walter Schulze\].
 *   [go-dfd](https://github.com/marqeta/go-dfd) \- Generates Data Flow Diagrams in Graphviz format.
 
 ### Django
