@@ -90,6 +90,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [yapgvb](http://yapgvb.sourceforge.net/) Yet Another Graphviz Python Binding \[Lonnie Princehouse\]
 *   [mfgraph](http://realmike.org) \- C++ interface with native bindings for python \[Michael Föetsch\]
 *   [GvGen](https://github.com/stricaud/gvgen) \- a python class to generate dot files \[Sebastien Tricaud\]
+*   [pytm](https://github.com/izar/pytm/) \- A Pythonic framework for threat modeling, generating diagrams with Graphviz
 
 ### Go
 
