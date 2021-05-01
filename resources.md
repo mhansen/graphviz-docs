@@ -222,7 +222,7 @@ Filters that transform other data sources and formats into Graphviz.
 *   [netmap](https://sourceforge.net/projects/netmap/) (2013) draws the route connecting you with the Internet
 *   [phpOpenTracker](http://www.phpopentracker.de/) provides a framework solution for the analysis of website traffic and visitor analysis. \[Sebastian Bergmann\]
 *   [Pathalizer](http://pathalizer.sourceforge.net/) visualizes paths traversed by users through web sites \[Arnout Engelen\]
-*   [apache2dot](http://www.chaosreigns.com/code/apache2dot/) Apache log file visualizer
+*   [apache2dot.pl](http://www.chaosreigns.com/code/apache2dot/) (2005) parses an Apache log file to a format suitable for use with neato or dot, displaying links as they are being followed within your web site.
 *   [sig2dot](http://www.chaosreigns.com/code/sig2dot/) generates a graph of all of the signature relationships in a GPG/PGP keyring
 *   [PHP+Graphviz tool](http://www.hotscripts.com/listing/php-traverser/) that makes a sitemap of a web site dynamically \[Laszlo Szathmary\]
 *   [Rocketfuel](http://www.cs.washington.edu/research/networking/rocketfuel/) ISP mapper (well, look [here](http://www.cs.washington.edu/research/networking/rocketfuel/interactive/)) \[U. Washington\]
