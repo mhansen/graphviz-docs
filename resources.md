@@ -207,7 +207,7 @@ Filters that transform other data sources and formats into Graphviz.
 *   [S-DOT](http://www.martin-loetzsch.de/S-DOT/) \- a Common Lisp interface to dot \[also Martin Loetzsch\]
 *   [Sql2Dot](/Misc/sql2dot/) \- a tiny parser in Java to transform sql into dot for visualizing data structures \[Robert Dale\]
 *   [SqlPP](http://www.codeproject.com/Articles/4603/A-scripted-SQL-query-generation-framework-with-IDE) \- a scripted SQL query generation framework that generates graphviz
-*   [SQL Fairy](http://sqlfairy.sourceforge.net/) \- a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams Graphviz or GD) \[Szilárd Vajda\]
+*   [SQL::Translator (aka SQLFairy)](http://sqlfairy.sourceforge.net/) (2002-2020) \- a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams with Graphviz), [GitHub](https://github.com/dbsrgits/sql-translator) \[Szilárd Vajda\]
 *   gprof filters - [pl\_from\_gprof](/Misc/pl_from_gprof.pl) and [dot\_from\_pl](/Misc/dot_from_pl.pl) \[Robert Nielsen\] and an old [gprof2dot.awk](/Misc/gprof2dot.awk) \[Stephen North\]
 *   [DBGraphNav](https://code.google.com/p/dbgraphnav/), a tool to facilitate the browsing of data within relational databases. \[Paul McMillan\]
 
