@@ -236,6 +236,7 @@ Users interested in general network monitoring tools can find a comparison of so
 
 ## AI and Language Tools Using Graphviz {#ai-and-language}
 
+*   [Keras `plot_model` function](https://keras.io/api/utils/model_plotting_utils/) outputs Keras neural networks to Graphviz format.
 *   Andreas Romeyke's [txt2graph](http://andreas-romeyke.de/txt2graph/txt2graph.html) \- visualize the structure and dependencies of a text read from stdin and generates a dot-File for graphviz to stdout
 *   [Ontoviz](http://protegewiki.stanford.edu/wiki/OntoViz) is a plugin for displaying knowledge base diagrams in the [Protoge](http://protege.stanford.edu/) system
 *   [CanooNet](http://www.canoo.net/services/WordformationDictionary/Controller) , a German word formation dictionary. (Try [_Blockflöte_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=blockfl%F6te&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive), [_Hochschule_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=hochschule&features=%28Cat+N%29%28Gender+F%29&lang=de&country=CH&lookup=caseInSensitive), or [_Massanzug_](http://www.canoo.net/services/WordformationDictionary/Controller?asp=1&input=massanzug&features=%28Cat+N%29%28Gender+M%29&lang=de&country=CH&lookup=caseInSensitive) in the entry field)
