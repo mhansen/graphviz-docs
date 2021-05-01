@@ -199,6 +199,14 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 *   [graphviz package](https://github.com/ivan-m/graphviz) (2008-2020) \- provides bindings for the Dot language used by the Graphviz suite of programs for visualising graphs, as well as functions to call those programs. [Hackage](https://hackage.haskell.org/package/graphviz)
 
+### Common Lisp
+
+*   [s-graphviz](https://github.com/jingtaozf/s-graphviz) (2014-2020) \- an S-expression presentation of GraphViz. The original idea is from S-DOT, but with a full compatiblity of original DOT syntax by following its language definition. \[Xu Jingtao\]
+*   [cl-dot](https://github.com/michaelw/cl-dot) (2005-2020) generates dot (a program in the GraphViz suite) output from arbitrary Lisp data.
+*   [s-dot2](https://notabug.org/cage/s-dot2/) (2018) \- Fork of S-DOT
+*   [cl-graphviz](https://github.com/necto/cl-graphviz) (2012-2015)  provides a CFFI based interface for Graphviz and integrates into `cl-graph`.
+*   [S-DOT](http://www.martin-loetzsch.de/S-DOT/) (2006-2010) \- a Common Lisp interface to dot \[also Martin Loetzsch\]
+
 ## Generators and Translators {#generators-and-translators}
 
 Filters that transform other data sources and formats into Graphviz.
@@ -211,7 +219,6 @@ Filters that transform other data sources and formats into Graphviz.
 *   [Linguine Maps](https://www.softwaresecretweapons.com/lm_hibernate.html) (2006) visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a Java API for diagramming. [GitHub](https://github.com/psimakov/linguine-maps) \[Pavel Simakov\]
 *   [PostgreSQL AutoDoc](https://github.com/cbbrowne/autodoc) documents the relation structure of PostgreSQL databases \[Rod Taylor\]
 *   [DOTML](http://www.martin-loetzsch.de/DOTML/) \- XML markup to mirror dot language. Includes scripts and XSLT to transform and render \[Martin Loetzsch\]
-*   [S-DOT](http://www.martin-loetzsch.de/S-DOT/) \- a Common Lisp interface to dot \[also Martin Loetzsch\]
 *   [Sql2Dot](/Misc/sql2dot/) \- a tiny parser in Java to transform sql into dot for visualizing data structures \[Robert Dale\]
 *   [SqlPP](http://www.codeproject.com/Articles/4603/A-scripted-SQL-query-generation-framework-with-IDE) \- a scripted SQL query generation framework that generates graphviz
 *   [SQL::Translator (aka SQLFairy)](http://sqlfairy.sourceforge.net/) (2002-2020) \- a group of Perl modules that manipulate structure data definitions (mostly database schemas) in interesting ways, such as visualizations of schemas (pseudo-ER diagrams with Graphviz), [GitHub](https://github.com/dbsrgits/sql-translator) \[Szilárd Vajda\]
