@@ -192,6 +192,10 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [GraPHP](https://github.com/graphp/graphviz) (2015-2021) \- Graphviz bindings for PHP
 *   [Image_Graphviz](https://pear.php.net/package/Image_GraphViz) (2002-2010) Interface to GraphViz tools \[Sebastian Bergmann\]
 
+### Haskell
+
+*   [graphviz package](https://github.com/ivan-m/graphviz) (2008-2020) \- provides bindings for the Dot language used by the Graphviz suite of programs for visualising graphs, as well as functions to call those programs. [Hackage](https://hackage.haskell.org/package/graphviz)
+
 ## Generators and Translators {#generators-and-translators}
 
 Filters that transform other data sources and formats into Graphviz.
