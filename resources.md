@@ -114,7 +114,6 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [csdot](https://github.com/harshsikhwal/csdot) - C# interface for graphviz. Can be used to Load and Save graphs. Supports maximum set of attributes associated. [Nuget](https://www.nuget.org/packages/csdot/)
 *   [graphviznet](http://code.google.com/p/graphviznet/)
 *   [QuikGraph](https://github.com/KeRNeLith/QuikGraph)
-*   [Tigris QuickGraph](http://quickgraph.tigris.org/source/browse/quickgraph/trunk/src/)
 
 ### COM
 
