@@ -263,7 +263,7 @@ Relational structures abound in the study of biological and chemical information
 *   [Visustin flow chart generator](http://www.aivosto.com/visustin.html) \[Aivosto\]
 *   [Mac OmniGraffle](http://www.omnigroup.com/products/omnigraffle/) \[Omni Group\]
 *   [wdot.rb](https://github.com/siuyin/wdot/blob/master/wdot.rb/), a tool that allows workflow diagrams and flowcharts to be easily created and updated. \[Loh Siu Yin\]
-*   [GraphVizio](http://www.calvert.ch/graphvizio/) is an addin for Visio to lay out diagrams using Graphviz (also see [blog post](http://www.calvert.ch/maurice/2010/05/11/graphvizio-a-graphviz-addin-for-visio/)). \[Maurice Calvert\]
+*   [GraphVizio](https://www.calvert.ch/graphvizio/) is an addin for Visio to lay out diagrams using Graphviz (also see [blog post](http://www.calvert.ch/maurice/2010/05/11/graphvizio-a-graphviz-addin-for-visio/)). \[Maurice Calvert\]
 
 ## Social Networking and Collaborative Work {#social-networking}
 
