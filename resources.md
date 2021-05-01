@@ -44,7 +44,7 @@ Interactive viewers.
 *   [Eclipse GEF DOT](https://github.com/eclipse/gef/wiki/DOT-User-Guide), an Eclipse plugin that can be used to render and edit DOT graphs within Eclipse. For further information watch the [recorded GEF DOT session](https://www.youtube.com/watch?v=GnSVLNYfGlk) on the EclipseCon Europe 2018. \[Fabian Steeg, Michael Clay, Alexander Nyssen, Matthias Wienand, Tamas Miklossy\]
 *   [NodeViz](http://code.google.com/p/nodeviz/), a framework for mapping relational data to highly styled Graphviz and displaying interactively in web clients \[Greg Michalec and Skye Bender-deMoll\]
 *   [GraphSpe](http://www.graphspe.com/#/Home), includes a converter for Microsoft Silverlight Xaml (SVG based) \[Ceyhun Ciper\]
-*   [Graphviz4Net](http://graphviz4net.codeplex.com/) provides Windows Presentation Foundation (WPF) control that is capable of rendering graph layouts using Graphviz. \[Štěpán Šindelář\]
+*   [Graphviz4Net](https://github.com/frblondin/Graphviz4Net) provides Windows Presentation Foundation (WPF) control that is capable of rendering graph layouts using Graphviz. \[Štěpán Šindelář\]
 *   [ZGRViewer](http://zvtm.sourceforge.net/zgrviewer.html), an SVG-based zooming graph viewer for large graphs \[Emmanuel Pietriga\]
 *   [Instaviz](http://instaviz.com/), graph sketching for the iPhone using Graphviz libraries for rendering. \[Glen Low\]
 *   [idot](http://code.google.com/p/idot/), an incremental Graphviz viewer (Java ≥ 1.5 with the excellent [prefuse](http://prefuse.org/) toolkit). \[Mikko Vinni\]
