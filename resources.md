@@ -196,8 +196,9 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 Filters that transform other data sources and formats into Graphviz.
 
-*   [Excel to Graphviz (1)](https://sourceforge.net/projects/excel-to-graphviz/), a tool for visualizing Excel data as graphs \[Matt Castelli\]
+*   [Excel to Graphviz (1)](https://sourceforge.net/projects/excel-to-graphviz/) (2017), a tool for visualizing Excel data as graphs \[Matt Castelli\]
 *   [Excel to Graphviz (2)](https://sourceforge.net/projects/relationship-visualizer/), a tool for visualizing Excel data as graphs \[Jeffrey Long\]
+*   [ExcelToGraphviz](https://github.com/partrickli/ExcelToGraphviz) (2018), node.js tool converting Excel sheets to graphviz \[partrickli\]
 *   [Graph API](https://drupal.org/project/graphapi/), a Drupal graph generation module with Graphviz Dot output capabilities. \[Sebastian Daniel\]
 *   [SchemaSpy](http://schemaspy.sourceforge.net/) analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables \[John Currier\]
 *   [Linguine Maps](https://www.softwaresecretweapons.com/lm_hibernate.html) (2006) visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a Java API for diagramming. [GitHub](https://github.com/psimakov/linguine-maps) \[Pavel Simakov\]
