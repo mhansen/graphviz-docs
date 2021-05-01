@@ -23,7 +23,7 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 
 *   [Sketchviz](https://sketchviz.com/new) generates layouts in a hand-made style.
 *   Javascript / Wasm version of Graphviz via Emscripten [@hpcc-js/wasm](https://www.npmjs.com/package/@hpcc-js/wasm) \[HPCC Systems\] - [github](https://github.com/hpcc-systems/hpcc-js-wasm/)
-*   Javascript version of Graphviz via Emscripten (archived) [viz.js](https://github.com/mdaines/viz.js/) \[Mike Daines\]
+*   [viz.js](https://github.com/mdaines/viz.js/) (2013-2018, now archived) \- Javascript version of Graphviz via Emscripten \[Mike Daines\]
 *   Graphviz [pocket reference](https://graphs.grevian.org) \[Josh Hayes-Sheen\]
 
 ## Editor plugins
