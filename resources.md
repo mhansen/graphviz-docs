@@ -162,13 +162,16 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [Ruby-Graphviz](https://github.com/glejeune/Ruby-Graphviz/) \- Ruby interface to Graphviz \[Grégoire Lejeune\]
 
 ### MATLAB
-
+`
 *   [graphviz4matlab](https://github.com/graphviz4matlab/graphviz4matlab) (2017) \- Matlab interface to Graphviz graph layout package. Allows interactive editing of the resulting graphs.
 *   [MATLAB - GraphViz interface](https://www.mathworks.com/matlabcentral/fileexchange/4518-matlab-graphviz-interface) (2004) \[Leon Peshkin\]
 
 ### R
 
 *   [R-Graphviz](http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html) ([guide](http://www.bioconductor.org/packages/release/bioc/vignettes/Rgraphviz/inst/doc/newRgraphvizInterface.pdf)) from the Bio-Conductor project integrates graphs and statistical models. \[Robert Gentleman, Jeff Gentry and the R team\]
+*   [DiagrammeR](https://github.com/rich-iannone/DiagrammeR) (2015-2020) \- visualises graphs and networks using tabular data in R, and can [emit Graphviz DOT code with `render_graph(output = "DOT")`](https://rich-iannone.github.io/DiagrammeR/graph_creation.html)
+
+
 
 ### Web Server
 
