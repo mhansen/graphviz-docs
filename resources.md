@@ -139,7 +139,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### MATLAB
 
-*   [MatLab](http://www.mathworks.com/matlabcentral/fileexchange/4518) \[Leon Peshkin\]
+*   [MATLAB - GraphViz interface](https://www.mathworks.com/matlabcentral/fileexchange/4518-matlab-graphviz-interface) (2004) \[Leon Peshkin\]
 
 ### R
 
