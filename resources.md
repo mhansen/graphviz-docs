@@ -30,7 +30,7 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 
 ### Visual Studio Code
 
-*   [vscode-graphviz](https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz) plugin \[João Pinto,Stephan van Stekelenburg\]
+*   [vscode-graphviz](https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz) plugin (2018-2020) \[João Pinto,Stephan van Stekelenburg\]
 
 ### Emacs
 
