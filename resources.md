@@ -255,7 +255,6 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [AsmL](http://research.microsoft.com/en-us/projects/asml/) an executable specification language from Microsoft Research.
 *   [UMLGraph](http://www.umlgraph.org/) \- a Java tool for the Declarative Drawing of UML diagrams which generates diagrams using dot \[Diomidis Spinellis\] (Diomidis also contributed code for a richer set of arrow heads for dot, which he claims were really part of a stealthy plot to have Graphviz taken over by the UML community. :-)
 *   [Merisedot](http://oss.phear.org/merisedot/) \- a tool to generate MCD Entity/Relation graphics of Merise. (Seulement en Français)
-*   [RDOC](http://rdoc.sourceforge.net) Ruby documentation \[Dave Thomas\]
 *   [YaccViso](http://www.lo-res.org/~aaron/yaccviso/) YACC visualization tool
 *   [Callgrind](http://kcachegrind.sourceforge.net/cgi-bin/show.cgi) makes callgraphs from [Valgrind](http://kcachegrind.sourceforge.net/cgi-bin/show.cgi/KcacheGrindValgrind) \[Jörg Schillin and Josef Weidendorfer\]
 *   [Maria](http://www.tcs.hut.fi/Software/maria/index.en.html) \- Modular Reachability Analyzer - a reachability analyzer for concurrent systems that uses Algebraic System Nets as its modelling formalism \[Marko Mäkelä\]
