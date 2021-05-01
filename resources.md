@@ -287,3 +287,4 @@ Relational structures abound in the study of biological and chemical information
 *   [Fedora](https://src.fedoraproject.org/rpms/graphviz/) \- rpms.
 *   [SuSE](https://software.opensuse.org/search?q=graphviz) \- rpms for Novell/SuSE distributions for many architectures.
 *   [Ubuntu](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names&suite=all&section=all) \- Linux packages.
+*   [Arch Linux](https://archlinux.org/packages/?name=graphviz) package
