@@ -139,6 +139,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### MATLAB
 
+*   [graphviz4matlab](https://github.com/graphviz4matlab/graphviz4matlab) (2017) \- Matlab interface to Graphviz graph layout package. Allows interactive editing of the resulting graphs.
 *   [MATLAB - GraphViz interface](https://www.mathworks.com/matlabcentral/fileexchange/4518-matlab-graphviz-interface) (2004) \[Leon Peshkin\]
 
 ### R
