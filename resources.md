@@ -34,7 +34,7 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 
 ### Emacs
 
-*   [graphviz-dot-mode](https://github.com/ppareit/graphviz-dot-mode).
+*   [graphviz-dot-mode](https://github.com/ppareit/graphviz-dot-mode) (2020)
 
 ### Vim
 
