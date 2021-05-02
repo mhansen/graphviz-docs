@@ -214,6 +214,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [machine](https://github.com/rust-bakery/machine) (2015-2019) defines procedural macros to help you write enum based state machines, and can output Graphviz graphs of the generated state machines. [crates.io](https://crates.io/crates/machine)
 *   [macro-machines](https://github.com/spearman/macro-machines) (2017-2020) provides state machine macros with logging and graphviz dotfile generation. [crates.io](https://crates.io/crates/macro-machines)
 *   [tabbycat](https://github.com/SchrodingerZhu/tabbycat) (2020-2021) generate dot graphs with types defined in Rust. [crates.io](https://crates.io/crates/tabbycat)
+*   [cargo-depgraph](https://git.sr.ht/~jplatte/cargo-depgraph) (2020) creates dependency graphs for Cargo projects using Cargo metadata and Graphviz. [crates.io](https://crates.io/crates/cargo-depgraph/)
 
 
 ## Generators and Translators {#generators-and-translators}
