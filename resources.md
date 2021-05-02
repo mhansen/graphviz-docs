@@ -311,6 +311,13 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [Erviz](http://slopjong.de/2011/02/26/whats-erviz/), an entity-relationship diagram generator that converts plain text files to DOT-formatted graphical files for Graphviz. \[Mitsuru Kono\]
 *   [Symfony application-map plugin](http://www.symfony-project.org/plugins/sfApplicationMapPlugin), an easy-to-use documentation tool for the symfony framework community. \[Tomasz Ducin\]
 
+### Configuration Management
+
+*   [Terraform](https://www.terraform.io/)'s `terraform graph` command generates a visual representation of either a configuration or execution plan. The output is in the DOT format, which can be used by GraphViz to generate charts.
+*   [ansible-playbook-grapher](https://github.com/haidaraM/ansible-playbook-grapher) (2017-2021) graphs Ansible playbook execution with Graphviz
+*   [ansible-inventory-grapher](https://github.com/willthames/ansible-inventory-grapher) (2014-2019) graphs Ansible inventory host files with Graphviz.
+*   [Puppet](https://puppet.com/) generates graphviz graphs showing relationships
+
 ### Profilers
 
 *   [pprof](https://github.com/google/pprof) (2005-2021) is a tool for visualization and analysis of profiling data, using Graphviz to layout callgraph profiles.
