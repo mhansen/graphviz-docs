@@ -307,7 +307,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [Grails class diagram plugin](http://grails.org/plugin/class-diagram/) provides an UML-like diagram of grails domain classes. \[Trygve Amundsen\]
 *   [PlantUML](http://plantuml.sourceforge.net/) generates UML diagrams (classes, usecases, activities, components) using a simple text description language. \[Arnaud Roques\]
 *   [javashot](https://code.google.com/p/javashot/) captures the dynamic execution flow of a Java programa. The traces can be viewed using Graphviz.
-*   [scxml2dot](https://code.google.com/p/scxml2dot/) \- a very simple conversion function in perl to plot a finite state machine written in scxml using the graphviz tools. \[Fabrizio Morbini\]
+*   [scxml2dot](https://github.com/fmorbini/scxml2dot) (2010) \- a very simple conversion function in Perl to plot a finite state machine written in State Chart XML (SCXML) using the Graphviz tools. \[Fabrizio Morbini\]
 *   [Erviz](http://slopjong.de/2011/02/26/whats-erviz/), an entity-relationship diagram generator that converts plain text files to DOT-formatted graphical files for Graphviz. \[Mitsuru Kono\]
 *   [Symfony application-map plugin](http://www.symfony-project.org/plugins/sfApplicationMapPlugin), an easy-to-use documentation tool for the symfony framework community. \[Tomasz Ducin\]
 
