@@ -99,7 +99,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### Drupal
 
-*   [Drupal Graphviz Filter](https://drupal.org/project/graphviz_filter) (2008-2020) \[Karim Ratib\]
+*   [graphviz_filter](https://drupal.org/project/graphviz_filter) (2008-2020) \- treats input text as Graphviz DOT syntax, converts it using Graphviz tools to the requested format(s) and renders it in HTML \[Karim Ratib\]
 
 ### Wordpress
 
