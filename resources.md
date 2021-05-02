@@ -100,6 +100,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 ### Drupal
 
 *   [graphviz_filter](https://drupal.org/project/graphviz_filter) (2008-2020) \- treats input text as Graphviz DOT syntax, converts it using Graphviz tools to the requested format(s) and renders it in HTML \[Karim Ratib\]
+*   [graphapi](https://drupal.org/project/graphapi/) (2010-2018), a Drupal graph generation module with Graphviz Dot output capabilities. \[Sebastian Daniel\]
 
 ### Wordpress
 
@@ -225,7 +226,6 @@ Filters that transform other data sources and formats into Graphviz.
 *   [Excel to Graphviz (1)](https://sourceforge.net/projects/excel-to-graphviz/) (2017), a tool for visualizing Excel data as graphs \[Matt Castelli\]
 *   [Excel to Graphviz (2)](https://sourceforge.net/projects/relationship-visualizer/) (2016-2021), VBA macro spreadsheet, visualising Excel data as graphs. [Blog](https://www.jeffrey-long.com/inventions/excel-to-graphviz-relationship-visualizer) \[Jeffrey Long\]
 *   [ExcelToGraphviz](https://github.com/partrickli/ExcelToGraphviz) (2018), node.js tool converting Excel sheets to graphviz \[partrickli\]
-*   [Graph API](https://drupal.org/project/graphapi/), a Drupal graph generation module with Graphviz Dot output capabilities. \[Sebastian Daniel\]
 *   [SchemaSpy](http://schemaspy.sourceforge.net/) analyzes and displays metadata for any database via JDBC, letting you click through a hierarchy of tables \[John Currier\]
 *   [Linguine Maps](https://www.softwaresecretweapons.com/lm_hibernate.html) (2006) visualize XML DTDs, Apache Object Relational Bridge Files, Apache Ant Build files, and provide a Java API for diagramming. [GitHub](https://github.com/psimakov/linguine-maps) \[Pavel Simakov\]
 *   [PostgreSQL AutoDoc](https://github.com/cbbrowne/autodoc) documents the relation structure of PostgreSQL databases \[Rod Taylor\]
