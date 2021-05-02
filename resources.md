@@ -163,6 +163,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [graphr (2012)](https://github.com/louismullie/graphr) \- Graph-related Ruby classes. [RubyGems](https://rubygems.org/gems/graphr/)
 *   [graphr (2001)](http://rockit.sourceforge.net/subprojects/graphr/) Graph-related Ruby classes using graphviz \[Robert Feldt\]
 *   [graphviz](https://github.com/ioquatix/graphviz) (2013-2021) \- A lightweight interface for generating graphs with Graphviz. [RubyGems](https://rubygems.org/gems/graphviz)
+*   [graph](https://github.com/seattlerb/graph) (2009-2020) \- a type of hash that outputs in graphviz's dot format. [RubyGems](https://rubygems.org/gems/graph)
 
 ### MATLAB
 `
