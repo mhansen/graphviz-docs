@@ -211,6 +211,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 *   [dot](https://github.com/przygienda/dot-rust) (2015-2020) \- A library for generating Graphviz DOT language files for graphs, extracted from the private graphviz library in core rust. It is almost entirely the work of the Rust team. [crates.io](https://crates.io/crates/dot)
 *   [gsgdt (Generic Stringly typed Graph DataType)](https://github.com/vn-ki/gsgdt-rs) is an opinionated graph visualization and graph diff visualization library.  [crates.io](https://crates.io/crates/gsgdt)
+*   [machine](https://github.com/rust-bakery/machine) (2015-2019) defines procedural macros to help you write enum based state machines, and can output Graphviz graphs of the generated state machines. [crates.io](https://crates.io/crates/machine)
 
 
 ## Generators and Translators {#generators-and-translators}
