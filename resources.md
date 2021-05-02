@@ -207,6 +207,12 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [cl-graphviz](https://github.com/necto/cl-graphviz) (2012-2015)  provides a CFFI based interface for Graphviz and integrates into `cl-graph`.
 *   [S-DOT](http://www.martin-loetzsch.de/S-DOT/) (2006-2010) \- a Common Lisp interface to dot \[also Martin Loetzsch\]
 
+### Rust
+
+*   [dot](https://github.com/przygienda/dot-rust) (2015-2020) \- A library for generating Graphviz DOT language files for graphs, extracted from the private graphviz library in core rust. It is almost entirely the work of the Rust team. [crates.io](https://crates.io/crates/dot)
+*   [gsgdt (Generic Stringly typed Graph DataType)](https://github.com/vn-ki/gsgdt-rs) is an opinionated graph visualization and graph diff visualization library.  [crates.io](https://crates.io/crates/gsgdt)
+
+
 ## Generators and Translators {#generators-and-translators}
 
 Filters that transform other data sources and formats into Graphviz.
@@ -292,6 +298,10 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [scxml2dot](https://code.google.com/p/scxml2dot/) \- a very simple conversion function in perl to plot a finite state machine written in scxml using the graphviz tools. \[Fabrizio Morbini\]
 *   [Erviz](http://slopjong.de/2011/02/26/whats-erviz/), an entity-relationship diagram generator that converts plain text files to DOT-formatted graphical files for Graphviz. \[Mitsuru Kono\]
 *   [Symfony application-map plugin](http://www.symfony-project.org/plugins/sfApplicationMapPlugin), an easy-to-use documentation tool for the symfony framework community. \[Tomasz Ducin\]
+
+### Profilers
+
+*   [pprof](https://github.com/google/pprof) (2005-2021) is a tool for visualization and analysis of profiling data, using Graphviz to layout callgraph profiles.
 
 ### Build Systems
 
