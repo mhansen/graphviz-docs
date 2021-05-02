@@ -109,13 +109,14 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### Python
 
-*   [Pydot](https://code.google.com/p/pydot/) \- a python interface to Graphviz (Windows comptible).
+*   [Pydot](https://code.google.com/p/pydot/) \- a Python interface to Graphviz (Windows comptible).
 *   [Python-Graph](https://code.google.com/p/python-graph/) \- A library for working with graphs in Python.
-*   [PyGraphviz](http://networkx.lanl.gov/pygraphviz/) \- a python interface to Graphviz similar to NetworkX.
+*   [PyGraphviz](http://networkx.lanl.gov/pygraphviz/) \- a Python interface to Graphviz similar to NetworkX.
 *   [yapgvb](http://yapgvb.sourceforge.net/) Yet Another Graphviz Python Binding \[Lonnie Princehouse\]
-*   [mfgraph](http://realmike.org) \- C++ interface with native bindings for python \[Michael Föetsch\]
-*   [GvGen](https://github.com/stricaud/gvgen) \- a python class to generate dot files \[Sebastien Tricaud\]
+*   [mfgraph](http://realmike.org) \- C++ interface with native bindings for Python \[Michael Föetsch\]
+*   [GvGen](https://github.com/stricaud/gvgen) \- a Python class to generate dot files \[Sebastien Tricaud\]
 *   [pytm](https://github.com/izar/pytm/) \- A Pythonic framework for threat modeling, generating diagrams with Graphviz
+*   [graph-tool](https://graph-tool.skewed.de/) (2006-2021), an efficient Python module for manipulation and statistical analysis of graphs, which includes an interface to GraphViz, via its python bindings. \[Tiago de Paula Peixoto\]
 
 ### Go
 
@@ -261,7 +262,6 @@ Filters that transform other data sources and formats into Graphviz.
 *   [tcpdump2dot filter](https://web.archive.org/web/20071104191340/http://www.grotto-group.com/~gulfie/projects/analysis/tcpdump2dot.subpage.html) to allow admins to network activity \[Gulfie\]
 *   [Visitors, a fast web log analyzer](http://www.hping.org/visitors/) (2004-2006) uses graphviz to display usage patterns showing how users are using your web site. \[Salvatore Sanfilippo\]
 *   [Visualize your firewall](http://jekor.com/gressgraph/) (2008-2020) uses graphviz to produce a graph of your iptables ruleset. [GitHub](https://github.com/jekor/gressgraph) \[Chris Forno\]
-*   [graph-tool](https://graph-tool.skewed.de/), an efficient python module for manipulation and statistical analysis of graphs, which includes an interface to GraphViz, via its python bindings. \[Tiago de Paula Peixoto\]
 
 Users interested in general network monitoring tools can find a comparison of some <a href="https://www.comparitech.com/net-admin/network-monitoring-tools/">here</a>.
 
