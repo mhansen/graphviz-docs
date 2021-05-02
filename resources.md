@@ -323,6 +323,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [makefile2graph](https://github.com/lindenb/makefile2graph) (2014-2018) renders GNU Make Makefiles dependency graphs with Graphviz
 *   [Buck](https://buck.build/) [can render a graph of dependencies using Graphviz](https://buck.build/command/query.html).
 *   [Vizant](http://vizant.sourceforge.net/) (2002-2006) is an Apache Ant task to create Graphviz DOT source code from an Ant buildfile, showing dependencies.
+*   [gradle-visteg](https://github.com/mmalohlava/gradle-visteg) (2014-2021) is a Gradle plugin for exporting task execution graph as .dot file.
 
 ## Bioinformatics and Cheminformatics Tools and Resources Using Graphviz {#bio-informatics}
 
