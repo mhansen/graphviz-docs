@@ -324,6 +324,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [Buck](https://buck.build/) [can render a graph of dependencies using Graphviz](https://buck.build/command/query.html).
 *   [Vizant](http://vizant.sourceforge.net/) (2002-2006) is an Apache Ant task to create Graphviz DOT source code from an Ant buildfile, showing dependencies.
 *   [gradle-visteg](https://github.com/mmalohlava/gradle-visteg) (2014-2021) is a Gradle plugin for exporting task execution graph as .dot file.
+*   [gulp-graph](https://github.com/avengerpenguin/gulp-graph) (2015-2021) creates [Gulp](https://gulpjs.com/) tasks that use Graphviz to generate a dependency graph.
 
 ## Bioinformatics and Cheminformatics Tools and Resources Using Graphviz {#bio-informatics}
 
