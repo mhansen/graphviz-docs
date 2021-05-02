@@ -99,7 +99,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### Drupal
 
-*   [Drupal](https://drupal.org/project/graphviz_filter) Graphviz filter \[Karim Ratib\]
+*   [Drupal Graphviz Filter](https://drupal.org/project/graphviz_filter) (2008-2020) \[Karim Ratib\]
 
 ### Wordpress
 
