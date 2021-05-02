@@ -165,6 +165,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 *   [graphviz](https://github.com/ioquatix/graphviz) (2013-2021) \- A lightweight interface for generating graphs with Graphviz. [RubyGems](https://rubygems.org/gems/graphviz)
 *   [graph](https://github.com/seattlerb/graph) (2009-2020) \- a type of hash that outputs in graphviz's dot format. [RubyGems](https://rubygems.org/gems/graph)
 *   [railroady](https://railroady.prestonlee.com/) (2007-2021) generates Rails 3/4/5 model (ActiveRecord, Mongoid, Datamapper) and controller UML diagrams as cross-platform .svg files, as well as in the DOT language. [GitHub](https://github.com/preston/railroady), [RubyGems](https://rubygems.org/gems/railroady)
+*   [state_machines-graphviz](https://github.com/state-machines/state_machines-graphviz) generates di-graphs based on the events, states, and transitions defined for a state machine using GraphViz. [RubyGems](https://rubygems.org/gems/state_machines-graphviz)
 
 ### MATLAB
 `
