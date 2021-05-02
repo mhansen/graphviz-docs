@@ -308,6 +308,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [Bazel Build System](https://blog.bazel.build/2015/06/17/visualize-your-build.html), [Blogpost](https://docs.bazel.build/query.html#output-graph) (2015) shows a graph of your build dependencies using Graphviz. [Gallery](/Gallery/directed/bazel.html)
 *   [CMake build system](https://cmake.org/) [can generate Graphviz files showing the dependencies between the targets in a project, as well as external libraries which are linked against](https://cmake.org/cmake/help/latest/module/CMakeGraphVizOptions.html).
 *   [Ninja](https://ninja-build.org/manual.html), a small, fast build system, can output graphviz dependency graphs. [Gallery](/Gallery/directed/ninja.html)
+*   [makefile2graph](https://github.com/lindenb/makefile2graph) (2014-2018) renders GNU Make Makefiles dependency graphs with Graphviz
 
 ## Bioinformatics and Cheminformatics Tools and Resources Using Graphviz {#bio-informatics}
 
