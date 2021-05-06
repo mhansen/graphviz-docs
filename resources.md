@@ -297,7 +297,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [Pimentech-DbUtils](http://www.pimentech.fr/technologies/outils/) \- utils for writing patterns databases in XML (Extended Entities Relationship diagram (ERA)) and exporting them to graphviz and sql.
 *   [LJV](https://github.com/atp-mipt/ljv) (Lightweight Java Visualizer) is a tool for visualizing Java data structures with Graphviz. It has been used to good effect in CS1 and CS2-level data structures courses. \[John Hamer\]
 *   [Python call graphs](http://pycallgraph.slowchop.com/en/master/)
-*   [ArgoUML Graphviz](http://argouml-graphviz.tigris.org/) Automatically repositioning all visual elements from UML diagrams that are stored in XMI. These can be exported with DOT to PDF, SVG, PNG, etc. This XLST runs independently of ArgoUML. \[Pander\]
+*   [ArgoUML Graphviz](https://argouml-tigris-org.github.io/tigris/argouml-graphviz/) Automatically repositioning all visual elements from UML diagrams that are stored in XMI. These can be exported with DOT to PDF, SVG, PNG, etc. This XLST runs independently of ArgoUML. \[Pander\]
 *   [Ragel](http://www.complang.org/ragel/) (think "lex") compiles executable finite state machines from regular languages and can generate diagrams of the state machines in DOT format.
 *   [APIviz](http://code.google.com/p/apiviz/) is a JavaDoc doclet which extends the Java standard doclet. It generates comprehensive UML-like class and package diagrams.
 *   [Reverse Snowflake Joins](http://sourceforge.net/projects/revj) is a tool that parses SQL Select statements and generates a diagram.
