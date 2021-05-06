@@ -104,7 +104,6 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 ### Wordpress
 
-*   [EHT Graphviz](http://ociotec.com/index.php/2008/02/25/eht-graphviz-plugin-para-wordpress/) plugin for [Wordpress](http://wordpress.org/), to allow Graphviz images to be easily integrated into a Wordpress page. \[Emilio González Montaña\]
 *   [WP Graphviz](http://wordpress.org/plugins/wp-graphviz/) plugin for [Wordpress](http://wordpress.org/), to allow Graphviz images to be easily integrated into a Wordpress page. \[[DeBAAT](http://profiles.wordpress.org/debaat/)\]
 
 ### Python
