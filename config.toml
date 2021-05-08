@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "Graphviz"
 
 enableRobotsTXT = true
 
@@ -53,8 +53,8 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "Graphviz"
+description = "Graph Visualization Software"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
