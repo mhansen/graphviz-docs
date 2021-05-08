@@ -26,6 +26,8 @@ markdown: kramdown
 plugins: ['jekyll-redirect-from']
 gems:
 exclude:
+  - config.toml
+  - archetypes/
   - Dockerfile
   - Gemfile
   - Gemfile.lock
