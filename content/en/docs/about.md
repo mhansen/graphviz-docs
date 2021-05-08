@@ -1,7 +1,7 @@
 ---
 title: About
 url: /about/
-redirect_from:
+aliases:
   # We want to redirect from /About.php. We need ".php.html" else the
   # redirect page is downloaded to ~/Downloads/ rather than shown in browser. See:
   # https://github.com/jekyll/jekyll-redirect-from/issues/145#issuecomment-392277818
