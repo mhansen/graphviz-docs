@@ -189,3 +189,10 @@ enable = false
 #   url = "https://example.org/mail"
 #   icon = "fa fa-envelope"
 #   desc = "Discuss development issues around the project"
+
+
+[[menu.main]]
+name = "GitLab"
+weight = 50
+pre = "<i class='fab fa-gitlab'></i>"
+url = "https://gitlab.com/graphviz/graphviz"
