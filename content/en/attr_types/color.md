@@ -47,7 +47,7 @@ Please note that Brewer color schemes are covered by this
 
 Examples:
 
-<TABLE border=1>
+<TABLE>
   <TR>
     <TH>Color</TH>
     <TH>RGB</TH>

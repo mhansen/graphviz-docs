@@ -25,7 +25,7 @@ The following table shows some variations of the `yellow:blue` color list
 depending on the [`style`](#d:style) and [`gradientangle`](#d:gradientangle)
 attributes.
 
-<TABLE border=1>
+<TABLE>
   <TR>
     <TH>Gradient angle</TH>
     <TH><code>style=filled</code></TH>

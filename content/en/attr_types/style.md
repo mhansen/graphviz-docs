@@ -70,7 +70,7 @@ The following tables illustrate some of the effects of the style settings.
 Examples of tapered line styles are given below. Examples of linear and
 radial gradient fill can be seen under [`colorList`](#k:colorList).
 
-<TABLE border=1>
+<TABLE>
   <CAPTION>Basic style settings for nodes</CAPTION>
   <TR>
     <TD style="text-align: center;"><code>solid</code></TD>
@@ -98,7 +98,7 @@ radial gradient fill can be seen under [`colorList`](#k:colorList).
   </TR>
 </TABLE>
 
-<TABLE border=1>
+<TABLE>
   <CAPTION>Basic style settings for edges</CAPTION>
   <TR>
     <TD style="text-align: center;"><code>solid</code> </TD>
@@ -114,7 +114,7 @@ radial gradient fill can be seen under [`colorList`](#k:colorList).
   </TR>
 </TABLE>
 
-<TABLE border=1>
+<TABLE>
   <CAPTION>Basic style settings for clusters</CAPTION>
   <TR>
     <TD style="text-align: center;"><code>solid</code> </TD>
@@ -152,7 +152,7 @@ via a [colorList](#k:colorList) are ignored.
 
 The following table illustrates the `style=tapered` with `penwidth=7` and `arrowtail=none`.
 
-<TABLE border=1>
+<TABLE>
   <TR>
     <TD><code>dir</code> \ <code>arrowhead</code></TD>
     <TD style="text-align: center;"><code>normal</code></TD>
