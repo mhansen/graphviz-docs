@@ -25,5 +25,13 @@ followed by all of the nodes. The **_gvid** value is the index of
 the subgraph or node in the **objects** array. This also holds
 true for the edges in the **objects** array. Note that this format
 allows clustered graphs, where edges can connect clusters as well as nodes.
-{% include schema.html %}
+
+<style>
+.jsontable {
+    border: 1px solid black;
+    background-color: beige;
+}
+</style>
+
+{{< schema >}}
 
