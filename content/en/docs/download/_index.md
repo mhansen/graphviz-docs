@@ -89,15 +89,15 @@ You may find it useful to try one of the following third-party sites.
 * [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
 * [Chocolatey packages Graphviz for Windows](https://chocolatey.org/packages/Graphviz).
 
-  ```powershell
-  > choco install graphviz
+  ```
+  choco install graphviz
   ```
 
 * [Windows Package Manager](https://docs.microsoft.com/en-gb/windows/package-manager/) provides
   [Graphviz Windows packages](https://github.com/microsoft/winget-pkgs/tree/master/manifests/Graphviz/Graphviz).
 
-  ```powershell
-  > winget install graphviz
+  ```
+  winget install graphviz
   ```
 
 Mostly correct notes for building Graphviz on Windows can be found
