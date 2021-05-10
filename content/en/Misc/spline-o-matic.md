@@ -1,6 +1,6 @@
 ---
-layout: page
 title: "Graphviz: Spline-o-Matic"
+type: docs
 ---
 <IMG SRC="splino.gif" WIDTH="183" HEIGHT="206">
     

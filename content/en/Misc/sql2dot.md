@@ -1,5 +1,5 @@
 ---
-layout: page
+type: docs
 title: Sql2Dot
 ---
 <p>
