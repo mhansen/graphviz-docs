@@ -8,7 +8,7 @@ minimums: []
 name: pin
 types:
 - bool
-used_by: N
+used_by: "N"
 ---
 Keeps the node at the node's given input position.
 

@@ -7,7 +7,7 @@ minimums:
 name: height
 types:
 - double
-used_by: N
+used_by: "N"
 ---
 Height of node, in inches.
 

@@ -6,7 +6,7 @@ minimums: []
 name: shapefile
 types:
 - string
-used_by: N
+used_by: "N"
 ---
 *(Deprecated)* Specifies a file containing user-supplied node content.
 

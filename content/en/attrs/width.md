@@ -7,7 +7,7 @@ minimums:
 name: width
 types:
 - double
-used_by: N
+used_by: "N"
 ---
 Width of node, in inches.
 

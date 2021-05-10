@@ -7,7 +7,7 @@ name: fixedsize
 types:
 - bool
 - string
-used_by: N
+used_by: "N"
 ---
 If `false`, the size of a node is determined by smallest width and height
 needed to contain its label and image, if any, with a margin specified by

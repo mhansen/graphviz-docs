@@ -6,7 +6,7 @@ minimums: []
 name: vertices
 types:
 - pointList
-used_by: N
+used_by: "N"
 ---
 Sets the coordinates of the vertices of the node's polygon, in inches.
 

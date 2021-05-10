@@ -6,7 +6,7 @@ minimums: []
 name: imagepos
 types:
 - string
-used_by: N
+used_by: "N"
 ---
 Controls how an image is positioned within its containing node.
 

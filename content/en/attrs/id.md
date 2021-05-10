@@ -9,7 +9,7 @@ minimums: []
 name: id
 types:
 - escString
-used_by: GCNE
+used_by: "GCNE"
 ---
 Allows the graph author to provide an identifier for graph objects which is
 to be included in the output.

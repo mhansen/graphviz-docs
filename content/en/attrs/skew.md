@@ -7,7 +7,7 @@ minimums:
 name: skew
 types:
 - double
-used_by: N
+used_by: "N"
 ---
 Skew factor for [`shape`](#d:shape)`=polygon`.
 

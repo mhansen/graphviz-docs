@@ -7,7 +7,7 @@ name: imagescale
 types:
 - bool
 - string
-used_by: N
+used_by: "N"
 ---
 Controls how an image fills its containing node.
 

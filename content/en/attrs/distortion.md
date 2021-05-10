@@ -7,7 +7,7 @@ minimums:
 name: distortion
 types:
 - double
-used_by: N
+used_by: "N"
 ---
 Distortion factor for [`shape`](#d:shape)`=polygon`.
 

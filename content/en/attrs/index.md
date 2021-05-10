@@ -1,3 +1,6 @@
+---
+headless: true
+---
 # Graphviz attributes
 
 `used_by` is a string consisting of `G`,`C`,`N`,`E`, indicating that the attribute

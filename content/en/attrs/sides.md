@@ -7,6 +7,6 @@ minimums:
 name: sides
 types:
 - int
-used_by: N
+used_by: "N"
 ---
 Number of sides when [`shape`](#d:shape)`=polygon`.

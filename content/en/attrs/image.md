@@ -6,7 +6,7 @@ minimums: []
 name: image
 types:
 - string
-used_by: N
+used_by: "N"
 ---
 Gives the name of a file containing an image to be displayed inside a node.
 The image file must be in one of the recognized

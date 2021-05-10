@@ -7,7 +7,7 @@ minimums: []
 name: samplepoints
 types:
 - int
-used_by: N
+used_by: "N"
 ---
 Gives the number of points used for a circle/ellipse node.
 

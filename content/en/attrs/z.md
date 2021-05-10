@@ -8,7 +8,7 @@ minimums:
 name: z
 types:
 - double
-used_by: N
+used_by: "N"
 ---
 **Deprecated:** Use [`pos`](#d:pos) attribute, along with
 [`dimen`](#d:dimen) and/or [`dim`](#d:dim) to specify dimensions.
