@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ .Render "content" }}
+<p>
+  <a href="{{ .Params.svg }}">
+  <img style="max-width:100%;" src="{{ .Params.svg }}">
+	</a>
+</p>
+
+{{ $gv_src := trim (readFile (print .File.Dir .Params.gv_file)) "\n" }}
+
+<p>
+[<a href="{{.Params.gv_file}}">Input .gv File</a>]
+[<a href="{{.Params.svg}}">SVG</a>]
+[<a href="{{.Params.img_src}}">Raster Image</a>]
+[<a href="http://magjac.com/graphviz-visual-editor/?dot={{ $gv_src }}">Open in Playground</a>]
+</p>
+
+<pre><code class="language-dot">{{ $gv_src }}</code></pre>
+
+<p>
+{{- .Params.copyright -}}
+</p>
+{{ end}}
