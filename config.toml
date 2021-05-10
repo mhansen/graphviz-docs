@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://graphviz.org/"
 title = "Graphviz"
 
 enableRobotsTXT = true
