@@ -122,7 +122,8 @@ algolia_docsearch = false
 offlineSearch = false
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
-prism_syntax_highlighting = false
+# Default "Chroma" syntax highlighter has no dot support, so use Prism instead
+prism_syntax_highlighting = true
 
 # User interface configuration
 [params.ui]
