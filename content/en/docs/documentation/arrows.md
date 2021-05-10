@@ -1,6 +1,7 @@
 ---
-layout: page
 title: Arrow Shapes
+url: /doc/info/arrows.html
+weight: 6
 ---
 Arrow shapes can be specified and named using the following simple
 grammar. 
@@ -10,7 +11,7 @@ Square brackets [ and ] enclose optional items.
 Vertical bars | separate alternatives.
 
 <TABLE>
-{% include arrow_grammar.html %}
+{{< arrow_grammar >}}
 </TABLE>
 
 The primitive shapes are:
@@ -87,5 +88,5 @@ arrow shape. The node attached to the arrow is not drawn but would appear
 on the right side of the edge.
 
 <TABLE>
-{% include arrow_table.html %}
+{{< arrow_table >}}
 </TABLE>

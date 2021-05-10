@@ -1,14 +1,10 @@
 ---
-layout: page
 title: FAQ
-permalink: /faq/
-order: 9
+url: /faq/
+weight: 9
 ---
-         
 If you cannot find the answer to your question here, ask it in the [Graphviz forum](https://forum.graphviz.org).
 
-* Table of Contents
-{:toc}
 * Contributions
   * [FaqPSdefs](/Documentation/html/isofonts.txt) PostScript defs for ISO-latin1 fonts (by [Enrique Vidal](mailto:evidal@iti.upv.es))
 
@@ -615,7 +611,7 @@ Use the `-Tcmapx` command line option. See [here](/doc/info/output.html#dcmapx) 
 
 Make sure that your server has map files enabled. For example, if running apache, check that httpd.conf has a line like the following:
 
-```apache
+```apacheconf
 AddHandler imap-file map
 ```
 

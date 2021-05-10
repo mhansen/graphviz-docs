@@ -1,11 +1,9 @@
 ---
-layout: page
 title: Color Names
+url: /doc/info/colors.html
 stylesheet: colors.css
+weight: 7
 ---
-* Table of Contents
-{:toc}
-
 Color names are resolved in the context of a 
 [color scheme](attrs.html#d:colorscheme). Graphviz currently
 supports the [X11 scheme](#x11),
@@ -20,15 +18,15 @@ The Brewer color schemes below are covered by this [license](#brewer_license).
 
 ## The X11 color scheme {#x11}
 
-{% include x11_colors.html %}
+{{< x11_colors >}}
 
 ## The SVG color scheme {#svg}
 
-{% include svg_colors.html %}
+{{< svg_colors >}}
 
 ## Brewer color schemes {#brewer}
 
-{% include brewer_colors.html %}
+{{< brewer_colors >}}
 
 ### ColorBrewer License {#brewer_license}
 

@@ -1,8 +1,7 @@
 ---
-layout: page
 title: Credits
-permalink: /credits/
-order: 8
+url: /credits/
+weight: 8
 ---
          
          

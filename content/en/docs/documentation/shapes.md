@@ -1,11 +1,9 @@
 ---
-layout: page
 title: Node Shapes
+url: /doc/info/shapes.html
 stylesheet: shapes.css
+weight: 5
 ---
-
-* Table of Contents
-{:toc}
 
 There are three main types of shapes :
 [polygon-based](shapes.html#polygon),
@@ -30,14 +28,7 @@ the node attributes
 
 The possible polygon-based shapes are displayed below.
 
-{% for shape in site.data.shapelist %}
-<figure class="gv-shape">
-  <div class="gv-shape-img-container">
-    <img src="{{shape}}.gif" class="gv-shape-img">
-  </div>
-  <figcaption class="gv-shape-caption"><code id="d:{{shape}}">{{shape}}</code></figcaption>
-</figure>
-{% endfor %}
+{{< polygons >}}
 
 As the figures suggest, the shapes `rect` and `rectangle` are synonyms for `box`, and `none` is a synonym for `plaintext`.
 The shape `plain` is similar to these two, except that it also enforces
@@ -214,7 +205,8 @@ it then looks like:
 
 ![](mrecord.gif)
 
-## Styles for Nodes {#d:style}
+## Styles for Nodes
+
 The [`style`](attrs.html#d:style)
 attribute can be used to modify the appearance of a node.
 At present, there are 8 style values recognized:
@@ -225,7 +217,7 @@ attribute can be a comma-separated list of any of these. If the
 style contains conflicts (e.g, `style="dotted, solid"`), the last
 attribute wins.
 
-{:#filled} `filled`
+<code id="filled">filled</code>
 : This value indicates that the node's interior should be filled.
   The color used is the node's `fillcolor` or, if that's not defined, its
   `color`. For unfilled nodes, the interior of the node is transparent to
@@ -248,11 +240,11 @@ attribute wins.
 
   ![](fill.gif)
 
-{:#d:invisible} `invisible`
+<code id="d:invisible">invisible</code>
 : Setting this style causes the node not to be displayed at all.
   Note that the node is still used in laying out the graph.
 
-{:#d:diagonals} `diagonals`
+<code id="d:diagonals">diagonals</code>
 : The diagonals style causes small chords to be drawn near the vertices
   of the node's polygon or, in case of circles and ellipses, two chords near
   the top and the bottom of the shape. The special node shapes
@@ -262,7 +254,7 @@ attribute wins.
   are simply an ordinary square, circle and
   diamond with the diagonals style set.
 
-{:#d:rounded} `rounded`
+<code id="d:rounded">rounded</code>
 : The rounded style causes the polygonal corners to be smoothed.
   Note that this style also applies to record-based nodes. Indeed,
   the `Mrecord` shape is simply shorthand for setting this style.
@@ -287,17 +279,17 @@ attribute wins.
 
   ![](round.gif)
 
-{:#d:dashed} `dashed`
+<code id="d:dashed">dashed</code>
 : This style causes the node's border to be drawn as a dashed line.
 
-{:#d:dotted} `dotted`
+<code id="d:dotted">dotted</code>
 : This style causes the node's border to be drawn as a dotted line.
 
-{:#d:solid} `solid`
+<code id="d:solid">solid</code>
 : This style causes the node's border to be drawn as a solid line,
   which is the default.
 
-{:#d:bold} `bold`
+<code id="d:bold">bold</code>
 : This style causes the node's border to be drawn as a bold line.
   See also [penwidth](attrs.html#d:penwidth).
 
@@ -371,7 +363,7 @@ Note that, as in HTML, element and attribute names are case-insensitive.
 [HTML 4.01 specification](http://www.w3.org/TR/html401)).
 
 <TABLE>
-{% include html_grammar.html %}
+{{< html_grammar >}}
 </TABLE>
 
 All non-printing characters such as tabs or newlines are ignored.
@@ -407,7 +399,7 @@ easier reading.
 Each of the HTML elements has a set of optional attributes.
 Attribute values must appear in double quotes.
 
-{:#table} Table element
+<span id="table">Table element</span>
 : <pre>
   &lt;TABLE
     <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT"
@@ -435,13 +427,13 @@ Attribute values must appear in double quotes.
   &gt;
   </pre>
 
-{:#tr} Table row
+<span id="tr">Table row</span>
 : <PRE>&lt;TR
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-{:#td} Table cell
+<span id="td">Table cell</span>
 : <PRE>
   &lt;TD
     <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT|TEXT"
@@ -469,7 +461,7 @@ Attribute values must appear in double quotes.
   &gt;
   </PRE>
 
-{:#font} Font specification
+<span id="font">Font specification</span>
 : <PRE>
   &lt;FONT
     <a href="#color">COLOR</a>="<I>color</I>"
@@ -478,14 +470,14 @@ Attribute values must appear in double quotes.
   &gt;
   </PRE>
 
-{:#br} Line break
+<span id="br">Line break</span>
 : <PRE>
   &lt;BR
     <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT"
   /&gt;
   </PRE>
 
-{:#img} Image inclusion
+<span id="img">Image inclusion</span>
 : <PRE>
   &lt;IMG
     <a href="#scale">SCALE</a>="FALSE|TRUE|WIDTH|HEIGHT|BOTH"
@@ -493,70 +485,70 @@ Attribute values must appear in double quotes.
   /&gt;
   </PRE>
 
-{:#i} Italic style
+<span id="i">Italic style</span>
 : <PRE>
   &lt;I
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-{:#b} Bold style
+<span id="b">Bold style</span>
 : <PRE>
   &lt;B
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-{:#u} Underline text
+<span id="u">Underline text</span>
 : <PRE>
   &lt;U
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-{:#o} Overline text
+<span id="o">Overline text</span>
 : <PRE>
   &lt;O
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-{:#sub} Subscript text
+<span id="sub">Subscript text</span>
 : <PRE>
   &lt;SUB
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-{:#sup} Superscript text
+<span id="up">Superscript text</span>
 : <PRE>
   &lt;SUP
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-{:#s} Strike-through text
+<span id="s">Strike-through text</span>
 : <PRE>
   &lt;S
     &lt;!-- No attributes --&gt;
   &gt;
   </PRE>
 
-{:#hr} Horizontal rule
+<span id="hr">Horizontal rule</span>
 : <PRE>
   &lt;HR
     &lt;!-- No attributes --&gt;
   /&gt;
   </PRE>
 
-{:#vr} Vertical rule
+<span id="vr">Vertical rule</span>
 : <PRE>
   &lt;VR
     &lt;!-- No attributes --&gt;
   /&gt;
   </PRE>
 
-{:#align} ALIGN
+<span id="align">ALIGN</span>
 : specifies horizontal placement. When an object is allocated
   more space than required, this value determines where the extra space
   is placed left and right of the object.
@@ -575,19 +567,19 @@ Attribute values must appear in double quotes.
   width of the cell. If the cell does not contain text, then the contained
   image or table is centered.
 
-{:#balign} BALIGN
+<span id="balign">BALIGN</span>
 : specifies the default alignment of [`<BR>`](#br) elements contained
   in the cell. That is, if a [`<BR>`](#br) element has no
   explicit [**_ALIGN_**](#align) attribute, the attribute value is specified
   by the value of **_BALIGN_**.
 
-{:#bgcolor} BGCOLOR="color"
+<span id="bgcolor">BGCOLOR="color"</span>
 : sets the color of the background. This color can be 
   overridden by a **_BGCOLOR_** attribute in descendents.
   The value can be a single color or two colors separated by a colon, the
   latter indicating a gradient fill.
 
-{:#border} BORDER="value"
+<span id="border">BORDER="value"</span>
 : specifies the width of the border around the object in points.
   A value of zero indicates no border. The default is 1.
   The maximum value is 255.
@@ -595,22 +587,22 @@ Attribute values must appear in double quotes.
   this value is also used for all cells in the table.
   It can be overridden by a **_BORDER_** attribute in a cell.
 
-{:#cellborder} CELLBORDER="value"
+<span id="cellborder">CELLBORDER="value"</span>
 : specifies the width of the border for all cells in a table.
   It can be overridden by a [**_BORDER_**](#border) tag in a cell.
   The maximum value is 255.
 
-{:#cellpadding} CELLPADDING="value"
+<span id="cellpadding">CELLPADDING="value"</span>
 : specifies the space, in points, between a cell's border and its content.
   The default is 2.
   The maximum value is 255.
 
-{:#cellspacing} CELLSPACING="value"
+<span id="cellspacing">CELLSPACING="value"</span>
 : specifies the space, in points, between cells in a table and between
   a cell and the table's border.  The default is 2.
   The maximum value is 127.
 
-{:#color} COLOR="color"
+<span id="color">COLOR="color"</span>
 : sets the color of the font within the scope of
   [`<FONT>...</FONT>`](#font), or the border color
   of the table or cell within the scope of
@@ -625,16 +617,16 @@ Attribute values must appear in double quotes.
   [color](attrs.html#d:color) attribute of
   the corresponding node, edge or graph.
 
-{:#colspan} COLSPAN="value"
+<span id="colspan">COLSPAN="value"</span>
 : specifies the number of columns spanned by the cell. The default is 1.
   The maximum value is 65535.
 
-{:#columns} COLUMNS="value"
+<span id="columns">COLUMNS="value"</span>
 : provides general formatting information concerning the columns.
   At present, the only legal value is `*`, which causes a vertical rule to
   appear between every cell in every row.
 
-{:#face} FACE="fontname"
+<span id="face">FACE="fontname"</span>
 : specifies the font to use within the scope of
   [`<FONT>...</FONT>`](#font).
   This can be 
@@ -643,14 +635,14 @@ Attribute values must appear in double quotes.
   [fontname](attrs.html#d:fontname) attribute of the corresponding
   node, edge or graph.
 
-{:#fixedsize} FIXEDSIZE
+<span id="fixedsize">FIXEDSIZE</span>
 : specifies whether the values given by the [**_WIDTH_**](#width)
   and [**_HEIGHT_**](#height) attributes are enforced.
 
   *   FALSE allows the object to grow so that all its contents will fit. (Default)
   *   TRUE fixes the object size to its given [**_WIDTH_**](#width) and [**_HEIGHT_**](#height). Both of these attributes must be supplied.
 
-{:#gradientangle} GRADIENTANGLE="value"
+<span id="gradientangle">GRADIENTANGLE="value"</span>
 : gives the angle used in a gradient fill if the 
   [**_BGCOLOR_**](#bgcolor) is a color list. For the default linear gradient,
   this specifies 
@@ -661,27 +653,27 @@ Attribute values must appear in double quotes.
   table or cell; an non-zero angle places the fill center along that angle near the
   boundary.
 
-{:#height} HEIGHT="value"
+<span id="height">HEIGHT="value"</span>
 : specifies the mininum height, in points, of the object. The height
   includes the contents, any spacing and the border. Unless
   [**_FIXEDSIZE_**](#fixedsize) is true, the height will be expanded to allow
   the contents to fit.
   The maximum value is 65535.
 
-{:#href} HREF="value"
+<span id="href">HREF="value"</span>
 : attaches a URL to the object.
   Note that the `"value"` is treated as an
   [escString](attrs.html#k:escString) similarly to the
   [URL](attrs.html#d:URL) attribute.
 
-{:#id} ID="value"
+<span id="id">ID="value"</span>
 : allows the user to specify a unique ID for a table or cell. See
   the [id](attrs.html#d:id) attribute for more information.
   Note that the `"value"` is treated as an
   [escString](attrs.html#k:escString) similarly to the
   [id](attrs.html#d:id) attribute.
 
-{:#point-size} POINT-SIZE="value"
+<span id="point-size">POINT-SIZE="value"</span>
 : sets the size of the font, in points, used within the scope of
   `<FONT>...</FONT>`.
   This can be 
@@ -690,22 +682,22 @@ Attribute values must appear in double quotes.
   [fontsize](attrs.html#d:fontsize) attribute of the corresponding
   node, edge or graph.
 
-{:#port} PORT="value"
+<span id="port">PORT="value"</span>
 : attaches a portname to the object.
   (See [portPos](attrs.html#k:portPos).)
   This can be used to modify the head
   or tail of an edge, so that the end attaches directly to the object.
 
-{:#rows} ROWS="value"
+<span id="rows">ROWS="value"</span>
 : provides general formatting information concerning the rows.
   At present, the only legal value is `*`, which causes a horizontal rule to
   appear between every row.
 
-{:#rowspan} ROWSPAN="value"
+<span id="rowspan">ROWSPAN="value"</span>
 : specifies the number of rows spanned by the cell. The default is 1.
   The maximum value is 65535.
 
-{:#scale} SCALE
+<span id="scale">SCALE</span>
 : specifies how an image will use any extra space available in its cell.
   Allowed values are
   *   `FALSE` : keep image its natural size. (Default)
@@ -724,7 +716,7 @@ Attribute values must appear in double quotes.
   and [**_VALIGN_**](#valign) attributes override
   an image's [**_SCALE_**](#scale) attribute.
 
-{:#sides} SIDES="value"
+<span id="sides">SIDES="value"</span>
 : specifies which sides of a border in a cell or table should be drawn, if
   a border is drawn. By default, all sides are drawn. The `"value"`
   string can contain any collection of the (case-insensitive) 
@@ -733,13 +725,13 @@ Attribute values must appear in double quotes.
   respectively. For example, `SIDES="LB"` would indicate only the
   left and bottom segments of the  border should be drawn.
 
-{:#src} SRC="value"
+<span id="src">SRC="value"</span>
 : specifies the image file to be displayed in the cell.
   Note that if the software is used as a web server, file system access
   to images is more restricted. See [GV\_FILE\_PATH](command.html#d:GV_FILE_PATH)
   and [SERVER_NAME](command.html#d:SERVER_NAME).
 
-{:#style} STYLE
+<span id="style">STYLE</span>
 : specifies style characteristics of the table or cell. Style characteristics are
   given as a comma or space separated list of style attributes. At present, the only
   legal attributes are `ROUNDED` and `RADIAL` for tables, and `RADIAL` for cells.
@@ -752,7 +744,7 @@ Attribute values must appear in double quotes.
   The `RADIAL` attribute indicates a radial gradient fill. See the [**_BGCOLOR_**](#bgcolor) and
   [**_GRADIENTANGLE_**](#gradientangle) attributes.
 
-{:#target} TARGET="value"
+<span id="target">TARGET="value"</span>
 : determines which window of the browser is used for the URL if the object 
   has one. 
   See [W3C documentation](http://www.w3.org/TR/html401/present/frames.html#adef-target).
@@ -760,17 +752,17 @@ Attribute values must appear in double quotes.
   [escString](attrs.html#k:escString) similarly to the
   [target](attrs.html#d:target) attribute.
 
-{:#title} TITLE="value"
+<span id="title">TITLE="value"</span>
 : sets the tooltip annotation attached to the element. 
   This is used only if the element has a [`HREF`](#href) attribute.
   Note that the `"value"` is treated as an
   [escString](attrs.html#k:escString) similarly to the
   [tooltip](attrs.html#d:tooltip) attribute.
 
-{:#tooltip} TOOLTIP="value"
+<span id="tooltip">TOOLTIP="value"</span>
 : is an alias for [**_TITLE_**](#title).
 
-{:#valign} VALIGN
+<span id="valign">VALIGN</span>
 : specifies vertical placement. When an object is allocated
   more space than required, this value determines where the extra space
   is placed above and below the object.
@@ -779,7 +771,7 @@ Attribute values must appear in double quotes.
   *   `BOTTOM` aligns the object on the bottom.
   *   `TOP` aligns the object on the top.
 
-{:#width} WIDTH="value"
+<span id="width">WIDTH="value"</span>
 : specifies the mininum width, in points, of the object. The width
   includes the contents, any spacing and the border. Unless
   [**_FIXEDSIZE_**](#fixedsize) is true, the width will be expanded to allow
@@ -820,7 +812,7 @@ the border size or the spacing, or turning off the table border.
 The dot input:
 
 ```dot
-{% include html1.dot %}
+{{< read_file file="static/doc/info/html1.dot" >}}
 ```
 
 produces the HTML analogue of the record example above:
@@ -834,7 +826,7 @@ As usual, an HTML specification is more verbose.
 On the other hand, HTML labels are much more general:
 
 ```dot
-{% include_relative html2.gv %}
+{{< read_file file="static/doc/info/html2.gv" >}}
 ```
 
 produces:
@@ -845,7 +837,7 @@ produces:
 An example using [`<FONT>`](#font) elements:
 
 ```dot
-{% include_relative html3.gv %}
+{{< read_file file="static/doc/info/html3.gv" >}}
 ```
 
 produces:
@@ -857,7 +849,7 @@ produces:
 Using an [`<IMG>`](#img) element:
 
 ```dot
-{% include_relative html4.gv %}
+{{< read_file file="static/doc/info/html4.gv" >}}
 ```
 
 produces:

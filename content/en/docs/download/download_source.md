@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Sources
-redirect_from:
+url: /download/source/
+aliases:
   # This file used to live under the Jekyll _pages directory before Jun 2020.
   - /_pages/Download/Download_source.html
   # We want to redirect from Download_source.php. We need ".php.html" else the
@@ -35,29 +35,7 @@ to see these.
 
 #### Stable Releases
 
-{% comment %}Sorts by filename.{% endcomment %}
-{% assign sorted_sources = site.data.sources | sort %}
-<ul>
-{% for source in sorted_sources reversed %}
-  {%- assign version = source[1] -%}
-  <li>{{version.version}}
-    <ul>
-    {%- for archive in version.archives -%}
-      <li>
-      <a href="{{archive.url}}">{{version.version}}.{{archive.format}}</a>
-      {%- if archive.md5 -%}
-      , <a href="{{archive.md5}}">md5</a>
-      {%- endif -%}
-      {%- if archive.sha256 -%}
-      , <a href="{{archive.sha256}}">sha256</a>
-      {%- endif -%}
-      </li>
-    {% endfor -%}
-    </ul>
-  </li>
-{% endfor %}
-  <li><a href="https://www2.graphviz.org/Packages/stable/portable_source">older</a></li>
-</ul>
+{{< sources >}}
 
 #### Development Snapshots
 

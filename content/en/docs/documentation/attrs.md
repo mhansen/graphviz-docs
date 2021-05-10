@@ -1,9 +1,10 @@
 ---
 title: Node, Edge and Graph Attributes
-layout: page
-redirect_from:
+url: /doc/info/attrs.html
+aliases:
   - /doc/info/attrs1.html
   - /doc/info/attrs2.html
+weight: 4
 ---
 The table below describes the attributes used by various Graphviz tools.
 The table gives the name of the attribute, the graph components (node,
@@ -82,115 +83,13 @@ of the layout programs.
 
 ---
 
-<TABLE ALIGN=CENTER>
-<TR>
-  <TH>Name</TH>
-  <TH><A HREF="#h:uses">Used By</A></TH>
-  <TH>Type</TH>
-  <TH STYLE="text-align: center;">Default</TH>
-  <TH>Minimum</TH>
-  <TH>Notes</TH>
-</TR>
-{% assign sorted_attrs = site.attrs | sort_natural: "name" %}
-{%- for attr in sorted_attrs %}
-<TR>
-  <TD><A ID="a:{{ attr.name }}" HREF="#d:{{ attr.name }}">{{ attr.name }}</A></TD>
-  <TD>{{ attr.used_by | xml_escape }}</TD>
-  <TD>
-  {%- for type in attr.types -%}
-    {%- unless forloop.first -%}
-    <BR>
-    {%- endunless -%}
-    <A HREF="#k:{{type}}">{{type}}</A>
-  {%- endfor -%}
-  </TD>
-  <TD STYLE="text-align: center;">
-  {%- for default in attr.defaults -%}
-    {%- unless forloop.first -%}
-    <BR>
-    {%- endunless -%}
-    {{ default | xml_escape }}
-  {%- endfor -%}
-  </TD>
-  <TD>
-  {%- for minimum in attr.minimums -%}
-    {%- unless forloop.first -%}
-    <BR>
-    {%- endunless -%}
-    {{- minimum | xml_escape -}}
-  {%- endfor -%}
-  </TD>
-  <TD>
-  {%- if attr.flags.size == 0 -%}
-  {%- elsif attr.flags[0] == 'notdot' -%}
-    not dot
-  {%- else -%}
-    {%- for flag in attr.flags reversed -%}
-      {{ flag }}
-      {%- unless forloop.last %}, {% endunless -%}
-    {%- endfor %} only
-  {%- endif -%}
-  </TD>
-</TR>
-{%- endfor %}
-</TABLE>
+{{<attributes_toc>}}
 
 ---
 
 ## Attribute Descriptions
 
-<DL>
-{%- for attr in sorted_attrs %}
-<DT>
-  <A ID="d:{{attr.name}}" HREF="#a:{{attr.name}}"><STRONG>{{ attr.name }}</STRONG></A> :
-  <I>
-  {%- for t in attr.types -%}
-  <A HREF="#k:{{t}}">{{t}}</A>
-  {%- unless forloop.last %}|{% endunless -%}
-  {% endfor -%}
-  {%- for d in attr.defaults %}
-    {%- if forloop.first %}, default: {% endif %}
-    {{ d | xml_escape }}
-    {%- unless forloop.last %}, {% endunless -%}
-  {%- endfor -%}
-  {%- for minimum in attr.minimums -%}
-    {%- if forloop.first %}, minimum: {% endif %}
-    {{- minimum | xml_escape -}}
-    {%- unless forloop.last %}, {% endunless -%}
-  {%- endfor -%}
-  </I>
-</DT>
-<DD>
-  {{- attr.content -}}
-
-<P>
-<I>Valid for:
-{% assign used_by_characters = attr.used_by | split: "" | sort_natural %}
-{%- for c in used_by_characters %}
-  {%- if c contains 'N' %} Nodes{% endif -%}
-  {%- if c contains 'E' %} Edges{% endif -%}
-  {%- if c contains 'G' %} Graphs{% endif -%}
-  {%- if c contains 'C' %} Clusters{% endif -%}
-  {%- if c contains 'S' %} Subgraphs{% endif -%}
-  {% unless forloop.last %},{% endunless -%}
-{% endfor %}.</I>
-<I>
-{%- if attr.flags.size > 0 -%}
-  Note:
-  {% if attr.flags[0] == 'notdot' -%}
-    not dot
-  {% else -%}
-    {% for flag in attr.flags reversed -%}
-      {{ flag }}
-      {%- unless forloop.last %}, {% endunless -%}
-    {%- endfor %} only
-  {%- endif -%}
-{%- endif -%}
-</I>
-</P>
-</DD>
-{% endfor %}
-</DL>
+{{<attribute_descriptions>}}
 
 ---
 
@@ -204,16 +103,4 @@ For regular expressions, `(...)*` indicates 0 or more copies of the expression
 enclosed in the parentheses,  `(...)+` indicates 1 or more, and
 `(...)?` denotes 0 or 1 copy.
 
-{% assign sorted_attr_types = site.attr_types | sort_natural: "name" %}
-{% for t in sorted_attr_types -%}
-<H3 ID="k:{{t.name}}"><A HREF="#k:{{t.name}}">{{t.name}}</A></H3>
-{{t.content}}
-<I>Attributes:
-{% assign attrs_for_type = sorted_attrs | where_exp: "attr", "attr.types contains t.name" %}
-{%- for attr in attrs_for_type -%}
-  <A HREF="#d:{{ attr.name }}"><CODE>{{ attr.name }}</CODE></A>
-  {%- unless forloop.last %}, {% endunless -%}
-{% endfor -%}
-</I>
-{% endfor %}
-
+{{< attribute_type_descriptions >}}

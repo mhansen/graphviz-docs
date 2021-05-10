@@ -1,8 +1,9 @@
 ---
-layout: page
 title: The DOT Language
-redirect_from:
+url: /doc/info/lang.html
+aliases:
   - /content/dot-language/
+weight: 1
 ---
 The following is an abstract grammar defining the DOT language.
 Terminals are shown in bold font and nonterminals in italics.
@@ -12,7 +13,7 @@ Square brackets `[` and `]` enclose optional items.
 Vertical bars `|` separate alternatives.
 
 <TABLE>
-{% include grammar.html %}
+{{< grammar >}}
 </TABLE>
 
 The keywords **node**, **edge**, **graph**, **digraph**, **subgraph**, and **strict** are case-independent.

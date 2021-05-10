@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Output Formats
+url: /doc/info/output.html
 stylesheet: output.css
+weight: 3
 ---
 The output format is specified with the **-T**_lang_
 flag on the [command line](command.html), where _lang_
@@ -23,48 +24,17 @@ Thus, positions in the
 [plain-ext](#d:plain-ext)
 formats need to be interpreted in this manner.
 
-<TABLE ALIGN="CENTER">
-<TR>
-  <TH>Command-line<BR>parameter</TH>
-  <TH>Format</TH>
-</TR>
-{%- assign sorted_formats = site.formats | sort_natural: "params" -%}
-{% for f in sorted_formats %}
-<TR>
-  <TD STYLE="text-align: center;">
-  {%- for p in f.params -%}
-    <A NAME="a:{{p}}" HREF="#d:{{p}}">{{p}}</A>
-    {%- unless forloop.last %}
-      <BR>
-    {%- endunless %}
-  {%- endfor %}
-  </TD>
-  <TD>{{ f.name }}</TD>
-</TR>
-{%- endfor %}
-</TABLE>
+{{<outputs_toc>}}
 
 ---
 
 ## Format Descriptions
 
-<DL>
-{% for f in sorted_formats -%}
-  {%- for p in f.params -%}
-    <DT>
-      <A NAME="d:{{p}}" HREF="#a:{{p}}"><STRONG>{{p}}</STRONG></A>
-      {%- unless forloop.last -%},{%- endunless -%}
-    </DT>
-  {%- endfor -%}
-  <DD>
-  {{- f.content }}
-  </DD>
-{% endfor %}
-</DL>
+{{<format_descriptions>}}
 
 * * *
 
-## Image Formats {#d:image_fmts}
+## Image Formats
 
 The [image](attrs.html#a:image) and [shapefile](attrs.html#a:shapefile) attributes specify an image file to be included
 as part of the final diagram. Not all image formats can be read. In addition,

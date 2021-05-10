@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Graphviz build notes
-redirect_from:
+url: /doc/build.html
+aliases:
 - /_pages/doc/build.html
 ---
 ## External packages
@@ -12,9 +12,9 @@ with reduced functionality if an external library is not found. Newer
 versions of these libraries should be fine - if not, please let us know.
 
 A list of these external libraries can be found on the Graphviz [source
-download page](http://www.graphviz.org/download/source/).
+download page](/download/source/).
 
-### Notes:
+### Notes
 
 *   GD (generic raster graphics driver for PNG, GIF, JPEG)  
     Graphviz contains a copy of libgd, but we hope to remove it eventually so the external library is preferred.

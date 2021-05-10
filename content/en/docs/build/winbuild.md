@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Graphviz Build Instructions for Windows
-redirect_from:
+url: /doc/winbuild.html
+aliases:
 - /_pages/doc/winbuild.html
 ---
 For building on Windows:
@@ -197,7 +197,7 @@ made a static build of the libraries on MinGW.
 
     replace these lines:
 
-    ```make
+    ```makefile
     SUBDIRS = cdt graph agraph gd pathplan agutil sfio vmalloc ast vpsc \
         circogen dotgen fdpgen neatogen twopigen common pack gvc \
         ingraphs expr
@@ -205,7 +205,7 @@ made a static build of the libraries on MinGW.
 
     with these lines:
 
-    ```make
+    ```makefile
     SUBDIRS = cdt graph agraph gd pathplan  vpsc \
         circogen dotgen fdpgen neatogen twopigen common pack gvc \
         ingraphs

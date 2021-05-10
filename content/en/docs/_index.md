@@ -1,11 +1,12 @@
 ---
-layout: default
-redirect_from:
+title: Graphviz
+url: /
+aliases:
   # Fixes a broken Home Page link from Gallery pages.
   - /_pages/
 ---
 
-# Welcome to Graphviz
+![Graphviz logo -- arrows pointing between circles on graph paper, with magnifying glass on top](/Resources/app.png)
 
 Please join the [Graphviz forum](https://forum.graphviz.org) to ask
 questions and discuss Graphviz.

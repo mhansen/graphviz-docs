@@ -1,8 +1,7 @@
 ---
-layout: page
 title: Theory and Publications
-permalink: /theory/
-order: 5
+url: /theory/
+weight: 5
 ---
 
 ## Graphviz Papers

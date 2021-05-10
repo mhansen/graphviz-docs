@@ -1,0 +1,20 @@
+<TABLE>
+<TR>
+  <TH>Command-line<BR>parameter</TH>
+  <TH>Format</TH>
+</TR>
+{{ $formats := .Site.GetPage "/formats" }}
+{{ range $formats.Resources }}
+<TR>
+  <TD>
+  {{- range $i, $p := .Params.params -}}
+    {{- if $i }}
+      <BR>
+    {{- end }}
+    <A NAME="a:{{$p}}" HREF="#d:{{$p}}">{{$p}}</A>
+  {{- end }}
+  </TD>
+  <TD>{{ .Params.name }}</TD>
+</TR>
+{{- end }}
+</TABLE>

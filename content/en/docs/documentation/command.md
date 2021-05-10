@@ -1,6 +1,7 @@
 ---
-layout: page
 title: Command-line Invocation
+url: /doc/info/command.html
+weight: 2
 ---
 All Graphviz programs have a similar invocation:
 
@@ -19,11 +20,11 @@ If no input files are supplied, the program reads from **stdin**.
 **-E**_name_\[=_value_\]
 : Set a default edge attribute, with default _value_ = `true`.
 
-{:#minusK} **-K**_layout_
+<span id="minusK">**-K**_layout_</span>
 : Specifies which default layout algorithm to use, overriding the default from the command name. For example, running
 `dot -Kneato` is equivalent to running `neato`.
 
-{:#d:T} **-T**_format_\[:_renderer_\[:_formatter_\]\]    
+<span id="d:T">**-T**_format_\[:_renderer_\[:_formatter_\]\]</span>
 : Set output language to one of the [supported formats](output.html).
   By default, [attributed dot](output.html#d:dot) is produced.
 
@@ -59,7 +60,7 @@ If no input files are supplied, the program reads from **stdin**.
   If _library_ is the empty string `""`, the standard preamble
   is not emitted.
 
-{:#d:n} **-n**\[_num_\]
+<span id="d:n">**-n**\[_num_\]</span>
 : Sets no-op flag in **neato**.
   If set, **neato** assumes nodes have already been 
   positioned and all nodes have a [pos](attrs.html#d:pos)
@@ -99,7 +100,7 @@ If no input files are supplied, the program reads from **stdin**.
 **-q**
 : Suppress warning messages.
 
-{:#d:s} **-s**\[_scale_\]
+<span id="d:s">**-s**\[_scale_\]</span>
 : Set input scale to _scale_. If this value is omitted,
   72.0 is used. This number is used to convert the point coordinate
   units used in the [pos](attrs.html#d:pos) attribute
@@ -153,17 +154,17 @@ output, the graph will have these attributes.
   Overridden by [DOTFONTPATH](#d:DOTFONTPATH).
   _Used only if Graphviz is not built with the `fontconfig` library_
 
-{:#d:DOTFONTPATH} **DOTFONTPATH**
+<span id="DOTFONTPATH">**DOTFONTPATH**</span>
 : List of pathnames giving directories which a program should search for fonts.
   Overridden by [**fontpath**](attrs.html#d:fontpath).
   _Used only if Graphviz is not built with the `fontconfig` library_
 
-{:#d:SERVER_NAME} **SERVER_NAME**
+<span id="d:SERVER_NAME">**SERVER_NAME**</span>
 : If defined, this indicates that the software is running as a web application,
   which restricts access to image files. See 
   [GV\_FILE\_PATH](#d:GV_FILE_PATH).
 
-{:#d:GV_FILE_PATH} **GV\_FILE\_PATH**
+<span id="GV_FILE_PATH">**GV\_FILE\_PATH**</span>
 : If [SERVER_NAME](#d:SERVER_NAME) is defined, image files are
   restricted to exist in one of the directories specified by `GV_FILE_PATH`.
   This last is a list of directory pathnames, separated by semicolons in Windows or
@@ -180,7 +181,7 @@ output, the graph will have these attributes.
   image file is specified as an absolute or relative pathname, a warning is given and only
   the base name is used.
 
-{:#d:GVBINDIR} **GVBINDIR**
+<span id="d:GVBINDIR">**GVBINDIR**</span>
 : Indicates which directory contains the Graphviz config file and
   plug-in libraries. If it is defined, the value overrides any other
   mechanism for finding this directory. If Graphviz is properly installed,

@@ -1,0 +1,20 @@
+<ul>
+{{ range $source := $.Site.Data.sources }}
+  <li>
+    {{- .version }}
+    <ul>
+      {{ range .archives }}
+      <li>
+        <a href="{{.url}}">{{$source.version}}.{{.format}}</a>
+        {{- if .md5 -}}
+        , <a href="{{.md5}}">md5</a>
+        {{- end -}}
+        {{- if .sha256 -}}
+        , <a href="{{.sha256}}">sha256</a>
+        {{- end -}}
+      </li>
+      {{ end }}
+    </ul>
+  </li>
+{{ end }}
+</ul>

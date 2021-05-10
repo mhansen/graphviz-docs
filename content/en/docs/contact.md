@@ -1,13 +1,12 @@
 ---
-layout: page
 title: Contact
-permalink: /contact/
-redirect_from:
+url: /contact/
+aliases:
   # We want to redirect from /MailingList.php. We need ".php.html" else the
   # redirect page is downloaded to ~/Downloads/ rather than shown in browser. See:
   # https://github.com/jekyll/jekyll-redirect-from/issues/145#issuecomment-392277818
   - /MailingList.php.html
-order: 10
+weight: 10
 ---
 
 Please join the [Graphviz forum](https://forum.graphviz.org) to ask questions and discuss Graphviz.

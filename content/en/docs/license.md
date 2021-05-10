@@ -1,8 +1,7 @@
 ---
-layout: page
 title: License
-permalink: /license/
-order: 6
+url: /license/
+weight: 6
 ---
          
          
