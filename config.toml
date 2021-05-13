@@ -53,7 +53,7 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "Graphviz - Graph Visualization Software"
+title = "Graphviz"
 description = "Graph Visualization Software"
 languageName ="English"
 # Weight used for sorting.
