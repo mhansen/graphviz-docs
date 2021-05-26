@@ -4,6 +4,8 @@ url: /
 aliases:
   # Fixes a broken Home Page link from Gallery pages.
   - /_pages/
+# This page mostly duplicates the list below.
+no_list: true
 ---
 
 ![Graphviz logo -- arrows pointing between circles on graph paper, with magnifying glass on top](/Resources/app.png)
