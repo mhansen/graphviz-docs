@@ -65,22 +65,22 @@ You may find it useful to try one of the following third-party sites.
 ### Windows
 
 * Stable Windows install packages:
-  * 2.47.1 EXE installer for Windows 10 (64-bit):
-    [stable_windows_10_cmake_Release_x64_graphviz-install-2.47.1-win64.exe](https://gitlab.com/graphviz/graphviz/-/package_files/9574245/download)
+  * 2.47.2 EXE installer for Windows 10 (64-bit):
+    [stable_windows_10_cmake_Release_x64_graphviz-install-2.47.2-win64.exe](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.47.2/stable_windows_10_cmake_Release_x64_graphviz-install-2.47.2-win64.exe)
     (not all tools and libraries are included)
-  * 2.47.1 EXE installer for Windows 10 (32-bit):
-    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.1-win32.exe](https://gitlab.com/graphviz/graphviz/-/package_files/9574248/download)
+  * 2.47.2 EXE installer for Windows 10 (32-bit):
+    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.2-win32.exe](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.47.2/stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.2-win32.exe)
     (not all tools and libraries are included)
-  * 2.47.1 ZIP archive for Windows 10 (32-bit):
-    [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.1-win32.zip](https://gitlab.com/graphviz/graphviz/-/package_files/9574239/download)
+  * 2.47.2 ZIP archive for Windows 10 (32-bit):
+    [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.2-win32.zip](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.47.2/stable_windows_10_msbuild_Release_Win32_graphviz-2.47.2-win32.zip)
   * checksums:
-    [stable_windows_10_cmake_Release_x64_graphviz-install-2.47.1-win64.exe.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/9574247/download)
+    [stable_windows_10_cmake_Release_x64_graphviz-install-2.47.2-win64.exe.sha256](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.47.2/stable_windows_10_cmake_Release_x64_graphviz-install-2.47.2-win64.exe.sha256)
     |
-    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.1-win32.exe.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/9574250/download)
+    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.2-win32.exe.sha256](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.47.2/stable_windows_10_cmake_Release_Win32_graphviz-install-2.47.2-win32.exe.sha256)
     |
-    [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.1-win32.zip.sha256](https://gitlab.com/graphviz/graphviz/-/package_files/9574241/download)
-  * Further 2.47.1 variants available on
-    [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/1647246)
+    [stable_windows_10_msbuild_Release_Win32_graphviz-2.47.2-win32.zip.sha256](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.47.2/stable_windows_10_msbuild_Release_Win32_graphviz-2.47.2-win32.zip.sha256)
+  * Further 2.47.2 variants available on
+    [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/1926804)
   * [Prior to 2.46 series](https://www2.graphviz.org/Packages/stable/windows)
 * Development Windows install packages
   * [2.46.0 as newer](https://gitlab.com/graphviz/graphviz/-/packages)
