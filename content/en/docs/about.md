@@ -25,7 +25,7 @@ See the [gallery](/gallery)for some sample layouts.
 It also has web and interactive graphical interfaces,
 and auxiliary tools, libraries, and language bindings.
 
-The[Mac OS X edition of Graphviz](http://www.pixelglow.com/graphviz/), by
+The [Mac OS X edition of Graphviz](http://www.pixelglow.com/graphviz/), by
 Glen Low, won two 2004 Apple Design Awards.
 
 The Graphviz layout programs take descriptions of graphs in
