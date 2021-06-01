@@ -58,7 +58,9 @@ is encouraged to use a directed graph.
 If it is important to make the graph appear undirected, this can be
 done using the [`dir`](#d:dir), [`arrowtail`](#d:arrowtail) or
 [`arrowhead`](#d:arrowhead) attributes.
+
 <P ID="k:bool"></P>
+
 The tools accept standard C representations for `int` and
 `double` types.
 For the `bool` type, TRUE values are
@@ -69,6 +71,7 @@ In addition, there are a variety of specialized types such as
 `arrowType`, `color`,
 `point` and `rankdir`. Legal values for these types are given
 at the end.
+
 <P ID="h:uses"></P>
 
 In the **Used By** field, the
