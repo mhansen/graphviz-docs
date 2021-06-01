@@ -190,6 +190,11 @@ enable = false
 #   icon = "fa fa-envelope"
 #   desc = "Discuss development issues around the project"
 
+[[menu.main]]
+name = "Forum"
+weight = 49
+pre = "<i class='fab fa-discourse'></i>"
+url = "https://forum.graphviz.org/"
 
 [[menu.main]]
 name = "GitLab"
