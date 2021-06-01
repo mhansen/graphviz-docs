@@ -1,0 +1,53 @@
+<DL>
+{{ $attrs := .Site.GetPage "/attrs" }}
+{{ range $attr := $attrs.Resources }}
+<DT>
+  <A ID="d:{{.Params.name}}" HREF="#a:{{.Params.name}}"><STRONG>{{ .Params.name }}</STRONG></A> :
+  <I>
+  {{- range $i, $t := .Params.types -}}
+  {{- if $i }} | {{ end -}}
+  <A HREF="#k:{{$t}}">{{$t}}</A>
+  {{- end -}}
+  {{- range $i, $d := .Params.defaults }}
+    {{- if eq $i 0 }}, default: {{ end }}
+    {{- if $i }}, {{ end -}}
+    {{ $d }}
+  {{- end -}}
+  {{- range $i, $minimum := .Params.minimums -}}
+    {{- if eq $i 0 }}, minimum: {{ end }}
+    {{- if $i }}, {{ end -}}
+    {{- $minimum -}}
+  {{- end -}}
+  </I>
+</DT>
+<DD>
+  {{- .Content -}}
+
+<P>
+<I>Valid on:</I>
+</P>
+<UL>
+{{- if in .Params.used_by "C" }}<LI>Clusters<LI>{{ end -}}
+{{- if in .Params.used_by "E" }}<LI>Edges</LI>{{ end -}}
+{{- if in .Params.used_by "G" }}<LI>Graphs</LI>{{ end -}}
+{{- if in .Params.used_by "N" }}<LI>Nodes</LI>{{ end -}}
+{{- if in .Params.used_by "S" }}<LI>Subgraphs</LI>{{ end -}}
+</UL>
+{{- if .Params.flags -}}
+<P>
+<I>
+  Note:
+  {{ if eq (index .Params.flags 0) "notdot" }}
+    not dot
+  {{ else }}
+    {{ range $i, $flag := .Params.flags -}}
+      {{- if $i }}, {{ end -}}
+      {{ $flag }}
+    {{- end }} only
+  {{ end }}
+</I>
+</P>
+{{- end -}}
+</DD>
+{{ end }}
+</DL>

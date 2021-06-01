@@ -3,30 +3,23 @@
 This is the documentation repository for https://graphviz.org, the GraphViz
 Graph Visualization Software.
 
-Docs are built from Markdown using the [Jekyll](https://jekyllrb.com/) static
-site generator.
+Docs are built from Markdown using the [Hugo](https://gohugo.io/) static
+site generator and the [Docsy](https://www.docsy.dev/) technical documentation
+theme.
 
 ## Serving the Docs Locally for Development
 
-### macOS
+Detailed instructions are at [Docsy's Getting Started page](https://www.docsy.dev/docs/getting-started/).
 
-```bash
-# Get a new version of Ruby, as the macOS version is old
-brew install ruby
+### Install Hugo
 
-# Install all the gems in Gemfile
-/usr/local/opt/ruby/bin/bundle install
+* Download a recent **extended** edition of Hugo (extended editions includes
+  SCSS) from https://github.com/gohugoio/hugo/releases. You may need to scroll
+  down the list of releases to see the extended edition.
+  
+  * macOS users can install with Homebrew: `brew install hugo`
 
-# Compile the site and serve over HTTP on localhost
-# Bundle ensures the proper Jekyll version is run.
-/usr/local/opt/ruby/bin/bundle exec jekyll serve
-```
+* Run `git submodule update --init --recursive` to download the Docsy theme
+  repositories.
 
-### Linux
-
-Assuming you have a recent Ruby version installed:
-
-```bash
-$ bundle install
-$ bundle exec jekyll serve
-```
+* Run `hugo server`, the site will be available at http://localhost:1313/
