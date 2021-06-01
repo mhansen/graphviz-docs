@@ -249,7 +249,7 @@ its UTF-8 representation is 3 bytes whose decimal values are 226 136 128. For co
 editor, tuned to your character set of choice. You can then use the iconv program to map the graph from your character set to UTF-8 or Latin-1.
 
 We also accept the HTML symbolic names for Latin-1 characters as suggested in [FaqSymbols](#FaqSymbols). 
-For example, the cent sign (unicode and Latin-1 value decimal 162 can be inserted as `&cent;]
+For example, the cent sign (unicode and Latin-1 value decimal 162 can be inserted as `&cent;`
 
 Note that the graph file must always be a plain text document not a Word or other rich format file. Any characters not 
 enclosed in "..." or <...> must be ordinary ASCII characters. In particular, all of the DOT keywords such as digraph or subgraph must be ASCII.
