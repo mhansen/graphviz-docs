@@ -52,16 +52,18 @@ respectively.
 Additional drawing attributes can appear on nodes, edges, clusters and
 on the graph itself. There are six new attributes:
 
-| _draw_   | General drawing without labels |
-| _ldraw_  | Label drawing  |
-| _hdraw_  | Head arrowhead | Edge only |
-| _tdraw_  | Tail arrowhead | Edge only |
-| _hldraw_ | Head label     | Edge only |
-| _tldraw_ | Tail label     | Edge only |
+| Attribute | Description | Limitations |
+| -------- | ------------------------------ | -- |
+| `draw`   | General drawing without labels |    |
+| `ldraw`  | Label drawing  |                    |
+| `hdraw`  | Head arrowhead | Edge only |
+| `tdraw`  | Tail arrowhead | Edge only |
+| `hldraw` | Head label     | Edge only |
+| `tldraw` | Tail label     | Edge only |
 
 For a given graph object, one will typically issue a draw directive before the
 label directive. For example, for a node, one would first use the commands
-in **\_draw\_** followed by the commands in **\_ldraw\_**.
+in `draw` followed by the commands in `ldraw`.
 
 The value of these attributes consists of the concatenation of some
 (multi-)set of the following 13 rendering or attribute operations.
@@ -130,7 +132,7 @@ imply two operations: first, drawing the filled figure with the
 current fill color; second, drawing an unfilled figure with the
 current pen color, pen width and pen style.
 
-Within the context of a single drawing attribute, e.g., `_draw_`, there is
+Within the context of a single drawing attribute, e.g., `draw`, there is
 an implicit state for the graphical attributes. That is, once a color, style, font, or
 font characteristic is set, it remains valid for all relevant drawing operations
 until the value is reset by another xdot cmd.
