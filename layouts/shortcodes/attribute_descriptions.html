@@ -1,7 +1,7 @@
 {{ $attrs := .Site.GetPage "/attrs" }}
 {{ range $attr := $attrs.Resources }}
-<H3>
-  <A ID="d:{{.Params.name}}" HREF="#a:{{.Params.name}}">{{ .Params.name }}</A>
+<H3 ID="d:{{.Params.name}}">
+  <A HREF="#a:{{.Params.name}}">{{ .Params.name }}</A>
 </H3>
 
 <P>
