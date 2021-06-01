@@ -1,27 +1,28 @@
-<DL>
 {{ $attrs := .Site.GetPage "/attrs" }}
 {{ range $attr := $attrs.Resources }}
-<DT>
-  <A ID="d:{{.Params.name}}" HREF="#a:{{.Params.name}}"><STRONG>{{ .Params.name }}</STRONG></A> :
-  <I>
-  {{- range $i, $t := .Params.types -}}
-  {{- if $i }} | {{ end -}}
-  <A HREF="#k:{{$t}}">{{$t}}</A>
-  {{- end -}}
-  {{- range $i, $d := .Params.defaults }}
-    {{- if eq $i 0 }}, default: {{ end }}
-    {{- if $i }}, {{ end -}}
-    {{ $d }}
-  {{- end -}}
-  {{- range $i, $minimum := .Params.minimums -}}
-    {{- if eq $i 0 }}, minimum: {{ end }}
-    {{- if $i }}, {{ end -}}
-    {{- $minimum -}}
-  {{- end -}}
-  </I>
-</DT>
-<DD>
-  {{- .Content -}}
+<H3>
+  <A ID="d:{{.Params.name}}" HREF="#a:{{.Params.name}}">{{ .Params.name }}</A>
+</H3>
+
+<P>
+type: <I>{{ range $i, $t := .Params.types -}}
+{{- if $i }} | {{ end -}}
+<A HREF="#k:{{$t}}">{{$t}}</A>
+{{- end -}}
+{{- range $i, $d := .Params.defaults }}
+  {{- if eq $i 0 }}, default: {{ end }}
+  {{- if $i }}, {{ end -}}
+  {{ $d }}
+{{- end -}}
+{{- range $i, $minimum := .Params.minimums -}}
+  {{- if eq $i 0 }}, minimum: {{ end }}
+  {{- if $i }}, {{ end -}}
+  {{- $minimum -}}
+{{- end -}}
+</I>
+</P>
+
+{{- .Content -}}
 
 <P>
 <I>Valid on:</I>
@@ -46,6 +47,5 @@
 {{- end -}}
 </I>
 </P>
-</DD>
 {{ end }}
-</DL>
+
