@@ -1,10 +1,12 @@
 {{ $formats := .Site.GetPage "/formats" }}
 {{ range $formats.Resources }}
-<H3>
+<H3 ID="d:{{ index .Params.params 0 }}">
 {{- range $i, $p := .Params.params -}}
   {{- if $i -}}, {{ end -}}
-  <A NAME="d:{{$p}}" HREF="#a:{{$p}}">{{$p}}</A>
+  <A {{ if $i }}NAME="d:{{$p}}"{{ end }} HREF="#a:{{$p}}">{{$p}}</A>
 {{- end -}}
 </H3>
+
 {{- .Content }}
+
 {{ end }}
