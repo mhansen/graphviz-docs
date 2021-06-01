@@ -25,7 +25,6 @@
 
 <P>
 <I>Valid on:</I>
-</P>
 <UL>
 {{- if in .Params.used_by "C" }}<LI>Clusters<LI>{{ end -}}
 {{- if in .Params.used_by "E" }}<LI>Edges</LI>{{ end -}}
@@ -33,9 +32,8 @@
 {{- if in .Params.used_by "N" }}<LI>Nodes</LI>{{ end -}}
 {{- if in .Params.used_by "S" }}<LI>Subgraphs</LI>{{ end -}}
 </UL>
-{{- if .Params.flags -}}
-<P>
 <I>
+{{- if .Params.flags -}}
   Note:
   {{ if eq (index .Params.flags 0) "notdot" }}
     not dot
@@ -45,9 +43,9 @@
       {{ $flag }}
     {{- end }} only
   {{ end }}
+{{- end -}}
 </I>
 </P>
-{{- end -}}
 </DD>
 {{ end }}
 </DL>
