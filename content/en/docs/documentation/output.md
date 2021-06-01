@@ -53,11 +53,11 @@ one of the plugins, in which case, that transformation is not possible.
 
 ---
 
-## Notes
+## ID Output Note {#ID}
 
-1.  In the formats: `-Tcmap`, `-Tcmapx`, `-Tsvg`, `-Tvml`, the output generates
-    `id="node#"` properties for nodes, `id="edge#"` properties for edges, and `id="cluster#"` properties for clusters, with the `#` replaced by an internally assigned integer. These strings can be provided instead by an externally provided `id=xxx` attribute on the object.
-    Normal `\N` `\E` `\G` substitutions are applied.
-    Externally provided id values are not used internally, and it is the use's reponsibilty to ensure
-    that they are sufficiently unique for their intended downstream use.
-    Note, in particular, that `\E` is not a unique id for multiedges.
+In the formats: `-Tcmap`, `-Tcmapx`, `-Tsvg`, `-Tvml`, the output generates
+`id="node#"` properties for nodes, `id="edge#"` properties for edges, and `id="cluster#"` properties for clusters, with the `#` replaced by an internally assigned integer. These strings can be provided instead by an externally provided `id=xxx` attribute on the object.
+Normal `\N` `\E` `\G` substitutions are applied.
+Externally provided id values are not used internally, and it is the user's reponsibilty to ensure
+that they are sufficiently unique for their intended downstream use.
+Note, in particular, that `\E` is not a unique id for multiedges.
