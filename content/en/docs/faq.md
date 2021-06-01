@@ -240,19 +240,19 @@ The following applies to Graphviz 2.8 and later. (In older versions of Graphviz,
 Latin-1 or other UTF-8 characters in the input stream, but the results are not always correct.)
 
 Input: the general idea is to find the [Unicode](http://en.wikipedia.org/wiki/Unicode) 
-value for the glyph you want, and enter it within a text string "...." or HTML-like label <...>.
+value for the glyph you want, and enter it within a text string `"..."` or HTML-like label `<...>`.
 
-For example, the mathematical forall sign (∀) has the value 0x2200. There are several ways this can be inserted into a file. One is to 
-write out the ASCII representation: "&#&lt;nnn&gt;;" where &lt;nnn&gt; is the decimal representation of the value. The decimal value of 0x2200 is 8704, 
-so the character can be specified as "&#8704;" . Alternatively, Graphviz accepts UTF-8 encoded input. In the case of forall, 
-its UTF-8 representation is 3 bytes whose decimal values are 226 136 128. For convenience, you would probably enter this using your favorite 
+For example, the mathematical forall sign `∀` has the value `0x2200`. There are several ways this can be inserted into a file. One is to 
+write out the ASCII representation: `&#<nnn>;` where `<nnn>` is the decimal representation of the value. The decimal value of `0x2200` is `8704`, 
+so the character can be specified as `&#8704;` . Alternatively, Graphviz accepts UTF-8 encoded input. In the case of forall, 
+its UTF-8 representation is 3 bytes whose decimal values are `226` `136` `128`. For convenience, you would probably enter this using your favorite 
 editor, tuned to your character set of choice. You can then use the iconv program to map the graph from your character set to UTF-8 or Latin-1.
 
 We also accept the HTML symbolic names for Latin-1 characters as suggested in [FaqSymbols](#FaqSymbols). 
-For example, the cent sign (unicode and Latin-1 value decimal 162 can be inserted as `&cent;`
+For example, the cent sign (unicode and Latin-1 value decimal 162) can be inserted as `&cent;`
 
 Note that the graph file must always be a plain text document not a Word or other rich format file. Any characters not 
-enclosed in "..." or <...> must be ordinary ASCII characters. In particular, all of the DOT keywords such as digraph or subgraph must be ASCII.
+enclosed in `"..."` or `<...>` must be ordinary ASCII characters. In particular, all of the DOT keywords such as `digraph` or `subgraph` must be ASCII.
 
 Because we cannot always guess the encoding, you should set the graph attribute `charset` to [UTF-8](http://en.wikipedia.org/wiki/UTF-8), 
 [Latin1](http://en.wikipedia.org/wiki/Latin-1) (alias ISO-8859-1 or ISO-IR-100) or 
