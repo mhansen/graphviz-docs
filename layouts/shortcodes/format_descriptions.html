@@ -1,14 +1,10 @@
-<DL>
 {{ $formats := .Site.GetPage "/formats" }}
 {{ range $formats.Resources }}
-  <DT>
-  {{- range $i, $p := .Params.params -}}
-    {{- if $i -}}, {{ end -}}
-    <A NAME="d:{{$p}}" HREF="#a:{{$p}}"><STRONG>{{$p}}</STRONG></A>
-  {{- end -}}
-  </DT>
-  <DD>
-  {{- .Content }}
-  </DD>
+<H3>
+{{- range $i, $p := .Params.params -}}
+  {{- if $i -}}, {{ end -}}
+  <A NAME="d:{{$p}}" HREF="#a:{{$p}}">{{$p}}</A>
+{{- end -}}
+</H3>
+{{- .Content }}
 {{ end }}
-</DL>

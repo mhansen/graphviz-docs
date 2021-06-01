@@ -11,6 +11,7 @@ html5validator \
 	"Duplicate ID “roadmap”." \
 	"Duplicate ID “solaris”." \
 	"Element “style” not allowed as child of element “dd” in this context. (Suppressing further errors from this subtree.)" \
+	"Element “style” not allowed as child of element “div” in this context. (Suppressing further errors from this subtree.)" \
 	"Element “style” not allowed as child of element “p” in this context. (Suppressing further errors from this subtree.)" \
 	"Element “ul” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)" \
 	"No “p” element in scope but a “p” end tag seen." \
