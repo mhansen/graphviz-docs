@@ -16,6 +16,7 @@ build_site:
       - public # generating site folder to be browsed or download
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
+    HUGO_ENV: production
 
 check:
   image: cyb3rjak3/html5validator
@@ -40,4 +41,5 @@ pages:
     - main # this job will affect only the 'main' branch
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
+    HUGO_ENV: production
 
