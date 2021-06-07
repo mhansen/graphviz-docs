@@ -21,7 +21,7 @@ and in visual interfaces for many other domains.
 
 Graphviz is open source graph visualization software.
 It has several main graph layout programs.
-See the [gallery](/gallery)for some sample layouts.
+See the [gallery](/gallery) for some sample layouts.
 It also has web and interactive graphical interfaces,
 and auxiliary tools, libraries, and language bindings.
 
