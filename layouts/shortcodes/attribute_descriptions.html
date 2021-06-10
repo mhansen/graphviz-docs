@@ -27,7 +27,7 @@ type: <I>{{ range $i, $t := .Params.types -}}
 <P>
 <I>Valid on:</I>
 <UL>
-{{- if in .Params.used_by "C" }}<LI>Clusters<LI>{{ end -}}
+{{- if in .Params.used_by "C" }}<LI>Clusters</LI>{{ end -}}
 {{- if in .Params.used_by "E" }}<LI>Edges</LI>{{ end -}}
 {{- if in .Params.used_by "G" }}<LI>Graphs</LI>{{ end -}}
 {{- if in .Params.used_by "N" }}<LI>Nodes</LI>{{ end -}}
