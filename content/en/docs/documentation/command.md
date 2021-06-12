@@ -1,5 +1,5 @@
 ---
-title: Command-line Invocation
+title: Command Line
 url: /doc/info/command.html
 weight: 2
 ---

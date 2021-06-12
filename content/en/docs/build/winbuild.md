@@ -1,5 +1,5 @@
 ---
-title: Graphviz Build Instructions for Windows
+title: Windows
 url: /doc/winbuild.html
 aliases:
 - /_pages/doc/winbuild.html

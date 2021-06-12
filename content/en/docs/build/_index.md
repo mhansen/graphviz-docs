@@ -1,5 +1,5 @@
 ---
-title: Graphviz build notes
+title: Building
 url: /doc/build.html
 aliases:
 - /_pages/doc/build.html
