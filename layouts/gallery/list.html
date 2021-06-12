@@ -1,4 +1,8 @@
-{{ range $p := .Site.Pages }}
+{{ define "main" }}
+
+{{ .Content }}
+
+{{ range $p := .RegularPagesRecursive }}
   {{- if eq $p.Type "gallery" -}}
     <div style="display: inline-block; width: 49%; vertical-align:top;">
       <a href="{{ $p.Permalink }}">
@@ -7,4 +11,6 @@
       </a>
     </div>
   {{- end -}}
+{{ end }}
+
 {{ end }}

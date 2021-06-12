@@ -1,6 +1,5 @@
 ---
 title: Gallery
-url: /gallery/
 aliases:
   # We want to redirect from /Gallery.php. We need ".php.html" else the
   # redirect page is downloaded to ~/Downloads/ rather than shown in browser. See:
@@ -9,7 +8,6 @@ aliases:
   # Gallery links to _pages version too.
   - /_pages/Gallery.php.html
 weight: 3
-type: 'docs'
 cascade:
 - type: "gallery"
 no_list: true
@@ -19,7 +17,6 @@ menu:
     weight: 40
     pre: "<i class='fas fa-images'></i>"
 ---
-{{<gallery>}}
 
 <a href="http://yifanhu.net/GALLERY/GRAPHS/index.html"> <img width="140" border="0" src="/Gallery/ufl.png" alt="" title="transparency" /></a>
 
