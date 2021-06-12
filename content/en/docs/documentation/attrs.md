@@ -1,5 +1,5 @@
 ---
-title: Node, Edge and Graph Attributes
+title: Attributes
 url: /doc/info/attrs.html
 aliases:
   - /doc/info/attrs1.html

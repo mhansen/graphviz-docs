@@ -193,7 +193,7 @@ Set `bgcolor=grey` (or some other color) in the cluster.
 
 ### How can I get high quality (antialiased) output? {#FaqQuality}
 
-The easiest thing is to use a vector-based output formats such as PDF, SVG or PostScript. In addition, if Graphviz has a cairo/pango backend,  
+The easiest thing is to use a vector-based output formats such as PDF, SVG or PostScript. In addition, if Graphviz has a cairo/pango backend,
 this will generate anti-aliased output.
 
 Anoher approache is to make the layout in PostScript (option `-Tps`), then run through Ghostview with antialiasing enabled. The important command line 
