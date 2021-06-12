@@ -1,5 +1,7 @@
 ---
 title: Gallery
+# For backwards compatibility with the old graphviz site and old lowercase links.
+url: /gallery/
 aliases:
   # We want to redirect from /Gallery.php. We need ".php.html" else the
   # redirect page is downloaded to ~/Downloads/ rather than shown in browser. See:
