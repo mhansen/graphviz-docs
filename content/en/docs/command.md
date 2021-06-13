@@ -7,33 +7,66 @@ All Graphviz programs have a similar invocation:
 
 <pre><i>cmd</i> [ <i>flags</i> ] [ <i>input files</i> ]</pre>
 
-For example:
+If no input files are supplied, the program reads from **stdin**. For example:
 
 ```
-dot -Tsvg input.dot
+$ echo 'digraph { a -> b }' | dot -Tsvg > output.svg
 ```
 
-If no input files are supplied, the program reads from **stdin**.
+Generates:
+
+<img src="stdin.svg">
 
 ## Flags
 
-### `-G`_name_\[=_value_\]
+### `-G`_name_\[=_value_\] {#-G}
 
 Set a graph attribute, with default _value_ = `true`
 
-### `-N`_name_\[=_value_\]
+For example,
+
+```
+$ echo 'digraph { a -> b }' | dot -Tsvg -Gfontcolor=red -Glabel="My favorite letters"
+```
+
+Overrides the default `fontcolor` and `label` attributes of the graph, producing a red legend:
+
+<img src="-G.svg">
+
+### `-N`_name_\[=_value_\] {#-N}
 
 Set a default node attribute, with default _value_ = `true`.
 
-### `-E`_name_\[=_value_\]
+For example,
+
+```
+$ echo 'digraph { a -> b }' | dot -Tsvg -Nfontcolor=red -Nshape=rect
+```
+
+Overrides the default node `fontcolor` and `shape` attributes, producing rectangular nodes with red text:
+
+<img src="-N.svg">
+
+### `-E`_name_\[=_value_\] {#-E}
 
 Set a default edge attribute, with default _value_ = `true`.
 
-### `-K`_layout_ {#minusK}
-: Specifies which default layout algorithm to use, overriding the default from the command name. For example, running
+For example,
+
+```
+$ echo 'digraph { a -> b }' | dot -Tsvg -Ecolor=red -Earrowhead=diamond
+```
+
+Overrides the default edge `color` and `arrowhead` attributes, producing red edges with a diamond arrowhead:
+
+<img src="-E.svg">
+
+### `-K`_layout_ {#-K}
+
+Specifies which default layout algorithm to use, overriding the default from the command name. For example, running
 `dot -Kneato` is equivalent to running `neato`.
 
-### `-T`_format_\[:_renderer_\[:_formatter_\]\] {id="d:T"}
+### `-T`_format_\[:_renderer_\[:_formatter_\]\] {#-T}
 
 Set output language to one of the [supported formats](output.html).
 By default, [attributed dot](/docs/outputs/dot/) is produced.
@@ -57,11 +90,16 @@ listed with a prefix matching _format_ being the default.
 Using the `-v` flag, described below, will print which format,
 renderer, and formatter are actually used.
 
-### `-V`
+### `-V` {#-V}
 
-Emit version information and exit.
+Emit version information and exit. For example:
 
-### `-l`_library_
+```
+$ dot -V
+dot - graphviz version 2.47.1 (20210417.1919)
+```
+
+### `-l`_library_ {#-l}
 
 User-supplied, device-dependent library text. Multiple flags may
 be given. These strings are passed to the code generator at the
@@ -72,7 +110,7 @@ whose content will be included in the preamble after the standard preamble.
 If _library_ is the empty string `""`, the standard preamble
 is not emitted.
 
-### `-n`\[_num_\] {id="d:n"}
+### `-n`\[_num_\] {#-n}
 
 Sets no-op flag in **neato**.
 If set, **neato** assumes nodes have already been 
@@ -97,31 +135,48 @@ computes an edge layout for any edge that does not have a **pos** attribute.
 As usual, edge layout is guided by the 
 [splines](attrs.html#d:splines) attribute.
 
-### `-o`_outfile_
+### `-o`_outfile_ {#-o}
 
-Write output to file <I>outfile</I>. By default, output goes to
-**stdout**.
+Write output to file <I>outfile</I>. For example,
 
-### `-O`
+```
+$ echo 'digraph { a -> b }' | dot -Tsvg -o output.svg
+```
+
+Generates `output.svg`:
+
+<img src="stdin.svg">
+
+By default, output goes to **stdout**.
+
+### `-O` {#-O}
 
 Automatically generate output file names based on the input
 file name and the various output formats specified by the **-T**
 flags.
 
-### `-P`
+For example,
+
+```
+$ dot -Tsvg -O ~/family.dot ~/debug.dot
+```
+
+Generates `~/family.dot.svg` and `~/family.dot.svg` files.
+
+### `-P` {#-P}
 
 Automatically generate a graph that shows the plugin configuration of
 the current executable. e.g.
 
 ```
-dot -P -Tps | lpr
+$ dot -P -Tsvg -o plugins.svg
 ```
 
-### `-q`
+### `-q` {#-q}
 
 Suppress warning messages.
 
-### `-s`\[_scale_\] {id="d:s"}
+### `-s`\[_scale_\] {#-s}
 : Set input scale to _scale_. If this value is omitted,
   72.0 is used. This number is used to convert the point coordinate
   units used in the [pos](attrs.html#d:pos) attribute
@@ -130,17 +185,17 @@ Suppress warning messages.
   neato or fdp almost always requires this flag.
   Ignored if the `-n` flag is used.
 
-### `-v`
+### `-v` {#-v}
 
 Verbose mode
 
-### `-x`
+### `-x` {#-x}
 
 In **neato**, on input, prune isolated nodes and peninsulas.
 This removes uninteresting graph structure and produces a less cluttered
 drawing.
 
-### `-y`
+### `-y` {#-y}
 
 By default, the coordinate system used in generic output formats, 
 such as [attributed dot](/docs/outputs/dot/),
@@ -152,7 +207,7 @@ and with increasing y coordinates as points move from bottom to top.
 If the `-y` flag is used, the coordinate system is inverted,
 so that increasing values of y correspond to movement from top to bottom.
 
-### `-?`
+### `-?` {id="-?"}
 
 Print usage information, then exit.
 

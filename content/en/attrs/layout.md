@@ -17,5 +17,5 @@ within the graph.
 For example, a graph containing position information from a layout might want
 to record what the associated layout algorithm was.
 
-This attribute takes precedence over the [`-K` flag](command.html#minusK) or
+This attribute takes precedence over the [`-K` flag](command.html#-K) or
 the actual command name used.

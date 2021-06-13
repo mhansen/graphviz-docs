@@ -14,7 +14,7 @@ is one of the parameters listed above.
 The formats actually available in a given Graphviz system depend on
 how the system was built and the presence of additional libraries.
 To see what formats **dot** supports, run `dot -T?`.
-See the [description of the -T](command.html#d:T)
+See the [description of the `-T`](command.html#-T)
 flag for additional information.
 
 Note that the internal coordinate system has the origin
