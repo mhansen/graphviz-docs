@@ -1,5 +1,4 @@
-{{ $formats := .Site.GetPage "/formats" }}
-{{ range $formats.Resources }}
+{{ range .Page.Pages }}
 <H3 ID="d:{{ index .Params.params 0 }}">
 {{- range $i, $p := .Params.params -}}
   {{- if $i -}}, {{ end -}}

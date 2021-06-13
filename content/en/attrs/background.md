@@ -8,7 +8,7 @@ types:
 - string
 used_by: G
 ---
-A string in the [xdot format](output.html#d:xdot) specifying an arbitrary background.  
+A string in the [`xdot` format](/docs/outputs/dot/) specifying an arbitrary background.  
 During rendering, the canvas is first filled as described in the
 [`bgcolor` attribute](#d:bgcolor).
 
