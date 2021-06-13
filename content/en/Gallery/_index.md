@@ -8,8 +8,6 @@ aliases:
   # Gallery links to _pages version too.
   - /_pages/Gallery.php.html
 weight: 3
-cascade:
-- type: "gallery"
 no_list: true
 toc_root: true
 menu:
