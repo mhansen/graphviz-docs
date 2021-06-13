@@ -5,7 +5,13 @@ weight: 2
 ---
 All Graphviz programs have a similar invocation:
 
-<code><i>cmd</i> [ <i>flags</i> ] [ <i>input files</i> ]</code>
+<pre><i>cmd</i> [ <i>flags</i> ] [ <i>input files</i> ]</pre>
+
+For example:
+
+```
+dot -Tsvg input.dot
+```
 
 If no input files are supplied, the program reads from **stdin**.
 
