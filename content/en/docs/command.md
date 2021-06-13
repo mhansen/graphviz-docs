@@ -69,7 +69,7 @@ Specifies which default layout algorithm to use, overriding the default from the
 ### `-T`_format_\[:_renderer_\[:_formatter_\]\] {#-T}
 
 Set output language to one of the [supported formats](output.html).
-By default, [attributed dot](/docs/outputs/dot/) is produced.
+By default, [attributed dot](/docs/outputs/canon/) is produced.
 
 Depending on how Graphviz was built, there may be multiple renderers for
 generating a particular output format, and multiple formatters for 
@@ -198,8 +198,8 @@ drawing.
 ### `-y` {#-y}
 
 By default, the coordinate system used in generic output formats, 
-such as [attributed dot](/docs/outputs/dot/),
-[extended dot](/docs/outputs/dot/),
+such as [attributed dot](/docs/outputs/canon/),
+[extended dot](/docs/outputs/canon/),
 [plain](/docs/outputs/plain/) and
 [plain-ext](/docs/outputs/plain/),
 is the standard cartesian system with the origin in the lower left corner, 
