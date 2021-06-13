@@ -7,8 +7,8 @@ Arrow shapes can be specified and named using the following simple
 grammar. 
 Terminals are shown in bold font and nonterminals in italics.
 Literal characters are given in single quotes.
-Square brackets [ and ] enclose optional items.
-Vertical bars | separate alternatives.
+Square brackets `[` and `]` enclose optional items.
+Vertical bars `|` separate alternatives.
 
 ## Grammar
 
