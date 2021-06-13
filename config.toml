@@ -1,3 +1,4 @@
+
 baseURL = "https://graphviz.org/"
 title = "Graphviz"
 
@@ -26,6 +27,9 @@ pygmentsUseClassic = false
 #pygmentsOptions = "linenos=table"
 # See https://help.farbox.com/pygments.html
 pygmentsStyle = "tango"
+
+# For backwards compatibility with old Graphviz site URLs, retain case-sensitivity of URLs
+disablePathToLower = true
 
 # Configure how URLs look like per section.
 [permalinks]
@@ -201,3 +205,5 @@ name = "GitLab"
 weight = 50
 pre = "<i class='fab fa-gitlab'></i>"
 url = "https://gitlab.com/graphviz/graphviz"
+
+
