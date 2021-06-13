@@ -1,6 +1,0 @@
-{{ $attr_types := .Site.GetPage "/attr_types" }}
-{{ range $attr_types.Resources }}
-<H3 ID="k:{{.Params.name}}"><A HREF="#k:{{.Params.name}}">{{.Params.name}}</A></H3>
-{{.Content}}
-{{ end }}
-

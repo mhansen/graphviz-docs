@@ -151,9 +151,9 @@ so they must be escaped if you want spaces in the text.
 
 The first string in _fieldId_ assigns a portname to the field and can
 be combined with the node name to indicate where to attach an edge
-to the node. (See [portPos](attrs.html#k:portPos).)
+to the node. (See [portPos](attrs.html/docs/attr-types/portPos/).)
 The second string is used as the text for the field; it supports the usual
-[escape sequences](attrs.html#k:escString) `\n`, `\l` and `\r`.
+[escape sequences](attrs.html/docs/attr-types/escString/) `\n`, `\l` and `\r`.
 
 Visually, a record is a box, with fields represented by alternating
 rows of horizontal or vertical subboxes. The Mrecord shape is identical
@@ -327,7 +327,7 @@ rather than `"..."`,
 the label is interpreted as
 an HTML description. At their simplest, such labels
 can describe multiple lines of variously aligned text as provided by ordinary 
-[string labels](attrs.html#k:escString). More generally, the
+[string labels](attrs.html/docs/attr-types/escString/). More generally, the
 label can specify a table similar to those provided by HTML,
 with different graphical attributes at each level.
 
@@ -347,7 +347,7 @@ HTML. The grammar below describes precisely what Graphviz will accept.
 Although HTML labels are not, strictly speaking, a shape, they can be
 viewed as a generalization of the record shapes described above. 
 In particular, if a node has set its 
-[`shape`](attrs.html#k:shape)
+[`shape`](attrs.html/docs/attr-types/shape/)
 attribute to `none` or `plaintext`, the HTML label will be the node's
 shape. On the other hand, if the node has any other shape (except 
 `point`), the HTML label will be embedded within the node the
@@ -663,14 +663,14 @@ Attribute values must appear in double quotes.
 <span id="href">HREF="value"</span>
 : attaches a URL to the object.
   Note that the `"value"` is treated as an
-  [escString](attrs.html#k:escString) similarly to the
+  [escString](attrs.html/docs/attr-types/escString/) similarly to the
   [URL](attrs.html#d:URL) attribute.
 
 <span id="id">ID="value"</span>
 : allows the user to specify a unique ID for a table or cell. See
   the [id](attrs.html#d:id) attribute for more information.
   Note that the `"value"` is treated as an
-  [escString](attrs.html#k:escString) similarly to the
+  [escString](attrs.html/docs/attr-types/escString/) similarly to the
   [id](attrs.html#d:id) attribute.
 
 <span id="point-size">POINT-SIZE="value"</span>
@@ -684,7 +684,7 @@ Attribute values must appear in double quotes.
 
 <span id="port">PORT="value"</span>
 : attaches a portname to the object.
-  (See [portPos](attrs.html#k:portPos).)
+  (See [portPos](attrs.html/docs/attr-types/portPos/).)
   This can be used to modify the head
   or tail of an edge, so that the end attaches directly to the object.
 
@@ -749,14 +749,14 @@ Attribute values must appear in double quotes.
   has one. 
   See [W3C documentation](http://www.w3.org/TR/html401/present/frames.html#adef-target).
   Note that the `"value"` is treated as an
-  [escString](attrs.html#k:escString) similarly to the
+  [escString](attrs.html/docs/attr-types/escString/) similarly to the
   [target](attrs.html#d:target) attribute.
 
 <span id="title">TITLE="value"</span>
 : sets the tooltip annotation attached to the element. 
   This is used only if the element has a [`HREF`](#href) attribute.
   Note that the `"value"` is treated as an
-  [escString](attrs.html#k:escString) similarly to the
+  [escString](/docs/attr-types/escString/) similarly to the
   [tooltip](attrs.html#d:tooltip) attribute.
 
 <span id="tooltip">TOOLTIP="value"</span>

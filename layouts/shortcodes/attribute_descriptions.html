@@ -7,7 +7,7 @@
 <P>
 type: <I>{{ range $i, $t := .Params.types -}}
 {{- if $i }} | {{ end -}}
-<A HREF="#k:{{$t}}">{{$t}}</A>
+<A HREF="/docs/attr-types/{{$t}}/">{{$t}}</A>
 {{- end -}}
 {{- range $i, $d := .Params.defaults }}
   {{- if eq $i 0 }}, default: {{ end }}
