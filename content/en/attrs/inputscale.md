@@ -17,7 +17,7 @@ By default, `fdp` and `neato` interpret
 the x and y values of pos as being in inches. (**NOTE:** `neato -n(2)` treats the coordinates as
 being in points, being the unit used by the layout algorithms for the pos attribute.) Thus, if
 the graph has pos attributes in points, one should set `inputscale=72`.
-This can also be set on the command line using the [`-s` flag](command.html#minusK) flag.
+This can also be set on the command line using the [`-s` flag](command.html#-K) flag.
 
 If unset, no scaling is done and the units on input are treated as inches.
 

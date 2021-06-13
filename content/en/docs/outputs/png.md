@@ -8,7 +8,7 @@ Produces output in the PNG (Portable Network Graphics) format.
 
 (25 November 2014) A standard Graphviz installation will render using both
 the Cairo and GD library. 
-By [mixing the rendering and formatting](command.html#d:T) of these
+By [mixing the rendering and formatting](command.html#-T) of these
 libraries, one can achieve different variations in the output.
 
 `-Tpng:gd` (or `-Tpng:gd:gd`)
