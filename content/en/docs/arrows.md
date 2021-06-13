@@ -10,30 +10,29 @@ Literal characters are given in single quotes.
 Square brackets [ and ] enclose optional items.
 Vertical bars | separate alternatives.
 
+## Grammar
+
 <TABLE>
 {{< arrow_grammar >}}
 </TABLE>
 
-The primitive shapes are:
-<TABLE>
-  <TR>
-    <TD>"box"</TD><TD><IMG SRC="a_box.gif"></TD>
-    <TD>"crow"</TD><TD><IMG SRC="a_crow.gif"></TD>
-    <TD>"curve"</TD><TD><IMG SRC="a_curve.gif"></TD>
-    <TD>"diamond"</TD><TD><IMG SRC="a_diamond.gif"></TD>
-  </TR>
-  <TR>
-    <TD>"dot"</TD><TD><IMG SRC="a_dot.gif"></TD>
-    <TD>"icurve"</TD><TD><IMG SRC="a_icurve.gif"></TD>
-    <TD>"inv"</TD><TD><IMG SRC="a_inv.gif"></TD>
-    <TD>"none"</TD><TD><IMG SRC="a_none.gif"></TD>
-  </TR>
-  <TR>
-    <TD>"normal"</TD><TD><IMG SRC="a_normal.gif"></TD>
-    <TD>"tee"</TD><TD><IMG SRC="a_tee.gif"></TD>
-    <TD>"vee"</TD><TD><IMG SRC="a_open.gif"></TD>
-  </TR>
-</TABLE>
+## Primitive Shapes
+
+| Shape | Image |
+| ---- | ----- |
+|`box`|<IMG SRC="a_box.gif">|
+|`crow`|<IMG SRC="a_crow.gif">|
+|`curve`|<IMG SRC="a_curve.gif">|
+|`diamond`|<IMG SRC="a_diamond.gif">|
+|`dot`|<IMG SRC="a_dot.gif">|
+|`icurve`|<IMG SRC="a_icurve.gif">|
+|`inv`|<IMG SRC="a_inv.gif">|
+|`none`|<IMG SRC="a_none.gif">|
+|`normal`|<IMG SRC="a_normal.gif">|
+|`tee`|<IMG SRC="a_tee.gif">|
+|`vee`|<IMG SRC="a_open.gif">|
+
+## Shape Modifiers
 
 As for the modifiers:
 
