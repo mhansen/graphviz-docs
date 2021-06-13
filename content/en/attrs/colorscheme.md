@@ -10,7 +10,7 @@ used_by: ENCG
 ---
 This attribute specifies a color scheme namespace: the context for interpreting color names.
 
-In particular, if a [`color`](#k:color) value has form `"xxx"` or `"//xxx"`,
+In particular, if a [`color`](/docs/attr-types/color/) value has form `"xxx"` or `"//xxx"`,
 then the color `xxx` will be evaluated according to the current color scheme.
 If no color scheme is set, the standard X11 naming is used.
 

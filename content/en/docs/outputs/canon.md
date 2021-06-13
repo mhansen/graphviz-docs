@@ -126,7 +126,7 @@ n bytes following `-`. (1.1)
 S n -<I>b₁b₂...bₙ</I>
 : Set style attribute. The style value consists of the
 n bytes following `-`. The syntax of the value is the same as
-specified for a **styleItem** in [style](attrs.html#k:style). (1.1)
+specified for a **styleItem** in [style](/docs/attr-types/style/). (1.1)
 
 I x y w h n -<I>b₁b₂...bₙ</I>
 : Externally-specified image drawn in the box with lower left

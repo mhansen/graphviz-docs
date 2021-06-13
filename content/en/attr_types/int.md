@@ -1,4 +1,0 @@
----
-name: int
----
-Integer number.

@@ -13,7 +13,7 @@ Basic drawing color for graphics, not text. For the latter, use the
 [`fontcolor`](#d:fontcolor) attribute.
 
 For edges, the value can either be a single color or a
-[`colorList`](#k:colorList).
+[`colorList`](/docs/attr-types/colorList/).
 
 In the latter case, if `colorList` has no fractions,
 the edge is drawn using parallel splines or lines,

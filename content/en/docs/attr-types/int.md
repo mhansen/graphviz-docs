@@ -1,0 +1,4 @@
+---
+title: int
+---
+Integer number.

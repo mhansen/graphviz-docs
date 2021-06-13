@@ -21,7 +21,7 @@ the default is used, except for
 format is `MIF`,
 which use black by default.
 
-If the value is a [`colorList`](#k:colorList), a gradient fill is
+If the value is a [`colorList`](/docs/attr-types/colorList/), a gradient fill is
 used. By default, this is a linear fill; setting [`style`](#d:style)`=radial` will
 cause a radial fill. At present, only two colors are used. If the second
 color (after a colon) is missing, the default color is used for it.

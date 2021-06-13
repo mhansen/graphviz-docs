@@ -14,7 +14,7 @@ Keeps the node at the node's given input position.
 
 If true and the node has a [`pos`](#d:pos) attribute on input, `neato` or
 `fdp` prevents the node from moving from the input position. This property
-can also be specified in the [`pos`](#d:pos) attribute itself (cf. the [point](#k:point)
+can also be specified in the [`pos`](#d:pos) attribute itself (cf. the [point](/docs/attr-types/point/)
 type).
 
 **Note:** Due to an artifact of the implementation, previous to 27 Feb 2014,

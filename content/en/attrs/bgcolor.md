@@ -16,7 +16,7 @@ When a cluster attribute, it is used as the initial background
 for the cluster. If a cluster has a filled [`style`](#d:style), the cluster's
 [`fillcolor`](#d:fillcolor) will overlay the background color.
 
-If the value is a [`colorList`](#k:colorList), a gradient fill is used. By
+If the value is a [`colorList`](/docs/attr-types/colorList/), a gradient fill is used. By
 default, this is a linear fill; setting [`style`](#d:style)`=radial` will
 cause a radial fill. Only two colors are used. If the second color (after a
 colon) is missing, the default color is used for it. See also the
