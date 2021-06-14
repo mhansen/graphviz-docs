@@ -30,7 +30,7 @@ and 1, separated by whitespace or commas.
 
 String-valued color specifications are case-insensitive and interpreted in
 the context of the current color scheme, as specified by the
-[colorscheme](#d:colorscheme) attribute. If this is undefined, the X11 naming
+[`colorscheme`]({{< ref "../attrs/colorscheme.md" >}}) attribute. If this is undefined, the X11 naming
 scheme will be used. An initial `"/"` character can be used to override the
 use of the `colorscheme` attribute. In particular, a single initial `"/"`
 will cause the string to be evaluated using the default X11 naming. If the
@@ -89,5 +89,5 @@ Examples:
 The string value `transparent` can be used to indicate no color. This is only
 available in the output formats ps, svg, fig, vmrl, and the bitmap formats.
 It can be used whenever a color is needed but is most useful with the
-[`bgcolor`](#d:bgcolor) attribute. Usually, the same effect can be achieved by
-setting [`style`](#d:style) to `invis`.
+[`bgcolor`]({{< ref "../attrs/bgcolor.md" >}}) attribute. Usually, the same effect can be achieved by
+setting [`style`]({{< ref "../attrs/style.md" >}}) to `invis`.

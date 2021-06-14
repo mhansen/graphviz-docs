@@ -18,7 +18,7 @@ the node should be used, if such exists. Otherwise, the center is used. If no
 compass point is used with a portname, the default value is `"_"`.
 
 This attribute can be attached to an edge using the
-[`headport`](#d:headport) and [`tailport`](#d:tailport) attributes, or as part of the
+[`headport`]({{< ref "../attrs/headport.md" >}}) and [`tailport`]({{< ref "../attrs/tailport.md" >}}) attributes, or as part of the
 edge description as in
 
 ```dot

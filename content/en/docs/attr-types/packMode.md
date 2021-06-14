@@ -36,6 +36,6 @@ respectively.
 If the optional flags contains `'u'`, this causes the insertion order of
 elements in the array to be determined by user-supplied values. Each
 component can specify its sort value by a non-negative integer using the
-[`sortv`](#d:sortv) attribute. Components are inserted in order, starting with
+[`sortv`]({{< ref "../attrs/sortv.md" >}}) attribute. Components are inserted in order, starting with
 the one with the smallest sort value. If no sort value is specified, zero is
 used.
