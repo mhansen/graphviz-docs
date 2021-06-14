@@ -1,3 +1,8 @@
+{{ $gv_src := $.Inner }}
+{{ if $.Get "file" }}
+  {{ $gv_src = readFile ($.Get "file") }}
+{{ end }}
+{{ $gv_src = trim $gv_src "\n "}}
 <div class="card mb-4">
   {{ with $.Get "header" }}
     <div class="card-header">
@@ -27,18 +32,10 @@
         {{ end }}
       </h6>
     {{ end }}
-    {{ if $.Get "file" }}
-      <pre class="card-text"><code class="language-dot">{{ readFile ($.Get "file") }}</code></pre>
-    {{ else }}
-      {{- highlight (trim $.Inner "\n ") "dot" "" -}}
-    {{ end }}
+    {{- highlight $gv_src "dot" "" -}}
   </div>
   <div class="card-footer">
-    {{ if $.Get "file" }}
-      <a href="http://magjac.com/graphviz-visual-editor/?dot={{ readFile ($.Get "file") }}">Edit in Playground</a>
-    {{ else }}
-      <a href="http://magjac.com/graphviz-visual-editor/?dot={{ trim $.Inner "\n " }}">Edit in Playground</a>
-    {{ end }}
+    <a href="http://magjac.com/graphviz-visual-editor/?dot={{ $gv_src }}" target="_blank"><i class="fa fa-external-link-alt"></i> Edit in Playground</a>
     {{ with $.Get "footer" }}
       {{ if eq $.Page.File.Ext "md" }}
         {{ $.Get "footer" | markdownify }}
