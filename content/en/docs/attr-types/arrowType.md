@@ -63,7 +63,7 @@ title: arrowType
 </TABLE>
 
 The examples above show a set of commonly used arrow shapes.
-There is a grammar of [arrow shapes](arrows.html)
+There is a grammar of [arrow shapes]({{< ref "../arrows.md" >}})
 which can be used to describe a collection of 3,111,696 arrow combinations of the 
 42 variations of the primitive set of 11 arrows.
 

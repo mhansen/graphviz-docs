@@ -3,9 +3,9 @@ title: portPos
 ---
 modifier indicating where on a node an edge should be aimed. It has the form
 `portname(:compass_point)?` or `compass_point`. If the first form is
-used, the corresponding node must either have [record](shapes.html#record)
+used, the corresponding node must either have [record]({{< ref "../shapes.md#record" >}})
 shape with one of its fields having the given `portname`, or have an
-[HTML-like label](shapes.html#html), one of whose components has a `PORT`
+[HTML-like label]({{< ref "../shapes.md#html" >}}), one of whose components has a `PORT`
 attribute set to `portname`.
 
 If a compass point is used, it must have the form

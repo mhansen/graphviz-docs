@@ -18,7 +18,7 @@ Colors can be specified using one of four formats:
   </TR>
   <TR>
     <TD>string</TD>
-    <TD><A HREF="colors.html">color name</A></TD>
+    <TD><A HREF="{{< ref "../colors.md" >}}">color name</A></TD>
   </TR>
 </TABLE>
 
@@ -40,10 +40,10 @@ form `"//yyyy"`, the `colorscheme` attribute is used. Thus, the forms
 `"yyyy"` and `"//yyyy"` are equivalent.
 
 At present, Graphviz recognizes the default color scheme `X11`, and the
-[Brewer color schemes](colors.html#brewer) (cf.
+[Brewer color schemes]({{< ref "../colors.md#brewer" >}}) (cf.
 [ColorBrewer](http://www.personal.psu.edu/faculty/c/a/cab38/ColorBrewer/ColorBrewer_intro.html)).
 Please note that Brewer color schemes are covered by this
-[license](colors.html#brewer_license).
+[license]({{< ref "../colors.md#brewer_license" >}}).
 
 Examples:
 
