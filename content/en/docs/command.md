@@ -7,6 +7,12 @@ All Graphviz programs have a similar invocation:
 
 <pre><i>cmd</i> [ <i>flags</i> ] [ <i>input files</i> ]</pre>
 
+For example:
+
+```
+$ dot -Tsvg input.dot
+```
+
 If no input files are supplied, the program reads from **stdin**. For example:
 
 ```
