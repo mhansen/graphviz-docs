@@ -144,6 +144,9 @@ navbar_logo = false
 # Set to true to disable the About link in the site footer
 footer_about_disable = false
 
+# We have almost 200 attributes; don't truncate the sidebar to max 50 contents.
+sidebar_menu_truncate = 1000
+
 ul_show = 2
 
 # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
