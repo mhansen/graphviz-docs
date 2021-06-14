@@ -12,6 +12,8 @@ aliases:
 weight: 3
 no_list: true
 toc_root: true
+cascade:
+- toc_root: true
 menu:
   main:
     weight: 40
