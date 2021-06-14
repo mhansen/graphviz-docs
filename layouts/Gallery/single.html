@@ -6,16 +6,15 @@
 	</a>
 </p>
 
-{{ $gv_src := trim (readFile (print .File.Dir .Params.gv_file)) "\n" }}
+{{ $gv_src := readFile (print .File.Dir .Params.gv_file) }}
 
 <p>
 [<a href="{{.Params.gv_file}}">Input .gv File</a>]
 [<a href="{{.Params.svg}}">SVG</a>]
 [<a href="{{.Params.img_src}}">Raster Image</a>]
-[<a href="http://magjac.com/graphviz-visual-editor/?dot={{ $gv_src }}">Open in Playground</a>]
 </p>
 
-<pre><code class="language-dot">{{ $gv_src }}</code></pre>
+{{ partial "dot_card" (dict "context" . "gv_src" $gv_src "header" .Params.gv_file) }}
 
 <p>
 {{- .Params.copyright -}}
