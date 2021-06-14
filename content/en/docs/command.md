@@ -177,13 +177,13 @@ $ dot -P -Tsvg -o plugins.svg
 Suppress warning messages.
 
 ### `-s`\[_scale_\] {#-s}
-: Set input scale to _scale_. If this value is omitted,
-  72.0 is used. This number is used to convert the point coordinate
-  units used in the [pos](attrs.html#d:pos) attribute
-  into inches, which is what is expected by neato and fdp. 
-  Thus, feeding the output of a graph laid out by one program into
-  neato or fdp almost always requires this flag.
-  Ignored if the `-n` flag is used.
+Set input scale to _scale_. If this value is omitted,
+72.0 is used. This number is used to convert the point coordinate
+units used in the [pos](attrs.html#d:pos) attribute
+into inches, which is what is expected by neato and fdp. 
+Thus, feeding the output of a graph laid out by one program into
+neato or fdp almost always requires this flag.
+Ignored if the `-n` flag is used.
 
 ### `-v` {#-v}
 
@@ -248,21 +248,21 @@ which restricts access to image files. See
 [GV\_FILE\_PATH](#d:GV_FILE_PATH).
 
 ### `GV_FILE_PATH` {#GV_FILE_PATH}
-: If [SERVER_NAME](#d:SERVER_NAME) is defined, image files are
-  restricted to exist in one of the directories specified by `GV_FILE_PATH`.
-  This last is a list of directory pathnames, separated by semicolons in Windows or
-  by colons otherwise.
-  Note that sometimes, when using one of the layout programs in a web
-  script, it is not enough to use an export command but rather the
-  variables should be set when the command is run, for example,
+If [SERVER_NAME](#d:SERVER_NAME) is defined, image files are
+restricted to exist in one of the directories specified by `GV_FILE_PATH`.
+This last is a list of directory pathnames, separated by semicolons in Windows or
+by colons otherwise.
+Note that sometimes, when using one of the layout programs in a web
+script, it is not enough to use an export command but rather the
+variables should be set when the command is run, for example,
 
-  ```bash
-  SERVER_NAME=xxx GV_FILE_PATH="images:etc/images:/usr/share/images" dot -Tpng -o x.png x.gv
-  ```
+```bash
+SERVER_NAME=xxx GV_FILE_PATH="images:etc/images:/usr/share/images" dot -Tpng -o x.png x.gv
+```
 
-  Note that the image files must really reside in one of the specified directories. If the
-  image file is specified as an absolute or relative pathname, a warning is given and only
-  the base name is used.
+Note that the image files must really reside in one of the specified directories. If the
+image file is specified as an absolute or relative pathname, a warning is given and only
+the base name is used.
 
 ### `GVBINDIR` {id="d:GVBINDIR"}
 
