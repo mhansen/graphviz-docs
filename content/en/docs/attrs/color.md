@@ -3,14 +3,14 @@ defaults:
 - black
 flags: []
 minimums: []
-name: color
+title: color
 types:
 - color
 - colorList
 used_by: ENC
 ---
 Basic drawing color for graphics, not text. For the latter, use the
-[`fontcolor`](#d:fontcolor) attribute.
+[`fontcolor`]({{< ref "fontcolor.md" >}}) attribute.
 
 For edges, the value can either be a single color or a
 [`colorList`](/docs/attr-types/colorList/).
@@ -38,4 +38,4 @@ digraph G {
 
 yields:
 
-<IMG SRC="colorlist.gif">
+<IMG SRC="/doc/info/colorlist.gif">

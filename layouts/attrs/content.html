@@ -1,9 +1,3 @@
-{{ $attrs := .Site.GetPage "/attrs" }}
-{{ range $attr := $attrs.Resources }}
-<H3 ID="d:{{.Params.name}}">
-  <A HREF="#a:{{.Params.name}}">{{ .Params.name }}</A>
-</H3>
-
 <P>
 type: <I>{{ range $i, $t := .Params.types -}}
 {{- if $i }} | {{ end -}}
@@ -22,9 +16,8 @@ type: <I>{{ range $i, $t := .Params.types -}}
 </I>
 </P>
 
-{{- .Content -}}
+{{ .Content }}
 
-<P>
 <I>Valid on:</I>
 <UL>
 {{- if in .Params.used_by "C" }}<LI>Clusters</LI>{{ end -}}
@@ -46,6 +39,3 @@ type: <I>{{ range $i, $t := .Params.types -}}
   {{ end }}
 {{- end -}}
 </I>
-</P>
-{{ end }}
-

@@ -3,7 +3,7 @@ defaults:
 - '0'
 flags: []
 minimums: []
-name: rotate
+title: rotate
 types:
 - int
 used_by: G

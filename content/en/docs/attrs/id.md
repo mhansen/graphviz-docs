@@ -6,7 +6,7 @@ flags:
 - postscript
 - svg
 minimums: []
-name: id
+title: id
 types:
 - escString
 used_by: "GCNE"

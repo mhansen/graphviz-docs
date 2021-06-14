@@ -5,7 +5,7 @@ flags:
 - cmap
 - svg
 minimums: []
-name: edgetooltip
+title: edgetooltip
 types:
 - escString
 used_by: E

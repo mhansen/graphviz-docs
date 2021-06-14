@@ -4,7 +4,7 @@ defaults:
 flags: []
 minimums:
 - '0.02'
-name: height
+title: height
 types:
 - double
 used_by: "N"
@@ -12,7 +12,7 @@ used_by: "N"
 Height of node, in inches.
 
 This is taken as the initial, minimum height of the node. If
-[`fixedsize`](#d:fixedsize) is true, this will be the final height of the
+[`fixedsize`]({{< ref "fixedsize.md" >}}) is true, this will be the final height of the
 node. Otherwise, if the node label requires more height to fit, the node's height
 will be increased to contain the label.
 

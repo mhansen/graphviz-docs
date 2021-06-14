@@ -4,7 +4,7 @@ defaults:
 flags:
 - sfdp
 minimums: []
-name: rotation
+title: rotation
 types:
 - double
 used_by: G

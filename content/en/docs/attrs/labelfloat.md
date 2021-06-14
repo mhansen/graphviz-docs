@@ -3,7 +3,7 @@ defaults:
 - 'false'
 flags: []
 minimums: []
-name: labelfloat
+title: labelfloat
 types:
 - bool
 used_by: E

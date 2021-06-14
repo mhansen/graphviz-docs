@@ -5,7 +5,7 @@ flags:
 - notdot
 minimums:
 - '0.0'
-name: voro_margin
+title: voro_margin
 types:
 - double
 used_by: G

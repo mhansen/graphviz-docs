@@ -5,7 +5,7 @@ flags:
 - cmap
 - svg
 minimums: []
-name: labeltooltip
+title: labeltooltip
 types:
 - escString
 used_by: E

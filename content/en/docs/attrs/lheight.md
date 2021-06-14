@@ -3,7 +3,7 @@ defaults: []
 flags:
 - write
 minimums: []
-name: lheight
+title: lheight
 types:
 - double
 used_by: GC

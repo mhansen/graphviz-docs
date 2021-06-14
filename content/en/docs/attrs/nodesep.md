@@ -4,7 +4,7 @@ defaults:
 flags: []
 minimums:
 - '0.02'
-name: nodesep
+title: nodesep
 types:
 - double
 used_by: G

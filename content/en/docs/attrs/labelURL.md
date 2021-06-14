@@ -5,11 +5,11 @@ flags:
 - map
 - svg
 minimums: []
-name: labelURL
+title: labelURL
 types:
 - escString
 used_by: E
 ---
 If defined, `labelURL` is the link used for the label of an edge.
 
-`labelURL` overrides any [`URL`](#d:URL) defined for the edge.
+`labelURL` overrides any [`URL`]({{< ref "URL.md" >}}) defined for the edge.

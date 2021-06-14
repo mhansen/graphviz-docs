@@ -6,9 +6,9 @@ flags:
 - postscript
 - svg
 minimums: []
-name: href
+title: href
 types:
 - escString
 used_by: GCNE
 ---
-Synonym for [`URL`](#d:URL).
+Synonym for [`URL`]({{< ref "URL.md" >}}).

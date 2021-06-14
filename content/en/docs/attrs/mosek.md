@@ -4,7 +4,7 @@ defaults:
 flags:
 - neato
 minimums: []
-name: mosek
+title: mosek
 types:
 - bool
 used_by: G

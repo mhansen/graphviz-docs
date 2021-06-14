@@ -4,13 +4,13 @@ defaults:
 flags:
 - neato
 minimums: []
-name: levelsgap
+title: levelsgap
 types:
 - double
 used_by: G
 ---
 Specifies strictness of level constraints in neato when
-[`mode`](#d:mode)`="ipsep"` or `mode=hier`.
+<code>[mode]({{< ref "mode.md" >}})="ipsep"</code> or `mode=hier`.
 
 Larger positive values mean stricter constraints, which demand more
 separation between levels. On the other hand, negative values will relax the

@@ -3,7 +3,7 @@ defaults: []
 flags:
 - dot
 minimums: []
-name: nslimit1
+title: nslimit1
 types:
 - double
 used_by: G

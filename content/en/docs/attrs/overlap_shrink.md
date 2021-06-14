@@ -4,7 +4,7 @@ defaults:
 flags:
 - prism
 minimums: []
-name: overlap_shrink
+title: overlap_shrink
 types:
 - bool
 used_by: G

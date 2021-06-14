@@ -4,7 +4,7 @@ defaults:
 flags:
 - svg
 minimums: []
-name: fontnames
+title: fontnames
 types:
 - string
 used_by: G

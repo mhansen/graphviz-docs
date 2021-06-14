@@ -7,7 +7,7 @@ flags:
 - twopi
 minimums:
 - '0.02'
-name: ranksep
+title: ranksep
 types:
 - double
 - doubleList

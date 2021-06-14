@@ -3,7 +3,7 @@ defaults:
 - 'false'
 flags: []
 minimums: []
-name: center
+title: center
 types:
 - bool
 used_by: G

@@ -4,7 +4,7 @@ defaults:
 flags:
 - sfdp
 minimums: []
-name: smoothing
+title: smoothing
 types:
 - smoothType
 used_by: G

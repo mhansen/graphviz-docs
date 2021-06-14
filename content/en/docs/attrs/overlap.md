@@ -4,7 +4,7 @@ defaults:
 flags:
 - notdot
 minimums: []
-name: overlap
+title: overlap
 types:
 - string
 - bool
@@ -13,12 +13,12 @@ used_by: G
 Determines if and how node overlaps should be removed.
 
 Nodes are first
-enlarged using the [`sep`](#d:sep) attribute. If `true` , overlaps are
+enlarged using the [`sep`]({{< ref "sep.md" >}}) attribute. If `true` , overlaps are
 retained. If the value is `"scale"`, overlaps are removed by uniformly scaling
 in x and y. If the value converts to `"false"`, and it is available, Prism, a
 proximity graph-based algorithm, is used to remove node overlaps. This can
 also be invoked explicitly with `overlap=prism`. This technique starts with a
-small scaling up, controlled by the [`overlap_scaling`](#d:overlap_scaling)
+small scaling up, controlled by the [`overlap_scaling`]({{< ref "overlap_scaling.md" >}})
 attribute, which can remove a significant portion of the overlap. The prism
 option also accepts an optional non-negative integer suffix. This can be used
 to control the number of attempts made at overlap removal. By default,
@@ -49,7 +49,7 @@ the same as `"ortho"`, except the roles of x and y are reversed. The values
 `"portho"`, `"porthoxy"`, `"porthoxy"`, and `"portho_yx"` are similar to the
 previous four, except only pseudo-orthogonal ordering is enforced.
 
-If the layout is done by neato with [`mode`](#d:mode)`="ipsep"`, then one can use
+If the layout is done by neato with <code>[mode]({{< ref "mode.md" >}})="ipsep"</code>, then one can use
 `overlap=ipsep`. In this case, the overlap removal constraints are
 incorporated into the layout algorithm itself. N.B. At present, this only
 supports one level of clustering.

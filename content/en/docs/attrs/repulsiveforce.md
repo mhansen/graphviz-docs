@@ -5,7 +5,7 @@ flags:
 - sfdp
 minimums:
 - '0.0'
-name: repulsiveforce
+title: repulsiveforce
 types:
 - double
 used_by: G

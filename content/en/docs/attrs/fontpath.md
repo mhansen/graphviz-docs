@@ -3,7 +3,7 @@ defaults:
 - system-dependent
 flags: []
 minimums: []
-name: fontpath
+title: fontpath
 types:
 - string
 used_by: G

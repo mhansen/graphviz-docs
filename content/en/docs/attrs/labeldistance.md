@@ -4,15 +4,15 @@ defaults:
 flags: []
 minimums:
 - '0.0'
-name: labeldistance
+title: labeldistance
 types:
 - double
 used_by: E
 ---
 Multiplicative scaling factor adjusting the distance that the
-[`headlabel`](#d:headlabel) / [`taillabel`](#d:taillabel) is from the head /
+[`headlabel`]({{< ref "headlabel.md" >}}) / [`taillabel`]({{< ref "taillabel.md" >}}) is from the head /
 tail node.
 
 The default distance is 10 points.
 
-See [`labelangle`](#d:labelangle) for more details.
+See [`labelangle`]({{< ref "labelangle.md" >}}) for more details.

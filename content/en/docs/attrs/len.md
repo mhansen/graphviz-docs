@@ -6,7 +6,7 @@ flags:
 - neato
 - fdp
 minimums: []
-name: len
+title: len
 types:
 - double
 used_by: E

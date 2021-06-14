@@ -4,7 +4,7 @@ defaults:
 flags:
 - dot
 minimums: []
-name: mclimit
+title: mclimit
 types:
 - double
 used_by: G

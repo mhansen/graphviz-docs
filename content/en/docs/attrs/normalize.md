@@ -4,7 +4,7 @@ defaults:
 flags:
 - notdot
 minimums: []
-name: normalize
+title: normalize
 types:
 - double
 - bool

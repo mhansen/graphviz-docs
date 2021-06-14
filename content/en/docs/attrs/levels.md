@@ -5,7 +5,7 @@ flags:
 - sfdp
 minimums:
 - '0.0'
-name: levels
+title: levels
 types:
 - int
 used_by: G

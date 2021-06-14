@@ -3,7 +3,7 @@ defaults:
 - 'true'
 flags: []
 minimums: []
-name: headclip
+title: headclip
 types:
 - bool
 used_by: E

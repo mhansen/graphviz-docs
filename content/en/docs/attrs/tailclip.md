@@ -3,7 +3,7 @@ defaults:
 - 'true'
 flags: []
 minimums: []
-name: tailclip
+title: tailclip
 types:
 - bool
 used_by: E

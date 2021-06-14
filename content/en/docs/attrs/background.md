@@ -3,14 +3,14 @@ defaults:
 - <none>
 flags: []
 minimums: []
-name: _background
+title: _background
 types:
 - string
 used_by: G
 ---
 A string in the [`xdot` format](/docs/outputs/canon/) specifying an arbitrary background.  
 During rendering, the canvas is first filled as described in the
-[`bgcolor` attribute](#d:bgcolor).
+[`bgcolor` attribute]({{< ref "bgcolor.md" >}}).
 
 Then, if `_background` is defined, the graphics
 operations described in the string are performed on the canvas.

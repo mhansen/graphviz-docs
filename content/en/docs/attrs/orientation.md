@@ -5,7 +5,7 @@ defaults:
 flags: []
 minimums:
 - '360.0'
-name: orientation
+title: orientation
 types:
 - double
 - string
@@ -15,4 +15,4 @@ When used on nodes: Angle, in degrees, to rotate polygon node shapes. For any nu
 
 When used on graphs: If `"[lL]*"`, sets graph orientation to landscape.
 
-Used only if [`rotate`](#d:rotate) is not defined.
+Used only if [`rotate`]({{< ref "rotate.md" >}}) is not defined.

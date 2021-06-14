@@ -3,7 +3,7 @@ defaults:
 - node
 flags: []
 minimums: []
-name: packmode
+title: packmode
 types:
 - packMode
 used_by: G

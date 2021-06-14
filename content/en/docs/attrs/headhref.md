@@ -5,9 +5,9 @@ flags:
 - map
 - svg
 minimums: []
-name: headhref
+title: headhref
 types:
 - escString
 used_by: E
 ---
-Synonym for [`headURL`](#d:headURL).
+Synonym for [`headURL`]({{< ref "headURL.md" >}}).

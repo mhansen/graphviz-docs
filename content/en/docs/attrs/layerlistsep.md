@@ -3,7 +3,7 @@ defaults:
 - '","'
 flags: []
 minimums: []
-name: layerlistsep
+title: layerlistsep
 types:
 - string
 used_by: G

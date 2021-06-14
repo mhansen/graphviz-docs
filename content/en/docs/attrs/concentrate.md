@@ -3,7 +3,7 @@ defaults:
 - 'false'
 flags: []
 minimums: []
-name: concentrate
+title: concentrate
 types:
 - bool
 used_by: G

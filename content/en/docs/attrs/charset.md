@@ -3,7 +3,7 @@ defaults:
 - '"UTF-8"'
 flags: []
 minimums: []
-name: charset
+title: charset
 types:
 - string
 used_by: G

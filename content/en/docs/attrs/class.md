@@ -4,13 +4,13 @@ defaults:
 flags:
 - svg
 minimums: []
-name: class
+title: class
 types:
 - string
 used_by: ENCG
 ---
 Classnames to attach to the node, edge, graph, or cluster's SVG element.
-Combine with [`stylesheet`](#d:stylesheet) for styling SVG output
+Combine with [`stylesheet`]({{< ref "stylesheet.md" >}}) for styling SVG output
 using CSS classnames.
 
 Multiple space-separated classes are supported.

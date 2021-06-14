@@ -6,7 +6,7 @@ flags:
 - twopi
 - circo
 minimums: []
-name: root
+title: root
 types:
 - string
 - bool

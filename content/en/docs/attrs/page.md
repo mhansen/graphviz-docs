@@ -2,7 +2,7 @@
 defaults: []
 flags: []
 minimums: []
-name: page
+title: page
 types:
 - double
 - point
@@ -16,8 +16,8 @@ If `page` is set and is smaller than the size of the layout, a rectangular
 array of pages of the specified page size is overlaid on the layout, with
 origins aligned in the lower-left corner, thereby partitioning the layout
 into pages. The pages are then produced one at a time, in
-[`pagedir`](#d:pagedir) order.
+[`pagedir`]({{< ref "pagedir.md" >}}) order.
 
 At present, `page` only works for PostScript output. For other types of output,
 use another tool to split the output into multiple output files,
-or use [`viewport`](#d:viewport) to generate multiple files.
+or use [`viewport`]({{< ref "viewport.md" >}}) to generate multiple files.

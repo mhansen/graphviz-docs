@@ -3,7 +3,7 @@ defaults:
 - 'false'
 flags: []
 minimums: []
-name: regular
+title: regular
 types:
 - bool
 used_by: "N"

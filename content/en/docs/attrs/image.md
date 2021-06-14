@@ -3,14 +3,14 @@ defaults:
 - '""'
 flags: []
 minimums: []
-name: image
+title: image
 types:
 - string
 used_by: "N"
 ---
 Gives the name of a file containing an image to be displayed inside a node.
 The image file must be in one of the recognized
-[formats](output.html#d:image_fmts), typically JPEG, PNG, GIF, BMP, SVG, or
+[formats]({{< ref "../outputs/_index.md#image-formats" >}}), typically JPEG, PNG, GIF, BMP, SVG, or
 Postscript, and be able to be converted into the desired output format.
 
 The file must contain the image size information:
@@ -26,6 +26,6 @@ The file must contain the image size information:
   units are in, px, pc, pt, cm and mm for inches, pixels, picas, points,
   centimeters and millimeters, respectively. The default unit is points.
 
-Unlike with the [`shapefile`](#d:shapefile) attribute, the image is treated
+Unlike with the [`shapefile`]({{< ref "shapefile.md" >}}) attribute, the image is treated
 as node content rather than the entire node. In particular, an image can be
 contained in a node of any shape, not just a rectangle.

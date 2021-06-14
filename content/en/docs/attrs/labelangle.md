@@ -4,13 +4,13 @@ defaults:
 flags: []
 minimums:
 - '-180.0'
-name: labelangle
+title: labelangle
 types:
 - double
 used_by: E
 ---
-Determines, along with [`labeldistance`](#d:labeldistance),
-where the [`headlabel`](#d:headlabel) / [`taillabel`](#d:taillabel) are
+Determines, along with [`labeldistance`]({{< ref "labeldistance.md" >}}),
+where the [`headlabel`]({{< ref "headlabel.md" >}}) / [`taillabel`]({{< ref "taillabel.md" >}}) are
 placed with respect to the head / tail in polar coordinates.
 
 The origin in the coordinate system is the point where the edge touches the

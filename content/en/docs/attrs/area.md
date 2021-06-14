@@ -5,7 +5,7 @@ flags:
 - patchwork
 minimums:
 - '>0'
-name: area
+title: area
 types:
 - double
 used_by: NC

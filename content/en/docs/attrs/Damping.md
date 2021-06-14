@@ -5,7 +5,7 @@ flags:
 - neato
 minimums:
 - '0.0'
-name: Damping
+title: Damping
 types:
 - double
 used_by: G

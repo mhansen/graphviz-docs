@@ -3,7 +3,7 @@ defaults:
 - '""'
 flags: []
 minimums: []
-name: layerselect
+title: layerselect
 types:
 - layerRange
 used_by: G

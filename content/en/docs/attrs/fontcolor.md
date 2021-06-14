@@ -3,7 +3,7 @@ defaults:
 - black
 flags: []
 minimums: []
-name: fontcolor
+title: fontcolor
 types:
 - color
 used_by: ENGC

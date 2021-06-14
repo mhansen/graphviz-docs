@@ -3,7 +3,7 @@ defaults:
 - '""'
 flags: []
 minimums: []
-name: layout
+title: layout
 types:
 - string
 used_by: G
@@ -17,5 +17,5 @@ within the graph.
 For example, a graph containing position information from a layout might want
 to record what the associated layout algorithm was.
 
-This attribute takes precedence over the [`-K` flag](command.html#-K) or
+This attribute takes precedence over the [`-K` flag]({{< ref "../command.md#-K" >}}) or
 the actual command name used.

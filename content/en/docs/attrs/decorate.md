@@ -3,7 +3,7 @@ defaults:
 - 'false'
 flags: []
 minimums: []
-name: decorate
+title: decorate
 types:
 - bool
 used_by: E

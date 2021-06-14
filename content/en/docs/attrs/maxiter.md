@@ -8,7 +8,7 @@ flags:
 - neato
 - fdp
 minimums: []
-name: maxiter
+title: maxiter
 types:
 - int
 used_by: G

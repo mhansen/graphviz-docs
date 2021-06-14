@@ -2,7 +2,7 @@
 defaults: []
 flags: []
 minimums: []
-name: splines
+title: splines
 types:
 - bool
 - string
@@ -29,24 +29,24 @@ arcs.
 
 <TABLE STYLE="border-spacing: 20px;">
 <TR>
-    <TD><IMG WIDTH="200" SRC="spline_none.png"></TD>
-    <TD><IMG WIDTH="200" SRC="spline_line.png"></TD>
+    <TD><IMG WIDTH="200" SRC="/doc/info/spline_none.png"></TD>
+    <TD><IMG WIDTH="200" SRC="/doc/info/spline_line.png"></TD>
 </TR>
 <TR>
     <TD STYLE="text-align: center;">splines=none<BR>splines=""</TD>
     <TD STYLE="text-align: center;">splines=line<BR>splines=false</TD>
 </TR>
 <TR>
-    <TD><IMG WIDTH="200" SRC="spline_polyline.png"></TD>
-    <TD><IMG WIDTH="200" SRC="spline_curved.png"></TD>
+    <TD><IMG WIDTH="200" SRC="/doc/info/spline_polyline.png"></TD>
+    <TD><IMG WIDTH="200" SRC="/doc/info/spline_curved.png"></TD>
 </TR>
 <TR>
     <TD STYLE="text-align: center;">splines=polyline</TD>
     <TD STYLE="text-align: center;">splines=curved</TD>
 </TR>
 <TR>
-    <TD><IMG WIDTH="200" SRC="spline_ortho.png"></TD>
-    <TD><IMG WIDTH="200" SRC="spline_spline.png"></TD>
+    <TD><IMG WIDTH="200" SRC="/doc/info/spline_ortho.png"></TD>
+    <TD><IMG WIDTH="200" SRC="/doc/info/spline_spline.png"></TD>
 </TR>
 <TR>
     <TD STYLE="text-align: center;">splines=ortho</TD>
@@ -59,6 +59,6 @@ the layout engine. For `dot`, the default is to draw edges as splines. For all
 other layouts, the default is to draw edges as line segments.
 
 Note that for these latter layouts, if `splines="true"`, this
-requires non-overlapping nodes (cf. [`overlap`](#d:overlap)).
+requires non-overlapping nodes (cf. [`overlap`]({{< ref "overlap.md" >}})).
 If `fdp` is used for layout and `splines="compound"`, then the edges are
 drawn to avoid clusters as well as nodes.

@@ -6,7 +6,7 @@ flags:
 - postscript
 - svg
 minimums: []
-name: URL
+title: URL
 types:
 - escString
 used_by: ENGC
@@ -31,9 +31,9 @@ overlap the related node, and the edge URL dominates.
 If the edge has a label, this will also be active.
 Finally, if the edge has a head or tail label, this will also be active.
 
-For edges, the attributes [`headURL`](#d:headURL),
-[`tailURL`](#d:tailURL), [`labelURL`](#d:labelURL) and
-[`edgeURL`](#d:edgeURL) allow control of various parts of an
+For edges, the attributes [`headURL`]({{< ref "headURL.md" >}}),
+[`tailURL`]({{< ref "tailURL.md" >}}), [`labelURL`]({{< ref "labelURL.md" >}}) and
+[`edgeURL`]({{< ref "edgeURL.md" >}}) allow control of various parts of an
 edge.
 
 if active areas of two edges overlap, it is unspecified which area dominates.

@@ -4,6 +4,8 @@ url: /doc/info/attrs.html
 aliases:
   - /doc/info/attrs1.html
   - /doc/info/attrs2.html
+cascade:
+  type: attrs
 weight: 4
 ---
 The table below describes the attributes used by various Graphviz tools.
@@ -30,7 +32,7 @@ abc -> def [arrowhead = diamond]
 ```
 
 Further details concerning the setting of attributes can be found
-in the description of the [DOT language.](lang.html)
+in the description of the [DOT language.]({{< ref "../lang.md" >}})
 
 At present, most device-independent units are either inches or
 <A ID="points" HREF="http://en.wikipedia.org/wiki/Point_(typography)">points</A>,
@@ -39,10 +41,10 @@ which we take as 72 points per inch.
 <P ID="h:undir_note"></P>
 
 **Note:** Some attributes, such as
-[`dir`](#d:dir) or [`arrowtail`](#d:arrowtail), are ambiguous when used in
-[DOT](lang.html) with an undirected graph since the head and tail of an edge
+[`dir`]({{< ref "dir.md" >}}) or [`arrowtail`]({{< ref "arrowtail.md" >}}), are ambiguous when used in
+[DOT]({{< ref "../lang.md" >}}) with an undirected graph since the head and tail of an edge
 are meaningless. As a convention, the first time an undirected edge appears,
-the [DOT](lang.html)
+the [DOT]({{< ref "../lang.md" >}})
 parser will assign the left node as the tail node and the right node as
 the head. For example, the edge `A -- B` will have tail `A`
 and head `B`. It is the user's responsibility to handle such
@@ -56,8 +58,8 @@ the drawing will attach the tail label to node `A`.
 To avoid possible confusion when such attributes are required, the user
 is encouraged to use a directed graph.
 If it is important to make the graph appear undirected, this can be
-done using the [`dir`](#d:dir), [`arrowtail`](#d:arrowtail) or
-[`arrowhead`](#d:arrowhead) attributes.
+done using the [`dir`]({{< ref "dir.md" >}}), [`arrowtail`]({{< ref "arrowtail.md" >}}) or
+[`arrowhead`]({{< ref "arrowhead.md" >}}) attributes.
 
 <P ID="k:bool"></P>
 
@@ -83,13 +85,3 @@ This field indicates which graph component uses the attribute.
 In the **Notes** field, an annotation of *write only*
 indicates that the attribute is used for output, and is not used or read by any
 of the layout programs.
-
----
-
-{{<attributes_toc>}}
-
----
-
-## Attribute Descriptions
-
-{{<attribute_descriptions>}}

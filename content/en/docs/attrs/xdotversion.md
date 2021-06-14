@@ -4,7 +4,7 @@ defaults:
 flags:
 - xdot
 minimums: []
-name: xdotversion
+title: xdotversion
 types:
 - string
 used_by: G

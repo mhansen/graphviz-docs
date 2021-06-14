@@ -4,7 +4,7 @@ defaults:
 flags:
 - dot
 minimums: []
-name: searchsize
+title: searchsize
 types:
 - int
 used_by: G

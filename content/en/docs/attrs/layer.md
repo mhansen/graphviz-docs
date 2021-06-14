@@ -3,7 +3,7 @@ defaults:
 - '""'
 flags: []
 minimums: []
-name: layer
+title: layer
 types:
 - layerRange
 used_by: ENC

@@ -3,9 +3,9 @@ defaults: []
 flags:
 - write
 minimums: []
-name: rects
+title: rects
 types:
 - rect
 used_by: "N"
 ---
-Rectangles for fields of records, [in points](#points).
+Rectangles for fields of records, [in points]({{< ref "_index.md#points" >}}).

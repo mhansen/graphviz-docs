@@ -4,7 +4,7 @@ defaults:
 flags:
 - notdot
 minimums: []
-name: sep
+title: sep
 types:
 - addDouble
 - addPoint
@@ -23,6 +23,6 @@ Without a plus sign, the node is scaled by `1 + w` in the x coordinate and
 
 If only a single number is given, this is used for both dimensions.
 
-If unset but [`esep`](#d:esep) is defined, the `sep` values will be set to the
-[`esep`](#d:esep) values divided by `0.8`. If [`esep`](#d:esep) is unset, the
+If unset but [`esep`]({{< ref "esep.md" >}}) is defined, the `sep` values will be set to the
+[`esep`]({{< ref "esep.md" >}}) values divided by `0.8`. If [`esep`]({{< ref "esep.md" >}}) is unset, the
 default value is used.

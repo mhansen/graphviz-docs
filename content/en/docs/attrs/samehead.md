@@ -4,7 +4,7 @@ defaults:
 flags:
 - dot
 minimums: []
-name: samehead
+title: samehead
 types:
 - string
 used_by: E
@@ -15,6 +15,6 @@ This has no effect on loops.
 
 Each node can have at most 5 unique samehead values.
 
-See [limitation](#h:undir_note).
+See [limitation]({{< ref "_index.md#undir_note" >}}).
 
-See also [`sametail`](#d:sametail).
+See also [`sametail`]({{< ref "sametail.md" >}}).

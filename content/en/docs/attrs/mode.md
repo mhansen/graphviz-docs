@@ -4,7 +4,7 @@ defaults:
 flags:
 - neato
 minimums: []
-name: mode
+title: mode
 types:
 - string
 used_by: G
@@ -18,15 +18,15 @@ Technique for optimizing the layout.
 * If `mode="sgd"`, `neato` uses a version of the stochastic gradient descent method.
   `sgd`'s advantage is faster and more reliable convergence than both the previous methods,
   while `sgd`'s disadvantage is that it runs in a fixed number of iterations and
-  may require larger values of [`maxiter`](#d:maxiter) in some graphs.
+  may require larger values of [`maxiter`]({{< ref "maxiter.md" >}}) in some graphs.
 
 There are two experimental modes in `neato`:
 
 * `mode="hier"`, which adds a top-down directionality similar to the layout used in `dot`, and
 * `mode="ipsep"`, which allows the graph to specify minimum vertical and horizontal distances between nodes.
-(See the [sep](#d:sep) attribute.)
+(See the [sep]({{< ref "sep.md" >}}) attribute.)
 
 For `sfdp`, the default is `mode="spring"`, which corresponds to using a
 spring-electrical model. Setting `mode="maxent"` causes a similar model
 to be run but one that also takes into account edge lengths specified by the
-[`len`](#d:len) attribute.
+[`len`]({{< ref "len.md" >}}) attribute.

@@ -4,7 +4,7 @@ defaults:
 flags:
 - dot
 minimums: []
-name: rank
+title: rank
 types:
 - rankType
 used_by: S

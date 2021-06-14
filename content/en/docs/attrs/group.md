@@ -4,7 +4,7 @@ defaults:
 flags:
 - dot
 minimums: []
-name: group
+title: group
 types:
 - string
 used_by: "N"

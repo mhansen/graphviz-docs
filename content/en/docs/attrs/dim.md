@@ -7,7 +7,7 @@ flags:
 - sfdp
 minimums:
 - '2'
-name: dim
+title: dim
 types:
 - int
 used_by: G

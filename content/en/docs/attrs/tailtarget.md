@@ -5,15 +5,15 @@ flags:
 - map
 - svg
 minimums: []
-name: tailtarget
+title: tailtarget
 types:
 - escString
 used_by: E
 ---
-If the edge has a [`tailURL`](#d:tailURL), `tailtarget` determines which
+If the edge has a [`tailURL`]({{< ref "tailURL.md" >}}), `tailtarget` determines which
 window of the browser is used for the URL.
 
 Setting `tailtarget=_graphviz` will open a new window if it doesn't already
 exist, or reuse it if it does.
 
-If undefined, the value of the [`target`](#d:target) is used.
+If undefined, the value of the [`target`]({{< ref "target.md" >}}) is used.

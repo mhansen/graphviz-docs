@@ -3,10 +3,10 @@ defaults:
 - 'false'
 flags: []
 minimums: []
-name: landscape
+title: landscape
 types:
 - bool
 used_by: G
 ---
 If true, the graph is rendered in landscape mode. Synonymous with
-[`rotate`](#d:rotate)`=90` or [`orientation`](#d:orientation)`=landscape`.
+<code>[rotate]({{< ref "rotate.md" >}})=90</code> or <code>[orientation]({{< ref "orientation.md" >}})=landscape</code>.

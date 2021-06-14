@@ -5,9 +5,9 @@ flags:
 - map
 - svg
 minimums: []
-name: edgehref
+title: edgehref
 types:
 - escString
 used_by: E
 ---
-Synonym for [`edgeURL`](#d:edgeURL).
+Synonym for [`edgeURL`]({{< ref "edgeURL.md" >}}).

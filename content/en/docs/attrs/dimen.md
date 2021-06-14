@@ -7,7 +7,7 @@ flags:
 - sfdp
 minimums:
 - '2'
-name: dimen
+title: dimen
 types:
 - int
 used_by: G

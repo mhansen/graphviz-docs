@@ -6,7 +6,7 @@ flags:
 - bitmap output
 - svg
 minimums: []
-name: dpi
+title: dpi
 types:
 - double
 used_by: G

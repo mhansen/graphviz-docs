@@ -3,14 +3,14 @@ defaults:
 - '""'
 flags: []
 minimums: []
-name: imagepath
+title: imagepath
 types:
 - string
 used_by: G
 ---
 Specifies a list of directories in which to look for image files as specified
-by the [`image`](#d:image) attribute or using the `IMG` element in [HTML-like
-labels](shapes.html#html).
+by the [`image`]({{< ref "image.md" >}}) attribute or using the `IMG` element in [HTML-like
+labels]({{< ref "../shapes.md#html" >}}).
 
 `imagepath` should be a list of (absolute or
 relative) pathnames, each separated by a semicolon `;` (for Windows) or a colon `:`

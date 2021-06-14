@@ -2,7 +2,7 @@
 defaults: []
 flags: []
 minimums: []
-name: size
+title: size
 types:
 - double
 - point
@@ -21,5 +21,5 @@ desired minimum size. In this case, if both dimensions of the drawing are
 less than `size`, the drawing is scaled up uniformly until at least one
 dimension equals its dimension in `size`.
 
-There is some interaction between the `size` and [`ratio`](#d:ratio)
+There is some interaction between the `size` and [`ratio`]({{< ref "ratio.md" >}})
 attributes.

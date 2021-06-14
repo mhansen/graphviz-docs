@@ -3,7 +3,7 @@ defaults:
 - '""'
 flags: []
 minimums: []
-name: comment
+title: comment
 types:
 - string
 used_by: ENG

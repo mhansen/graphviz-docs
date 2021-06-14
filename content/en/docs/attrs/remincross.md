@@ -4,7 +4,7 @@ defaults:
 flags:
 - dot
 minimums: []
-name: remincross
+title: remincross
 types:
 - bool
 used_by: G

@@ -3,7 +3,7 @@ defaults: []
 flags:
 - notdot
 minimums: []
-name: scale
+title: scale
 types:
 - double
 - point

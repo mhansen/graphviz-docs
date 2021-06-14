@@ -5,7 +5,7 @@ flags:
 - map
 - svg
 minimums: []
-name: target
+title: target
 types:
 - escString
 - string

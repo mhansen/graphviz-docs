@@ -5,16 +5,16 @@ flags:
 - map
 - svg
 minimums: []
-name: edgeURL
+title: edgeURL
 types:
 - escString
 used_by: E
 ---
 The link for the non-label parts of an edge.
 
-`edgeURL` overrides any [`URL`](#d:URL) defined for the edge.
+`edgeURL` overrides any [`URL`]({{< ref "URL.md" >}}) defined for the edge.
 
 Also, `edgeURL` is used near the head or tail node unless overridden
-by [`headURL`](#d:headURL) or [`tailURL`](#d:tailURL), respectively.
+by [`headURL`]({{< ref "headURL.md" >}}) or [`tailURL`]({{< ref "tailURL.md" >}}), respectively.
 
-See [limitation](#h:undir_note).
+See [limitation]({{< ref "_index.md#undir_note" >}}).

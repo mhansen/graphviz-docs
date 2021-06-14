@@ -4,11 +4,11 @@ defaults:
 flags: []
 minimums:
 - '-100.0'
-name: skew
+title: skew
 types:
 - double
 used_by: "N"
 ---
-Skew factor for [`shape`](#d:shape)`=polygon`.
+Skew factor for <code>[shape]({{< ref "shape.md" >}})=polygon</code>.
 
 Positive values skew top of polygon to right; negative to left.

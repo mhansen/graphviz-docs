@@ -3,9 +3,9 @@ defaults:
 - ellipse
 flags: []
 minimums: []
-name: shape
+title: shape
 types:
 - shape
 used_by: "N"
 ---
-Sets the [shape](/doc/info/shapes.html) of a node.
+Sets the [shape]({{< ref "../shapes.md" >}}) of a node.

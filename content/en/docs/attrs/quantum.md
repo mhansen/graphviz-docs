@@ -4,7 +4,7 @@ defaults:
 flags: []
 minimums:
 - '0.0'
-name: quantum
+title: quantum
 types:
 - double
 used_by: G

@@ -4,7 +4,7 @@ defaults:
 - none(undirected)
 flags: []
 minimums: []
-name: dir
+title: dir
 types:
 - dirType
 used_by: E
@@ -14,6 +14,6 @@ Edge type for drawing arrowheads.
 Indicates which ends of the edge should be decorated with an arrowhead.
 
 The actual style of the arrowhead can be specified using the
-[`arrowhead`](#d:arrowhead) and [`arrowtail`](#d:arrowtail) attributes.
+[`arrowhead`]({{< ref "arrowhead.md" >}}) and [`arrowtail`]({{< ref "arrowtail.md" >}}) attributes.
 
-See [limitation](#h:undir_note).
+See [limitation]({{< ref "_index.md#undir_note" >}}).

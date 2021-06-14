@@ -3,7 +3,7 @@ defaults:
 - '""'
 flags: []
 minimums: []
-name: style
+title: style
 types:
 - style
 used_by: ENCG

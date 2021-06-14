@@ -6,9 +6,9 @@ flags:
 - bitmap output
 - svg
 minimums: []
-name: resolution
+title: resolution
 types:
 - double
 used_by: G
 ---
-Synonym for [`dpi`](#d:dpi).
+Synonym for [`dpi`]({{< ref "dpi.md" >}}).

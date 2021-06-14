@@ -5,7 +5,7 @@ flags:
 - dot
 minimums:
 - '0'
-name: minlen
+title: minlen
 types:
 - int
 used_by: E

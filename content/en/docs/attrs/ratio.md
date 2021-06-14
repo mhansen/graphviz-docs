@@ -2,7 +2,7 @@
 defaults: []
 flags: []
 minimums: []
-name: ratio
+title: ratio
 types:
 - double
 - string
@@ -10,7 +10,7 @@ used_by: G
 ---
 Sets the aspect ratio (drawing height/drawing width) for the drawing.
 
-Note that this is adjusted before the [`size`](#d:size) attribute constraints
+Note that this is adjusted before the [`size`]({{< ref "size.md" >}}) attribute constraints
 are enforced.
 
 In addition, the calculations usually ignore the node sizes, so the
@@ -22,36 +22,36 @@ the drawing height is scaled up to achieve the
 desired ratio; if the actual ratio is greater than that desired ratio,
 the drawing width is scaled up.
 
-If `ratio="fill"` and the [`size`](#d:size)
+If `ratio="fill"` and the [`size`]({{< ref "size.md" >}})
 attribute is set, node positions are scaled, separately in both x
 and y, so that the final drawing exactly fills the specified size.
-If both [`size`](#d:size) values exceed the width
+If both [`size`]({{< ref "size.md" >}}) values exceed the width
 and height of the drawing, then both coordinate values of each
 node are scaled up accordingly. However, if either size dimension
 is smaller than the corresponding dimension in the drawing, one
 dimension is scaled up so that the final drawing has the same aspect
-ratio as specified by [`size`](#d:size).
+ratio as specified by [`size`]({{< ref "size.md" >}}).
 Then, when rendered, the layout will be
 scaled down uniformly in both dimensions to fit the given
-[`size`](#d:size), which may cause nodes and text
+[`size`]({{< ref "size.md" >}}), which may cause nodes and text
 to shrink as well. This may not be what the user
 wants, but it avoids the hard problem of how to reposition the
 nodes in an acceptable fashion to reduce the drawing size.
 
-If `ratio="compress"` and the [`size`](#d:size)
+If `ratio="compress"` and the [`size`]({{< ref "size.md" >}})
 attribute is set, dot attempts to compress the initial layout to fit
 in the given size. This achieves a tighter packing of nodes but
 reduces the balance and symmetry. This feature only works in dot.
 
-If `ratio="expand"`, the [`size`](#d:size) attribute is set, and both the
+If `ratio="expand"`, the [`size`]({{< ref "size.md" >}}) attribute is set, and both the
 width and the height of the graph are less than the value in
-[`size`](#d:size), node positions are scaled uniformly until at least one
-dimension fits [`size`](#d:size) exactly. Note that this is distinct from
-using [`size`](#d:size) as the desired size, as here the drawing is expanded
+[`size`]({{< ref "size.md" >}}), node positions are scaled uniformly until at least one
+dimension fits [`size`]({{< ref "size.md" >}}) exactly. Note that this is distinct from
+using [`size`]({{< ref "size.md" >}}) as the desired size, as here the drawing is expanded
 before edges are generated and all node and text sizes remain unchanged.
 
-If `ratio="auto"`, the [`page`](#d:page) attribute is set and the graph
-cannot be drawn on a single page, then [`size`](#d:size) is set to an
+If `ratio="auto"`, the [`page`]({{< ref "page.md" >}}) attribute is set and the graph
+cannot be drawn on a single page, then [`size`]({{< ref "size.md" >}}) is set to an
 "ideal" value.
 
 In particular, the size in a given dimension will be the smallest integral

@@ -3,7 +3,7 @@ defaults:
 - <none>
 flags: []
 minimums: []
-name: bgcolor
+title: bgcolor
 types:
 - color
 - colorList
@@ -13,14 +13,14 @@ When attached to the root graph, this color is used as the background for
 entire canvas.
 
 When a cluster attribute, it is used as the initial background
-for the cluster. If a cluster has a filled [`style`](#d:style), the cluster's
-[`fillcolor`](#d:fillcolor) will overlay the background color.
+for the cluster. If a cluster has a filled [`style`]({{< ref "style.md" >}}), the cluster's
+[`fillcolor`]({{< ref "fillcolor.md" >}}) will overlay the background color.
 
 If the value is a [`colorList`](/docs/attr-types/colorList/), a gradient fill is used. By
-default, this is a linear fill; setting [`style`](#d:style)`=radial` will
+default, this is a linear fill; setting <code>[style]({{< ref "style.md" >}})=radial</code> will
 cause a radial fill. Only two colors are used. If the second color (after a
 colon) is missing, the default color is used for it. See also the
-[`gradientangle`](#d:gradientangle) attribute for setting the gradient angle.
+[`gradientangle`]({{< ref "gradientangle.md" >}}) attribute for setting the gradient angle.
 
 For certain output formats, such as PostScript, no fill is done for the root
 graph unless `bgcolor` is explicitly set.

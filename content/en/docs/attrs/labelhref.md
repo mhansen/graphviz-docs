@@ -5,9 +5,9 @@ flags:
 - map
 - svg
 minimums: []
-name: labelhref
+title: labelhref
 types:
 - escString
 used_by: E
 ---
-Synonym for [`labelURL`](#d:labelURL).
+Synonym for [`labelURL`]({{< ref "labelURL.md" >}}).

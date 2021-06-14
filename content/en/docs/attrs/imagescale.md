@@ -3,7 +3,7 @@ defaults:
 - 'false'
 flags: []
 minimums: []
-name: imagescale
+title: imagescale
 types:
 - bool
 - string
@@ -12,12 +12,12 @@ used_by: "N"
 Controls how an image fills its containing node.
 
 In general, the image is given its natural size,
-(cf. [`dpi`](#d:dpi)),
+(cf. [`dpi`]({{< ref "dpi.md" >}})),
 and the node size is made large enough to contain its image, its
 label, its margin, and its peripheries.
 
 Its width and height will also be at least as large as its
-minimum [`width`](#d:width) and [`height`](#d:height).
+minimum [`width`]({{< ref "width.md" >}}) and [`height`]({{< ref "height.md" >}}).
 If, however, `fixedsize=true`,
 the width and height attributes specify the exact size of the node.
 

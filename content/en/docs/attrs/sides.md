@@ -4,9 +4,9 @@ defaults:
 flags: []
 minimums:
 - '0'
-name: sides
+title: sides
 types:
 - int
 used_by: "N"
 ---
-Number of sides when [`shape`](#d:shape)`=polygon`.
+Number of sides when <code>[shape]({{< ref "shape.md" >}})=polygon</code>.

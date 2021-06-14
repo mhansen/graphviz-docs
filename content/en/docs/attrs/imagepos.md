@@ -3,7 +3,7 @@ defaults:
 - '"mc"'
 flags: []
 minimums: []
-name: imagepos
+title: imagepos
 types:
 - string
 used_by: "N"

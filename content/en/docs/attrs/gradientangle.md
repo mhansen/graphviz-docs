@@ -3,7 +3,7 @@ defaults:
 - '""'
 flags: []
 minimums: []
-name: gradientangle
+title: gradientangle
 types:
 - int
 used_by: NCG

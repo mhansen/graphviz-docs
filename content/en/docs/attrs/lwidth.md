@@ -3,7 +3,7 @@ defaults: []
 flags:
 - write
 minimums: []
-name: lwidth
+title: lwidth
 types:
 - double
 used_by: GC

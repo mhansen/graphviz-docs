@@ -3,11 +3,11 @@ defaults:
 - black
 flags: []
 minimums: []
-name: labelfontcolor
+title: labelfontcolor
 types:
 - color
 used_by: E
 ---
-Color used for [`headlabel`](#d:headlabel) and [`taillabel`](#d:taillabel).
+Color used for [`headlabel`]({{< ref "headlabel.md" >}}) and [`taillabel`]({{< ref "taillabel.md" >}}).
 
-If not set, defaults to edge's [`fontcolor`](#d:fontcolor).
+If not set, defaults to edge's [`fontcolor`]({{< ref "fontcolor.md" >}}).

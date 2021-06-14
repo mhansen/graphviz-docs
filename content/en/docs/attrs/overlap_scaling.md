@@ -5,7 +5,7 @@ flags:
 - prism
 minimums:
 - -1.0e10
-name: overlap_scaling
+title: overlap_scaling
 types:
 - double
 used_by: G

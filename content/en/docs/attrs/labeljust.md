@@ -3,7 +3,7 @@ defaults:
 - '"c"'
 flags: []
 minimums: []
-name: labeljust
+title: labeljust
 types:
 - string
 used_by: GC

@@ -4,7 +4,7 @@ defaults:
 flags:
 - dot
 minimums: []
-name: ordering
+title: ordering
 types:
 - string
 used_by: GN

@@ -5,7 +5,7 @@ flags:
 - circo
 minimums:
 - '0.0'
-name: mindist
+title: mindist
 types:
 - double
 used_by: G

@@ -4,12 +4,12 @@ defaults:
 flags: []
 minimums:
 - '1.0'
-name: labelfontsize
+title: labelfontsize
 types:
 - double
 used_by: E
 ---
-Font size, [in points](#points), used for [`headlabel`](#d:headlabel) and
-[`taillabel`](#d:taillabel).
+Font size, [in points]({{< ref "_index.md#points" >}}), used for [`headlabel`]({{< ref "headlabel.md" >}}) and
+[`taillabel`]({{< ref "taillabel.md" >}}).
 
-If not set, defaults to edge's [`fontsize`](#d:fontsize).
+If not set, defaults to edge's [`fontsize`]({{< ref "fontsize.md" >}}).

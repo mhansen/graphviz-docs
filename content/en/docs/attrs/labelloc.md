@@ -5,7 +5,7 @@ defaults:
 - '"c"(nodes)'
 flags: []
 minimums: []
-name: labelloc
+title: labelloc
 types:
 - string
 used_by: NGC

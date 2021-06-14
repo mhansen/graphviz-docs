@@ -5,7 +5,7 @@ flags:
 - dot
 minimums:
 - '0'
-name: showboxes
+title: showboxes
 types:
 - int
 used_by: ENG

@@ -3,7 +3,7 @@ defaults: []
 flags:
 - write
 minimums: []
-name: bb
+title: bb
 types:
 - rect
 used_by: G

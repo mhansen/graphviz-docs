@@ -4,7 +4,7 @@ defaults:
 flags:
 - dot
 minimums: []
-name: newrank
+title: newrank
 types:
 - bool
 used_by: G

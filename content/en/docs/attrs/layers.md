@@ -3,7 +3,7 @@ defaults:
 - '""'
 flags: []
 minimums: []
-name: layers
+title: layers
 types:
 - layerList
 used_by: G

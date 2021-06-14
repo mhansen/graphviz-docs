@@ -4,7 +4,7 @@ defaults:
 flags: []
 minimums:
 - '0.0'
-name: arrowsize
+title: arrowsize
 types:
 - double
 used_by: E

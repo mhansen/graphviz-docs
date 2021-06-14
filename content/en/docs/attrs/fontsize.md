@@ -4,9 +4,9 @@ defaults:
 flags: []
 minimums:
 - '1.0'
-name: fontsize
+title: fontsize
 types:
 - double
 used_by: ENGC
 ---
-Font size, [in points](#points), used for text.
+Font size, [in points]({{< ref "_index.md#points" >}}), used for text.

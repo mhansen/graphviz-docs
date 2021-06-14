@@ -3,11 +3,11 @@ defaults:
 - '"Times-Roman"'
 flags: []
 minimums: []
-name: labelfontname
+title: labelfontname
 types:
 - string
 used_by: E
 ---
-Font used for [`headlabel`](#d:headlabel) and [`taillabel`](#d:taillabel).
+Font used for [`headlabel`]({{< ref "headlabel.md" >}}) and [`taillabel`]({{< ref "taillabel.md" >}}).
 
-If not set, defaults to edge's [`fontname`](#d:fontname).
+If not set, defaults to edge's [`fontname`]({{< ref "fontname.md" >}}).

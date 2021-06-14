@@ -4,7 +4,7 @@ defaults:
 flags:
 - dot
 minimums: []
-name: constraint
+title: constraint
 types:
 - bool
 used_by: E
@@ -24,4 +24,4 @@ the edge `b -> c` does not add a constraint during rank
 assignment, so the only constraints are that `a` be above `b` and `c`,
 yielding the graph:
 
-<IMG SRC="constraint.gif">
+<IMG SRC="/doc/info/constraint.gif">

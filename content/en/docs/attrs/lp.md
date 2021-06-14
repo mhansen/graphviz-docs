@@ -3,11 +3,11 @@ defaults: []
 flags:
 - write
 minimums: []
-name: lp
+title: lp
 types:
 - point
 used_by: EGC
 ---
-Label position, [in points](#points).
+Label position, [in points]({{< ref "_index.md#points" >}}).
 
 The position indicates the center of the label.

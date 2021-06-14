@@ -3,7 +3,7 @@ defaults:
 - breadthfirst
 flags: []
 minimums: []
-name: outputorder
+title: outputorder
 types:
 - outputMode
 used_by: G

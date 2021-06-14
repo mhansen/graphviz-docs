@@ -5,7 +5,7 @@ flags:
 - sfdp
 minimums:
 - '0'
-name: label_scheme
+title: label_scheme
 types:
 - int
 used_by: G

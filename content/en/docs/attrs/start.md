@@ -5,7 +5,7 @@ flags:
 - neato
 - fdp
 minimums: []
-name: start
+title: start
 types:
 - startType
 used_by: G

@@ -6,7 +6,7 @@ defaults:
 flags:
 - neato
 minimums: []
-name: epsilon
+title: epsilon
 types:
 - double
 used_by: G

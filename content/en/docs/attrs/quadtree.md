@@ -4,7 +4,7 @@ defaults:
 flags:
 - sfdp
 minimums: []
-name: quadtree
+title: quadtree
 types:
 - quadType
 - bool

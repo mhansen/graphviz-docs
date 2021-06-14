@@ -4,7 +4,7 @@ defaults:
 flags:
 - neato
 minimums: []
-name: notranslate
+title: notranslate
 types:
 - bool
 used_by: G

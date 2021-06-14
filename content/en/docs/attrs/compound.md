@@ -4,11 +4,11 @@ defaults:
 flags:
 - dot
 minimums: []
-name: compound
+title: compound
 types:
 - bool
 used_by: G
 ---
 If true, allow edges between clusters.
 
-See [`lhead`](#d:lhead) and [`ltail`](#d:ltail) below.
+See [`lhead`]({{< ref "lhead.md" >}}) and [`ltail`]({{< ref "ltail.md" >}}) below.
