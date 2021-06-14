@@ -38,4 +38,4 @@ digraph G {
 
 yields:
 
-<IMG SRC="/doc/info/colorlist.gif">
+![](/doc/info/colorlist.gif)
