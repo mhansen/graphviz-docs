@@ -19,17 +19,22 @@ Note that attribute names are case-sensitive.
 This is usually true for attribute values as well, unless noted.
 
 All Graphviz attributes are specified by name-value pairs. Thus, to
-set the fillcolor of a node `abc`, one would use
+set the `color` of a node `abc`, one would use
 
-```dot
-abc [fillcolor = red]
-```
+{{< dot_card >}}
+digraph {
+  abc [color = red]
+}
+{{< /dot_card >}}
+
 Similarly, to set the arrowhead style of an edge `abc -> def`,
 one would use:
 
-```dot
-abc -> def [arrowhead = diamond]
-```
+{{< dot_card >}}
+digraph {
+  abc -> def [arrowhead = diamond]
+}
+{{< /dot_card >}}
 
 Further details concerning the setting of attributes can be found
 in the description of the [DOT language.]({{< ref "../lang.md" >}})
@@ -50,9 +55,11 @@ the head. For example, the edge `A -- B` will have tail `A`
 and head `B`. It is the user's responsibility to handle such
 edges consistently. If the edge appears later, in the format
 
-```dot
-B -- A [taillabel = "tail"]
-```
+{{< dot_card >}}
+graph {
+  B -- A [taillabel = "tail"]
+}
+{{< /dot_card >}}
 
 the drawing will attach the tail label to node `A`.
 To avoid possible confusion when such attributes are required, the user

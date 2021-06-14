@@ -17,7 +17,7 @@ Multiple space-separated classes are supported.
 
 Example:
 
-```dot
+{{< dot_card >}}
 digraph G {
   graph [class="cats"];
 
@@ -28,4 +28,4 @@ digraph G {
     "Snow Leopard" [class="white solitary"];
   }
 }
-```
+{{< /dot_card >}}
