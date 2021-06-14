@@ -5,19 +5,19 @@ For an edge `T -> H;`
 
 `"forward"`
 
-<IMG SRC="forward.gif">
+<IMG SRC="/doc/info/forward.gif">
 
 `"back"`
 
-<IMG SRC="back.gif">
+<IMG SRC="/doc/info/back.gif">
 
 `"both"`
 
-<IMG SRC="both.gif">
+<IMG SRC="/doc/info/both.gif">
 
 `"none"`
 
-<IMG SRC="nohead.gif">
+<IMG SRC="/doc/info/nohead.gif">
 
 That is, a glyph is drawn at the head end of an edge if and only
 if dirType is `"forward"` or `"both"`;

@@ -74,27 +74,27 @@ radial gradient fill can be seen under [`colorList`](/docs/attr-types/colorList/
   <CAPTION>Basic style settings for nodes</CAPTION>
   <TR>
     <TD style="text-align: center;"><code>solid</code></TD>
-    <TD><IMG SRC="n_solid.png"></TD>
+    <TD><IMG SRC="/doc/info/n_solid.png"></TD>
     <TD style="text-align: center;"><code>dashed</code></TD>
-    <TD><IMG SRC="n_dashed.png"></TD>
+    <TD><IMG SRC="/doc/info/n_dashed.png"></TD>
     <TD style="text-align: center;"><code>dotted</code></TD>
-    <TD><IMG SRC="n_dotted.png"></TD>
+    <TD><IMG SRC="/doc/info/n_dotted.png"></TD>
   </TR>
   <TR>
     <TD style="text-align: center;"><code>bold</code> </TD>
-    <TD><IMG SRC="n_bold.png"></TD>
+    <TD><IMG SRC="/doc/info/n_bold.png"></TD>
     <TD style="text-align: center;"><code>rounded</code> </TD>
-    <TD><IMG SRC="n_rounded.png"></TD>
+    <TD><IMG SRC="/doc/info/n_rounded.png"></TD>
     <TD style="text-align: center;"><code>diagonals</code> </TD>
-    <TD><IMG SRC="n_diagonals.png"></TD>
+    <TD><IMG SRC="/doc/info/n_diagonals.png"></TD>
   </TR>
   <TR>
     <TD style="text-align: center;"><code>filled</code> </TD>
-    <TD><IMG SRC="n_filled.png"></TD>
+    <TD><IMG SRC="/doc/info/n_filled.png"></TD>
     <TD style="text-align: center;"><code>striped</code> </TD>
-    <TD><IMG SRC="n_striped.png"></TD>
+    <TD><IMG SRC="/doc/info/n_striped.png"></TD>
     <TD style="text-align: center;"><code>wedged</code> </TD>
-    <TD><IMG SRC="n_wedged.png"></TD>
+    <TD><IMG SRC="/doc/info/n_wedged.png"></TD>
   </TR>
 </TABLE>
 
@@ -102,15 +102,15 @@ radial gradient fill can be seen under [`colorList`](/docs/attr-types/colorList/
   <CAPTION>Basic style settings for edges</CAPTION>
   <TR>
     <TD style="text-align: center;"><code>solid</code> </TD>
-    <TD><IMG SRC="e_solid.png"> </TD>
+    <TD><IMG SRC="/doc/info/e_solid.png"> </TD>
     <TD style="text-align: center;"><code>dashed</code> </TD>
-    <TD><IMG SRC="e_dashed.png"></TD>
+    <TD><IMG SRC="/doc/info/e_dashed.png"></TD>
   </TR>
   <TR>
     <TD style="text-align: center;"><code>dotted</code></TD>
-    <TD><IMG SRC="e_dotted.png"></TD>
+    <TD><IMG SRC="/doc/info/e_dotted.png"></TD>
     <TD style="text-align: center;"><code>bold</code> </TD>
-    <TD><IMG SRC="e_bold.png"></TD>
+    <TD><IMG SRC="/doc/info/e_bold.png"></TD>
   </TR>
 </TABLE>
 
@@ -118,21 +118,21 @@ radial gradient fill can be seen under [`colorList`](/docs/attr-types/colorList/
   <CAPTION>Basic style settings for clusters</CAPTION>
   <TR>
     <TD style="text-align: center;"><code>solid</code> </TD>
-    <TD><IMG SRC="c_solid.png"> </TD>
+    <TD><IMG SRC="/doc/info/c_solid.png"> </TD>
     <TD style="text-align: center;"><code>dashed</code> </TD>
-    <TD><IMG SRC="c_dashed.png"></TD>
+    <TD><IMG SRC="/doc/info/c_dashed.png"></TD>
     <TD style="text-align: center;"><code>dotted</code> </TD>
-    <TD><IMG SRC="c_dotted.png"></TD>
+    <TD><IMG SRC="/doc/info/c_dotted.png"></TD>
     <TD style="text-align: center;"><code>bold</code> </TD>
-    <TD><IMG SRC="c_bold.png"></TD>
+    <TD><IMG SRC="/doc/info/c_bold.png"></TD>
   </TR>
   <TR>
     <TD style="text-align: center;"><code>rounded</code> </TD>
-    <TD><IMG SRC="c_rounded.png"></TD>
+    <TD><IMG SRC="/doc/info/c_rounded.png"></TD>
     <TD style="text-align: center;"><code>filled</code> </TD>
-    <TD><IMG SRC="c_filled.png"></TD>
+    <TD><IMG SRC="/doc/info/c_filled.png"></TD>
     <TD style="text-align: center;"><code>striped</code> </TD>
-    <TD><IMG SRC="c_striped.png"></TD>
+    <TD><IMG SRC="/doc/info/c_striped.png"></TD>
   </TR>
 </TABLE>
 
@@ -160,23 +160,23 @@ The following table illustrates the `style=tapered` with `penwidth=7` and `arrow
   </TR>
   <TR>
     <TD style="text-align: center;"><code>forward</code></TD>
-    <TD><IMG SRC="normal_forward.png"></TD>
-    <TD><IMG SRC="none_forward.png"></TD>
+    <TD><IMG SRC="/doc/info/normal_forward.png"></TD>
+    <TD><IMG SRC="/doc/info/none_forward.png"></TD>
   </TR>
   <TR>
     <TD style="text-align: center;"><code>back</code></TD>
-    <TD><IMG SRC="normal_back.png"></TD>
-    <TD><IMG SRC="none_back.png"></TD>
+    <TD><IMG SRC="/doc/info/normal_back.png"></TD>
+    <TD><IMG SRC="/doc/info/none_back.png"></TD>
   </TR>
   <TR>
     <TD style="text-align: center;"><code>both</code></TD>
-    <TD><IMG SRC="normal_both.png"></TD>
-    <TD><IMG SRC="none_both.png"></TD>
+    <TD><IMG SRC="/doc/info/normal_both.png"></TD>
+    <TD><IMG SRC="/doc/info/none_both.png"></TD>
   </TR>
   <TR>
     <TD style="text-align: center;"><code>none</code></TD>
-    <TD><IMG SRC="normal_none.png"></TD>
-    <TD><IMG SRC="none_none.png"></TD>
+    <TD><IMG SRC="/doc/info/normal_none.png"></TD>
+    <TD><IMG SRC="/doc/info/none_none.png"></TD>
   </TR>
 </TABLE>
 
