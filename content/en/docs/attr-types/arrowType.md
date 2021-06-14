@@ -4,61 +4,61 @@ title: arrowType
 <TABLE>
   <TR>
     <TD>"normal"</TD>
-    <TD><IMG SRC="a_normal.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_normal.gif"></TD>
     <TD>"inv"</TD>
-    <TD><IMG SRC="a_inv.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_inv.gif"></TD>
   </TR>
   <TR>
     <TD>"dot"</TD>
-    <TD><IMG SRC="a_dot.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_dot.gif"></TD>
     <TD>"invdot"</TD>
-    <TD><IMG SRC="a_invdot.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_invdot.gif"></TD>
   </TR>
   <TR>
     <TD>"odot"</TD>
-    <TD><IMG SRC="a_odot.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_odot.gif"></TD>
     <TD>"invodot"</TD>
-    <TD><IMG SRC="a_invodot.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_invodot.gif"></TD>
   </TR>
   <TR>
     <TD>"none"</TD>
-    <TD><IMG SRC="a_none.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_none.gif"></TD>
     <TD>"tee"</TD>
-    <TD><IMG SRC="a_tee.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_tee.gif"></TD>
   </TR>
   <TR>
     <TD>"empty"</TD>
-    <TD><IMG SRC="a_empty.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_empty.gif"></TD>
     <TD>"invempty"</TD>
-    <TD><IMG SRC="a_invempty.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_invempty.gif"></TD>
   </TR>
   <TR>
     <TD>"diamond"</TD>
-    <TD><IMG SRC="a_diamond.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_diamond.gif"></TD>
     <TD>"odiamond"</TD>
-    <TD><IMG SRC="a_odiamond.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_odiamond.gif"></TD>
   </TR>
   <TR>
     <TD>"ediamond"</TD>
-    <TD><IMG SRC="a_ediamond.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_ediamond.gif"></TD>
     <TD>"crow"</TD>
-    <TD><IMG SRC="a_crow.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_crow.gif"></TD>
   </TR>
   <TR>
     <TD>"box"</TD>
-    <TD><IMG SRC="a_box.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_box.gif"></TD>
     <TD>"obox"</TD>
-    <TD><IMG SRC="a_obox.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_obox.gif"></TD>
   </TR>
   <TR>
     <TD>"open"</TD>
-    <TD><IMG SRC="a_open.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_open.gif"></TD>
     <TD>"halfopen"</TD>
-    <TD><IMG SRC="a_halfopen.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_halfopen.gif"></TD>
   </TR>
   <TR>
     <TD>"vee"</TD>
-    <TD><IMG SRC="a_open.gif"></TD>
+    <TD><IMG SRC="/doc/info/a_open.gif"></TD>
   </TR>
 </TABLE>
 
