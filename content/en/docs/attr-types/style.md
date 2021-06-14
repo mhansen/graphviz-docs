@@ -136,8 +136,8 @@ radial gradient fill can be seen under [`colorList`](/docs/attr-types/colorList/
   </TR>
 </TABLE>
 
-The effect of `style=tapered` depends on the [`penwidth`](#d:penwidth),
-[`dir`](#d:dir), [`arrowhead`](#d:arrowhead) and [`arrowtail`](#d:arrowtail)
+The effect of `style=tapered` depends on the [`penwidth`]({{< ref "../attrs/penwidth.md" >}}),
+[`dir`]({{< ref "../attrs/dir.md" >}}), [`arrowhead`]({{< ref "../attrs/arrowhead.md" >}}) and [`arrowtail`]({{< ref "../attrs/arrowtail.md" >}})
 attributes. The edge starts with width `penwidth` and tapers to width 1, in
 points. The `dir` attribute determines whether the tapering goes from tail to
 head (`dir=forward`), from head to tail (`dir=forward`), from the middle to
@@ -186,13 +186,13 @@ can use this to generate appropriate output.
 
 The style attribute affects the basic appearance of nodes, edges and graphs,
 but has no effect on any text used in labels. For this, use the
-[`fontname`](#d:fontname), [`fontsize`](#d:fontsize) and
-[`fontcolor`](#d:fontcolor) attributes, or the `<FONT>`, `<B>`, `<I>`, etc.
+[`fontname`]({{< ref "../attrs/fontname.md" >}}), [`fontsize`]({{< ref "../attrs/fontsize.md" >}}) and
+[`fontcolor`]({{< ref "../attrs/fontcolor.md" >}}) attributes, or the `<FONT>`, `<B>`, `<I>`, etc.
 elements in [HTML-like labels]({{< ref "../shapes.md#html" >}}).
 
 The `setlinewidth` style value can be used for more control over the width of
 node borders and edges than is allowed by `bold`. This style value takes an
 argument, specifying the width of the line in [points](#points). For example,
 `style="bold"` is equivalent to `style="setlinewidth(2)"`. **The use of
-`setlinewidth` is deprecated; one should use the [`penwidth`](#d:penwidth)
+`setlinewidth` is deprecated; one should use the [`penwidth`]({{< ref "../attrs/penwidth.md" >}})
 attribute instead.**

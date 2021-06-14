@@ -13,16 +13,16 @@ If the colorList value specifies multiple colors, with no weights, and a
 filled style is specified, a linear gradient fill is done using the first two
 colors. If weights are present, a degenerate linear gradient fill is done.
 This essentially does a fill using two colors, with the weights specifying
-how much of region is filled with each color. If the [`style`](#d:style)
+how much of region is filled with each color. If the [`style`]({{< ref "../attrs/style.md" >}})
 attribute contains the value radial, then a radial gradient fill is done.
 These fills work with any shape.
 
-For certain shapes, the [`style`](#d:style) attribute can be set to do fills
-using more than 2 colors. See the [`style`](#d:style) type for more
+For certain shapes, the [`style`]({{< ref "../attrs/style.md" >}}) attribute can be set to do fills
+using more than 2 colors. See the [`style`]({{< ref "../attrs/style.md" >}}) type for more
 information.
 
 The following table shows some variations of the `yellow:blue` color list
-depending on the [`style`](#d:style) and [`gradientangle`](#d:gradientangle)
+depending on the [`style`]({{< ref "../attrs/style.md" >}}) and [`gradientangle`]({{< ref "../attrs/gradientangle.md" >}})
 attributes.
 
 <TABLE>
