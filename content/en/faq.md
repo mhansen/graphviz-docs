@@ -28,7 +28,7 @@ There are various ways to increase the size of a layout. In doing this, one has 
 
 One approach is to adjust individual parameters such as fontsize, nodesep and ranksep. For example,
 
-```dot
+{{< dot_card >}}
 digraph G {
   graph [fontsize=24]
   edge [fontsize=24]
@@ -38,19 +38,20 @@ digraph G {
   edge [style="setlinewidth(3)"]
   a -> b -> c
 }
-```
+{{< /dot_card >}}
 
 If you do this, make sure you are not fighting a conflicting graph size 
 setting, like `size="6,6"`, which will then scale everything back down.
 
 If you are using fdp or neato, increasing the edge len will tend to expand the layout.
 
-```dot
+{{< dot_card >}}
 graph G {
+  layout="neato"
   edge [len=3]
   a -- { b c d }
 }
-```
+{{< /dot_card >}}
 
 For twopi and circo, there are other parameters such as `ranksep` which can be 
 used. See the [graph attributes](/doc/info/attrs.html).
@@ -74,13 +75,13 @@ up. Make sure to adjust the BoundingBox too if your tools look at this header.
 
 You can try running `dot -Gconcentrate=true` or you can introduce your own virtual nodes drawn as tiny circles where you want to split or join edges:
 
-```dot
+{{< dot_card >}}
 digraph G {
   yourvirtualnode [shape=circle,width=.01,height=.01,label=""]
   a -> yourvirtualnode [arrowhead=none]
   yourvirtualnode -> {b;c}
 }
-```
+{{< /dot_card >}}
 
 ### How can I generate graph layouts in PDF? {#FaqPDF}
 
@@ -103,13 +104,13 @@ In the diagram below, the shaded nodes will contain bad output.
 
 Make unique nodes with duplicate labels.
 
-```dot
+{{< dot_card >}}
 digraph G {
   node001 [label = "A"]
   node002 [label = "A"]
   node001 -> node002
 }
-```
+{{< /dot_card >}}
 
 ### How can I set a graph or cluster label without its propagating to all sub-clusters? {#FaqGraphLabel}
 
@@ -131,7 +132,7 @@ When a tree node has an even number of children, it isn't necessarily centered a
 If you know the order of the children, a simple hack is to introduce new, invisible middle nodes to re-balance the layout. 
 The connecting edges should also be invisible. For example:
 
-```dot
+{{< dot_card >}}
 digraph G {
   a -> b0
   xb [label="",width=.1,style=invis]
@@ -144,7 +145,7 @@ digraph G {
   b0 -> c1
   {rank=same c0 -> xc -> c1 [style=invis]}
 }
-```
+{{< /dot_card >}}
 
 This trick really ought to be built into our solver (and made independent of the order of the children, and available for layouts other than trees, too).
 
@@ -162,7 +163,7 @@ clipped to the exterior of the box around the given cluster.
 
 For example,
 
-```dot
+{{< dot_card >}}
 digraph G {
   compound=true; nodesep=1.0;
   subgraph cluster_A {
@@ -173,7 +174,7 @@ digraph G {
   }
   a -> e [ ltail=cluster_A, lhead=cluster_B ];
 }
-```
+{{< /dot_card >}}
 
 has an edge going from `cluster_A` to `cluster_B`. If, instead, you say
 
@@ -220,19 +221,19 @@ It's not us! It's probably your printer setup. If you don't believe this, run `d
 
 Insert the symbol directly (such as with copy/paste) into your dot source, and save as UTF-8, e.g.:
 
-```dot
+{{< dot_card >}}
 graph G {
   yen [label="¥"]
 }
-```
+{{< /dot_card >}}
 
 If you can't save in UTF-8, try [HTML entities](/doc/char.html), e.g. `&#165;` for the Yen currency symbol ¥. Example:
 
-```dot
+{{< dot_card >}}
 graph G {
   yen [label="&#165;"]
 }
-```
+{{< /dot_card >}}
 
 ### More generally, how do I use non-ASCII character sets? {#FaqNonAscii}
 
@@ -453,7 +454,7 @@ example below corresponds to the layers pvt, test, new, and ofc. The `all:pvt,ne
 
 As an example, the graph:
 
-```dot
+{{< dot_card >}}
 digraph G {
 	layers="local:pvt:test:new:ofc";
 
@@ -463,7 +464,7 @@ digraph G {
 	node2 -> node3  [layer="pvt:all"];	/* same as pvt:ofc */
 	node2 -> node4 [layer=3];		/* same as test */
 }
-```
+{{< /dot_card >}}
 
 produces the 5 layers shown below:
 

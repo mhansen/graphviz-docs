@@ -15,14 +15,14 @@ attribute, or if it has an explicit [tooltip](attrs.html#d:tooltip) attribute.
 For example, to create a server-side map
 given the dot file
 
-```dot
+{{< dot_card >}}
 /* x.gv */
 digraph mainmap {
   URL="http://www.research.att.com/base.html";
   command [URL="http://www.research.att.com/command.html"];
   command -> output [URL="colors.html"];
 }
-```
+{{< /dot_card >}}
 
 one would process the graph and generate two output files:
 

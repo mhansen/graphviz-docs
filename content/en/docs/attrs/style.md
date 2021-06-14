@@ -17,14 +17,21 @@ If the default style attribute has been set for a component, an individual
 component can use `style=""` to revert to the normal default. For example, if
 the graph has
 
-```dot
-edge [style="invis"]
-```
+{{< dot_card >}}
+digraph {
+  edge [style="invis"]
+  a -> b
+}
+{{< /dot_card >}}
 
-making all edges invisible, a specific edge can overrride this via:
+making all edges invisible, the `b->c` edge can overrride this via:
 
-```dot
-a -> b [style=""]
-```
+{{< dot_card >}}
+digraph {
+  edge [style="invis"]
+  a -> b
+  b -> c [style=""]
+}
+{{< /dot_card >}}
 
-Of course, the component can also explicitly set its <code>style</code> attribute to the desired value.
+Of course, the component can also explicitly set its `style` attribute to the desired value.

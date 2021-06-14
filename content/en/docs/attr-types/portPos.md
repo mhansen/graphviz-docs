@@ -21,9 +21,11 @@ This attribute can be attached to an edge using the
 [`headport`]({{< ref "../attrs/headport.md" >}}) and [`tailport`]({{< ref "../attrs/tailport.md" >}}) attributes, or as part of the
 edge description as in
 
-```dot
-node1:port1 -> node2:port5:nw;
-```
+{{< dot_card >}}
+digraph {
+  node1:port1 -> node2:port5:nw;
+}
+{{< /dot_card>}}
 
 Note that it is legal to have a portname the same as one of the compass
 points. In this case, this reference will be resolved to the port. Thus, if

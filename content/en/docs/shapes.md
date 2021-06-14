@@ -69,7 +69,7 @@ by the [`width`](attrs.html#d:width) and
 is used for edge termination, but both the shape and label sizes are used
 preventing node overlap. For example, the following graph:
 
-```dot
+{{< dot_card >}}
 digraph G {
   { 
     node [margin=0 fontcolor=blue fontsize=32 width=0.5 shape=circle style=filled]
@@ -79,7 +79,7 @@ digraph G {
   a -> {c d}
   b -> {c d}
 }
-```
+{{< /dot_card >}}
 
 yields the figure:
 
@@ -175,7 +175,7 @@ displayed vertically.
 
 As an example of a record node, the dot input:
 
-```dot
+{{< dot_card >}}
 digraph structs {
     node [shape=record];
     struct1 [label="<f0> left|<f1> mid&#92; dle|<f2> right"];
@@ -184,7 +184,7 @@ digraph structs {
     struct1:f1 -> struct2:f0;
     struct1:f2 -> struct3:here;
 }
-```
+{{< /dot_card >}}
 
 yields the figure:
 
@@ -226,15 +226,15 @@ attribute wins.
 
   Thus, the code:
 
-  ```dot
-  digraph G {
-    rankdir=LR
-    node [shape=box, color=blue]
-    node1 [style=filled] 
-    node2 [style=filled, fillcolor=red] 
-    node0 -> node1 -> node2
-  }
-  ```
+  {{< dot_card >}}
+digraph G {
+  rankdir=LR
+  node [shape=box, color=blue]
+  node1 [style=filled] 
+  node2 [style=filled, fillcolor=red] 
+  node0 -> node1 -> node2
+}
+{{< /dot_card >}}
 
   yields the figure:
 
@@ -263,17 +263,17 @@ attribute wins.
 
   As an example of rounding, dot uses the graph:
 
-  ```dot
-  digraph R {
-    rankdir=LR
-    node [style=rounded]
-    node1 [shape=box]
-    node2 [fillcolor=yellow, style="rounded,filled", shape=diamond]
-    node3 [shape=record, label="{ a | b | c }"]
+  {{< dot_card >}}
+digraph R {
+  rankdir=LR
+  node [style=rounded]
+  node1 [shape=box]
+  node2 [fillcolor=yellow, style="rounded,filled", shape=diamond]
+  node3 [shape=record, label="{ a | b | c }"]
 
-    node1 -> node2 -> node3
-  }
-  ```
+  node1 -> node2 -> node3
+}
+{{< /dot_card >}}
 
   to produce the figure:
 
@@ -811,9 +811,7 @@ the border size or the spacing, or turning off the table border.
 
 The dot input:
 
-```dot
-{{< read_file file="static/doc/info/html1.dot" >}}
-```
+{{< dot_card file="static/doc/info/html1.dot" />}}
 
 produces the HTML analogue of the record example above:
 
@@ -825,9 +823,7 @@ As usual, an HTML specification is more verbose.
 
 On the other hand, HTML labels are much more general:
 
-```dot
-{{< read_file file="static/doc/info/html2.gv" >}}
-```
+{{< dot_card file="static/doc/info/html2.gv" />}}
 
 produces:
 
@@ -836,9 +832,7 @@ produces:
 #### Fonts Example
 An example using [`<FONT>`](#font) elements:
 
-```dot
-{{< read_file file="static/doc/info/html3.gv" >}}
-```
+{{< dot_card file="static/doc/info/html3.gv" />}}
 
 produces:
 
@@ -848,9 +842,7 @@ produces:
 
 Using an [`<IMG>`](#img) element:
 
-```dot
-{{< read_file file="static/doc/info/html4.gv" >}}
-```
+{{< dot_card file="static/doc/info/html4.gv" />}}
 
 produces:
 
@@ -861,7 +853,8 @@ produces:
 The [`sides`](#sides) attribute (version 2.37 and later) allows one to combine cells to form
 various non-convex shapes. For example, a `tee-shaped` node
 
-```dot
+{{< dot_card >}}
+digraph {
   tee [shape=none margin=0 label=
     <<table border="0" cellspacing="0" cellborder="1">
      <tr>
@@ -875,7 +868,8 @@ various non-convex shapes. For example, a `tee-shaped` node
       <td width="9" height="9" fixedsize="true" sides="brt"></td>
      </tr>
     </table>>]
-```
+}
+{{< /dot_card >}}
 
 produces:
 

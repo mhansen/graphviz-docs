@@ -29,12 +29,12 @@ being given roughly its specified fraction of the edge.
 
 For example, the graph:
 
-```dot
+{{< dot_card >}}
 digraph G {
   a -> b [dir=both color="red:blue"]
   c -> d [dir=none color="green:red;0.25:blue"]
 }
-```
+{{< /dot_card >}}
 
 yields:
 
