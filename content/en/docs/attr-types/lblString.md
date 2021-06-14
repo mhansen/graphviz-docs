@@ -1,4 +1,4 @@
 ---
 title: lblString
 ---
-An [escString](/docs/attr-types/escString/) or an [HTML label](shapes.html#html).
+An [escString](/docs/attr-types/escString/) or an [HTML label]({{< ref "../shapes.md#html" >}}).

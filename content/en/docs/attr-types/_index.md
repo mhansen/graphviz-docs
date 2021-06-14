@@ -2,7 +2,7 @@
 title: Attribute Types
 weight: 5
 ---
-Catalogue of the schemas/types/grammars expected by [attributes](/doc/info/attrs.html).
+Catalogue of the schemas/types/grammars expected by [attributes]({{< ref "../attrs/_index.md" >}}).
 
 The following list gives the legal strings corresponding to values of
 the given types.
