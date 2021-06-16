@@ -25,3 +25,29 @@ and the cluster bounding box. By default, this is 8 points.
 
 For nodes, this attribute specifies space left around the node's label. By
 default, the value is `0.11,0.055`.
+
+{{< dot_card header="Nodes Example: Tall Margins, Wide Margins, and Equal Margins">}}
+graph {
+  "1.5x0.5" [shape=rect margin="1.5,0.5"] # in inches
+  "0.5x1.5" [shape=rect margin="0.5,1.5"] # in inches
+  "1.5x1.5" [shape=rect margin="1.5"]     # in inches
+}
+{{< /dot_card >}}
+
+{{< dot_card header="Example: Cluster and Graph Margins">}}
+graph {
+    bgcolor=lightgray
+    margin=0 # in inches
+    
+    subgraph cluster_one {
+      margin=8 # in points
+      a
+      b
+    }
+    subgraph cluster_two {
+      margin=16 # in points
+      c
+      d
+    }
+}
+{{< /dot_card >}}
