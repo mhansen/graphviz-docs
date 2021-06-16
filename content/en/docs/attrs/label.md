@@ -26,3 +26,23 @@ name.
 
 To get an HTML-like label, the label attribute value itself must be an HTML
 string.
+
+{{< dot_card header="Example: Van Gogh Paintings">}}
+graph {
+  label="Vincent van Gogh Paintings"
+
+  subgraph cluster_self_portraits {
+    label="Self-portraits"
+
+    spwgfh [label="Self-Portrait with Grey Felt Hat"]
+    spaap [label="Self-Portrait as a Painter"]
+  }
+  
+  subgraph cluster_flowers {
+    label="Flowers"
+
+    sf [label="Sunflowers"]
+    ab [label="Almond Blossom"]
+  }
+}
+{{< /dot_card >}}
