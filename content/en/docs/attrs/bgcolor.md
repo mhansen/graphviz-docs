@@ -32,3 +32,22 @@ bitmap's bounding box will be set, overwriting whatever color or graphics
 were already on the page. If this effect is not desired, and you only want to
 set bits explicitly assigned in drawing the graph, set
 `bgcolor="transparent"`.
+
+{{< dot_card header="Example">}}
+graph {
+  bgcolor="lightblue"
+  label="Home"
+  subgraph cluster_ground_floor {
+     bgcolor="lightgreen"
+     label="Ground Floor"
+     Lounge
+     Kitchen
+  }
+  subgraph cluster_top_floor {
+     bgcolor="lightyellow"
+     label="Top Floor"
+     Bedroom
+     Bathroom
+  }
+}
+{{< /dot_card >}}
