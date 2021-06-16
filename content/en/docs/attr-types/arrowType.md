@@ -3,61 +3,61 @@ title: arrowType
 ---
 <TABLE>
   <TR>
-    <TD>"normal"</TD>
+    <TD><code>normal</code></TD>
     <TD><IMG SRC="/doc/info/a_normal.gif"></TD>
-    <TD>"inv"</TD>
+    <TD><code>inv</code></TD>
     <TD><IMG SRC="/doc/info/a_inv.gif"></TD>
   </TR>
   <TR>
-    <TD>"dot"</TD>
+    <TD><code>dot</code></TD>
     <TD><IMG SRC="/doc/info/a_dot.gif"></TD>
-    <TD>"invdot"</TD>
+    <TD><code>invdot</code></TD>
     <TD><IMG SRC="/doc/info/a_invdot.gif"></TD>
   </TR>
   <TR>
-    <TD>"odot"</TD>
+    <TD><code>odot</code></TD>
     <TD><IMG SRC="/doc/info/a_odot.gif"></TD>
-    <TD>"invodot"</TD>
+    <TD><code>invodot</code></TD>
     <TD><IMG SRC="/doc/info/a_invodot.gif"></TD>
   </TR>
   <TR>
-    <TD>"none"</TD>
+    <TD><code>none</code></TD>
     <TD><IMG SRC="/doc/info/a_none.gif"></TD>
-    <TD>"tee"</TD>
+    <TD><code>tee</code></TD>
     <TD><IMG SRC="/doc/info/a_tee.gif"></TD>
   </TR>
   <TR>
-    <TD>"empty"</TD>
+    <TD><code>empty</code></TD>
     <TD><IMG SRC="/doc/info/a_empty.gif"></TD>
-    <TD>"invempty"</TD>
+    <TD><code>invempty</code></TD>
     <TD><IMG SRC="/doc/info/a_invempty.gif"></TD>
   </TR>
   <TR>
-    <TD>"diamond"</TD>
+    <TD><code>diamond</code></TD>
     <TD><IMG SRC="/doc/info/a_diamond.gif"></TD>
-    <TD>"odiamond"</TD>
+    <TD><code>odiamond</code></TD>
     <TD><IMG SRC="/doc/info/a_odiamond.gif"></TD>
   </TR>
   <TR>
-    <TD>"ediamond"</TD>
+    <TD><code>ediamond</code></TD>
     <TD><IMG SRC="/doc/info/a_ediamond.gif"></TD>
-    <TD>"crow"</TD>
+    <TD><code>crow</code></TD>
     <TD><IMG SRC="/doc/info/a_crow.gif"></TD>
   </TR>
   <TR>
-    <TD>"box"</TD>
+    <TD><code>box</code></TD>
     <TD><IMG SRC="/doc/info/a_box.gif"></TD>
-    <TD>"obox"</TD>
+    <TD><code>obox</code></TD>
     <TD><IMG SRC="/doc/info/a_obox.gif"></TD>
   </TR>
   <TR>
-    <TD>"open"</TD>
+    <TD><code>open</code></TD>
     <TD><IMG SRC="/doc/info/a_open.gif"></TD>
-    <TD>"halfopen"</TD>
+    <TD><code>halfopen</code></TD>
     <TD><IMG SRC="/doc/info/a_halfopen.gif"></TD>
   </TR>
   <TR>
-    <TD>"vee"</TD>
+    <TD><code>vee</code></TD>
     <TD><IMG SRC="/doc/info/a_open.gif"></TD>
   </TR>
 </TABLE>
