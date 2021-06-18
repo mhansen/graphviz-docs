@@ -1,5 +1,6 @@
 ---
 title: portPos
+description: Port Position
 ---
 modifier indicating where on a node an edge should be aimed. It has the form
 `portname(:compass_point)?` or `compass_point`. If the first form is

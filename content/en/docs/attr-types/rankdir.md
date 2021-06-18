@@ -1,5 +1,6 @@
 ---
 title: rankdir
+description: Rank Direction
 ---
 * `"TB"`
 * `"LR"`
