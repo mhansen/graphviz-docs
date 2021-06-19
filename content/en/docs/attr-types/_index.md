@@ -1,6 +1,8 @@
 ---
 title: Attribute Types
 weight: 5
+cascade:
+  type: attr-types
 ---
 Catalogue of the schemas/types/grammars expected by [attributes]({{< ref "../attrs/_index.md" >}}).
 
