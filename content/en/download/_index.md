@@ -83,7 +83,7 @@ You may find it useful to try one of the following third-party sites.
     [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/2128143)
   * [Prior to 2.46 series](https://www2.graphviz.org/Packages/stable/windows)
 * Development Windows install packages
-  * [2.46.0 as newer](https://gitlab.com/graphviz/graphviz/-/packages)
+  * [2.46.0 and newer](https://gitlab.com/graphviz/graphviz/-/packages)
   * [Prior to 2.46.0](https://www2.graphviz.org/Packages/development/windows)
 * [Cygwin Ports](http://sourceware.org/cygwinports/)* provides a port of Graphviz to Cygwin.
 * [WinGraphviz](http://wingraphviz.sourceforge.net/wingraphviz/)* Win32/COM object (dot/neato library for Visual Basic and ASP).
