@@ -4,21 +4,12 @@ description: Direction Type
 ---
 For an edge `T -> H;`
 
-`"forward"`
-
-<IMG SRC="/doc/info/forward.gif">
-
-`"back"`
-
-<IMG SRC="/doc/info/back.gif">
-
-`"both"`
-
-<IMG SRC="/doc/info/both.gif">
-
-`"none"`
-
-<IMG SRC="/doc/info/nohead.gif">
+| Direction   | Image                             |
+| ----------- | --------------------------------- |
+| `"forward"` | <IMG SRC="/doc/info/forward.gif"> |
+| `"back"`    | <IMG SRC="/doc/info/back.gif">    |
+| `"both"`    | <IMG SRC="/doc/info/both.gif">    |
+| `"none"`    | <IMG SRC="/doc/info/nohead.gif">  |
 
 That is, a glyph is drawn at the head end of an edge if and only
 if dirType is `"forward"` or `"both"`;
