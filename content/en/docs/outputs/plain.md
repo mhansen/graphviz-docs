@@ -10,6 +10,34 @@ a simple, line-based language.
 The latter format differs in that, on edges, it provides port names
 on head and tail nodes when applicable.
 
+Example outputs of a simple graph with two nodes connected with an edge:
+
+{{< card header="`-Tplain`">}}
+```
+$ echo 'digraph { a->b }' | dot -Tplain
+```
+```
+graph 1 0.75 1.5
+node a 0.375 1.25 0.75 0.5 a solid ellipse black lightgrey
+node b 0.375 0.25 0.75 0.5 b solid ellipse black lightgrey
+edge a b 4 0.375 0.99579 0.375 0.88865 0.375 0.7599 0.375 0.64045 solid black
+stop
+```
+{{</ card >}}
+
+{{< card header="`-Tplain-ext`">}}
+```
+$ echo 'digraph { a->b }' | dot -Tplain-ext
+```
+```
+graph 1 0.75 1.5
+node a 0.375 1.25 0.75 0.5 a solid ellipse black lightgrey
+node b 0.375 0.25 0.75 0.5 b solid ellipse black lightgrey
+edge a b 4 0.375 0.99579 0.375 0.88865 0.375 0.7599 0.375 0.64045 solid black
+stop
+```
+{{</ card >}}
+
 There are four types of statements.
 <PRE>
  <STRONG>graph</STRONG> <I>scale</I> <I>width</I> <I>height</I>
