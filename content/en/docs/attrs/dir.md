@@ -17,3 +17,12 @@ The actual style of the arrowhead can be specified using the
 [`arrowhead`]({{< ref "arrowhead.md" >}}) and [`arrowtail`]({{< ref "arrowtail.md" >}}) attributes.
 
 See [limitation]({{< ref "_index.md#undir_note" >}}).
+
+{{< dot_card header="Example">}}
+digraph {
+  A->B [dir=forward]
+  C->D [dir=back]
+  E->F [dir=both]
+  G->H [dir=none]
+}
+{{< /dot_card >}}

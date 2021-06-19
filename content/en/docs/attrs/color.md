@@ -29,7 +29,7 @@ being given roughly its specified fraction of the edge.
 
 For example, the graph:
 
-{{< dot_card >}}
+{{< dot_card header="Edge Color Example" >}}
 digraph G {
   a -> b [dir=both color="red:blue"]
   c -> d [dir=none color="green:red;0.25:blue"]
@@ -39,3 +39,13 @@ digraph G {
 yields:
 
 ![](/doc/info/colorlist.gif)
+
+{{< dot_card header="Subgraph & Node Color Example" >}}
+digraph G {
+  subgraph cluster_yellow {
+    color="yellow"
+    a [color="red"]
+    b [color="green"]
+  }
+}
+{{< /dot_card >}}

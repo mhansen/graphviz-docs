@@ -40,23 +40,23 @@ if active areas of two edges overlap, it is unspecified which area dominates.
 
 {{< dot_card header="Example: Van Gogh Paintings with Links">}}
 graph {
-    label="Vincent van Gogh Paintings"
-    URL="https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+  label="Vincent van Gogh Paintings"
+  URL="https://en.wikipedia.org/wiki/Vincent_van_Gogh"
 
-    subgraph cluster_self_portraits {
-        URL="https://en.wikipedia.org/wiki/Portraits_of_Vincent_van_Gogh"
-        label="Self-portraits"
+  subgraph cluster_self_portraits {
+    URL="https://en.wikipedia.org/wiki/Portraits_of_Vincent_van_Gogh"
+    label="Self-portraits"
 
-        "Self-Portrait with Grey Felt Hat" [URL="https://www.vangoghmuseum.nl/en/collection/s0016V1962"]
-        "Self-Portrait as a Painter" [URL="https://www.vangoghmuseum.nl/en/collection/s0022V1962"]
-    }
-    
-    subgraph cluster_flowers {
-        URL="https://en.wikipedia.org/wiki/Sunflowers_(Van_Gogh_series)"
-        label="Flowers"
+    "Self-Portrait with Grey Felt Hat" [URL="https://www.vangoghmuseum.nl/en/collection/s0016V1962"]
+    "Self-Portrait as a Painter" [URL="https://www.vangoghmuseum.nl/en/collection/s0022V1962"]
+  }
+  
+  subgraph cluster_flowers {
+    URL="https://en.wikipedia.org/wiki/Sunflowers_(Van_Gogh_series)"
+    label="Flowers"
 
-        "Sunflowers" [URL="https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers"]
-        "Almond Blossom" [URL="https://www.vangoghmuseum.nl/en/collection/s0176V1962"]
-    }
+    "Sunflowers" [URL="https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers"]
+    "Almond Blossom" [URL="https://www.vangoghmuseum.nl/en/collection/s0176V1962"]
+  }
 }
 {{< /dot_card >}}
