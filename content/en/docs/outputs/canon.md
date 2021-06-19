@@ -14,7 +14,7 @@ These formats produce output in the
 Using `canon` produces a prettyprinted version of the input,
 with no layout performed.
 
-The `dot` option corresponds to attributed dot output,
+The `dot` (and `gv` alias) options correspond to attributed dot output,
 and is the default output format.
 It reproduces the input, along with layout information for the graph.
 In particular, a [`bb`](attrs.html#d:bb) attribute is
@@ -197,3 +197,62 @@ Version info:
 | >1.5         | 2.34             | Fix text layout problem; fix inverted vector in gradient; support version-specific output; new **t** op for text characteristics
 | >1.6         | 2.35             | Add STRIKE-THROUGH bit for`t`
 | >1.7         | 2.37             | Add OVERLINE for `t`
+
+{{< card header="Example: simple graph, canonicalized formatting with `-Tcanon`">}}
+```
+$ echo 'digraph { a->b }' | dot -Tcanon
+```
+```dot
+digraph {
+        node [label="\N"];
+        a -> b;
+}
+```
+{{</ card >}}
+
+{{< card header="Example: simple graph, outputting layout positioning with `-Tdot`">}}
+```
+$ echo 'digraph { a->b }' | dot -Tdot
+```
+```dot
+digraph {
+        graph [bb="0,0,54,108"];
+        node [label="\N"];
+        a    [height=0.5,
+             pos="27,90",
+             width=0.75];
+        b    [height=0.5,
+             pos="27,18",
+             width=0.75];
+        a -> b  [pos="e,27,36.104 27,71.697 27,63.983 27,54.712 27,46.112"];
+}
+```
+{{</ card >}}
+
+
+{{< card header="Example: simple graph, outputting layout positioning & drawing information with `-Txdot`">}}
+```
+$ echo 'digraph { a->b }' | dot -Txdot
+```
+```dot
+digraph {
+        graph [_draw_="c 9 -#fffffe00 C 7 -#ffffff P 4 0 0 0 108 54 108 54 0 ",
+             bb="0,0,54,108",
+             xdotversion=1.7
+        ];
+        node [label="\N"];
+        a    [_draw_="c 7 -#000000 e 27 90 27 18 ",
+             _ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 27 86.3 0 7 1 -a ",
+             height=0.5,
+             pos="27,90",
+             width=0.75];
+        b    [_draw_="c 7 -#000000 e 27 18 27 18 ",
+             _ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 27 14.3 0 7 1 -b ",
+             height=0.5,
+             pos="27,18",
+             width=0.75];
+        a -> b  [_draw_="c 7 -#000000 B 4 27 71.7 27 63.98 27 54.71 27 46.11 ",
+             _hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 30.5 46.1 27 36.1 23.5 46.1 ",
+             pos="e,27,36.104 27,71.697 27,63.983 27,54.712 27,46.112"];
+}
+{{</ card >}}
