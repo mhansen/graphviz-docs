@@ -1,5 +1,6 @@
 ---
 title: dirType
+description: Direction Type
 ---
 For an edge `T -> H;`
 

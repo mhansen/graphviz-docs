@@ -1,5 +1,6 @@
 ---
 title: pagedir
+description: Page Direction
 ---
 * `"BL"`
 * `"BR"`
