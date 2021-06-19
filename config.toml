@@ -211,4 +211,5 @@ weight = 50
 pre = "<i class='fab fa-gitlab'></i>"
 url = "https://gitlab.com/graphviz/graphviz"
 
+[params.taxonomy]
 
