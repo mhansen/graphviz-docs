@@ -1,7 +1,9 @@
 ---
 defaults:
-- forward(directed)
-- none(undirected)
+- default: forward
+  for: (directed)
+- default: none
+  for: (undirected)
 flags: []
 minimums: []
 title: dir

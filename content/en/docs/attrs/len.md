@@ -1,7 +1,9 @@
 ---
 defaults:
-- 1.0(neato)
-- 0.3(fdp)
+- default: '1.0'
+  for: (neato)
+- default: '0.3'
+  for: (fdp)
 flags:
 - neato
 - fdp

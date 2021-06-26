@@ -1,7 +1,9 @@
 ---
 defaults:
-- 8(output)
-- 20(overlap and image maps)
+- default: '8'
+  for: (output)
+- default: '20'
+  for: (overlap and image maps)
 flags: []
 minimums: []
 title: samplepoints

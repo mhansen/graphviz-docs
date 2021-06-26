@@ -1,7 +1,9 @@
 ---
 defaults:
-- shape default(nodes)
-- 1(clusters)
+- default: <shape default>
+  for: (nodes)
+- default: '1'
+  for: (clusters)
 flags: []
 minimums:
 - '0'

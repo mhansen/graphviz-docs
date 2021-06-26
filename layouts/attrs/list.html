@@ -56,13 +56,17 @@ The attributes are alphabetized on output.
   <TD>
   {{- range $i, $d := .Params.defaults -}}
     {{- if $i -}}<BR>{{- end -}}
-    {{ $d }}
+    {{- if reflect.IsMap $d -}}
+    <code>{{ $d.default }}</code> {{$d.for}} {{$d.suffix}}
+    {{- else -}}
+    <code>{{ $d }}</code>
+    {{- end -}}
   {{- end -}}
   </TD>
   <TD>
   {{- range $i, $minimum := .Params.minimums -}}
     {{- if $i -}}<BR>{{- end -}}
-    {{- $minimum -}}
+    <code>{{ $minimum }}</code>
   {{- end -}}
   </TD>
   <TD>
