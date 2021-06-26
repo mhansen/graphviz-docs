@@ -1,9 +1,13 @@
 ---
 defaults:
-- '100 * # nodes(mode == KK)'
-- 200(mode == major)
-- 30(mode == sgd)
-- 600(fdp)
+- default: '100 * # nodes'
+  for: '(mode == KK)'
+- default: '200'
+  for: '(mode == major)'
+- default: '30'
+  for: '(mode == sgd)'
+- default: '600'
+  for: '(fdp)'
 flags:
 - neato
 - fdp

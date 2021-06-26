@@ -1,6 +1,4 @@
 ---
-defaults:
-- ''
 flags:
 - bitmap output
 minimums: []

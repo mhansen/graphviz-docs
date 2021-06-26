@@ -1,6 +1,6 @@
 ---
 defaults:
-- system-dependent
+- <system-dependent>
 flags: []
 minimums: []
 title: fontpath

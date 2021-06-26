@@ -1,8 +1,11 @@
 ---
 defaults:
-- '"t"(clusters)'
-- '"b"(root graphs)'
-- '"c"(nodes)'
+- default: '"t"'
+  for: '(clusters)'
+- default: '"b"'
+  for: '(root graphs)'
+- default: '"c"'
+  for: '(nodes)'
 flags: []
 minimums: []
 title: labelloc

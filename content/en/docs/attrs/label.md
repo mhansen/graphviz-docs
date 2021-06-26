@@ -1,7 +1,9 @@
 ---
 defaults:
-- '"\N" (nodes)'
-- '"" (otherwise)'
+- default: '"\N"'
+  for: '(nodes)'
+- default: '""'
+  for: '(otherwise)'
 flags: []
 minimums: []
 title: label

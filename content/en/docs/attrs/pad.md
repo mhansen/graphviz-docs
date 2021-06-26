@@ -1,6 +1,7 @@
 ---
 defaults:
-- 0.0555 (4 points)
+- default: 0.0555
+  suffix: '(4 points)'
 flags: []
 minimums: []
 title: pad

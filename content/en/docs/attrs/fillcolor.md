@@ -1,7 +1,9 @@
 ---
 defaults:
-- lightgrey(nodes)
-- black(clusters)
+- default: lightgrey
+  for: (nodes)
+- default: black
+  for: (clusters)
 flags: []
 minimums: []
 title: fillcolor

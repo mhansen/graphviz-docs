@@ -1,7 +1,9 @@
 ---
 defaults:
-- <none>(graphs)
-- false(nodes)
+- default: <none>
+  for: (graphs)
+- default: 'false'
+  for: (nodes)
 flags:
 - twopi
 - circo

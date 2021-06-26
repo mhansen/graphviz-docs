@@ -1,8 +1,11 @@
 ---
 defaults:
-- '.0001 * # nodes(mode == KK)'
-- .0001(mode == major)
-- .01(mode == sgd)
+- default: '.0001 * # nodes'
+  for: (mode == KK)'
+- default: '.0001'
+  for: (mode == major)
+- default: '.01'
+  for: (mode == sgd)
 flags:
 - neato
 minimums: []

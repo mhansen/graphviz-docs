@@ -1,7 +1,9 @@
 ---
 defaults:
-- 0.5(dot)
-- 1.0(twopi)
+- default: '0.5'
+  for: (dot)
+- default: '1.0'
+  for: (twopi)
 flags:
 - dot
 - twopi
