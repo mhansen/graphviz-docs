@@ -49,3 +49,7 @@ digraph G {
   }
 }
 {{< /dot_card >}}
+
+See also:
+
+- [`colorscheme`]({{< ref "colorscheme.md" >}})
