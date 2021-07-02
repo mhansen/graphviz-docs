@@ -35,3 +35,7 @@ digraph G {
   "2in" [height=2]
 }
 {{< /dot_card >}}
+
+See also:
+
+- [`width`]({{< ref "width.md" >}})
