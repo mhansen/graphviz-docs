@@ -38,6 +38,14 @@ edge.
 
 if active areas of two edges overlap, it is unspecified which area dominates.
 
+See also:
+
+- [`edgehref`]({{< ref "edgehref.md" >}}), [`edgeURL`]({{< ref "edgeURL.md" >}})
+- [`headhref`]({{< ref "headhref.md" >}}), [`headURL`]({{< ref "headURL.md" >}})
+- [`labelhref`]({{< ref "labelhref.md" >}}), [`labelURL`]({{< ref "labelURL.md" >}})
+- [`tailhref`]({{< ref "tailhref.md" >}}), [`tailURL`]({{< ref "tailURL.md" >}})
+- [`href`]({{< ref "href.md" >}}), [`URL`]({{< ref "URL.md" >}})
+
 {{< dot_card header="Example: Van Gogh Paintings with Links">}}
 graph {
   label="Vincent van Gogh Paintings"
