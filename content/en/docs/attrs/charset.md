@@ -18,3 +18,10 @@ The `charset` attribute is case-insensitive.
 
 Note that if the character encoding used in the input does not match the
 `charset` value, the resulting output may be very strange.
+
+{{< dot_card header="Example" >}}
+digraph G {
+  charset="UTF-8"
+  🍔 -> 💩
+}
+{{< /dot_card >}}
