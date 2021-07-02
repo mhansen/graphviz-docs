@@ -14,3 +14,7 @@ types:
 used_by: E
 ---
 Preferred edge length, in inches.
+
+See also:
+
+- [`minlen`]({{< ref "minlen.md" >}})

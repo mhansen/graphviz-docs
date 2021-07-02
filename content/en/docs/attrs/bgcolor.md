@@ -38,16 +38,16 @@ graph {
   bgcolor="lightblue"
   label="Home"
   subgraph cluster_ground_floor {
-     bgcolor="lightgreen"
-     label="Ground Floor"
-     Lounge
-     Kitchen
+    bgcolor="lightgreen"
+    label="Ground Floor"
+    Lounge
+    Kitchen
   }
   subgraph cluster_top_floor {
-     bgcolor="lightyellow"
-     label="Top Floor"
-     Bedroom
-     Bathroom
+    bgcolor="lightyellow"
+    label="Top Floor"
+    Bedroom
+    Bathroom
   }
 }
 {{< /dot_card >}}

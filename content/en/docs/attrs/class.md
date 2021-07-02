@@ -15,6 +15,11 @@ using CSS classnames.
 
 Multiple space-separated classes are supported.
 
+See also:
+
+- [`stylesheet`]({{< ref "stylesheet.md" >}})
+- [`id`]({{< ref "id.md" >}})
+
 Example:
 
 {{< dot_card >}}

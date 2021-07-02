@@ -27,3 +27,15 @@ If the node shape is regular, the width and height are made identical:
   used for both `width` and `height`.
 * If neither is set explicitly, the minimum of the two default values
   is used.
+
+{{< dot_card header="Height Example" >}}
+digraph G {
+  "default"
+  "1in" [height=1]
+  "2in" [height=2]
+}
+{{< /dot_card >}}
+
+See also:
+
+- [`width`]({{< ref "width.md" >}})

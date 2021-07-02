@@ -13,3 +13,7 @@ This will only appear if the [`dir` attribute]({{< ref "dir.md" >}})
 is `forward` or `both`.
 
 See the [limitation]({{< ref "_index.md#undir_note" >}}).
+
+See also:
+
+- [`arrowtail`]({{< ref "arrowtail.md" >}})

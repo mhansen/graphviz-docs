@@ -23,3 +23,11 @@ These labels are added after all nodes and edges have been placed.
 The labels will be placed so that they do not overlap any node or label. This
 means it may not be possible to place all of them. To force placing all of
 them, set <code>[forcelabels]({{< ref "forcelabels.md" >}})=true</code>.
+
+{{< dot_card header="External Labels on Nodes and Edges" >}}
+digraph {
+  "⚡" [xlabel="Sparks"]
+  "🔥" [xlabel="Fires"]
+  "⚡"->"🔥" [xlabel="Sometimes" label="Cause"]
+}
+{{< /dot_card >}}

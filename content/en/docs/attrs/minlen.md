@@ -11,3 +11,7 @@ types:
 used_by: E
 ---
 Minimum edge length (rank difference between head and tail).
+
+See also:
+
+- [`len`]({{< ref "len.md" >}})

@@ -24,3 +24,11 @@ If the node shape is regular, the width and height are made identical:
 * If either the width or the height is set explicitly, that value is used.
 * If both the width or the height are set explicitly, the maximum of the two values is used.
 * If neither is set explicitly, the minimum of the two default values is used.
+
+{{< dot_card header="Width Example" >}}
+digraph {
+  "d" # default
+  "1in" [width=1]
+  "2in" [width=2]
+}
+{{< /dot_card >}}
