@@ -57,8 +57,8 @@ to see these.
 If you wish to build from the tip-of-tree
 source repositories for Graphviz and Webdot, these can be found at:
 
-* [https://gitlab.com/graphviz/graphviz/](gitlab.com/graphviz/graphviz/)
-* [https://gitlab.com/graphviz/webdot/](gitlab.com/graphviz/webdot/)
+* [https://gitlab.com/graphviz/graphviz/](https://gitlab.com/graphviz/graphviz/)
+* [https://gitlab.com/graphviz/webdot/](https://gitlab.com/graphviz/webdot/)
 
 You can either download the zip file or clone the repository. Instructions
 for the latter can be found [here](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository).
