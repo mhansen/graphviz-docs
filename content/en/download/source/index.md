@@ -146,10 +146,10 @@ bison-3.0.tar.gz [if building from git]
 flex-2.5.4a.tar.gz [if building from git]
 : [http://ftp.gnu.org/non-gnu/flex/](http://ftp.gnu.org/non-gnu/flex/)
 
-gcc-4.1.1.tar.bz2
+gcc-4.5.0.tar.bz2
 : [http://ftp.gnu.org/gnu/gcc/](http://ftp.gnu.org/gnu/gcc/)
 
-gcc-g++-4.1.1.tar.bz2
+gcc-g++-4.5.0.tar.bz2
 : [http://ftp.gnu.org/gnu/gcc/](http://ftp.gnu.org/gnu/gcc/)
 
 ghostscript-8.54-gpl.tar.gz
