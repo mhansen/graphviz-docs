@@ -140,7 +140,7 @@ autoconf-2.61.tar.gz [if building from git]
 automake-1.9.6.tar.gz [if building from git]
 : [http://ftp.gnu.org/gnu/automake/](http://ftp.gnu.org/gnu/automake/)
 
-bison-2.3.tar.gz [if building from git]
+bison-3.0.tar.gz [if building from git]
 : [http://ftp.gnu.org/gnu/bison/](http://ftp.gnu.org/gnu/bison/)
 
 flex-2.5.4a.tar.gz [if building from git]
