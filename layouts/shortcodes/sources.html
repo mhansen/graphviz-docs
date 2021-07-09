@@ -1,5 +1,5 @@
 <ul>
-{{ range $source := $.Site.Data.sources }}
+{{ range $source := sort $.Site.Data.sources "version" "desc" }}
   <li>
     {{- .version }}
     <ul>
