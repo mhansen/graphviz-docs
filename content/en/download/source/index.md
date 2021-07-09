@@ -134,7 +134,7 @@ Glut [optional (required for smyrna)]
 
 ### Tools
 
-autoconf-2.59.tar.gz [if building from git]
+autoconf-2.61.tar.gz [if building from git]
 : [http://ftp.gnu.org/gnu/autoconf/](http://ftp.gnu.org/gnu/autoconf/)
 
 automake-1.9.6.tar.gz [if building from git]
