@@ -134,22 +134,22 @@ Glut [optional (required for smyrna)]
 
 ### Tools
 
-autoconf-2.59.tar.gz [if building from git]
+autoconf-2.61.tar.gz [if building from git]
 : [http://ftp.gnu.org/gnu/autoconf/](http://ftp.gnu.org/gnu/autoconf/)
 
 automake-1.9.6.tar.gz [if building from git]
 : [http://ftp.gnu.org/gnu/automake/](http://ftp.gnu.org/gnu/automake/)
 
-bison-2.3.tar.gz [if building from git]
+bison-3.0.tar.gz [if building from git]
 : [http://ftp.gnu.org/gnu/bison/](http://ftp.gnu.org/gnu/bison/)
 
 flex-2.5.4a.tar.gz [if building from git]
 : [http://ftp.gnu.org/non-gnu/flex/](http://ftp.gnu.org/non-gnu/flex/)
 
-gcc-4.1.1.tar.bz2
+gcc-4.5.0.tar.bz2
 : [http://ftp.gnu.org/gnu/gcc/](http://ftp.gnu.org/gnu/gcc/)
 
-gcc-g++-4.1.1.tar.bz2
+gcc-g++-4.5.0.tar.bz2
 : [http://ftp.gnu.org/gnu/gcc/](http://ftp.gnu.org/gnu/gcc/)
 
 ghostscript-8.54-gpl.tar.gz
