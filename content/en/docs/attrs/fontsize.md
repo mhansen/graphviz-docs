@@ -13,13 +13,13 @@ Font size, [in points]({{< ref "_index.md#points" >}}), used for text.
 
 {{< dot_card >}}
 digraph {
-    label="40pt"
+    label="40pt Graph Label"
     fontsize="40"
     subgraph cluster_a {
-      label="30pt"
+      label="30pt Cluster Label"
       fontsize="30pt"
-      "20pt" [fontsize="20pt"];
-      "20pt"-> "20pt" [label="10pt" fontsize="10"]
+      "20pt Node" [fontsize="20pt"];
+      "20pt Node"-> "20pt Node" [label="10pt Edge" fontsize="10"]
     }
 }
 {{< /dot_card >}}
