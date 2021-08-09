@@ -37,3 +37,16 @@ considered the name of a Type 1 or True Type font file. If you specify
 or `schlbk.pfb` in one of the directories specified by the
 [`fontpath`]({{< ref "fontpath.md" >}}) attribute. The lookup does support various aliases
 for the common fonts.
+
+{{< dot_card >}}
+digraph {
+    label="Comic Sans MS"
+    fontname="Comic Sans MS"
+    subgraph cluster_a {
+      label="Courier New"
+      fontname="Courier New"
+      Arial [fontname="Arial"];
+      Arial -> Arial [label="Impact" fontname="Impact"]
+    }
+}
+{{< /dot_card >}}
