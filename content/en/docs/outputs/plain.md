@@ -116,6 +116,6 @@ much more than node positions and sizes, and edge spline control points.
 These formats are usually most useful to applications wanting just this
 geometric information, and willing to fill in all of the graphical details.
 The only real advantages to these formats is their terseness and their
-ease of parsing. In general, the [dot](#d:dot) and
-[xdot](#d:xdot) are preferable in terms of the quantity of
+ease of parsing. In general, the [dot]({{< ref "canon.md" >}}) and
+[xdot]({{< ref "canon.md" >}}) are preferable in terms of the quantity of
 information provided.
