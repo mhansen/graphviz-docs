@@ -14,3 +14,5 @@ to right) and then attempts to avoid edge crossings and reduce edge length.
     <img src="/Gallery/directed/cluster.svg">
   </a>
 </p>
+
+[PDF Manual](/pdf/dot.1.pdf)

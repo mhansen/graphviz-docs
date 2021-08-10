@@ -12,3 +12,5 @@ that handles larger graphs and clustered undirected graphs.
     <img src="/Gallery/undirected/fdpclust.svg">
   </a>
 </p>
+
+[PDF Manual](/pdf/dot.1.pdf)

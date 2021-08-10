@@ -49,17 +49,6 @@ on-line pages listed above.
 * [simple.c](/dot.demo/simple.c)
 * [Makefile](/dot.demo/Makefile)
 
-## Layout manual pages
-
-* [circo](/pdf/dot.1.pdf)
-* [dot](/pdf/dot.1.pdf)
-* [fdp](/pdf/dot.1.pdf)
-* [neato](/pdf/dot.1.pdf)
-* [osage](/pdf/osage.1.pdf)
-* [patchwork](/pdf/patchwork.1.pdf)
-* [sfdp](/pdf/dot.1.pdf)
-* [twopi](/pdf/dot.1.pdf)
-
 ## Tool manual pages
 
 * [acyclic](/pdf/acyclic.1.pdf)
