@@ -16,13 +16,13 @@ consider using `shape=none`, `margin=0` and an HTML-like label.
 
 The geometry and style of all node shapes are affected by
 the node attributes 
-[`fixedsize`](attrs.html#d:fixedsize),
-[`fontname`](attrs.html#d:fontname),
-[`fontsize`](attrs.html#d:fontsize),
-[`height`](attrs.html#d:height),
-[`label`](attrs.html#d:label),
+[`fixedsize`]({{< ref "/docs/attrs/fixedsize.md" >}}),
+[`fontname`]({{< ref "/docs/attrs/fontname.md" >}}),
+[`fontsize`]({{< ref "/docs/attrs/fontsize.md" >}}),
+[`height`]({{< ref "/docs/attrs/height.md" >}}),
+[`label`]({{< ref "/docs/attrs/label.md" >}}),
 [`style`](#d:style) and
-[`width`](attrs.html#d:width).
+[`width`]({{< ref "/docs/attrs/width.md" >}}).
 
 ## Polygon-based Nodes {#polygon}
 
@@ -41,31 +41,31 @@ appear in a filled rectangle.
 
 The geometries of polygon-based shapes are also affected
 by the node attributes 
-[`regular`](attrs.html#d:regular),
-[`peripheries`](attrs.html#d:peripheries) and
-[`orientation`](attrs.html#d:orientation).
+[`regular`]({{< ref "/docs/attrs/regular.md" >}}),
+[`peripheries`]({{< ref "/docs/attrs/peripheries.md" >}}) and
+[`orientation`]({{< ref "/docs/attrs/orientation.md" >}}).
 If `shape="polygon"`, the attributes
-[`sides`](attrs.html#d:sides),
-[`skew`](attrs.html#d:skew) and
-[`distortion`](attrs.html#d:distortion) are also used.
+[`sides`]({{< ref "/docs/attrs/sides.md" >}}),
+[`skew`]({{< ref "/docs/attrs/skew.md" >}}) and
+[`distortion`]({{< ref "/docs/attrs/distortion.md" >}}) are also used.
 If unset, they default to 4, 0.0 and 0.0, respectively.
 The point shape is special in that it is
-only affected by the [`peripheries`](attrs.html#d:peripheries),
-[`width`](attrs.html#d:width) and
-[`height`](attrs.html#d:height) attributes.
+only affected by the [`peripheries`]({{< ref "/docs/attrs/peripheries.md" >}}),
+[`width`]({{< ref "/docs/attrs/width.md" >}}) and
+[`height`]({{< ref "/docs/attrs/height.md" >}}) attributes.
 
 Normally, the size of a node is determined by smallest width and height
 needed to contain its label and image, if any, with a margin specified by
-the [`margin`](attrs.html#d:margin) attribute. The width
+the [`margin`]({{< ref "/docs/attrs/margin.md" >}}) attribute. The width
 and height must also be at least as large as the sizes specified by the
-[`width`](attrs.html#d:width) and
-[`height`](attrs.html#d:height) attributes, which specify
+[`width`]({{< ref "/docs/attrs/width.md" >}}) and
+[`height`]({{< ref "/docs/attrs/height.md" >}}) attributes, which specify
 the minimum values for these parameters. 
-See the [`fixedsize`](attrs.html#d:fixedsize) attribute
+See the [`fixedsize`]({{< ref "/docs/attrs/fixedsize.md" >}}) attribute
 for ways of restricting the node size.
 In particular, if `fixedsize=shape`, the node's shape will be fixed
-by the [`width`](attrs.html#d:width) and
-[`height`](attrs.html#d:height) attributes, and the shape
+by the [`width`]({{< ref "/docs/attrs/width.md" >}}) and
+[`height`]({{< ref "/docs/attrs/height.md" >}}) attributes, and the shape
 is used for edge termination, but both the shape and label sizes are used
 preventing node overlap. For example, the following graph:
 
@@ -123,7 +123,7 @@ nodes on the same rank if one or both nodes has a record shape.
 
 These are specified by shape values of "record" and "Mrecord".
 The structure of a record-based node is determined by 
-its [`label`](attrs.html#d:label),
+its [`label`]({{< ref "/docs/attrs/label.md" >}}),
 which has the following schema:
 
 <TABLE>
@@ -166,7 +166,7 @@ from top to bottom and "A | { B | C } | D" will have "B" over "C", with
 "A" to the left and "D" to the right of "B" and "C".
 
 The initial orientation of a record node depends on the
-[rankdir](attrs.html#d:rankdir) attribute. If this attribute
+[rankdir]({{< ref "/docs/attrs/rankdir.md" >}}) attribute. If this attribute
 is `TB` (the default) or `BT`, corresponding to vertical
 layouts, the top-level fields in a record are displayed horizontally.
 If, however, this attribute is `LR` or `RL`,
@@ -207,12 +207,12 @@ it then looks like:
 
 ## Styles for Nodes
 
-The [`style`](attrs.html#d:style)
+The [`style`]({{< ref "/docs/attrs/style.md" >}})
 attribute can be used to modify the appearance of a node.
 At present, there are 8 style values recognized:
 `filled`, `invisible`, `diagonals`, `rounded`.
 `dashed`, `dotted`, `solid` and `bold`.
-As usual, the value of the [`style`](attrs.html#d:style)
+As usual, the value of the [`style`]({{< ref "/docs/attrs/style.md" >}})
 attribute can be a comma-separated list of any of these. If the
 style contains conflicts (e.g, `style="dotted, solid"`), the last
 attribute wins.
@@ -291,7 +291,7 @@ digraph R {
 
 <code id="d:bold">bold</code>
 : This style causes the node's border to be drawn as a bold line.
-  See also [penwidth](attrs.html#d:penwidth).
+  See also [penwidth]({{< ref "/docs/attrs/penwidth.md" >}}).
 
 Additional styles may be available with a specific code generator.
 
@@ -316,10 +316,10 @@ node to be larger, so that edges are clipped away from the label. In effect, `sh
 for `shape=none width=0 height=0 margin=0`.
 
 If the value of a label attribute
-([`label`](attrs.html#d:label) for nodes, edges, clusters, and
+([`label`]({{< ref "/docs/attrs/label.md" >}}) for nodes, edges, clusters, and
 graphs, and the
-[`headlabel`](attrs.html#d:headlabel) and
-[`taillabel`](attrs.html#d:taillabel)
+[`headlabel`]({{< ref "/docs/attrs/headlabel.md" >}}) and
+[`taillabel`]({{< ref "/docs/attrs/taillabel.md" >}})
 attributes of an edge) is given as an
 [HTML string](lang.html#html),
 that is, delimited by `<...>`
@@ -611,10 +611,10 @@ Attribute values must appear in double quotes.
   This color can be 
   overridden by a **_COLOR_** attribute in descendents.
   By default, the font color is determined by the
-  [fontcolor](attrs.html#d:fontcolor) attribute of
+  [fontcolor]({{< ref "/docs/attrs/fontcolor.md" >}}) attribute of
   the corresponding node, edge or graph, and the border color
   is determined by the
-  [color](attrs.html#d:color) attribute of
+  [color]({{< ref "/docs/attrs/color.md" >}}) attribute of
   the corresponding node, edge or graph.
 
 <span id="colspan">COLSPAN="value"</span>
@@ -632,7 +632,7 @@ Attribute values must appear in double quotes.
   This can be 
   overridden by a **_FACE_** attribute in descendents.
   By default, the font name is determined by the
-  [fontname](attrs.html#d:fontname) attribute of the corresponding
+  [fontname]({{< ref "/docs/attrs/fontname.md" >}}) attribute of the corresponding
   node, edge or graph.
 
 <span id="fixedsize">FIXEDSIZE</span>
@@ -664,14 +664,14 @@ Attribute values must appear in double quotes.
 : attaches a URL to the object.
   Note that the `"value"` is treated as an
   [escString](attrs.html/docs/attr-types/escString/) similarly to the
-  [URL](attrs.html#d:URL) attribute.
+  [URL]({{< ref "/docs/attrs/URL.md" >}}) attribute.
 
 <span id="id">ID="value"</span>
 : allows the user to specify a unique ID for a table or cell. See
-  the [id](attrs.html#d:id) attribute for more information.
+  the [id]({{< ref "/docs/attrs/id.md" >}}) attribute for more information.
   Note that the `"value"` is treated as an
   [escString](attrs.html/docs/attr-types/escString/) similarly to the
-  [id](attrs.html#d:id) attribute.
+  [id]({{< ref "/docs/attrs/id.md" >}}) attribute.
 
 <span id="point-size">POINT-SIZE="value"</span>
 : sets the size of the font, in points, used within the scope of
@@ -679,7 +679,7 @@ Attribute values must appear in double quotes.
   This can be 
   overridden by a **_POINT-SIZE_** attribute in descendents.
   By default, the font size is determined by the
-  [fontsize](attrs.html#d:fontsize) attribute of the corresponding
+  [fontsize]({{< ref "/docs/attrs/fontsize.md" >}}) attribute of the corresponding
   node, edge or graph.
 
 <span id="port">PORT="value"</span>
@@ -706,9 +706,9 @@ Attribute values must appear in double quotes.
   *   `HEIGHT` : expand image height to fill
   *   `BOTH` : expand both image width height to fill
   If this attribute is undefined, 
-  the image inherits the [imagescale](attrs.html#d:imagescale)
+  the image inherits the [imagescale]({{< ref "/docs/attrs/imagescale.md" >}})
   attribute of the graph object being drawn.
-  As with the [imagescale](attrs.html#d:imagescale)
+  As with the [imagescale]({{< ref "/docs/attrs/imagescale.md" >}})
   attribute, if the cell has a fixed size and the image is too large,
   any offending dimension will be shrunk to fit the space, the
   scaling being uniform in width and height if _SCALE=`"true"`_.
@@ -750,14 +750,14 @@ Attribute values must appear in double quotes.
   See [W3C documentation](http://www.w3.org/TR/html401/present/frames.html#adef-target).
   Note that the `"value"` is treated as an
   [escString](attrs.html/docs/attr-types/escString/) similarly to the
-  [target](attrs.html#d:target) attribute.
+  [target]({{< ref "/docs/attrs/target.md" >}}) attribute.
 
 <span id="title">TITLE="value"</span>
 : sets the tooltip annotation attached to the element. 
   This is used only if the element has a [`HREF`](#href) attribute.
   Note that the `"value"` is treated as an
   [escString](/docs/attr-types/escString/) similarly to the
-  [tooltip](attrs.html#d:tooltip) attribute.
+  [tooltip]({{< ref "/docs/attrs/tooltip.md" >}}) attribute.
 
 <span id="tooltip">TOOLTIP="value"</span>
 : is an alias for [**_TITLE_**](#title).

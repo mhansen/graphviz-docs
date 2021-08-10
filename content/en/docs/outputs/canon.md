@@ -17,23 +17,23 @@ with no layout performed.
 The `dot` (and `gv` alias) options correspond to attributed dot output,
 and is the default output format.
 It reproduces the input, along with layout information for the graph.
-In particular, a [`bb`](attrs.html#d:bb) attribute is
+In particular, a [`bb`]({{< ref "/docs/attrs/bb.md" >}}) attribute is
 attached to the graph, specifying the bounding box of the drawing.
 If the graph has a label, its position is specified by the
-[`lp`](attrs.html#d:lp) attribute.
+[`lp`]({{< ref "/docs/attrs/lp.md" >}}) attribute.
 
-Each node gets [`pos`](attrs.html#d:pos),
-[`width`](attrs.html#d:width) and
+Each node gets [`pos`]({{< ref "/docs/attrs/pos.md" >}}),
+[`width`]({{< ref "/docs/attrs/width.md" >}}) and
 the record rectangles are given in the
-[`rects`](attrs.html#d:rects) attribute.
+[`rects`]({{< ref "/docs/attrs/rects.md" >}}) attribute.
 If the node is a polygon and the
-[`vertices`](attrs.html#d:vertices) attribute is defined, this
+[`vertices`]({{< ref "/docs/attrs/vertices.md" >}}) attribute is defined, this
 attribute contains the vertices of the node.
 
 Every edge is
-assigned a [`pos`](attrs.html#d:pos) attribute,
+assigned a [`pos`]({{< ref "/docs/attrs/pos.md" >}}) attribute,
 and if the edge has a label, the label position
-is given in [`lp`](attrs.html#d:lp).
+is given in [`lp`]({{< ref "/docs/attrs/lp.md" >}}).
 
 The `xdot` format extends the
 `dot` format by providing much more detailed information about
@@ -175,7 +175,7 @@ string width using its own rendering primitives.
 
 The text operation is only used in the label attributes. Normally,
 the non-text operations are only used in the non-label attributes.
-If, however, the [decorate](attrs.html#d:decorate)
+If, however, the [decorate]({{< ref "/docs/attrs/decorate.md" >}})
 attribute is set on an edge, its label
 attribute will also contain a polyline operation.
 In addition, if a label is a complex, HTML-like label, it will also
