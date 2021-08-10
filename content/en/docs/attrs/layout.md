@@ -8,7 +8,7 @@ types:
 - string
 used_by: G
 ---
-Specifies the name of the [layout engine]({{< ref "layout/_index.md" >}}) to
+Specifies the name of the [layout engine]({{< ref "/docs/layouts/_index.md" >}}) to
 use, such as `dot` or `neato`.
 
 Normally, graphs should be kept independent of a type of layout. In some
