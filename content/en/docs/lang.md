@@ -1,5 +1,5 @@
 ---
-title: The DOT Language
+title: DOT Language
 url: /doc/info/lang.html
 aliases:
   - /content/dot-language/
