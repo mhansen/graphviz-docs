@@ -18,3 +18,5 @@ Kamada-Kawai algorithm, using steepest descent, is also available.
     <img src="/Gallery/undirected/ER.svg">
   </a>
 </p>
+
+[PDF Manual](/pdf/dot.1.pdf)
