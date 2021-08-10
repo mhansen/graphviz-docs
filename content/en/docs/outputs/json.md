@@ -9,9 +9,9 @@ params:
 ---
 These formats produce a JSON output encoding the DOT language.
 Using `json0` produces output in JSON format that contains the
-same information produced by [`-Tdot`](#d:dot).
+same information produced by [`-Tdot`]({{< ref "canon.md" >}}).
 Using `json` produces output in JSON format that contains the
-same information produced by [`-Txdot`](#d:xdot).
+same information produced by [`-Txdot`]({{< ref "canon.md" >}}).
 Both of these assume the graph has been processed by one of the layout
 algorithms.
 The `dot_json` and `xdot_json` also produce JSON output similar to
