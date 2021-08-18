@@ -128,7 +128,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 
 *   [graphviz-java](https://github.com/nidi3/graphviz-java) (2015-2021) \- Use graphviz with pure Java. [Maven](https://mvnrepository.com/artifact/guru.nidi/graphviz-java)
 *   [JPGD](http://www.alexander-merz.com/graphviz/) (2006-2016): A Java parser for Graphviz documents [\[Alexander Merz\]](http://www.alexander-merz.com/)
-*   [Java API](https://github.com/jabbalaci/graphviz-java-api) \[Laszlo Szathmary\]
+*   [Java API](https://github.com/jabbalaci/graphviz-java-api) (2003-2016) \[Laszlo Szathmary\]
 *   [PayPal's digraph-parser](https://github.com/paypal/digraph-parser) (2017 - now Archived) \- Simple, standalone Java parser for digraph DSL (domain-specific language) in Graphviz DOT syntax.
 
 ### C# and .NET
