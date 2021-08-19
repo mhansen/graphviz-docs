@@ -39,25 +39,25 @@ You may find it useful to try one of the following third-party sites.
 * [Ubuntu packages](https://packages.ubuntu.com/search?keywords=graphviz&searchon=names)*
 
   ```bash
-  $ sudo apt install graphviz
+  sudo apt install graphviz
   ```
 
 * [Fedora project](https://apps.fedoraproject.org/packages/graphviz)*
 
   ```bash
-  $ sudo yum install graphviz
+  sudo yum install graphviz
   ```
 
 * [Debian packages](http://packages.debian.org/search?suite=all&amp;searchon=names&amp;keywords=graphviz)*
 
   ```bash
-  $ sudo apt install graphviz
+  sudo apt install graphviz
   ```
 
 * [Stable and development rpms for Redhat Enterprise, or CentOS systems](http://rpmfind.net/linux/rpm2html/search.php?query=graphviz)* available but are out of date.
 
   ```bash
-  $ sudo yum install graphviz
+  sudo yum install graphviz
   ```
 
 <!---  The problem is that this probably just points back to graphviz.org * [Fedora](http://fedoraproject.org/)* On a working Fedora system, use `yum list "graphviz*"` to see all available Graphviz packages.  --->
@@ -114,13 +114,13 @@ Mostly correct notes for building Graphviz on Windows can be found
   and [graphviz-gui-devel](https://www.macports.org/ports.php?by=name&substr=graphviz-gui-devel).
 
   ```bash
-  $ sudo port install graphviz
+  sudo port install graphviz
   ```
 
 * [Homebrew](https://brew.sh/)* [has a Graphviz port](https://formulae.brew.sh/formula/graphviz).
 
   ```bash
-  $ brew install graphviz
+  brew install graphviz
   ```
 
 We need help with OSX, if you would like to volunteer.
