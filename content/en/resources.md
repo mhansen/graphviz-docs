@@ -305,6 +305,7 @@ Users interested in general network monitoring tools can find a comparison of so
 *   [scxml2dot](https://github.com/fmorbini/scxml2dot) (2010) \- a very simple conversion function in Perl to plot a finite state machine written in State Chart XML (SCXML) using the Graphviz tools. \[Fabrizio Morbini\]
 *   [Erviz](http://slopjong.de/2011/02/26/whats-erviz/), an entity-relationship diagram generator that converts plain text files to DOT-formatted graphical files for Graphviz. \[Mitsuru Kono\]
 *   [Symfony application-map plugin](http://www.symfony-project.org/plugins/sfApplicationMapPlugin), an easy-to-use documentation tool for the symfony framework community. \[Tomasz Ducin\]
+*   [Protodot](https://github.com/seamia/protodot) visualises Protocol Buffer schemas
 
 ### Configuration Management
 
