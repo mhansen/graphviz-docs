@@ -8,7 +8,9 @@ gv_file: kennedyanc.gv.txt
 img_src: kennedyanc.png
 url: /Gallery/directed/kennedyanc.html
 ---
-"I have implemented Genealogic descendant and ancestor graphs using Graphviz in FinFamily. ... I attach ... an ancestor graph from Caroline Bouvier Kennedy... " Contributed by Kaarle Kaila.
+> I have implemented Genealogic descendant and ancestor graphs using Graphviz in FinFamily. ... I attach ... an ancestor graph from Caroline Bouvier Kennedy.
+
+Contributed by Kaarle Kaila.
 
 ```
 Blue box - man
