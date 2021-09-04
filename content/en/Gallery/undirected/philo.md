@@ -8,4 +8,6 @@ gv_file: philo.gv.txt
 img_src: philo.png
 url: /Gallery/undirected/philo.html
 ---
-"It encodes the so-called philosophers dilemma.  Neato pretty much approximates the way how humans would layout the graph." Contributed by Manfred Jeusfield.
+> It encodes the so-called philosophers dilemma.  Neato pretty much approximates the way how humans would layout the graph.
+
+Contributed by Manfred Jeusfield.
