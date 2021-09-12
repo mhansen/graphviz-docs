@@ -167,7 +167,7 @@ For example,
 $ dot -Tsvg -O ~/family.dot ~/debug.dot
 ```
 
-Generates `~/family.dot.svg` and `~/family.dot.svg` files.
+Generates `~/family.dot.svg` and `~/debug.dot.svg` files.
 
 ### `-P` {#-P}
 
