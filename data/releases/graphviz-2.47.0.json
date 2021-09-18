@@ -1,6 +1,6 @@
 {
   "version": "graphviz-2.47.0",
-  "archives": [
+  "sources": [
     {
       "format": "tar.xz",
       "url": "https://gitlab.com/graphviz/graphviz/-/package_files/8183717/download",
