@@ -65,22 +65,9 @@ You may find it useful to try one of the following third-party sites.
 ### Windows
 
 * Stable Windows install packages:
-  * 2.49.0 EXE installer for Windows 10 (64-bit):
-    [stable_windows_10_cmake_Release_x64_graphviz-install-2.49.0-win64.exe](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.0/stable_windows_10_cmake_Release_x64_graphviz-install-2.49.0-win64.exe)
-    (not all tools and libraries are included)
-  * 2.49.0 EXE installer for Windows 10 (32-bit):
-    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.49.0-win32.exe](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.0/stable_windows_10_cmake_Release_Win32_graphviz-install-2.49.0-win32.exe)
-    (not all tools and libraries are included)
-  * 2.49.0 ZIP archive for Windows 10 (32-bit):
-    [stable_windows_10_msbuild_Release_Win32_graphviz-2.49.0-win32.zip](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.0/stable_windows_10_msbuild_Release_Win32_graphviz-2.49.0-win32.zip)
-  * checksums:
-    [stable_windows_10_cmake_Release_x64_graphviz-install-2.49.0-win64.exe.sha256](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.0/stable_windows_10_cmake_Release_x64_graphviz-install-2.49.0-win64.exe.sha256)
-    |
-    [stable_windows_10_cmake_Release_Win32_graphviz-install-2.49.0-win32.exe.sha256](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.0/stable_windows_10_cmake_Release_Win32_graphviz-install-2.49.0-win32.exe.sha256)
-    |
-    [stable_windows_10_msbuild_Release_Win32_graphviz-2.49.0-win32.zip.sha256](https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.0/stable_windows_10_msbuild_Release_Win32_graphviz-2.49.0-win32.zip.sha256)
-  * Further 2.49.0 variants available on
-    [Gitlab](https://gitlab.com/graphviz/graphviz/-/packages/2791409)
+
+  {{< windows >}}
+
   * [Prior to 2.46 series](https://www2.graphviz.org/Packages/stable/windows)
 * Development Windows install packages
   * [2.46.0 and newer](https://gitlab.com/graphviz/graphviz/-/packages)

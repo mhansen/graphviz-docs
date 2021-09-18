@@ -1,0 +1,16 @@
+<ul>
+{{ range $source := sort $.Site.Data.windows "version" "desc" }}
+  <li>
+    {{- .version }}
+    <ul>
+      {{ range .archives }}
+      <li>
+        <a href="{{.url}}">{{$source.version}} ({{.bits}}-bit) {{.format}}</a>
+        {{- if .sha256 }} [<a href="{{.sha256}}">sha256</a>]{{- end -}}
+      </li>
+      {{ end }}
+      <li>Further {{$source.version}} variants available on <a href="{{ $source.packages }}">GitLab</a></li>
+    </ul>
+  </li>
+{{ end }}
+</ul>
