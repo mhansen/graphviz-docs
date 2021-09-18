@@ -1,6 +1,6 @@
 {
   "version": "graphviz-2.47.3",
-  "archives": [
+  "sources": [
     {
       "format": "gz",
       "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.47.3/graphviz-2.47.3.tar.gz",

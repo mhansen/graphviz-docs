@@ -1,9 +1,9 @@
 <ul>
-{{ range $source := sort $.Site.Data.sources "version" "desc" }}
+{{ range $source := sort $.Site.Data.releases "version" "desc" }}
   <li>
     {{- .version }}
     <ul>
-      {{ range .archives }}
+      {{ range .sources }}
       <li>
         <a href="{{.url}}">{{$source.version}}.{{.format}}</a>
         {{- if .md5 -}}
