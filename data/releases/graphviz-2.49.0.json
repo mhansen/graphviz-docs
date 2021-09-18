@@ -17,7 +17,7 @@
   "windows": [
     {
       "format": "EXE installer",
-      "bits": 64,
+      "bits": 32,
       "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.0/stable_windows_10_cmake_Release_Win32_graphviz-install-2.49.0-win32.exe",
       "sha256": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.0/stable_windows_10_cmake_Release_Win32_graphviz-install-2.49.0-win32.exe.sha256"
     },
