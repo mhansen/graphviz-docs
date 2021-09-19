@@ -8,6 +8,7 @@
       <li>
         <a href="{{.url}}">{{$source.version}} ({{.bits}}-bit) {{.format}}</a>
         {{- if .sha256 }} [<a href="{{.sha256}}">sha256</a>]{{- end -}}
+        {{- if in .format "ZIP" }} (contains all tools and libraries){{- end -}}
       </li>
       {{ end }}
       {{ if $source.packages }}
