@@ -125,7 +125,7 @@ github_branch= "main"
 algolia_docsearch = false
 
 # Enable Lunr.js offline search
-offlineSearch = false
+offlineSearch = true
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
 # Default "Chroma" syntax highlighter has no dot support, so use Prism instead
