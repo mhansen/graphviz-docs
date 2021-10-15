@@ -37,8 +37,8 @@ pages:
     - apk add --update brotli
     - hugo
     # https://docs.gitlab.com/ee/user/project/pages/introduction.html#serving-compressed-assets
-    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
-    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli -f -k {} \;
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|json\)$' -exec gzip -f -k {} \;
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|json\)$' -exec brotli -f -k {} \;
   artifacts:
     paths:
       - public
