@@ -33,6 +33,8 @@ pages:
     entrypoint: [""]
   stage: deploy
   script:
+    # https://github.com/klakegg/docker-hugo/issues/41#issuecomment-805607666
+    - apk add --update brotli
     - hugo
     # https://docs.gitlab.com/ee/user/project/pages/introduction.html#serving-compressed-assets
     - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
