@@ -16,7 +16,7 @@ Courier.
 
 How font names are resolved also depends on the underlying library that
 handles font name resolution. If Graphviz was built using the [fontconfig
-library](http://pdx.freedesktop.org/~fontconfig/fontconfig-user.html), the
+library](https://www.freedesktop.org/wiki/Software/fontconfig/), the
 latter library will be used to search for the font. See the commands
 `fc-list`, `fc-match` and the other fontconfig commands for how names are
 resolved and which fonts are available. Other systems may provide their own
