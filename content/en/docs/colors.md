@@ -12,6 +12,8 @@ with X11 being the default.
 
 Color names are case-insensitive.
 
+In addtition to color names defined by schemes you can also use [custom colors](/docs/attr-types/color/).
+
 The Brewer color schemes below are covered by this [license](#brewer_license).
 
 ---
