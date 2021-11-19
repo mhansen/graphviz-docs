@@ -147,6 +147,9 @@ footer_about_disable = false
 # We have almost 200 attributes; don't truncate the sidebar to max 50 contents.
 sidebar_menu_truncate = 1000
 
+# Sidebar generation is slow otherwise
+sidebar_cache_limit = 100
+
 ul_show = 2
 
 # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
