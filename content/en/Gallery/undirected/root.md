@@ -12,4 +12,4 @@ Undirected graphs of moderate to very large size can be drawn using `sfdp`, a sc
 force directed algorithm. This graph, from the graphviz `rtest/graph` directory, has 1054 nodes, 
 and takes a few seconds using `sfdp`. Overlap of nodes are removed with `-Goverlap=prism` option.
 More example of large graph layout can be found 
-<a href="http://www2.research.att.com/~yifanhu/GALLERY/GRAPHS/index.html"> here</a>.
+<a href="http://www.yifanhu.net/GALLERY/GRAPHS/"> here</a>.
