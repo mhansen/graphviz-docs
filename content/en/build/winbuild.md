@@ -217,7 +217,7 @@ made a static build of the libraries on MinGW.
     make install
     ```
 
-here is the command line I used to build "simple.c" (dot.demo/simple.c), 
+here is the command line I used to build [`simple.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/simple.c),
 after adding a few lines based on 
 https://mailman.research.att.com/pipermail/graphviz-interest/2006q2/003586.html 
 

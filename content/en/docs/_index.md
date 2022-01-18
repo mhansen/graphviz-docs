@@ -43,11 +43,11 @@ on-line pages listed above.
 
 ## Sample Programs using Graphviz
 
-* [demo.c](/dot.demo/demo.c)
-* [dot.c](/dot.demo/dot.c)
-* [example.c](/dot.demo/example.c)
-* [simple.c](/dot.demo/simple.c)
-* [Makefile](/dot.demo/Makefile)
+* [`demo.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/demo.c)
+* [`dot.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/dot.c)
+* [`example.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/example.c)
+* [`simple.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/simple.c)
+* [`Makefile`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/Makefile)
 
 ## Tool manual pages
 
