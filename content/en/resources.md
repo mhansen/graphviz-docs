@@ -79,6 +79,7 @@ Interactive viewers.
 *   [Leonhard](https://github.com/glejeune/Leonhard) (2010-2011, abandoned), a simple viewer/editor for GraphViz, developed with MacRuby. (See the [demo](https://youtu.be/nyfZVGlErTo).)
 *   [EasyGraphViz](http://wiki.cyze.jp/wiki.cgi/software?page=EasyGraphViz), a Japanese editor for Graphviz. \[Nikolaos Kavvadias\]
 *   [DotEditor](https://vincenthee.github.io/DotEditor/) (2015), GUI editor of Graphviz graphs
+*   [Edotor](https://edotor.net/) (2018-2022) Interactive web UI. [GitHub](https://github.com/nikeee/edotor.net/).
 
 ## Language Bindings {#language-bindings}
 
