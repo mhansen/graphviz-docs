@@ -571,7 +571,7 @@ digraph matrix {
 		log_mem -> PA		 [color="#51bf5b",
 			style="filled,setlinewidth(6)"];
 	}
-	bottom	 [label="© 2007-2019 Constantine Shulyupin http://www.MakeLinux.net/kernel/diagram",
+	bottom	 [label="© 2007-2019 Costa Shulyupin http://www.MakeLinux.net/kernel/diagram",
 		shape=plaintext,
 		style=""];
 	H4 -> bottom	 [weight=""];
