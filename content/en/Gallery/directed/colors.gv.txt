@@ -1,0 +1,32 @@
+digraph Colors {
+	label = "Colors\nNeato layout"
+	labelloc = "t"
+	layout = neato
+	fontname = Ubuntu
+	node [shape = circle style = filled width = 2 fontname = Ubuntu]
+	edge [len = 3]
+	white [fillcolor = white]
+	red [fillcolor = red fontcolor = white]
+	green [fillcolor = green]
+	blue [fillcolor = blue fontcolor = white]
+	white -> {red green blue} [dir = back]
+	yellow [fillcolor = yellow]
+	{red green} -> yellow
+	{green blue} -> cyan
+	cyan [fillcolor = cyan]
+	{red blue} -> magenta
+	magenta [fillcolor = magenta fontcolor = white]
+	deepskyblue [fillcolor = deepskyblue]
+	{blue cyan} -> deepskyblue
+	orange [fillcolor = orange]
+	{red yellow} -> orange
+	yellowgreen [fillcolor = yellowgreen]
+	{yellow green} -> yellowgreen
+	deeppink [fillcolor = deeppink fontcolor = white]
+	{magenta red} -> deeppink
+	purple [fillcolor = purple fontcolor = white]
+	{blue magenta} -> purple
+	{green cyan} -> springgreen
+	springgreen [fillcolor = springgreen]
+	// © 2022 Costa Shulyupin, licensed under EPL
+}

@@ -114,7 +114,7 @@
 <g id="node8" class="node">
 <title>Subsystem_2</title>
 <polygon fill="#f2f2f2" stroke="black" points="134,-136.5 134,-235.5 250,-235.5 250,-136.5 134,-136.5"/>
-<text text-anchor="start" x="142" y="-221.3" font-family="Times,serif" font-weight="bold" font-size="14.00">Subsystem 1</text>
+<text text-anchor="start" x="142" y="-221.3" font-family="Times,serif" font-weight="bold" font-size="14.00">Subsystem 2</text>
 <polyline fill="none" stroke="black" points="134,-212.5 250,-212.5 "/>
 <text text-anchor="start" x="152.5" y="-197.3" font-family="Times,serif" font-size="14.00">+ property</text>
 <text text-anchor="start" x="152.5" y="-182.3" font-family="Times,serif" font-size="14.00">...</text>
@@ -132,7 +132,7 @@
 <g id="node9" class="node">
 <title>Subsystem_3</title>
 <polygon fill="#f2f2f2" stroke="black" points="268,-136.5 268,-235.5 384,-235.5 384,-136.5 268,-136.5"/>
-<text text-anchor="start" x="276" y="-221.3" font-family="Times,serif" font-weight="bold" font-size="14.00">Subsystem 1</text>
+<text text-anchor="start" x="276" y="-221.3" font-family="Times,serif" font-weight="bold" font-size="14.00">Subsystem 3</text>
 <polyline fill="none" stroke="black" points="268,-212.5 384,-212.5 "/>
 <text text-anchor="start" x="286.5" y="-197.3" font-family="Times,serif" font-size="14.00">+ property</text>
 <text text-anchor="start" x="286.5" y="-182.3" font-family="Times,serif" font-size="14.00">...</text>

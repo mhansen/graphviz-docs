@@ -24,8 +24,8 @@ digraph UML_Class_diagram {
 	edge [dir=back arrowtail=diamond]
 	"System_1" -> Subsystem_1 [xlabel="composition"]
 	Subsystem_1[label = <{<b>Subsystem 1</b> | + property<br align="left"/>...<br align="left"/>|+ method<br align="left"/>...<br align="left"/>}>]
-	Subsystem_2[label = <{<b>Subsystem 1</b> | + property<br align="left"/>...<br align="left"/>|+ method<br align="left"/>...<br align="left"/>}>]
-	Subsystem_3[label = <{<b>Subsystem 1</b> | + property<br align="left"/>...<br align="left"/>|+ method<br align="left"/>...<br align="left"/>}>]
+	Subsystem_2[label = <{<b>Subsystem 2</b> | + property<br align="left"/>...<br align="left"/>|+ method<br align="left"/>...<br align="left"/>}>]
+	Subsystem_3[label = <{<b>Subsystem 3</b> | + property<br align="left"/>...<br align="left"/>|+ method<br align="left"/>...<br align="left"/>}>]
 	"System_1" -> Subsystem_2
 	"System_1" -> Subsystem_3
 

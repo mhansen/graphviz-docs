@@ -1,6 +1,6 @@
 ---
 title: Grid
-copyright: Copyright Constantine Shulyupin, licensed under EPL
+copyright: © 2020 Costa Shulyupin, licensed under EPL
 gv_file: grid.gv.txt
 img_src: grid.png
 svg: grid.svg
