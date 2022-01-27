@@ -8,13 +8,13 @@ cascade:
   type: output
 ---
 The output format is specified with the <code>**-T**_lang_</code>
-flag on the [command line](command.html), where _lang_
+flag on the [command line]({{< ref "/docs/command.md" >}}), where _lang_
 is one of the parameters listed above.
 
 The formats actually available in a given Graphviz system depend on
 how the system was built and the presence of additional libraries.
 To see what formats **dot** supports, run `dot -T?`.
-See the [description of the `-T`](command.html#-T)
+See the [description of the `-T`]({{< ref "/docs/command.md#-T" >}})
 flag for additional information.
 
 Note that the internal coordinate system has the origin
@@ -31,7 +31,7 @@ formats need to be interpreted in this manner.
 
 ## Image Formats
 
-The [`image`](attrs.html#a:image) and [`shapefile`](attrs.html#a:shapefile) attributes specify an image file to be included
+The [`image`]({{< ref "/docs/attrs/image.md" >}}) and [`shapefile`]({{< ref "/docs/attrs/shapefile.md" >}}) attributes specify an image file to be included
 as part of the final diagram. Not all image formats can be read. In addition,
 even if read, not all image formats can necessarily be used in a given
 output format.

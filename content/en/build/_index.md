@@ -151,7 +151,7 @@ the external packages to be installed somewhere. Then
 ## Build tools for win32
 
 See separate
-[build notes](winbuild.html) for Microsoft Windows.
+[build notes]({{< ref "winbuild.md" >}}) for Microsoft Windows.
 
 With some persistence you can likely get Graphviz to build on
 [UWIN](http://www.research.att.com/sw/tools/uwin) or

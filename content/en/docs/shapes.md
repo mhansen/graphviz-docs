@@ -83,7 +83,7 @@ digraph G {
 
 yields the figure:
 
-![](fixed.gif)
+![](/doc/info/fixed.gif)
 
 Note that the label of the yellow node, with `fixedsize=true`, overlaps
 the other node, where there is sufficient space for the gray node with
@@ -188,7 +188,7 @@ digraph structs {
 
 yields the figure:
 
-![](record.gif)
+![](/doc/info/record.gif)
 
 If we add the line:
 
@@ -198,12 +198,12 @@ If we add the line:
 
 we get the layout:
 
-![](record2.gif)
+![](/doc/info/record2.gif)
 
 If we change node `struct1` to have shape `Mrecord`,
 it then looks like:
 
-![](mrecord.gif)
+![](/doc/info/mrecord.gif)
 
 ## Styles for Nodes
 
@@ -238,7 +238,7 @@ digraph G {
 
   yields the figure:
 
-  ![](fill.gif)
+  ![](/doc/info/fill.gif)
 
 <code id="d:invisible">invisible</code>
 : Setting this style causes the node not to be displayed at all.
@@ -277,7 +277,7 @@ digraph R {
 
   to produce the figure:
 
-  ![](round.gif)
+  ![](/doc/info/round.gif)
 
 <code id="d:dashed">dashed</code>
 : This style causes the node's border to be drawn as a dashed line.
@@ -815,7 +815,7 @@ The dot input:
 
 produces the HTML analogue of the record example above:
 
-![](html1.gif)
+![](/doc/info/html1.gif)
 
 As usual, an HTML specification is more verbose.
 
@@ -827,7 +827,7 @@ On the other hand, HTML labels are much more general:
 
 produces:
 
-![](html2.gif)
+![](/doc/info/html2.gif)
 
 #### Fonts Example
 An example using [`<FONT>`](#font) elements:
@@ -836,7 +836,7 @@ An example using [`<FONT>`](#font) elements:
 
 produces:
 
-![](html3.gif)
+![](/doc/info/html3.gif)
 
 #### Images Example
 
@@ -846,7 +846,7 @@ Using an [`<IMG>`](#img) element:
 
 produces:
 
-![](html4.gif)
+![](/doc/info/html4.gif)
 
 #### Sides Example
 
@@ -873,7 +873,7 @@ digraph {
 
 produces:
 
-![](tee.gif)
+![](/doc/info/tee.gif)
 
 ## User-defined Node Shapes {#epsf}
 
@@ -897,4 +897,4 @@ COPYRIGHT AND PERMISSION NOTICE contained in the library file `sdl.ps`.
 The table below
 gives the shape names and the corresponding node shapes:
 
-![](sdlshapes.png)
+![](/doc/info/sdlshapes.png)

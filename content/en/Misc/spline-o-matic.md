@@ -2,7 +2,7 @@
 title: "Graphviz: Spline-o-Matic"
 type: docs
 ---
-<IMG SRC="splino.gif" WIDTH="183" HEIGHT="206">
+<IMG SRC="/Misc/spline-o-matic/splino.gif" WIDTH="183" HEIGHT="206">
     
 _Spline-o-matic_ is an edge router that
 draws Bezier curves in diagrams. It comes with a
@@ -99,7 +99,7 @@ _barriers);
 
 ## Distribution
 
-The source release is on our [download page](Download.html).
+The source release is on our [download page]({{< ref "/download/_index.md" >}}).
 Considerable software know-how is needed to work with it.
 The GUI is written in TCL.  The path planner is built as a static library. 
 The TCL layer includes this and other functions as a dynamic library.

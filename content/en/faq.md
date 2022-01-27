@@ -6,7 +6,7 @@ type: docs
 If you cannot find the answer to your question here, ask it in the [Graphviz forum](https://forum.graphviz.org).
 
 * Contributions
-  * [FaqPSdefs](/Documentation/html/isofonts.txt) PostScript defs for ISO-latin1 fonts (by [Enrique Vidal](mailto:evidal@iti.upv.es))
+  * [FaqPSdefs](/documentation/html/isofonts.txt) PostScript defs for ISO-latin1 fonts (by [Enrique Vidal](mailto:evidal@iti.upv.es))
 
 ---
 

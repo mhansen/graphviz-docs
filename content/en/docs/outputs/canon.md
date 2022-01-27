@@ -10,7 +10,7 @@ params:
 - xdot1.4
 ---
 These formats produce output in the
-[dot language](lang.html).
+[dot language]({{< ref "/docs/lang.md" >}}).
 Using `canon` produces a prettyprinted version of the input,
 with no layout performed.
 
