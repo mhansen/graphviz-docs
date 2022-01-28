@@ -289,8 +289,8 @@ nodes. For example:
    yournode [image="yourface.gif"];
 ```
 
-indicates the contents of the node are given in the GIF file `yourface.gif`. The [image](/doc/info/attrs.html#dimage) attribute specifies which file to use. 
-(There is also the deprecated [shapefile](/doc/info/attrs.html#dshapefile) 
+indicates the contents of the node are given in the GIF file `yourface.gif`. The [image]({{< ref "/docs/attrs/image.md" >}}) attribute specifies which file to use. 
+(There is also the deprecated [shapefile]({{< ref "/docs/attrs/shapefile.md" >}}) 
 attribute. This is similar to image but the node shape will always be a box.)
 
 *NOTE: In versions before 11 March 2006, in particular, 1.12 graphviz and earlier, it is necessary to also set the attribute `shape=custom`.*
@@ -539,7 +539,7 @@ See also, How To Avoid Foolish Consistency by Scott Berkun (Microsoft Corp.)
 
 ### How can I print a big graph on multiple pages? {#FaqMultiPage}
 
-The [page](/doc/info/attrs.html#dpage) attribute, if set, tells Graphviz to print the graph as an array of pages of the given size. Thus, the graph
+The [page]({{< ref "/docs/attrs/page.md" >}}) attribute, if set, tells Graphviz to print the graph as an array of pages of the given size. Thus, the graph
 
 ```dot
 digraph G {
@@ -551,7 +551,7 @@ digraph G {
 will be emitted as 8.5 by 11 inch pages. When printed, the pages can be tiled to make a drawing of the entire graph. At present, the feature only works with PostScript output.
 
 Alternatively, there are various tools and viewers which will take a large picture and allow you to extract page-size pieces, which can then be printed.
-See also the [viewport](/doc/info/attrs.html#dviewport) attribute.
+See also the [viewport]({{< ref "/docs/attrs/viewport.md" >}}) attribute.
 
 ### When I have a red edge it shows up as a solid red in PNG and GIF formats, but has a black border when rendered to JPEG. {#FaqJpgArtifacts}
 
@@ -638,7 +638,7 @@ The Graphviz authors have qualms about the gratuitous use of 3D.
 
 Nonetheless, `dot -Tvrml` generates VRML files. There's no Z coordinate layout - you specify Z coords yourself in the z attribute of nodes, and the Z coordinates of edges are interpolated. If someone contributes a driver for a newer, more useful format (OpenGL Performer scene graphs? Open Scene Graphs? Java3D programs?) we'd like to try it.
 
-neato internally supports layouts in higher dimensions through the [dim](/doc/info/attrs.html#ddim) and [dimen](/doc/info/attrs.html#ddimen) attributes, 
+neato internally supports layouts in higher dimensions through the [dim]({{< ref "/docs/attrs/dim.md" >}}) and [dimen]({{< ref "/docs/attrs/dimen.md" >}}) attributes, 
 e.g. `neato -Gdim=7`. Graphviz output handles 2D and 3D, but there's no way to get higher-dimensional output unless you invoke neato as a library and inspect `ND_pos(n)[i]` 
 where n is a pointer to the relevant node. 
 
@@ -646,7 +646,7 @@ where n is a pointer to the relevant node.
 
 ### How can I avoid node overlaps in neato? {#FaqOverlapNode}
 
-Use the graph attribute [overlap](/doc/info/attrs.html#doverlap).
+Use the graph attribute [overlap]({{< ref "/docs/attrs/overlap.md" >}}).
 
 ### How can I avoid node-edge overlaps in neato? {#FaqOverlapEdge}
 

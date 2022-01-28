@@ -143,7 +143,7 @@ points. The `dir` attribute determines whether the tapering goes from tail to
 head (`dir=forward`), from head to tail (`dir=forward`), from the middle to
 both the head and tail (`dir=both`), or no tapering at all (`dir=none`). If
 the `dir` is not explicitly set, the default for the graph type is used (see
-[`dir`](#a:dir)). Arrowheads and arrowtails are also drawn, based on the value
+[`dir`]({{< ref "/docs/attrs/dir.md" >}})). Arrowheads and arrowtails are also drawn, based on the value
 of `dir`; to avoid this, set `arrowhead` and/or `arrowtail` to `"none"`.
 
 **Note:** At present, the tapered style only allows a simple filled polygon.
@@ -192,7 +192,7 @@ elements in [HTML-like labels]({{< ref "../shapes.md#html" >}}).
 
 The `setlinewidth` style value can be used for more control over the width of
 node borders and edges than is allowed by `bold`. This style value takes an
-argument, specifying the width of the line in [points](#points). For example,
+argument, specifying the width of the line in [points](/doc/info/attrs.html#points). For example,
 `style="bold"` is equivalent to `style="setlinewidth(2)"`. **The use of
 `setlinewidth` is deprecated; one should use the [`penwidth`]({{< ref "../attrs/penwidth.md" >}})
 attribute instead.**
