@@ -18,11 +18,27 @@ build_site:
     GIT_SUBMODULE_STRATEGY: recursive
     HUGO_ENV: production
 
-check:
+html5validator:
   image: cyb3rjak3/html5validator
   stage: test
   script:
     - tests/html_validate_test
+
+hyperlink-check:
+  variables:
+    # No need to clone git, we just need the public/ folder.
+    GIT_STRATEGY: none
+  # The hyperlink binary is dynamically linked against libc, so we can't use
+  # Alpine (which uses musl).
+  image: debian:bullseye-20220125
+  stage: test
+  script:
+    # Manually download the binary, until a docker image is offered:
+    # https://github.com/untitaker/hyperlink/issues/113
+    - apt update && apt install -y curl
+    - curl -L -o hyperlink https://github.com/untitaker/hyperlink/releases/download/0.1.20/hyperlink-linux-x86_64
+    - chmod +x hyperlink
+    - ./hyperlink public/
 
 # 'pages' is a specially-named job that will deploy and build your site to the
 # 'public' path to GitLab Pages.

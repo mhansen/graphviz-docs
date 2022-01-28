@@ -20,17 +20,17 @@ Vertical bars `|` separate alternatives.
 
 | Shape | Image |
 | ---- | ----- |
-|`box`|<IMG SRC="a_box.gif">|
-|`crow`|<IMG SRC="a_crow.gif">|
-|`curve`|<IMG SRC="a_curve.gif">|
-|`diamond`|<IMG SRC="a_diamond.gif">|
-|`dot`|<IMG SRC="a_dot.gif">|
-|`icurve`|<IMG SRC="a_icurve.gif">|
-|`inv`|<IMG SRC="a_inv.gif">|
-|`none`|<IMG SRC="a_none.gif">|
-|`normal`|<IMG SRC="a_normal.gif">|
-|`tee`|<IMG SRC="a_tee.gif">|
-|`vee`|<IMG SRC="a_open.gif">|
+|`box`|<IMG src="/doc/info/a_box.gif">|
+|`crow`|<IMG src="/doc/info/a_crow.gif">|
+|`curve`|<IMG src="/doc/info/a_curve.gif">|
+|`diamond`|<IMG src="/doc/info/a_diamond.gif">|
+|`dot`|<IMG src="/doc/info/a_dot.gif">|
+|`icurve`|<IMG src="/doc/info/a_icurve.gif">|
+|`inv`|<IMG src="/doc/info/a_inv.gif">|
+|`none`|<IMG src="/doc/info/a_none.gif">|
+|`normal`|<IMG src="/doc/info/a_normal.gif">|
+|`tee`|<IMG src="/doc/info/a_tee.gif">|
+|`vee`|<IMG src="/doc/info/a_open.gif">|
 
 ## Shape Modifiers
 
@@ -51,7 +51,7 @@ from the edge towards the point where the arrow "touches" the node.
 As an example, the arrow shape `lteeoldiamond` is parsed as
 `'l' 'tee' 'o' 'l' 'diamond'` and corresponds to the shape:
 
-<IMG SRC="a_lteeoldiamond.gif">
+<IMG src="/doc/info/a_lteeoldiamond.gif">
 
 Note that the first arrow shape specified occurs closest to the node.
 Subsequent arrow shapes, if specified, occur further from the node.

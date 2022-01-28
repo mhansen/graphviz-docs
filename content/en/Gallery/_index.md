@@ -20,7 +20,7 @@ menu:
     pre: "<i class='fas fa-images'></i>"
 ---
 
-<a href="http://yifanhu.net/GALLERY/GRAPHS/index.html"> <img width="140" border="0" src="/Gallery/ufl.png" alt="" title="transparency" /></a>
+<a href="http://yifanhu.net/GALLERY/GRAPHS/index.html"> <img width="140" border="0" src="/gallery/ufl.png" alt="" title="transparency" /></a>
 
 Also see Yifan\'s [gallery of large
 graphs](http://yifanhu.net/GALLERY/GRAPHS/index.html), all generated

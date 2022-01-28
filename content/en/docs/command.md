@@ -21,7 +21,7 @@ $ echo 'digraph { a -> b }' | dot -Tsvg > output.svg
 
 Generates:
 
-<img src="stdin.svg">
+<img src="/doc/info/stdin.svg">
 
 ## Flags
 
@@ -37,7 +37,7 @@ $ echo 'digraph { a -> b }' | dot -Tsvg -Gfontcolor=red -Glabel="My favorite let
 
 Overrides the default `fontcolor` and `label` attributes of the graph, producing a red legend:
 
-<img src="-G.svg">
+<img src="/doc/info/-G.svg">
 
 ### `-N`_name_\[=_value_\] {#-N}
 
@@ -51,7 +51,7 @@ $ echo 'digraph { a -> b }' | dot -Tsvg -Nfontcolor=red -Nshape=rect
 
 Overrides the default node `fontcolor` and `shape` attributes, producing rectangular nodes with red text:
 
-<img src="-N.svg">
+<img src="/doc/info/-N.svg">
 
 ### `-E`_name_\[=_value_\] {#-E}
 
@@ -65,7 +65,7 @@ $ echo 'digraph { a -> b }' | dot -Tsvg -Ecolor=red -Earrowhead=diamond
 
 Overrides the default edge `color` and `arrowhead` attributes, producing red edges with a diamond arrowhead:
 
-<img src="-E.svg">
+<img src="/doc/info/-E.svg">
 
 ### `-K`_layout_ {#-K}
 
@@ -74,7 +74,7 @@ Specifies which default [layout engine]({{< ref "layouts/_index.md" >}}) to use,
 
 ### `-T`_format_\[:_renderer_\[:_formatter_\]\] {#-T}
 
-Set output language to one of the [supported formats](output.html).
+Set output language to one of the [supported formats](/doc/info/output.html).
 By default, [attributed dot](/docs/outputs/canon/) is produced.
 
 Depending on how Graphviz was built, there may be multiple renderers for
@@ -151,7 +151,7 @@ $ echo 'digraph { a -> b }' | dot -Tsvg -o output.svg
 
 Generates `output.svg`:
 
-<img src="stdin.svg">
+<img src="/doc/info/stdin.svg">
 
 By default, output goes to **stdout**.
 
