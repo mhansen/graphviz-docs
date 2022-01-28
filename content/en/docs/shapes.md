@@ -9,10 +9,13 @@ There are three main types of shapes :
 [polygon-based](#polygon),
 [record-based](#record) and
 [user-defined](#epsf).
+
+<p id="record-based-note">
 The record-based shape has largely been superseded and greatly generalized
 by [HTML-like labels](#html).
 That is, instead of using `shape=record`, one might
 consider using `shape=none`, `margin=0` and an HTML-like label.
+</p>
 
 The geometry and style of all node shapes are affected by
 the node attributes 
@@ -21,7 +24,7 @@ the node attributes
 [`fontsize`]({{< ref "/docs/attrs/fontsize.md" >}}),
 [`height`]({{< ref "/docs/attrs/height.md" >}}),
 [`label`]({{< ref "/docs/attrs/label.md" >}}),
-[`style`](#d:style) and
+[`style`]({{< ref "/docs/attrs/style.md" >}}) and
 [`width`]({{< ref "/docs/attrs/width.md" >}}).
 
 ## Polygon-based Nodes {#polygon}
@@ -116,10 +119,10 @@ were contributed by Jenny Cheng.
 
 ## Record-based Nodes {#record}
 
-**NOTE:** Please see the note about record-based nodes at the
-[top](#top) of this page. Also note that there are problems using
-non-trivial edges (edges with ports or labels) between adjacent
-nodes on the same rank if one or both nodes has a record shape.
+**NOTE:** Please see [the note about record-based nodes](#record-based-note).
+Also note that there are problems using non-trivial edges (edges with ports or
+labels) between adjacent nodes on the same rank if one or both nodes has a
+record shape.
 
 These are specified by shape values of "record" and "Mrecord".
 The structure of a record-based node is determined by 
@@ -520,7 +523,7 @@ Attribute values must appear in double quotes.
   &gt;
   </PRE>
 
-<span id="up">Superscript text</span>
+<span id="sup">Superscript text</span>
 : <PRE>
   &lt;SUP
     &lt;!-- No attributes --&gt;

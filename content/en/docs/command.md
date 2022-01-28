@@ -238,10 +238,10 @@ output, the graph will have these attributes.
 ### `GDFONTPATH`
 
 List of pathnames giving directories which a program should search for fonts.
-Overridden by [DOTFONTPATH](#d:DOTFONTPATH).
+Overridden by [DOTFONTPATH](#DOTFONTPATH).
 _Used only if Graphviz is not built with the `fontconfig` library_
 
-### `DOTFONTPATH` {#DOTFOTPATH}
+### `DOTFONTPATH` {#DOTFONTPATH}
 
 List of pathnames giving directories which a program should search for fonts.
 Overridden by [**fontpath**]({{< ref "/docs/attrs/fontpath.md" >}}).
@@ -251,7 +251,7 @@ _Used only if Graphviz is not built with the `fontconfig` library_
 
 If defined, this indicates that the software is running as a web application,
 which restricts access to image files. See 
-[GV\_FILE\_PATH](#d:GV_FILE_PATH).
+[GV\_FILE\_PATH](#GV_FILE_PATH).
 
 ### `GV_FILE_PATH` {#GV_FILE_PATH}
 If [SERVER_NAME](#d:SERVER_NAME) is defined, image files are
