@@ -1,7 +1,7 @@
 ---
 title: Linux Kernel Diagram
 svg: Linux_kernel_diagram.svg
-copyright: © 2007-2019 Costa Shulyupin, licensed under EPL
+copyright: © 2007-2022 Costa Shulyupin, licensed under EPL
 gv_file: Linux_kernel_diagram.gv.txt
 img_src: Linux_kernel_diagram.png
 url: /Gallery/directed/Linux_kernel_diagram.html
