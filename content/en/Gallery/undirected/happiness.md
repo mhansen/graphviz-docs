@@ -1,5 +1,5 @@
 ---
-title: Mind map of Happiness, twopi graph"
+title: Mind map of Happiness, twopi graph
 copyright: © 2022 Costa Shulyupin, licensed under EPL
 gv_file: happiness.gv.txt
 img_src: happiness.png
