@@ -14,7 +14,7 @@ node `fillcolor` and graph `bgcolor`.
 Note the node `fillcolor` and graph `bgcolor` both have alpha/transparency
 channels set.
 
-The Graph's background is pure red, but with some transparency, showing as pink
+The Graph's background is pure blue, but with some transparency, showing as blue tint
 against this page's white background.
 
 Nodes are greener where they overlap, and you can see some pink bleeding
