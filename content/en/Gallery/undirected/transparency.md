@@ -3,7 +3,7 @@ aliases:
   - /_pages/Gallery/undirected/transparency.html
 title: Partially Transparent Colors
 svg: transparency.svg
-copyright: Copyright © 1996 AT&T.  All rights reserved.
+copyright: © 2022 Costa Shulyupin, licensed under EPL
 gv_file: transparency.gv.txt
 img_src: transparency.png
 url: /Gallery/undirected/transparency.html
