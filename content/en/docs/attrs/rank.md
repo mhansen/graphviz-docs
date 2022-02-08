@@ -19,3 +19,5 @@ Analogous criteria hold for `rank="max"` and `rank="sink"`.
 
 (Note: the minimum rank is topmost or leftmost, and the maximum rank is
 bottommost or rightmost.)
+
+For more information check [this answer in Stack Overflow](https://stackoverflow.com/a/6155783/3416774)
