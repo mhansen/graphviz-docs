@@ -1,5 +1,5 @@
-digraph G {bgcolor=blue
-	subgraph cluster_1 { fontcolor="white"
+digraph G {
+	subgraph cluster_1 {
 
 		node [shape = circle,style=filled,fillcolor="white:black",
 			gradientangle=360 label="n9:360" fontcolor="black" ] "n9"; 
@@ -16,7 +16,7 @@ digraph G {bgcolor=blue
 	}
 
 
-	subgraph cluster_2 { fontcolor="white"
+	subgraph cluster_2 {
 
 		node [shape = circle,style=radial,fillcolor="white:black",
 			gradientangle=360 label="n18:360" fontcolor="black" ] "n18"; 
@@ -33,4 +33,3 @@ digraph G {bgcolor=blue
 	}
 n5 -> n14;
 }
-
