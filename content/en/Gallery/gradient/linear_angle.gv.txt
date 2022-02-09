@@ -1,4 +1,7 @@
 digraph G { bgcolor="purple:pink" style="filled"
+fontname="Helvetica,Arial,sans-serif"
+node [fontname="Helvetica,Arial,sans-serif"]
+edge [fontname="Helvetica,Arial,sans-serif"]
   subgraph cluster1 {fillcolor="blue:green" style="filled"
 		node [shape=circle fillcolor="gold:brown" style="radial" gradientangle=180]
 		a0 [label=<

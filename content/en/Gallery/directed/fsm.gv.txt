@@ -1,4 +1,7 @@
 digraph finite_state_machine {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
 	rankdir=LR;
 	size="8,5"
 	node [shape = doublecircle]; 0 3 4 8;

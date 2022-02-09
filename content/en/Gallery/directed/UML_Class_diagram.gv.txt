@@ -1,4 +1,7 @@
 digraph UML_Class_diagram {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
 	labelloc="t"
 	label="UML Class diagram demo"
 	graph [splines=false]

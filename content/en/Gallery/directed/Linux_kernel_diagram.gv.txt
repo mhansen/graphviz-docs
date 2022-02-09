@@ -1,4 +1,7 @@
 digraph "Linux_kernel_diagram" {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
 	graph [
 		newrank = true,
 		nodesep = 0.3,
@@ -8,7 +11,6 @@ digraph "Linux_kernel_diagram" {
 	]
 	node [
 		fixedsize = false,
-		fontname = Ubuntu
 		fontsize = 24,
 		height = 1,
 		shape = box,
@@ -167,8 +169,8 @@ digraph "Linux_kernel_diagram" {
 			fillcolor = "#91b5c9",
 			fixedsize = true,
 			fontsize = 20,
-			fontname = "Ubuntu Condensed"
-				label = synchronization,
+			fontname = "Arial Narrow"
+			label = synchronization,
 			height = 0.7,
 			//width = 2,
 			shape = octagon]

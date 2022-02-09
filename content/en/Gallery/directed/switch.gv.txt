@@ -1,4 +1,7 @@
 digraph G {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
 	graph [center=1 rankdir=LR]
 	edge [dir=none]
 	node [width=0.3 height=0.3 label=""]

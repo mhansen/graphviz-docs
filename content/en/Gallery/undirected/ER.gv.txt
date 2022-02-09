@@ -1,4 +1,7 @@
 graph ER {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
 	layout=neato
 	node [shape=box]; course; institute; student;
 	node [shape=ellipse]; {node [label="name"] name0; name1; name2;}
