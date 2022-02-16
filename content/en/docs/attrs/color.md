@@ -50,6 +50,10 @@ digraph G {
 }
 {{< /dot_card >}}
 
+yields:
+
+![](/doc/info/subgraph_node_color.svg)
+
 See also:
 
 - [`colorscheme`]({{< ref "colorscheme.md" >}})
