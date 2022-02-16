@@ -38,7 +38,7 @@ digraph G {
 
 yields:
 
-![](/doc/info/colorlist.gif)
+![](/doc/info/colorlist.svg)
 
 {{< dot_card header="Subgraph & Node Color Example" >}}
 digraph G {
