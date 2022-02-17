@@ -1,5 +1,5 @@
 digraph G {
-	graph[page="8.5,11",size="7.5,7",ratio=fill,center=1];
+	graph[page="8.5,11",ratio=fill,center=1];
 	node[style=filled,label=""];
 	subgraph ds3CTP {
 		rank = same;

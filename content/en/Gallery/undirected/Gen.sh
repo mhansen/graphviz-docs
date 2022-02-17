@@ -27,6 +27,11 @@ then
 else
 for i in *.gv.txt
 do
+    # Exclude files with custom build instruction inside.
+    # "^gvmap" means "gvmap" at start of the file.
+    # Assuming normal examples hasn't this key.
+    grep -q ^gvmap $i && continue
+
     doGraph $i
 done
 fi

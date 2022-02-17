@@ -2,6 +2,9 @@
   sfdp -Gsize=67! -Goverlap=prism -Tpng root.gv > root.png
 */
 digraph G_component_0 {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
 	layout=sfdp
 	graph [ranksep=3, root="189E", overlap=prism];
 	1 [label="02f5daf56e299b8a8ecea892", shape=hexagon, style=filled, color=green];

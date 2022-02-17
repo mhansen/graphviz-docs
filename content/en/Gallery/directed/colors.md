@@ -1,5 +1,5 @@
 ---
-title: Twelve colors neato diagram
+title: Twelve colors, neato layout
 svg: colors.svg
 copyright: © 2022 Costa Shulyupin, licensed under EPL
 gv_file: colors.gv.txt

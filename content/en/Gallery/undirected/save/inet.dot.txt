@@ -1,4 +1,7 @@
 strict graph ip_map {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
 	MH -- { ERC ALC WH1 HO1 IH1 };
 	ALC -- MV -- AN;
 	MV -- HO3 -- WH1;

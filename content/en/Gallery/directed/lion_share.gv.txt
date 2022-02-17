@@ -3,6 +3,9 @@
 ##Command to get the layout: "dot -Tpng thisfile > thisfile.png"
 
 digraph Ped_Lion_Share           {
+fontname="Helvetica,Arial,sans-serif"
+node [fontname="Helvetica,Arial,sans-serif"]
+edge [fontname="Helvetica,Arial,sans-serif"]
 # page = "8.2677165,11.692913" ;
 ratio = "auto" ;
 mincross = 2.0 ;

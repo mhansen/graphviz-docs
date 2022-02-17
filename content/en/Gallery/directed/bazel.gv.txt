@@ -1,4 +1,7 @@
 digraph mygraph {
+  fontname="Helvetica,Arial,sans-serif"
+  node [fontname="Helvetica,Arial,sans-serif"]
+  edge [fontname="Helvetica,Arial,sans-serif"]
   node [shape=box];
   "//absl/random:random"
   "//absl/random:random" -> "//absl/random:distributions"

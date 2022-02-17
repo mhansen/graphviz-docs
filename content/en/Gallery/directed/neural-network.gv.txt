@@ -1,4 +1,7 @@
 digraph G {
+  fontname="Helvetica,Arial,sans-serif"
+  node [fontname="Helvetica,Arial,sans-serif"]
+  edge [fontname="Helvetica,Arial,sans-serif"]
   concentrate=True;
   rankdir=TB;
   node [shape=record];
