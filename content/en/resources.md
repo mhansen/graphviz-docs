@@ -226,7 +226,7 @@ Interfaces that allow graphviz to be called from a general purpose language or s
 ## Generators and Translators {#generators-and-translators}
 
 Filters that transform other data sources and formats into Graphviz.
-
+*   [Graphvidian](https://github.com/ooker777/Graphvidian) (2022), Obsidian plugin to export Graphviz graphs from vault's notes \[Ooker\] 
 *   [Excel to Graphviz (1)](https://sourceforge.net/projects/excel-to-graphviz/) (2017), a tool for visualizing Excel data as graphs \[Matt Castelli\]
 *   [Excel to Graphviz (2)](https://sourceforge.net/projects/relationship-visualizer/) (2016-2021), VBA macro spreadsheet, visualising Excel data as graphs. [Blog](https://www.jeffrey-long.com/inventions/excel-to-graphviz-relationship-visualizer) \[Jeffrey Long\]
 *   [ExcelToGraphviz](https://github.com/partrickli/ExcelToGraphviz) (2018), node.js tool converting Excel sheets to graphviz \[partrickli\]
