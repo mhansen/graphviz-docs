@@ -2,7 +2,7 @@
 copyright: Copyright © 1996-2004 AT&T.  All rights reserved.
 aliases:
   - /_pages/Gallery/directed/psg.html
-title: PSG
+title: Parsing tree
 svg: psg.svg
 gv_file: psg.gv.txt
 img_src: psg.png

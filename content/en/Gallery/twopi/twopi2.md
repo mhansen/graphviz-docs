@@ -2,7 +2,7 @@
 copyright: Copyright © 1996-2004 AT&T.  All rights reserved.
 aliases:
   - /_pages/Gallery/twopi/twopi2.html
-title: Radial Layout
+title: Radial twopi layout
 svg: twopi2.svg
 gv_file: twopi2.gv.txt
 img_src: twopi2.png

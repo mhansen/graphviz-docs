@@ -3,8 +3,6 @@ digraph G  {
 	node [fontname="Helvetica,Arial,sans-serif"]
 	edge [fontname="Helvetica,Arial,sans-serif"]
 	layout=neato
-	size="7,10"
-	page="8.5,11"
 	center=""
 	node[width=.25,height=.375,fontsize=9]
 	fcfpr1_1_2t_17 -> 341411;
