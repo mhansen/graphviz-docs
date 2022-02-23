@@ -9,18 +9,18 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 406)">
 <title>G</title>
 <defs>
-<linearGradient id="l_0" gradientUnits="userSpaceOnUse" x1="-4" y1="-201" x2="220" y2="-201" >
-<stop offset="0" style="stop-color:red;stop-opacity:1.;"/>
-<stop offset="1" style="stop-color:cyan;stop-opacity:1.;"/>
+<linearGradient id="l_0" gradientUnits="userSpaceOnUse" x1="108" y1="4" x2="108" y2="-406" >
+<stop offset="0" style="stop-color:#0000ff;stop-opacity:0.266667;"/>
+<stop offset="1" style="stop-color:#ff0000;stop-opacity:0.266667;"/>
 </linearGradient>
 </defs>
 <polygon fill="url(#l_0)" stroke="transparent" points="-4,4 -4,-406 220,-406 220,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>cluster_0</title>
 <defs>
-<linearGradient id="l_1" gradientUnits="userSpaceOnUse" x1="53" y1="-67" x2="53" y2="-358" >
-<stop offset="0" style="stop-color:blue;stop-opacity:1.;"/>
-<stop offset="1" style="stop-color:yellow;stop-opacity:1.;"/>
+<linearGradient id="l_1" gradientUnits="userSpaceOnUse" x1="8" y1="-212.5" x2="98" y2="-212.5" >
+<stop offset="0" style="stop-color:darkgray;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:gold;stop-opacity:1.;"/>
 </linearGradient>
 </defs>
 <polygon fill="url(#l_1)" stroke="lightgrey" points="8,-67 8,-358 98,-358 98,-67 8,-67"/>
@@ -29,9 +29,9 @@
 <g id="clust2" class="cluster">
 <title>cluster_1</title>
 <defs>
-<linearGradient id="l_2" gradientUnits="userSpaceOnUse" x1="166.5" y1="-67" x2="166.5" y2="-358" >
-<stop offset="0" style="stop-color:blue;stop-opacity:1.;"/>
-<stop offset="1" style="stop-color:yellow;stop-opacity:1.;"/>
+<linearGradient id="l_2" gradientUnits="userSpaceOnUse" x1="125" y1="-212.5" x2="208" y2="-212.5" >
+<stop offset="0" style="stop-color:darkgray;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:gold;stop-opacity:1.;"/>
 </linearGradient>
 </defs>
 <polygon fill="url(#l_2)" stroke="blue" points="125,-67 125,-358 208,-358 208,-67 125,-67"/>
@@ -54,7 +54,7 @@
 <title>a1</title>
 <defs>
 <linearGradient id="l_4" gradientUnits="userSpaceOnUse" x1="63" y1="-255" x2="63" y2="-219" >
-<stop offset="0" style="stop-color:green;stop-opacity:1.;"/>
+<stop offset="0" style="stop-color:lightgreen;stop-opacity:1.;"/>
 <stop offset="1" style="stop-color:red;stop-opacity:1.;"/>
 </linearGradient>
 </defs>
@@ -72,8 +72,8 @@
 <title>a2</title>
 <defs>
 <linearGradient id="l_5" gradientUnits="userSpaceOnUse" x1="63" y1="-183" x2="63" y2="-147" >
-<stop offset="0" style="stop-color:red;stop-opacity:1.;"/>
-<stop offset="1" style="stop-color:cyan;stop-opacity:1.;"/>
+<stop offset="0" style="stop-color:lightskyblue;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:darkcyan;stop-opacity:1.;"/>
 </linearGradient>
 </defs>
 <ellipse fill="url(#l_5)" stroke="black" cx="63" cy="-165" rx="27" ry="18"/>
@@ -90,8 +90,8 @@
 <title>b3</title>
 <defs>
 <linearGradient id="l_6" gradientUnits="userSpaceOnUse" x1="160" y1="-111" x2="160" y2="-75" >
-<stop offset="0" style="stop-color:red;stop-opacity:1.;"/>
-<stop offset="1" style="stop-color:blue;stop-opacity:1.;"/>
+<stop offset="0" style="stop-color:mediumpurple;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:purple;stop-opacity:1.;"/>
 </linearGradient>
 </defs>
 <ellipse fill="url(#l_6)" stroke="black" cx="160" cy="-93" rx="27" ry="18"/>
@@ -109,7 +109,7 @@
 <defs>
 <linearGradient id="l_7" gradientUnits="userSpaceOnUse" x1="63" y1="-111" x2="63" y2="-75" >
 <stop offset="0" style="stop-color:cyan;stop-opacity:1.;"/>
-<stop offset="1" style="stop-color:blue;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:#8470ff;stop-opacity:1.;"/>
 </linearGradient>
 </defs>
 <ellipse fill="url(#l_7)" stroke="black" cx="63" cy="-93" rx="27" ry="18"/>
@@ -132,8 +132,8 @@
 <title>end</title>
 <defs>
 <radialGradient id="r_0" cx="50%" cy="50%" r="75%" fx="49%" fy="0%">
-<stop offset="0" style="stop-color:orange;stop-opacity:1.;"/>
-<stop offset="1" style="stop-color:blue;stop-opacity:1.;"/>
+<stop offset="0" style="stop-color:lightyellow;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:orange;stop-opacity:1.;"/>
 </radialGradient>
 </defs>
 <polygon fill="url(#r_0)" stroke="black" points="130.5,-39 91.5,-39 91.5,0 130.5,0 130.5,-39"/>
@@ -166,8 +166,8 @@
 <title>b1</title>
 <defs>
 <linearGradient id="l_9" gradientUnits="userSpaceOnUse" x1="166" y1="-255" x2="166" y2="-219" >
-<stop offset="0" style="stop-color:magenta;stop-opacity:1.;"/>
-<stop offset="1" style="stop-color:cyan;stop-opacity:1.;"/>
+<stop offset="0" style="stop-color:violet;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:darkcyan;stop-opacity:1.;"/>
 </linearGradient>
 </defs>
 <ellipse fill="url(#l_9)" stroke="black" cx="166" cy="-237" rx="27" ry="18"/>
@@ -184,7 +184,7 @@
 <title>b2</title>
 <defs>
 <linearGradient id="l_10" gradientUnits="userSpaceOnUse" x1="173" y1="-183" x2="173" y2="-147" >
-<stop offset="0" style="stop-color:cyan;stop-opacity:1.;"/>
+<stop offset="0" style="stop-color:peachpuff;stop-opacity:1.;"/>
 <stop offset="1" style="stop-color:red;stop-opacity:1.;"/>
 </linearGradient>
 </defs>
@@ -220,8 +220,8 @@
 <title>start</title>
 <defs>
 <radialGradient id="r_1" cx="50%" cy="50%" r="75%" fx="49%" fy="0%">
-<stop offset="0" style="stop-color:yellow;stop-opacity:1.;"/>
-<stop offset="1" style="stop-color:brown;stop-opacity:1.;"/>
+<stop offset="0" style="stop-color:pink;stop-opacity:1.;"/>
+<stop offset="1" style="stop-color:red;stop-opacity:1.;"/>
 </radialGradient>
 </defs>
 <polygon fill="url(#r_1)" stroke="black" points="111,-402 70.61,-384 111,-366 151.39,-384 111,-402"/>
