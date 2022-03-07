@@ -81,7 +81,7 @@ You may find it useful to try one of the following third-party sites.
   ```
 
 * [Windows Package Manager](https://docs.microsoft.com/en-gb/windows/package-manager/) provides
-  [Graphviz Windows packages](https://github.com/microsoft/winget-pkgs/tree/master/manifests/Graphviz/Graphviz).
+  [Graphviz Windows packages](https://winget.run/pkg/Graphviz/Graphviz).
 
   ```
   winget install graphviz
