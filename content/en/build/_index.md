@@ -17,9 +17,9 @@ download page](/download/source/).
 
 ### Notes
 
-*   GD (generic raster graphics driver for PNG, GIF, JPEG)  
+*   GD (generic raster graphics driver for PNG, GIF, JPEG)
     Graphviz contains a copy of libgd, but we hope to remove it eventually so the external library is preferred.
-*   ZLIB (raster image compression)  
+*   ZLIB (raster image compression)
     NB: Use `./configure -s` to build shared libraries. (See notes in `zlib-1.2.3/Makefile`)
 
 These libraries (either static or dynamic) and their interface header files
@@ -33,7 +33,7 @@ install some -devel packages to get the include header files. Also, some of
 these packages require other packages, so for sanity, you should use some
 automated install mechanism such as rpms or macports, or look for complete
 packages.
-                                                                                
+
 ## Abbreviated Build Instructions
 
 The recommended method for building graphviz from a downloaded
@@ -187,10 +187,10 @@ Graphviz](http://www.graphviz.org/Download_macos.php).
 Also, Ryan Schmidt maintains versions of Graphviz for macports.
 
 We recommend using macports to install the desired third-party
-libraries. Once these have been installed, 
+libraries. Once these have been installed,
 the standard build using configure and make works fine. The only caveat
-is that sometimes, an incompatible, non-GNU tool is picked up 
-rather than the needed GNU version. 
+is that sometimes, an incompatible, non-GNU tool is picked up
+rather than the needed GNU version.
 
 Compiling Smyrna for OS X, Snow Leopard (Amanda Stent)
 
