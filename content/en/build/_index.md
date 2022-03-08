@@ -18,7 +18,6 @@ download page](/download/source/).
 ### Notes
 
 *   GD (generic raster graphics driver for PNG, GIF, JPEG)
-    Graphviz contains a copy of libgd, but we hope to remove it eventually so the external library is preferred.
 *   ZLIB (raster image compression)
     NB: Use `./configure -s` to build shared libraries. (See notes in `zlib-1.2.3/Makefile`)
 
