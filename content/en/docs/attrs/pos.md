@@ -6,6 +6,9 @@ title: pos
 types:
 - point
 - splineType
+flags:
+- neato
+- fdp
 used_by: EN
 ---
 Position of node, or spline control points.
