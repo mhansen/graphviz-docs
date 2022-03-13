@@ -88,7 +88,7 @@ under `/usr`.  It works OK with other versions of Unix, but
 some adjusting of command line arguments
 to `configure` may be needed.
 For Linux you can also just pick up the source tarball
-or RPMs [here](http://www.graphviz.org/download/).
+or RPMs [here](https://graphviz.org/download/).
 
 First, if you are using sources from Git, run `./autogen.sh`
 to generate the `configure` script.  If you are using sources
