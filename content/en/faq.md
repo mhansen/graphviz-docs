@@ -278,7 +278,7 @@ One approach is to use [HTML-like labels](/doc/info/shapes.html#html) possibly c
 As alluded to in the [dot user's guide](/pdf/dotguide.pdf), if you want truly custom shape, there are several ways to incorporate this.
 At this point, they either must be in PostScript or 
 image files, or you'll need to modify the source code. A serious problem is that you can't make custom shapes that work across all the drivers and the interactive front-ends 
-such as dotty or Grappa. At least SVG has interactive renderers, and PostScript can be translated to PDF which also has some interactive features.
+such as Grappa. At least SVG has interactive renderers, and PostScript can be translated to PDF which also has some interactive features.
 
 <a name="ext_image"></a>**External image files**
 
@@ -563,6 +563,8 @@ Check that the NUMLOCK key is off. It's a known bug.
 
 ### Why does dotty report a syntax error on a legal dot file? {#FaqDottySyntaxError}
 
+_The dotty tool is deprecated, but this entry is retained to aid anyone still using it._
+
 Typically this error is reported as:
 
 ```
@@ -577,6 +579,8 @@ Probably there is a command in your shell environment (such as .alias or .profil
 When this occurs, those characters go in the pipe to the dot parser and cause this problem. An easy check is whether other users have the same problem.
 
 ### How can I get rid of the little circles on edges ("edge handles") in dotty? {#FaqNoEdgeHandles}
+
+_The dotty tool is deprecated, but this entry is retained to aid anyone still using it._
 
 Edit the file dotty.lefty and change the line that says: 'edgehandles' = 1; to 'edgehandles' = 0; it's around line 110.
 

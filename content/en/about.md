@@ -46,8 +46,6 @@ is probably frustrating to try to use it that way.)
 
 ## Viewers
 
-* **dotty** - a vintage customizable Unix/X windows viewer that has
-subsequently been ported to Microsoft Windows.
 * **tcldot** - a TCL/TK scripting language extension for Graphviz
 * [**Webdot**](https://gitlab.com/graphviz/webdot) - a tcldot scripted WWW service for graphs in HTML documents. 
   * There is also [a simplified version](/Misc/webdot.pl) written in perl.
