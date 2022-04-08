@@ -197,7 +197,7 @@ Set `bgcolor=grey` (or some other color) in the cluster.
 The easiest thing is to use a vector-based output formats such as PDF, SVG or PostScript. In addition, if Graphviz has a cairo/pango backend,
 this will generate anti-aliased output.
 
-Anoher approache is to make the layout in PostScript (option `-Tps`), then run through Ghostview with antialiasing enabled. The important command line 
+Another approach is to make the layout in PostScript (option `-Tps`), then run through Ghostview with antialiasing enabled. The important command line 
 options are:
 
   *  `-dTextAlphaBits=4`
@@ -275,10 +275,10 @@ For SVG output, we just pass the raw UTF-8 (or other encoding) straight through 
 
 One approach is to use [HTML-like labels](/doc/info/shapes.html#html) possibly combined with embedded images use the `IMG` attribute.
 
-As alluded to in the [dot user's guide](/pdf/dotguide.pdf), if you want truly custome shape, there are several ways to incorporate this.
+As alluded to in the [dot user's guide](/pdf/dotguide.pdf), if you want truly custom shape, there are several ways to incorporate this.
 At this point, they either must be in PostScript or 
 image files, or you'll need to modify the source code. A serious problem is that you can't make custom shapes that work across all the drivers and the interactive front-ends 
-such as dotty or Grappa. At least SVG has interactive renderers, and PostScript can be translated to PDF which also has some interactive features.
+such as Grappa. At least SVG has interactive renderers, and PostScript can be translated to PDF which also has some interactive features.
 
 <a name="ext_image"></a>**External image files**
 
@@ -321,7 +321,7 @@ To import an external PostScript file, set the `shape` and `shapefile` attribute
 
 An EPSF shape is always clipped to its bounding box.
 
-The use of `[shape=epsf, shapefile="yourfile.ps" ]` is largely superceded by the mechanism described in the previous section, using `[image="yourfile.ps" ]`.
+The use of `[shape=epsf, shapefile="yourfile.ps" ]` is largely superseded by the mechanism described in the previous section, using `[image="yourfile.ps" ]`.
 
 <a name="ext_ps_proc"></a>**External PostScript procedures**
 
@@ -563,6 +563,8 @@ Check that the NUMLOCK key is off. It's a known bug.
 
 ### Why does dotty report a syntax error on a legal dot file? {#FaqDottySyntaxError}
 
+_The dotty tool is deprecated, but this entry is retained to aid anyone still using it._
+
 Typically this error is reported as:
 
 ```
@@ -577,6 +579,8 @@ Probably there is a command in your shell environment (such as .alias or .profil
 When this occurs, those characters go in the pipe to the dot parser and cause this problem. An easy check is whether other users have the same problem.
 
 ### How can I get rid of the little circles on edges ("edge handles") in dotty? {#FaqNoEdgeHandles}
+
+_The dotty tool is deprecated, but this entry is retained to aid anyone still using it._
 
 Edit the file dotty.lefty and change the line that says: 'edgehandles' = 1; to 'edgehandles' = 0; it's around line 110.
 
@@ -740,7 +744,7 @@ $ neato -Gmaxiter=500
 ```
 
 Note that, if you have a large graph, the generation of edges as splines is a cubic algorithm, so you would do well to avoid using `splines=true`. 
-(This commment applies to circo, fdp and twopi as well.)
+(This comment applies to circo, fdp and twopi as well.)
 
 ### Edge label placement in dot is bad, or the layout is very convoluted. {#FaqEdgeLabelPlace}
 
@@ -784,7 +788,7 @@ digraph G {
 
 When an attribute first appears, each object is visited with possible cost proportional to the number of previously declared attributes. Thus, the running 
 time for the above would be `cN*O(M)` for some constant `c`. If there is any concern about this, the graph should specify the attributes first before 
-declaring nodes or edges. In practice, this problem is neglible.
+declaring nodes or edges. In practice, this problem is negligible.
 
 ### Twopi runs forever on a certain example. {#FaqRuntimeTwopi}
 
@@ -863,7 +867,7 @@ WebDot Error:
 Response Code = 403
 ```
 
-This usually means that webdot ran succesfully, but was not able to fetch the remote graph from the URL you gave as an argument. 
+This usually means that webdot ran successfully, but was not able to fetch the remote graph from the URL you gave as an argument. 
 The reason is probably that your server is behind a firewall that blocks the webdot server, so it cannot get the graph file. 
 You can either change firewall permissions, put the graph on a different server, or install webdot locally so you don't need a remote server to fetch your graph data.
 
