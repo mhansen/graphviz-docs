@@ -1,10 +1,13 @@
 ---
 title: fdp
 ---
+
+`fdp` stands for Force Directed Placement.
+
 "spring model" layouts similar to those of [neato]({{< ref "neato.md" >}}), but
 does this by reducing forces rather than working with energy.
 
-`fdp` implements the Fruchterman-Reingold heuristic including a multigrid solver
+`fdp` implements the [Fruchterman-Reingold heuristic](https://doi.org/10.1002%2Fspe.4380211102) including a multigrid solver
 that handles larger graphs and clustered undirected graphs.
 
 <p style="text-align: center;">
