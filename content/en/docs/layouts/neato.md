@@ -4,8 +4,8 @@ weight: 2
 ---
 "spring model" layouts.
 
-`neato` is the default tool to use if the graph is not too large (about 100 nodes)
-and you don't know anything else about it.
+`neato` is a reasonable default tool to use for undirected graphs that aren't
+too large (about 100 nodes), when you don't know anything else about the graph.
 
 `neato` attempts to minimize a global energy function, which is equivalent to
 statistical multi-dimensional scaling.
