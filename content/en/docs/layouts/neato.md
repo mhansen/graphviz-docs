@@ -11,7 +11,7 @@ and you don't know anything else about it.
 statistical multi-dimensional scaling.
 
 The solution is achieved using stress majorization, though the older
-Kamada-Kawai algorithm, using steepest descent, is also available.
+[Kamada-Kawai algorithm](https://doi.org/10.1016%2F0020-0190%2889%2990102-6), using steepest descent, is also available.
 
 <p style="text-align: center;">
   <a href="/Gallery/undirected/ER.html">
