@@ -9,7 +9,4 @@ img_src: fdpclust.png
 url: /Gallery/undirected/fdpclust.html
 ---
 The `fdp` layout program supports edges between nodes and clusters
-and cluster-to-cluster.  The syntax is fairly obvious.  
-`fdp` is being actively worked on, so the probability of hitting a
-bug is higher than with `neato`. Also the quality of the layouts will
-be improving. 
+and cluster-to-cluster. To make edges with clusters as endpoints, `fdp` relies on the convention that both nodes and cluster subgraphs have identifical names with the prefix `cluster`, as shown in the example. 
