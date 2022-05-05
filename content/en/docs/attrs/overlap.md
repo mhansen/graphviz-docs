@@ -31,7 +31,7 @@ explicitly with `"overlap=voronoi"`.
 
 If `overlap="scalexy"`, x and y are separately scaled to remove overlaps.
 
-If `overlay="compress"`, the layout will be scaled down as much as
+If `overlap="compress"`, the layout will be scaled down as much as
 possible without introducing any overlaps, obviously assuming there are none
 to begin with.
 
