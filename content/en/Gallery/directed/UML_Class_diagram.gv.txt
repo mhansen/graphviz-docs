@@ -1,13 +1,17 @@
 digraph UML_Class_diagram {
-	fontname="Helvetica,Arial,sans-serif"
-	node [fontname="Helvetica,Arial,sans-serif"]
+	graph [
+		label="UML Class diagram demo"
+		labelloc="t"
+		fontname="Helvetica,Arial,sans-serif"
+		splines=false
+	]
+	node [
+		fontname="Helvetica,Arial,sans-serif"
+		shape=record
+		style=filled
+		fillcolor=gray95
+	]
 	edge [fontname="Helvetica,Arial,sans-serif"]
-	labelloc="t"
-	label="UML Class diagram demo"
-	graph [splines=false]
-
-	node [shape=record style=filled fillcolor=gray95]
-
 	edge [arrowhead=vee style=dashed]
 	Client -> Interface1 [xlabel=dependency]
 	Client -> Interface2
