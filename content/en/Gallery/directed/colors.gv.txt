@@ -3,30 +3,34 @@ digraph Twelve_colors {
 	labelloc = "b"
 	layout = neato
 	fontname = Arial
-	node [shape = circle width= 1.5 style = filled fontname = Arial]
-	edge [len = 2]
-	white [fillcolor = white]
-	red [fillcolor = red fontcolor = white]
+	node [
+		shape = circle
+		width = 1.5
+		color="#00000088"
+		style = filled
+		fontname="Helvetica,Arial,sans-serif"
+	]
+	edge [len = 2 penwidth = 1.5 arrowhead=open]
+	start = regular
+	normalize = 0
+	green -> {white yellow cyan yellowgreen springgreen} [color = green]
 	green [fillcolor = green fontcolor = white]
+	white [fillcolor = white]
 	blue [fillcolor = blue fontcolor = white]
-	white -> {red green blue} [dir = back]
+	red [fillcolor = red fontcolor = white]
+	red -> {white yellow magenta orange deeppink } [color = red]
 	yellow [fillcolor = yellow]
-	{red green} -> yellow
-	{green blue} -> cyan
+	yellow -> {orange yellowgreen} [color = yellow]
+	blue -> {white cyan magenta deepskyblue purple} [color = blue]
 	cyan [fillcolor = cyan]
-	{red blue} -> magenta
 	magenta [fillcolor = magenta fontcolor = white]
 	deepskyblue [fillcolor = deepskyblue]
-	{blue cyan} -> deepskyblue
+	cyan -> {springgreen deepskyblue} [color  = cyan]
 	orange [fillcolor = orange]
-	{red yellow} -> orange
 	yellowgreen [fillcolor = yellowgreen]
-	{yellow green} -> yellowgreen
 	deeppink [fillcolor = deeppink fontcolor = white]
-	{magenta red} -> deeppink
+	magenta -> {deeppink purple} [color = magenta]
 	purple [fillcolor = purple fontcolor = white]
-	{blue magenta} -> purple
-	{green cyan} -> springgreen
 	springgreen [fillcolor = springgreen]
 	// © 2022 Costa Shulyupin, licensed under EPL
 }
