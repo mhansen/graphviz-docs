@@ -408,7 +408,7 @@ Attribute values must appear in double quotes.
     <a href="#align">ALIGN</a>="CENTER|LEFT|RIGHT"
     <a href="#bgcolor">BGCOLOR</a>=<I>color</I>"
     <a href="#border">BORDER</a>="<I>value</I>"
-    <a href="#cellborder">CELLBORDER</a>="<I>value</I>"
+    <a href="#cellsborder">CELLSBORDER</a>="<I>value</I>"
     <a href="#cellpadding">CELLPADDING</a>="<I>value</I>"
     <a href="#cellspacing">CELLSPACING</a>="<I>value</I>"
     <a href="#color">COLOR</a>="<I>color</I>"
@@ -586,11 +586,11 @@ Attribute values must appear in double quotes.
 : specifies the width of the border around the object in points.
   A value of zero indicates no border. The default is 1.
   The maximum value is 255.
-  If set in a table, and [**_CELLBORDER_**](#cellborder) is not set,
+  If set in a table, and [**_CELLSBORDER_**](#cellsborder) is not set,
   this value is also used for all cells in the table.
   It can be overridden by a **_BORDER_** attribute in a cell.
 
-<span id="cellborder">CELLBORDER="value"</span>
+<span id="cellsborder">CELLSBORDER="value"</span>
 : specifies the width of the border for all cells in a table.
   It can be overridden by a [**_BORDER_**](#border) tag in a cell.
   The maximum value is 255.
@@ -782,7 +782,7 @@ Attribute values must appear in double quotes.
   The maximum value is 65535.
 
 There is some inheritance among the attributes. If a table specifies
-a [_**CELLPADDING**_](#cellpadding), [_**CELLBORDER**_](#cellborder) or [_**BORDER**_](#border)
+a [_**CELLPADDING**_](#cellpadding), [_**CELLSBORDER**_](#cellsborder) or [_**BORDER**_](#border)
 value, this value is used by the table's
 cells unless overridden. If a cell or table specifies a _**BGCOLOR**_,
 this will be the background color for all of its descendents.
