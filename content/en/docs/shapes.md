@@ -593,7 +593,7 @@ Attribute values must appear in double quotes.
 <span id="cellsborder">CELLSBORDER="value"</span>
 : specifies the width of the border for all cells in a table.
   It can be overridden by a [**_BORDER_**](#border) tag in a cell.
-  The maximum value is 255.
+  The maximum value is 127.
 
 <span id="cellpadding">CELLPADDING="value"</span>
 : specifies the space, in points, between a cell's border and its content.
