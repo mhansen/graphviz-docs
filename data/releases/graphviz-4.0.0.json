@@ -1,0 +1,16 @@
+{
+  "version": "graphviz-4.0.0",
+  "sources": [
+    {
+      "format": "gz",
+      "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/4.0.0/graphviz-4.0.0.tar.gz",
+      "sha256": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/4.0.0/graphviz-4.0.0.tar.gz.sha256"
+    },
+    {
+      "format": "xz",
+      "url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/4.0.0/graphviz-4.0.0.tar.xz",
+      "sha256": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/4.0.0/graphviz-4.0.0.tar.xz.sha256"
+    }
+  ],
+  "windows": []
+}
