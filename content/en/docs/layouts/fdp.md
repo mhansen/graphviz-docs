@@ -1,8 +1,8 @@
 ---
 title: fdp
+description: >
+  stands for Force Directed Placement.
 ---
-
-`fdp` stands for Force Directed Placement.
 
 "spring model" layouts similar to those of [neato]({{< ref "neato.md" >}}), but
 does this by reducing forces rather than working with energy.

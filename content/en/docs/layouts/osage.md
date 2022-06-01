@@ -1,7 +1,8 @@
 ---
 title: osage
+description: >
+  draws clustered graphs.
 ---
-`osage` draws clustered graphs.
 
 As input, `osage` takes any graph in the [dot format]({{< ref "/docs/lang.md" >}}).
 

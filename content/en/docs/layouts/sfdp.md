@@ -1,7 +1,8 @@
 ---
 title: sfdp
+description: >
+  stands for Scalable Force Directed Placement.
 ---
-`sfdp` stands for Scalable Force Directed Placement.
 
 `sfdp` is a fast, multilevel, force-directed algorithm that efficiently layouts large graphs, outlined in "Efficient and High Quality Force-Dircted Graph Drawing"[^1].
 

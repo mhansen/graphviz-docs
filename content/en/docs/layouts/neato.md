@@ -1,8 +1,9 @@
 ---
 title: neato
 weight: 2
+description: >
+  "spring model" layouts.
 ---
-"spring model" layouts.
 
 `neato` is a reasonable default tool to use for undirected graphs that aren't
 too large (about 100 nodes), when you don't know anything else about the graph.

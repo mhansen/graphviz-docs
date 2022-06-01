@@ -1,8 +1,10 @@
 ---
 title: circo
 weight: 4
+description:
+  circular layout.
 ---
-Circular layout, after Six and Tollis 1999[^1][^2], Kauffman and Wiese 2002[^3].
+After Six and Tollis 1999[^1][^2], Kauffman and Wiese 2002[^3].
 
 This is suitable for certain diagrams of multiple cyclic structures, such as
 certain telecommunications networks.

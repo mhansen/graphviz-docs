@@ -1,8 +1,9 @@
 ---
 title: dot
 weight: 1
+description: >
+  "hierarchical" or layered drawings of directed graphs.
 ---
-Makes "hierarchical" or layered drawings of directed graphs.
 
 `dot` is the default tool to use if edges have directionality.
 
