@@ -1,8 +1,10 @@
 ---
 title: twopi
 weight: 3
+description: >
+  radial layout.
 ---
-Radial layouts, after Graham Wills 1997[^1].
+After Graham Wills 1997[^1].
 
 Nodes are placed on concentric circles depending their distance from a given
 root node.

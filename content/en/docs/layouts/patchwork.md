@@ -1,8 +1,8 @@
 ---
 title: patchwork
+description: >
+  draws clustered graphs using a squarified treemap layout.
 ---
-
-`patchwork` draws clustered graphs using a squarified treemap layout.
 
 As input, `patchwork` takes any graph in the [dot format]({{< ref "/docs/lang.md" >}}).
 
