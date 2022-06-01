@@ -1,5 +1,6 @@
 ---
 title: sfdp
+weight: 4
 description: >
   stands for Scalable Force Directed Placement.
 ---
