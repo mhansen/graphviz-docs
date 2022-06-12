@@ -8,8 +8,8 @@ title: samehead
 types:
 - string
 used_by: E
+description: Edges with the same head and the same `samehead` value are aimed at the same point on the head
 ---
-Edges with the same head and the same `samehead` value are aimed at the same point on the head.
 
 This has no effect on loops.
 

@@ -9,8 +9,8 @@ title: minlen
 types:
 - int
 used_by: E
+description: Minimum edge length (rank difference between head and tail)
 ---
-Minimum edge length (rank difference between head and tail).
 
 See also:
 

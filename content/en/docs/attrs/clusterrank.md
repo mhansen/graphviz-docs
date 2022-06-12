@@ -8,8 +8,9 @@ title: clusterrank
 types:
 - clusterMode
 used_by: G
+description: Mode used for handling clusters
 ---
-Mode used for handling clusters. If `clusterrank=local`, a
+If `clusterrank=local`, a
 subgraph whose name begins with `cluster` is given special treatment.
 
 The subgraph is laid out separately, and then integrated as a unit into

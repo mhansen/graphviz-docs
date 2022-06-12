@@ -9,8 +9,8 @@ title: pin
 types:
 - bool
 used_by: "N"
+description: Keeps the node at the node's given input position
 ---
-Keeps the node at the node's given input position.
 
 If true and the node has a [`pos`]({{< ref "pos.md" >}}) attribute on input, `neato` or
 `fdp` prevents the node from moving from the input position. This property

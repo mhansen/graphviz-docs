@@ -7,8 +7,8 @@ title: nslimit
 types:
 - double
 used_by: G
+description: Sets number of iterations in network simplex applications
 ---
-Sets number of iterations in network simplex applications.
 
 `nslimit` is used in computing `node x coordinates`.
 

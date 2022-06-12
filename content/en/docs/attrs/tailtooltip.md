@@ -9,8 +9,8 @@ title: tailtooltip
 types:
 - escString
 used_by: E
+description: Tooltip annotation attached to the tail of an edge
 ---
-Tooltip annotation attached to the tail of an edge.
 
 Used only if the edge has a [`tailURL`]({{< ref "tailURL.md" >}}) attribute.
 

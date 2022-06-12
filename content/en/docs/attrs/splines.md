@@ -7,8 +7,8 @@ types:
 - bool
 - string
 used_by: G
+description: Controls how, and if, edges are represented
 ---
-Controls how, and if, edges are represented.
 
 If `splines=true`, edges are drawn as splines routed around nodes; if
 `splines=false`, edges are drawn as line segments. If `splines=none` or

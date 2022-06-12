@@ -8,8 +8,8 @@ title: mode
 types:
 - string
 used_by: G
+description: Technique for optimizing the layout
 ---
-Technique for optimizing the layout.
 
 * For neato, if `mode="major"`, `neato` uses stress majorization.
 * If `mode="KK"`, `neato` uses a version of the gradient descent method.

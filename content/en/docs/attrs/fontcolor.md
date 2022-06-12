@@ -7,5 +7,5 @@ title: fontcolor
 types:
 - color
 used_by: ENGC
+description: Color used for text
 ---
-Color used for text.

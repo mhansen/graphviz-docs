@@ -6,8 +6,8 @@ title: xdotversion
 types:
 - string
 used_by: G
+description: Determines the version of `xdot` used in output
 ---
-Determines the version of `xdot` used in output.
 
 Only used for `xdot` output.
 

@@ -10,8 +10,8 @@ title: URL
 types:
 - escString
 used_by: ENGC
+description: Hyperlinks incorporated into device-dependent output
 ---
-Hyperlinks incorporated into device-dependent output.
 At present, used in `ps2`, `cmap`, `i*map` and `svg` formats.
 For all these formats, URLs can be attached to nodes, edges and
 clusters. URL attributes can also be attached to the root graph in `ps2`,

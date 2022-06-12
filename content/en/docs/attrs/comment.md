@@ -7,8 +7,9 @@ title: comment
 types:
 - string
 used_by: ENG
+description: Comments are inserted into output
 ---
-Comments are inserted into output. Device-dependent
+Device-dependent.
 
 
 {{< dot_card header="Example">}}

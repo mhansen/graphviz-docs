@@ -8,8 +8,8 @@ title: height
 types:
 - double
 used_by: "N"
+description: Height of node, in inches
 ---
-Height of node, in inches.
 
 This is taken as the initial, minimum height of the node. If
 [`fixedsize`]({{< ref "fixedsize.md" >}}) is true, this will be the final height of the

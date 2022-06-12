@@ -8,6 +8,6 @@ title: remincross
 types:
 - bool
 used_by: G
+description: If true and there are multiple clusters, run crossin
 ---
-If true and there are multiple clusters, run crossing
 minimization a second time.

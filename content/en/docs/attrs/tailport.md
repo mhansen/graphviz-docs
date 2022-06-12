@@ -7,7 +7,7 @@ title: tailport
 types:
 - portPos
 used_by: E
+description: Indicates where on the tail node to attach the tail of the edge
 ---
-Indicates where on the tail node to attach the tail of the edge.
 
 See [limitation]({{< ref "_index.md#undir_note" >}}).

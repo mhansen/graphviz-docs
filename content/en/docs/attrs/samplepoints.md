@@ -10,8 +10,8 @@ title: samplepoints
 types:
 - int
 used_by: "N"
+description: Gives the number of points used for a circle/ellipse node
 ---
-Gives the number of points used for a circle/ellipse node.
 
 Used if the input graph defines the [`vertices`]({{< ref "vertices.md" >}}) attribute, and
 output is `dot` or `xdot`.

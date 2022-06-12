@@ -9,5 +9,5 @@ title: levels
 types:
 - int
 used_by: G
+description: Number of levels allowed in the multilevel scheme
 ---
-Number of levels allowed in the multilevel scheme.

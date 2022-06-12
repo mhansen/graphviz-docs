@@ -6,8 +6,8 @@ title: truecolor
 types:
 - bool
 used_by: G
+description: Whether internal bitmap rendering relies on a truecolor color model or uses
 ---
-Whether internal bitmap rendering relies on a truecolor color model or uses a
 color palette.
 
 If `truecolor` is unset, `truecolor` is not used

@@ -7,8 +7,8 @@ title: labeljust
 types:
 - string
 used_by: GC
+description: Justification for graph & cluster labels
 ---
-Justification for graph & cluster labels.
 
 * If `labeljust=r`, the label is right-justified within bounding rectangle
 * If `labeljust=l`, left-justified

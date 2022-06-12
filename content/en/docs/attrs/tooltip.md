@@ -9,8 +9,8 @@ title: tooltip
 types:
 - escString
 used_by: NECG
+description: Tooltip (mouse hover text) attached to the node, edge, cluster, or graph
 ---
-Tooltip (mouse hover text) attached to the node, edge, cluster, or graph.
 
 If `tooltip` is unset, Graphviz will use the object's [`label`]({{< ref "label.md" >}}) if defined.
 

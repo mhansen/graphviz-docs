@@ -7,8 +7,8 @@ title: imagepos
 types:
 - string
 used_by: "N"
+description: Controls how an image is positioned within its containing node
 ---
-Controls how an image is positioned within its containing node.
 
 `imagepos` only has an effect when the image is smaller than the containing node.
 

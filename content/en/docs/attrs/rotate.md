@@ -7,8 +7,8 @@ title: rotate
 types:
 - int
 used_by: G
+description: If `rotate=90`, sets drawing orientation to landscape
 ---
-If `rotate=90`, sets drawing orientation to landscape.
 
 {{< dot_card header="Rotations">}}
 digraph {

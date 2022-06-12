@@ -8,8 +8,8 @@ title: compound
 types:
 - bool
 used_by: G
+description: If true, allow edges between clusters
 ---
-If true, allow edges between clusters.
 
 See [`lhead`]({{< ref "lhead.md" >}}) and [`ltail`]({{< ref "ltail.md" >}}).
 

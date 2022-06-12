@@ -8,8 +8,8 @@ title: model
 types:
 - string
 used_by: G
+description: Specifies how the distance matrix is computed for the input graph
 ---
-Specifies how the distance matrix is computed for the input graph.
 
 The distance matrix specifies the ideal distance between every pair of nodes.
 `neato` attemps to find a layout which best achieves these distances. By

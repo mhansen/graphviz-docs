@@ -8,8 +8,8 @@ title: fontnames
 types:
 - string
 used_by: G
+description: Allows user control of how basic fontnames are represented in SVG output
 ---
-Allows user control of how basic fontnames are represented in SVG output.
 
 If `fontnames` is undefined or `svg`, the output will try to use known SVG
 fontnames.

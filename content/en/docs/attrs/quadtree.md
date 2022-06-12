@@ -9,8 +9,8 @@ types:
 - quadType
 - bool
 used_by: G
+description: Quadtree scheme to use
 ---
-Quadtree scheme to use.
 
 * `quadtree=true` aliases `quadtree=normal`
 * `quadtree=false` aliases `quadtree=none`

@@ -9,8 +9,9 @@ types:
 - double
 - bool
 used_by: G
+description: normalizes coordinates of final layout
 ---
-Normalizes coordinates of final layout so that the first point is at the
+So that the first point is at the
 origin, and then rotates the layout so that the angle of the first edge is
 specified by the value of `normalize` in degrees.
 

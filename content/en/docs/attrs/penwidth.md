@@ -8,8 +8,8 @@ title: penwidth
 types:
 - double
 used_by: CNE
+description: Specifies the width of the pen, in points, used to draw lines and curves
 ---
-Specifies the width of the pen, in points, used to draw lines and curves,
 including the boundaries of edges and clusters.
 
 `penwidth` value is inherited by subclusters, and has no effect on text.

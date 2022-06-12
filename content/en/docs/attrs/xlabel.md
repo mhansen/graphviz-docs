@@ -7,8 +7,8 @@ title: xlabel
 types:
 - lblString
 used_by: EN
+description: External label for a node or edge
 ---
-External label for a node or edge.
 
 * For nodes, the label will be placed outside of the node but near it.
 * For edges, the label will be placed near the center of the edge. This can be

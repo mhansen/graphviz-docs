@@ -8,5 +8,5 @@ title: quantum
 types:
 - double
 used_by: G
+description: If `quantum > 0.0`, node label dimensions will be rounded to integral multiples of the quantum
 ---
-If `quantum > 0.0`, node label dimensions will be rounded to integral multiples of the quantum.

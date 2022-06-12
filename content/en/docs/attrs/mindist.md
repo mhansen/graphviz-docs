@@ -9,5 +9,5 @@ title: mindist
 types:
 - double
 used_by: G
+description: Specifies the minimum separation between all nodes
 ---
-Specifies the minimum separation between all nodes.

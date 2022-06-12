@@ -7,8 +7,9 @@ title: fontname
 types:
 - string
 used_by: ENGC
+description: Font used for text
 ---
-Font used for text. This very much depends on the output format and, for
+This very much depends on the output format and, for
 non-bitmap output such as PostScript or SVG, the availability of the font
 when the graph is displayed or printed. As such, it is best to rely on font
 faces that are generally available, such as Times-Roman, Helvetica or

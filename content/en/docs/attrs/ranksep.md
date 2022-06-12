@@ -14,8 +14,8 @@ types:
 - double
 - doubleList
 used_by: G
+description: In `dot`, sets the desired rank separation, in inches
 ---
-In `dot`, sets the desired rank separation, in inches.
 
 This is the minimum vertical distance between the bottom of the nodes in one
 rank and the tops of nodes in the next. If the value contains `equally`, the

@@ -8,8 +8,8 @@ title: newrank
 types:
 - bool
 used_by: G
+description: Whether to use a single global ranking, ignoring clusters
 ---
-Whether to use a single global ranking, ignoring clusters.
 
 The original ranking algorithm in `dot` is recursive on clusters. This can
 produce fewer ranks and a more compact layout, but sometimes at the cost of a

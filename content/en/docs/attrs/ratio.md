@@ -7,8 +7,8 @@ types:
 - double
 - string
 used_by: G
+description: Sets the aspect ratio (drawing height/drawing width) for the drawing
 ---
-Sets the aspect ratio (drawing height/drawing width) for the drawing.
 
 Note that this is adjusted before the [`size`]({{< ref "size.md" >}}) attribute constraints
 are enforced.
