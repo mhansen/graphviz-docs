@@ -1,3 +1,4 @@
+{{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
 <P>
 type: <I>{{ range $i, $t := .Params.types -}}
 {{- if $i }} | {{ end -}}
