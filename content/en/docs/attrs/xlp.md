@@ -7,7 +7,7 @@ title: xlp
 types:
 - point
 used_by: NE
+description: Position of an exterior label, [in points](/doc/info/attrs.html#points)
 ---
-Position of an exterior label, [in points]({{< ref "_index.md#points" >}}).
 
 The position indicates the center of the label.

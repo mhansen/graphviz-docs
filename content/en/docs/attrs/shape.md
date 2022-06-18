@@ -7,8 +7,8 @@ title: shape
 types:
 - shape
 used_by: "N"
+description: Sets the [shape](/doc/info/shapes.html) of a node
 ---
-Sets the [shape]({{< ref "../shapes.md" >}}) of a node.
 
 {{< dot_card >}}
 digraph {

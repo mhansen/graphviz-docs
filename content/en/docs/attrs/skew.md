@@ -8,8 +8,8 @@ title: skew
 types:
 - double
 used_by: "N"
+description: Skew factor for <code>[shape](/docs/attrs/shape)=polygon</code>
 ---
-Skew factor for <code>[shape]({{< ref "shape.md" >}})=polygon</code>.
 
 Positive values skew top of polygon to right; negative to left.
 

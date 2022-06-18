@@ -9,8 +9,8 @@ title: edgehref
 types:
 - escString
 used_by: E
+description: Synonym for [`edgeURL`](/docs/attrs/edgeURL)
 ---
-Synonym for [`edgeURL`]({{< ref "edgeURL.md" >}}).
 
 See also:
 

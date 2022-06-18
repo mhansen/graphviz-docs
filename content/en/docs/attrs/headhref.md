@@ -9,8 +9,8 @@ title: headhref
 types:
 - escString
 used_by: E
+description: Synonym for [`headURL`](/docs/attrs/headURL)
 ---
-Synonym for [`headURL`]({{< ref "headURL.md" >}}).
 
 See also:
 
