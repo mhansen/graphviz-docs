@@ -18,6 +18,7 @@ Graph drawing can be considered one of the tool sets used in analyzing data. Any
 ## Noteworthy
 
 *   [Sketchviz](https://sketchviz.com/new) generates layouts in a hand-made style.
+*   [Gephi](https://gephi.org/), desktop doftware for interactive Exploratory Data Analysis. (2010 - 2022)
 *   Javascript / Wasm version of Graphviz via Emscripten [@hpcc-js/wasm](https://www.npmjs.com/package/@hpcc-js/wasm) \[HPCC Systems\] - [github](https://github.com/hpcc-systems/hpcc-js-wasm/)
 *   [viz.js](https://github.com/mdaines/viz.js/) (2013-2018, now archived) \- Javascript version of Graphviz via Emscripten \[Mike Daines\]
 *   [Graphviz pocket reference](https://graphs.grevian.org) (2012-2020) \[Josh Hayes-Sheen\]
