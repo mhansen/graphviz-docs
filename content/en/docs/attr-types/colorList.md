@@ -25,11 +25,13 @@ The following table shows some variations of the `yellow:blue` color list
 depending on the [`style`]({{< ref "../attrs/style.md" >}}) and [`gradientangle`]({{< ref "../attrs/gradientangle.md" >}})
 attributes.
 
+See [Gallery/gradient](/Gallery/gradient/) for real-world examples of using gradients.
+
 <TABLE>
   <TR>
     <TH>Gradient angle</TH>
     <TH><code>style=filled</code></TH>
-    <TH><code>style=filled<br>fillcolor=yellow;0.3:blue</code></TH>
+    <TH><code>style=filled fillcolor="yellow;0.3:blue"</code></TH>
     <TH><code>style=radial</code></TH>
   </TR>
   <TR>
