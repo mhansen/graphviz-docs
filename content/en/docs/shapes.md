@@ -11,6 +11,7 @@ There are three main types of shapes :
 [user-defined](#epsf).
 
 <p id="record-based-note">
+
 The record-based shape has largely been superseded and greatly generalized
 by [HTML-like labels](#html).
 That is, instead of using `shape=record`, one might
