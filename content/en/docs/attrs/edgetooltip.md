@@ -9,8 +9,8 @@ title: edgetooltip
 types:
 - escString
 used_by: E
+description: Tooltip annotation attached to the non-label part of an edge
 ---
-Tooltip annotation attached to the non-label part of an edge.
 
 - [`headtooltip`]({{< ref "headtooltip.md" >}}).
 - [`labeltooltip`]({{< ref "labeltooltip.md" >}}).

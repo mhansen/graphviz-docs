@@ -9,8 +9,8 @@ types:
 - addDouble
 - addPoint
 used_by: G
+description: Margin to leave around nodes when removing node overlap
 ---
-Margin to leave around nodes when removing node overlap.
 
 This guarantees a minimal non-zero distance between nodes.
 

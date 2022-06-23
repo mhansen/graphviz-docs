@@ -10,8 +10,8 @@ title: label
 types:
 - lblString
 used_by: ENGC
+description: Text label attached to objects
 ---
-Text label attached to objects.
 
 If a node's [`shape`]({{< ref "shape.md" >}}) is record, then the label can
 have a [special format]({{< ref "../shapes.md#record" >}})

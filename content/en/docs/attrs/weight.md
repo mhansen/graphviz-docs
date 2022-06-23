@@ -10,8 +10,8 @@ types:
 - int
 - double
 used_by: E
+description: Weight of edge
 ---
-Weight of edge.
 
 
 In `dot`, the heavier the weight, the shorter, straighter and more vertical the edge is.

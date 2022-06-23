@@ -7,8 +7,8 @@ title: gradientangle
 types:
 - int
 used_by: NCG
+description: If a gradient fill is being used, this determines the angle of the fill
 ---
-If a gradient fill is being used, this determines the angle of the fill.
 
 For linear fills, the colors transform along a line specified by the angle
 and the center of the object. For radial fills, a value of zero causes the

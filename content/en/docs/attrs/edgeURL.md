@@ -9,8 +9,8 @@ title: edgeURL
 types:
 - escString
 used_by: E
+description: The link for the non-label parts of an edge
 ---
-The link for the non-label parts of an edge.
 
 `edgeURL` overrides any [`URL`]({{< ref "URL.md" >}}) defined for the edge.
 

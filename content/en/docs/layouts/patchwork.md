@@ -1,5 +1,6 @@
 ---
 title: patchwork
+type: gv-layout
 description: >
   draws clustered graphs using a squarified treemap layout.
 ---

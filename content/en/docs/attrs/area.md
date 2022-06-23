@@ -9,8 +9,8 @@ title: area
 types:
 - double
 used_by: NC
+description: Indicates the preferred area for a node or empty cluster when laid out by [patchwork](/docs/layouts/patchwork/)
 ---
-Indicates the preferred area for a node or empty cluster when laid out by [patchwork](/docs/layouts/patchwork/).
 
 {{< dot_card header="Example: Australian Coins, area proportional to value">}}
 graph {

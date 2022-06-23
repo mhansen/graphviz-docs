@@ -7,5 +7,5 @@ title: lheight
 types:
 - double
 used_by: GC
+description: Height of graph or cluster label, in inches
 ---
-Height of graph or cluster label, in inches.

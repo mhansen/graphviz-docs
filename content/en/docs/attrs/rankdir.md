@@ -8,8 +8,8 @@ title: rankdir
 types:
 - rankdir
 used_by: G
+description: Sets direction of graph layout
 ---
-Sets direction of graph layout.
 
 For example, if `rankdir="LR"`, and barring cycles, an edge `T -> H;` will go
 from left to right. By default, graphs are laid out from top to bottom.

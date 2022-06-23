@@ -8,8 +8,8 @@ title: class
 types:
 - string
 used_by: ENCG
+description: Classnames to attach to the node, edge, graph, or cluster's SVG element
 ---
-Classnames to attach to the node, edge, graph, or cluster's SVG element.
 Combine with [`stylesheet`]({{< ref "stylesheet.md" >}}) for styling SVG output
 using CSS classnames.
 

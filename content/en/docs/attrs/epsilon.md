@@ -13,6 +13,7 @@ title: epsilon
 types:
 - double
 used_by: G
+description: Terminating condition
 ---
-Terminating condition. If the length squared of all energy gradients are
+If the length squared of all energy gradients are
 less than `epsilon`, the algorithm stops.

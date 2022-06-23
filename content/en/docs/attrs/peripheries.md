@@ -11,8 +11,8 @@ title: peripheries
 types:
 - int
 used_by: NC
+description: Set number of peripheries used in polygonal shapes and cluster boundaries
 ---
-Set number of peripheries used in polygonal shapes and cluster boundaries.
 
 Note that [user-defined shapes]({{< ref "../shapes.md#epsf" >}}) are treated as a form of
 box shape, so the default peripheries value is 1 and the user-defined shape

@@ -11,8 +11,8 @@ title: dimen
 types:
 - int
 used_by: G
+description: Set the number of dimensions used for rendering
 ---
-Set the number of dimensions used for rendering. 
 
 The maximum value allowed is `10`.
 

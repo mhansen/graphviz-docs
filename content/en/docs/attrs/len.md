@@ -12,8 +12,8 @@ title: len
 types:
 - double
 used_by: E
+description: Preferred edge length, in inches
 ---
-Preferred edge length, in inches.
 
 See also:
 

@@ -9,8 +9,8 @@ types:
 - string
 - bool
 used_by: G
+description: Determines if and how node overlaps should be removed
 ---
-Determines if and how node overlaps should be removed.
 
 Nodes are first
 enlarged using the [`sep`]({{< ref "sep.md" >}}) attribute. If `true` , overlaps are

@@ -6,8 +6,8 @@ title: rank
 types:
 - rankType
 used_by: S
+description: Rank constraints on the nodes in a subgraph
 ---
-Rank constraints on the nodes in a subgraph.
 
 * If `rank="same"`, all nodes are placed on the same rank.
 * If `rank="min"`, all nodes are placed on the minimum rank.

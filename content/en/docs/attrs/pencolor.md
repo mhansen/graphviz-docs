@@ -7,8 +7,8 @@ title: pencolor
 types:
 - color
 used_by: C
+description: Color used to draw the bounding box around a cluster
 ---
-Color used to draw the bounding box around a cluster.
 
  If `pencolor` is not defined, [`color`]({{< ref "color.md" >}}) is used.
  

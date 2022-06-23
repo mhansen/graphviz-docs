@@ -7,8 +7,8 @@ types:
 - double
 - point
 used_by: G
+description: Maximum width and height of drawing, in inches
 ---
-Maximum width and height of drawing, in inches.
 
 If only a single number is given, this is used for both the width
 and the height.

@@ -9,8 +9,8 @@ title: headURL
 types:
 - escString
 used_by: E
+description: If defined, `headURL` is output as part of the head label of the edge
 ---
-If defined, `headURL` is output as part of the head label of the edge.
 
 Also, this value is used near the head node, overriding any [`URL`]({{< ref "URL.md" >}}) value.
 

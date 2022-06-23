@@ -8,8 +8,8 @@ types:
 - double
 - point
 used_by: NCG
+description: For graphs, this sets x and y margins of canvas, in inches
 ---
-For graphs, this sets x and y margins of canvas, in inches.
 
 If the margin is a single double, both margins are set equal to the given
 value.

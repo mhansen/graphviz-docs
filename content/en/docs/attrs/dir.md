@@ -10,8 +10,8 @@ title: dir
 types:
 - dirType
 used_by: E
+description: Edge type for drawing arrowheads
 ---
-Edge type for drawing arrowheads.
 
 Indicates which ends of the edge should be decorated with an arrowhead.
 

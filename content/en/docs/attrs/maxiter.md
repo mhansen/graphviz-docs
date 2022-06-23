@@ -16,5 +16,5 @@ title: maxiter
 types:
 - int
 used_by: G
+description: Sets the number of iterations used
 ---
-Sets the number of iterations used.

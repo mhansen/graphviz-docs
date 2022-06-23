@@ -10,8 +10,8 @@ title: dpi
 types:
 - double
 used_by: G
+description: Specifies the expected number of pixels per inch on a display device
 ---
-Specifies the expected number of pixels per inch on a display device.
 
 For `bitmap` output, `dpi` guarantees that text rendering will be done more
 accurately, both in size and in placement.

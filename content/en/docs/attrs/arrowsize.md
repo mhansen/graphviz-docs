@@ -8,8 +8,8 @@ title: arrowsize
 types:
 - double
 used_by: E
+description: Multiplicative scale factor for arrowheads
 ---
-Multiplicative scale factor for arrowheads.
 
 {{< dot_card header="Example">}}
 digraph {

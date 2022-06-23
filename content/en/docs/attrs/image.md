@@ -7,8 +7,8 @@ title: image
 types:
 - string
 used_by: "N"
+description: Gives the name of a file containing an image to be displayed inside a node
 ---
-Gives the name of a file containing an image to be displayed inside a node.
 The image file must be in one of the recognized
 [formats]({{< ref "../outputs/_index.md#image-formats" >}}), typically JPEG, PNG, GIF, BMP, SVG, or
 Postscript, and be able to be converted into the desired output format.

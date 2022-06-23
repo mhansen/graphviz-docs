@@ -8,8 +8,8 @@ title: ordering
 types:
 - string
 used_by: GN
+description: If `ordering="out"`, then the outedges of a node, that is, edges with the
 ---
-If `ordering="out"`, then the outedges of a node, that is, edges with the
 node as its tail node, must appear left-to-right in the same order in which
 they are defined in the input.
 

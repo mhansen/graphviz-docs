@@ -8,8 +8,9 @@ types:
 - color
 - colorList
 used_by: ENC
+description: Basic drawing color for graphics, not text
 ---
-Basic drawing color for graphics, not text. For the latter, use the
+For the latter, use the
 [`fontcolor`]({{< ref "fontcolor.md" >}}) attribute.
 
 For edges, the value can either be a single color or a

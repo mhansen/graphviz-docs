@@ -8,8 +8,8 @@ title: width
 types:
 - double
 used_by: "N"
+description: Width of node, in inches
 ---
-Width of node, in inches.
 
 This is taken as the initial, minimum width of the node. If
 [`fixedsize`]({{< ref "fixedsize.md" >}}) is true, this will be the final width of the

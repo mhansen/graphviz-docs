@@ -7,8 +7,8 @@ types:
 - double
 - point
 used_by: G
+description: Width and height of output pages, in inches
 ---
-Width and height of output pages, in inches.
 
 If only a single value is given, this is used for both the width and height.
 

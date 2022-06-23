@@ -7,8 +7,8 @@ title: arrowtail
 types:
 - arrowType
 used_by: E
+description: Style of arrowhead on the tail node of an edge
 ---
-Style of arrowhead on the tail node of an edge.
 This will only appear if the [`dir` attribute]({{< ref "dir.md" >}})
 is `back` or `both`.
 

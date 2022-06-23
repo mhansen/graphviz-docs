@@ -7,8 +7,8 @@ title: style
 types:
 - style
 used_by: ENCG
+description: Set style information for components of the graph
 ---
-Set style information for components of the graph.
 
 For cluster subgraphs, if `style="filled"`, the cluster box's background is
 filled.

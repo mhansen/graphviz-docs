@@ -8,9 +8,9 @@ title: constraint
 types:
 - bool
 used_by: E
+description: If false, the edge is not used in ranking the nodes
 ---
-If false, the edge is not used in ranking the nodes. For example,
-in the graph:
+For example in the graph:
 
 {{< dot_card >}}
 digraph G {

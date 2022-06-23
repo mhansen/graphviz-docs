@@ -8,8 +8,8 @@ title: sametail
 types:
 - string
 used_by: E
+description: Edges with the same tail and the same `sametail` value are aimed at th
 ---
-Edges with the same tail and the same `sametail` value are aimed at the
 same point on the tail.
 
 This has no effect on loops.

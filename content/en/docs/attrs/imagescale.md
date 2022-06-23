@@ -8,8 +8,8 @@ types:
 - bool
 - string
 used_by: "N"
+description: Controls how an image fills its containing node
 ---
-Controls how an image fills its containing node.
 
 In general, the image is given its natural size,
 (cf. [`dpi`]({{< ref "dpi.md" >}})),

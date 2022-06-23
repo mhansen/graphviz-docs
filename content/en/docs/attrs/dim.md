@@ -11,7 +11,7 @@ title: dim
 types:
 - int
 used_by: G
+description: Set the number of dimensions used for the layout
 ---
-Set the number of dimensions used for the layout.
 
 The maximum value allowed is `10`.

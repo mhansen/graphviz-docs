@@ -11,9 +11,9 @@ types:
 - color
 - colorList
 used_by: NEC
+description: Color used to fill the background of a node or cluster
 ---
-Color used to fill the background of a node or cluster
-assuming <code>[style]({{< ref "style.md" >}})=filled</code>, or a filled [`arrowhead`]({{< ref "arrowhead.md" >}}).
+Assuming <code>[style]({{< ref "style.md" >}})=filled</code>, or a filled [`arrowhead`]({{< ref "arrowhead.md" >}}).
 
 If `fillcolor` is not defined, [`color`]({{< ref "color.md" >}}) is
 used. (For clusters, if `color` is not defined,

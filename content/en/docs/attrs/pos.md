@@ -10,8 +10,8 @@ flags:
 - neato
 - fdp
 used_by: EN
+description: Position of node, or spline control points
 ---
-Position of node, or spline control points.
 
 For nodes, the position indicates the center of the node. On output, the
 coordinates are in [points]({{< ref "_index.md#points" >}}).

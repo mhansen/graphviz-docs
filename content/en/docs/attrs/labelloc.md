@@ -12,8 +12,8 @@ title: labelloc
 types:
 - string
 used_by: NGC
+description: Vertical placement of labels for nodes, root graphs and clusters
 ---
-Vertical placement of labels for nodes, root graphs and clusters.
 
 For graphs and clusters, only `labelloc=t` and `labelloc=b` are allowed, corresponding
 to placement at the top and bottom, respectively.
