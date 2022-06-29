@@ -8,8 +8,8 @@ title: sides
 types:
 - int
 used_by: "N"
+description: Number of sides when <code>[shape](/docs/attrs/shape)=polygon</code>
 ---
-Number of sides when <code>[shape]({{< ref "shape.md" >}})=polygon</code>.
 
 {{< dot_card header="Example: Polygons with 3-6 sides">}}
 graph {

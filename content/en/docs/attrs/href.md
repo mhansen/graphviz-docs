@@ -10,8 +10,8 @@ title: href
 types:
 - escString
 used_by: GCNE
+description: Synonym for [`URL`](/docs/attrs/URL)
 ---
-Synonym for [`URL`]({{< ref "URL.md" >}}).
 
 See also:
 

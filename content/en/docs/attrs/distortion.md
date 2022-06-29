@@ -8,8 +8,8 @@ title: distortion
 types:
 - double
 used_by: "N"
+description: Distortion factor for <code>[shape](/docs/attrs/shape)=polygon</code>
 ---
-Distortion factor for <code>[shape]({{< ref "shape.md" >}})=polygon</code>.
 
 Positive values cause top part to be larger than bottom; negative values do
 the opposite.

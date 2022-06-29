@@ -7,8 +7,8 @@ title: _background
 types:
 - string
 used_by: G
+description: A string in the [`xdot` format](/docs/outputs/canon/) specifying an arbitrary background
 ---
-A string in the [`xdot` format](/docs/outputs/canon/) specifying an arbitrary background.  
 During rendering, the canvas is first filled as described in the
 [`bgcolor` attribute]({{< ref "bgcolor.md" >}}).
 
