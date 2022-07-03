@@ -17,7 +17,6 @@ digraph git_basics {
 	]
 	edge [
 		arrowsize=0.5
-		fontname="Consolas,monaco,monospace"
 		fontname="Helvetica,Arial,sans-serif"
 		labeldistance=3
 		labelfontcolor="#00000080"
@@ -57,7 +56,6 @@ digraph git_basics {
 	]
 	stash_push [
 		label="git stash [push]"
-		fontname="Courier New"
 		style=""
 		shape=plain
 		color="#00008844"
@@ -75,7 +73,7 @@ digraph git_basics {
 	HEAD [
 		fillcolor="#88ff0022"
 		label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="3">
-			<tr> <td port="push" sides="ltr"> <b>HEAD</b> of</td> </tr>
+			<tr> <td port="push" sides="ltr"> <b>HEAD </b>of</td> </tr>
 			<tr> <td port="pull" sides="lbr"> the current branch</td> </tr>
 			<tr> <td port="switch" align="left">
 				<i>To view:</i>
