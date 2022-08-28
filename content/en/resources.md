@@ -81,6 +81,7 @@ Interactive viewers.
 *   [EasyGraphViz](http://wiki.cyze.jp/wiki.cgi/software?page=EasyGraphViz), a Japanese editor for Graphviz. \[Nikolaos Kavvadias\]
 *   [DotEditor](https://vincenthee.github.io/DotEditor/) (2015), GUI editor of Graphviz graphs
 *   [Edotor](https://edotor.net/) (2018-2022) Interactive web UI. [GitHub](https://github.com/nikeee/edotor.net/).
+*   [Jupyter-dot-kernel](https://github.com/laixintao/jupyter-dot-kernel) (2018) Graphviz Jupyter support.
 
 ## Language Bindings {#language-bindings}
 
