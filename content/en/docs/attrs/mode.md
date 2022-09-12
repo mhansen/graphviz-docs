@@ -26,7 +26,7 @@ There are two experimental modes in `neato`:
 
 * `mode="hier"`, which adds a top-down directionality similar to the layout used in `dot`, and
 * `mode="ipsep"`, which allows the graph to specify minimum vertical and horizontal distances between nodes.
-(See the [sep]({{< ref "sep.md" >}}) attribute.)
+(See the [`sep`]({{< ref "sep.md" >}}) attribute.)
 
 For `sfdp`, the default is `mode="spring"`, which corresponds to using a
 spring-electrical model. Setting `mode="maxent"` causes a similar model
