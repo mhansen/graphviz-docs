@@ -28,7 +28,7 @@ There are two experimental modes in `neato`:
 * `mode="ipsep"`, which allows the graph to specify minimum vertical and horizontal distances between nodes.
 (See the [`sep`]({{< ref "sep.md" >}}) attribute.)
 
-For `sfdp`, the default is `mode="spring"`, which corresponds to using a
+For [`sfdp`](/docs/layouts/sfdp/), the default is `mode="spring"`, which corresponds to using a
 spring-electrical model. Setting `mode="maxent"` causes a similar model
 to be run but one that also takes into account edge lengths specified by the
 [`len`]({{< ref "len.md" >}}) attribute.
