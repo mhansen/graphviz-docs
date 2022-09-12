@@ -12,7 +12,8 @@ too large (about 100 nodes), when you don't know anything else about the graph.
 statistical multi-dimensional scaling.
 
 The solution is achieved using stress majorization[^1], though the older
-Kamada-Kawai algorithm[^2], using steepest descent, is also available.
+Kamada-Kawai algorithm[^2], using steepest descent, is also available,
+by switching [`mode`](/docs/attrs/mode/).
 
 <p style="text-align: center;">
   <a href="/Gallery/undirected/ER.html">
