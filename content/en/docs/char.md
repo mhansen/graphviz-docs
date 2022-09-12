@@ -1,5 +1,5 @@
 ---
-title: Character Set Reference
+title: Character Entities
 url: doc/char.html
 aliases:
 - /_pages/doc/char.html
