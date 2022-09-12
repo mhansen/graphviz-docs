@@ -11,7 +11,7 @@ in Graphviz (and other programs) is complicated.  There are several reasons:
   variants, Microsoft Windows, and Mac.
 - Graphviz has a wide range of output formats: raster-oriented formats
   like [PNG](/docs/outputs/png/) and [GIF](/docs/outputs/gif/); path-based ones like [Postscript](/docs/outputs/ps/), [PDF](/docs/outputs/pdf/) and [SVG](/docs/outputs/svg/); some
-  idiosyncractic legacy formats, like troff [PIC](/docs/outputs/pic/) and HPGL.
+  idiosyncractic legacy formats, like troff [PIC](/docs/outputs/pic/).
 - Often, output will be downloaded and displayed on a computer or other 
   device, different than the one where the layout was created.
 - Graphviz layouts should be identical in size and appearance,
