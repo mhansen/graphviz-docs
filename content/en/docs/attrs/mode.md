@@ -11,11 +11,13 @@ used_by: G
 description: Technique for optimizing the layout
 ---
 
-* For neato, if `mode="major"`, `neato` uses stress majorization.
-* If `mode="KK"`, `neato` uses a version of the gradient descent method.
+[`neato`](/docs/layouts/neato/) supports modes:
+
+* `mode="major"`: `neato` uses stress majorization[^1].
+* `mode="KK"`: `neato` uses the Kamada-Kawai[^2] version of the gradient descent method.
   `KK` is sometimes appreciably faster for small (number of nodes < 100) graphs.
   A significant disadvantage is that `KK` may cycle.
-* If `mode="sgd"`, `neato` uses a version of the stochastic gradient descent method.
+* `mode="sgd"`: `neato` uses a version of the Stochastic Gradient Descent[^3] method.
   `sgd`'s advantage is faster and more reliable convergence than both the previous methods,
   while `sgd`'s disadvantage is that it runs in a fixed number of iterations and
   may require larger values of [`maxiter`]({{< ref "maxiter.md" >}}) in some graphs.
@@ -30,3 +32,7 @@ For `sfdp`, the default is `mode="spring"`, which corresponds to using a
 spring-electrical model. Setting `mode="maxent"` causes a similar model
 to be run but one that also takes into account edge lengths specified by the
 [`len`]({{< ref "len.md" >}}) attribute.
+
+[^1]: [Gansner, E.R., Koren, Y., North, S. (2005). Graph Drawing by Stress Majorization. In: Pach, J. (eds) Graph Drawing. GD 2004. Lecture Notes in Computer Science, vol 3383. Springer, Berlin, Heidelberg.](/documentation/GKN04.pdf)
+[^2]: [Tomihisa Kamada, Satoru Kawai, An algorithm for drawing general undirected graphs, Information Processing Letters, Volume 31, Issue 1, 1989, Pages 7-15.](https://doi.org/10.1016%2F0020-0190%2889%2990102-6)
+[^3]: [J. X. Zheng, S. Pawar and D. F. M. Goodman, "Graph Drawing by Stochastic Gradient Descent," in IEEE Transactions on Visualization and Computer Graphics, vol. 25, no. 9, pp. 2738-2748, 1 Sept. 2019, doi: 10.1109/TVCG.2018.2859997.](https://ieeexplore.ieee.org/document/8419285)
