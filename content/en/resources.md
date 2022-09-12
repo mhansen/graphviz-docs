@@ -1,9 +1,9 @@
 ---
-title: Resources
+title: External Resources
 weight: 7
 type: docs
 ---
-These are some representative external resources. The list includes tools that complement Graphviz, such as
+These are some external resources. The list includes tools that complement Graphviz, such as
 graph generators, postprocessors and interactive viewers. It also includes higher level systems and web sites 
 that rely on Graphviz as a visualization service.
 
