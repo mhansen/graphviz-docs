@@ -83,7 +83,6 @@ my %KnownTypes = (
 	gif =>    'image/gif',
 	png =>    'image/png',
 	mif =>    'application/x-mif',
-	hpgl =>   'application/x-hpgl',
 	pcl =>    'application/x-pcl',
 	vrml =>   'x-world/x-vrml',
 	vtx =>    'application/x-vtx',
