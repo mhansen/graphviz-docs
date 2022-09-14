@@ -11,7 +11,8 @@
 			{{ if in $page.Params.used_by $type }}
 				<li>
 				<a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
-				{{ with .Params.description }} &ndash; {{ . | markdownify }}.{{ end }}
+				{{ if or .Params.description .Params.flags }} &ndash; {{ end }}
+				{{ with .Params.description }} {{ . | markdownify }}.{{ end }}
 				{{ with .Params.flags }}
 				For
 				{{ range $i, $flag := . -}}
