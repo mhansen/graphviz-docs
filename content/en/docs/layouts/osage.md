@@ -23,4 +23,5 @@ inherits its attribute values from its parent graph.
 After all nodes and clusters, edges are routed based on the value of the
 [`splines`]({{< ref "/docs/attrs/splines.md" >}}) attribute.
 
-[PDF Manual](/pdf/osage.1.pdf)
+- [PDF Manual](/pdf/osage.1.pdf)
+- [Browse code](https://gitlab.com/graphviz/graphviz/-/tree/main/lib/osage)
