@@ -8,7 +8,7 @@ types:
 - bool
 - string
 used_by: "N"
-description: Whether to use the specified width and height attributes to choose node size (rather than sizing to fit the node contents).
+description: Whether to use the specified width and height attributes to choose node size (rather than sizing to fit the node contents)
 ---
 If `false`, the size of a node is determined by smallest width and height
 needed to contain its label and image, if any, with a margin specified by
