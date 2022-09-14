@@ -7,8 +7,9 @@ title: shapefile
 types:
 - string
 used_by: "N"
+description: A file containing user-supplied node content.
 ---
-*(Deprecated)* Specifies a file containing user-supplied node content.
+*(Deprecated)*.
 
 Sets the node's <code>[shape]({{< ref "shape.md" >}})="box"</code>. The image in the shapefile must be
 rectangular. The image formats supported as well as the precise semantics of
