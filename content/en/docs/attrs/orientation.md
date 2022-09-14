@@ -10,7 +10,7 @@ types:
 - double
 - string
 used_by: NG
-description: rotation
+description: node shape rotation angle, or graph orientation
 ---
 
 When used on nodes: Angle, in degrees, to rotate polygon node shapes. For any number of polygon sides, 0 degrees rotation results in a flat base.
