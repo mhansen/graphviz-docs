@@ -10,6 +10,7 @@ title: id
 types:
 - escString
 used_by: "GCNE"
+description: Identifier for graph objects.
 ---
 Allows the graph author to provide an identifier for graph objects which is
 to be included in the output.
