@@ -10,10 +10,12 @@ description: >
 The layout algorithm aims edges in the same direction (top to bottom, or left
 to right) and then attempts to avoid edge crossings and reduce edge length.
 
+- [PDF Manual](/pdf/dot.1.pdf)
+- [Browse code](https://gitlab.com/graphviz/graphviz/-/tree/main/lib/dotgen)
+
 <p style="text-align: center;">
   <a href="/Gallery/directed/cluster.html">
     <img src="/Gallery/directed/cluster.svg">
   </a>
 </p>
 
-[PDF Manual](/pdf/dot.1.pdf)
