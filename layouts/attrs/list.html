@@ -71,17 +71,7 @@ The attributes are alphabetized on output.
   </TD>
   <TD>
   {{ with .Params.description }}{{ . | markdownify }}. {{ end }}
-  {{- if .Params.flags -}}
-    {{- if eq (index .Params.flags 0) "notdot" -}}
-      not dot
-    {{- else -}}
-      {{- range $i, $flag := .Params.flags -}} 
-        {{- if $i }}, {{ end -}}
-        {{ partial "flag_link" $flag }}
-      {{- end }} only
-    {{- end -}}
-    .
-  {{- end -}}
+  {{ partial "flags" .Params.flags}}
   </TD>
 </TR>
 {{ end }}
