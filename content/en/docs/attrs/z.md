@@ -9,7 +9,7 @@ title: z
 types:
 - double
 used_by: "N"
-description: Z-coordinate value for 3D layouts and displays.
+description: Z-coordinate value for 3D layouts and displays
 ---
 **Deprecated:** Use [`pos`]({{< ref "pos.md" >}}) attribute, along with
 [`dimen`]({{< ref "dimen.md" >}}) and/or [`dim`]({{< ref "dim.md" >}}) to specify dimensions.
