@@ -7,7 +7,7 @@ title: colorscheme
 types:
 - string
 used_by: ENCG
-description: "This attribute specifies a color scheme namespace: the context for interpreting color names"
+description: "A color scheme namespace: the context for interpreting color names"
 ---
 
 In particular, if a [`color`](/docs/attr-types/color/) value has form `"xxx"` or `"//xxx"`,
