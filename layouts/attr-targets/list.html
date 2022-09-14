@@ -14,11 +14,8 @@
 				{{ if or .Params.description .Params.flags }} &ndash; {{ end }}
 				{{ with .Params.description }} {{ . | markdownify }}.{{ end }}
 				{{ with .Params.flags }}
-				For
-				{{ range $i, $flag := . -}}
-					{{ if $i }}, {{ end }}
-					{{- $flag -}}
-				{{ end }}
+					For
+					{{ partial "flags" . }}
 				{{ end }}
 				</li>
 			{{ end }}
