@@ -31,8 +31,10 @@ type: <I>{{ range $i, $t := .Params.types -}}
 {{- if in .Params.used_by "N" }}<LI>Nodes</LI>{{ end -}}
 {{- if in .Params.used_by "S" }}<LI>Subgraphs</LI>{{ end -}}
 </UL>
-<I>
+
 {{- if .Params.flags -}}
+<p>
+<i>
   Note:
   {{ if eq (index .Params.flags 0) "notdot" }}
     not dot
@@ -42,5 +44,13 @@ type: <I>{{ range $i, $t := .Params.types -}}
       {{ $flag }}
     {{- end }} only
   {{ end }}
+</i>
+</p>
 {{- end -}}
-</I>
+
+<p>
+<a href="https://gitlab.com/search?group_id=1996273&project_id=4207231&repository_ref=main&scope=blobs&search=%22{{ .Params.Title }}%22">
+  Search the Graphviz codebase for <code>"{{ .Params.Title }}"</code>
+  <i class="fa fa-external-link-alt"></i>
+</a>
+</p>
