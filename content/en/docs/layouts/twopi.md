@@ -11,6 +11,8 @@ root node.
 
 You can set the root node, or let `twopi` do it.
 
+- [Browse code](https://gitlab.com/graphviz/graphviz/-/tree/main/lib/twopigen)
+
 <p style="text-align: center;">
   <a href="/Gallery/twopi/twopi2.html">
     <img src="/Gallery/twopi/twopi2.svg">
