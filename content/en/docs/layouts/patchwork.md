@@ -16,4 +16,5 @@ The root graph is laid out as a square. Then, recursively, the region of a
 cluster or graph is partitioned among its top-level nodes and clusters, with
 each given a roughly square subregion with its specified area.
 
-[PDF Manual](/pdf/patchwork.1.pdf)
+- [PDF Manual](/pdf/patchwork.1.pdf)
+- [Browse code](https://gitlab.com/graphviz/graphviz/-/tree/main/lib/patchwork)
