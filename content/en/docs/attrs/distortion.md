@@ -8,7 +8,7 @@ title: distortion
 types:
 - double
 used_by: "N"
-description: Distortion factor for <code>[shape](/docs/attrs/shape)=polygon</code>
+description: Distortion factor for <code>[shape](/docs/attrs/shape)=[polygon](/doc/info/shapes.html#polygon)</code>
 ---
 
 Positive values cause top part to be larger than bottom; negative values do
