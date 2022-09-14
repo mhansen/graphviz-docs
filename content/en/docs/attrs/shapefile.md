@@ -11,7 +11,7 @@ description: A file containing user-supplied node content.
 ---
 *(Deprecated)*.
 
-Sets the node's <code>[shape]({{< ref "shape.md" >}})="box"</code>. The image in the shapefile must be
+Sets the node's <code>[shape]({{< ref "shape.md" >}})="[box](/doc/info/shapes.html#polygon)"</code>. The image in the shapefile must be
 rectangular. The image formats supported as well as the precise semantics of
 how the file is used depends on the [output format]({{< ref "../outputs/_index.md" >}}). For further
 details, see [Image Formats]({{< ref "../outputs/_index.md#image-formats" >}}) and [External
