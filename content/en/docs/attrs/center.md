@@ -7,5 +7,6 @@ title: center
 types:
 - bool
 used_by: G
-description: If true, the drawing is centered in the output canvas
+description: Whether to center the drawing in the output canvas
 ---
+Can be `true` or `false`.
