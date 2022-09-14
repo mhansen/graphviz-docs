@@ -1,7 +1,7 @@
 ---
 title: Arrow Shapes
 url: /doc/info/arrows.html
-weight: 6
+weight: 7
 ---
 Arrow shapes can be specified and named using the following simple
 grammar. 
