@@ -10,7 +10,7 @@ types:
 - double
 used_by: G
 ---
-When `overlap=prism`, the layout is scaled by this factor, thereby
+When <code>[overlap](/docs/attrs/overlap/)=prism</code>, the layout is scaled by this factor, thereby
 removing a fair amount of node overlap, and making node overlap removal
 faster and better able to retain the graph's shape.
 
