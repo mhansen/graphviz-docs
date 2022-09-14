@@ -7,7 +7,7 @@ title: shapefile
 types:
 - string
 used_by: "N"
-description: A file containing user-supplied node content.
+description: A file containing user-supplied node content
 ---
 *(Deprecated)*.
 
