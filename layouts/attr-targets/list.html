@@ -13,11 +13,8 @@
 				<a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
 				{{ with .Params.description }} &ndash; {{ . | markdownify }}.{{ end }}
 				{{ with .Params.flags }}
-				For
-				{{ range $i, $flag := . -}}
-					{{ if $i }}, {{ end }}
-					{{- $flag -}}
-				{{ end }}
+					For
+					{{ partial "flags" . }}
 				{{ end }}
 				</li>
 			{{ end }}
