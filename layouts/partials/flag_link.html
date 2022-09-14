@@ -1,0 +1,29 @@
+{{ $flag := . }}
+
+{{- if eq $flag "svg" -}}
+  <a href="/docs/outputs/svg/">{{ $flag }}</a>
+{{- else if eq $flag "postscript" -}}
+  <a href="/docs/outputs/ps/">{{ $flag }}</a>
+{{- else if eq $flag "dot" -}}
+  <a href="/docs/layouts/dot/">{{ $flag }}</a>
+{{- else if eq $flag "neato" -}}
+  <a href="/docs/layouts/neato/">{{ $flag }}</a>
+{{- else if eq $flag "fdp" -}}
+  <a href="/docs/layouts/fdp/">{{ $flag }}</a>
+{{- else if eq $flag "sfdp" -}}
+  <a href="/docs/layouts/sfdp/">{{ $flag }}</a>
+{{- else if eq $flag "patchwork" -}}
+  <a href="/docs/layouts/patchwork/">{{ $flag }}</a>
+{{- else if eq $flag "cmap" -}}
+  <a href="/docs/outputs/cmap/">{{ $flag }}</a>
+{{- else if eq $flag "twopi" -}}
+  <a href="/docs/layouts/twopi/">{{ $flag }}</a>
+{{- else if eq $flag "circo" -}}
+  <a href="/docs/layouts/circo/">{{ $flag }}</a>
+{{- else if eq $flag "xdot" -}}
+  <a href="/docs/outputs/canon/">{{ $flag }}</a>
+{{- else if eq $flag "prism" -}}
+  <a href="/docs/attrs/overlap/">{{ $flag }}</a>
+{{- else -}}
+  {{ $flag }}
+{{- end -}}

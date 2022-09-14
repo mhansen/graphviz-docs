@@ -41,7 +41,7 @@ type: <I>{{ range $i, $t := .Params.types -}}
   {{ else }}
     {{ range $i, $flag := .Params.flags -}}
       {{- if $i }}, {{ end -}}
-      {{ $flag }}
+      {{ partial "flag_link" $flag }}
     {{- end }} only
   {{ end }}
 </i>
