@@ -43,7 +43,7 @@ At present, most device-independent units are either inches or
 <A ID="points" HREF="http://en.wikipedia.org/wiki/Point_(typography)">points</A>,
 which we take as 72 points per inch.
 
-<P ID="h:undir_note"></P>
+<P ID="undir_note"></P>
 
 **Note:** Some attributes, such as
 [`dir`]({{< ref "dir.md" >}}) or [`arrowtail`]({{< ref "arrowtail.md" >}}), are ambiguous when used in
