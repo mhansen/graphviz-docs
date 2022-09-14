@@ -9,11 +9,12 @@ title: z
 types:
 - double
 used_by: "N"
+description: Z-coordinate value for 3D layouts and displays.
 ---
 **Deprecated:** Use [`pos`]({{< ref "pos.md" >}}) attribute, along with
 [`dimen`]({{< ref "dimen.md" >}}) and/or [`dim`]({{< ref "dim.md" >}}) to specify dimensions.
 
-Provides z coordinate value for 3D layouts and displays. If the graph has
+If the graph has
 [`dim`]({{< ref "dim.md" >}}) set to 3 (or more), neato will use a node's `z` value for
 the z coordinate of its initial position if its [`pos`]({{< ref "pos.md" >}}) attribute
 is also defined.
