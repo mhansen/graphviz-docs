@@ -5,7 +5,6 @@
 	{{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
 	{{ .Content }}
 	<p></p>
-	<h2>Attributes for {{ (lower (strings.TrimSuffix "s" .Title)) }}s</h2>
 	<ul>
 		{{ range $i, $page := (where $.Site.RegularPages "Type" "attrs") }}
 			{{ if in $page.Params.used_by $type }}
