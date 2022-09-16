@@ -15,22 +15,12 @@ menu:
     pre: "<i class='fas fa-book'></i>"
 ---
 
-## On-line reference pages
-
-* [The DOT Language](/doc/info/lang.html)
-* [Command-line Usage](/doc/info/command.html)
-* [Output Formats](/doc/info/output.html)
-* [Node, Edge and Graph Attributes](/doc/info/attrs.html)
-* [Node Shapes](/doc/info/shapes.html)
-* [Arrow Shapes](/doc/info/arrows.html)
-* [Colors](/doc/info/colors.html)
-
 ## User's Guides
 
 **NOTE:** The first two documents are not current with the features
 and details of Graphviz. They can serve as tutorials for understanding how
 to use Graphviz, but the most up-to-date documentation is provided in the
-on-line pages listed above.
+on-line pages listed in the menu.
 
 * [dot](/pdf/dotguide.pdf)
 * [neato](/pdf/neatoguide.pdf)
