@@ -29,7 +29,7 @@ on-line pages listed in the menu.
 * [Cgraph library tutorial](/pdf/cgraph.pdf)
 * [Using Graphviz as a library](/pdf/libguide.pdf)
 * [Using Graphviz as a library (pre-2.30 version)](/pdf/oldlibguide.pdf)
-* [Adding a new layout](/doc/addingLayout.txt)
+* [Adding a new layout](/docs/writing-layout-plugins/)
 
 ## Sample Programs using Graphviz
 
