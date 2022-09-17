@@ -7,6 +7,5 @@ title: layerlistsep
 types:
 - string
 used_by: G
-description: Specifies the separator characters used to split an attribute of type
+description: The separator characters used to split attributes of type [`layerRange`](/docs/attr-types/layerRange/) into a list of ranges.
 ---
-[`layerRange`](/docs/attr-types/layerRange/) into a list of ranges.
