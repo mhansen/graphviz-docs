@@ -28,6 +28,9 @@
 		{{ with .Params.guide }}
 		<li><a href="{{ . }}">User Guide</a></li>
 		{{ end }}
+		{{ with .Params.code }}
+		<li><a href="{{ . }}">Browse code</a></li>
+		{{ end }}
 		</ul>
 	</header>    
 	{{ .Content }}
