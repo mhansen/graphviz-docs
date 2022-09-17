@@ -5,4 +5,4 @@ params:
 - pct
 - pict
 ---
-Output in the Apple PICT file format.
+Output in the [Apple PICT file format](https://en.wikipedia.org/wiki/PICT).
