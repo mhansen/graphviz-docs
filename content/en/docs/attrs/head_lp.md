@@ -7,5 +7,6 @@ title: head_lp
 types:
 - point
 used_by: E
+description: Center position of an edge's head label
 ---
-Position of an edge's head label, [in points]({{< ref "_index.md#points" >}}). The position indicates the center of the label.
+[In points]({{< ref "_index.md#points" >}}).
