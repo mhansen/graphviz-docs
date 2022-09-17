@@ -1,4 +1,4 @@
 ---
 title: bool
+description: Boolean; true or false.
 ---
-Boolean; true or false.
