@@ -7,7 +7,7 @@ description: Attributes you can set on graph edges
 
 Examples of edge statements:
 
-`edge [name0=val0]</code>`
+`edge [name0=val0]`
 sets default edge attribute name0 to val0.
 Any edge appearing after this inherits the new default attributes.
 
