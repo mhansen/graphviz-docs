@@ -1,8 +1,8 @@
 ---
 title: shape
+description: the [shape]({{< ref "../shapes.md" >}}) of a node
 ---
-A string specifying the [shape]({{< ref "../shapes.md" >}}) of a node. There are three main
-types of shapes:
+There are three main types of shapes:
 
 * [polygon-based]({{< ref "../shapes.md#polygon" >}}),
 * [record-based]({{< ref "../shapes.md#record" >}}) and
