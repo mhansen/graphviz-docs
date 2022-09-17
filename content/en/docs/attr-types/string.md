@@ -1,4 +1,4 @@
 ---
 title: string
+description: Text; a sequence of characters.
 ---
-Text; a sequence of characters.
