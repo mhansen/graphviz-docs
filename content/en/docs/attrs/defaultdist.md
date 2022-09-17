@@ -9,8 +9,8 @@ title: defaultdist
 types:
 - double
 used_by: G
-description: This specifies the distance between nodes in separate connecte
+description: The distance between nodes in separate connected components
 ---
-components. If set too small, connected components may overlap.
+If set too small, connected components may overlap.
 
 Only applicable if <code>[pack]({{< ref "pack.md" >}})=false</code>.
