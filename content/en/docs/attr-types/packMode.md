@@ -1,5 +1,6 @@
 ---
 title: packMode
+description: How closely to pack together graph components
 ---
 * `"node"`
 * `"clust"`
@@ -13,7 +14,7 @@ objects. This produces a layout with the least area, but it also allows
 interleaving, where a node of one component may lie between two nodes in
 another component. A value of `"graph"` does a packing using the bounding box
 of the component. Thus, there will be a rectangular region around a component
-free of elements of any other component. A value of "clust" guarantees that
+free of elements of any other component. A value of `"clust"` guarantees that
 top-level clusters are kept intact. What effect a value has also depends on
 the layout algorithm. For example, `neato` does not support clusters, so a
 value of `"clust"` will have the same effect as the default `"node"` value.
