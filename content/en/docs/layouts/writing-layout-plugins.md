@@ -2,6 +2,8 @@
 title: Writing Layout Plugins
 aliases:
   - /doc/addingLayout.txt
+  - /docs/writing-layout-plugins/
+description: How to write a custom layout engine.
 ---
 To create a new layout plugin called `xxx`, you first need
 to provide two functions: `xxx_layout` and `xxx_cleanup`. The
