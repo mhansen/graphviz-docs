@@ -1,7 +1,8 @@
 ---
 title: viewPort
+description: Clipping window on final drawing
 ---
-`"%lf,%lf,%lf,%lf,%lf"` or  `"%lf,%lf,%lf,'%s'"`
+Format: `"%lf,%lf,%lf,%lf,%lf"` or `"%lf,%lf,%lf,'%s'"`
 
 The viewPort `W,H,Z,x,y` or `W,H,Z,N`
 specifies a viewport for the final image. The pair `(W,H)` gives the
