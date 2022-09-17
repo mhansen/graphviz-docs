@@ -16,6 +16,7 @@ Kamada-Kawai algorithm[^2], using steepest descent, is also available,
 by switching [`mode`](/docs/attrs/mode/).
 
 - [PDF Manual](/pdf/dot.1.pdf)
+- [User Guide](/pdf/neatoguide.pdf) (caveat: not current with latest features of Graphviz)
 - [Browse code](https://gitlab.com/graphviz/graphviz/-/tree/main/lib/neatogen)
 
 <p style="text-align: center;">
