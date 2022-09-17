@@ -7,7 +7,6 @@ title: lp
 types:
 - point
 used_by: EGC
+description: Label center position
 ---
-Label position, [in points]({{< ref "_index.md#points" >}}).
-
-The position indicates the center of the label.
+Label center position, [in points]({{< ref "_index.md#points" >}}).
