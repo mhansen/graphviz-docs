@@ -9,6 +9,7 @@ title: labeltarget
 types:
 - escString
 used_by: E
+description: Browser window to open [`labelURL`](/docs/attrs/labelURL/) links in
 ---
 
 If the edge has a [`URL`]({{< ref "URL.md" >}}) or [`labelURL`]({{< ref "labelURL.md" >}}) attribute, this
