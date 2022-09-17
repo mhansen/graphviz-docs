@@ -35,7 +35,7 @@ For example, this valid graph produces no output:
 $ echo 'digraph {}' | nop -p
 ```
 
-But this syntax error (missing `}` exits with status code `1` and prints error
+But this syntax error (missing `}`) exits with status code `1` and prints error
 message:
 
 ```shell-session
