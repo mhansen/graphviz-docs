@@ -7,9 +7,9 @@ title: fontpath
 types:
 - string
 used_by: G
+description: Directory list used by [libgd](https://libgd.github.io/) to search for bitmap fonts
 ---
-Directory list used by [libgd](https://libgd.github.io/) to search for bitmap
-fonts if Graphviz was not built with the [fontconfig
+Used if Graphviz was not built with the [fontconfig
 library](https://www.freedesktop.org/wiki/Software/fontconfig/).
 
 If `fontpath` is not set, the environment
