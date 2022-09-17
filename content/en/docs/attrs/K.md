@@ -10,9 +10,9 @@ title: K
 types:
 - double
 used_by: GC
-description: Spring constant used in virtual physical model. It roughly correspond
+description: Spring constant used in virtual physical model.
 ---
-to an ideal edge length (in inches), in that increasing `K` tends to
+It roughly corresponds to an ideal edge length (in inches), in that increasing `K` tends to
 increase the distance between nodes.
 
 Note that the edge attribute [`len`]({{< ref "len.md" >}}) can be used to
