@@ -4,4 +4,4 @@ description: Windows Bitmap
 params:
 - bmp
 ---
-Outputs images in the Windows [BMP](http://en.wikipedia.org/wiki/Bitmap) format.
+Outputs images in the [Windows BMP format](https://en.wikipedia.org/wiki/BMP_file_format).
