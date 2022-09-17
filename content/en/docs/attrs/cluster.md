@@ -7,7 +7,7 @@ title: cluster
 types:
 - bool
 used_by: CS
-description: Whether the subgraph is a cluster.
+description: Whether the subgraph is a cluster
 ---
 Subgraph clusters are rendered differently, e.g. [`dot`](/docs/layouts/dot/) renders a box around subgraph clusters, but doesn't draw a box around non-subgraph clusters.
 
