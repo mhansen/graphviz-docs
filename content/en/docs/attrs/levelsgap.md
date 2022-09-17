@@ -8,6 +8,7 @@ title: levelsgap
 types:
 - double
 used_by: G
+description: strictness of neato level constraints
 ---
 Specifies strictness of level constraints in [`neato`](/docs/layouts/neato/) when
 <code>[mode]({{< ref "mode.md" >}})="ipsep"</code> or <code>[mode]({{< ref "mode.md" >}})=hier</code>.
