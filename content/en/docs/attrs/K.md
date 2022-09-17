@@ -10,7 +10,7 @@ title: K
 types:
 - double
 used_by: GC
-description: Spring constant used in virtual physical model.
+description: Spring constant used in virtual physical model
 ---
 It roughly corresponds to an ideal edge length (in inches), in that increasing `K` tends to
 increase the distance between nodes.
