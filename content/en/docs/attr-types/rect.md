@@ -1,5 +1,6 @@
 ---
 title: rect
+description: A geometric rectangle in space, defined by two [`points`](/docs/attr-types/point/)
 ---
 `"%f,%f,%f,%f"`
 
