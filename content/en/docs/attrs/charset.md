@@ -7,10 +7,8 @@ title: charset
 types:
 - string
 used_by: G
+description: Character encoding used when interpreting string input as a text label.
 ---
-Specifies the character encoding used when interpreting string input as a
-text label.
-
 The default value is `"UTF-8"`. The other legal value is `"iso-8859-1"` or,
 equivalently, `"Latin1"`.
 
