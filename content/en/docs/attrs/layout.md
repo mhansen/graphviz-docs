@@ -7,6 +7,7 @@ title: layout
 types:
 - string
 used_by: G
+description: Which [layout engine](/docs/layouts/) to use
 ---
 Specifies the name of the [layout engine]({{< ref "/docs/layouts/_index.md" >}}) to
 use, such as `dot` or `neato`.
