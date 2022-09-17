@@ -1,7 +1,7 @@
 ---
-title: Cluster Subgraph Attributes
+title: Cluster Attributes
 type: attr-targets
 weight: 6
-description: Attributes you can set on cluster subgraphs
+description: Attributes you can set on subgraph clusters
 ---
 
