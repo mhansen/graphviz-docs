@@ -7,5 +7,5 @@ title: layersep
 types:
 - string
 used_by: G
+description: The separator characters for splitting the [`layers`](/docs/attrs/layers/) attribute into a list of layer names.
 ---
-Specifies the separator characters used to split the [`layers`]({{< ref "layers.md" >}}) attribute into a list of layer names.
