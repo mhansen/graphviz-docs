@@ -22,6 +22,6 @@ Note that if the character encoding used in the input does not match the
 {{< dot_card header="Example" >}}
 digraph G {
   charset="UTF-8"
-  🍔 -> 💩
+  "🍔" -> "💩"
 }
 {{< /dot_card >}}
