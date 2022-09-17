@@ -9,6 +9,7 @@ title: overlap_scaling
 types:
 - double
 used_by: G
+description: Scale layout by factor, to reduce node overlap.
 ---
 When <code>[overlap](/docs/attrs/overlap/)=prism</code>, the layout is scaled by this factor, thereby
 removing a fair amount of node overlap, and making node overlap removal
