@@ -1,4 +1,4 @@
 ---
 title: addDouble
 ---
-A double with an optional prefix `'+'`.
+A [`double`](/docs/attr-types/double/) with an optional prefix `'+'`.
