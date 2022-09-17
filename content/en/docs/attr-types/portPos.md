@@ -1,8 +1,8 @@
 ---
 title: portPos
-description: Port Position
+description: Port Position: where on a node an edge should be aimed
 ---
-modifier indicating where on a node an edge should be aimed. It has the form
+`portPos` has the form
 `portname(:compass_point)?` or `compass_point`. If the first form is
 used, the corresponding node must either have [record]({{< ref "../shapes.md#record" >}})
 shape with one of its fields having the given `portname`, or have an
@@ -13,7 +13,7 @@ If a compass point is used, it must have the form
 `"n","ne","e","se","s","sw","w","nw","c","_"`. This modifies the edge
 placement to aim for the corresponding compass point on the port or, in the
 second form where no `portname` is supplied, on the node itself. The compass
-point "c" specifies the center of the node or port. The compass point `"_"`
+point `"c"` specifies the center of the node or port. The compass point `"_"`
 specifies that an appropriate side of the port adjacent to the exterior of
 the node should be used, if such exists. Otherwise, the center is used. If no
 compass point is used with a portname, the default value is `"_"`.
