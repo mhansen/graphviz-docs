@@ -7,7 +7,7 @@ params:
 - dot_json
 - xdot_json
 ---
-These formats produce a JSON output encoding the DOT language.
+These formats produce a [JSON output](https://www.json.org/) encoding the DOT language.
 Using `json0` produces output in JSON format that contains the
 same information produced by [`-Tdot`]({{< ref "canon.md" >}}).
 Using `json` produces output in JSON format that contains the
