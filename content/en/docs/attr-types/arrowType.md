@@ -1,5 +1,6 @@
 ---
 title: arrowType
+description: Arrowhead shape
 ---
 <TABLE>
   <TR>
