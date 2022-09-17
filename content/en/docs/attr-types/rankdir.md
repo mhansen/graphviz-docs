@@ -1,6 +1,6 @@
 ---
 title: rankdir
-description: Rank Direction
+description: Direction to draw directed graphs (one rank at a time)
 ---
 * `"TB"`
 * `"LR"`
