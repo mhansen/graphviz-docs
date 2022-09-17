@@ -1,6 +1,6 @@
 ---
 title: shape
-description: the [shape]({{< ref "../shapes.md" >}}) of a node
+description: the [shape](/doc/info/shapes.html) of a node
 ---
 There are three main types of shapes:
 
