@@ -8,13 +8,16 @@ params:
 - xdot_json
 ---
 These formats produce a [JSON output](https://www.json.org/) encoding the DOT language.
-Using `json0` produces output in JSON format that contains the
-same information produced by [`-Tdot`]({{< ref "canon.md" >}}).
-Using `json` produces output in JSON format that contains the
-same information produced by [`-Txdot`]({{< ref "canon.md" >}}).
+
+- `json0` produces output in JSON format that contains the
+  same information produced by [`-Tdot`]({{< ref "canon.md" >}}).
+- `json` produces output in JSON format that contains the
+  same information produced by [`-Txdot`]({{< ref "canon.md" >}}).
+
 Both of these assume the graph has been processed by one of the layout
 algorithms.
-The `dot_json` and `xdot_json` also produce JSON output similar to
+
+`dot_json` and `xdot_json` also produce JSON output similar to
 to `json0` and `json`, respectively, except they only use the
 content of the graph on input. In particular, they do not assume that the
 graph has been processed by any layout algorithm, and the only xdot information
