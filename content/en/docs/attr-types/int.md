@@ -1,5 +1,4 @@
 ---
 title: int
-description: Integer
+description: Integer number
 ---
-Integer number.
