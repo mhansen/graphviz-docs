@@ -2,7 +2,7 @@
 title: escString
 description: String with backslashed escape sequences
 ---
-A string allowing escape sequences which are replaced according
+A [`string`](/docs/attr-types/string/) allowing escape sequences which are replaced according
 to the context.
 For node attributes, the substring `"\N"` is replaced by the name of the node,
 and the substring `"\G"` by the name of the graph.
