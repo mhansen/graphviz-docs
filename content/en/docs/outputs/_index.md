@@ -8,13 +8,13 @@ cascade:
   type: output
 ---
 The output format is specified with the <code>**-T**_lang_</code>
-flag on the [command line]({{< ref "/docs/command.md" >}}), where _lang_
+flag on the [command line]({{< ref "/docs/cli/_index.md" >}}), where _lang_
 is one of the parameters listed above.
 
 The formats actually available in a given Graphviz system depend on
 how the system was built and the presence of additional libraries.
 To see what formats **dot** supports, run `dot -T?`.
-See the [description of the `-T`]({{< ref "/docs/command.md#-T" >}})
+See the [description of the `-T`]({{< ref "/docs/cli/_index.md#-T" >}})
 flag for additional information.
 
 Note that the internal coordinate system has the origin

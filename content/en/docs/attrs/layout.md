@@ -18,5 +18,5 @@ within the graph.
 For example, a graph containing position information from a layout might want
 to record what the associated layout engine was.
 
-This attribute takes precedence over the [`-K` flag]({{< ref "../command.md#-K" >}}) or
+This attribute takes precedence over the [`-K` flag]({{< ref "/docs/cli/_index.md#-K" >}}) or
 the actual command name used.
