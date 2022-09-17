@@ -26,7 +26,7 @@ on-line pages listed in the menu.
 * [neato](/pdf/neatoguide.pdf)
 * [lefty](/pdf/leftyguide.pdf) (deprecated)
 * [dotty](/pdf/dottyguide.pdf) (deprecated)
-* [Adding a new layout](/docs/writing-layout-plugins/)
+* [Adding a new layout](/docs/layouts/writing-layout-plugins/)
 
 ## Tool manual pages
 
