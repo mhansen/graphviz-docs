@@ -8,6 +8,7 @@ title: mclimit
 types:
 - double
 used_by: G
+description: Scale factor for mincross (mc) edge crossing minimiser parameters
 ---
 Multiplicative scale factor used to alter the `MinQuit` (default = 8)
 and `MaxIter` (default = 24) parameters used during crossing
