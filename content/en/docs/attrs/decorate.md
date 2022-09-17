@@ -16,5 +16,6 @@ underlining the label, then going to the closest point of spline.
 digraph {
   a -> a [label="AA" decorate=true]
   a -> b [label="AB" decorate=true]
+  b -> b [label="BB" decorate=false]
 }
 {{< /dot_card >}}
