@@ -1,8 +1,9 @@
 ---
 title: colorList
+description: List of (optionally weighted) color values, forming a linear gradient
 ---
 A colon-separated list of weighted color values: _WC_(:_WC_)\* where each
-_WC_ has the form _C(;F)?_ with C a [color](/docs/attr-types/color/) value and the optional
+_WC_ has the form _C(;F)?_ with C a [`color`](/docs/attr-types/color/) value and the optional
 _F_ a floating-point number, 0 ≤ _F_ ≤ 1\. The sum of the floating-point
 numbers in a `colorList` must sum to at most 1.
 
