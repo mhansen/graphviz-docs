@@ -117,19 +117,19 @@ pango-1.12.4.tar.gz provides libpangocairo [optional, recommended]
 zlib-1.2.3.tar.gz [optional (required for libpng), recommended]
 : [http://www.zlib.net/](http://www.zlib.net/)
 
-GTS [optional (required for sfdp, prism, smyrna), recommended]
+GTS [optional (required for [sfdp](/docs/layouts/sfdp/), prism, [smyrna](/docs/cli/smyrna/)), recommended]
 : [http://gts.sourceforge.net/](http://gts.sourceforge.net/)
 
-GTK+ [optional (required for smyrna)]
+GTK+ [optional (required for [smyrna](/docs/cli/smyrna/))]
 : [http://www.gtk.org/](http://www.gtk.org/)
 
-GtkGLExt [optional (required for smyrna)]
+GtkGLExt [optional (required for [smyrna](/docs/cli/smyrna/))]
 : [http://projects.gnome.org/gtkglext/](http://projects.gnome.org/gtkglext/)
 
-Glade [optional (required for smyrna)]
+Glade [optional (required for [smyrna](/docs/cli/smyrna/))]
 : [http://glade.gnome.org/](http://glade.gnome.org/)
 
-Glut [optional (required for smyrna)]
+Glut [optional (required for [smyrna](/docs/cli/smyrna/))]
 : [http://www.opengl.org/resources/libraries/glut/](http://www.opengl.org/resources/libraries/glut/)
 
 ### Tools
