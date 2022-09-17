@@ -1,7 +1,7 @@
 ---
 defaults:
 - default: '.0001 * # nodes'
-  for: (mode == KK)'
+  for: (mode == KK)
 - default: '.0001'
   for: (mode == major)
 - default: '.01'
