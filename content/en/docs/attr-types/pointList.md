@@ -1,4 +1,5 @@
 ---
 title: pointList
+description: A list of [`points`](/docs/attr-types/point/)
 ---
-A list of points, separated by spaces.
+[`points`](/docs/attr-types/point/), separated by spaces.
