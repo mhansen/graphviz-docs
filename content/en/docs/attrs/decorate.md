@@ -7,9 +7,10 @@ title: decorate
 types:
 - bool
 used_by: E
-description: If true, attach edge label to edge by a 2-segmen
+description: Whether to connect the edge label to the edge with a line
 ---
-polyline, underlining the label, then going to the closest point of spline.
+If true, attach edge label to edge by a 2-segment polyline,
+underlining the label, then going to the closest point of spline.
 
 {{< dot_card header="Example">}}
 digraph {
