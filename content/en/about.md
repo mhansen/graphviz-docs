@@ -21,7 +21,7 @@ and in visual interfaces for many other domains.
 
 Graphviz is open source graph visualization software.
 It has several main graph layout programs.
-See the [gallery](/gallery) for some sample layouts.
+See the [Gallery](/gallery) for some sample layouts.
 It also has web and interactive graphical interfaces,
 and auxiliary tools, libraries, and language bindings.
 
@@ -48,17 +48,16 @@ is probably frustrating to try to use it that way.)
 
 * **tcldot** - a TCL/TK scripting language extension for Graphviz
 * [**Webdot**](https://gitlab.com/graphviz/webdot) - a tcldot scripted WWW service for graphs in HTML documents. 
-  * There is also [a simplified version](/Misc/webdot.pl) written in perl.
-
-* **Grappa** - a Java package for graphs with full Java graph data structures
-* **ZGRViewer** - an SVG-based zooming graph viewer for large graphs.
-* [**Mac OS X graphviz**](http://www.pixelglow.com/graphviz)
-* [**viz.js**](http://viz-js.com/) - graphviz built with emscripten for use on the web and in node.js
+  * There is also [a simplified version](/Misc/webdot.pl) written in Perl.
+* [**Grappa**](https://github.com/phenotips/grappa) - a Java package for graphs with full Java graph data structures.
+* [**ZGRViewer**](http://zvtm.sourceforge.net/zgrviewer.html) - an SVG-based zooming graph viewer for large graphs.
+* [**Mac OS X Graphviz**](http://www.pixelglow.com/graphviz)
+* [**viz.js**](http://viz-js.com/) - Graphviz built with [Emscripten](https://emscripten.org/) for use on the web and in [node.js](https://nodejs.org/).
 
 ## Filters
 
-* **gvpr** is a general-purpose graph stream editor, in the spirit
-of awk, sed (or think of perl if you don't know those).
+* [**gvpr**](/docs/cli/gvpr/) is a general-purpose graph stream editor, in the spirit
+of [`awk`](https://en.wikipedia.org/wiki/AWK) and [`sed`](https://en.wikipedia.org/wiki/Sed) (or think of [Perl](https://www.perl.org/) if you don't know those).
 
 ## Example applications
 
