@@ -8,6 +8,7 @@ title: labelfontsize
 types:
 - double
 used_by: E
+description: Font size of `headlabel` and `taillabel`
 ---
 Font size, [in points]({{< ref "_index.md#points" >}}), used for [`headlabel`]({{< ref "headlabel.md" >}}) and
 [`taillabel`]({{< ref "taillabel.md" >}}).
