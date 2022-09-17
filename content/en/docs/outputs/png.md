@@ -4,7 +4,7 @@ description: Portable Network Graphics
 params:
 - png
 ---
-Produces output in the PNG (Portable Network Graphics) format.
+Produces output in the [PNG (Portable Network Graphics) format](https://en.wikipedia.org/wiki/Portable_Network_Graphics).
 
 (25 November 2014) A standard Graphviz installation will render using both
 the Cairo and GD library. 
