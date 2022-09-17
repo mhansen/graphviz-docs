@@ -2,6 +2,8 @@
 title: Command Line
 url: /doc/info/command.html
 weight: 2
+cascade:
+  type: cli
 ---
 All Graphviz programs have a similar invocation:
 
@@ -69,7 +71,7 @@ Overrides the default edge `color` and `arrowhead` attributes, producing red edg
 
 ### `-K`_layout_ {#-K}
 
-Specifies which default [layout engine]({{< ref "layouts/_index.md" >}}) to use, overriding the default from the command name. For example, running
+Specifies which default [layout engine]({{< ref "/docs/layouts/_index.md" >}}) to use, overriding the default from the command name. For example, running
 `dot -Kneato` is equivalent to running `neato`.
 
 ### `-T`_format_\[:_renderer_\[:_formatter_\]\] {#-T}
