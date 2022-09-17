@@ -7,9 +7,6 @@
         {{ end }}
 
 {{/*
-`used_by` is a string consisting of `G`,`C`,`N`,`E`, indicating that the attribute
-  applies to graphs, clusters, nodes and edges, respectively.
-
 `types` is a list: Types can be `int`, `bool`, `string`, `double`, or a
 special type. We assume there is an entry for the type in the `_attr_types/`
 collection.
@@ -46,7 +43,12 @@ The attributes are alphabetized on output.
 {{ range $attr := .Page.Pages }}
 <TR>
   <TD><A ID="a:{{ .Title }}" HREF="{{ .RelPermalink }}"><code>{{ .Title }}</code></A></TD>
-  <TD>{{ .Params.used_by }}</TD>
+  <TD>
+    {{- range $i, $c := (split .Params.used_by "") -}}
+      {{- if $i -}}, {{ end -}}
+      {{- partial "expand_graph_component" $c -}}
+    {{- end -}}
+  </TD>
   <TD>
   {{- range $i, $type := .Params.types -}}
     {{- if $i -}}<BR>{{- end -}}

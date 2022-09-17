@@ -11,12 +11,11 @@
 				<a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
 				&ndash;
 				{{ with .Params.description }}{{ . | markdownify }}.{{ end }}
-				Valid on:<span> </span>
-				{{- if in .Params.used_by "C" }}Clusters<span> </span>{{ end -}}
-				{{- if in .Params.used_by "E" }}Edges<span> </span>{{ end -}}
-				{{- if in .Params.used_by "G" }}Graphs<span> </span>{{ end -}}
-				{{- if in .Params.used_by "N" }}Nodes<span> </span>{{ end -}}
-				{{- if in .Params.used_by "S" }}Subgraphs<span> </span>{{ end -}}
+				Valid on:
+				{{ range $i, $c := (split .Params.used_by "") -}}
+				  {{- if $i -}}, {{ end -}}
+					{{- partial "expand_graph_component" $c -}}
+				{{- end -}}
 			</li>
 			{{ end }}
 		{{ end }}
