@@ -7,8 +7,9 @@ title: imagepath
 types:
 - string
 used_by: G
+description: A list of directories in which to look for image files
 ---
-Specifies a list of directories in which to look for image files as specified
+When specified
 by the [`image`]({{< ref "image.md" >}}) attribute or using the `IMG` element in [HTML-like
 labels]({{< ref "../shapes.md#html" >}}).
 
