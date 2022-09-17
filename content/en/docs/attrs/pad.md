@@ -9,10 +9,8 @@ types:
 - double
 - point
 used_by: G
+description: Inches to extend the drawing area around the minimal area needed to draw the graph
 ---
-Specifies how much, in inches, to extend the
-drawing area around the minimal area needed to draw the graph.
-
 If `pad` is a single double, both the x and y pad values are set
 equal to the given value. This area is part of the
 drawing and will be filled with the background color, if appropriate.
