@@ -7,8 +7,9 @@ title: nojustify
 types:
 - bool
 used_by: GCNE
-description: By default, the justification of multi-line labels is done within the larges
+description: 
 ---
+By default, the justification of multi-line labels is done within the largest
 context that makes sense. Thus, in the label of a polygonal node, a
 left-justified line will align with the left side of the node (shifted by the
 prescribed [`margin`]({{< ref "margin.md" >}})). In record nodes, left-justified line will
