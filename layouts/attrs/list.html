@@ -51,7 +51,7 @@ The attributes are alphabetized on output.
   </TD>
   <TD>
   {{- range $i, $type := .Params.types -}}
-    {{- if $i -}}<BR>{{- end -}}
+    {{- if $i -}}, {{ end -}}
     <A HREF="/docs/attr-types/{{$type}}/">{{$type}}</A>
   {{- end -}}
   </TD>
