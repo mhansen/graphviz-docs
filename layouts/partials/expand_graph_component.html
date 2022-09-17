@@ -1,0 +1,13 @@
+{{- if eq . "G" -}}
+  Graphs
+{{- else if eq . "N" -}}
+  Nodes
+{{- else if eq . "E" -}}
+  Edges
+{{- else if eq . "C" -}}
+  Clusters
+{{- else if eq . "S" -}}
+  Subgraphs
+{{- else -}}
+  {{- errorf "Unknown graph component: %q" . -}}
+{{- end -}}

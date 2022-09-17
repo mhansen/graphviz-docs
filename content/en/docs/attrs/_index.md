@@ -83,11 +83,7 @@ at the end.
 
 <P ID="h:uses"></P>
 
-In the **Used By** field, the
-characters `E`, `N`, `G`, `S` and `C`
-represent edges, nodes, the root graph, subgraphs
-and cluster subgraphs, respectively.
-This field indicates which graph component uses the attribute.
+The **Used By** column field indicates which graph component(s) the attribute applies to.
 
 In the **Notes** field, an annotation of *write only*
 indicates that the attribute is used for output, and is not used or read by any
