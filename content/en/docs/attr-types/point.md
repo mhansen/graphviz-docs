@@ -1,5 +1,6 @@
 ---
 title: point
+description: 2-dimensional (or 3-dimensional) geometrical point in space
 ---
 `"%f,%f('!')?"` representing the point `(x,y)`. The optional `'!'` indicates the
 node position should not change (input-only).
