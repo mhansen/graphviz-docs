@@ -17,13 +17,10 @@ menu:
 
 ## User's Guides
 
-**NOTE:** The first two documents are not current with the features
+**NOTE:** These documents are not current with the features
 and details of Graphviz. They can serve as tutorials for understanding how
 to use Graphviz, but the most up-to-date documentation is provided in the
 on-line pages listed in the menu.
 
 * [dot](/pdf/dotguide.pdf)
 * [neato](/pdf/neatoguide.pdf)
-* [lefty](/pdf/leftyguide.pdf) (deprecated)
-* [dotty](/pdf/dottyguide.pdf) (deprecated)
-* [Adding a new layout](/docs/layouts/writing-layout-plugins/)
