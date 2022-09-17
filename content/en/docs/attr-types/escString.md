@@ -1,6 +1,6 @@
 ---
 title: escString
-description: String with Escape Sequences
+description: String with backslashed escape sequences
 ---
 A string allowing escape sequences which are replaced according
 to the context.
