@@ -26,18 +26,7 @@ on-line pages listed in the menu.
 * [neato](/pdf/neatoguide.pdf)
 * [lefty](/pdf/leftyguide.pdf) (deprecated)
 * [dotty](/pdf/dottyguide.pdf) (deprecated)
-* [Cgraph library tutorial](/pdf/cgraph.pdf)
-* [Using Graphviz as a library](/pdf/libguide.pdf)
-* [Using Graphviz as a library (pre-2.30 version)](/pdf/oldlibguide.pdf)
 * [Adding a new layout](/docs/writing-layout-plugins/)
-
-## Sample Programs using Graphviz
-
-* [`demo.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/demo.c)
-* [`dot.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/dot.c)
-* [`example.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/example.c)
-* [`simple.c`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/simple.c)
-* [`Makefile`](https://gitlab.com/graphviz/graphviz/-/blob/main/dot.demo/Makefile)
 
 ## Tool manual pages
 
@@ -70,28 +59,3 @@ on-line pages listed in the menu.
 * [tred](/pdf/tred.1.pdf)
 * [unflatten](/pdf/unflatten.1.pdf)
 * [vimdot](/pdf/vimdot.1.pdf)
-
-## C libraries
-
-* [cdt](/pdf/cdt.3.pdf)
-* [cgraph](/pdf/cgraph.3.pdf)
-* [gvc](/pdf/gvc.3.pdf)
-* [pack](/pdf/pack.3.pdf)
-* [pathplan](/pdf/pathplan.3.pdf)
-* [xdot](/pdf/xdot.3.pdf)
-
-## Tcl/tk libraries
-
-* [gdtclft.3tcl](/pdf/gdtclft.3tcl.pdf)
-* [tcldot.3tcl](/pdf/tcldot.3tcl.pdf)
-* [tkspline.3tk](/pdf/tkspline.3tk.pdf)
-
-## Scripting APIs
-
-* [gv.3guile](/pdf/gv.3guile.pdf)
-* [gv.3java](/pdf/gv.3java.pdf)
-* [gv.3perl](/pdf/gv.3perl.pdf)
-* [gv.3php](/pdf/gv.3php.pdf)
-* [gv.3python](/pdf/gv.3python.pdf)
-* [gv.3ruby](/pdf/gv.3ruby.pdf)
-* [gv.3tcl](/pdf/gv.3tcl.pdf)
