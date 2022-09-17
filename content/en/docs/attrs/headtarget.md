@@ -9,6 +9,7 @@ title: headtarget
 types:
 - escString
 used_by: E
+description: Browser window to use for the [`headURL`](/docs/attrs/headURL) link
 ---
 If the edge has a [`headURL`]({{< ref "headURL.md" >}}),
 `headtarget` determines which window of the
