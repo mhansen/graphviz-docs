@@ -1,6 +1,6 @@
 ---
 title: portPos
-description: Port Position: where on a node an edge should be aimed
+description: "Port Position: where on a node an edge should be aimed"
 ---
 `portPos` has the form
 `portname(:compass_point)?` or `compass_point`. If the first form is
