@@ -9,7 +9,7 @@ types:
 - double
 used_by: G
 ---
-Specifies strictness of level constraints in neato when
+Specifies strictness of level constraints in [`neato`](/docs/layouts/neato/) when
 <code>[mode]({{< ref "mode.md" >}})="ipsep"</code> or <code>[mode]({{< ref "mode.md" >}})=hier</code>.
 
 Larger positive values mean stricter constraints, which demand more
