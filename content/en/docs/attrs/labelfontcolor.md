@@ -7,7 +7,7 @@ title: labelfontcolor
 types:
 - color
 used_by: E
+description: Color used for [`headlabel`](/docs/attrs/headlabel/) and [`taillabel`](/docs/attrs/taillabel/).
 ---
-Color used for [`headlabel`]({{< ref "headlabel.md" >}}) and [`taillabel`]({{< ref "taillabel.md" >}}).
 
 If not set, defaults to edge's [`fontcolor`]({{< ref "fontcolor.md" >}}).
