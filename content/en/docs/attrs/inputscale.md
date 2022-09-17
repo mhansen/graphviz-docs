@@ -9,6 +9,7 @@ title: inputscale
 types:
 - double
 used_by: G
+description: Scales the input [positions](/docs/attrs/pos/) to convert between length units
 ---
 For layout algorithms that support initial input positions (specified by the [`pos`]({{< ref "pos.md" >}}) attribute),
 this attribute can be used to appropriately scale the values.
