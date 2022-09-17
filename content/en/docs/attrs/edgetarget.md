@@ -9,6 +9,7 @@ title: edgetarget
 types:
 - escString
 used_by: E
+description: Browser window to use for the [`edgeURL`](/docs/attrs/edgeURL/) link
 ---
 If the edge has a [`URL`]({{< ref "URL.md" >}}) or [`edgeURL`]({{< ref "edgeURL.md" >}})
 attribute, `edgetarget` determines which window of the
