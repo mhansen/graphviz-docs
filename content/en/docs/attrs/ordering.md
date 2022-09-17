@@ -8,6 +8,7 @@ title: ordering
 types:
 - string
 used_by: GN
+description: Constrains the left-to-right ordering of node edges.
 ---
 If `ordering="out"`, then the outedges of a node, that is, edges with the
 node as its tail node, must appear left-to-right in the same order in which
