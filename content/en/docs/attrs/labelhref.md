@@ -9,8 +9,8 @@ title: labelhref
 types:
 - escString
 used_by: E
+description: Synonym for [`labelURL`](/docs/attrs/labelURL/)
 ---
-Synonym for [`labelURL`]({{< ref "labelURL.md" >}}).
 
 See also:
 
