@@ -1,5 +1,6 @@
 ---
 title: quadType
+descriptoin: Quadtree scheme
 ---
 * `"normal"`
 * `"fast"`
