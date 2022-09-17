@@ -1,7 +1,7 @@
 ---
 title: layerRange
+description: A list of layers defined by the [`layers`]({{< ref "/docs/attrs/layers" >}}) attribute
 ---
-specifies a list of layers defined by the [layers]({{< ref "/docs/attrs/layers" >}}) attribute.
 
 It consists of a list of layer intervals separated by any collection of
 characters from the [layerlistsep]({{< ref "/docs/attrs/layerlistsep.md" >}}) attribute. Each layer
