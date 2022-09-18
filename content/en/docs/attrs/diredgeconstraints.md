@@ -9,6 +9,7 @@ types:
 - string
 - bool
 used_by: G
+description: Whether to constrain most edges to point downwards
 ---
 If true, constraints are generated for each edge in the largest (heuristic)
 directed acyclic subgraph such that the edge must point downwards.
