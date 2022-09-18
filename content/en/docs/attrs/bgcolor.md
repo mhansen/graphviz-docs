@@ -8,6 +8,7 @@ types:
 - color
 - colorList
 used_by: GC
+description: Canvas background color
 ---
 When attached to the root graph, this color is used as the background for
 entire canvas.
