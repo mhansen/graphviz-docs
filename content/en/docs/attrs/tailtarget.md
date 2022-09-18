@@ -9,6 +9,7 @@ title: tailtarget
 types:
 - escString
 used_by: E
+description: Browser window to use for the [`tailURL`](/docs/attrs/tailURL) link
 ---
 If the edge has a [`tailURL`]({{< ref "tailURL.md" >}}), `tailtarget` determines which
 window of the browser is used for the URL.
