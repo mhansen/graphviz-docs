@@ -9,9 +9,8 @@ title: label_scheme
 types:
 - int
 used_by: G
+description: Whether to treat a node whose name has the form `|edgelabel|*` as a special node representing an edge label. 
 ---
-Whether to treat a node whose name has the form `|edgelabel|*` as a special node representing an edge label. 
-
 * The default, `label_scheme=0`, produces no effect.
 * If `label_scheme=1`, `sfdp` uses a penalty-based method to make that kind of node close to the 
   center of its neighbor.
