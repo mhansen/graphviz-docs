@@ -11,7 +11,7 @@
 				<li>
 				<a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
 				{{ if or .Params.description .Params.flags }} &ndash; {{ end }}
-				{{ with .Params.description }} {{ . | markdownify }}.{{ end }}
+        {{ with .Params.description }} {{ . | markdownify }}{{ if not (strings.HasSuffix . ".") }}.{{ end }}{{ end }}
 				{{ with .Params.flags }}
 					For
 					{{ partial "flags" . }}
