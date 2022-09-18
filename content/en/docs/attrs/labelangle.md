@@ -8,6 +8,7 @@ title: labelangle
 types:
 - double
 used_by: E
+description: The angle (in degrees) in polar coordinates of the head & tail edge labels.
 ---
 Determines, along with [`labeldistance`]({{< ref "labeldistance.md" >}}),
 where the [`headlabel`]({{< ref "headlabel.md" >}}) / [`taillabel`]({{< ref "taillabel.md" >}}) are
