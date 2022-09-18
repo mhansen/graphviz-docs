@@ -7,6 +7,7 @@ aliases:
 cascade:
   type: attrs
 weight: 4
+description: Instructions to customise the layout of Graphviz nodes, edges, graphs, subgraphs, and clusters.
 ---
 The table below describes the attributes used by various Graphviz tools.
 The table gives the name of the attribute, the graph components (node,
