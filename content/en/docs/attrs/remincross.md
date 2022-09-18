@@ -8,6 +8,5 @@ title: remincross
 types:
 - bool
 used_by: G
+description: If there are multiple clusters, whether to run edge crossing minimization a second time.
 ---
-If true and there are multiple clusters, run crossing
-minimization a second time.
