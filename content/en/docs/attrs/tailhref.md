@@ -9,9 +9,8 @@ title: tailhref
 types:
 - escString
 used_by: E
+description: Synonym for [`tailURL`](/docs/attrs/tailURL/).
 ---
-Synonym for [`tailURL`]({{< ref "tailURL.md" >}}).
-
 See also:
 
 - [`edgehref`]({{< ref "edgehref.md" >}}), [`edgeURL`]({{< ref "edgeURL.md" >}})
