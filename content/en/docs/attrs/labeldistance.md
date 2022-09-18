@@ -8,9 +8,7 @@ title: labeldistance
 types:
 - double
 used_by: E
-description: Scaling factor for the distance of
-[`headlabel`]({{< ref "headlabel.md" >}}) / [`taillabel`]({{< ref "taillabel.md" >}}) from the head /
-tail nodes.
+description: "Scaling factor for the distance of [`headlabel`](/docs/attrs/headlabel/) / [`taillabel`](/docs/attrs/taillabel/) from the head / tail nodes."
 ---
 The default distance is 10 points.
 
