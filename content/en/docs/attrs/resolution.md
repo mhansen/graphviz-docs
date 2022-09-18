@@ -10,5 +10,5 @@ title: resolution
 types:
 - double
 used_by: G
+description: Synonym for [`dpi`](/docs/attrs/dpi/).
 ---
-Synonym for [`dpi`]({{< ref "dpi.md" >}}).
