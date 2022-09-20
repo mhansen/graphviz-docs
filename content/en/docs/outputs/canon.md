@@ -78,6 +78,8 @@ The `xdot` format extends the
 how graph components are drawn. It relies on additional attributes
 for nodes, edges and graphs.
 
+See also [`xdot` attribute type docs](/docs/attr-types/xdot/)
+
 The format is fluid; comments and
 suggestions for better representations are welcome.
 To allow for changes in the format, Graphviz attaches the attribute
