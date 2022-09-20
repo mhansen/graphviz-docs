@@ -11,8 +11,25 @@ params:
 ---
 These formats produce output in the
 [dot language]({{< ref "/docs/lang.md" >}}).
+
+## canon
+
 Using `canon` produces a prettyprinted version of the input,
 with no layout performed.
+
+{{< card header="Example: simple graph, canonicalized formatting with `-Tcanon`">}}
+```
+$ echo 'digraph { a->b }' | dot -Tcanon
+```
+```dot
+digraph {
+        node [label="\N"];
+        a -> b;
+}
+```
+{{</ card >}}
+
+## dot / gv
 
 The `dot` (and `gv` alias) options correspond to attributed dot output,
 and is the default output format.
@@ -34,6 +51,27 @@ Every edge is
 assigned a [`pos`]({{< ref "/docs/attrs/pos.md" >}}) attribute,
 and if the edge has a label, the label position
 is given in [`lp`]({{< ref "/docs/attrs/lp.md" >}}).
+
+{{< card header="Example: simple graph, outputting layout positioning with `-Tdot`">}}
+```
+$ echo 'digraph { a->b }' | dot -Tdot
+```
+```dot
+digraph {
+        graph [bb="0,0,54,108"];
+        node [label="\N"];
+        a    [height=0.5,
+             pos="27,90",
+             width=0.75];
+        b    [height=0.5,
+             pos="27,18",
+             width=0.75];
+        a -> b  [pos="e,27,36.104 27,71.697 27,63.983 27,54.712 27,46.112"];
+}
+```
+{{</ card >}}
+
+## xdot
 
 The `xdot` format extends the
 `dot` format by providing much more detailed information about
@@ -197,38 +235,6 @@ Version info:
 | >1.5         | 2.34             | Fix text layout problem; fix inverted vector in gradient; support version-specific output; new **t** op for text characteristics
 | >1.6         | 2.35             | Add STRIKE-THROUGH bit for`t`
 | >1.7         | 2.37             | Add OVERLINE for `t`
-
-{{< card header="Example: simple graph, canonicalized formatting with `-Tcanon`">}}
-```
-$ echo 'digraph { a->b }' | dot -Tcanon
-```
-```dot
-digraph {
-        node [label="\N"];
-        a -> b;
-}
-```
-{{</ card >}}
-
-{{< card header="Example: simple graph, outputting layout positioning with `-Tdot`">}}
-```
-$ echo 'digraph { a->b }' | dot -Tdot
-```
-```dot
-digraph {
-        graph [bb="0,0,54,108"];
-        node [label="\N"];
-        a    [height=0.5,
-             pos="27,90",
-             width=0.75];
-        b    [height=0.5,
-             pos="27,18",
-             width=0.75];
-        a -> b  [pos="e,27,36.104 27,71.697 27,63.983 27,54.712 27,46.112"];
-}
-```
-{{</ card >}}
-
 
 {{< card header="Example: simple graph, outputting layout positioning & drawing information with `-Txdot`">}}
 ```
