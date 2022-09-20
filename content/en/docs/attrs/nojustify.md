@@ -21,3 +21,15 @@ For example, if `nojustify` is set, the first label line is long, and the
 second is shorter and left-justified, the second will align with the
 left-most character in the first line, regardless of how large the node might
 be.
+
+See this example containing the `\l` (left-justify) escape-string.
+
+{{< dot_card header="Nojustify causes text to align with previous text line, not left side of box" >}}
+digraph G {
+  node [width=3 shape=box]
+  a [nojustify=false label="The first line is longer\nnojustify=false\l"]
+  b [nojustify=true label="The first line is longer\nnojustify=true\l"]
+  a -> b
+}
+{{< /dot_card >}}
+
