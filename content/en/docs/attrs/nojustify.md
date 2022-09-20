@@ -7,7 +7,7 @@ title: nojustify
 types:
 - bool
 used_by: GCNE
-description: 
+description: Whether to justify multiline text vs the previous text line (rather than the side of the container).
 ---
 By default, the justification of multi-line labels is done within the largest
 context that makes sense. Thus, in the label of a polygonal node, a
