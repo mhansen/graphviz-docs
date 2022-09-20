@@ -22,4 +22,4 @@ digraph G {
   _background="c 7 -#ff0000 p 4 4 4 36 4 36 36 4 36";
   a -> b
 }
-{{</ card >}}
+{{</ dot_card >}}
