@@ -22,7 +22,7 @@ second is shorter and left-justified, the second will align with the
 left-most character in the first line, regardless of how large the node might
 be.
 
-See this example containing the `\l` (left-justify) escape-string.
+See this example containing the `\l` (left-justify) escape-string:
 
 {{< dot_card header="Nojustify causes text to align with previous text line, not left side of box" >}}
 digraph G {
@@ -33,3 +33,10 @@ digraph G {
 }
 {{< /dot_card >}}
 
+{{< dot_card header="Nojustify causes text to align with previous text line, not record column" >}}
+digraph G{
+  c [nojustify=false shape=record label="{Records Example - Long Line\n | Title - Shorter Line\nnojustify=false\l}"]
+  d [nojustify=true shape=record label="{Records Example - Long Line\n | Title - Shorter Line\nnojustify=true\l}"]
+  c -> d
+}
+{{< /dot_card >}}
