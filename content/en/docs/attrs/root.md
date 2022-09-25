@@ -13,9 +13,10 @@ types:
 - string
 - bool
 used_by: GN
-description: Specifies nodes to be used as the center of the layout and the root of
+description: Specifies nodes to be used as the center of the layout
 ---
-the generated spanning tree.
+
+The center of the layout will be the root of the generated spanning tree.
 
 * As a graph attribute, this gives the name of the node.
 * As a node attribute, it specifies that the node should be used as a

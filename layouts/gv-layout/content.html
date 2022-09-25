@@ -5,18 +5,9 @@
 	<p></p>
 	<h2>Attributes for <b>{{ .Title }}</b> features</h2>
 	<ul>
-		{{ range $i, $page := (where $.Site.RegularPages "Type" "attrs") }}
-			{{ if in $page.Params.flags $.Title }}
-			<li>
-				<a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
-				&ndash;
-				{{ with .Params.description }}{{ . | markdownify }}.{{ end }}
-				Valid on:
-				{{ range $i, $c := (split .Params.used_by "") -}}
-				  {{- if $i -}}, {{ end -}}
-					{{- partial "expand_graph_component" $c -}}
-				{{- end -}}
-			</li>
+		{{ range $i, $attr := (where $.Site.RegularPages "Type" "attrs") }}
+			{{ if in $attr.Params.flags $.Title }}
+				{{ partial "attr-li" $attr }}
 			{{ end }}
 		{{ end }}
 	</ul>

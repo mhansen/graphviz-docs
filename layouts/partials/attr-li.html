@@ -1,0 +1,18 @@
+<li>
+	{{ $p := . }}
+	{{/* try to find a page by the title, otherwise use as a page */}}
+	{{ if not (in . "/") }}
+		{{ $p = index (where site.RegularPages "Title" .) 0 }}
+	{{ end }}
+	{{ with $p }}
+		<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+		&ndash;
+		{{ with .Params.description }}{{ . | markdownify }}.{{ end }}
+		Valid on:
+		{{ range $i, $c := (split .Params.used_by "") -}}
+			{{- if $i -}}, {{ end -}}
+			{{- partial "expand_graph_component" $c -}}
+		{{- end -}}
+		.
+	{{ end }}
+</li>
