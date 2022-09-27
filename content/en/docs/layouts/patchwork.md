@@ -2,7 +2,8 @@
 title: patchwork
 type: gv-layout
 description: >
-  draws clustered graphs using a squarified treemap layout.
+  draws clustered graphs using a
+  [squarified treemap layout](https://en.wikipedia.org/wiki/Treemapping).
 ---
 
 As input, `patchwork` takes any graph in the [dot format]({{< ref "/docs/lang.md" >}}).
