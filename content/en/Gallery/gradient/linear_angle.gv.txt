@@ -97,6 +97,3 @@ a0 [shape=none label=<
 </TABLE>>];
 
 }
-
-} 
-

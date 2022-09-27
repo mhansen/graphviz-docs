@@ -1,11 +1,9 @@
-digraph G { bgcolor="purple:pink" style="filled"
+digraph G {
   fontname="Helvetica,Arial,sans-serif"
   node [fontname="Helvetica,Arial,sans-serif"]
   edge [fontname="Helvetica,Arial,sans-serif"]
-  subgraph cluster1 {fillcolor="blue:green" style="filled"
-		node [shape=circle fillcolor="gold:brown" style="radial" gradientangle=180]
-		a0 [label=<
- <TABLE border="10" cellspacing="10" cellpadding="10" style="rounded" bgcolor="yellow:violet" gradientangle="315">
+  a0 [shape=none  label=<
+ <TABLE border="0" cellspacing="10" cellpadding="10" >
 <TR><TD border="3" style="radial" bgcolor="yellow"  gradientangle="60">00</TD>
 <TD border="3" style="radial" bgcolor="yellow:green"  gradientangle="60">01</TD>
 <TD border="3" style="radial" bgcolor="green"  gradientangle="60">02</TD>
@@ -99,6 +97,3 @@ digraph G { bgcolor="purple:pink" style="filled"
 </TABLE>>];
 
 }
-
-} 
-

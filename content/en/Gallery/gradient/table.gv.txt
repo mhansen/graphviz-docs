@@ -1,11 +1,9 @@
-digraph G { bgcolor="yellow:red" 
+digraph G {
   fontname="Helvetica,Arial,sans-serif"
   node [fontname="Helvetica,Arial,sans-serif"]
   edge [fontname="Helvetica,Arial,sans-serif"]
-  subgraph cluster1 {fillcolor="blue:green" style="filled"
-    node [shape=diamond fillcolor="gold:brown" style="radial" gradientangle=180]
-    a0 [label=<
- <TABLE border="10" cellspacing="10" cellpadding="10" style="rounded" bgcolor="/rdylgn11/1:/rdylgn11/11" gradientangle="315">
+  a0 [shape=none label=<
+ <TABLE border="0" cellspacing="10" cellpadding="10" style="rounded" bgcolor="/rdylgn11/1:/rdylgn11/11" gradientangle="315">
   <TR><TD border="3"  bgcolor="/rdylgn11/1:/rdylgn11/2">00</TD>
   <TD border="3"  bgcolor="/rdylgn11/2:/rdylgn11/3">01</TD>
   <TD border="3"  bgcolor="/rdylgn11/3:/rdylgn11/4">02</TD>
@@ -29,8 +27,6 @@ digraph G { bgcolor="yellow:red"
   </TR>
   
 </TABLE>>];
-
-}
 
 } 
 
