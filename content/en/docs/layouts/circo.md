@@ -1,8 +1,8 @@
 ---
 title: circo
 weight: 5
-description:
-  circular layout.
+description: >
+  [circular layout](https://en.wikipedia.org/wiki/Circular_layout).
 ---
 After Six and Tollis 1999[^1][^2], Kauffman and Wiese 2002[^3].
 
