@@ -2,7 +2,7 @@
 title: fdp
 weight: 3
 description: >
-  stands for Force Directed Placement.
+  stands for [Force-Directed Placement](https://en.wikipedia.org/wiki/Force-directed_graph_drawing).
 ---
 
 "spring model" layouts similar to those of [neato]({{< ref "neato.md" >}}), but
