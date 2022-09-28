@@ -20,4 +20,18 @@ that handles larger graphs and clustered undirected graphs.
   </a>
 </p>
 
+<h2>Attributes for fdp features</h2>
+<ul>
+{{< partial attr-li "dim">}}
+{{< partial attr-li "dimen">}}
+{{< partial attr-li "inputscale">}}
+{{< partial attr-li "K">}}
+{{< partial attr-li "len">}}
+{{< partial attr-li "maxiter">}}
+{{< partial attr-li "pin">}}
+{{< partial attr-li "pos">}}
+{{< partial attr-li "start">}}
+</ul>
+<br/>
+
 [^1]: [Fruchterman, T.M.J. and Reingold, E.M. (1991), Graph drawing by force-directed placement. Softw: Pract. Exper., 21: 1129-1164.](https://doi.org/10.1002/spe.4380211102)
