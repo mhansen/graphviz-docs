@@ -1,6 +1,6 @@
 graph happiness {
 	labelloc="t"
-	label="Mind map of Happiness.\nRadial twopi layout."
+	label="Mind map of Happiness.\nTwopi radial graph."
 	fontname="URW Chancery L, Apple Chancery, Comic Sans MS, cursive"
 	layout=twopi; graph [ranksep=2];
 	edge [penwidth=5 color="#f0f0ff"]
