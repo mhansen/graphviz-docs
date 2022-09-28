@@ -1,14 +1,14 @@
 graph happiness {
 	labelloc="t"
-	label="Mind map of Happiness, twopi graph"
-	fontname=Cursive
+	label="Mind map of Happiness.\nRadial twopi layout."
+	fontname="URW Chancery L, Apple Chancery, Comic Sans MS, cursive"
 	layout=twopi; graph [ranksep=2];
 	edge [penwidth=5 color="#f0f0ff"]
-	node [fontname=Cursive]
+	node [fontname="URW Chancery L, Apple Chancery, Comic Sans MS, cursive"]
 	node [style="filled" penwidth=0 fillcolor="#f0f0ffA0" fontcolor=indigo]
 	Happiness [fontsize=50 fontcolor=red URL="https://en.wikipedia.org/wiki/Category:Happiness"]
 	node [fontsize=40]
- 	Happiness -- {
+	Happiness -- {
 		Peace
 		Love
 		Soul
