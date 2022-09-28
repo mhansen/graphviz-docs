@@ -16,4 +16,20 @@ Multiscale version of the [`fdp`](/docs/layouts/fdp/) layout, for the layout of 
   <img src="/Gallery/undirected/200910_viz_matrix_188w.png">
 </p>
 
+<h2>Attributes for sfdp features</h2>
+<ul>
+{{< partial attr-li "beautify">}}
+{{< partial attr-li "dim">}}
+{{< partial attr-li "dimen">}}
+{{< partial attr-li "K">}}
+{{< partial attr-li "label_scheme">}}
+{{< partial attr-li "levels">}}
+{{< partial attr-li "overlap_shrink">}}
+{{< partial attr-li "quadtree">}}
+{{< partial attr-li "repulsiveforce">}}
+{{< partial attr-li "rotation">}}
+{{< partial attr-li "smoothing">}}
+</ul>
+<br/>
+
 [^1]: [Hu, Yifan. (2005). Efficient and High Quality Force-Directed Graph Drawing. Mathematica Journal. 10. 37-71.](http://yifanhu.net/PUB/graph_draw_small.pdf)
