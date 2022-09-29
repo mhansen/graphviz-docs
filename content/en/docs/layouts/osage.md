@@ -23,5 +23,41 @@ inherits its attribute values from its parent graph.
 After all nodes and clusters, edges are routed based on the value of the
 [`splines`]({{< ref "/docs/attrs/splines.md" >}}) attribute.
 
+Example:
+<p style="text-align: center;">
+<img src="/docs/layouts/osage.svg">
+</p>
+Source of the example:
+{{< dot_card >}}
+graph {
+	layout=osage
+		subgraph cluster_0 {
+			label="composite cluster";
+			subgraph cluster_1 {
+			    label="the first cluster";
+				C
+				L
+				U
+				S
+				T
+				E
+				R
+			}
+			subgraph cluster_2 {
+			    label="the second\ncluster";
+				a
+				b
+				c
+				d
+			}
+			1
+			2
+		}
+	3
+	4
+	5
+}
+{{< /dot_card >}}
+
 - [PDF Manual](/pdf/osage.1.pdf)
 - [Browse code](https://gitlab.com/graphviz/graphviz/-/tree/main/lib/osage)
