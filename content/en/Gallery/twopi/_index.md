@@ -1,4 +1,4 @@
 ---
-title: Twopi
+title: Twopi Radial Graphs
 weight: 30
 ---

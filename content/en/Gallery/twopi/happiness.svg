@@ -10,7 +10,7 @@
 <title>happiness</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-941.62 997.61,-941.62 997.61,4 -4,4"/>
 <text text-anchor="middle" x="496.81" y="-922.42" font-family="URW Chancery L, Apple Chancery, Comic Sans MS, cursive" font-size="14.00">Mind map of Happiness.</text>
-<text text-anchor="middle" x="496.81" y="-907.42" font-family="URW Chancery L, Apple Chancery, Comic Sans MS, cursive" font-size="14.00">Radial twopi layout.</text>
+<text text-anchor="middle" x="496.81" y="-907.42" font-family="URW Chancery L, Apple Chancery, Comic Sans MS, cursive" font-size="14.00">Twopi radial graph.</text>
 <!-- Happiness -->
 <g id="node1" class="node">
 <title>Happiness</title>
