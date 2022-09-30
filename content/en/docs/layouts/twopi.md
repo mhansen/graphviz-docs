@@ -25,5 +25,6 @@ You can set the root node, or let `twopi` do it.
 </ul>
 <br/>
 
+- [Gallery](/Gallery/twopi/)
 - [Browse code](https://gitlab.com/graphviz/graphviz/-/tree/main/lib/twopigen)
 - [PDF Manual](/pdf/dot.1.pdf)
