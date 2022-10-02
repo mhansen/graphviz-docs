@@ -1,7 +1,8 @@
 ---
 defaults: []
 flags:
-- notdot
+- neato
+- twopi
 minimums: []
 title: scale
 types:
