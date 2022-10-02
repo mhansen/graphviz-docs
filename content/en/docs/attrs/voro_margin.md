@@ -2,7 +2,7 @@
 defaults:
 - '0.05'
 flags:
-- notdot
+- neato
 minimums:
 - '0.0'
 title: voro_margin
