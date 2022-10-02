@@ -1,6 +1,5 @@
 ---
 title: patchwork
-type: gv-layout
 description: >
   draws clustered graphs using a
   [squarified treemap layout](https://en.wikipedia.org/wiki/Treemapping).
@@ -16,6 +15,12 @@ is 1.
 The root graph is laid out as a square. Then, recursively, the region of a
 cluster or graph is partitioned among its top-level nodes and clusters, with
 each given a roughly square subregion with its specified area.
+
+<h2>Attributes for patchwork features</h2>
+<ul>
+{{< partial attr-li "area">}}
+</ul>
+<br/>
 
 - [PDF Manual](/pdf/patchwork.1.pdf)
 - [Browse code](https://gitlab.com/graphviz/graphviz/-/tree/main/lib/patchwork)
