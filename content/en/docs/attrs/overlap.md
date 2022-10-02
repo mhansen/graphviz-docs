@@ -2,7 +2,8 @@
 defaults:
 - 'true'
 flags:
-- notdot
+- fdp
+- neato
 minimums: []
 title: overlap
 types:
