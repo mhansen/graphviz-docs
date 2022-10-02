@@ -24,11 +24,15 @@ Multiscale version of the [`fdp`](/docs/layouts/fdp/) layout, for the layout of 
 {{< partial attr-li "K">}}
 {{< partial attr-li "label_scheme">}}
 {{< partial attr-li "levels">}}
+{{< partial attr-li "normalize">}}
+{{< partial attr-li "overlap_scaling">}}
 {{< partial attr-li "overlap_shrink">}}
 {{< partial attr-li "quadtree">}}
 {{< partial attr-li "repulsiveforce">}}
 {{< partial attr-li "rotation">}}
 {{< partial attr-li "smoothing">}}
+{{< partial attr-li "start">}}
+{{< partial attr-li "voro_margin">}}
 </ul>
 <br/>
 
