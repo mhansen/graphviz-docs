@@ -28,8 +28,11 @@ that handles larger graphs and clustered undirected graphs.
 {{< partial attr-li "K">}}
 {{< partial attr-li "len">}}
 {{< partial attr-li "maxiter">}}
+{{< partial attr-li "normalize">}}
+{{< partial attr-li "overlap_scaling">}}
 {{< partial attr-li "pin">}}
 {{< partial attr-li "pos">}}
+{{< partial attr-li "sep">}}
 {{< partial attr-li "start">}}
 </ul>
 <br/>
