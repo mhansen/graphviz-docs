@@ -3,6 +3,9 @@ defaults:
 - 'false'
 flags:
 - neato
+- sfdp
+- twopi
+- circo
 minimums: []
 title: normalize
 types:
