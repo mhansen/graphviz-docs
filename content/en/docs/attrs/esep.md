@@ -2,7 +2,7 @@
 defaults:
 - '+3'
 flags:
-- notdot
+- neato
 minimums: []
 title: esep
 types:
