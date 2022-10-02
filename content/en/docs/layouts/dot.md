@@ -21,3 +21,28 @@ to right) and then attempts to avoid edge crossings and reduce edge length.
   </a>
 </p>
 
+<h2>Attributes for dot features</h2>
+<ul>
+{{< partial attr-li "clusterrank">}}
+{{< partial attr-li "compound">}}
+{{< partial attr-li "constraint">}}
+{{< partial attr-li "group">}}
+{{< partial attr-li "lhead">}}
+{{< partial attr-li "ltail">}}
+{{< partial attr-li "mclimit">}}
+{{< partial attr-li "minlen">}}
+{{< partial attr-li "newrank">}}
+{{< partial attr-li "nslimit">}}
+{{< partial attr-li "nslimit1">}}
+{{< partial attr-li "ordering">}}
+{{< partial attr-li "rank">}}
+{{< partial attr-li "rankdir">}}
+{{< partial attr-li "ranksep">}}
+{{< partial attr-li "remincross">}}
+{{< partial attr-li "samehead">}}
+{{< partial attr-li "sametail">}}
+{{< partial attr-li "searchsize">}}
+{{< partial attr-li "showboxes">}}
+{{< partial attr-li "TBbalance">}}
+</ul>
+<br/>
