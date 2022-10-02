@@ -3,6 +3,7 @@ defaults:
 - 'false'
 flags:
 - neato
+- fdp
 - sfdp
 - twopi
 - circo
