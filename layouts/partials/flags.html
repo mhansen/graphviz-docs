@@ -1,13 +1,8 @@
 {{ $flags := . }}
 
 {{- if $flags -}}
-  {{- if eq (index $flags 0) "notdot" -}}
-    not dot
-  {{- else -}}
-    {{- range $i, $flag := $flags -}} 
-      {{- if $i }}, {{ end -}}
-      {{ partial "flag_link" $flag }}
-    {{- end }} only
-  {{- end -}}
-  .
+  {{- range $i, $flag := $flags -}} 
+    {{- if $i }}, {{ end -}}
+    {{ partial "flag_link" $flag }}
+  {{- end }} only.
 {{- end -}}
