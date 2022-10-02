@@ -5,8 +5,6 @@ description: >
   [squarified treemap layout](https://en.wikipedia.org/wiki/Treemapping).
 ---
 
-As input, `patchwork` takes any graph in the [dot format]({{< ref "/docs/lang.md" >}}).
-
 Each cluster is given an area based on the areas specified by the clusters and
 nodes it contains. The areas of nodes and empty clusters can be specified by
 the [`area`]({{< ref "/docs/attrs/area.md" >}}) attribute. The default `area`
