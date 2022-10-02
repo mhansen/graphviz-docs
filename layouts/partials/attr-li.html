@@ -2,7 +2,7 @@
 	{{ $p := . }}
 	{{/* try to find a page by the title, otherwise use as a page */}}
 	{{ if not (in . "/") }}
-		{{ $p = index (where site.RegularPages "Title" .) 0 }}
+		{{ $p = index (where (where site.RegularPages "Type" "attrs") "Title" .) 0 }}
 	{{ end }}
 	{{ with $p }}
 		<a href="{{ .RelPermalink }}">{{ .Title }}</a>
