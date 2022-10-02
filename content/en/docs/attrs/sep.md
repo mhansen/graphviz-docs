@@ -2,7 +2,8 @@
 defaults:
 - '+4'
 flags:
-- notdot
+- fdp
+- neato
 minimums: []
 title: sep
 types:
