@@ -1,7 +1,7 @@
 ---
 title: patchwork
 description: >
-  draws clustered graphs using a
+  draws map of clustered graph using a
   [squarified treemap layout](https://en.wikipedia.org/wiki/Treemapping).
 ---
 
