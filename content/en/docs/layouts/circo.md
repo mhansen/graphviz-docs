@@ -19,7 +19,10 @@ certain telecommunications networks.
 <ul>
 {{< partial attr-li "mindist">}}
 {{< partial attr-li "root">}}
+{{< partial attr-li "normalize">}}
 {{< partial attr-li "oneblock">}}
+{{< partial attr-li "overlap_scaling">}}
+{{< partial attr-li "voro_margin">}}
 </ul>
 <br/>
 

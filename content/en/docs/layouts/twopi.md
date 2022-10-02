@@ -19,8 +19,11 @@ You can set the root node, or let `twopi` do it.
 </p>
 <h2>Attributes for twopi features</h2>
 <ul>
+{{< partial attr-li "normalize">}}
+{{< partial attr-li "overlap_scaling">}}
 {{< partial attr-li "ranksep" >}}
 {{< partial attr-li "root" >}}
+{{< partial attr-li "voro_margin">}}
 {{< partial attr-li "weight" >}}
 </ul>
 <br/>
