@@ -3,6 +3,8 @@ defaults:
 - '0.05'
 flags:
 - neato
+- fdp
+- sfdp
 minimums:
 - '0.0'
 title: voro_margin
