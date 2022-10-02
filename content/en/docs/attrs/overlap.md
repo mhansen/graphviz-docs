@@ -36,7 +36,7 @@ If `overlap="compress"`, the layout will be scaled down as much as
 possible without introducing any overlaps, obviously assuming there are none
 to begin with.
 
-**N.B.**The remaining allowed values of `overlap` correspond to algorithms which, at present, can produce bad aspect ratios. In addition, we deprecate the use of the `"ortho*"` and `"portho*"`.
+**N.B.** The remaining allowed values of `overlap` correspond to algorithms which, at present, can produce bad aspect ratios. In addition, we deprecate the use of the `"ortho*"` and `"portho*"`.
 
 If the value is `"vpsc"`, overlap removal is done as a quadratic optimization
 to minimize node displacement while removing node overlaps.
