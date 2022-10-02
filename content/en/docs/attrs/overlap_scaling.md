@@ -4,6 +4,10 @@ defaults:
 flags:
 - prism
 - neato
+- sfdp
+- fdp
+- circo
+- twopi
 minimums:
 - -1.0e10
 title: overlap_scaling
