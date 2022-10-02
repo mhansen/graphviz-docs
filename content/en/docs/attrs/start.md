@@ -4,6 +4,7 @@ defaults:
 flags:
 - neato
 - fdp
+- sfdp
 minimums: []
 title: start
 types:
