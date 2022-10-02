@@ -37,7 +37,7 @@ graph {
     C -- D
     D -- A
 }
-{{ /dot_card }}
+{{< /dot_card >}}
 
 {{< dot_card header="Example: separation of 3">}}
 graph {
@@ -48,4 +48,4 @@ graph {
     C -- D
     D -- A
 }
-{{ /dot_card }}
+{{< /dot_card >}}
