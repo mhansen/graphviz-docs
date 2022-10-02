@@ -5,6 +5,8 @@ flags:
 - neato
 - fdp
 - sfdp
+- twopi
+- circo
 minimums:
 - '0.0'
 title: voro_margin
