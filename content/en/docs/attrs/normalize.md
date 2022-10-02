@@ -2,7 +2,7 @@
 defaults:
 - 'false'
 flags:
-- notdot
+- neato
 minimums: []
 title: normalize
 types:
