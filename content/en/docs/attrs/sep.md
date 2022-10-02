@@ -27,3 +27,25 @@ If only a single number is given, this is used for both dimensions.
 If unset but [`esep`]({{< ref "esep.md" >}}) is defined, the `sep` values will be set to the
 [`esep`]({{< ref "esep.md" >}}) values divided by `0.8`. If [`esep`]({{< ref "esep.md" >}}) is unset, the
 default value is used.
+
+{{< dot_card header="Example: No separation">}}
+graph {
+    layout="fdp"
+    sep="0"
+    A -- B
+    B -- C
+    C -- D
+    D -- A
+}
+{{ /dot_card }}
+
+{{< dot_card header="Example: separation of 3">}}
+graph {
+    layout="fdp"
+    sep="3"
+    A -- B
+    B -- C
+    C -- D
+    D -- A
+}
+{{ /dot_card }}
