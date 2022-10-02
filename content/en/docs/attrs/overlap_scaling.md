@@ -3,6 +3,7 @@ defaults:
 - '-4'
 flags:
 - prism
+- neato
 minimums:
 - -1.0e10
 title: overlap_scaling
