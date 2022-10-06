@@ -1,12 +1,13 @@
 ---
 aliases:
+  - /Gallery/undirected/transparency.html
   - /_pages/Gallery/undirected/transparency.html
 title: Partially Transparent Colors
 svg: transparency.svg
 copyright: © 2022 Costa Shulyupin, licensed under EPL
 gv_file: transparency.gv.txt
 img_src: transparency.png
-url: /Gallery/undirected/transparency.html
+url: /Gallery/neato/transparency.html
 ---
 This example illustrates the use of partially transparent colors for
 node `fillcolor` and graph `bgcolor`.

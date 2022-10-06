@@ -1,12 +1,13 @@
 ---
 aliases:
+  - /Gallery/undirected/ER.html
   - /_pages/Gallery/undirected/ER.html
 title: Entity-Relation Data Model
 svg: ER.svg
 copyright: Copyright © 1996 AT&T.  All rights reserved.
 gv_file: ER.gv.txt
 img_src: ER.png
-url: /Gallery/undirected/ER.html
+url: /Gallery/neato/ER.html
 ---
 Layouts made with `neato` have the property that all edges
 tend to have about the same length (unless there is a manual

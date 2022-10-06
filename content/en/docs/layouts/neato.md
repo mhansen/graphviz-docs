@@ -18,10 +18,11 @@ by switching [`mode`](/docs/attrs/mode/).
 - [PDF Manual](/pdf/dot.1.pdf)
 - [User Guide](/pdf/neatoguide.pdf) (caveat: not current with latest features of Graphviz)
 - [Browse code](https://gitlab.com/graphviz/graphviz/-/tree/main/lib/neatogen)
+- [Gallery](/Gallery/neato/)
 
 <p style="text-align: center;">
-  <a href="/Gallery/undirected/ER.html">
-    <img src="/Gallery/undirected/ER.svg">
+  <a href="/Gallery/neato/ER.html">
+    <img src="/Gallery/neato/ER.svg">
   </a>
 </p>
 
