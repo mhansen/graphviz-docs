@@ -4,6 +4,7 @@ url: /doc/info/command.html
 weight: 2
 cascade:
   type: cli
+description: DOT rendering programs and utilities.
 ---
 All Graphviz programs have a similar invocation:
 

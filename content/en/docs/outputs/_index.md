@@ -6,6 +6,7 @@ stylesheet: output.css
 weight: 3
 cascade:
   type: output
+description: Various graphic and data formats for end user, [web](/gallery), documents and other applications.
 ---
 The output format is specified with the <code>**-T**_lang_</code>
 flag on the [command line]({{< ref "/docs/cli/_index.md" >}}), where _lang_

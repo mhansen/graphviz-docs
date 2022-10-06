@@ -4,8 +4,8 @@ url: /doc/info/lang.html
 aliases:
   - /content/dot-language/
 weight: 1
+description: Abstract grammar for defining Graphviz nodes, edges, graphs, [subgraphs, and clusters](/doc/info/lang.html#subgraphs-and-clusters).
 ---
-The following is an abstract grammar defining the DOT language.
 Terminals are shown in bold font and nonterminals in italics.
 Literal characters are given in single quotes.
 Parentheses `(` and `)` indicate grouping when needed.
