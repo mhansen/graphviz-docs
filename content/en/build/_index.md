@@ -144,26 +144,6 @@ still need various third-party packages to enable all the Graphviz drivers.
 
 ## Unix platform-specific build notes
 
-## AIX
-
-Matt Fago tells us that `--enable-shared=no` is required or the
-executables segfault after seemingly correct compiles.  (Bug #421)
-
-## Solaris
-
-Put `/usr/ccs/bin` in `$PATH`
-
-## HP-UX
-
-The X11 package must include `/usr/contrib/X11R6`
-as well as the base stuff.  For some reason GNU autoconf doesn't seem to find
-X11 in this location so you may need to add the following to the
-`./configure` line:
-
-```
---with-Xawincludedir=/usr/contrib/X11R6/include --with-Xawlibdir=/usr/contrib/X11R6/lib
-```
-
 ## Apple Mac OS/X
 
 Currently, Glen Low provides a full-featured [port of
@@ -225,3 +205,23 @@ And then it said it was done but when I went to run it it wouldn't start due to 
 And then it should work!
 
 By the way making by sneakily cd'ing into the macosx folder and using the makefile labeled with your OS *does not work*.
+
+## AIX
+
+Matt Fago tells us that `--enable-shared=no` is required or the
+executables segfault after seemingly correct compiles.  (Bug #421)
+
+## Solaris
+
+Put `/usr/ccs/bin` in `$PATH`
+
+## HP-UX
+
+The X11 package must include `/usr/contrib/X11R6`
+as well as the base stuff.  For some reason GNU autoconf doesn't seem to find
+X11 in this location so you may need to add the following to the
+`./configure` line:
+
+```
+--with-Xawincludedir=/usr/contrib/X11R6/include --with-Xawlibdir=/usr/contrib/X11R6/lib
+```
