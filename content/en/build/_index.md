@@ -208,11 +208,11 @@ Then you get your graphviz and you configure with `--with-smyrna`.  I used the f
 configure --with-smyrna --with-glutincludedir=/opt/local/var/macports/software/mesa/7.6.1_1+hw_render/opt/local/include --with-glutlibdir=/opt/local/var/macports/software/mesa/7.6.1_1+hw_render/opt/local/lib --prefix=/usr/local/share/graphviz
 ```
 
-(I use:
+I use:
+
 ```
 configure --with-smyrna --with-glutincludedir=/opt/local/include  --with-glutlibdir=/opt/local/lib
 ```
- - ed.)
 
 On the webs they say to use -framework commandline option to gcc; however I couldn't figure out how to make this work with the makefile and configure file for graphviz.
 
