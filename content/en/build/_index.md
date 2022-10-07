@@ -28,7 +28,7 @@ them. Run `configure --help` for details.
 
 On most Linux distributions these packages are already installed or
 installable from packages included in the distribution. You might need to
-install some -devel packages to get the include header files. Also, some of
+install some `-devel` packages to get the include header files. Also, some of
 these packages require other packages, so for sanity, you should use some
 automated install mechanism such as rpms or macports, or look for complete
 packages.
