@@ -1472,17 +1472,6 @@
 		</xsd:annotation>
 	</xsd:attribute>
 	
-	<xsd:attribute name="mosek" type="xsd:boolean">
-		<xsd:annotation>
-			<xsd:documentation>
-				<html:p>
-					If Graphviz is built with MOSEK defined, mode=ipsep and mosek=true, 
-					the Mosek software (www.mosek.com) is use to solve the ipsep constraints.
-				</html:p>
-			</xsd:documentation>
-		</xsd:annotation>
-	</xsd:attribute>
-	
 	<xsd:attribute name="nodesep" type="xsd:decimal">
 		<xsd:annotation>
 			<xsd:documentation>
