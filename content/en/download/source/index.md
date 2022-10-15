@@ -83,9 +83,11 @@ latest available version of these packages. If there is any problem with buildin
 against a latest version, please generate a bug report as we would very much like to
 know about it.
 
-*HINT*: If you are using an rpm-based system, by far the easiest way to determine all the
-build dependencies is to download the graphviz-xxx.src.rpm, run:  `rpmbuild --rebuild graphviz-xxx.src.rpm 2>t` , then edit `t` into a yum install command.
-
+*HINT*: If you are using a system that is covered by Graphviz’ continuous
+integration testing by far the easiest way to determine all the build
+dependencies is to browse the
+[ci/](https://gitlab.com/graphviz/graphviz/-/tree/main/ci) directory of the
+Graphviz Git repository.
 
 cairo-1.1.10.tar.gz [optional (required for libpangocairo), recommended]
 : [http://cairographics.org/](http://cairographics.org/)
