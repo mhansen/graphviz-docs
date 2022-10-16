@@ -64,7 +64,7 @@ You may find it useful to try one of the following third-party sites.
 
 ### Windows
 
-* Stable Windows install packages:
+* Stable Windows install packages, built with Microsoft Visual Studio 16 2019:
 
   {{< windows >}}
 
