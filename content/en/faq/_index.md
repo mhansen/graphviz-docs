@@ -306,7 +306,7 @@ For bitmap output, `image` is a file name containing a bitmap image. The file is
 
 This code is still preliminary, and we have noted some problems with color quantization in indexed color map management that we are trying to understand and correct. (You can use `-Gtruecolor=1` to try a 32 bit internal canvas as an alternative, but we have observed fuzziness (lossiness?) in the images.)
 
-When the software is used as a web server, access to image files is more restrictive. See GV_FILE_PATH and SERVER_NAME.
+When the software is used as a web server, access to image files is more restrictive. See SERVER_NAME.
 
 <a name="ext_ps_file"></a>**External PostScript files**
 

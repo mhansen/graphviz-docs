@@ -732,8 +732,8 @@ Attribute values must appear in double quotes.
 <span id="src">SRC="value"</span>
 : specifies the image file to be displayed in the cell.
   Note that if the software is used as a web server, file system access
-  to images is more restricted. See [GV\_FILE\_PATH]({{< ref "command.html#d:GV_FILE_PATH" >}})
-  and [SERVER_NAME]({{< ref "command.html#d:SERVER_NAME" >}}).
+  to images is more restricted. See
+  [SERVER_NAME]({{< ref "command.html#d:SERVER_NAME" >}}).
 
 <span id="style">STYLE</span>
 : specifies style characteristics of the table or cell. Style characteristics are
