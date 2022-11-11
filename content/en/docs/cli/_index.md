@@ -253,25 +253,7 @@ _Used only if Graphviz is not built with the `fontconfig` library_
 ### `SERVER_NAME` {id="d:SERVER_NAME"}
 
 If defined, this indicates that the software is running as a web application,
-which restricts access to image files. See 
-[GV\_FILE\_PATH](#GV_FILE_PATH).
-
-### `GV_FILE_PATH` {#GV_FILE_PATH}
-If [SERVER_NAME](#d:SERVER_NAME) is defined, image files are
-restricted to exist in one of the directories specified by `GV_FILE_PATH`.
-This last is a list of directory pathnames, separated by semicolons in Windows or
-by colons otherwise.
-Note that sometimes, when using one of the layout programs in a web
-script, it is not enough to use an export command but rather the
-variables should be set when the command is run, for example,
-
-```bash
-SERVER_NAME=xxx GV_FILE_PATH="images:etc/images:/usr/share/images" dot -Tpng -o x.png x.gv
-```
-
-Note that the image files must really reside in one of the specified directories. If the
-image file is specified as an absolute or relative pathname, a warning is given and only
-the base name is used.
+which restricts access to image files.
 
 ### `GVBINDIR` {id="d:GVBINDIR"}
 
