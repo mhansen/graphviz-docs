@@ -2,7 +2,8 @@
 defaults:
 - '""'
 flags: []
-minimums: []
+minimums:
+- "0"
 title: gradientangle
 types:
 - int
