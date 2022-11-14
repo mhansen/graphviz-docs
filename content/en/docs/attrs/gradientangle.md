@@ -1,6 +1,6 @@
 ---
 defaults:
-- '""'
+- "0"
 flags: []
 minimums:
 - "0"
