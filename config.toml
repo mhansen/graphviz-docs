@@ -65,6 +65,11 @@ weight = 1
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.extensions]
+      # Disable smart quotes throughout, until we can find a way to just
+      # disable them inside <code> blocks:
+      # https://gitlab.com/graphviz/graphviz.gitlab.io/-/issues/177
+      typographer = false
     [markup.goldmark.renderer]
       unsafe = true
   [markup.highlight]
