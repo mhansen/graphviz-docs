@@ -107,7 +107,7 @@ only been set in the root graph. With connected components, edges can
 be added with each component, before packing (as above) or after the
 components have been packed (see circo).
 
-It good to check for trivial cases where the graph has 0 or 1 nodes,
+It is good to check for trivial cases where the graph has 0 or 1 nodes,
 or no edges.
 
 At the end of `xxx_layout`, call
