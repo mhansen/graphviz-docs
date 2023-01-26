@@ -4,6 +4,7 @@ description: Vector Markup Language
 params:
 - vml
 - vmlz
+deprecated: true
 ---
 Produces [VML](http://www.w3.org/TR/NOTE-VML) output,
 the latter in compressed format.
