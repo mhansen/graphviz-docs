@@ -1,11 +1,12 @@
 ---
 title: VML
-description: Vector Markup Language
+description: Vector Markup Language.
 params:
 - vml
 - vmlz
-deprecated: true
 ---
+**Deprecated**: Removed from Graphviz on 2023-01-26.
+
 Produces [VML](http://www.w3.org/TR/NOTE-VML) output,
 the latter in compressed format.
 
