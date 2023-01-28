@@ -21,3 +21,5 @@ posting to the [Graphviz forum](https://forum.graphviz.org).
 
 [Emden Gansner](mailto:erg@alum.mit.edu) (for all graph layout issues)
 
+Donations are accepted on [patreon](https://patreon.com/graphviz) and managed by [Stephen North](mailto:north@graphviz.org)
+
