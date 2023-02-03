@@ -27,7 +27,7 @@ digraph {
 }
 ```
 
-`nop -p` produces no input, just checks the input for valid DOT language.
+`nop -p` produces no output, just checks the input for valid DOT language.
 
 For example, this valid graph produces no output:
 
