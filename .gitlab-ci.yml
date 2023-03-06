@@ -24,18 +24,15 @@ html5validator:
   script:
     - tests/html_validate_test
 
-hyperlink-check:
-  # The hyperlink binary is dynamically linked against libc, so we can't use
-  # Alpine (which uses musl).
-  image: debian:bullseye-20220125
+hyperlinkcheck:
+  image:
+    name: ghcr.io/untitaker/hyperlink:0.1.27
+    # Not totally sure why, but the default entrypoint of "hyperlink" gives errors like
+    # "error: Found argument '-c' which wasn't expected, or isn't valid in this context"
+    # Instead, unset the entrypoint, and call hyperlink ourselves below.
+    entrypoint: [""]
   stage: test
-  script:
-    # Manually download the binary, until a docker image is offered:
-    # https://github.com/untitaker/hyperlink/issues/113
-    - apt update && apt install -y curl
-    - curl -L -o hyperlink https://github.com/untitaker/hyperlink/releases/download/0.1.20/hyperlink-linux-x86_64
-    - chmod +x hyperlink
-    - ./hyperlink --sources content/en --check-anchors public/
+  script: "hyperlink --sources content/en --check-anchors public/"
 
 # 'pages' is a specially-named job that will deploy and build your site to the
 # 'public' path to GitLab Pages.
