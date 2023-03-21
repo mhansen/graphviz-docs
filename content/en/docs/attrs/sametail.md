@@ -14,7 +14,7 @@ same point on the tail.
 
 This has no effect on loops.
 
-Each node can have at most 5 unique `sametail` values.
+Prior to Graphviz 8.0.1, each node can have at most 5 unique `sametail` values.
 
 See [limitation]({{< ref "_index.md#undir_note" >}}).
 

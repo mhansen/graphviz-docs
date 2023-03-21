@@ -13,7 +13,7 @@ description: Edges with the same head and the same `samehead` value are aimed at
 
 This has no effect on loops.
 
-Each node can have at most 5 unique samehead values.
+Prior to Graphviz 8.0.1, each node can have at most 5 unique samehead values.
 
 See [limitation]({{< ref "_index.md#undir_note" >}}).
 
