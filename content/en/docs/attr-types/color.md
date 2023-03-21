@@ -17,6 +17,10 @@ Colors can be specified using one of four formats:
     <TD>Hue-Saturation-Value (HSV) 0.0 &lt;= H,S,V &lt;= 1.0</TD>
   </TR>
   <TR>
+    <TD><CODE>"H[,&#160;]+S[,&#160;]+V[,&#160;]A"</CODE></TD>
+    <TD>Hue-Saturation-Value-Alpha (HSVA) 0.0 &lt;= H,S,V,A &lt;= 1.0</TD>
+  </TR>
+  <TR>
     <TD>string</TD>
     <TD><A HREF="{{< ref "../colors.md" >}}">color name</A></TD>
   </TR>
@@ -25,8 +29,8 @@ Colors can be specified using one of four formats:
 The specification for the RGB and RGBA formats are the format strings used by
 `sscanf` to scan the color value. Thus, these values have the form "#RGB" or
 "#RGBA", where R, G, B, and A each consist of 2 hexadecimal digits, and can
-be separated by whitespace. HSV colors have the form of 3 numbers between 0
-and 1, separated by whitespace or commas.
+be separated by whitespace. HSV colors have the form of 3 or (as of Graphviz
+8.0.1) 4 numbers between 0 and 1, separated by whitespace or commas.
 
 String-valued color specifications are case-insensitive and interpreted in
 the context of the current color scheme, as specified by the
