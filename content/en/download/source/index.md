@@ -107,7 +107,7 @@ fontconfig-2.3.95.tar.gz [optional (required for libpangocairo and for gd), reco
 urw-fonts.tar.gz [optional, required if fontconfig is unable to find any fonts]
 : [ftp://ftp.gimp.org/pub/gimp/fonts](ftp://ftp.gimp.org/pub/gimp/fonts/)
 
-glib-2.11.1.tar.gz [optional (required for libpangocairo), recommended]
+glib-2.36.0.tar.xz [optional (required for libpangocairo), recommended]
 : [https://wiki.gnome.org/Projects/GLib](https://wiki.gnome.org/Projects/GLib)
 
 libpng-1.2.10.tar.gz [optional (required for cairo, optional for gd), recommended]
