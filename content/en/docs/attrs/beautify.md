@@ -13,7 +13,9 @@ description: Whether to draw leaf nodes uniformly in a circle around the root no
 Whether to try to draw leaf nodes uniformly on a circle
 around the root node.
 
-Note this is affected by [Issue 2283](https://gitlab.com/graphviz/graphviz/-/issues/2283): rendering one fewer sector than necessary, overlapping the first and last nodes.
+Prior to Graphviz 8.0.1, this is affected by
+[Issue 2283](https://gitlab.com/graphviz/graphviz/-/issues/2283): rendering one
+fewer sector than necessary, overlapping the first and last nodes.
 
 Examples:
 
